@@ -1,0 +1,164 @@
+{
+  "boundary": "The words 'spinorial' and 'binary octahedral' are representation-theoretic: central -I acts as -1 on the 4D irrep and the group is the double cover of S4. This does not identify these 12 modes with physical fermions, spacetime spinors, or measured particle species. The ADE/McKay E7 association is classical external context, not a derived E7 gauge theory.",
+  "center3": {
+    "central_minus_I_eigenvalue": "+1 on all three dimensions",
+    "character": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      1,
+      1,
+      1
+    ],
+    "decomposition": {
+      "det": 1,
+      "quotient_2d": 0,
+      "spin_2a": 0,
+      "spin_2b": 0,
+      "spin_4": 0,
+      "standard3": 0,
+      "standard3_twist": 0,
+      "trivial": 2
+    }
+  },
+  "central_minus_I": {
+    "minus_character": [
+      12,
+      -3,
+      -12,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "minus_decomposition": {
+      "det": 0,
+      "quotient_2d": 0,
+      "spin_2a": 0,
+      "spin_2b": 0,
+      "spin_4": 3,
+      "standard3": 0,
+      "standard3_twist": 0,
+      "trivial": 0
+    },
+    "minus_dimension": 12,
+    "per_clock_fibre_plus_minus": [
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "plus_character": [
+      12,
+      3,
+      12,
+      3,
+      0,
+      0,
+      0,
+      2
+    ],
+    "plus_decomposition": {
+      "det": 1,
+      "quotient_2d": 0,
+      "spin_2a": 0,
+      "spin_2b": 0,
+      "spin_4": 0,
+      "standard3": 2,
+      "standard3_twist": 1,
+      "trivial": 2
+    },
+    "plus_dimension": 12,
+    "projected_orbit_ranks": {
+      "augmentation_minus": 12,
+      "augmentation_plus": 12,
+      "indicator_minus": 12,
+      "indicator_plus": 12
+    }
+  },
+  "character_24": [
+    24,
+    0,
+    0,
+    6,
+    0,
+    0,
+    0,
+    2
+  ],
+  "checks": {
+    "GL23_order48": true,
+    "P1_standard_character_identified": true,
+    "augmentation_generates_both_12s": true,
+    "center3_is_two_trivial_plus_det": true,
+    "central_split_12_12": true,
+    "character_table_orthonormal": true,
+    "chi24_exact": true,
+    "clock_indicators_generate_both_12s": true,
+    "eight_conjugacy_classes": true,
+    "four_fibres_split_3_3": true,
+    "minus_is_three_spin4": true,
+    "no_spin2_in_24": true
+  },
+  "decomposition_24": {
+    "det": 1,
+    "quotient_2d": 0,
+    "spin_2a": 0,
+    "spin_2b": 0,
+    "spin_4": 3,
+    "standard3": 2,
+    "standard3_twist": 1,
+    "trivial": 2
+  },
+  "group": {
+    "character_table_source_check": "independently matched against GAP CharacterTable(GL(2,3))",
+    "class_orders": [
+      1,
+      6,
+      2,
+      3,
+      4,
+      8,
+      8,
+      2
+    ],
+    "class_sizes": [
+      1,
+      8,
+      1,
+      8,
+      6,
+      6,
+      6,
+      12
+    ],
+    "external_identification": "classically isomorphic to the binary octahedral double cover 2.S4",
+    "name": "GL2(3)",
+    "order": 48,
+    "projective_quotient": "PGL2(3) ~= S4"
+  },
+  "headline": "The minimal 24D signed clock carrier decomposes under GL2(3) as 2*1 + det + (3std x det) + 2*3std + 3*4spin. The central -I splits it canonically into a 12D S4-descending sector and a 12D sector consisting exactly of three copies of the faithful 4D spinorial irrep.",
+  "representation_reading": {
+    "S4_descending_12": "2*trivial + det + standard3_twist + 2*standard3",
+    "clock_seed": "the three coarse augmentation generators have nonzero projections whose exact group orbits span both 12D sectors",
+    "fibre_law": "each six-coordinate projective clock direction resolves as 3+3 under the central double-cover involution",
+    "spinorial_12": "3*spin_4"
+  },
+  "schema": "w33.pass11022.binary-octahedral-clock-decomposition.v1",
+  "status": "PASS"
+}
