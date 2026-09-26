@@ -1,0 +1,28 @@
+name: W33 Pass 10979 Z3xZ3 parity vacua F-obstruction
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass10979_z3xz3_parity_vacua_f_obstruction.py"
+      - "analysis/PASS10979_Z3XZ3_PARITY_VACUA_F_OBSTRUCTION.md"
+      - "analysis/PASS10979_Z3XZ3_PARITY_VACUA_F_OBSTRUCTION_INSERT.tex"
+      - "data/w33_pass10979_z3xz3_parity_vacua_f_obstruction.json"
+      - "data/w33_pass10979_z3xz3_ledger.json.gz"
+      - "tests/test_w33_pass10979_z3xz3_parity_vacua_f_obstruction.py"
+      - ".github/workflows/w33_pass10979_z3xz3_parity_vacua_f_obstruction.yml"
+  pull_request:
+    paths:
+      - "analysis/w33_pass10979_z3xz3_parity_vacua_f_obstruction.py"
+      - "tests/test_w33_pass10979_z3xz3_parity_vacua_f_obstruction.py"
+
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest pycddlib
+      - run: python analysis/w33_pass10979_z3xz3_parity_vacua_f_obstruction.py
+      - run: python -m pytest -q tests/test_w33_pass10979_z3xz3_parity_vacua_f_obstruction.py
