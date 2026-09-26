@@ -1,0 +1,178 @@
+{
+  "affine_dimension_vector": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    4
+  ],
+  "boundary": "This is an identity in the complex representation ring of the finite group GL2(3). Affine E7 here is the classical McKay graph, not an E7 Lie-algebra field content, gauge symmetry, interaction Lagrangian, or continuum unification result.",
+  "checks": {
+    "clock_tensor_spin2a_saturates_nonlinear": true,
+    "clock_tensor_spin2b_saturates_nonlinear": true,
+    "dimension_vector_is_affine_null_mark": true,
+    "finite_E7_branch_at_spin4": true,
+    "green_identity": true,
+    "minus_tensors_to_all_even_nonlinear_nodes": true,
+    "plus_tensors_to_all_odd_nodes": true,
+    "spin2a_graph_tree_8_nodes_7_edges": true,
+    "spin2b_graph_tree_8_nodes_7_edges": true
+  },
+  "clock_multiplicity_vector": [
+    2,
+    1,
+    0,
+    0,
+    0,
+    1,
+    2,
+    3
+  ],
+  "exact_identities": {
+    "adjacency_vector": "A*m = 3*n_nonlin",
+    "affine_mark": "A*d = 2*d",
+    "full": "S tensor V24 = 3*(quotient_2d + spin_2a + spin_2b + standard3_twist + standard3 + spin_4)",
+    "minus": "S tensor Vminus = 3*(quotient_2d + standard3_twist + standard3)",
+    "plus": "S tensor Vplus = 3*(spin_2a + spin_2b + spin_4)",
+    "second_order": "A*(A+I)*m = 3*d"
+  },
+  "headline": "The binary-octahedral McKay graph reconstructed from the exact GL2(3) character table is affine E7. For either faithful 2D spinor S, the actual 24D signed clock carrier obeys S tensor V24 = 3 times the direct sum of every nonlinear irrep.",
+  "interpretation": "Tensoring by a defining binary-octahedral spinor flips central parity. The clock carrier is balanced so that each 12D parity half maps to three uniform copies of all three nontrivial nodes on the opposite McKay bipartition.",
+  "nodes": [
+    {
+      "clock_multiplicity": 2,
+      "dimension": 1,
+      "minus_multiplicity": 0,
+      "name": "trivial",
+      "plus_multiplicity": 2
+    },
+    {
+      "clock_multiplicity": 1,
+      "dimension": 1,
+      "minus_multiplicity": 0,
+      "name": "det",
+      "plus_multiplicity": 1
+    },
+    {
+      "clock_multiplicity": 0,
+      "dimension": 2,
+      "minus_multiplicity": 0,
+      "name": "quotient_2d",
+      "plus_multiplicity": 0
+    },
+    {
+      "clock_multiplicity": 0,
+      "dimension": 2,
+      "minus_multiplicity": 0,
+      "name": "spin_2a",
+      "plus_multiplicity": 0
+    },
+    {
+      "clock_multiplicity": 0,
+      "dimension": 2,
+      "minus_multiplicity": 0,
+      "name": "spin_2b",
+      "plus_multiplicity": 0
+    },
+    {
+      "clock_multiplicity": 1,
+      "dimension": 3,
+      "minus_multiplicity": 0,
+      "name": "standard3_twist",
+      "plus_multiplicity": 1
+    },
+    {
+      "clock_multiplicity": 2,
+      "dimension": 3,
+      "minus_multiplicity": 0,
+      "name": "standard3",
+      "plus_multiplicity": 2
+    },
+    {
+      "clock_multiplicity": 3,
+      "dimension": 4,
+      "minus_multiplicity": 3,
+      "name": "spin_4",
+      "plus_multiplicity": 0
+    }
+  ],
+  "schema": "w33.pass11023.mckay-e7-clock-saturation.v1",
+  "spin2a_mckay_edges": [
+    [
+      "trivial",
+      "spin_2a",
+      1
+    ],
+    [
+      "det",
+      "spin_2b",
+      1
+    ],
+    [
+      "quotient_2d",
+      "spin_4",
+      1
+    ],
+    [
+      "spin_2a",
+      "standard3_twist",
+      1
+    ],
+    [
+      "spin_2b",
+      "standard3",
+      1
+    ],
+    [
+      "standard3_twist",
+      "spin_4",
+      1
+    ],
+    [
+      "standard3",
+      "spin_4",
+      1
+    ]
+  ],
+  "spin2b_mckay_edges": [
+    [
+      "trivial",
+      "spin_2b",
+      1
+    ],
+    [
+      "det",
+      "spin_2a",
+      1
+    ],
+    [
+      "quotient_2d",
+      "spin_4",
+      1
+    ],
+    [
+      "spin_2a",
+      "standard3",
+      1
+    ],
+    [
+      "spin_2b",
+      "standard3_twist",
+      1
+    ],
+    [
+      "standard3_twist",
+      "spin_4",
+      1
+    ],
+    [
+      "standard3",
+      "spin_4",
+      1
+    ]
+  ],
+  "status": "PASS"
+}
