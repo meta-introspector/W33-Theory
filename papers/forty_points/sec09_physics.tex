@@ -7,6 +7,18 @@ carry? We give the answer at three levels --- what the finite geometry itself co
 what a string compactification built on it produces, and what is still missing --- and we
 end with a scorecard.
 
+\begin{keyidea}
+\textbf{The string route, completed.} Seven families of heterotic orbifolds carry the forty-point twist
+($\Z_6$-I, $\Z_6$-II, $\Z_{12}$-I, $\Z_2\times\Z_6$-I, $\Z_2\times\Z_6$-II, $\Z_3\times\Z_6$, $\Z_6\times\Z_6$). They
+produce $548$ inequivalent three-generation Standard Models. On the selection rules the string's own
+worldsheet establishes, not one has a supersymmetric vacuum that keeps a matter parity, and every escape
+we could find --- other discrete symmetries, rotations of the hidden dimensions, heavy superpartners,
+flavour suppression --- fails for a stated, computed reason. The mechanism is always the same: the one
+field that can cancel the anomalous $U(1)$'s Fayet--Iliopoulos term has the quantum numbers of a
+right-handed sneutrino, and its vacuum value switches on the couplings that make the proton decay. The
+forty points host the Standard Model; this route does not make it a stable universe.
+\end{keyidea}
+
 \begin{figure}[htbp]
 \centering
 \begin{tikzpicture}[
@@ -22,8 +34,8 @@ end with a scorecard.
   \entry{4}{Three generations}{sky}{HOSTED}
   \entry{5}{One chiral generation as a spinor ($16$ of $\mathrm{Spin}(1,9)$)}{teal}{EXACT}
   \entry{6}{Which chirality: exchanged only by antiunitary (CPT-type) symmetries}{rose}{NO-GO}
-  \entry{7}{Matter parity in a supersymmetric singlet vacuum (heterotic class)}{rose}{EXCLUDED}
-  \entry{8}{A supersymmetric, realistic vacuum (nonabelian directions)}{gold}{NOT YET}
+  \entry{7}{Matter parity in a supersymmetric vacuum (seven orbifold families)}{rose}{EXCLUDED}
+  \entry{8}{A realistic vacuum of the heterotic orbifold route}{rose}{CLOSED}
   \entry{9}{Masses, mixing angles, coupling constants}{slate}{OPEN}
   \entry{10}{Gravity, a dynamical space-time, the cosmological constant}{slate}{OPEN}
 \end{tikzpicture}
@@ -293,7 +305,7 @@ number is how many models or vacua pass it, and the tag names the computation th
   \node[band=sky,minimum width=3.6cm] (z1) at (6.4,-4.75) {Standard Models \quad \textbf{289}};
   \node[band=sky,minimum width=3.0cm] (z2) at (6.4,-5.6) {viable parity \quad \textbf{32}};
   \node[band=sky,minimum width=2.6cm] (z3) at (6.4,-6.45) {with a vacuum \quad \textbf{14}};
-  \node[band=rose,text width=2.9cm,align=center] (z4) at (6.4,-7.35) {exotics massive: \textbf{0} of 5 decided\ (9 await an $R$-rule)};
+  \node[band=rose,text width=2.9cm,align=center] (z4) at (6.4,-7.35) {viable vacuum: \textbf{0} of 14\\ (all decided, P10978)};
   \foreach \u/\v in {z1/z2,z2/z3,z3/z4} \draw[->,ink!50,line width=0.7pt] (\u) -- (\v);
   % Z2 x Z6 column
   \node[font=\sffamily\bfseries\small,text=ink] at (0,-6.55) {$\Z_2\times\Z_6$-I orbifolds};
@@ -601,7 +613,14 @@ separately adding the corrected order-six charge, the model closes: all $304$ Fa
 cancelling directions break the parity. The whole $\Z_6$-II class is then excluded, $0$ of $128$, and
 three further orbifold families built on the same twist, $\Z_2\times\Z_6$ ($29$ Standard Models),
 $\Z_3\times\Z_6$ ($5$) and $\Z_6\times\Z_6$ ($10$), have no surviving parity either, and $\Z_2\times\Z_6$-II
-produces no Standard Model at all. The apparent opening was an artefact of an
+produces no Standard Model at all. For $\Z_{12}$-I, whose lattice is not a product of planes, the admissible rule
+follows from the symmetries of the $E_6$ lattice itself: the only rotation commuting with the twist beyond the
+twist's own powers is a half-turn of one plane, and with it every one of the $14$ candidate vacua is decided ---
+eleven keep exotic triplets massless, and the most promising one, which does protect a single Higgs pair, has a
+singlet entering its superpotential linearly at fourth order whose absorption destroys that protection. A final
+escape --- that flavour structure might make the regenerated couplings tiny for the first generation, where the
+proton is sensitive --- fails as well: the first-generation couplings stay at $10^{-3}$--$10^{-1}$, far above the
+$10^{-10}$ the proton would need. The apparent opening was an artefact of an
 incomplete selection rule; it was caught by reading the literature on the rules themselves, not by
 the computation. \tierC\ (\cert{w33\_pass10974\_valid\_r\_rules\_close\_the\_rotation\_door.py};
 the conditional analysis is \cert{w33\_pass10968\_r\_symmetry\_parity\_and\_massless\_exotics.py})

@@ -1,0 +1,970 @@
+{
+ "A": {
+  "W_order": 51840,
+  "centralizer_is_cyclic_c": true,
+  "centralizer_order": 12,
+  "coxeter_order": 12,
+  "eigenphases_c": [
+   1,
+   4,
+   5,
+   7,
+   8,
+   11
+  ],
+  "eigenvalues_minus_c6": [
+   -1.0,
+   -1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "minus_one_in_W": false
+ },
+ "B": {
+  "models": {
+   "Z12-I|Z12I_0099__SM_20260926_17": {
+    "exotic_d_ilp": {
+     "weak": [
+      1,
+      3
+     ],
+     "z2": [
+      1,
+      3
+     ]
+    },
+    "exotic_d_lattice": {
+     "weak": [
+      3,
+      3
+     ],
+     "z2": [
+      3,
+      3
+     ]
+    },
+    "higgs_ilp": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "higgs_lattice": {
+     "weak": [
+      3,
+      3
+     ],
+     "z2": [
+      3,
+      3
+     ]
+    },
+    "higgs_numeric": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "support": [
+     "n_38",
+     "n_40",
+     "n_41",
+     "n_42",
+     "n_47"
+    ],
+    "verdict": "dead: exotic d massless at all orders even with the weakest rules"
+   },
+   "Z12-I|Z12I_0394__SM_20260926_852": {
+    "exotic_d_ilp": {
+     "weak": [
+      2,
+      2
+     ],
+     "z2": [
+      2,
+      2
+     ]
+    },
+    "exotic_d_lattice": {
+     "weak": [
+      2,
+      2
+     ],
+     "z2": [
+      2,
+      2
+     ]
+    },
+    "higgs_ilp": {
+     "weak": [
+      4,
+      4
+     ],
+     "z2": [
+      4,
+      4
+     ]
+    },
+    "higgs_lattice": {
+     "weak": [
+      4,
+      4
+     ],
+     "z2": [
+      4,
+      4
+     ]
+    },
+    "higgs_numeric": {
+     "weak": [
+      4,
+      4
+     ],
+     "z2": [
+      4,
+      4
+     ]
+    },
+    "support": [
+     "n_1",
+     "n_47",
+     "n_48",
+     "n_56"
+    ],
+    "verdict": "dead: no light Higgs pair even with the strongest admissible rules (mu-problem)"
+   },
+   "Z12-I|Z12I_0680__SM_20260926_310": {
+    "exotic_d_ilp": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "exotic_d_lattice": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "higgs_ilp": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "higgs_lattice": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "higgs_numeric": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "support": [
+     "n_4",
+     "n_29",
+     "n_56"
+    ],
+    "verdict": "dead: exotic d massless at all orders even with the weakest rules"
+   },
+   "Z12-I|Z12I_0688__SM_20260926_600": {
+    "exotic_d_ilp": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "exotic_d_lattice": {
+     "weak": [
+      2,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "higgs_ilp": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "higgs_lattice": {
+     "weak": [
+      3,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "higgs_numeric": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "support": [
+     "n_3",
+     "n_15",
+     "n_16",
+     "n_17"
+    ],
+    "verdict": "dead: exotic d massless at all orders even with the weakest rules"
+   },
+   "Z12-I|Z12I_0738__SM_20260926_898": {
+    "exotic_d_ilp": {
+     "weak": [
+      2,
+      4
+     ],
+     "z2": [
+      1,
+      4
+     ]
+    },
+    "exotic_d_lattice": {
+     "weak": [
+      2,
+      4
+     ],
+     "z2": [
+      1,
+      4
+     ]
+    },
+    "higgs_ilp": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "higgs_lattice": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "higgs_numeric": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "support": [
+     "n_1",
+     "n_14",
+     "n_45"
+    ],
+    "verdict": "dead: exotic d massless at all orders even with the weakest rules"
+   },
+   "Z12-I|Z12I_0964__SM_20260926_264": {
+    "exotic_d_ilp": {
+     "weak": [
+      0,
+      2
+     ],
+     "z2": [
+      0,
+      2
+     ]
+    },
+    "exotic_d_lattice": {
+     "weak": [
+      2,
+      2
+     ],
+     "z2": [
+      0,
+      2
+     ]
+    },
+    "higgs_ilp": {
+     "weak": [
+      2,
+      5
+     ],
+     "z2": [
+      1,
+      5
+     ]
+    },
+    "higgs_lattice": {
+     "weak": [
+      5,
+      5
+     ],
+     "z2": [
+      1,
+      5
+     ]
+    },
+    "higgs_numeric": {
+     "weak": [
+      2,
+      5
+     ],
+     "z2": [
+      1,
+      5
+     ]
+    },
+    "support": [
+     "n_2",
+     "n_5",
+     "n_35",
+     "n_40"
+    ],
+    "verdict": "dead: exotic d massless at all orders even with the weakest rules"
+   },
+   "Z12-I|Z12I_0966__SM_20260926_75": {
+    "exotic_d_ilp": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "exotic_d_lattice": {
+     "weak": [
+      1,
+      3
+     ],
+     "z2": [
+      1,
+      3
+     ]
+    },
+    "higgs_ilp": {
+     "weak": [
+      0,
+      4
+     ],
+     "z2": [
+      0,
+      4
+     ]
+    },
+    "higgs_lattice": {
+     "weak": [
+      0,
+      4
+     ],
+     "z2": [
+      0,
+      4
+     ]
+    },
+    "higgs_numeric": {
+     "weak": [
+      0,
+      4
+     ],
+     "z2": [
+      0,
+      4
+     ]
+    },
+    "support": [
+     "n_18",
+     "n_46",
+     "n_54"
+    ],
+    "verdict": "dead: exotic d massless at all orders even with the weakest rules"
+   },
+   "Z12-I|Z12I_0976__SM_20260926_182": {
+    "exotic_d_ilp": {
+     "weak": [
+      1,
+      3
+     ],
+     "z2": [
+      1,
+      3
+     ]
+    },
+    "exotic_d_lattice": {
+     "weak": [
+      3,
+      3
+     ],
+     "z2": [
+      3,
+      3
+     ]
+    },
+    "higgs_ilp": {
+     "weak": [
+      1,
+      4
+     ],
+     "z2": [
+      1,
+      4
+     ]
+    },
+    "higgs_lattice": {
+     "weak": [
+      4,
+      4
+     ],
+     "z2": [
+      3,
+      4
+     ]
+    },
+    "higgs_numeric": {
+     "weak": [
+      1,
+      4
+     ],
+     "z2": [
+      1,
+      4
+     ]
+    },
+    "support": [
+     "n_1",
+     "n_4",
+     "n_20",
+     "n_46",
+     "n_60"
+    ],
+    "verdict": "dead: exotic d massless at all orders even with the weakest rules"
+   },
+   "Z12-I|Z12I_1033__SM_20260926_477": {
+    "exotic_d_ilp": {
+     "weak": [
+      3,
+      3
+     ],
+     "z2": [
+      2,
+      3
+     ]
+    },
+    "exotic_d_lattice": {
+     "weak": [
+      3,
+      3
+     ],
+     "z2": [
+      2,
+      3
+     ]
+    },
+    "higgs_ilp": {
+     "weak": [
+      3,
+      3
+     ],
+     "z2": [
+      2,
+      3
+     ]
+    },
+    "higgs_lattice": {
+     "weak": [
+      3,
+      3
+     ],
+     "z2": [
+      2,
+      3
+     ]
+    },
+    "higgs_numeric": {
+     "weak": [
+      3,
+      3
+     ],
+     "z2": [
+      2,
+      3
+     ]
+    },
+    "support": [
+     "n_1",
+     "n_9",
+     "n_20",
+     "n_39",
+     "n_43"
+    ],
+    "verdict": "dead at both ends: weak rules -> no light Higgs; Z2^R -> massless exotic d"
+   },
+   "Z12-I|Z12I_1035__SM_20260926_315": {
+    "exotic_d_ilp": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "exotic_d_lattice": {
+     "weak": [
+      2,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "higgs_ilp": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "higgs_lattice": {
+     "weak": [
+      3,
+      3
+     ],
+     "z2": [
+      1,
+      3
+     ]
+    },
+    "higgs_numeric": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "support": [
+     "n_1",
+     "n_9",
+     "n_41",
+     "n_49"
+    ],
+    "verdict": "dead: exotic d massless at all orders even with the weakest rules"
+   },
+   "Z12-I|Z12I_1063__SM_20260926_303": {
+    "exotic_d_ilp": {
+     "weak": [
+      4,
+      4
+     ],
+     "z2": [
+      4,
+      4
+     ]
+    },
+    "exotic_d_lattice": {
+     "weak": [
+      4,
+      4
+     ],
+     "z2": [
+      4,
+      4
+     ]
+    },
+    "higgs_ilp": {
+     "weak": [
+      4,
+      4
+     ],
+     "z2": [
+      3,
+      4
+     ]
+    },
+    "higgs_lattice": {
+     "weak": [
+      4,
+      4
+     ],
+     "z2": [
+      3,
+      4
+     ]
+    },
+    "higgs_numeric": {
+     "weak": [
+      4,
+      4
+     ],
+     "z2": [
+      3,
+      4
+     ]
+    },
+    "support": [
+     "n_1",
+     "n_4",
+     "n_12",
+     "n_34",
+     "n_44"
+    ],
+    "verdict": "candidate under Z2^R: exotics massive, exactly one light Higgs pair"
+   },
+   "Z12-I|Z12I_1116__SM_20260926_367": {
+    "exotic_d_ilp": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "exotic_d_lattice": {
+     "weak": [
+      2,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "higgs_ilp": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "higgs_lattice": {
+     "weak": [
+      3,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "higgs_numeric": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "support": [
+     "n_3",
+     "n_17",
+     "n_28",
+     "n_29"
+    ],
+    "verdict": "dead: exotic d massless at all orders even with the weakest rules"
+   },
+   "Z12-I|Z12I_1149__SM_20260926_950": {
+    "exotic_d_ilp": {
+     "weak": [
+      0,
+      1
+     ],
+     "z2": [
+      0,
+      1
+     ]
+    },
+    "exotic_d_lattice": {
+     "weak": [
+      0,
+      1
+     ],
+     "z2": [
+      0,
+      1
+     ]
+    },
+    "higgs_ilp": {
+     "weak": [
+      2,
+      3
+     ],
+     "z2": [
+      2,
+      3
+     ]
+    },
+    "higgs_lattice": {
+     "weak": [
+      3,
+      3
+     ],
+     "z2": [
+      3,
+      3
+     ]
+    },
+    "higgs_numeric": {
+     "weak": [
+      2,
+      3
+     ],
+     "z2": [
+      2,
+      3
+     ]
+    },
+    "support": [
+     "n_4",
+     "n_7",
+     "n_38",
+     "n_39",
+     "n_43",
+     "n_44"
+    ],
+    "verdict": "dead: exotic d massless at all orders even with the weakest rules"
+   },
+   "Z12-I|Z12I_1151__SM_20260926_659": {
+    "exotic_d_ilp": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "exotic_d_lattice": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "higgs_ilp": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "higgs_lattice": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "higgs_numeric": {
+     "weak": [
+      0,
+      3
+     ],
+     "z2": [
+      0,
+      3
+     ]
+    },
+    "support": [
+     "n_1",
+     "n_16",
+     "n_57",
+     "n_61",
+     "n_68",
+     "n_70"
+    ],
+    "verdict": "dead: exotic d massless at all orders even with the weakest rules"
+   }
+  },
+  "summary": {
+   "candidate under Z2^R": 1,
+   "dead": 12,
+   "dead at both ends": 1
+  }
+ },
+ "C": {
+  "W_S_possible": false,
+  "exotic_d_lattice": [
+   4,
+   4
+  ],
+  "higgs_lattice": [
+   3,
+   4
+  ],
+  "linear_terms": [
+   [
+    4,
+    "n_36"
+   ],
+   [
+    7,
+    "n_17"
+   ],
+   [
+    7,
+    "n_28"
+   ],
+   [
+    7,
+    "n_31"
+   ],
+   [
+    11,
+    "n_35"
+   ]
+  ],
+  "single_absorptions": {
+   "n_17": {
+    "exotic_d_lattice": [
+     4,
+     4
+    ],
+    "higgs_lattice": [
+     4,
+     4
+    ],
+    "order": 7
+   },
+   "n_28": {
+    "exotic_d_lattice": [
+     4,
+     4
+    ],
+    "higgs_lattice": [
+     4,
+     4
+    ],
+    "order": 7
+   },
+   "n_31": {
+    "exotic_d_lattice": [
+     4,
+     4
+    ],
+    "higgs_lattice": [
+     4,
+     4
+    ],
+    "order": 7
+   },
+   "n_35": {
+    "exotic_d_lattice": [
+     4,
+     4
+    ],
+    "higgs_lattice": [
+     4,
+     4
+    ],
+    "order": 11
+   },
+   "n_36": {
+    "exotic_d_lattice": [
+     4,
+     4
+    ],
+    "higgs_lattice": [
+     4,
+     4
+    ],
+    "order": 4
+   }
+  }
+ },
+ "D": {
+  "gamma_corrected": {
+   "order3": 0,
+   "order4": 0
+  },
+  "orbifolder": {
+   "order3": 0,
+   "order4": 0
+  },
+  "prime_planes": {
+   "order3": 0,
+   "order4": 0
+  }
+ },
+ "pass_id": 10978
+}

@@ -1,0 +1,27 @@
+name: W33 Pass 10980 RPV flavour upper bound
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass10980_rpv_flavour_upper_bound.py"
+      - "analysis/PASS10980_RPV_FLAVOUR_UPPER_BOUND.md"
+      - "analysis/PASS10980_RPV_FLAVOUR_UPPER_BOUND_INSERT.tex"
+      - "data/w33_pass10980_rpv_flavour_upper_bound.json"
+      - "tests/test_w33_pass10980_rpv_flavour_upper_bound.py"
+      - ".github/workflows/w33_pass10980_rpv_flavour_upper_bound.yml"
+  pull_request:
+    paths:
+      - "analysis/w33_pass10980_rpv_flavour_upper_bound.py"
+      - "tests/test_w33_pass10980_rpv_flavour_upper_bound.py"
+
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest pycddlib
+      - run: python analysis/w33_pass10980_rpv_flavour_upper_bound.py
+      - run: python -m pytest -q tests/test_w33_pass10980_rpv_flavour_upper_bound.py
