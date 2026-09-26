@@ -1,0 +1,151 @@
+{
+  "boundary": "This is a finite monomial-symmetry theorem. It does not derive a Hamiltonian that performs group averaging, an energy scale, a continuum field, or a physical vacuum. The split section is an explicit witness, not asserted to be unique or dynamically preferred.",
+  "checks": {
+    "full_signed_extension_order3072": true,
+    "generator_orders_preserved": true,
+    "kernel_normal_under_support": true,
+    "minusI_has_64_repairs": true,
+    "minusI_no_fibrewise_constant_repair": true,
+    "parent_64_repairs": true,
+    "sign_kernel_dimension6": true,
+    "sign_kernel_order64": true,
+    "split_pair_found": true,
+    "split_projection_bijective": true,
+    "split_section_only_identity_preserves_fibre_constant_module": true,
+    "split_section_preserves_signed_cubic": true,
+    "support_GL23_order48": true,
+    "two_support_generators_generate48": true
+  },
+  "clock_reduction_firewall": {
+    "central_support_element": "-I in GL2(3)",
+    "conclusion": "The exact signed GL2(3) symmetry acts on the full 27-coordinate cubic carrier but does not descend to the naive four-dimensional fibre-constant clock field. Every lift of central -I introduces nonconstant signs inside at least one six-point fibre.",
+    "fibrewise_constant_signed_repairs": 0,
+    "projective_action_on_four_clock_labels": "trivial",
+    "signed_repairs_checked": 64,
+    "split_section_elements_preserving_fibre_constant_module": 1,
+    "split_section_minusI_order": 2
+  },
+  "explicit_split_witness": {
+    "closure_size_histogram_before_first_split": {
+      "401": 3,
+      "48": 1,
+      "96": 1
+    },
+    "lift_generator_orders": [
+      3,
+      2
+    ],
+    "lift_generator_sign_vectors": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "lift_pairs_tested_before_first_split": 5,
+    "section_sign_weight_histogram": {
+      "0": 1,
+      "10": 8,
+      "12": 16,
+      "14": 8,
+      "16": 1,
+      "6": 4,
+      "8": 10
+    },
+    "support_generator_matrices_mod3": [
+      [
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        2,
+        0
+      ]
+    ],
+    "support_generator_orders": [
+      3,
+      2
+    ]
+  },
+  "extension": {
+    "exact_sequence": "1 -> (C2)^6 -> E_3072 -> GL2(3) -> 1",
+    "full_monomial_extension_order": 3072,
+    "sign_kernel": "(C2)^6",
+    "sign_kernel_dimension": 6,
+    "sign_kernel_order": 64,
+    "split_subgroup_order": 48,
+    "splits": true,
+    "support_element_order_histogram": {
+      "1": 1,
+      "2": 13,
+      "3": 8,
+      "4": 6,
+      "6": 8,
+      "8": 12
+    },
+    "support_group": "GL2(3)",
+    "support_order": 48
+  },
+  "headline": "The 64-fold diagonal sign-repair fibres over the 48 exact GL2(3) clock-support operations form a 3072-element signed monomial extension that splits: an explicit 48-element subgroup projects bijectively to GL2(3) and preserves the frozen signed E6 cubic exactly.",
+  "reynolds_consequence": "The S4 Reynolds projection of Pass 10975 averages a genuine exact support-symmetry shadow of a signed GL2(3) monomial action. Because that signed action does not preserve the fibre-constant field, the Reynolds reduction remains an effective projection rather than the restriction of the 27-dimensional signed action.",
+  "schema": "w33.pass11020.signed-clock-extension-split.v1",
+  "status": "PASS",
+  "what_changed": "Pass 10975's sign-repair statement is upgraded from elementwise compatibility to a coherent group action: the obstruction is gauge, not a nonsplit extension. The remaining obstruction is instead the reduction from the 27-coordinate signed carrier to four fibre amplitudes."
+}
