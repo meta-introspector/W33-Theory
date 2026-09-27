@@ -1,0 +1,294 @@
+{
+  "boundary": "The four gauges are exact finite decompositions, not four simultaneously selected vacua. The photonic count is a resource schedule in the existing mode-encoding model; insertion loss and process fidelity remain unmeasured.",
+  "checks": {
+    "cross_gauge_slice_intersection_dim9": true,
+    "each_gauge_is_three_orthogonal_K81_slices": true,
+    "each_gauge_sums_to_243": true,
+    "four_Hesse_gauges": true,
+    "full_K81_compiler_two_F3_layers": true,
+    "full_matrix_nonzeros_729": true,
+    "lifted_cross_spectrum_1x9_1over3x54_0x18": true,
+    "nine_tritter_mode_schedule_six_waves": true
+  },
+  "crossrepo_alignment": {
+    "Holotrade_parallel_commit": "b0264880d7c5fd24c6af932b892324247ab57808",
+    "statement": "the independently landed Holotrade packet identifies the 243 frame bundle as three K81 slices after a dual-Hesse striation choice; this pass upgrades that one-striation statement to all four Hesse directions and freezes the cross-gauge overlap spectrum"
+  },
+  "four_compiler_gauges": [
+    {
+      "base_dual_lines": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      ],
+      "direct_sum_dimension": 243,
+      "gauge": 0,
+      "projective_direction": [
+        1,
+        0
+      ],
+      "slice_dimension": 81,
+      "three_K81_slices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "base_dual_lines": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      ],
+      "direct_sum_dimension": 243,
+      "gauge": 1,
+      "projective_direction": [
+        0,
+        1
+      ],
+      "slice_dimension": 81,
+      "three_K81_slices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "base_dual_lines": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "direct_sum_dimension": 243,
+      "gauge": 2,
+      "projective_direction": [
+        1,
+        1
+      ],
+      "slice_dimension": 81,
+      "three_K81_slices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "base_dual_lines": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "direct_sum_dimension": 243,
+      "gauge": 3,
+      "projective_direction": [
+        1,
+        2
+      ],
+      "slice_dimension": 81,
+      "three_K81_slices": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "full_K81_fourier_lowering": {
+    "H27_compiler": "nine F3 blocks on 27 states",
+    "factorization": "T81 = T_H27 tensor F3_external",
+    "logical_active_F3_depth_per_channel": 2,
+    "matrix_nonzeros": 729,
+    "mode_encoded_external_layer_F3_blocks": 27,
+    "mode_encoded_first_layer_F3_blocks": 27,
+    "nine_tritter_inventory": {
+      "available": 9,
+      "first_layer_waves": 3,
+      "second_layer_waves": 3,
+      "total_resource_waves": 6
+    },
+    "nonzeros_per_column": 9,
+    "normalized_path_amplitude": "1/3",
+    "tensor_qutrit_reading": "if the four qutrit tensor factors are directly addressable, the same factorization is two qutrit Fourier gates plus the monomial latent routing; the 54-tritter count is specifically the flat 81-mode encoding.",
+    "total_F3_operations": 54
+  },
+  "headline": "Tensoring the twelve rank-9 H27 Hesse projectors by the existing C9 fibre produces twelve rank-81 compiler carriers inside the 243D frame bundle. They form four orthogonal three-slice decompositions. Slices from distinct gauges intersect in exactly one C9 fibre (dimension 9), with lifted PQP spectrum 1^9,(1/3)^54,0^18. The full K81 compiler factors into two F3 layers.",
+  "inflated_Hesse_geometry": {
+    "ambient_dimension": 243,
+    "different_class_PQP_spectrum_on_line": {
+      "0": 18,
+      "1": 9,
+      "1/3": 54
+    },
+    "different_parallel_class_intersection_dimension": 9,
+    "line_carrier_dimension": 81,
+    "line_carriers": 12,
+    "lines_per_parallel_class": 3,
+    "parallel_classes": 4,
+    "point_fibre_dimension": 9,
+    "point_fibres": 9,
+    "reading": "the nine affine points become C9 fibres and the twelve affine lines become K81 compiler carriers; nonparallel line carriers share exactly the one C9 fibre corresponding to their unique affine intersection point",
+    "same_parallel_class_intersection_dimension": 0
+  },
+  "parents": [
+    "data/w33_pass11049_right_regular_hesse_projectors.json",
+    "data/w33_pass11051_tensor_induction_fourier_compiler.json",
+    "data/w33_hesse36_photonic_fourier_schedule.json"
+  ],
+  "schema": "w33.pass11052.four-hesse-k81-gauges-and-photonic-lowering.v1",
+  "status": "PASS_FOUR_HESSE_GAUGES_LIFT_TO_243D_K81_DECOMPOSITIONS_AND_THE_FULL_COMPILER_IS_TWO_F3_LAYERS"
+}

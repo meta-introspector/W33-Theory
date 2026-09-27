@@ -1,0 +1,1710 @@
+{
+  "boundary": "This closes the finite representation compiler for one induced H27 slice. It does not implement the E6 cubic 54D tangent pulse or provide measured loss/fidelity for a photonic tritter array.",
+  "checks": {
+    "all_have_81_nonzeros": true,
+    "all_six_replays_rank27": true,
+    "every_block_is_F3_up_to_monomial_phases": true,
+    "exact_Gram_3I": true,
+    "exact_intertwiner": true,
+    "nine_disjoint_3x3_blocks": true
+  },
+  "compiler": {
+    "active_F3_depth": 1,
+    "balanced_blocks": 9,
+    "block_size": 3,
+    "dimension": 27,
+    "generic_27x27_unitary_required": false,
+    "matrix_nonzeros": 81,
+    "normalization": "divide each balanced block by sqrt(3)"
+  },
+  "headline": "The identity V tensor Ind_L(theta) ~= Ind_L(Res_L V tensor theta) ~= Ind_L(Reg L) ~= Reg(H27) is now an explicit 27x27 matrix. A cyclic vector on one coset generates an orthogonal regular orbit. Its synthesis matrix has exactly 81 nonzero mu3 entries and splits into nine disjoint 3x3 blocks, each dephasing exactly to the qutrit Fourier matrix F3.",
+  "parents": [
+    "data/w33_pass11048_induced_h27_hesse_latent_modules.json",
+    "data/w33_pass11050_monomial_two_qutrit_latent_clifford.json"
+  ],
+  "physical_reading": "In a mode encoding this is nine parallel tritters plus permutations and mu3 phase gauges. In a tensor-qutrit encoding it is one qutrit Fourier operation applied uniformly over nine coset labels. The latent dressing therefore does not require a generic U(9) or U(27) synthesis.",
+  "schema": "w33.pass11051.tensor-induction-fourier-compiler.v1",
+  "split_prime_theta_certificates": [
+    {
+      "Gram": "B^* B = 3 I27",
+      "component_shape": [
+        3,
+        3
+      ],
+      "components": 9,
+      "every_component_dephases_to_F3": true,
+      "intertwines_left_regular_H27": true,
+      "nonzero_entries": 81,
+      "nonzeros_per_column": 3,
+      "omega": 46,
+      "prime": 103,
+      "rank": 27,
+      "support_components": [
+        {
+          "columns": [
+            0,
+            9,
+            18
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "columns": [
+            1,
+            10,
+            19
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "columns": [
+            2,
+            11,
+            20
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "columns": [
+            3,
+            14,
+            22
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "columns": [
+            4,
+            12,
+            23
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "columns": [
+            5,
+            13,
+            21
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "columns": [
+            6,
+            16,
+            26
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "columns": [
+            7,
+            17,
+            24
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "columns": [
+            8,
+            15,
+            25
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            24,
+            25,
+            26
+          ]
+        }
+      ],
+      "theta": 0
+    },
+    {
+      "Gram": "B^* B = 3 I27",
+      "component_shape": [
+        3,
+        3
+      ],
+      "components": 9,
+      "every_component_dephases_to_F3": true,
+      "intertwines_left_regular_H27": true,
+      "nonzero_entries": 81,
+      "nonzeros_per_column": 3,
+      "omega": 46,
+      "prime": 103,
+      "rank": 27,
+      "support_components": [
+        {
+          "columns": [
+            0,
+            9,
+            18
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "columns": [
+            1,
+            10,
+            19
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "columns": [
+            2,
+            11,
+            20
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "columns": [
+            3,
+            14,
+            22
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "columns": [
+            4,
+            12,
+            23
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "columns": [
+            5,
+            13,
+            21
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "columns": [
+            6,
+            16,
+            26
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "columns": [
+            7,
+            17,
+            24
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "columns": [
+            8,
+            15,
+            25
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            24,
+            25,
+            26
+          ]
+        }
+      ],
+      "theta": 1
+    },
+    {
+      "Gram": "B^* B = 3 I27",
+      "component_shape": [
+        3,
+        3
+      ],
+      "components": 9,
+      "every_component_dephases_to_F3": true,
+      "intertwines_left_regular_H27": true,
+      "nonzero_entries": 81,
+      "nonzeros_per_column": 3,
+      "omega": 46,
+      "prime": 103,
+      "rank": 27,
+      "support_components": [
+        {
+          "columns": [
+            0,
+            9,
+            18
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "columns": [
+            1,
+            10,
+            19
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "columns": [
+            2,
+            11,
+            20
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "columns": [
+            3,
+            14,
+            22
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "columns": [
+            4,
+            12,
+            23
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "columns": [
+            5,
+            13,
+            21
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "columns": [
+            6,
+            16,
+            26
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "columns": [
+            7,
+            17,
+            24
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "columns": [
+            8,
+            15,
+            25
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            24,
+            25,
+            26
+          ]
+        }
+      ],
+      "theta": 2
+    },
+    {
+      "Gram": "B^* B = 3 I27",
+      "component_shape": [
+        3,
+        3
+      ],
+      "components": 9,
+      "every_component_dephases_to_F3": true,
+      "intertwines_left_regular_H27": true,
+      "nonzero_entries": 81,
+      "nonzeros_per_column": 3,
+      "omega": 45,
+      "prime": 109,
+      "rank": 27,
+      "support_components": [
+        {
+          "columns": [
+            0,
+            9,
+            18
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "columns": [
+            1,
+            10,
+            19
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "columns": [
+            2,
+            11,
+            20
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "columns": [
+            3,
+            14,
+            22
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "columns": [
+            4,
+            12,
+            23
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "columns": [
+            5,
+            13,
+            21
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "columns": [
+            6,
+            16,
+            26
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "columns": [
+            7,
+            17,
+            24
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "columns": [
+            8,
+            15,
+            25
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            24,
+            25,
+            26
+          ]
+        }
+      ],
+      "theta": 0
+    },
+    {
+      "Gram": "B^* B = 3 I27",
+      "component_shape": [
+        3,
+        3
+      ],
+      "components": 9,
+      "every_component_dephases_to_F3": true,
+      "intertwines_left_regular_H27": true,
+      "nonzero_entries": 81,
+      "nonzeros_per_column": 3,
+      "omega": 45,
+      "prime": 109,
+      "rank": 27,
+      "support_components": [
+        {
+          "columns": [
+            0,
+            9,
+            18
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "columns": [
+            1,
+            10,
+            19
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "columns": [
+            2,
+            11,
+            20
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "columns": [
+            3,
+            14,
+            22
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "columns": [
+            4,
+            12,
+            23
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "columns": [
+            5,
+            13,
+            21
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "columns": [
+            6,
+            16,
+            26
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "columns": [
+            7,
+            17,
+            24
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "columns": [
+            8,
+            15,
+            25
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            24,
+            25,
+            26
+          ]
+        }
+      ],
+      "theta": 1
+    },
+    {
+      "Gram": "B^* B = 3 I27",
+      "component_shape": [
+        3,
+        3
+      ],
+      "components": 9,
+      "every_component_dephases_to_F3": true,
+      "intertwines_left_regular_H27": true,
+      "nonzero_entries": 81,
+      "nonzeros_per_column": 3,
+      "omega": 45,
+      "prime": 109,
+      "rank": 27,
+      "support_components": [
+        {
+          "columns": [
+            0,
+            9,
+            18
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "columns": [
+            1,
+            10,
+            19
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "columns": [
+            2,
+            11,
+            20
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "columns": [
+            3,
+            14,
+            22
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "columns": [
+            4,
+            12,
+            23
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "columns": [
+            5,
+            13,
+            21
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "columns": [
+            6,
+            16,
+            26
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "columns": [
+            7,
+            17,
+            24
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "columns": [
+            8,
+            15,
+            25
+          ],
+          "dephased_exponents": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "rows": [
+            24,
+            25,
+            26
+          ]
+        }
+      ],
+      "theta": 2
+    }
+  ],
+  "status": "PASS_TENSOR_INDUCTION_COMPILER_IS_NINE_PARALLEL_QUTRIT_FOURIER_BLOCKS",
+  "tensor_identity": {
+    "step1": "V tensor Ind_L(theta) ~= Ind_L(Res_L(V) tensor theta)",
+    "step2": "Res_L(V)=Reg(C3)",
+    "step3": "theta tensor Reg(C3) ~= Reg(C3)",
+    "step4": "Ind_L(Reg L) ~= Reg(H27)"
+  }
+}
