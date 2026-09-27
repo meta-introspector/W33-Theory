@@ -1,0 +1,32 @@
+{
+  "boundary": "The cocycle is an exact finite-group weld. Its polynomial degree does not by itself make it a physical interaction Hamiltonian or elapsed-time law.",
+  "checks": {
+    "cocycle_identity_exhaustive": true,
+    "noncoboundary_rank_witness": true,
+    "same_H27_quotient": true,
+    "symbolic_matrix_product_identity": true
+  },
+  "cohomology_certificate": {
+    "augmented_rank_mod3": 26,
+    "coboundary_linear_system_shape": [729,27],
+    "cocycle_identity_checked_triples": 19683,
+    "coefficient_rank_mod3": 25,
+    "is_coboundary": false
+  },
+  "exact_group_law": {
+    "central_cocycle": "kappa(x,y)=A^2 b-2 A c mod 3",
+    "normal_form": "u(a,b,c,d)=x0(a)x1(b)x2(c)x3(d)",
+    "product": "(a,b,c,d)*(A,B,C,D)=(a+A,b+B,c+C-Ab,d+D+A^2 b-2Ac) mod 3",
+    "quotient": "H27",
+    "quotient_law": "(a,b,c)*(A,B,C)=(a+A,b+B,c+C-Ab) mod 3"
+  },
+  "headline": "In C2 root coordinates u(a,b,c,d)=x0(a)x1(b)x2(c)x3(d), multiplication is u(a,b,c,d)u(A,B,C,D)=u(a+A,b+B,c+C-Ab,d+D+A^2 b-2Ac). The first three coordinates are exactly the frozen H27 law, while the fourth is a central C3 coordinate twisted by kappa((a,b,c),(A,B,C))=A^2 b-2Ac.",
+  "parents": ["data/w33_pass11065_split_nonsplit_order81_bridge.json","data/PART_W33_PASS5120_U81_STATE_PROGRAM_TRANSPORT.json"],
+  "same_carrier_bridge": {
+    "K81_product": "(h,d)*(h',D)=(hh',d+D)",
+    "U81_product": "(h,d)*(h',D)=(hh',d+D+kappa(h,h'))",
+    "underlying_set": "H27 x F3, 81 labels"
+  },
+  "schema": "w33.pass11067.explicit-h27-central-cocycle-weld.v1",
+  "status": "PASS_U81_IS_THE_EXPLICIT_NONTRIVIAL_CENTRAL_COCYCLE_TWIST_OF_SPLIT_K81_ON_THE_SAME_81_LABELS"
+}

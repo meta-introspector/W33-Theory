@@ -1,0 +1,25 @@
+{
+  "boundary": "The parameter s is a discrete F3 cocycle coefficient. Treating s=+/-1 as physical chirality is an interpretation requiring a dynamical selection mechanism.",
+  "checks": {
+    "central_reversal_maps_s1_to_s2": true,
+    "s0_is_split_K81": true,
+    "s1_s2_have_U81_invariants": true,
+    "split_nonsplit_class_jump": true
+  },
+  "family_formula": "(h,d) star_s (h',D)=(hh',d+D+s kappa(h,h')), s in F3",
+  "headline": "Scale the nontrivial cocycle by s in F3: (h,d) star_s (h',D)=(hh',d+D+s kappa(h,h')). At s=0 this is exactly the split K81 law. At s=1 and s=2=-1 it is the class-three U81 law with opposite central orientation. The two nonzero twists are isomorphic by central reversal d->-d, while neither is isomorphic to the split law.",
+  "invariants": {
+    "0": {"center_order":9,"derived_order":3,"lower_central_sizes":[81,3,1,1],"order_census":{"1":1,"3":80}},
+    "1": {"center_order":3,"derived_order":9,"lower_central_sizes":[81,9,3,1],"order_census":{"1":1,"3":44,"9":36}},
+    "2": {"center_order":3,"derived_order":9,"lower_central_sizes":[81,9,3,1],"order_census":{"1":1,"3":44,"9":36}}
+  },
+  "orientation_isomorphism": {"map":"phi(h,d)=(h,-d)","source_s":1,"target_s":2,"verified_pairs":6561},
+  "parents": ["data/w33_pass11067_explicit_h27_central_cocycle_weld.json","data/w33_pass11065_split_nonsplit_order81_bridge.json"],
+  "phase_structure": {
+    "s0": "split scheduler K81, class 2, exponent 3",
+    "s1": "non-split chamber law, class 3, exponent 9",
+    "s2": "central-orientation reverse of s1"
+  },
+  "schema": "w33.pass11068.ternary-cocycle-deformation.v1",
+  "status": "PASS_ONE_TERNARY_COCYCLE_PARAMETER_INTERPOLATES_SPLIT_K81_AND_THE_TWO_ORIENTED_NONSPLIT_U81_LAWS"
+}
