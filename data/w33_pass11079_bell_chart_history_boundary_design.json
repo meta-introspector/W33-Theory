@@ -1,0 +1,11 @@
+{
+  "boundary":"The regular-simplex statement is finite design geometry. It is a precise covariance property of the chart atlas, not a derivation of continuum general covariance.",
+  "boundary_design":{"block_size":13,"gram":"N N^T = 9 I + 4 J","pair_intersection":4,"parameters":"2-(40,13,4) symmetric","rank_F3":15},
+  "chart_partition":{"boundary":"center plus its 12 intersecting W33 lines","for_each_center":"40 = 27 finite histories + 13 boundary contexts"},
+  "checks":{"boundary_design_exact":true,"centered_antipodes":true,"history_design_exact":true,"regular_39_simplex":true},
+  "headline":"For each W33 line B, the 27 lines disjoint from B are its finite history chart and the complementary 13 lines (B plus the 12 meeting B) are its boundary. Across all 40 centers these are symmetric 2-(40,27,18) and 2-(40,13,4) designs. After centering, the 40 boundary indicators are the vertices of a regular 39-simplex; the history indicators are exactly their antipodes.",
+  "history_design":{"block_size":27,"gram":"H H^T = 9 I + 18 J","pair_intersection":18,"parameters":"2-(40,27,18) symmetric","rank_F3":14},
+  "schema":"w33.pass11079.bell-chart-history-boundary-design.v1",
+  "simplex":{"boundary_centered":"W=40N-13J","dimension":39,"gram":"W W^T = 360(40I-J)","history_centered":"WH=40H-27J=-W","normalized_off_diagonal_inner_product":"-1/39","reading":"no Bell-line chart is metrically preferred inside the centered chart-frame geometry"},
+  "status":"PASS_FORTY_BELL_LINE_CHARTS_FORM_ANTIPODAL_REGULAR_SIMPLEX_DESIGNS"
+}

@@ -1,0 +1,18 @@
+{
+  "boundary":"This identifies the chart-overlap cycle module with building H1. It does not yet provide Lie-algebra transition maps between local E8 charts.",
+  "chain_map":{"boundary_identity":"D_Levi T = S D_nerve","edge_formula":"[La,Lb] -> -[p,La] + [p,Lb], where p=La intersect Lb","levi_C0":80,"levi_C1_flags":160,"matrix_nonzeros":480,"nerve_C0":40,"nerve_C1":240,"nerve_C2":160,"triangle_identity":"T D2 = 0"},
+  "checks":{"H1_rank81_all_fields":true,"canonical_PSp_equivariance":true,"chain_boundary_identity":true,"triangle_boundaries_killed":true},
+  "equivariance":"The map is canonical from incidence: every PSp(4,3) automorphism preserves the unique shared point p, so T commutes with the group action.",
+  "field_replays":{
+    "101":{"induced_H1_rank":81,"levi_H1_dimension":81,"levi_boundary_rank":79,"nerve_D1_rank":39,"nerve_D2_rank":120,"nerve_cycle_dimension":201},
+    "2":{"induced_H1_rank":81,"levi_H1_dimension":81,"levi_boundary_rank":79,"nerve_D1_rank":39,"nerve_D2_rank":120,"nerve_cycle_dimension":201},
+    "3":{"induced_H1_rank":81,"levi_H1_dimension":81,"levi_boundary_rank":79,"nerve_D1_rank":39,"nerve_D2_rank":120,"nerve_cycle_dimension":201},
+    "5":{"induced_H1_rank":81,"levi_H1_dimension":81,"levi_boundary_rank":79,"nerve_D1_rank":39,"nerve_D2_rank":120,"nerve_cycle_dimension":201},
+    "7":{"induced_H1_rank":81,"levi_H1_dimension":81,"levi_boundary_rank":79,"nerve_D1_rank":39,"nerve_D2_rank":120,"nerve_cycle_dimension":201}
+  },
+  "headline":"Each nerve edge joins two line charts meeting at a unique W33 point p. Map the oriented chart edge La->Lb to the two-step Levi path La->p->Lb, i.e. -e_(p,La)+e_(p,Lb). Triangle boundaries collapse to zero. The induced map on H1 has rank 81 over every tested field and is an isomorphism onto Levi H1.",
+  "homology":{"induced_map_rank":81,"isomorphism":true,"kernel_on_nerve_cycles_dimension":120,"levi_betti1":81,"nerve_betti1":81,"nerve_boundary_dimension":120},
+  "parents":["data/w33_pass11074_local_e8_chart_overlap_nerve.json","data/PART_W33_20260901_DOUBLE_BUILDING_STEINBERG_HOMOLOGY.json"],
+  "schema":"w33.pass11076.atlas-nerve-steinberg-chain-map.v1",
+  "status":"PASS_CANONICAL_CHART_NERVE_TO_LEVI_CHAIN_MAP_IS_AN_H1_ISOMORPHISM"
+}

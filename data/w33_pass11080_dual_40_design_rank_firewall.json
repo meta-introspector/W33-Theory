@@ -1,0 +1,13 @@
+{
+  "boundary":"This is an exact p-rank obstruction. It does not rule out weaker correspondences, correspondences after changing coefficients, or a larger categorical relation between the two sides.",
+  "checks":{"both_symmetric_2_40_13_4":true,"line_rank15":true,"nonisomorphic_over_F3":true,"point_rank11":true,"same_rational_gram":true},
+  "firewall":{"consequence":"The Leech dual-40 point-hyperplane design cannot be silently identified with the Bell-line temporal-boundary design merely from 40,13,4 counts. An explicit point-line duality datum would be required, and the rank obstruction rules out a permutation design isomorphism.","designs_isomorphic":false,"rank_difference":"11 != 15"},
+  "headline":"The point closed-neighborhood design and the line closed-neighborhood/temporal-boundary design are both symmetric 2-(40,13,4) designs and have the same rational Gram identity 9I+4J, but their F3 incidence ranks are 11 and 15 respectively. Ternary rank is an isomorphism invariant, so the two designs are not permutation-equivalent. This is the design-level shadow of the non-self-dual W33 parabolics.",
+  "line_side":{"design":"2-(40,13,4)","local_radical":"F3^3","meaning":"13-context temporal boundary design","objects":"W33 lines / Bell-chart centers","rank_F3":15},
+  "parents":["data/w33_pass11079_bell_chart_history_boundary_design.json","data/PART_W33_PASS7717_7724_LEECH_DUAL40_TERNARY_CODE.json","data/w33_pass11070_dual_parabolic_flag_diamond.json"],
+  "point_side":{"code":"[40,11,13]_3 from the existing Leech/PG(3,3) certificate","design":"2-(40,13,4)","local_radical":"H27","objects":"W33 points","rank_F3":11},
+  "schema":"w33.pass11080.dual-40-design-rank-firewall.v1",
+  "shared_integer_geometry":{"gram":"N N^T=9I+4J","rational_singular_values":"13 once and 3 with multiplicity 39","same_BIBD_parameters":true},
+  "status":"PASS_POINT_AND_LINE_TEMPORAL_BOUNDARY_DESIGNS_SHARE_PARAMETERS_BUT_ARE_NOT_THE_SAME_TERNARY_DESIGN",
+  "structural_reading":"The earlier dual-648 theorem has a coding/design avatar: point memory and line history have identical coarse design parameters but different characteristic-three linearizations."
+}
