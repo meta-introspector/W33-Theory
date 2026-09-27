@@ -1,0 +1,63 @@
+{
+  "boundary": "The hidden-memory and classical controls are exact finite protocols, not a derivation that the universe implements such a memory. A full multi-time Choi/process-tensor implementation should additionally freeze all causal partial-trace constraints for a chosen laboratory circuit.",
+  "causal_break_firewall": {
+    "classical_measure_prepare_negativity": -0.0,
+    "no_hidden_memory": "Trace-and-prepare on the exposed qutrit is entanglement breaking; subsequent preprogrammed local gates cannot restore reference-system entanglement.",
+    "quantum_store_retrieve_negativity": 1.0000000000000002,
+    "witness": "reference negativity surviving the causal break"
+  },
+  "checks": {
+    "ccz_eigenspace_counts_19_4_4": true,
+    "classical_measure_prepare_negativity_zero": true,
+    "clock_spectrum_19_4_4_over_27": true,
+    "dephasing_negativity_equals_coherence": true,
+    "depolarizing_entanglement_threshold_one_quarter": true,
+    "maximal_history_input_gram_identity": true,
+    "quantum_hidden_memory_negativity_one": true,
+    "symmetric_input_overlap_5_over_9": true
+  },
+  "headline": "The cubic CCZ history state has exact relational-time observables but those are not quantum-memory witnesses. For |+>^3 the qutrit clock spectrum is (19,4,4)/27 and entropy is about 1.173 bits; an equal superposition of the three CCZ eigensectors makes the clock maximally mixed. Across an operational causal break, however, a preprogrammed history with no hidden memory has zero reference negativity, while a hidden qutrit memory can retain negativity 1.",
+  "interpretation": "Clock-system entanglement certifies a relational history encoding; the nested cubic echo certifies holonomy; reference entanglement across a causal break certifies quantum temporal memory. These are three distinct resources and should not be conflated.",
+  "noise_thresholds": {
+    "entanglement_survives_iff": "eta > 1/4",
+    "phase_damping_model": "N(lambda)=lambda",
+    "phase_damping_samples": {
+      "0": -0.0,
+      "0.1": 0.1,
+      "0.5": 0.5,
+      "1": 1.0
+    },
+    "qutrit_depolarizing_model": "N(eta)=max(0,(4*eta-1)/3)",
+    "sample_negativities": {
+      "0": -0.0,
+      "0.2": -0.0,
+      "0.25": 1.0408340855860843e-16,
+      "0.3": 0.06666666666666671,
+      "0.5": 0.33333333333333354,
+      "1": 1.0000000000000002
+    }
+  },
+  "relational_history": {
+    "ccz_eigenspace_dimensions": [
+      19,
+      4,
+      4
+    ],
+    "clock_entropy_bits": 1.1730125852957602,
+    "clock_reduced_spectrum": [
+      "19/27",
+      "4/27",
+      "4/27"
+    ],
+    "maximal_entropy_bits": 1.584962500721156,
+    "maximal_input_clock_spectrum": [
+      "1/3",
+      "1/3",
+      "1/3"
+    ],
+    "stationarity_convention": "(X_clock tensor U_CCZ)|Psi> = |Psi>",
+    "symmetric_input_overlap": "5/9"
+  },
+  "schema": "w33.pass11037.history-state-process-memory-firewall.v1",
+  "status": "PASS"
+}

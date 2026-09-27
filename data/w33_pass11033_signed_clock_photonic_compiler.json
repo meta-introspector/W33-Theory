@@ -1,0 +1,183 @@
+{
+  "boundary": "The phase bound assumes equal amplitudes and bounded coherent phase errors. Insertion loss, unequal detector efficiencies, fabrication crosstalk and source impurity require a separate calibrated likelihood model. The 148 count is minimal only for nearest-neighbor swaps in the frozen canonical linear ordering; free physical placement reduces it.",
+  "checks": {
+    "all_fibres_have_six_interfering_terms": true,
+    "canonical_permutation_two_reversals": true,
+    "ideal_signed_visibility_one_third": true,
+    "nearest_neighbor_parallel_depth_15": true,
+    "nearest_neighbor_swap_count_148": true,
+    "phase_error_separation_threshold_positive": true,
+    "six_negative_swap_pairs": true,
+    "twelve_disjoint_swaps": true,
+    "twelve_negative_output_phases": true
+  },
+  "experimental_reading": "If each of the six interfering amplitudes per fibre has calibrated phase error below the certified threshold, even the conservative triangle-inequality envelope for the signed model remains below the projective model's cone bound. The observable therefore survives substantial phase error in the ideal equal-amplitude model.",
+  "headline": "The hidden signed central operation compiles exactly to 12 disjoint mode swaps plus a diagonal layer of 12 pi phases. With free mode placement it is a one-layer 12-swap network; in the repository's canonical 24-mode order its unsigned permutation is reversal of 16 modes plus reversal of 8 modes, requiring exactly 148 adjacent swaps and minimum parallel nearest-neighbor depth 15.",
+  "interferometer": {
+    "guaranteed_separation_epsilon_deg": 30.586880384919148,
+    "guaranteed_separation_epsilon_rad": 0.5338417706305096,
+    "ideal_projective_visibility": "1",
+    "ideal_signed_visibility": "1/3",
+    "per_fibre_sign_patterns": [
+      [
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        1
+      ]
+    ],
+    "phase_error_model": "independent term phases with |delta_i| <= epsilon",
+    "projective_visibility_lower_bound": "cos(epsilon)",
+    "signed_visibility_upper_bound": "1/3 + 2 sin(epsilon/2)"
+  },
+  "network": {
+    "arbitrary_routing_swap_count": 12,
+    "mode_order": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      23,
+      24,
+      25,
+      26
+    ],
+    "nearest_neighbor_adjacent_swap_count": 148,
+    "nearest_neighbor_min_parallel_depth": 15,
+    "negative_pair_blocks": 6,
+    "permutation_zero_based": [
+      15,
+      14,
+      13,
+      12,
+      11,
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1,
+      0,
+      23,
+      22,
+      21,
+      20,
+      19,
+      18,
+      17,
+      16
+    ],
+    "placement_optimized_depth": "one simultaneous layer of 12 disjoint swaps plus one phase layer",
+    "signed_swap_pairs_zero_based": [
+      [
+        0,
+        15,
+        1
+      ],
+      [
+        1,
+        14,
+        -1
+      ],
+      [
+        2,
+        13,
+        1
+      ],
+      [
+        3,
+        12,
+        -1
+      ],
+      [
+        4,
+        11,
+        1
+      ],
+      [
+        5,
+        10,
+        -1
+      ],
+      [
+        6,
+        9,
+        1
+      ],
+      [
+        7,
+        8,
+        -1
+      ],
+      [
+        16,
+        23,
+        -1
+      ],
+      [
+        17,
+        22,
+        1
+      ],
+      [
+        18,
+        21,
+        -1
+      ],
+      [
+        19,
+        20,
+        1
+      ]
+    ],
+    "single_mode_pi_phases_if_unsigned_swaps": 12
+  },
+  "schema": "w33.pass11033.signed-clock-photonic-compiler.v1",
+  "status": "PASS"
+}
