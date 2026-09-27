@@ -1,0 +1,86 @@
+{
+  "boundary": "This removes the finite representation-theoretic obstruction by changing the execution symmetry through an action available in the abstract M9 commutant. It does not prove the laboratory Hamiltonian can synthesize A9, that doing so is fault tolerant, or that the required control is energetically natural.",
+  "carrier": {
+    "after": "(A9 tensor V_omega) tensor Reg(C3) ~= Reg(H27) tensor Reg(C3) = Reg(K)",
+    "before": "C9_multiplicity tensor C3_internal tensor C3_external, with H27 action I9 tensor V_omega",
+    "dimension": 81,
+    "dimension_enlargement": 0,
+    "latent_control": "A9 acts on C9_multiplicity inside M9 commutant"
+  },
+  "checks": {
+    "Fourier_split_27_27_27": true,
+    "T81_full_rank_both_primes": true,
+    "T81_nonzero_determinant_both_primes": true,
+    "all_four_K_generators_intertwined": true,
+    "matches_old_27_27_27_compiler_modes": true
+  },
+  "compiler_factorization": {
+    "H27_transform": "T_H = explicit Pass11045 Clebsch-Gordan transform",
+    "L_27": "latent Vbar tensor internal V -> nine one-dimensional characters",
+    "S1_27": "three scalar-character multiplicity states tensor V; symmetry-compatible sector",
+    "S2_27": "latent V tensor internal V -> three Vbar copies",
+    "external_transform": "F3 on the external C3 shift register",
+    "full_transform": "T81 = T_H tensor F3"
+  },
+  "headline": "The scheduler/execution obstruction is closed algebraically without enlarging the 81D matter carrier. Let the 9D multiplicity commutant carry A9 and let H27 act diagonally as A9 tensor V_omega; keep the external qutrit as Reg(C3). Then the carrier is Reg(H27) tensor Reg(C3)=Reg(K). An explicit 81x81 Clebsch-Gordan/Fourier transform intertwines all K generators.",
+  "parents": [
+    "data/w33_pass11045_explicit_latent_h27_clebsch_gordan.json",
+    "data/w33_minimal_symmetry_changing_81_compiler.json",
+    "data/w33_scheduler_operator_k81_intertwiner_obstruction.json"
+  ],
+  "schema": "w33.pass11046.full-k81-dressed-equivariant-compiler.v1",
+  "split_prime_certificates": [
+    {
+      "Fourier_blocks": {
+        "L": 27,
+        "S1": 27,
+        "S2": 27
+      },
+      "T81_det_mod_p": 76,
+      "T81_rank": 81,
+      "intertwines": [
+        "H_X",
+        "H_Z",
+        "H_C",
+        "external_C3_shift"
+      ],
+      "old_compiler_mode_counts": {
+        "equivariant": 27,
+        "retyped_abelian": 27,
+        "retyped_central": 27
+      },
+      "omega": 46,
+      "prime": 103
+    },
+    {
+      "Fourier_blocks": {
+        "L": 27,
+        "S1": 27,
+        "S2": 27
+      },
+      "T81_det_mod_p": 1,
+      "T81_rank": 81,
+      "intertwines": [
+        "H_X",
+        "H_Z",
+        "H_C",
+        "external_C3_shift"
+      ],
+      "old_compiler_mode_counts": {
+        "equivariant": 27,
+        "retyped_abelian": 27,
+        "retyped_central": 27
+      },
+      "omega": 45,
+      "prime": 109
+    }
+  ],
+  "status": "PASS_EXISTING_81D_MATTER_CARRIER_BECOMES_REGULAR_K81_AFTER_MINIMAL_COMMUTANT_DRESSING",
+  "why_54_retypings": {
+    "equivariant": 27,
+    "explanation": "The old compiler's two 27D retyping blocks are exactly the two non-scalar latent sectors of A9. The V block produces S2=3Vbar; the Vbar block produces L=sum_9 chi. The previous 27+27+27 bookkeeping is therefore a Clebsch-Gordan decomposition of the minimal commutant dressing, not an arbitrary permutation.",
+    "retyped_abelian": 27,
+    "retyped_central": 27,
+    "total_retyped": 54
+  }
+}

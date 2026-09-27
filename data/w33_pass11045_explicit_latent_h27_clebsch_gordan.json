@@ -1,0 +1,387 @@
+{
+  "CG_formula": {
+    "V_times_V": "d=y-x, i=x+2d; permutation to three Vbar copies",
+    "Vbar_times_V": "u=y-x and Fourier transform in common coordinate x gives chi_(u,v)",
+    "normalization": "the last 9x9 block becomes unitary over C after the usual 1/sqrt(3) Fourier normalization",
+    "scalar_times_V": "i=j+y; permutation to three V copies"
+  },
+  "boundary": "The Clebsch-Gordan transform is a finite unitary basis change after Fourier normalization. The certificate does not yet supply a pulse schedule or Hamiltonian for synthesizing the latent A9 generators in hardware.",
+  "checks": {
+    "all_CG_determinants_nonzero": true,
+    "all_CG_ranks_27": true,
+    "all_generator_intertwiners_exact_mod_p": true,
+    "latent_action_commutes_with_old_execution": true,
+    "regular_character_verified": true,
+    "two_split_prime_replays": true
+  },
+  "exactness_reading": "The formulas are identities over Z[omega]; the split-prime replays certify that the displayed transform is invertible and intertwines both H27 generators. The nonzero determinants at 103 and 109 also witness a nonzero determinant before reduction in Q(omega).",
+  "headline": "The latent representation is now explicit. In the 9D multiplicity factor, A9 is block diagonal chi00 + chi10 + chi20 + V + Vbar. It commutes with the old internal-qutrit execution because it acts in the M9 commutant. A closed-form 27x27 Clebsch-Gordan transform then sends A9 tensor V to 3V + 3Vbar + sum_9 chi, i.e. the regular H27 Fourier basis.",
+  "latent_generators": {
+    "X": "diag(1,1,1,X,X)",
+    "Z": "diag(1,omega,omega^2,Z,Z^2)",
+    "basis_blocks": [
+      "chi00",
+      "chi10",
+      "chi20",
+      "V_omega",
+      "V_omega2"
+    ],
+    "location": "M9 multiplicity commutant"
+  },
+  "parents": [
+    "data/w33_pass11043_commutant_dressing_regular_h27.json",
+    "data/w33_pass11044_minimal_latent_dimension_and_54_budget.json"
+  ],
+  "schema": "w33.pass11045.explicit-latent-h27-clebsch-gordan.v1",
+  "split_prime_certificates": [
+    {
+      "CG_det_mod_p": 14,
+      "CG_intertwines_X_and_Z": true,
+      "CG_rank": 27,
+      "character_rows": [
+        [
+          0,
+          0,
+          0,
+          27
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          2,
+          0
+        ]
+      ],
+      "dressed_H27_relations": true,
+      "latent_execution_commute": true,
+      "omega": 46,
+      "prime": 103,
+      "regular_character_all_27_elements": true
+    },
+    {
+      "CG_det_mod_p": 68,
+      "CG_intertwines_X_and_Z": true,
+      "CG_rank": 27,
+      "character_rows": [
+        [
+          0,
+          0,
+          0,
+          27
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          2,
+          0
+        ]
+      ],
+      "dressed_H27_relations": true,
+      "latent_execution_commute": true,
+      "omega": 45,
+      "prime": 109,
+      "regular_character_all_27_elements": true
+    }
+  ],
+  "status": "PASS_EXPLICIT_M9_COMMUTANT_ACTION_AND_27D_CLEBSCH_GORDAN_REGULARIZATION"
+}
