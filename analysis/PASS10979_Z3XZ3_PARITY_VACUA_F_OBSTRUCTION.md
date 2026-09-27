@@ -1,5 +1,13 @@
 # Pass 10979 — the W(3,3) twist on the prime orbifolds: T6/Z3 and Z3×Z3
 
+> **Framing corrected by Pass 11024.** Every number below stands and is independently certified by an exact
+> lattice solver (0 differences). But the reading of section E was too strong. On these vacua W is a Z3-graded
+> function of one or two composites, W = F(p) with F(ωp) = ωF(p), so the first balance at degree 12 is not a
+> hurdle: grad F = 0 has generic solutions. Supersymmetric vacua **exist** in all 28, at ⟨φ⟩ ≈ 0.8–1.1 M_s. The
+> numerical search here missed them because it started at the FI scale. The vacua are excluded instead by a
+> hidden-representation index: six massless charge-1/3 states in each. See
+> `analysis/PASS11024_Z3XZ3_SUSY_VACUA_FRACTIONAL_CHARGE_INDEX.md`.
+
 Producer: `analysis/w33_pass10979_z3xz3_parity_vacua_f_obstruction.py`
 Frozen input: `data/w33_pass10979_z3xz3_ledger.json.gz` (exact-rational left-chiral ledger, space-group and
 R discrete charges, the scan inputs and statistics)

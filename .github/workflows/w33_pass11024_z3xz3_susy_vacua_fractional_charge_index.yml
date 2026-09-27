@@ -1,0 +1,30 @@
+name: W33 Pass 11024 Z3xZ3 SUSY vacua and fractional-charge index
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11024_z3xz3_susy_vacua_fractional_charge_index.py"
+      - "analysis/w33_exact_monomial_orders.py"
+      - "analysis/PASS11024_Z3XZ3_SUSY_VACUA_FRACTIONAL_CHARGE_INDEX.md"
+      - "analysis/PASS11024_Z3XZ3_SUSY_VACUA_FRACTIONAL_CHARGE_INDEX_INSERT.tex"
+      - "data/w33_pass11024_z3xz3_susy_vacua_fractional_charge_index.json"
+      - "tests/test_w33_pass11024_z3xz3_susy_vacua_fractional_charge_index.py"
+      - ".github/workflows/w33_pass11024_z3xz3_susy_vacua_fractional_charge_index.yml"
+  pull_request:
+    paths:
+      - "analysis/w33_pass11024_z3xz3_susy_vacua_fractional_charge_index.py"
+      - "analysis/w33_exact_monomial_orders.py"
+      - "tests/test_w33_pass11024_z3xz3_susy_vacua_fractional_charge_index.py"
+
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest pycddlib
+      - run: python analysis/w33_pass11024_z3xz3_susy_vacua_fractional_charge_index.py
+      - run: python -m pytest -q tests/test_w33_pass11024_z3xz3_susy_vacua_fractional_charge_index.py
