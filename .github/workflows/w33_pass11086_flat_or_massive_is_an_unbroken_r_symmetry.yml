@@ -1,13 +1,13 @@
-name: W33 Pass 11076 flat-or-massive is an unbroken R-symmetry
+name: W33 Pass 11086 flat-or-massive is an unbroken R-symmetry
 
 on:
   push:
     paths:
-      - "analysis/w33_pass11076_flat_or_massive_is_an_unbroken_r_symmetry.py"
-      - "analysis/PASS11076_FLAT_OR_MASSIVE_IS_AN_UNBROKEN_R_SYMMETRY.md"
-      - "data/w33_pass11076_flat_or_massive_is_an_unbroken_r_symmetry.json"
-      - "tests/test_w33_pass11076_flat_or_massive_is_an_unbroken_r_symmetry.py"
-      - ".github/workflows/w33_pass11076_flat_or_massive_is_an_unbroken_r_symmetry.yml"
+      - "analysis/w33_pass11086_flat_or_massive_is_an_unbroken_r_symmetry.py"
+      - "analysis/PASS11086_FLAT_OR_MASSIVE_IS_AN_UNBROKEN_R_SYMMETRY.md"
+      - "data/w33_pass11086_flat_or_massive_is_an_unbroken_r_symmetry.json"
+      - "tests/test_w33_pass11086_flat_or_massive_is_an_unbroken_r_symmetry.py"
+      - ".github/workflows/w33_pass11086_flat_or_massive_is_an_unbroken_r_symmetry.yml"
 
 jobs:
   replay:
@@ -18,5 +18,5 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install numpy scipy sympy pytest pycddlib
-      - run: python analysis/w33_pass11076_flat_or_massive_is_an_unbroken_r_symmetry.py
-      - run: python -m pytest -q tests/test_w33_pass11076_flat_or_massive_is_an_unbroken_r_symmetry.py
+      - run: python analysis/w33_pass11086_flat_or_massive_is_an_unbroken_r_symmetry.py
+      - run: python -m pytest -q tests/test_w33_pass11086_flat_or_massive_is_an_unbroken_r_symmetry.py

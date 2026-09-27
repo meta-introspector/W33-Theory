@@ -1,9 +1,9 @@
-"""Regression for Pass 11076: the flat-or-massive pattern is an unbroken R-symmetry, not a law."""
+"""Regression for Pass 11086: the flat-or-massive pattern is an unbroken R-symmetry, not a law."""
 import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-C = json.loads((ROOT / "data" / "w33_pass11076_flat_or_massive_is_an_unbroken_r_symmetry.json").read_text())
+C = json.loads((ROOT / "data" / "w33_pass11086_flat_or_massive_is_an_unbroken_r_symmetry.json").read_text())
 
 
 def test_table():

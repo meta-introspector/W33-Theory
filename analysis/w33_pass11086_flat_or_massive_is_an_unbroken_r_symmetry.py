@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pass 11076: the 'flat-or-massive' pattern is an unbroken R-symmetry, not a law.
+"""Pass 11086: the 'flat-or-massive' pattern is an unbroken R-symmetry, not a law.
 
 Since Pass 10968 the programme has reported that parity-preserving vacua with W|_S = 0 keep an exotic vector-like
 colour triplet massless, and the manuscript says the triplet is massless *because* the superpotential vanishes.
@@ -42,7 +42,7 @@ def _load(name, rel):
 EXO = _load("exact_orders", "w33_exact_monomial_orders.py")
 P78 = _load("p10978", "w33_pass10978_z12_e6_admissible_r_rule.py")
 P79 = _load("p10979", "w33_pass10979_z3xz3_parity_vacua_f_obstruction.py")
-OUT = ROOT / "data" / "w33_pass11076_flat_or_massive_is_an_unbroken_r_symmetry.json"
+OUT = ROOT / "data" / "w33_pass11086_flat_or_massive_is_an_unbroken_r_symmetry.json"
 
 
 def rank(B):
@@ -111,7 +111,7 @@ def main():
                 cnt[(c["W"], c["exotic"])] += 1
         table[tag] = {" | ".join(k): v for k, v in sorted(cnt.items())}
         print(tag, table[tag], flush=True)
-    OUT.write_text(json.dumps(dict(pass_id=11076, table=table, vacua=out), indent=1, sort_keys=True, default=str))
+    OUT.write_text(json.dumps(dict(pass_id=11086, table=table, vacua=out), indent=1, sort_keys=True, default=str))
 
 
 if __name__ == "__main__":

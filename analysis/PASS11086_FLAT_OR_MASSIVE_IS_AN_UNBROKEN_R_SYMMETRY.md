@@ -1,8 +1,8 @@
-# Pass 11076 — "flat-or-massive" is an unbroken R-symmetry, not a law
+# Pass 11086 — "flat-or-massive" is an unbroken R-symmetry, not a law
 
-Producer: `analysis/w33_pass11076_flat_or_massive_is_an_unbroken_r_symmetry.py`
-Certificate: `data/w33_pass11076_flat_or_massive_is_an_unbroken_r_symmetry.json`
-Regression: `tests/test_w33_pass11076_flat_or_massive_is_an_unbroken_r_symmetry.py`
+Producer: `analysis/w33_pass11086_flat_or_massive_is_an_unbroken_r_symmetry.py`
+Certificate: `data/w33_pass11086_flat_or_massive_is_an_unbroken_r_symmetry.json`
+Regression: `tests/test_w33_pass11086_flat_or_massive_is_an_unbroken_r_symmetry.py`
 Uses: the exact lattice solver `analysis/w33_exact_monomial_orders.py` (Pass 11024).
 
 Since Pass 10968 the programme has recorded a recurring pattern. Parity-preserving vacua on which the
