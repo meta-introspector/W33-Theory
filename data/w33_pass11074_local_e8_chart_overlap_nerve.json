@@ -1,0 +1,11 @@
+{
+  "checks":{"H1_rank81":true,"W33_40_points_40_lines":true,"boundary_ranks_39_120_40":true,"f_vector_exact":true,"forty_maximal_tetrahedra":true,"higher_homology_zero":true,"maximal_simplices_intersect_at_most_in_one_vertex":true},
+  "headline":"Treat each W33 line as one local tetracode/E8 chart label, and declare a family of charts to overlap when their W33 lines share one point/A2 label. The maximal overlaps are the four line charts through a point, hence 40 tetrahedra. The resulting simplicial nerve has f-vector (40,240,160,40), boundary ranks (39,120,40), and homology (1,81,0,0).",
+  "homology":{"H1":"Z^81","betti":[1,81,0,0],"boundary_ranks":[39,120,40],"higher_reduced_homology":"0","split_prime_and_control_replays":{"101":{"betti":[1,81,0,0],"boundary_ranks":[39,120,40]},"2":{"betti":[1,81,0,0],"boundary_ranks":[39,120,40]},"3":{"betti":[1,81,0,0],"boundary_ranks":[39,120,40]},"5":{"betti":[1,81,0,0],"boundary_ranks":[39,120,40]},"7":{"betti":[1,81,0,0],"boundary_ranks":[39,120,40]}}},
+  "homotopy_reading":"The 40 maximal tetrahedra intersect one another only in vertices. After barycentric subdivision, each tetrahedron collapses relative to its four chart vertices onto the star from its point-barycenter. Doing this independently for all 40 tetrahedra yields exactly the 80-vertex, 160-edge W33 point-line Levi graph. Thus the chart-overlap nerve has the Levi graph homotopy type and its cycle rank is 160-80+1=81.",
+  "local_e8_boundary":"The nerve records where local line charts would share their point/A2 labels. It does not yet supply Lie-algebra embedding maps between the E8 charts on those overlaps.",
+  "nerve":{"chart_overlap_degree":12,"edges_pairwise_point_overlaps":240,"euler_characteristic":-80,"f_vector":[40,240,160,40],"point_overlaps_per_chart":4,"tetrahedra_fourfold_point_overlaps":40,"tetrahedron_pair_intersection_histogram":{"0":540,"1":240},"triangles_triple_point_overlaps":160,"vertices_line_charts":40},
+  "parents":["data/w33_pass11071_oriented_chamber_tetracode_cover.json","analysis/w33_tetracode_e8_root_system_bridge.py"],
+  "schema":"w33.pass11074.local-e8-chart-overlap-nerve.v1",
+  "status":"PASS_40_LINE_CHART_OVERLAP_NERVE_HAS_F_VECTOR_40_240_160_40_AND_EXACT_H1_RANK81"
+}
