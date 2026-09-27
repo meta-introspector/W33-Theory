@@ -1,0 +1,867 @@
+{
+ "pass_id": 11076,
+ "table": {
+  "Z12-I Z2^R": {
+   "zero (unbroken symmetry) | massive": 2,
+   "zero (unbroken symmetry) | massless (holomorphy)": 2,
+   "zero (unbroken symmetry) | massless (unbroken symmetry)": 10
+  },
+  "Z12-I weakest": {
+   "nonzero | massive": 3,
+   "nonzero | massless (holomorphy)": 3,
+   "nonzero | massless (unbroken symmetry)": 8
+  },
+  "Z3xZ3 extended": {
+   "nonzero | massive": 28
+  },
+  "Z3xZ3 minimal": {
+   "zero (unbroken symmetry) | massless (unbroken symmetry)": 36
+  }
+ },
+ "vacua": {
+  "Z12-I Z2^R": {
+   "Z12-I|Z12I_0099__SM_20260926_17": {
+    "W": "zero (unbroken symmetry)",
+    "exotic": "massless (holomorphy)",
+    "n_exotic": 3,
+    "pairs": 18,
+    "r_neutral_pairs": 0,
+    "rank_holomorphic": 1,
+    "rank_lattice": 3
+   },
+   "Z12-I|Z12I_0394__SM_20260926_852": {
+    "W": "zero (unbroken symmetry)",
+    "exotic": "massive",
+    "n_exotic": 2,
+    "pairs": 10,
+    "r_neutral_pairs": 0,
+    "rank_holomorphic": 2,
+    "rank_lattice": 2
+   },
+   "Z12-I|Z12I_0680__SM_20260926_310": {
+    "W": "zero (unbroken symmetry)",
+    "exotic": "massless (unbroken symmetry)",
+    "n_exotic": 3,
+    "pairs": 18,
+    "r_neutral_pairs": 0,
+    "rank_holomorphic": 0,
+    "rank_lattice": 0
+   },
+   "Z12-I|Z12I_0688__SM_20260926_600": {
+    "W": "zero (unbroken symmetry)",
+    "exotic": "massless (unbroken symmetry)",
+    "n_exotic": 3,
+    "pairs": 18,
+    "r_neutral_pairs": 6,
+    "rank_holomorphic": 0,
+    "rank_lattice": 0
+   },
+   "Z12-I|Z12I_0738__SM_20260926_898": {
+    "W": "zero (unbroken symmetry)",
+    "exotic": "massless (unbroken symmetry)",
+    "n_exotic": 4,
+    "pairs": 28,
+    "r_neutral_pairs": 3,
+    "rank_holomorphic": 1,
+    "rank_lattice": 1
+   },
+   "Z12-I|Z12I_0964__SM_20260926_264": {
+    "W": "zero (unbroken symmetry)",
+    "exotic": "massless (unbroken symmetry)",
+    "n_exotic": 2,
+    "pairs": 10,
+    "r_neutral_pairs": 4,
+    "rank_holomorphic": 0,
+    "rank_lattice": 0
+   },
+   "Z12-I|Z12I_0966__SM_20260926_75": {
+    "W": "zero (unbroken symmetry)",
+    "exotic": "massless (unbroken symmetry)",
+    "n_exotic": 3,
+    "pairs": 18,
+    "r_neutral_pairs": 2,
+    "rank_holomorphic": 0,
+    "rank_lattice": 1
+   },
+   "Z12-I|Z12I_0976__SM_20260926_182": {
+    "W": "zero (unbroken symmetry)",
+    "exotic": "massless (holomorphy)",
+    "n_exotic": 3,
+    "pairs": 18,
+    "r_neutral_pairs": 4,
+    "rank_holomorphic": 1,
+    "rank_lattice": 3
+   },
+   "Z12-I|Z12I_1033__SM_20260926_477": {
+    "W": "zero (unbroken symmetry)",
+    "exotic": "massless (unbroken symmetry)",
+    "n_exotic": 3,
+    "pairs": 18,
+    "r_neutral_pairs": 3,
+    "rank_holomorphic": 2,
+    "rank_lattice": 2
+   },
+   "Z12-I|Z12I_1035__SM_20260926_315": {
+    "W": "zero (unbroken symmetry)",
+    "exotic": "massless (unbroken symmetry)",
+    "n_exotic": 3,
+    "pairs": 18,
+    "r_neutral_pairs": 6,
+    "rank_holomorphic": 0,
+    "rank_lattice": 0
+   },
+   "Z12-I|Z12I_1063__SM_20260926_303": {
+    "W": "zero (unbroken symmetry)",
+    "exotic": "massive",
+    "n_exotic": 4,
+    "pairs": 28,
+    "r_neutral_pairs": 1,
+    "rank_holomorphic": 4,
+    "rank_lattice": 4
+   },
+   "Z12-I|Z12I_1116__SM_20260926_367": {
+    "W": "zero (unbroken symmetry)",
+    "exotic": "massless (unbroken symmetry)",
+    "n_exotic": 3,
+    "pairs": 18,
+    "r_neutral_pairs": 6,
+    "rank_holomorphic": 0,
+    "rank_lattice": 0
+   },
+   "Z12-I|Z12I_1149__SM_20260926_950": {
+    "W": "zero (unbroken symmetry)",
+    "exotic": "massless (unbroken symmetry)",
+    "n_exotic": 1,
+    "pairs": 5,
+    "r_neutral_pairs": 0,
+    "rank_holomorphic": 0,
+    "rank_lattice": 0
+   },
+   "Z12-I|Z12I_1151__SM_20260926_659": {
+    "W": "zero (unbroken symmetry)",
+    "exotic": "massless (unbroken symmetry)",
+    "n_exotic": 3,
+    "pairs": 18,
+    "r_neutral_pairs": 0,
+    "rank_holomorphic": 0,
+    "rank_lattice": 0
+   }
+  },
+  "Z12-I weakest": {
+   "Z12-I|Z12I_0099__SM_20260926_17": {
+    "W": "nonzero",
+    "exotic": "massless (holomorphy)",
+    "n_exotic": 3,
+    "pairs": 18,
+    "r_neutral_pairs": 9,
+    "rank_holomorphic": 1,
+    "rank_lattice": 3
+   },
+   "Z12-I|Z12I_0394__SM_20260926_852": {
+    "W": "nonzero",
+    "exotic": "massive",
+    "n_exotic": 2,
+    "pairs": 10,
+    "r_neutral_pairs": 4,
+    "rank_holomorphic": 2,
+    "rank_lattice": 2
+   },
+   "Z12-I|Z12I_0680__SM_20260926_310": {
+    "W": "nonzero",
+    "exotic": "massless (unbroken symmetry)",
+    "n_exotic": 3,
+    "pairs": 18,
+    "r_neutral_pairs": 0,
+    "rank_holomorphic": 0,
+    "rank_lattice": 0
+   },
+   "Z12-I|Z12I_0688__SM_20260926_600": {
+    "W": "nonzero",
+    "exotic": "massless (unbroken symmetry)",
+    "n_exotic": 3,
+    "pairs": 18,
+    "r_neutral_pairs": 6,
+    "rank_holomorphic": 0,
+    "rank_lattice": 2
+   },
+   "Z12-I|Z12I_0738__SM_20260926_898": {
+    "W": "nonzero",
+    "exotic": "massless (unbroken symmetry)",
+    "n_exotic": 4,
+    "pairs": 28,
+    "r_neutral_pairs": 4,
+    "rank_holomorphic": 2,
+    "rank_lattice": 2
+   },
+   "Z12-I|Z12I_0964__SM_20260926_264": {
+    "W": "nonzero",
+    "exotic": "massless (holomorphy)",
+    "n_exotic": 2,
+    "pairs": 10,
+    "r_neutral_pairs": 4,
+    "rank_holomorphic": 0,
+    "rank_lattice": 2
+   },
+   "Z12-I|Z12I_0966__SM_20260926_75": {
+    "W": "nonzero",
+    "exotic": "massless (unbroken symmetry)",
+    "n_exotic": 3,
+    "pairs": 18,
+    "r_neutral_pairs": 4,
+    "rank_holomorphic": 0,
+    "rank_lattice": 1
+   },
+   "Z12-I|Z12I_0976__SM_20260926_182": {
+    "W": "nonzero",
+    "exotic": "massless (holomorphy)",
+    "n_exotic": 3,
+    "pairs": 18,
+    "r_neutral_pairs": 9,
+    "rank_holomorphic": 1,
+    "rank_lattice": 3
+   },
+   "Z12-I|Z12I_1033__SM_20260926_477": {
+    "W": "nonzero",
+    "exotic": "massive",
+    "n_exotic": 3,
+    "pairs": 18,
+    "r_neutral_pairs": 9,
+    "rank_holomorphic": 3,
+    "rank_lattice": 3
+   },
+   "Z12-I|Z12I_1035__SM_20260926_315": {
+    "W": "nonzero",
+    "exotic": "massless (unbroken symmetry)",
+    "n_exotic": 3,
+    "pairs": 18,
+    "r_neutral_pairs": 6,
+    "rank_holomorphic": 0,
+    "rank_lattice": 2
+   },
+   "Z12-I|Z12I_1063__SM_20260926_303": {
+    "W": "nonzero",
+    "exotic": "massive",
+    "n_exotic": 4,
+    "pairs": 28,
+    "r_neutral_pairs": 13,
+    "rank_holomorphic": 4,
+    "rank_lattice": 4
+   },
+   "Z12-I|Z12I_1116__SM_20260926_367": {
+    "W": "nonzero",
+    "exotic": "massless (unbroken symmetry)",
+    "n_exotic": 3,
+    "pairs": 18,
+    "r_neutral_pairs": 6,
+    "rank_holomorphic": 0,
+    "rank_lattice": 2
+   },
+   "Z12-I|Z12I_1149__SM_20260926_950": {
+    "W": "nonzero",
+    "exotic": "massless (unbroken symmetry)",
+    "n_exotic": 1,
+    "pairs": 5,
+    "r_neutral_pairs": 0,
+    "rank_holomorphic": 0,
+    "rank_lattice": 0
+   },
+   "Z12-I|Z12I_1151__SM_20260926_659": {
+    "W": "nonzero",
+    "exotic": "massless (unbroken symmetry)",
+    "n_exotic": 3,
+    "pairs": 18,
+    "r_neutral_pairs": 0,
+    "rank_holomorphic": 0,
+    "rank_lattice": 0
+   }
+  },
+  "Z3xZ3 extended": {
+   "z3z3|Z3Z3_0001_c3__SM_20260934_739": [
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 1,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 1,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 1,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    }
+   ],
+   "z3z3|Z3Z3_0001_c4__SM_20260935_3729": [
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    },
+    {
+     "W": "nonzero",
+     "exotic": "massive",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 1,
+     "rank_holomorphic": 1,
+     "rank_lattice": 1
+    }
+   ]
+  },
+  "Z3xZ3 minimal": {
+   "z3z3|Z3Z3_0001_c3__SM_20260934_739": [
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 1,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 1,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 1,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 1,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 1,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 1,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 1,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 1,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    }
+   ],
+   "z3z3|Z3Z3_0001_c4__SM_20260935_3729": [
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 2,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 1,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 1,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 1,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    },
+    {
+     "W": "zero (unbroken symmetry)",
+     "exotic": "massless (unbroken symmetry)",
+     "n_exotic": 1,
+     "pairs": 4,
+     "r_neutral_pairs": 1,
+     "rank_holomorphic": 0,
+     "rank_lattice": 0
+    }
+   ]
+  }
+ }
+}
