@@ -1,0 +1,192 @@
+{
+  "boundary": "The equality min_glue=q-1 is an exhaustive finite observation only for q<=13 and is not promoted to an all-primes theorem. The all-prime root no-go is the separate MDS inequality inherited from Pass 10970. No continuum or physical dimensional interpretation is inferred.",
+  "checks": {
+    "all_prime_bound_q_ge5_excludes_new_roots": true,
+    "exact_minima_through_13_are_q_minus_1": true,
+    "q13_deep_denominator_62748516": true,
+    "q3_glue_hits_root_norm": true,
+    "q3_root_inflation_24_to_240": true,
+    "q5_q7_q11_q13_no_glue_roots": true,
+    "q_ge5_root_shell_is_base_only": true
+  },
+  "exact_census": [
+    {
+      "code": "[4,2,3]_3",
+      "codewords_nonzero": 8,
+      "dimension": 8,
+      "example_coefficients": [
+        1,
+        0
+      ],
+      "minimum_codewords": 8,
+      "minimum_glue_norm": 2,
+      "q": 3
+    },
+    {
+      "code": "[6,3,4]_5",
+      "codewords_nonzero": 124,
+      "dimension": 24,
+      "example_coefficients": [
+        1,
+        0,
+        0
+      ],
+      "minimum_codewords": 72,
+      "minimum_glue_norm": 4,
+      "q": 5
+    },
+    {
+      "code": "[8,4,5]_7",
+      "codewords_nonzero": 2400,
+      "dimension": 48,
+      "example_coefficients": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "minimum_codewords": 240,
+      "minimum_glue_norm": 6,
+      "q": 7
+    },
+    {
+      "code": "[12,6,7]_11",
+      "codewords_nonzero": 1771560,
+      "dimension": 120,
+      "example_coefficients": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_codewords": 552,
+      "minimum_glue_norm": 10,
+      "q": 11
+    },
+    {
+      "code": "[14,7,8]_13",
+      "codewords_nonzero": 62748516,
+      "dimension": 168,
+      "example_coefficients": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_codewords": 756,
+      "minimum_glue_norm": 12,
+      "q": 13
+    }
+  ],
+  "general_root_firewall": {
+    "factorization": "(q-3)(q+1)>0 for every odd prime q>=5",
+    "rows": [
+      {
+        "MDS_distance": 3,
+        "MDS_glue_norm_lower_bound": "2/1",
+        "base_root_count": 24,
+        "base_root_system": "A_2^4",
+        "base_root_to_rank_ratio": 3,
+        "can_create_norm2_roots_by_bound": true,
+        "lower_bound_float": 2.0,
+        "q": 3,
+        "rank": 8
+      },
+      {
+        "MDS_distance": 4,
+        "MDS_glue_norm_lower_bound": "16/5",
+        "base_root_count": 120,
+        "base_root_system": "A_4^6",
+        "base_root_to_rank_ratio": 5,
+        "can_create_norm2_roots_by_bound": false,
+        "lower_bound_float": 3.2,
+        "q": 5,
+        "rank": 24
+      },
+      {
+        "MDS_distance": 5,
+        "MDS_glue_norm_lower_bound": "30/7",
+        "base_root_count": 336,
+        "base_root_system": "A_6^8",
+        "base_root_to_rank_ratio": 7,
+        "can_create_norm2_roots_by_bound": false,
+        "lower_bound_float": 4.285714285714286,
+        "q": 7,
+        "rank": 48
+      },
+      {
+        "MDS_distance": 7,
+        "MDS_glue_norm_lower_bound": "70/11",
+        "base_root_count": 1320,
+        "base_root_system": "A_10^12",
+        "base_root_to_rank_ratio": 11,
+        "can_create_norm2_roots_by_bound": false,
+        "lower_bound_float": 6.363636363636363,
+        "q": 11,
+        "rank": 120
+      },
+      {
+        "MDS_distance": 8,
+        "MDS_glue_norm_lower_bound": "96/13",
+        "base_root_count": 2184,
+        "base_root_system": "A_12^14",
+        "base_root_to_rank_ratio": 13,
+        "can_create_norm2_roots_by_bound": false,
+        "lower_bound_float": 7.384615384615385,
+        "q": 13,
+        "rank": 168
+      }
+    ],
+    "theorem": "For every odd prime q>=5, the self-dual MDS distance gives minimum nonzero glue norm >2. Hence no nontrivial glue coset can add roots; the root system stays A_{q-1}^{q+1}."
+  },
+  "headline": "The projective clock-code lattice tower is extended by exhaustive Euclidean-glue censuses at q=11 and q=13. The exact minimum glue norms for q=3,5,7,11,13 are 2,4,6,10,12=q-1. This q-1 pattern is certified only through q=13. Independently, the MDS lower bound proves for every odd prime q>=5 that glue norm is >2, so q=3 is the unique rung capable of creating new roots.",
+  "q13_reproduction": {
+    "deep_flag": "--deep-q13",
+    "default": "uses the frozen result of the completed exhaustive 13^7-1 scan",
+    "nonzero_codewords_checked": 62748516
+  },
+  "root_shells": [
+    {
+      "q": 3,
+      "rank": 8,
+      "root_count": 240,
+      "root_system_reading": "E8 after glue creates 216 additional roots",
+      "root_to_rank_ratio": "30"
+    },
+    {
+      "q": 5,
+      "rank": 24,
+      "root_count": 120,
+      "root_system_reading": "A_4^6",
+      "root_to_rank_ratio": "5"
+    },
+    {
+      "q": 7,
+      "rank": 48,
+      "root_count": 336,
+      "root_system_reading": "A_6^8",
+      "root_to_rank_ratio": "7"
+    },
+    {
+      "q": 11,
+      "rank": 120,
+      "root_count": 1320,
+      "root_system_reading": "A_10^12",
+      "root_to_rank_ratio": "11"
+    },
+    {
+      "q": 13,
+      "rank": 168,
+      "root_count": 2184,
+      "root_system_reading": "A_12^14",
+      "root_to_rank_ratio": "13"
+    }
+  ],
+  "schema": "w33.pass11027.prime-clock-lattice-census.v1",
+  "status": "PASS"
+}

@@ -18,18 +18,22 @@ def test_certificate_replays_exactly():
     assert P.payload() == CERT
 
 
-def test_mckay_graph_is_affine_e7_shape():
-    assert len(CERT["spin2a_mckay_edges"]) == 7
-    assert len(CERT["spin2b_mckay_edges"]) == 7
-    assert CERT["affine_dimension_vector"] == [1, 1, 2, 2, 2, 3, 3, 4]
-def test_clock_spinor_tensor_saturates_all_nonlinear_nodes():
+def test_corrected_tensor_quiver_is_directed_not_e7_tree():
+    assert len(CERT["spin2a_directed_edges"]) == 14
+    assert len(CERT["spin2b_directed_edges"]) == 14
+    assert len(CERT["underlying_undirected_edges"]) == 11
+    assert CERT["checks"]["two_faithful_quivers_are_transposes"] is True
+    assert CERT["checks"]["faithful_tensor_matrix_is_not_symmetric"] is True
+
+
+def test_clock_tensor_saturation_survives_correction():
     ident = CERT["exact_identities"]["full"]
     assert ident.startswith("S tensor V24 = 3*(")
     assert CERT["checks"]["clock_tensor_spin2a_saturates_nonlinear"] is True
     assert CERT["checks"]["clock_tensor_spin2b_saturates_nonlinear"] is True
 
 
-def test_central_halves_saturate_opposite_bipartitions():
+def test_central_halves_saturate_opposite_parity_types():
     assert CERT["exact_identities"]["plus"] == (
         "S tensor Vplus = 3*(spin_2a + spin_2b + spin_4)"
     )
@@ -38,7 +42,8 @@ def test_central_halves_saturate_opposite_bipartitions():
     )
 
 
-def test_graph_vector_identities():
-    assert CERT["checks"]["dimension_vector_is_affine_null_mark"] is True
+def test_tensor_dimension_and_second_order_identities():
+    assert CERT["checks"]["dimension_vector_tensor_eigenvalue_2"] is True
     assert CERT["checks"]["green_identity"] is True
+    assert CERT["irrep_dimension_vector"] == [1, 1, 2, 2, 2, 3, 3, 4]
     assert CERT["clock_multiplicity_vector"] == [2, 1, 0, 0, 0, 1, 2, 3]

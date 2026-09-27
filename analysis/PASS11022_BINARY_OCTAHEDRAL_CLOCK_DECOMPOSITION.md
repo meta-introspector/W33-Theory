@@ -4,6 +4,11 @@ Producer: `analysis/w33_pass11022_binary_octahedral_clock_decomposition.py`
 Certificate: `data/w33_pass11022_binary_octahedral_clock_decomposition.json`
 Regression: `tests/test_w33_pass11022_binary_octahedral_clock_decomposition.py`
 
+> **Terminology correction (Pass 11025).** The numerical decomposition below is
+> unchanged, but (GL_2(3)) is the plus Schur cover (2^+S_4), not the
+> non-isomorphic binary-octahedral minus cover (2^-S_4). Accordingly the
+> classical (SU(2))/ADE McKay identification does not apply to this group.
+
 Pass 11021 identified the minimal exact signed clock carrier as the 24
 noncentral coordinates of the current (H_{27}) gauge.
 
@@ -113,7 +118,8 @@ This is not merely a global dimension balance.
 Take the four coarse fibre indicators from Pass 11021 and project them using
 
 [
-P_pm=rac{1}{2}(1pm z).
+P_pm=
+rac{1}{2}(1pm z).
 ]
 
 Closing either projected set under the exact signed group gives rank 12.
@@ -123,15 +129,16 @@ generators (v_1-v_4,v_2-v_4,v_3-v_4): their plus projections span all of
 So the three-dimensional clock order parameter is genuinely a coarse seed for
 both exact twelve-dimensional sectors.
 
-## External context
+## Cover-type firewall
 
-Classically, (GL_2(3)) is the binary-octahedral double cover of the rotational
-octahedral group (S_4). Under the McKay correspondence the binary octahedral
-group is the affine-(E_7) case.
+The exact group is (GL_2(3)=2^+S_4). It has 13 nonidentity involutions.
+That alone rules out a faithful embedding in (SL_2(mathbb C)), because a
+finite subgroup of (SL_2(mathbb C)) has only one nontrivial involution,
+(-I). Binary octahedral is the other, non-isomorphic Schur cover
+(2^-S_4).
 
-Those are prior-art identifications. The repository result is narrower and
-objectwise: the already-certified 24-coordinate clock carrier is now placed
-inside the irreducible representation ring of that exact group.
+The repository result here is therefore strictly a decomposition in the
+complex representation ring of the exact (GL_2(3)) action.
 
 ## Boundary
 
@@ -139,5 +146,9 @@ inside the irreducible representation ring of that exact group.
 the double cover acts as (-1). It does **not** identify these twelve modes
 with physical fermions, Lorentz spinors, or particle species.
 
-Likewise the McKay (E_7) association does not by itself produce an
-(E_7) gauge theory, spacetime symmetry, or dynamics.
+Pass 11023 originally reported an affine-(E_7) tensor graph because its
+order-eight cyclotomic character values had been simplified incorrectly from
+(pm isqrt2) to (pmsqrt2). Pass 11025 corrects that arithmetic: the
+faithful 2D tensor quiver is directed and non-symmetric, and its underlying
+undirected graph has 11 edges rather than the seven-edge affine-(E_7) tree.
+No (E_7) gauge theory, spacetime symmetry, or dynamics is inferred.

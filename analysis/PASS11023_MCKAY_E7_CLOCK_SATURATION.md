@@ -1,164 +1,95 @@
-# Pass 11023 — The clock carrier has an exact affine-E7 McKay placement
+# Pass 11023 — corrected GL2(3) directed tensor saturation
 
 Producer: `analysis/w33_pass11023_mckay_e7_clock_saturation.py`
 Certificate: `data/w33_pass11023_mckay_e7_clock_saturation.json`
 Regression: `tests/test_w33_pass11023_mckay_e7_clock_saturation.py`
 
-Pass 11022 decomposed the exact 24-dimensional signed clock carrier under
-(GL_2(3)), the binary-octahedral double cover of (S_4).
+The filename is retained for provenance. Pass 11025 corrects the original
+McKay/E7 interpretation.
 
-This pass reconstructs the McKay graph directly from that same exact character
-table and places the clock multiplicity vector on it.
-## Reconstruct the graph
-
-Choose either faithful two-dimensional spinor (S). For every irreducible
-representation (
-ho_i), decompose
+Pass 11022 decomposes the exact 24-dimensional signed clock carrier under
+(GL_2(3)). The GAP character table has two faithful two-dimensional
+characters whose order-eight values are
 
 [
-Sotimes
-ho_i.
+pm isqrt2,
 ]
 
-The resulting adjacency graph has eight nodes, seven simple edges, is connected,
-and has degree sequence
+not (pmsqrt2). With those cyclotomic values restored, the faithful tensor
+matrix is not symmetric.
+Let (A) denote tensoring irreducibles by one faithful 2D irrep and (B)
+tensoring by its conjugate. The exact result is
 
 [
-1,1,1,2,2,2,2,3.
+oxed{B=A^T,qquad A
+e A^T.}
 ]
 
-Removing the trivial node leaves the seven-node finite (E_7) tree, with the
-four-dimensional spinorial node as the trivalent branch.
-For one choice of the defining spinor, the edges are
+Each quiver has 14 directed edges and is strongly connected. The underlying
+undirected graph has 11 edges, so it is **not** the seven-edge affine-(E_7)
+tree.
+
+For (A), the arrows are
 
 [
-mathbf1-2_a-3_t-4_s-3-2_b-det
+egin{aligned}
+1&	o2_a, & det&	o2_b, & 2_q&	o4,\
+2_a&	odet+3, & 2_b&	o1+3_t,\
+3_t&	o2_a+4, & 3&	o2_b+4,\
+4&	o2_q+3_t+3.
+end{aligned}
 ]
-
-together with the branch
+The irreducible dimension vector remains
 
 [
-2_q-4_s.
+d=(1,1,2,2,2,3,3,4),
 ]
 
-The other faithful two-dimensional spinor gives the determinant-twisted
-version of the same graph.
-
-The irreducible dimension vector is
+and the ordinary tensor-dimension identity holds:
 
 [
-d=(1,1,2,2,2,3,3,4)
+oxed{Ad=Bd=2d}.
 ]
 
-and the executable calculation verifies the affine McKay relation
+The exact clock multiplicity vector is still
 
 [
-oxed{A d=2d}.
-]
-## Place the actual clock carrier
-
-Pass 11022 gives the multiplicity vector
-
-[
-m=(2,1,0,0,0,1,2,3)
+m=(2,1,0,0,0,1,2,3).
 ]
 
-in the node order
-
-[
-(mathbf1,det,2_q,2_a,2_b,3_t,3,4_s).
-]
-
-Let (n_{
-m nonlin}) be the indicator of the six irreducibles of dimension
-greater than one:
-
-[
-n_{
-m nonlin}=(0,0,1,1,1,1,1,1).
-]
-
-Then for **either** defining spinor,
-
-[
-oxed{A m=3n_{
-m nonlin}}.
-]
-Equivalently,
+Remarkably, the strongest saturation identity from the original pass survives
+the correction unchanged. For **either** faithful 2D irrep (S),
 
 [
 oxed{
 Sotimes V_{24}
 =
-3(2_qoplus2_aoplus2_boplus3_toplus3oplus4_s).
+3(2_qoplus2_aoplus2_boplus3_toplus3oplus4).
 }
 ]
-
-So tensoring the actual clock carrier by one defining spinor populates every
-non-one-dimensional McKay node with exactly the same multiplicity three, while
-both one-dimensional leaves vanish.
-
-This is much stronger than merely observing that the group belongs to the
-binary-octahedral/ADE family.
-## The 12 + 12 split saturates opposite bipartitions
-
-Write
+The central (12+12) split also survives:
 
 [
-V_{24}=V_+oplus V_-
-]
-
-for the central-(-I) eigenspaces of Pass 11022.
-
-The plus sector contains only representations descending to (S_4). The minus
-sector is (3,4_s). Tensoring by (S) flips central parity and gives
-
-[
-oxed{
 Sotimes V_+
-=
-3(2_aoplus2_boplus4_s),
-}
+=3(2_aoplus2_boplus4),
 ]
 
 [
-oxed{
 Sotimes V_-
-=
-3(2_qoplus3_toplus3).
-}
+=3(2_qoplus3_toplus3).
 ]
-Thus each twelve-dimensional half lands on **all three** nontrivial nodes of
-the opposite McKay bipartition, uniformly with multiplicity three.
 
-A second exact graph identity follows:
+Likewise
 
 [
-A,n_{
-m nonlin}=d-n_{
-m nonlin},
+A(A+I)m=3d.
 ]
 
-hence
+These are exact representation-ring identities of (GL_2(3)). They are not
+classical ADE McKay statements.
 
-[
-oxed{A(A+I)m=3d}.
-]
-
-This gives a compact graph-theoretic characterization of the clock
-multiplicity vector relative to the affine-(E_7) dimension vector.
-## Prior-art boundary
-
-The McKay correspondence between the binary octahedral group and affine
-(E_7) is classical. The repository increment is the placement of the
-**already-derived signed W33/H27 clock carrier** in that representation ring,
-including the exact saturation identities above.
-
-## Boundary
-
-No (E_7) Lie-algebra gauge symmetry has been derived here. The McKay graph is
-a representation graph of the finite group (GL_2(3)); its ADE label does not
-supply gauge bosons, a continuum action, masses, or couplings.
-
-Likewise the tensor product by a defining spinor is an exact operation in the
-finite representation ring, not yet a physical interaction vertex.
+The group itself is (GL_2(3)=2^+S_4), SmallGroup(48,29), with 13
+nonidentity involutions. Binary octahedral is the non-isomorphic minus cover
+(2^-S_4) and is the group occurring in the classical (SU(2)) affine-(E_7)
+McKay correspondence. The exact clock saturation found here therefore stands
+on its own, without an (E_7) group identification.

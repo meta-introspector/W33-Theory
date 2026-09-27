@@ -1,5 +1,5 @@
 {
-  "boundary": "The words 'spinorial' and 'binary octahedral' are representation-theoretic: central -I acts as -1 on the 4D irrep and the group is the double cover of S4. This does not identify these 12 modes with physical fermions, spacetime spinors, or measured particle species. The ADE/McKay E7 association is classical external context, not a derived E7 gauge theory.",
+  "boundary": "Spinorial here means only that central -I acts as -1. GL2(3) is the plus Schur cover 2^+S4 and is non-isomorphic to binary octahedral 2^-S4; therefore the classical SU(2)/ADE McKay identification does not apply to this group. No physical fermion or gauge interpretation is inferred.",
   "center3": {
     "central_minus_I_eigenvalue": "+1 on all three dimensions",
     "character": [
@@ -104,6 +104,7 @@
   "checks": {
     "GL23_order48": true,
     "P1_standard_character_identified": true,
+    "all_2d_irreps_have_exterior_square_det": true,
     "augmentation_generates_both_12s": true,
     "center3_is_two_trivial_plus_det": true,
     "central_split_12_12": true,
@@ -112,6 +113,7 @@
     "clock_indicators_generate_both_12s": true,
     "eight_conjugacy_classes": true,
     "four_fibres_split_3_3": true,
+    "gl23_has_13_nonidentity_involutions": true,
     "minus_is_three_spin4": true,
     "no_spin2_in_24": true
   },
@@ -126,6 +128,7 @@
     "trivial": 2
   },
   "group": {
+    "SL2_embedding_firewall": "Every irreducible 2D character has exterior square equal to the nontrivial determinant character, not the trivial character.",
     "character_table_source_check": "independently matched against GAP CharacterTable(GL(2,3))",
     "class_orders": [
       1,
@@ -147,10 +150,17 @@
       6,
       12
     ],
-    "external_identification": "classically isomorphic to the binary octahedral double cover 2.S4",
+    "cover_firewall": "GL2(3) is not the binary octahedral group 2^-S4. Its 13 nonidentity involutions already forbid a faithful embedding in SL2(C), where -I is the unique nontrivial involution.",
     "name": "GL2(3)",
+    "nonidentity_involutions": 13,
     "order": 48,
-    "projective_quotient": "PGL2(3) ~= S4"
+    "projective_quotient": "PGL2(3) ~= S4",
+    "schur_cover_type": "2^+S4 = GL2(3)",
+    "two_dimensional_exterior_squares": {
+      "quotient_2d": "det",
+      "spin_2a": "det",
+      "spin_2b": "det"
+    }
   },
   "headline": "The minimal 24D signed clock carrier decomposes under GL2(3) as 2*1 + det + (3std x det) + 2*3std + 3*4spin. The central -I splits it canonically into a 12D S4-descending sector and a 12D sector consisting exactly of three copies of the faithful 4D spinorial irrep.",
   "representation_reading": {
@@ -159,6 +169,6 @@
     "fibre_law": "each six-coordinate projective clock direction resolves as 3+3 under the central double-cover involution",
     "spinorial_12": "3*spin_4"
   },
-  "schema": "w33.pass11022.binary-octahedral-clock-decomposition.v1",
+  "schema": "w33.pass11022.gl23-clock-decomposition.v2",
   "status": "PASS"
 }
