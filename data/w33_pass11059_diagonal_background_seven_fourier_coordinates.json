@@ -1,0 +1,31 @@
+{
+  "boundary": "This is an exact coordinate identity in the frozen K-Fourier gauge; it is not a dynamical vacuum-selection statement.",
+  "checks": {
+    "cyclotomic_formula_verified_at_103_and_109": true,
+    "minus_support7": true,
+    "plus_support7": true
+  },
+  "exact_formula": {
+    "center_minus_external": "v_minus = 2 L(0,0,0) + ((omega-1)/3) sum_r S1(2,r,0) + ((omega^2-1)/3) sum_r S2(1,r,0)",
+    "center_plus_external": "v_plus = 2 L(0,0,0) + ((omega-1)/3) sum_r S1(1,r,0) + ((omega^2-1)/3) sum_r S2(2,r,0)",
+    "nonzero_coordinates": 7
+  },
+  "headline": "The three-level diagonal background itself is exceptionally sparse in the same K-Fourier basis used by the compiler. For tau=c+p it has only seven nonzero coordinates: three S1 modes with external character t=1, three S2 modes with t=2, and the trivial L mode. The c-p orientation swaps t=1 and t=2. The cyclotomic coefficients are exact.",
+  "parents": [
+    "data/w33_pass11047_phase_weld_exact_54_right_inverse.json",
+    "data/w33_pass11058_triangle_factor_kernel_interference.json"
+  ],
+  "schema": "w33.pass11059.diagonal-background-seven-fourier-coordinates.v1",
+  "split_prime_certificates": {
+    "minus": [
+      {"nonzero_coordinates":7,"omega":46,"prime":103,"support":[["S1",2,0,0],["S1",2,1,0],["S1",2,2,0],["S2",1,0,0],["S2",1,1,0],["S2",1,2,0],["L",0,0,0]]},
+      {"nonzero_coordinates":7,"omega":45,"prime":109,"support":[["S1",2,0,0],["S1",2,1,0],["S1",2,2,0],["S2",1,0,0],["S2",1,1,0],["S2",1,2,0],["L",0,0,0]]}
+    ],
+    "plus": [
+      {"nonzero_coordinates":7,"omega":46,"prime":103,"support":[["S1",1,0,0],["S1",1,1,0],["S1",1,2,0],["S2",2,0,0],["S2",2,1,0],["S2",2,2,0],["L",0,0,0]]},
+      {"nonzero_coordinates":7,"omega":45,"prime":109,"support":[["S1",1,0,0],["S1",1,1,0],["S1",1,2,0],["S2",2,0,0],["S2",2,1,0],["S2",2,2,0],["L",0,0,0]]}
+    ]
+  },
+  "status": "PASS_DIAGONAL_WELD_BACKGROUND_IS_EXACTLY_SEVEN_SPARSE_IN_THE_K81_FOURIER_BASIS",
+  "structural_reading": "The background that unlocks all 54 retyped directions is not Fourier-generic. It is a coherent seven-mode seed coupling the trivial abelian mode to conjugate Schrodinger clock sectors."
+}

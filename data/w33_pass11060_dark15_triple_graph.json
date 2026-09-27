@@ -1,0 +1,37 @@
+{
+  "boundary": "Transversality is a finite linear-algebra statement in the frozen Fourier gauge. It does not by itself identify a protected physical code or decoherence-free subsystem.",
+  "checks": {
+    "both_orientations": true,
+    "kernel15": true,
+    "no_pure_sector_dark_vectors": true,
+    "projection_rank15_to_every_sector": true
+  },
+  "connection_to_background_ray": "Pass 11058 isolates one common local-kernel ray v; Pass 11059 shows that ray already mixes S1, S2 and L. The remaining 14 dark dimensions are likewise not confined to any single Fourier sector.",
+  "headline": "The 15D kernel of either diagonal rank-66 generator contains no nonzero vector lying purely in S1, S2, or L. Its projection onto each 27D Fourier sector has full rank 15 at both split primes. Thus the dark space is a genuinely mixed triple-graph subspace: every one of its 15 degrees of freedom is simultaneously visible in all three compiler sectors.",
+  "parents": [
+    "data/w33_pass11058_triangle_factor_kernel_interference.json",
+    "data/w33_pass11059_diagonal_background_seven_fourier_coordinates.json"
+  ],
+  "schema": "w33.pass11060.dark15-triple-graph.v1",
+  "sector_geometry": {
+    "interpretation": "the kernel is the graph of injective linear maps between its 15D projections in any chosen pair of sectors",
+    "kernel_dimension": 15,
+    "projection_rank_to_L": 15,
+    "projection_rank_to_S1": 15,
+    "projection_rank_to_S2": 15,
+    "pure_L_kernel_dimension": 0,
+    "pure_S1_kernel_dimension": 0,
+    "pure_S2_kernel_dimension": 0
+  },
+  "split_prime_certificates": {
+    "minus": [
+      {"kernel_dimension":15,"prime":103,"projection_ranks":{"L":15,"S1":15,"S2":15},"pure_sector_kernel_dimensions":{"L":0,"S1":0,"S2":0}},
+      {"kernel_dimension":15,"prime":109,"projection_ranks":{"L":15,"S1":15,"S2":15},"pure_sector_kernel_dimensions":{"L":0,"S1":0,"S2":0}}
+    ],
+    "plus": [
+      {"kernel_dimension":15,"prime":103,"projection_ranks":{"L":15,"S1":15,"S2":15},"pure_sector_kernel_dimensions":{"L":0,"S1":0,"S2":0}},
+      {"kernel_dimension":15,"prime":109,"projection_ranks":{"L":15,"S1":15,"S2":15},"pure_sector_kernel_dimensions":{"L":0,"S1":0,"S2":0}}
+    ]
+  },
+  "status": "PASS_THE_DIAGONAL_WELD_DARK15_IS_A_TRIPLE_GRAPH_TRANSVERSE_TO_S1_S2_AND_L"
+}
