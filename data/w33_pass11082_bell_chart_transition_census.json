@@ -1,0 +1,12 @@
+{
+  "boundary":"This is a finite chart-incidence theorem. The words finite and boundary refer to the Lagrangian big-cell atlas, not a continuum causal horizon.",
+  "checks":{"all780_pairs_checked":true,"profile_18_9_9_4":true,"unique_profile":true},
+  "design_derivation":"The boundary blocks form 2-(40,13,4). Thus two boundaries meet in 4; each has 9 exclusive contexts; their complement has 40-(13+13-4)=18 contexts.",
+  "headline":"For any two distinct Bell-line centers B and C, the 40 global line contexts split uniformly into 18 finite in both charts, 9 finite in B but boundary in C, 9 boundary in B but finite in C, and 4 boundary in both. All 780 unordered chart pairs have exactly the same census.",
+  "interpretation":"Changing Bell polarization has a fixed finite cost: exactly nine currently finite histories cross the old/new chart boundary in each direction, while eighteen remain finite and four remain boundary.",
+  "pair_census":{"distinct_transition_profiles":1,"pairs_with_profile":780,"profile":"18/9/9/4","unordered_chart_pairs":780},
+  "parents":["data/w33_pass11079_bell_chart_history_boundary_design.json"],
+  "schema":"w33.pass11082.bell-chart-transition-census.v1",
+  "status":"PASS_EVERY_DISTINCT_BELL_CHART_PAIR_HAS_THE_SAME_18_9_9_4_FINITE_BOUNDARY_TRANSITION_CENSUS",
+  "transition_partition":{"boundary_B_boundary_C":4,"boundary_B_finite_C":9,"finite_B_boundary_C":9,"finite_B_finite_C":18,"sum":40}
+}

@@ -1,0 +1,11 @@
+{
+  "boundary":"The four sheets are exact finite-group orientation data. Their physical interpretation as time/chirality choices requires a dynamical selection principle.",
+  "checks":{"PGSp_order51840":true,"T_S_commuting_involutions":true,"four_sheet_cover640_to160":true,"normalizer_order324":true,"quotient_V4":true,"root_group_normalized":true,"same_160_sylow3":true},
+  "deck_generators":{"S":{"location":"PGSp-PSp","matrix":"diag(1,-1,-1,1)","root_signs":["-","-","+","-"]},"T":{"location":"PSp","matrix":"diag(1,-1,1,-1)","root_signs":["-","+","-","+"]},"quotient":"V4","relations":["T^2=1","S^2=1","TS=ST"]},
+  "headline":"All Sylow-3 subgroups of PGSp(4,3) lie in its index-two PSp subgroup, so the 160 chamber U81 subgroups are unchanged. Hence N_PGSp(U81) has order 51840/160=324. The internal symplectic deck involution T and the outer anti-symplectic similitude S both normalize the C2 positive-root group, commute, and generate a V4 complementary to the 3-group U81. Therefore N_PGSp(U81)/U81 ~= V4 and PGSp/U81 has 640 elements, four over each of 160 flags.",
+  "orders":{"PGSp":51840,"PGSp_over_U81":640,"PSp":25920,"U81":81,"flags":160,"normalizer_PGSp":324,"normalizer_PSp":162,"normalizer_quotient_order":4,"sylow3_subgroups":160},
+  "parents":["data/PART_W33_PASS4519_FLAG_BOREL_SYLOW3_NORMALIZER.json","data/w33_pass11072_internal_borel_deck_involution.json","data/w33_pass11073_outer_similitude_tick_reversal.json"],
+  "schema":"w33.pass11084.pgsp-u81-four-sheet-cover.v1",
+  "status":"PASS_PGSP_NORMALIZER_OF_U81_IS_U81_SEMIDIRECT_V4_AND_G_OVER_U81_IS_A_FOUR_SHEET_FLAG_COVER",
+  "sylow_argument":"A 3-subgroup maps trivially to PGSp/PSp~=C2, so every PGSp Sylow-3 subgroup is contained in PSp. Thus the PSp census of 160 Sylow-3 subgroups is also the PGSp census."
+}
