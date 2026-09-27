@@ -49,7 +49,10 @@ def payload():
         B=np.array(basis,dtype=np.int64)
         R=(B@J@B.T)%3
         assert rank_mod(R)==2
-        assert np.all((R@np.array([next((c for c in range(3) if np.array_equal((c*B[0]+0*B[1]+0*B[2])%3,r%3)),0),0,0],dtype=np.int64))%3==0) or True
+        # r belongs to the 3-space r^perp and annihilates all of it.
+        # Since Omega|_(r^perp) has rank 2, its radical is exactly <r>.
+        assert rank_mod(np.vstack([B,r]))==3
+        assert all(om(r,b)==0 for b in B)
         for t in trans:
             for x in perp:
                 for y in perp:
