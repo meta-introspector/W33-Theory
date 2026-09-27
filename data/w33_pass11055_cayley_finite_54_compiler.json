@@ -1,0 +1,70 @@
+{
+  "boundary": "The Cayley transform is an exact finite unitary compiler in the algebraic carrier. It is not a proof that the physical device realizes the rational Cayley map as a single constant-Hamiltonian pulse; pulse synthesis, coupling calibration, loss and fault tolerance remain open.",
+  "checks": {
+    "all_real_nonzero_t_preserve_image_by_identity": true,
+    "both_orientations": true,
+    "mod103_t1_to10_rank66_projection54": true,
+    "mod109_t1_to10_rank66_projection54": true,
+    "orthogonal_by_skew_symmetry": true
+  },
+  "compiler_consequence": {
+    "finite_gate_covers_all_54_retyped_directions": true,
+    "finite_gate_exists_algebraically": true,
+    "gate_is_real_orthogonal_and_complex_unitary": true,
+    "tangent_only_obstruction_remaining": false
+  },
+  "headline": "For either diagonal cubic weld, D is real skew-symmetric of rank 66 and projects with rank 54 onto S2+L. The Cayley gate C_t=(I+tD)(I-tD)^-1 is defined for every real t, is exactly orthogonal, and for every nonzero real t has Im(C_t-I)=Im(D). Hence the full 54D dressed quotient is preserved at finite amplitude, not only to first order.",
+  "parents": [
+    "data/w33_pass11047_phase_weld_exact_54_right_inverse.json",
+    "data/w33_pass11054_cubic_jacobian_skew_orthogonal_flow.json"
+  ],
+  "schema": "w33.pass11055.cayley-finite-54-compiler.v1",
+  "split_prime_replays": {
+    "center_minus_external": [
+      {
+        "cayley_minus_identity_rank": 66,
+        "denominator_rank": 81,
+        "orthogonal": true,
+        "prime": 103,
+        "retyped_quotient_rank": 54,
+        "tested_nonzero_t": [1,2,3,4,5,6,7,8,9,10]
+      },
+      {
+        "cayley_minus_identity_rank": 66,
+        "denominator_rank": 81,
+        "orthogonal": true,
+        "prime": 109,
+        "retyped_quotient_rank": 54,
+        "tested_nonzero_t": [1,2,3,4,5,6,7,8,9,10]
+      }
+    ],
+    "center_plus_external": [
+      {
+        "cayley_minus_identity_rank": 66,
+        "denominator_rank": 81,
+        "orthogonal": true,
+        "prime": 103,
+        "retyped_quotient_rank": 54,
+        "tested_nonzero_t": [1,2,3,4,5,6,7,8,9,10]
+      },
+      {
+        "cayley_minus_identity_rank": 66,
+        "denominator_rank": 81,
+        "orthogonal": true,
+        "prime": 109,
+        "retyped_quotient_rank": 54,
+        "tested_nonzero_t": [1,2,3,4,5,6,7,8,9,10]
+      }
+    ]
+  },
+  "status": "PASS_CAYLEY_TRANSFORM_UPGRADES_THE_TANGENT_WELD_TO_A_FINITE_ORTHOGONAL_54D_COMPILER",
+  "theorem": {
+    "gate": "C_t=(I+tD)(I-tD)^-1",
+    "image_identity": "C_t-I=2t D (I-tD)^-1",
+    "kernel_identity": "ker(C_t-I)=ker(D) for t!=0",
+    "orthogonality": "C_t^T C_t=I",
+    "rank_for_diagonal_weld": 66,
+    "real_denominator_never_singular": "det(I-tD)=product_j(1+t^2 lambda_j^2)>0",
+    "retyped_quotient_rank_for_diagonal_weld": 54
+  }
+}
