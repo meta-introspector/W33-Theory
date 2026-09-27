@@ -1,0 +1,104 @@
+{
+  "boundary": "This is incidence tomography on W33 operator directions. Pass 11038 shows that the off-Bell rays are not individually CPTP channels, so a laboratory protocol still needs a CP measurement/dilation map whose reconstructed linear responses realize this incidence frame.",
+  "checks": {
+    "36_offBell_by_27_transverse_incidence": true,
+    "Gram_spectrum_12_6_3_0": true,
+    "all_cross_sector_blocks_rank3": true,
+    "column_weight_4": true,
+    "rank_21_mod_small_primes": true,
+    "rational_rank_21": true,
+    "row_weight_3": true,
+    "sector_rank_increments_9_6_4_2": true
+  },
+  "cross_sector_blocks": {
+    "0-1": {
+      "ones": 27,
+      "rank": 3,
+      "row_sum": 3,
+      "zeros": 54
+    },
+    "0-2": {
+      "ones": 27,
+      "rank": 3,
+      "row_sum": 3,
+      "zeros": 54
+    },
+    "0-3": {
+      "ones": 27,
+      "rank": 3,
+      "row_sum": 3,
+      "zeros": 54
+    },
+    "1-2": {
+      "ones": 27,
+      "rank": 3,
+      "row_sum": 3,
+      "zeros": 54
+    },
+    "1-3": {
+      "ones": 27,
+      "rank": 3,
+      "row_sum": 3,
+      "zeros": 54
+    },
+    "2-3": {
+      "ones": 27,
+      "rank": 3,
+      "row_sum": 3,
+      "zeros": 54
+    }
+  },
+  "headline": "The proposed 4 x 9 Bell-relative response layout is exact but highly redundant. Incidence of the 36 off-Bell probes with the 27 transverse Lagrangian contexts is a 36x27 matrix of row weight 3 and column weight 4 with rank exactly 21 (over Q and over F2,F3,F5,F7,F11). Its Gram spectrum is 12^1, 6^12, 3^8, 0^6.",
+  "incidence": {
+    "Gram_RtR_spectrum": {
+      "0": 6,
+      "12": 1,
+      "3": 8,
+      "6": 12
+    },
+    "column_weight": 4,
+    "columns": "27 Lagrangian lines transverse to the Bell line",
+    "left_kernel_dimension": 15,
+    "rank_Q": 21,
+    "right_kernel_dimension": 6,
+    "row_weight": 3,
+    "rows": "36 off-Bell W33 points ordered as four Bell-relative sectors of 9",
+    "shape": [
+      36,
+      27
+    ],
+    "small_prime_ranks": {
+      "11": 21,
+      "2": 21,
+      "3": 21,
+      "5": 21,
+      "7": 21
+    }
+  },
+  "physical_reading": "The 4x9 layout is best treated as an overcomplete response frame, not 36 independent observables. Its nonzero singular sectors have multiplicities 1,12,8, suggestively close to the repo's finite-light-cone decomposition, but this packet does not identify those eigenspaces with physical memory orders without an explicit intertwiner.",
+  "schema": "w33.pass11039.bell-relative-tomography-rank.v1",
+  "sector_growth": {
+    "rank_by_number_of_complete_9_point_sheets": {
+      "1": {
+        "9": 4
+      },
+      "2": {
+        "15": 6
+      },
+      "3": {
+        "19": 4
+      },
+      "4": {
+        "21": 1
+      }
+    },
+    "reading": "one sheet carries rank 9; a second adds 6; a third adds 4; the fourth adds only 2. Thus the 36-response atlas has 15 exact linear redundancies and cannot reconstruct an arbitrary 27-parameter history vector without six additional gauge/normalization conditions.",
+    "successive_rank_increments": [
+      9,
+      6,
+      4,
+      2
+    ]
+  },
+  "status": "PASS"
+}
