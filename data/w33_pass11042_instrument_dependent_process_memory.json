@@ -1,0 +1,56 @@
+{
+  "boundary": "This is the minimal one-slot comb, not a full many-slot process-tensor reconstruction. It proves the causal/instrument-dependence principle; the next hardware packet should construct CP W33-derived instruments and repeat the conditional-memory test on the signed 24-mode carrier.",
+  "checks": {
+    "X_instrument_exposes_log2_3_memory": true,
+    "Z_instrument_screens_past_future": true,
+    "both_instruments_normalized_uniform_outcomes": true,
+    "classical_causal_trace": true,
+    "classical_comb_positive": true,
+    "classical_process_negativity_zero": true,
+    "coherent_causal_trace": true,
+    "coherent_comb_positive": true,
+    "coherent_process_negativity_one": true,
+    "comb_trace_is_output_dimension": true
+  },
+  "conceptual_result": "This is an exact finite example of instrument-specific Markov order. Memory disappearing under one intervention family does not mean the underlying process is globally memoryless, and memory reappearing under another family does not imply retrocausality.",
+  "connection_to_W33": "Passes 11038-11039 provide candidate W33 operator frames for such instrument comparisons, but the raw off-Bell rays need CP completion before they can replace the physical Z/Fourier instruments used in this control.",
+  "headline": "A fully positive, causally normalized qutrit one-slot process already shows instrument-dependent memory visibility. For a hidden classical trit copied from past to future, a Z-basis middle instrument screens past from future exactly, I(P:F|M)=0, while a Fourier-basis instrument reveals no hidden label and leaves I(P:F|M)=log2(3). Causal order is unchanged in both cases.",
+  "instrument_dependence": {
+    "Fourier_measure_and_reprepare": {
+      "conditional_mutual_information_bits": 1.5849625007211565,
+      "outcome_probabilities": [
+        0.33333333333333337,
+        0.33333333333333337,
+        0.33333333333333337
+      ],
+      "reading": "M is independent of H, so P and F remain perfectly correlated given M"
+    },
+    "Z_measure_and_reprepare": {
+      "conditional_mutual_information_bits": 0.0,
+      "outcome_probabilities": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "reading": "M reveals H, so conditioning on M screens P from F"
+    },
+    "difference_bits": 1.5849625007211565,
+    "hidden_process": "P=H, middle exposed state |H>, F=H with H uniform"
+  },
+  "process_combs": {
+    "causal_constraint": "Tr_F Upsilon = I_O tensor (I_I/3)",
+    "classical_hidden_memory": {
+      "formula": "(1/3) sum_h |h><h|_F tensor I_O tensor |h><h|_I",
+      "normalized_F_vs_OI_negativity": -0.0
+    },
+    "coherent_hidden_memory": {
+      "formula": "(1/3) |Omega_un><Omega_un|_(F,I) tensor I_O",
+      "normalized_F_vs_OI_negativity": 1.0
+    },
+    "dimension": 27,
+    "spaces": "F(final qutrit) x O(intervention output) x I(intervention input)",
+    "trace": 3
+  },
+  "schema": "w33.pass11042.instrument-dependent-process-memory.v1",
+  "status": "PASS"
+}

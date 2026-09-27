@@ -1,0 +1,52 @@
+{
+  "boundary": "These are five algebraically redundant retyping routes. Their pair sums are noncommuting weighted generators; a two-layer product of individual exponentials is not asserted to equal the Cayley or exponential of the pair sum.",
+  "checks": {"all_quotient_rank54":true,"both_orientations_same_rank_pattern":true,"five_routes":true,"two_transverse_pair_routes":true},
+  "headline": "Pair the two external branches above each of the four Hesse directions, and pair the two central branches. Every one of these five two-factor sums projects with rank 54 onto S2+L for both FI orientations. The raw ranks are 66,54,54,72,72, so two Hesse pair-routes are already transverse 54-planes while the other three carry controlled S1 overlap.",
+  "local_block_budget": {"factors_per_route":2,"triangle_blocks_per_route":54,"triangles_per_factor":27},
+  "parents": ["data/w33_pass11061_hesse_slope_factor_alphabet.json","data/w33_pass11062_single_foliation_finite54_transducer.json"],
+  "quotient_rank_pattern": [54,54,54,54,54],
+  "raw_rank_pattern": [66,54,54,72,72],
+  "routes": [
+    {"S1_intersection_dimension":12,"factors":[0,1],"projective_direction":[1,0],"quotient_rank":54,"raw_rank":66,"route":0,"triangle_blocks":54,"type":"Hesse"},
+    {"S1_intersection_dimension":0,"factors":[2,3],"projective_direction":[1,2],"quotient_rank":54,"raw_rank":54,"route":1,"triangle_blocks":54,"type":"Hesse"},
+    {"S1_intersection_dimension":0,"factors":[4,5],"projective_direction":[1,1],"quotient_rank":54,"raw_rank":54,"route":2,"triangle_blocks":54,"type":"Hesse"},
+    {"S1_intersection_dimension":18,"factors":[6,7],"projective_direction":[0,1],"quotient_rank":54,"raw_rank":72,"route":3,"triangle_blocks":54,"type":"Hesse"},
+    {"S1_intersection_dimension":18,"factors":[8,9],"projective_direction":null,"quotient_rank":54,"raw_rank":72,"route":4,"triangle_blocks":54,"type":"central"}
+  ],
+  "schema": "w33.pass11064.five-full54-slope-pair-routes.v1",
+  "split_prime_certificates": {
+    "minus": [
+      {"prime":103,"rows":[
+        {"L_rank":27,"S1_intersection_dimension":12,"S2_rank":27,"factors":[0,1],"quotient_rank":54,"raw_rank":66,"route":0},
+        {"L_rank":27,"S1_intersection_dimension":0,"S2_rank":27,"factors":[2,3],"quotient_rank":54,"raw_rank":54,"route":1},
+        {"L_rank":27,"S1_intersection_dimension":0,"S2_rank":27,"factors":[4,5],"quotient_rank":54,"raw_rank":54,"route":2},
+        {"L_rank":27,"S1_intersection_dimension":18,"S2_rank":27,"factors":[6,7],"quotient_rank":54,"raw_rank":72,"route":3},
+        {"L_rank":27,"S1_intersection_dimension":18,"S2_rank":27,"factors":[8,9],"quotient_rank":54,"raw_rank":72,"route":4}
+      ]},
+      {"prime":109,"rows":[
+        {"L_rank":27,"S1_intersection_dimension":12,"S2_rank":27,"factors":[0,1],"quotient_rank":54,"raw_rank":66,"route":0},
+        {"L_rank":27,"S1_intersection_dimension":0,"S2_rank":27,"factors":[2,3],"quotient_rank":54,"raw_rank":54,"route":1},
+        {"L_rank":27,"S1_intersection_dimension":0,"S2_rank":27,"factors":[4,5],"quotient_rank":54,"raw_rank":54,"route":2},
+        {"L_rank":27,"S1_intersection_dimension":18,"S2_rank":27,"factors":[6,7],"quotient_rank":54,"raw_rank":72,"route":3},
+        {"L_rank":27,"S1_intersection_dimension":18,"S2_rank":27,"factors":[8,9],"quotient_rank":54,"raw_rank":72,"route":4}
+      ]}
+    ],
+    "plus": [
+      {"prime":103,"rows":[
+        {"L_rank":27,"S1_intersection_dimension":12,"S2_rank":27,"factors":[0,1],"quotient_rank":54,"raw_rank":66,"route":0},
+        {"L_rank":27,"S1_intersection_dimension":0,"S2_rank":27,"factors":[2,3],"quotient_rank":54,"raw_rank":54,"route":1},
+        {"L_rank":27,"S1_intersection_dimension":0,"S2_rank":27,"factors":[4,5],"quotient_rank":54,"raw_rank":54,"route":2},
+        {"L_rank":27,"S1_intersection_dimension":18,"S2_rank":27,"factors":[6,7],"quotient_rank":54,"raw_rank":72,"route":3},
+        {"L_rank":27,"S1_intersection_dimension":18,"S2_rank":27,"factors":[8,9],"quotient_rank":54,"raw_rank":72,"route":4}
+      ]},
+      {"prime":109,"rows":[
+        {"L_rank":27,"S1_intersection_dimension":12,"S2_rank":27,"factors":[0,1],"quotient_rank":54,"raw_rank":66,"route":0},
+        {"L_rank":27,"S1_intersection_dimension":0,"S2_rank":27,"factors":[2,3],"quotient_rank":54,"raw_rank":54,"route":1},
+        {"L_rank":27,"S1_intersection_dimension":0,"S2_rank":27,"factors":[4,5],"quotient_rank":54,"raw_rank":54,"route":2},
+        {"L_rank":27,"S1_intersection_dimension":18,"S2_rank":27,"factors":[6,7],"quotient_rank":54,"raw_rank":72,"route":3},
+        {"L_rank":27,"S1_intersection_dimension":18,"S2_rank":27,"factors":[8,9],"quotient_rank":54,"raw_rank":72,"route":4}
+      ]}
+    ]
+  },
+  "status": "PASS_FIVE_TWO_SLOPE_ROUTE_FAMILIES_EACH_SURJECT_ONTO_THE_FULL_54D_RETYPE_QUOTIENT"
+}

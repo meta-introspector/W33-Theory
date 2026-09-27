@@ -1,0 +1,70 @@
+{
+  "boundary": "This establishes the finite gate identity and the linear-algebra firewall. It does not yet identify the E6 diagonal phase-weld fields with a basis of all three 4D pairwise sectors.",
+  "checks": {
+    "ccz_cubic_phase_27_histories": true,
+    "correlation_dimensions_1_6_12_8": true,
+    "each_slant_block_rank4": true,
+    "first_difference_is_pairwise_bc": true,
+    "fixed_three_slants_joint_rank7_not12": true,
+    "second_difference_is_local_c": true,
+    "third_difference_is_central_one": true
+  },
+  "correlation_decomposition": {
+    "dimensions": {
+      "C0": 1,
+      "C1": 6,
+      "C2": 12,
+      "C3": 8
+    },
+    "identity": "27 = 1 + 6 + 12 + 8",
+    "pairwise_blocks": "C2 = (U1 tensor U2) + (U1 tensor U3) + (U2 tensor U3), 4+4+4"
+  },
+  "cubic_echo": {
+    "active_coordinate_counts": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "operator_reading": [
+      "CCZ",
+      "CZ-like",
+      "Z-like",
+      "central omega I"
+    ],
+    "phase": "omega^(a*b*c)",
+    "successive_exponents": [
+      "abc",
+      "bc",
+      "c",
+      "1"
+    ]
+  },
+  "headline": "The qutrit cubic phase f(a,b,c)=abc has the exact finite-difference ladder abc -> bc -> c -> 1, i.e. CCZ -> controlled phase -> local phase -> central ternary phase. Separately, a 3x3x3 carrier splits by correlation order as 1+6+12+8. The crucial correction is that 8->12 cannot be a single surjective linear differential: three fixed slant contractions jointly have rank 7, although each separately surjects onto its own 4D pair block.",
+  "missing_12_firewall": "The numbers 8,12,6,1 are correlation-sector dimensions, not the ranks of a surjective chain complex. A single cubic tensor can have nonzero projections into all three pairwise blocks, but three fixed contractions carry only seven independent combinations into their 12D direct sum. Therefore the claim that a diagonal weld restores the entire missing 12 requires extra background degrees of freedom or an explicit repository intertwiner; it does not follow from CCZ or the dimension ladder alone.",
+  "schema": "w33.pass11036.triqutrit-cubic-correlation-descent.v1",
+  "slant_rank_audit": {
+    "individual_pair_block_ranks": [
+      4,
+      4,
+      4
+    ],
+    "joint_fixed_three_slants_rank": 7,
+    "joint_kernel_dimension": 1,
+    "kernel_basis": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "source_dimension": 8,
+    "target_direct_sum_dimension": 12
+  },
+  "status": "PASS"
+}

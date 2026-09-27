@@ -1,0 +1,836 @@
+{
+  "boundary": "This is a finite representation-theory theorem. The identification of the four projective directions with physical qutrit MUB settings is a structural codec statement; no dynamical preference among the four directions is implied.",
+  "checks": {
+    "each_A9_dimension9": true,
+    "each_A9_tensor_V_is_regular_H27": true,
+    "four_projective_noncentral_C3_directions": true,
+    "matches_pass11044_minimal_content": true,
+    "three_characters_per_direction": true,
+    "three_theta_sectors_sum_to_regular": true,
+    "twelve_induced_A9_modules": true
+  },
+  "four_directions": {
+    "0": {
+      "direct_sum": "Reg(H27)",
+      "direct_sum_dimension": 27,
+      "direction": [
+        1,
+        0
+      ],
+      "dual_lines": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      ],
+      "three_theta_sectors": [
+        0,
+        1,
+        2
+      ]
+    },
+    "1": {
+      "direct_sum": "Reg(H27)",
+      "direct_sum_dimension": 27,
+      "direction": [
+        0,
+        1
+      ],
+      "dual_lines": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      ],
+      "three_theta_sectors": [
+        0,
+        1,
+        2
+      ]
+    },
+    "2": {
+      "direct_sum": "Reg(H27)",
+      "direct_sum_dimension": 27,
+      "direction": [
+        1,
+        1
+      ],
+      "dual_lines": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "three_theta_sectors": [
+        0,
+        1,
+        2
+      ]
+    },
+    "3": {
+      "direct_sum": "Reg(H27)",
+      "direct_sum_dimension": 27,
+      "direction": [
+        1,
+        2
+      ],
+      "dual_lines": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "three_theta_sectors": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "geometry_reading": "The previously free choice of three one-dimensional latent characters is not arbitrary: choosing a noncentral C3 direction chooses a parallel class of three dual affine lines, and theta chooses one of the three lines. Thus the four qutrit/Hesse directions each decompose Reg(H27) into three minimal 9D latent sectors.",
+  "headline": "Every minimal latent module A9=3chi+V+Vbar is naturally an induced representation Ind_L^H27(theta), where L is one of the four projective noncentral C3 directions in H27/Z and theta is one of the three characters of L. Frobenius reciprocity selects exactly the three 1D H27 characters on one affine line of dual F3^2, while V and Vbar each occur once. Hence the 4x3 induced sectors are exactly the 12 affine/Hesse lines.",
+  "induction_theorem": {
+    "Frobenius_reciprocity": "mult_rho Ind_L(theta) = mult_theta Res_L(rho)",
+    "Schrodinger_restriction": "Res_L(V_omega)=Reg(C3)=Res_L(V_omega2)",
+    "one_dimensional_multiplicity": "chi_(r,s) occurs iff r*d0+s*d1 = theta mod 3",
+    "result": "Ind_L(theta)=sum_{dual affine line} chi + V_omega + V_omega2",
+    "subgroup": "L=<g> ~= C3 with noncentral projective direction d in P1(F3)"
+  },
+  "parents": [
+    "data/w33_pass11043_commutant_dressing_regular_h27.json",
+    "data/w33_pass11044_minimal_latent_dimension_and_54_budget.json"
+  ],
+  "schema": "w33.pass11048.induced-h27-hesse-latent-modules.v1",
+  "status": "PASS_MINIMAL_A9_IS_AN_INDUCED_C3_SECTOR_AND_THE_12_CHOICES_ARE_THE_HESSE_LINES",
+  "tensor_identity_preview": "For every sector, V_omega tensor Ind_L(theta) is regular H27. Pass 11051 upgrades this character identity to the canonical tensor-induction isomorphism V tensor Ind_L(theta) ~= Ind_L(Res_L(V) tensor theta) ~= Ind_L(Reg L) ~= Reg(H27).",
+  "twelve_sectors": [
+    {
+      "after_tensor_with_V_omega": {
+        "V_omega": 3,
+        "V_omega2": 3,
+        "dimension": 27,
+        "one_dimensional_each": 1
+      },
+      "direction_index": 0,
+      "dual_affine_line": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "irreducible_content": {
+        "V_omega": 1,
+        "V_omega2": 1,
+        "dimension": 9,
+        "one_dimensional_characters": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "module": "Ind_L^H27(theta)",
+      "projective_direction": [
+        1,
+        0
+      ],
+      "theta": 0
+    },
+    {
+      "after_tensor_with_V_omega": {
+        "V_omega": 3,
+        "V_omega2": 3,
+        "dimension": 27,
+        "one_dimensional_each": 1
+      },
+      "direction_index": 0,
+      "dual_affine_line": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "irreducible_content": {
+        "V_omega": 1,
+        "V_omega2": 1,
+        "dimension": 9,
+        "one_dimensional_characters": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "module": "Ind_L^H27(theta)",
+      "projective_direction": [
+        1,
+        0
+      ],
+      "theta": 1
+    },
+    {
+      "after_tensor_with_V_omega": {
+        "V_omega": 3,
+        "V_omega2": 3,
+        "dimension": 27,
+        "one_dimensional_each": 1
+      },
+      "direction_index": 0,
+      "dual_affine_line": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "irreducible_content": {
+        "V_omega": 1,
+        "V_omega2": 1,
+        "dimension": 9,
+        "one_dimensional_characters": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "module": "Ind_L^H27(theta)",
+      "projective_direction": [
+        1,
+        0
+      ],
+      "theta": 2
+    },
+    {
+      "after_tensor_with_V_omega": {
+        "V_omega": 3,
+        "V_omega2": 3,
+        "dimension": 27,
+        "one_dimensional_each": 1
+      },
+      "direction_index": 1,
+      "dual_affine_line": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "irreducible_content": {
+        "V_omega": 1,
+        "V_omega2": 1,
+        "dimension": 9,
+        "one_dimensional_characters": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "module": "Ind_L^H27(theta)",
+      "projective_direction": [
+        0,
+        1
+      ],
+      "theta": 0
+    },
+    {
+      "after_tensor_with_V_omega": {
+        "V_omega": 3,
+        "V_omega2": 3,
+        "dimension": 27,
+        "one_dimensional_each": 1
+      },
+      "direction_index": 1,
+      "dual_affine_line": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "irreducible_content": {
+        "V_omega": 1,
+        "V_omega2": 1,
+        "dimension": 9,
+        "one_dimensional_characters": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "module": "Ind_L^H27(theta)",
+      "projective_direction": [
+        0,
+        1
+      ],
+      "theta": 1
+    },
+    {
+      "after_tensor_with_V_omega": {
+        "V_omega": 3,
+        "V_omega2": 3,
+        "dimension": 27,
+        "one_dimensional_each": 1
+      },
+      "direction_index": 1,
+      "dual_affine_line": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "irreducible_content": {
+        "V_omega": 1,
+        "V_omega2": 1,
+        "dimension": 9,
+        "one_dimensional_characters": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "module": "Ind_L^H27(theta)",
+      "projective_direction": [
+        0,
+        1
+      ],
+      "theta": 2
+    },
+    {
+      "after_tensor_with_V_omega": {
+        "V_omega": 3,
+        "V_omega2": 3,
+        "dimension": 27,
+        "one_dimensional_each": 1
+      },
+      "direction_index": 2,
+      "dual_affine_line": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "irreducible_content": {
+        "V_omega": 1,
+        "V_omega2": 1,
+        "dimension": 9,
+        "one_dimensional_characters": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "module": "Ind_L^H27(theta)",
+      "projective_direction": [
+        1,
+        1
+      ],
+      "theta": 0
+    },
+    {
+      "after_tensor_with_V_omega": {
+        "V_omega": 3,
+        "V_omega2": 3,
+        "dimension": 27,
+        "one_dimensional_each": 1
+      },
+      "direction_index": 2,
+      "dual_affine_line": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "irreducible_content": {
+        "V_omega": 1,
+        "V_omega2": 1,
+        "dimension": 9,
+        "one_dimensional_characters": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "module": "Ind_L^H27(theta)",
+      "projective_direction": [
+        1,
+        1
+      ],
+      "theta": 1
+    },
+    {
+      "after_tensor_with_V_omega": {
+        "V_omega": 3,
+        "V_omega2": 3,
+        "dimension": 27,
+        "one_dimensional_each": 1
+      },
+      "direction_index": 2,
+      "dual_affine_line": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "irreducible_content": {
+        "V_omega": 1,
+        "V_omega2": 1,
+        "dimension": 9,
+        "one_dimensional_characters": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "module": "Ind_L^H27(theta)",
+      "projective_direction": [
+        1,
+        1
+      ],
+      "theta": 2
+    },
+    {
+      "after_tensor_with_V_omega": {
+        "V_omega": 3,
+        "V_omega2": 3,
+        "dimension": 27,
+        "one_dimensional_each": 1
+      },
+      "direction_index": 3,
+      "dual_affine_line": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "irreducible_content": {
+        "V_omega": 1,
+        "V_omega2": 1,
+        "dimension": 9,
+        "one_dimensional_characters": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "module": "Ind_L^H27(theta)",
+      "projective_direction": [
+        1,
+        2
+      ],
+      "theta": 0
+    },
+    {
+      "after_tensor_with_V_omega": {
+        "V_omega": 3,
+        "V_omega2": 3,
+        "dimension": 27,
+        "one_dimensional_each": 1
+      },
+      "direction_index": 3,
+      "dual_affine_line": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "irreducible_content": {
+        "V_omega": 1,
+        "V_omega2": 1,
+        "dimension": 9,
+        "one_dimensional_characters": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "module": "Ind_L^H27(theta)",
+      "projective_direction": [
+        1,
+        2
+      ],
+      "theta": 1
+    },
+    {
+      "after_tensor_with_V_omega": {
+        "V_omega": 3,
+        "V_omega2": 3,
+        "dimension": 27,
+        "one_dimensional_each": 1
+      },
+      "direction_index": 3,
+      "dual_affine_line": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "irreducible_content": {
+        "V_omega": 1,
+        "V_omega2": 1,
+        "dimension": 9,
+        "one_dimensional_characters": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "module": "Ind_L^H27(theta)",
+      "projective_direction": [
+        1,
+        2
+      ],
+      "theta": 2
+    }
+  ]
+}

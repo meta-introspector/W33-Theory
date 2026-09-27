@@ -1,0 +1,2212 @@
+{
+  "boundary": "The projector theorem is an exact statement in the regular H27 carrier. The principal-angle language uses the complex unitary realization; the two split-prime calculations certify the corresponding cyclotomic rank and minimal-polynomial multiplicities without selecting a physical gauge.",
+  "checks": {
+    "54_cross_pairs_each_intersection_dim1": true,
+    "cross_PQP_spectrum_1_1over3x6_0x2": true,
+    "four_three_way_orthogonal_decompositions": true,
+    "intersection_ray_is_unique_dual_affine_point": true,
+    "right_projectors_commute_with_left_H27": true,
+    "twelve_rank9_projectors": true
+  },
+  "cross_angle_spectrum": {
+    "operator": "P Q P restricted to Im(P)",
+    "reading": "two nonparallel 9D compiler sectors share one exact character ray, have six principal overlaps |<.|.>|^2=1/3, and two orthogonal directions. They are not isoclinic; the Hesse lift has a rigid three-angle spectrum.",
+    "squared_cosines": {
+      "0": 2,
+      "1": 1,
+      "1/3": 6
+    }
+  },
+  "geometry": {
+    "common_ray": "the unique one-dimensional H27 character at the intersection of the two dual affine lines",
+    "different_class_intersection": 1,
+    "parallel_classes": 4,
+    "projectors": 12,
+    "projectors_per_class": 3,
+    "rank": 9,
+    "same_class_intersection": 0
+  },
+  "headline": "For each of the four noncentral H27/Z directions and three C3 eigenvalues, the right-regular spectral projector P=(1/3)sum_k omega^(-theta k)R_g^k has rank 9 and commutes with the left regular H27 action. Each direction gives an orthogonal 9+9+9 decomposition of C[H27]. Distinct directions meet in exactly one dimension, reproducing the affine-line intersection law.",
+  "parents": [
+    "data/w33_pass11048_induced_h27_hesse_latent_modules.json"
+  ],
+  "projector_formula": "P_(d,theta)=(I+omega^-theta R_g+omega^-2theta R_g^2)/3",
+  "schema": "w33.pass11049.right-regular-hesse-projectors.v1",
+  "split_prime_certificates": [
+    {
+      "cross_pairs": [
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            0
+          ],
+          "directions": [
+            0,
+            1
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            1
+          ],
+          "directions": [
+            0,
+            1
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            2
+          ],
+          "directions": [
+            0,
+            1
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            0
+          ],
+          "directions": [
+            0,
+            1
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            1
+          ],
+          "directions": [
+            0,
+            1
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            2
+          ],
+          "directions": [
+            0,
+            1
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            0
+          ],
+          "directions": [
+            0,
+            1
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            1
+          ],
+          "directions": [
+            0,
+            1
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            2
+          ],
+          "directions": [
+            0,
+            1
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            0
+          ],
+          "directions": [
+            0,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            1
+          ],
+          "directions": [
+            0,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            2
+          ],
+          "directions": [
+            0,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            2
+          ],
+          "directions": [
+            0,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            0
+          ],
+          "directions": [
+            0,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            1
+          ],
+          "directions": [
+            0,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            1
+          ],
+          "directions": [
+            0,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            2
+          ],
+          "directions": [
+            0,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            0
+          ],
+          "directions": [
+            0,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            0
+          ],
+          "directions": [
+            0,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            2
+          ],
+          "directions": [
+            0,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            1
+          ],
+          "directions": [
+            0,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            1
+          ],
+          "directions": [
+            0,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            0
+          ],
+          "directions": [
+            0,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            2
+          ],
+          "directions": [
+            0,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            2
+          ],
+          "directions": [
+            0,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            1
+          ],
+          "directions": [
+            0,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            0
+          ],
+          "directions": [
+            0,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            0
+          ],
+          "directions": [
+            1,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            0
+          ],
+          "directions": [
+            1,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            0
+          ],
+          "directions": [
+            1,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            1
+          ],
+          "directions": [
+            1,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            1
+          ],
+          "directions": [
+            1,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            1
+          ],
+          "directions": [
+            1,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            2
+          ],
+          "directions": [
+            1,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            2
+          ],
+          "directions": [
+            1,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            2
+          ],
+          "directions": [
+            1,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            0
+          ],
+          "directions": [
+            1,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            0
+          ],
+          "directions": [
+            1,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            0
+          ],
+          "directions": [
+            1,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            1
+          ],
+          "directions": [
+            1,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            1
+          ],
+          "directions": [
+            1,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            1
+          ],
+          "directions": [
+            1,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            2
+          ],
+          "directions": [
+            1,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            2
+          ],
+          "directions": [
+            1,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            2
+          ],
+          "directions": [
+            1,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            0
+          ],
+          "directions": [
+            2,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            1
+          ],
+          "directions": [
+            2,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            2
+          ],
+          "directions": [
+            2,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            2
+          ],
+          "directions": [
+            2,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            0
+          ],
+          "directions": [
+            2,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            1
+          ],
+          "directions": [
+            2,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            1
+          ],
+          "directions": [
+            2,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            2
+          ],
+          "directions": [
+            2,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            0
+          ],
+          "directions": [
+            2,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            2
+          ]
+        }
+      ],
+      "omega": 46,
+      "prime": 103,
+      "rank_each": 9
+    },
+    {
+      "cross_pairs": [
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            0
+          ],
+          "directions": [
+            0,
+            1
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            1
+          ],
+          "directions": [
+            0,
+            1
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            2
+          ],
+          "directions": [
+            0,
+            1
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            0
+          ],
+          "directions": [
+            0,
+            1
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            1
+          ],
+          "directions": [
+            0,
+            1
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            2
+          ],
+          "directions": [
+            0,
+            1
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            0
+          ],
+          "directions": [
+            0,
+            1
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            1
+          ],
+          "directions": [
+            0,
+            1
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            2
+          ],
+          "directions": [
+            0,
+            1
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            0
+          ],
+          "directions": [
+            0,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            1
+          ],
+          "directions": [
+            0,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            2
+          ],
+          "directions": [
+            0,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            2
+          ],
+          "directions": [
+            0,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            0
+          ],
+          "directions": [
+            0,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            1
+          ],
+          "directions": [
+            0,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            1
+          ],
+          "directions": [
+            0,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            2
+          ],
+          "directions": [
+            0,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            0
+          ],
+          "directions": [
+            0,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            0
+          ],
+          "directions": [
+            0,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            2
+          ],
+          "directions": [
+            0,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            1
+          ],
+          "directions": [
+            0,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            1
+          ],
+          "directions": [
+            0,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            0
+          ],
+          "directions": [
+            0,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            2
+          ],
+          "directions": [
+            0,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            2
+          ],
+          "directions": [
+            0,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            1
+          ],
+          "directions": [
+            0,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            0
+          ],
+          "directions": [
+            0,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            0
+          ],
+          "directions": [
+            1,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            0
+          ],
+          "directions": [
+            1,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            0
+          ],
+          "directions": [
+            1,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            1
+          ],
+          "directions": [
+            1,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            1
+          ],
+          "directions": [
+            1,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            1
+          ],
+          "directions": [
+            1,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            2
+          ],
+          "directions": [
+            1,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            2
+          ],
+          "directions": [
+            1,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            2
+          ],
+          "directions": [
+            1,
+            2
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            0
+          ],
+          "directions": [
+            1,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            0
+          ],
+          "directions": [
+            1,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            0
+          ],
+          "directions": [
+            1,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            1
+          ],
+          "directions": [
+            1,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            1
+          ],
+          "directions": [
+            1,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            1
+          ],
+          "directions": [
+            1,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            2
+          ],
+          "directions": [
+            1,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            2
+          ],
+          "directions": [
+            1,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            2
+          ],
+          "directions": [
+            1,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            0
+          ],
+          "directions": [
+            2,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            1
+          ],
+          "directions": [
+            2,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            2
+          ],
+          "directions": [
+            2,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            0,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            2
+          ],
+          "directions": [
+            2,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            0
+          ],
+          "directions": [
+            2,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            1
+          ],
+          "directions": [
+            2,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            1,
+            2
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            1,
+            1
+          ],
+          "directions": [
+            2,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            0
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            0,
+            2
+          ],
+          "directions": [
+            2,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            1
+          ]
+        },
+        {
+          "PQP_spectrum_on_imP": {
+            "0": 2,
+            "1": 1,
+            "1/3": 6
+          },
+          "affine_line_meet": [
+            2,
+            0
+          ],
+          "directions": [
+            2,
+            3
+          ],
+          "intersection_dimension": 1,
+          "thetas": [
+            2,
+            2
+          ]
+        }
+      ],
+      "omega": 45,
+      "prime": 109,
+      "rank_each": 9
+    }
+  ],
+  "status": "PASS_12_RANK9_PROJECTORS_REALIZE_THE_HESSE_AFFINE_PLANE_INSIDE_REG_H27"
+}

@@ -1,0 +1,47 @@
+{
+  "boundary": "This is basis-independent for the fixed 3D subspace but embedding-dependent: it does not rule out a different three-dimensional field inside V24, a nonlinear order parameter, or a different signed gauge combined with a correspondingly transformed physical readout.",
+  "carrier": {
+    "clock_augmentation_dimension": 3,
+    "coordinate_carrier_dimension": 24,
+    "exact_group": "GL2(3)",
+    "group_order": 48
+  },
+  "checks": {
+    "augmentation_rank_3": true,
+    "central_minusI_already_expands_to_rank6": true,
+    "full_signed_orbit_span_rank24": true,
+    "only_stabilizer_is_identity": true,
+    "setwise_stabilizer_order_1": true
+  },
+  "headline": "In the frozen signed H27 embedding the naive 3D clock augmentation has trivial setwise stabilizer inside the exact GL2(3) action. Every nonidentity signed symmetry sends at least one clock generator outside the 3D subspace; even central -I expands its joint span to 6, and full closure is 24.",
+  "schema": "w33.pass11031.clock-subspace-stabilizer-no-go.v1",
+  "stabilizer": {
+    "elements": [
+      [
+        1,
+        0,
+        0,
+        1
+      ]
+    ],
+    "induced_matrices": [
+      [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "nonidentity_joint_span_rank_histogram": {
+      "6": 47
+    },
+    "order": 1
+  },
+  "status": "PASS",
+  "symmetry_breaking_consequence": "There is no nontrivial subgroup of the current exact signed GL2(3) whose every element preserves this particular coarse 3D clock augmentation: any such subgroup lies in the setwise stabilizer, which is trivial. Exact linear dynamics selecting this embedded 3D image must therefore completely break the signed action, or use a quotient/readout map rather than an invariant-subspace mechanism."
+}

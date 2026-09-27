@@ -1,0 +1,12 @@
+{
+  "checks":{"T_is_involution":true,"T_is_symplectic":true,"highest_root_fixed":true,"kappa_invariant":true,"root_signs_exact":true,"tetracode_sign_swapped":true},
+  "cocycle_action":{"H27_automorphism":"psi(a,b,c)=(-a,b,-c)","checked_pairs":729,"highest_root_tick_reversed":false,"identity":"kappa(psi(x),psi(y))=kappa(x,y)"},
+  "firewall":"The canonical two-sheet chamber/tetracode orientation is therefore not, by itself, the sign of the class-three central tick. The internal Borel deck map changes the former and fixes the latter.",
+  "headline":"The nontrivial C2 in the projective flag Borel can be represented by the symplectic diagonal matrix T=diag(1,-1,1,-1). It fixes the standard point-line flag and swaps the two nonzero covectors vanishing at the omitted point, hence swaps the local +/- tetracode words. But on C2 root coordinates it acts (a,b,c,d)->(-a,b,-c,d): the highest-root central coordinate d is fixed, and the H27 central cocycle kappa is invariant.",
+  "matrix":{"T":"diag(1,-1,1,-1) over F3","T_squared":"I","fixed_flag":"<e0> inside <e0,e1>","symplectic_multiplier":1},
+  "parents":["data/w33_pass11071_oriented_chamber_tetracode_cover.json","data/w33_pass11067_explicit_h27_central_cocycle_weld.json"],
+  "root_coordinate_action":{"a_short":"-a","b_long":"b","c_alpha_plus_beta":"-c","d_highest_root":"d","sign_vector":["-","+","-","+"]},
+  "schema":"w33.pass11072.internal-borel-deck-involution.v1",
+  "status":"PASS_INTERNAL_BOREL_C2_SWAPS_THE_TETRACODE_SHEET_BUT_FIXES_THE_HIGHEST_ROOT_TICK",
+  "tetracode_sheet_action":{"action":"swap","deck_character":"nontrivial C2","omitted_point":"<e0>","vanishing_covectors":["(0,1)","(0,-1)"]}
+}

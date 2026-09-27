@@ -1,0 +1,73 @@
+{
+  "boundary": "This is an invariant-theory, Schur-cover and native-tensor audit. It corrects the prior affine-E7/binary-octahedral wording while preserving the exact 24D decomposition and saturation identities. It does not rule out a richer GL2 reconstruction algebra or a quiver-with-potential formulation using additional E6 data.",
+  "checks": {
+    "clock_saturation_survives_character_correction": true,
+    "conjugate_faithful_quiver_is_transpose": true,
+    "directed_edges_14_underlying_edges_11": true,
+    "faithful_tensor_quiver_is_directed": true,
+    "gl23_has_13_nonidentity_involutions": true,
+    "group_order_48": true,
+    "native_16_plus3_48_plusminus2": true,
+    "native_eigenbasis_monomials_64": true,
+    "native_noncentral_triads_32": true,
+    "native_only_even_minus_parity": true,
+    "odd_central_parity_invariants_zero": true,
+    "order8_faithful_character_values_square_to_minus2": true,
+    "plus_cubic_invariants_23": true,
+    "plus_times_sym2minus_invariants_48": true,
+    "symmetric_cubic_invariant_dimension_71": true
+  },
+  "cover_and_tensor_correction": {
+    "binary_octahedral_identification": false,
+    "classical_SL2_McKay_applicable": false,
+    "clock_saturation_survives": true,
+    "conjugate_quiver_relation": "B = A^T",
+    "faithful_order8_character_values": [
+      "-i*sqrt(2)",
+      "+i*sqrt(2)"
+    ],
+    "group": "GL2(3) = 2^+S4",
+    "nonidentity_involutions": 13,
+    "spin2a_directed_edges": 14,
+    "underlying_undirected_edges": 11
+  },
+  "headline": "Route 2 produces a correction and a surviving theorem. GL2(3) is the plus Schur cover, not binary octahedral; the faithful order-8 characters are +/-i*sqrt(2), so the corrected tensor quiver is directed with 14 arrows and an 11-edge underlying graph, not affine E7. The clock saturation identity survives. Independently, Sym^3(V24)^GL2(3) has dimension 71, so the native E6 cubic is highly non-unique under the finite symmetry and requires its extra incidence/sign data.",
+  "invariant_cubic_space": {
+    "Sym3_Vminus": 0,
+    "Sym3_Vplus": 23,
+    "Vminus_tensor_Sym2_Vplus": 0,
+    "Vplus_tensor_Sym2_Vminus": 48,
+    "total_dimension": 71
+  },
+  "native_E6_restriction": {
+    "central_eigenbasis_distinct_monomials": 64,
+    "common_factor_removed": "1/(2*sqrt(2))",
+    "integer_coefficients_after_common_factor_removed": {
+      "0": {
+        "-2": 6,
+        "2": 10
+      },
+      "2": {
+        "-2": 26,
+        "2": 22
+      }
+    },
+    "monomials_by_minus_count": {
+      "0": 16,
+      "2": 48
+    },
+    "noncentral_triads": 32,
+    "total_signed_triads": 45,
+    "triads_by_number_of_central_coordinates": {
+      "0": 32,
+      "1": 12,
+      "3": 1
+    }
+  },
+  "schema": "w33.pass11025.schur-cover-cubic-firewall.v2",
+  "status": "PASS",
+  "tensor_quiver_firewall": {
+    "conclusion": "The corrected GL2(3) tensor quiver and exact finite symmetry do not select a unique cubic interaction: there are 71 independent invariant symmetric cubics on V24. The native E6 incidence/sign tensor is additional structure not recoverable from the tensor quiver alone.",
+    "generalized_mckay_reading": "GL2(3) is a finite subgroup of GL2(C), not SL2(C), so the relevant generalized GL2 McKay/reconstruction-algebra setting is not the classical ADE correspondence. No unique cubic potential follows from the finite tensor quiver by itself."
+  }
+}

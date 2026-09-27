@@ -1,25 +1,17 @@
 {
-  "affine_dimension_vector": [
-    1,
-    1,
-    2,
-    2,
-    2,
-    3,
-    3,
-    4
-  ],
-  "boundary": "This is an identity in the complex representation ring of the finite group GL2(3). Affine E7 here is the classical McKay graph, not an E7 Lie-algebra field content, gauge symmetry, interaction Lagrangian, or continuum unification result.",
+  "boundary": "This is an identity in the complex representation ring of GL2(3). The surviving saturation identities do not define an affine-E7 graph, a classical SU(2) McKay correspondence, or an E7 gauge theory.",
   "checks": {
     "clock_tensor_spin2a_saturates_nonlinear": true,
     "clock_tensor_spin2b_saturates_nonlinear": true,
-    "dimension_vector_is_affine_null_mark": true,
-    "finite_E7_branch_at_spin4": true,
+    "dimension_vector_tensor_eigenvalue_2": true,
+    "faithful_tensor_matrix_is_not_symmetric": true,
     "green_identity": true,
     "minus_tensors_to_all_even_nonlinear_nodes": true,
     "plus_tensors_to_all_odd_nodes": true,
-    "spin2a_graph_tree_8_nodes_7_edges": true,
-    "spin2b_graph_tree_8_nodes_7_edges": true
+    "spin2a_directed_quiver_14_edges": true,
+    "spin2b_directed_quiver_14_edges": true,
+    "two_faithful_quivers_are_transposes": true,
+    "underlying_undirected_graph_has_11_edges": true
   },
   "clock_multiplicity_vector": [
     2,
@@ -33,14 +25,25 @@
   ],
   "exact_identities": {
     "adjacency_vector": "A*m = 3*n_nonlin",
-    "affine_mark": "A*d = 2*d",
+    "dimension_identity": "A*d = 2*d",
     "full": "S tensor V24 = 3*(quotient_2d + spin_2a + spin_2b + standard3_twist + standard3 + spin_4)",
     "minus": "S tensor Vminus = 3*(quotient_2d + standard3_twist + standard3)",
     "plus": "S tensor Vplus = 3*(spin_2a + spin_2b + spin_4)",
     "second_order": "A*(A+I)*m = 3*d"
   },
-  "headline": "The binary-octahedral McKay graph reconstructed from the exact GL2(3) character table is affine E7. For either faithful 2D spinor S, the actual 24D signed clock carrier obeys S tensor V24 = 3 times the direct sum of every nonlinear irrep.",
-  "interpretation": "Tensoring by a defining binary-octahedral spinor flips central parity. The clock carrier is balanced so that each 12D parity half maps to three uniform copies of all three nontrivial nodes on the opposite McKay bipartition.",
+  "headline": "For either faithful 2D irrep of GL2(3), the corrected cyclotomic character table gives a directed non-symmetric tensor quiver. The two faithful quivers are transposes, each has 14 directed edges and an 11-edge underlying undirected graph. The clock saturation identity S tensor V24 = 3 times every nonlinear irrep survives exactly, but the earlier affine-E7/McKay graph claim does not.",
+  "interpretation": "Tensoring by either faithful two-dimensional GL2(3) irrep flips central parity. The clock carrier is balanced so that each 12D parity half maps to three uniform copies of the three nontrivial irreducible types of the opposite central parity. This saturation is a representation-ring identity and does not require an E7 graph.",
+  "irrep_dimension_vector": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    4
+  ],
+  "legacy_key_note": "Previous certificate keys called these McKay edges. Pass 11025 corrects that terminology; these are directed GL2(3) tensor-quiver edges.",
   "nodes": [
     {
       "clock_multiplicity": 2,
@@ -99,8 +102,8 @@
       "plus_multiplicity": 0
     }
   ],
-  "schema": "w33.pass11023.mckay-e7-clock-saturation.v1",
-  "spin2a_mckay_edges": [
+  "schema": "w33.pass11023.gl23-directed-tensor-clock-saturation.v3",
+  "spin2a_directed_edges": [
     [
       "trivial",
       "spin_2a",
@@ -118,12 +121,27 @@
     ],
     [
       "spin_2a",
-      "standard3_twist",
+      "det",
+      1
+    ],
+    [
+      "spin_2a",
+      "standard3",
       1
     ],
     [
       "spin_2b",
-      "standard3",
+      "trivial",
+      1
+    ],
+    [
+      "spin_2b",
+      "standard3_twist",
+      1
+    ],
+    [
+      "standard3_twist",
+      "spin_2a",
       1
     ],
     [
@@ -133,11 +151,31 @@
     ],
     [
       "standard3",
+      "spin_2b",
+      1
+    ],
+    [
+      "standard3",
       "spin_4",
+      1
+    ],
+    [
+      "spin_4",
+      "quotient_2d",
+      1
+    ],
+    [
+      "spin_4",
+      "standard3_twist",
+      1
+    ],
+    [
+      "spin_4",
+      "standard3",
       1
     ]
   ],
-  "spin2b_mckay_edges": [
+  "spin2b_directed_edges": [
     [
       "trivial",
       "spin_2b",
@@ -155,12 +193,27 @@
     ],
     [
       "spin_2a",
-      "standard3",
+      "trivial",
+      1
+    ],
+    [
+      "spin_2a",
+      "standard3_twist",
       1
     ],
     [
       "spin_2b",
+      "det",
+      1
+    ],
+    [
+      "spin_2b",
+      "standard3",
+      1
+    ],
+    [
       "standard3_twist",
+      "spin_2b",
       1
     ],
     [
@@ -170,9 +223,76 @@
     ],
     [
       "standard3",
+      "spin_2a",
+      1
+    ],
+    [
+      "standard3",
       "spin_4",
+      1
+    ],
+    [
+      "spin_4",
+      "quotient_2d",
+      1
+    ],
+    [
+      "spin_4",
+      "standard3_twist",
+      1
+    ],
+    [
+      "spin_4",
+      "standard3",
       1
     ]
   ],
-  "status": "PASS"
+  "status": "PASS",
+  "terminology_correction": "The legacy filename retains 'mckay_e7' for provenance. With the cyclotomic order-8 character values corrected to +/-i*sqrt(2), the faithful tensor matrix is directed and non-symmetric; its underlying undirected graph has 11 edges, not the 7-edge affine-E7 tree. GL2(3)=2^+S4 is also not the binary-octahedral 2^-S4 subgroup of SL2(C).",
+  "underlying_undirected_edges": [
+    [
+      "det",
+      "spin_2a"
+    ],
+    [
+      "det",
+      "spin_2b"
+    ],
+    [
+      "quotient_2d",
+      "spin_4"
+    ],
+    [
+      "spin_2a",
+      "standard3"
+    ],
+    [
+      "spin_2a",
+      "standard3_twist"
+    ],
+    [
+      "spin_2a",
+      "trivial"
+    ],
+    [
+      "spin_2b",
+      "standard3"
+    ],
+    [
+      "spin_2b",
+      "standard3_twist"
+    ],
+    [
+      "spin_2b",
+      "trivial"
+    ],
+    [
+      "spin_4",
+      "standard3"
+    ],
+    [
+      "spin_4",
+      "standard3_twist"
+    ]
+  ]
 }

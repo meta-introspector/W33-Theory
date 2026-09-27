@@ -1,0 +1,17 @@
+{
+  "boundary": "The bijection is exact after the displayed coordinate/sign convention. It is an indexing bridge; it does not identify a triangle-factor matrix with an E8 tensor sector or prove physical chirality.",
+  "central_factors_outside_tetracode8": [8,9],
+  "checks": {"central_pair_separate":true,"eight_nonzero_weight3":true,"outer_factor_bijection":true,"tetracode_9_words":true},
+  "factor_word_bijection": [
+    {"canonical_covector":[0,1],"clock_index":0,"minus_factor":1,"minus_word":[0,2,2,1],"plus_factor":0,"plus_word":[0,1,1,2],"projective_direction":[1,0]},
+    {"canonical_covector":[1,0],"clock_index":1,"minus_factor":7,"minus_word":[2,0,2,2],"plus_factor":6,"plus_word":[1,0,1,1],"projective_direction":[0,1]},
+    {"canonical_covector":[1,2],"clock_index":2,"minus_factor":5,"minus_word":[2,1,0,1],"plus_factor":4,"plus_word":[1,2,0,2],"projective_direction":[1,1]},
+    {"canonical_covector":[1,1],"clock_index":3,"minus_factor":3,"minus_word":[2,2,1,0],"plus_factor":2,"plus_word":[1,1,2,0],"projective_direction":[1,2]}
+  ],
+  "headline": "Choose the four Hesse directions in the same projective order used to evaluate the ternary tetracode: (1,0),(0,1),(1,1),(1,-1). A nonzero linear covector vanishes at exactly one of these four points, and its two signs give the two nonzero tetracode words with that omitted coordinate. Mapping the two external weld branches over that Hesse direction to those two signs gives an exact 8-to-8 bijection.",
+  "parents": ["data/w33_pass11061_hesse_slope_factor_alphabet.json","data/w33_tetracode_e8_root_system_bridge.json"],
+  "schema": "w33.pass11063.tetracode-outer-factor-bijection.v1",
+  "status": "PASS_EIGHT_NONCENTRAL_WELD_FACTORS_BIJECT_WITH_THE_EIGHT_NONZERO_TETRACODE_WORDS_AFTER_BELL_LINE_COORDINATE_CHOICE",
+  "tetracode": {"formula":"C={(a,b,a+b,a-b):a,b in F3}","nonzero_words":8,"size":9,"weight_of_every_nonzero_word":3},
+  "weld_alphabet": "8 tetracode-indexed noncentral factors + 2 central FI factors"
+}

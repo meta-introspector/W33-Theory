@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""Pass 11022: binary-octahedral decomposition of the exact signed clock carrier.
+"""Pass 11022: exact GL2(3) decomposition of the signed clock carrier.
 
 Pass 11021 gives the minimal 24D noncentral H27 carrier under the split signed
-GL2(3) action.  This packet decomposes that exact representation over C.
+GL2(3) action. This packet decomposes that exact representation over C.
 
-The central element -I splits the carrier as 12+12.  The + sector descends to
-PGL2(3)=S4.  The - sector is exactly three copies of the faithful 4D spinorial
-irrep of GL2(3), the binary-octahedral double cover of S4.
+The central element -I splits the carrier as 12+12. The + sector descends to
+PGL2(3)=S4. The - sector is exactly three copies of the faithful 4D central-odd
+irrep of GL2(3). Pass 11025 corrects the cover terminology: GL2(3) is the plus
+Schur cover 2^+S4, not the binary-octahedral minus cover 2^-S4.
 """
 from __future__ import annotations
 
@@ -97,8 +98,8 @@ def exact_character_table():
         ("trivial", (1, 1, 1, 1, 1, 1, 1, 1)),
         ("det", (1, 1, 1, 1, 1, -1, -1, -1)),
         ("quotient_2d", (2, -1, 2, -1, 2, 0, 0, 0)),
-        ("spin_2a", (2, 1, -2, -1, 0, -rt2, rt2, 0)),
-        ("spin_2b", (2, 1, -2, -1, 0, rt2, -rt2, 0)),
+        ("spin_2a", (2, 1, -2, -1, 0, -sp.I*rt2, sp.I*rt2, 0)),
+        ("spin_2b", (2, 1, -2, -1, 0, sp.I*rt2, -sp.I*rt2, 0)),
         ("standard3_twist", (3, 0, 3, 0, -1, 1, 1, -1)),
         ("standard3", (3, 0, 3, 0, -1, -1, -1, 1)),
         ("spin_4", (4, -1, -4, 1, 0, 0, 0, 0)),
@@ -145,6 +146,9 @@ def payload():
     p_to_m = {r[3]: tuple(map(int, r[0])) for r in rows75}
     group = frozenset(p_to_m[p] for p in perms)
     assert len(group) == 48
+    ident = (1, 0, 0, 1)
+    involutions = sum(g != ident and mm(g, g) == ident for g in group)
+    assert involutions == 13
     classes = conjugacy_classes(group)
     section_by_m = {p_to_m[p]: (p, s) for p, s in section}
 
@@ -167,6 +171,19 @@ def payload():
     assert chi3 == [3, 3, 3, 3, 3, 1, 1, 1]
 
     table = exact_character_table()
+    class_index = {m: i for i, c in enumerate(classes) for m in c}
+    power2 = [class_index[mm(rep, rep)] for rep in CLASS_REPS]
+    det_row = list(dict(table)["det"])
+    exterior_square_2d = {}
+    for name in ("quotient_2d", "spin_2a", "spin_2b"):
+        ch = dict(table)[name]
+        lam2 = [
+            sp.simplify((ch[i]**2 - ch[power2[i]]) / 2)
+            for i in range(len(CLASS_REPS))
+        ]
+        assert all(sp.simplify(a - b) == 0 for a, b in zip(lam2, det_row))
+        exterior_square_2d[name] = "det"
+
     mult24 = multiplicities(tuple(chi24), table)
     mult3 = multiplicities(tuple(chi3), table)
     assert mult24 == (
@@ -289,11 +306,14 @@ def payload():
         "center3_is_two_trivial_plus_det":
             dict(mult3)["trivial"] == 2 and dict(mult3)["det"] == 1,
         "P1_standard_character_identified": chi_std == list(dict(table)["standard3"]),
+        "gl23_has_13_nonidentity_involutions": involutions == 13,
+        "all_2d_irreps_have_exterior_square_det":
+            set(exterior_square_2d.values()) == {"det"},
     }
     assert all(checks.values())
 
     return {
-        "schema": "w33.pass11022.binary-octahedral-clock-decomposition.v1",
+        "schema": "w33.pass11022.gl23-clock-decomposition.v2",
         "status": "PASS",
         "headline": (
             "The minimal 24D signed clock carrier decomposes under GL2(3) as "
@@ -310,8 +330,18 @@ def payload():
             "class_sizes": list(CLASS_SIZES),
             "character_table_source_check":
                 "independently matched against GAP CharacterTable(GL(2,3))",
-            "external_identification":
-                "classically isomorphic to the binary octahedral double cover 2.S4",
+            "schur_cover_type": "2^+S4 = GL2(3)",
+            "nonidentity_involutions": involutions,
+            "cover_firewall": (
+                "GL2(3) is not the binary octahedral group 2^-S4. "
+                "Its 13 nonidentity involutions already forbid a faithful embedding "
+                "in SL2(C), where -I is the unique nontrivial involution."
+            ),
+            "two_dimensional_exterior_squares": exterior_square_2d,
+            "SL2_embedding_firewall": (
+                "Every irreducible 2D character has exterior square equal to the "
+                "nontrivial determinant character, not the trivial character."
+            ),
         },
         "character_24": chi24,
         "decomposition_24": {k: v for k, v in mult24},
@@ -342,12 +372,11 @@ def payload():
                 "under the central double-cover involution",
         },
         "boundary": (
-            "The words 'spinorial' and 'binary octahedral' are representation-"
-            "theoretic: central -I acts as -1 on the 4D irrep and the group is "
-            "the double cover of S4. This does not identify these 12 modes with "
-            "physical fermions, spacetime spinors, or measured particle species. "
-            "The ADE/McKay E7 association is classical external context, not a "
-            "derived E7 gauge theory."
+            "Spinorial here means only that central -I acts as -1. GL2(3) is the "
+            "plus Schur cover 2^+S4 and is non-isomorphic to binary octahedral "
+            "2^-S4; therefore the classical SU(2)/ADE McKay identification does "
+            "not apply to this group. No physical fermion or gauge interpretation "
+            "is inferred."
         ),
         "checks": checks,
     }

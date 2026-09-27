@@ -1,0 +1,59 @@
+{
+  "boundary": "This is an exact proof at q=17 and a general q^3 search-reduction theorem, not yet an all-primes proof of min=q-1. The all-prime result already proved in Pass 10970/11027 remains only the weaker root firewall: every q>=5 has glue norm >2.",
+  "checks": {
+    "PGL2_three_transitivity_allows_three_zero_normalization": true,
+    "constant_word_attains_16": true,
+    "normalized_exact_minimum_16": true,
+    "normalized_family_dimension_6": true,
+    "projective_multipliers_are_plus_minus_one": true,
+    "search_space_reduced_by_q_cubed": true,
+    "sub_q_minus_1_candidate_has_at_least_four_zeros": true,
+    "symbol_norm_invariant_under_sign": true
+  },
+  "headline": "The observed minimum-glue law min=q-1 is now proved exactly at q=17 without enumerating all 17^9 codewords. PGL2(17) acts on the extended Reed-Solomon clock code by signed permutations because the degree is (q-1)/2, so the A16 discriminant norm is invariant. Any counterexample below 16 would have at least four zero coordinates; three-transitivity moves three zeros to 0,1,infinity, reducing the exact search to 17^6-1=24,137,568 factored polynomials. That complete reduced census has minimum 16.",
+  "q17": {
+    "full_nonzero_codewords": 118587876496,
+    "law_value": "q-1",
+    "minimum_glue_norm": 16,
+    "normalized_exact_census": {
+      "example_g_coefficients": [
+        4,
+        5,
+        3,
+        11,
+        2,
+        1
+      ],
+      "minimizers_in_normalized_slice": 84,
+      "minimum_norm": 16,
+      "minimum_numerator": 272,
+      "q": 17,
+      "reduced_dimension": 6,
+      "words_checked": 24137568
+    }
+  },
+  "reduction_theorem": {
+    "code": "extended RS[q+1,(q+1)/2,(q+3)/2]_q",
+    "counterexample_weight_bound": "norm <= q-3 implies Hamming weight <= q-3",
+    "dimension_after_normalization": "(q-5)/2",
+    "normal_form": "zeros at 0, 1, infinity; f(x)=x(x-1)g(x), deg g <= (q-7)/2",
+    "projective_action": "For homogeneous degree m=(q-1)/2 evaluation, projective normalization contributes mu^m, which is the quadratic character and therefore +/-1. The glue norm is invariant under coordinate permutation and sign.",
+    "search_reduction_factor": "q^3",
+    "zero_count": "at least 4"
+  },
+  "schema": "w33.pass11032.prime-clock-q17-reduction.v1",
+  "status": "PASS",
+  "tower_status": {
+    "all_prime_proof": false,
+    "exact_minima_q_3_5_7_11_13_17": [
+      2,
+      4,
+      6,
+      10,
+      12,
+      16
+    ],
+    "law_survives_through": 17,
+    "next_exact_target": 19
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "boundary":"This is an exact module identification. It does not prove that a nontrivial Lie-algebra cocycle is present on all 81 cycles; explicit A2->E8 transition maps remain the missing global-amalgam datum.",
+  "checks":{"Levi_H1_is_Steinberg81":true,"U81_order81":true,"atlas_to_Levi_H1_iso":true,"complex_regular_restriction":true,"native_F3_free_rank1":true},
+  "consequence":{"atlas_cycle_dimension":81,"chamber_update_group_order":81,"complex_U81_module":"regular representation","dimension_match_is_not_accidental":true,"native_U81_module":"free rank one group algebra F3[U81]","reading":"The 81 independent overlap/gluing cycles of the local-E8 atlas are the same protected building-homology carrier already used by the chamber update controller."},
+  "headline":"Pass11076 canonically identifies the 81-dimensional H1 of the 40-chart overlap nerve with W33 Levi H1. The older Solomon-Tits certificate identifies that Levi H1 as the irreducible degree-81 Steinberg module. The certified chamber Sylow-3 subgroup U81 has order 81, and Steinberg restricted to U81 is exactly its regular module, over both C and the native field F3.",
+  "module_chain":["H1(local-E8 chart nerve) ~= H1(W33 Levi building)","H1(W33 Levi building) = Steinberg_81","Steinberg_81|U81 = Reg(U81) over C","H1(F3)|U81 ~= F3[U81] free rank 1"],
+  "parents":["data/w33_pass11076_atlas_nerve_steinberg_chain_map.json","data/PART_W33_20260901_DOUBLE_BUILDING_STEINBERG_HOMOLOGY.json","data/PART_W33_PASS5105_U81_DUAL_TORSOR_CONTROLLER.json"],
+  "schema":"w33.pass11077.atlas-h1-is-steinberg-regular-u81.v1",
+  "status":"PASS_LOCAL_E8_ATLAS_OVERLAP_CYCLES_ARE_THE_STEINBERG81_AND_RESTRICT_REGULARLY_TO_THE_CHAMBER_U81"
+}

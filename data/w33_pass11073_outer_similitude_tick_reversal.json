@@ -1,0 +1,13 @@
+{
+  "boundary":"This is an exact finite symplectic/similitude distinction. Calling the outer involution time reversal or physical chirality requires a dynamical interpretation not supplied by the group calculation.",
+  "checks":{"S_is_involution":true,"S_is_minus_symplectic_similitude":true,"highest_root_reversed":true,"internal_outer_Z2_distinguished":true,"kappa_anti_invariant":true,"root_signs_exact":true},
+  "cocycle_action":{"H27_automorphism":"psi(a,b,c)=(-a,-b,c)","checked_pairs":729,"highest_root_tick_reversed":true,"identity":"kappa(psi(x),psi(y))=-kappa(x,y)"},
+  "headline":"The diagonal similitude S=diag(1,-1,-1,1) satisfies S^T J S=-J, so its projective class preserves W33 isotropic incidence but lies in the PGSp outer coset rather than PSp. It fixes the same standard flag and also swaps the local tetracode +/- pair. On root coordinates it acts (a,b,c,d)->(-a,-b,c,-d); the induced H27 automorphism sends kappa to -kappa and the highest-root central tick changes sign.",
+  "matrix":{"S":"diag(1,-1,-1,1) over F3","S_squared":"I","fixed_flag":"<e0> inside <e0,e1>","group_location":"PGSp(4,3) minus PSp(4,3)","similitude_multiplier":"-1"},
+  "orientation_firewall":{"consequence":"tetracode/chamber sheet sign and cubic-tick chirality are distinct Z2 data","internal_Borel_C2":{"highest_root_tick":"fixed","kappa":"fixed","tetracode_sign":"swapped"},"outer_PGSp_C2":{"highest_root_tick":"negated","kappa":"negated","tetracode_sign":"swapped"}},
+  "parents":["data/w33_pass11072_internal_borel_deck_involution.json","data/w33_pass11067_explicit_h27_central_cocycle_weld.json"],
+  "root_coordinate_action":{"a_short":"-a","b_long":"-b","c_alpha_plus_beta":"c","d_highest_root":"-d","sign_vector":["-","-","+","-"]},
+  "schema":"w33.pass11073.outer-similitude-tick-reversal.v1",
+  "status":"PASS_OUTER_PGSP_INVOLUTION_REVERSES_THE_COCYCLE_AND_HIGHEST_ROOT_TICK_WHILE_THE_INTERNAL_BOREL_DECK_DOES_NOT",
+  "tetracode_sheet_action":{"action":"swap","same_local_pair_as_internal_deck":true}
+}

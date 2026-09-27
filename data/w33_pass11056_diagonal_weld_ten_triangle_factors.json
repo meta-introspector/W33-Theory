@@ -1,0 +1,48 @@
+{
+  "boundary": "This is an exact support and generator decomposition. The weighted factors do not generally commute, so exp(sum F_j) is not asserted to equal the product of exp(F_j).",
+  "checks": {
+    "all_order_three": true,
+    "each_factor_27_disjoint_triangles": true,
+    "each_factor_rank54": true,
+    "support_is_K81_Cayley": true,
+    "ten_factors_sum_exactly_to_D_plus": true,
+    "ten_inverse_pairs": true,
+    "twenty_connection_elements": true
+  },
+  "factorization": {
+    "factors": 10,
+    "formula": "D_plus=sum_{j=0}^9 F_j",
+    "parallel_three_mode_blocks_per_factor": 27,
+    "rank_each_factor": 54,
+    "triangles_per_factor": 27
+  },
+  "headline": "The center-plus-external cubic generator has support equal to a 20-regular Cayley graph on K=H27 x C3. Its 20 connection elements form ten inverse pairs of order-three elements. Each pair gives a rank-54 skew factor made of 27 disjoint triangles, and the ten factors sum exactly to the rank-66 diagonal weld generator.",
+  "parents": [
+    "data/w33_pass11054_cubic_jacobian_skew_orthogonal_flow.json",
+    "data/w33_e6_cubic_diagonal_phase_weld.json"
+  ],
+  "schema": "w33.pass11056.diagonal-weld-ten-triangle-factors.v1",
+  "status": "PASS_DIAGONAL_WELD_SUPPORT_IS_A_20_REGULAR_K81_CAYLEY_GRAPH_SPLIT_INTO_TEN_TRIANGLE_FACTORS",
+  "support_graph": {
+    "absolute_edge_weight_histogram": {"1":270,"2":270,"3":270},
+    "all_connection_orders": 3,
+    "connection_elements": 20,
+    "degree": 20,
+    "group": "K=H27 x C3_external",
+    "inverse_pairs": 10,
+    "undirected_edges": 810,
+    "vertices": 81
+  },
+  "triangle_factors": [
+    {"absolute_edge_weight_histogram":{"1":27,"2":27,"3":27},"exact_rank":54,"factor":0,"generator":[[1,0,1],1],"inverse":[[2,0,2],2],"order":3,"triangles":27,"vertices_per_triangle":3},
+    {"absolute_edge_weight_histogram":{"1":27,"2":27,"3":27},"exact_rank":54,"factor":1,"generator":[[1,0,1],2],"inverse":[[2,0,2],1],"order":3,"triangles":27,"vertices_per_triangle":3},
+    {"absolute_edge_weight_histogram":{"1":27,"2":27,"3":27},"exact_rank":54,"factor":2,"generator":[[1,2,2],1],"inverse":[[2,1,2],2],"order":3,"triangles":27,"vertices_per_triangle":3},
+    {"absolute_edge_weight_histogram":{"1":27,"2":27,"3":27},"exact_rank":54,"factor":3,"generator":[[1,2,2],2],"inverse":[[2,1,2],1],"order":3,"triangles":27,"vertices_per_triangle":3},
+    {"absolute_edge_weight_histogram":{"1":27,"2":27,"3":27},"exact_rank":54,"factor":4,"generator":[[1,1,0],1],"inverse":[[2,2,2],2],"order":3,"triangles":27,"vertices_per_triangle":3},
+    {"absolute_edge_weight_histogram":{"1":27,"2":27,"3":27},"exact_rank":54,"factor":5,"generator":[[1,1,0],2],"inverse":[[2,2,2],1],"order":3,"triangles":27,"vertices_per_triangle":3},
+    {"absolute_edge_weight_histogram":{"1":27,"2":27,"3":27},"exact_rank":54,"factor":6,"generator":[[0,2,2],1],"inverse":[[0,1,1],2],"order":3,"triangles":27,"vertices_per_triangle":3},
+    {"absolute_edge_weight_histogram":{"1":27,"2":27,"3":27},"exact_rank":54,"factor":7,"generator":[[0,2,2],2],"inverse":[[0,1,1],1],"order":3,"triangles":27,"vertices_per_triangle":3},
+    {"absolute_edge_weight_histogram":{"1":27,"2":27,"3":27},"exact_rank":54,"factor":8,"generator":[[0,0,1],1],"inverse":[[0,0,2],2],"order":3,"triangles":27,"vertices_per_triangle":3},
+    {"absolute_edge_weight_histogram":{"1":27,"2":27,"3":27},"exact_rank":54,"factor":9,"generator":[[0,0,1],2],"inverse":[[0,0,2],1],"order":3,"triangles":27,"vertices_per_triangle":3}
+  ]
+}

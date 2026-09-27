@@ -1,0 +1,11 @@
+{
+  "checks":{"double_cover":true,"eight_words_per_line":true,"flag_count160":true,"matches_existing_tetracode_factor_words":true,"oriented_count320":true,"two_words_per_omitted_point":true},
+  "coordinate_boundary":"The identification with signed tetracode words uses a coordinate/sign convention on each line. The two-sheet homogeneous cover itself is canonical; a globally glued tetracode/E8 chart bundle requires additional transition data.",
+  "global_count":{"lines":40,"oriented_per_line":8,"total":320},
+  "headline":"Because the flag Borel B has order 162 and its unique Sylow-3 subgroup U81 has index two, the homogeneous-space map G/U81 -> G/B is a canonical two-sheeted cover of the 160 W33 flags, with 320 oriented chambers. On a fixed four-point line, a flag chooses the omitted point; exactly two nonzero covectors vanish there, and their evaluations are the opposite pair of weight-three tetracode words. Thus the eight oriented chambers over one line are exactly its eight nonzero tetracode words after coordinate choice.",
+  "homogeneous_cover":{"flags":160,"group":"PSp(4,3)","group_order":25920,"map":"G/U81 -> G/B","oriented_chambers":320,"oriented_stabilizer":"U81","oriented_stabilizer_order":81,"sheets":2,"unoriented_stabilizer":"B","unoriented_stabilizer_order":162},
+  "line_tetracode":{"evaluation_formula":"(a,b) -> (a,b,a+b,a-b)","fibres":[{"covectors":[[0,1],[0,2]],"omitted_point_index":0,"projective_point":[1,0],"tetracode_words":[[0,1,1,2],[0,2,2,1]]},{"covectors":[[1,0],[2,0]],"omitted_point_index":1,"projective_point":[0,1],"tetracode_words":[[1,0,1,1],[2,0,2,2]]},{"covectors":[[1,2],[2,1]],"omitted_point_index":2,"projective_point":[1,1],"tetracode_words":[[1,2,0,2],[2,1,0,1]]},{"covectors":[[1,1],[2,2]],"omitted_point_index":3,"projective_point":[1,2],"tetracode_words":[[1,1,2,0],[2,2,1,0]]}],"nonzero_words":8,"oriented_chambers_per_line":8,"projective_points":[[1,0],[0,1],[1,1],[1,2]],"weight":3},
+  "parents":["data/w33_pass11070_dual_parabolic_flag_diamond.json","data/w33_pass11063_tetracode_outer_factor_bijection.json"],
+  "schema":"w33.pass11071.oriented-chamber-tetracode-cover.v1",
+  "status":"PASS_G_OVER_U81_IS_THE_320_SHEET_ORIENTED_CHAMBER_COVER_AND_EACH_LINE_FIBRE_IS_THE_EIGHT_NONZERO_TETRACODE_WORDS"
+}

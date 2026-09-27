@@ -1,143 +1,53 @@
-# Pass 11022 — The exact signed clock carrier splits 12 + 12
+# Pass 11022 — exact signed clock carrier splits 12 + 12
 
 Producer: `analysis/w33_pass11022_binary_octahedral_clock_decomposition.py`
 Certificate: `data/w33_pass11022_binary_octahedral_clock_decomposition.json`
 Regression: `tests/test_w33_pass11022_binary_octahedral_clock_decomposition.py`
 
-Pass 11021 identified the minimal exact signed clock carrier as the 24
-noncentral coordinates of the current (H_{27}) gauge.
+> Correction recorded by Pass 11025: the exact group is GL₂(3) = 2⁺S₄,
+> the plus Schur cover. It is not the non-isomorphic binary-octahedral
+> minus cover 2⁻S₄, so the classical SU(2)/ADE McKay identification does
+> not apply here.
 
-This pass determines the actual complex representation carried by those
-24 coordinates under the exact split (GL_2(3)) monomial symmetry.
-## Exact character
+Pass 11021 identified the minimal exact signed clock carrier with the
+24 noncentral coordinates in the current H₂₇ gauge. Its exact character on
+the eight GL₂(3) classes is
 
-Using the eight conjugacy classes of the concrete matrix group (GL_2(3)),
-with class sizes
+χ₂₄ = (24, 0, 0, 6, 0, 0, 0, 2).
 
-[
-1,8,1,8,6,6,6,12,
-]
+The complex representation decomposes as
 
-the 24-dimensional signed representation has character
+V₂₄ = 2·1 ⊕ det ⊕ (3std ⊗ det) ⊕ 2·3std ⊕ 3·4spin.
 
-[
-oxed{chi_{24}=(24,0,0,6,0,0,0,2)}.
-]
+The quotient 2D irrep and both faithful 2D irreps occur with multiplicity zero.
+## Central involution
 
-The executable table is independently matched against GAP's
-`CharacterTable(GL(2,3))` and verifies its own row orthogonality.
-With irreducibles named by their projective or central behavior, the exact
-decomposition is
+For z = −I, the exact trace on V₂₄ is zero, giving the canonical split
 
-[
-oxed{
-V_{24}
-=
-2,mathbf1
-oplus det
-oplus (3_{
-m std}!otimes!det)
-oplus 2,3_{
-m std}
-oplus 3,4_{
-m spin}.
-}
-]
+V₂₄ = V₊ ⊕ V₋,   dim V₊ = dim V₋ = 12.
 
-The quotient two-dimensional irrep and both faithful two-dimensional spinor
-irreps occur with multiplicity zero.
+The even sector is
 
-The pullback (3_{
-m std}) is identified internally from the action on the
-four projective clock labels (mathbf P^1(mathbf F_3)), not by a name match.
-## The central involution
+V₊ = 2·1 ⊕ det ⊕ (3std ⊗ det) ⊕ 2·3std,
 
-Let (z=-Iin GL_2(3)). Because it is central, its (pm1) eigenspaces are
-group-invariant. The exact trace is zero on (V_{24}), hence
+while the odd sector is exactly
 
-[
-oxed{
-V_{24}=V_+oplus V_-,
-qquad
-dim V_+=dim V_-=12.
-}
-]
+V₋ = 3·4spin.
 
-Their characters are
+Every six-coordinate projective clock fibre resolves as 3₊ + 3₋.
+Projecting the four fibre indicators with P₊ = (1 + z)/2 and
+P₋ = (1 − z)/2 and closing under the exact group gives rank 12 in each
+sector. The same is true starting only from the three coarse clock
+augmentation generators.
 
-[
-chi_+=(12,3,12,3,0,0,0,2),
-]
-[
-chi_-=(12,-3,-12,3,0,0,0,0).
-]
-The irreducible decomposition sharpens this completely:
+## Cover firewall
 
-[
-oxed{
-V_+
-=
-2,mathbf1
-oplusdet
-oplus(3_{
-m std}!otimes!det)
-oplus2,3_{
-m std},
-}
-]
+The concrete GL₂(3) has 13 nonidentity involutions. A faithful finite
+subgroup of SL₂(C) has only one nontrivial involution, −I, so this group
+cannot be the binary-octahedral SU(2) group. The exact character audit also
+finds Λ²ρ = det for every irreducible 2D representation ρ, not the trivial
+determinant required for an SL₂ embedding.
 
-while
-
-[
-oxed{
-V_-=3,4_{
-m spin}.
-}
-]
-
-Thus every irreducible in the plus sector descends through
-(GL_2(3)/{pm I}=S_4), whereas the entire minus sector is carried by three
-copies of one faithful four-dimensional representation on which the central
-double-cover element acts as (-1).
-## Every clock fibre already contains both halves
-
-Each of the four projective clock directions is a six-coordinate fibre.
-The central involution acts inside every fibre with
-
-[
-oxed{6=3_+oplus3_-}.
-]
-
-This is not merely a global dimension balance.
-
-Take the four coarse fibre indicators from Pass 11021 and project them using
-
-[
-P_pm=rac{1}{2}(1pm z).
-]
-
-Closing either projected set under the exact signed group gives rank 12.
-Even more strongly, start only from the three coarse clock augmentation
-generators (v_1-v_4,v_2-v_4,v_3-v_4): their plus projections span all of
-(V_+), and their minus projections span all of (V_-).
-So the three-dimensional clock order parameter is genuinely a coarse seed for
-both exact twelve-dimensional sectors.
-
-## External context
-
-Classically, (GL_2(3)) is the binary-octahedral double cover of the rotational
-octahedral group (S_4). Under the McKay correspondence the binary octahedral
-group is the affine-(E_7) case.
-
-Those are prior-art identifications. The repository result is narrower and
-objectwise: the already-certified 24-coordinate clock carrier is now placed
-inside the irreducible representation ring of that exact group.
-
-## Boundary
-
-"Spinorial" here is a representation-theoretic word: the central element of
-the double cover acts as (-1). It does **not** identify these twelve modes
-with physical fermions, Lorentz spinors, or particle species.
-
-Likewise the McKay (E_7) association does not by itself produce an
-(E_7) gauge theory, spacetime symmetry, or dynamics.
+“Spinorial” therefore means only that central −I acts as −1 on the 4D irrep.
+No physical fermion, Lorentz-spinor, ADE, or E₇ gauge interpretation is
+asserted.

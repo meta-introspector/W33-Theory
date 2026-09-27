@@ -1,0 +1,30 @@
+{
+  "K81": {
+    "Hilbert_series": "(1+t+t^2)^3(1+t^2+t^4)",
+    "Jennings_degrees": [1,1,1,2],
+    "augmentation_nilpotency_index": 11,
+    "augmentation_power_dimensions": [81,80,77,70,60,47,34,21,11,4,1,0],
+    "last_nonzero_augmentation_power": 10,
+    "successive_layers": [1,3,7,10,13,13,13,10,7,3,1]
+  },
+  "U81": {
+    "Hilbert_series": "(1+t+t^2)^2(1+t^2+t^4)(1+t^3+t^6)",
+    "Jennings_degrees": [1,1,2,3],
+    "augmentation_nilpotency_index": 15,
+    "augmentation_power_dimensions": [81,80,78,74,69,62,54,45,36,27,19,12,7,3,1,0],
+    "last_nonzero_augmentation_power": 14,
+    "successive_layers": [1,2,4,5,7,8,9,9,9,8,7,5,4,2,1]
+  },
+  "boundary": "Jennings degree is algebraic nilpotence depth, not laboratory time. The 'clock promotion' phrase names the exact filtration replacement and does not by itself prove a physical arrow of time.",
+  "checks": {"K_profile_exact":true,"U_profile_reused_exact":true,"degree1_to_degree3_replacement":true,"dimension81_preserved":true},
+  "exact_promotion": {
+    "dimension_preserved": 81,
+    "inserted_factor": "(1+t^3+t^6), degree 3",
+    "interpretation": "the independent external C3 scheduler coordinate is replaced algebraically by the class-three highest-root coordinate",
+    "removed_factor": "(1+t+t^2), degree 1"
+  },
+  "headline": "The split scheduler and the class-three chamber group have the same order 81 but different modular memory depth. Over F3, K81=H27 x C3 has Jennings Hilbert series (1+t+t^2)^3(1+t^2+t^4), with degrees 1,1,1,2. U81 has (1+t+t^2)^2(1+t^2+t^4)(1+t^3+t^6), with C2 root heights 1,1,2,3. Passing from K81 to U81 exactly replaces one degree-1 ternary factor by the degree-3 highest-root factor.",
+  "parents": ["data/w33_pass11065_split_nonsplit_order81_bridge.json","data/PART_W33_PASS5108_U81_JENNINGS_MEMORY.json"],
+  "schema": "w33.pass11066.jennings-clock-promotion.v1",
+  "status": "PASS_SPLIT_K81_TO_CHAMBER_U81_PROMOTES_ONE_DEGREE1_TERNARY_COORDINATE_TO_ROOT_HEIGHT3"
+}

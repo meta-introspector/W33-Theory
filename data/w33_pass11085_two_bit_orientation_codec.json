@@ -1,0 +1,13 @@
+{
+  "base_orbit":{"1":[1,1],"S":[-1,-1],"T":[-1,1],"TS":[1,-1]},
+  "bits":{"chi":"highest-root cocycle/tick sign","sigma":"tetracode/chamber-sheet sign"},
+  "boundary":"The two-bit decomposition is exact group action data. Neither bit is automatically a physical arrow of time; a dynamics must choose or prepare a sector.",
+  "checks":{"S_flips_both":true,"TS_flips_only_chi":true,"T_flips_only_sigma":true,"four_sign_pairs":true,"global_640":true},
+  "correction":"A signed tetracode word alone is only sigma and cannot determine chi: both T and S flip sigma, but only S flips the cocycle/tick. The temporal orientation requires two Z2 labels, not one.",
+  "deck_action":{"1":"(sigma,chi)","S":"(-sigma,-chi)","T":"(-sigma,chi)","TS":"(sigma,-chi)"},
+  "global_census":{"double_oriented_states":640,"flags":160,"sign_pairs_per_flag":4},
+  "headline":"The V4 deck cover has a natural two-bit codec. Let sigma be the local tetracode/chamber-sheet sign and chi the highest-root cubic-tick sign. The internal Borel involution T acts (sigma,chi)->(-sigma,chi); the outer similitude S acts (sigma,chi)->(-sigma,-chi); their product TS acts (sigma,chi)->(sigma,-chi). Thus the four sheets over every W33 flag realize all four independent sign pairs.",
+  "parents":["data/w33_pass11084_pgsp_u81_four_sheet_cover.json","data/w33_pass11072_internal_borel_deck_involution.json","data/w33_pass11073_outer_similitude_tick_reversal.json"],
+  "schema":"w33.pass11085.two-bit-orientation-codec.v1",
+  "status":"PASS_FOUR_PGSP_CHAMBER_SHEETS_ARE_EXACTLY_TETRACODE_SIGN_CROSS_CUBIC_TICK_CHIRALITY"
+}

@@ -1,0 +1,13 @@
+{
+  "ambient":{"flags":160,"group":"PSp(4,3)","lines":40,"order":25920,"points":40},
+  "boundary":"This is a synthesis of previously certified finite-group computations. The words state, program, history and update are architectural readings; no continuum spacetime or hardware timing is inferred.",
+  "checks":{"U81_order81":true,"dual_parabolics_order648":true,"flag_intersection_order162":true,"flag_is_sylow3_normalizer":true,"line_radical_F3_3_order27":true,"point_radical_H27_order27":true,"radical_intersection_order9":true,"radicals_generate_U81":true},
+  "flag_borel":{"identity":"B=G_p intersect G_L","index":160,"normalizer_identity":"B=N_G(U81)","order":162,"quotient_order":2,"sylow3":"U81","sylow3_order":81},
+  "headline":"The dual order-648 stabilizers are not competing descriptions of one local group. For an incident point p on line L, P=G_p and Q=G_L intersect in the flag stabilizer B=G_{p<L} of order 162. Its unique Sylow-3 subgroup U has order 81. The canonical normal order-27 radical on the point side is extraspecial H27; the line-side radical is flat F3^3. Inside U they intersect in U' of order 9 and generate all of U.",
+  "parabolics":{"line":{"center_order":1,"order":648,"radical":"F3^3","radical_order":27,"structure":"3^3:S4"},"point":{"center_order":3,"order":648,"radical":"H27","radical_order":27,"structure":"3^(1+2):2A4"}},
+  "parents":["data/w33_pass1047_two_648_stabilizers.json","data/PART_W33_PASS4519_FLAG_BOREL_SYLOW3_NORMALIZER.json","data/PART_W33_PASS5105_U81_DUAL_TORSOR_CONTROLLER.json"],
+  "radical_weld":{"H_program_order":27,"H_state_order":27,"center_U81_order":3,"equation":"|H27 F3^3|=27*27/9=81","generated_group":"U81","generated_order":81,"intersection":"U81 derived subgroup","intersection_order":9},
+  "schema":"w33.pass11070.dual-parabolic-flag-diamond.v1",
+  "status":"PASS_POINT648_AND_LINE648_MEET_IN_THE_FLAG_BOREL_AND_THEIR_ORDER27_RADICALS_WELD_TO_U81",
+  "structural_reading":"The point radical supplies the noncommutative qutrit-state torsor and the line radical supplies the commuting history/program torsor. A chamber does not choose one or the other: its Sylow-3 update group is their nontrivial product, glued along the common order-9 derived layer."
+}

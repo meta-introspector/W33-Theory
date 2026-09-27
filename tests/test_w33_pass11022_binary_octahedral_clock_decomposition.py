@@ -51,3 +51,10 @@ def test_center_three_is_two_trivial_plus_det():
 def test_projective_standard_is_identified_internally():
     assert CERT["checks"]["P1_standard_character_identified"] is True
     assert CERT["checks"]["augmentation_generates_both_12s"] is True
+
+def test_cover_firewall_and_cyclotomic_table():
+    g = CERT["group"]
+    assert g["schur_cover_type"] == "2^+S4 = GL2(3)"
+    assert g["nonidentity_involutions"] == 13
+    assert set(g["two_dimensional_exterior_squares"].values()) == {"det"}
+    assert CERT["checks"]["all_2d_irreps_have_exterior_square_det"] is True

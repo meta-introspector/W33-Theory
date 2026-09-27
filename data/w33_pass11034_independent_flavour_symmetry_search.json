@@ -1,0 +1,113 @@
+{
+  "boundary": "This is a representation-ring selection-rule search, not yet an embedding into the committed heterotic field labels. The decisive next test is whether any of the four determinant charge patterns is realized by an exact space-group/geometric automorphism of the 23/28 candidate orbifold vacua and remains unbroken by every required singlet VEV.",
+  "checks": {
+    "all_four_factor_through_determinant_Z2": true,
+    "determinant_Z2_is_independent_of_central_minusI": true,
+    "exactly_four_fullrank_RPV_free_assignments": true,
+    "fullrank_yukawa_assignments_576": true,
+    "irreducible_triplet_assignments_16": true,
+    "irreducible_triplets_always_allow_all_three_RPV": true,
+    "twelve_semisimple_generation_reps": true
+  },
+  "headline": "An exhaustive representation-ring search finds a sharp boundary for GL2(3) as an independent proton-protection symmetry. If each three-generation family is an irreducible triplet, all 16 full-rank Yukawa assignments also allow UDD, QLD and LLE once each. Across all 12 semisimple 3D family representations there are 576 full-rank Yukawa assignments and exactly four RPV-free ones; every survivor collapses to the generation-blind determinant Z2 quotient.",
+  "interpretation": "The search did not find a genuinely nonabelian GL2(3) flavour rescue. It did uncover a narrower algebraic escape: a determinant Z2 that is independent of the clock's central -I and can remain unbroken when the forced FI singlet is trivial. Because it acts generation-blindly it is an extra parity, not a texture mechanism.",
+  "irreducible_triplet_firewall": {
+    "RPV_free": 0,
+    "RPV_multiplicity_pattern": [
+      1,
+      1,
+      1
+    ],
+    "assignments": 16,
+    "reading": "nonabelian triplet flavour alone cannot forbid the regenerated RPV operators"
+  },
+  "schema": "w33.pass11034.independent-flavour-symmetry-search.v1",
+  "search_space": {
+    "Higgs_reps": [
+      "trivial",
+      "det"
+    ],
+    "forced_FI_singlet": "trivial, so its VEV preserves the candidate symmetry",
+    "fullrank_yukawa_assignments": 576,
+    "three_dimensional_semisimple_rep_types": [
+      "standard3",
+      "standard3_twist",
+      "det+spin_2b",
+      "det+spin_2a",
+      "det+quotient_2d",
+      "3*det",
+      "trivial+spin_2b",
+      "trivial+spin_2a",
+      "trivial+quotient_2d",
+      "trivial+2*det",
+      "2*trivial+det",
+      "3*trivial"
+    ]
+  },
+  "status": "PASS",
+  "surviving_independent_parities": [
+    {
+      "D": "3*det",
+      "E": "3*det",
+      "Hd": "trivial",
+      "Hu": "trivial",
+      "L": "3*det",
+      "Q": "3*det",
+      "RPV_invariant_multiplicities": [
+        0,
+        0,
+        0
+      ],
+      "U": "3*det"
+    },
+    {
+      "D": "3*trivial",
+      "E": "3*det",
+      "Hd": "det",
+      "Hu": "trivial",
+      "L": "3*trivial",
+      "Q": "3*det",
+      "RPV_invariant_multiplicities": [
+        0,
+        0,
+        0
+      ],
+      "U": "3*det"
+    },
+    {
+      "D": "3*trivial",
+      "E": "3*det",
+      "Hd": "trivial",
+      "Hu": "det",
+      "L": "3*det",
+      "Q": "3*trivial",
+      "RPV_invariant_multiplicities": [
+        0,
+        0,
+        0
+      ],
+      "U": "3*det"
+    },
+    {
+      "D": "3*det",
+      "E": "3*det",
+      "Hd": "det",
+      "Hu": "det",
+      "L": "3*trivial",
+      "Q": "3*trivial",
+      "RPV_invariant_multiplicities": [
+        0,
+        0,
+        0
+      ],
+      "U": "3*det"
+    }
+  ],
+  "survivor_structure": {
+    "count": 4,
+    "det_on_central_minusI": "+1",
+    "factor": "det: GL2(3) -> F3^* ~= Z2",
+    "generation_mixing": false,
+    "independent_of_clock_central_parity": true
+  }
+}

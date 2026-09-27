@@ -1,0 +1,90 @@
+{
+  "boundary": "This proves existence of sparse finite retyping transducers. A fixed one-parameter factor gate is not 54 independent control knobs, and it is not identical to the full ten-factor diagonal-weld gate.",
+  "checks": {
+    "each_perfect_factor_27_triangles_rank54_projection54": true,
+    "minus_factors_6_9": true,
+    "plus_factors_7_8": true,
+    "two_perfect_single_factors_per_orientation": true
+  },
+  "finite_gate_consequence": {
+    "cayley_identity": "C_t(F)-I = 2t F (I-tF)^-1",
+    "factor_structure": "27 disjoint weighted three-mode skew blocks",
+    "for_nonzero_real_t": "Im(C_t(F)-I)=Im(F), so the quotient map remains an isomorphism",
+    "parallel_three_mode_blocks": 27,
+    "quotient_rank": 54,
+    "raw_rank": 54,
+    "single_factor_layer_depth": 1
+  },
+  "headline": "The ten-factor diagonal weld is highly redundant as a symmetry-retyping transducer. In the frozen K-Fourier gauge, each individual triangle factor has raw rank 54. For the plus orientation, factors 7 and 8 project with rank 54 onto S2+L; for the minus orientation, factors 6 and 9 do. Because their raw rank is also 54, their images intersect S1 trivially and project isomorphically onto the full retyped quotient.",
+  "parents": ["data/w33_pass11056_diagonal_weld_ten_triangle_factors.json","data/w33_pass11055_cayley_finite_54_compiler.json"],
+  "perfect_single_factors": {
+    "minus": [
+      {"S1_intersection_dimension":0,"factor":6,"generator":[[0,2,2],1],"quotient_rank":54,"raw_rank":54,"triangles":27},
+      {"S1_intersection_dimension":0,"factor":9,"generator":[[0,0,1],2],"quotient_rank":54,"raw_rank":54,"triangles":27}
+    ],
+    "plus": [
+      {"S1_intersection_dimension":0,"factor":7,"generator":[[0,2,2],2],"quotient_rank":54,"raw_rank":54,"triangles":27},
+      {"S1_intersection_dimension":0,"factor":8,"generator":[[0,0,1],1],"quotient_rank":54,"raw_rank":54,"triangles":27}
+    ]
+  },
+  "quotient_rank_spectra": {
+    "minus": [48,48,45,45,45,45,54,36,36,54],
+    "plus": [48,48,45,45,45,45,36,54,54,36]
+  },
+  "schema": "w33.pass11062.single-foliation-finite54-transducer.v1",
+  "split_prime_certificates": {
+    "minus": [
+      {"prime":103,"rows":[
+        {"L_rank":24,"S2_rank":24,"factor":0,"quotient_rank":48,"raw_rank":54},
+        {"L_rank":24,"S2_rank":24,"factor":1,"quotient_rank":48,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":2,"quotient_rank":45,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":3,"quotient_rank":45,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":4,"quotient_rank":45,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":5,"quotient_rank":45,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":6,"quotient_rank":54,"raw_rank":54},
+        {"L_rank":18,"S2_rank":18,"factor":7,"quotient_rank":36,"raw_rank":54},
+        {"L_rank":18,"S2_rank":18,"factor":8,"quotient_rank":36,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":9,"quotient_rank":54,"raw_rank":54}
+      ]},
+      {"prime":109,"rows":[
+        {"L_rank":24,"S2_rank":24,"factor":0,"quotient_rank":48,"raw_rank":54},
+        {"L_rank":24,"S2_rank":24,"factor":1,"quotient_rank":48,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":2,"quotient_rank":45,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":3,"quotient_rank":45,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":4,"quotient_rank":45,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":5,"quotient_rank":45,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":6,"quotient_rank":54,"raw_rank":54},
+        {"L_rank":18,"S2_rank":18,"factor":7,"quotient_rank":36,"raw_rank":54},
+        {"L_rank":18,"S2_rank":18,"factor":8,"quotient_rank":36,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":9,"quotient_rank":54,"raw_rank":54}
+      ]}
+    ],
+    "plus": [
+      {"prime":103,"rows":[
+        {"L_rank":24,"S2_rank":24,"factor":0,"quotient_rank":48,"raw_rank":54},
+        {"L_rank":24,"S2_rank":24,"factor":1,"quotient_rank":48,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":2,"quotient_rank":45,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":3,"quotient_rank":45,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":4,"quotient_rank":45,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":5,"quotient_rank":45,"raw_rank":54},
+        {"L_rank":18,"S2_rank":18,"factor":6,"quotient_rank":36,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":7,"quotient_rank":54,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":8,"quotient_rank":54,"raw_rank":54},
+        {"L_rank":18,"S2_rank":18,"factor":9,"quotient_rank":36,"raw_rank":54}
+      ]},
+      {"prime":109,"rows":[
+        {"L_rank":24,"S2_rank":24,"factor":0,"quotient_rank":48,"raw_rank":54},
+        {"L_rank":24,"S2_rank":24,"factor":1,"quotient_rank":48,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":2,"quotient_rank":45,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":3,"quotient_rank":45,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":4,"quotient_rank":45,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":5,"quotient_rank":45,"raw_rank":54},
+        {"L_rank":18,"S2_rank":18,"factor":6,"quotient_rank":36,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":7,"quotient_rank":54,"raw_rank":54},
+        {"L_rank":27,"S2_rank":27,"factor":8,"quotient_rank":54,"raw_rank":54},
+        {"L_rank":18,"S2_rank":18,"factor":9,"quotient_rank":36,"raw_rank":54}
+      ]}
+    ]
+  },
+  "status": "PASS_ONE_27_TRIANGLE_FOLIATION_CAN_ALREADY_TRANSVERSELY_COVER_THE_FULL_54D_RETYPE_QUOTIENT"
+}

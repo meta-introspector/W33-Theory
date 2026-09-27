@@ -1,0 +1,49 @@
+{
+  "basis_jacobians": {
+    "active_rows_per_generator": 20,
+    "count": 81,
+    "edges_per_generator": 10,
+    "exact_rank_each": 20,
+    "independent_span_dimension": 81,
+    "split_prime_span_ranks": {
+      "103": 81,
+      "109": 81
+    },
+    "zero_rows_per_generator": 61
+  },
+  "boundary": "This proves a finite orthogonal/unitary flow for the algebraic cubic Jacobian. It does not establish that a laboratory Hamiltonian implements D_v with the required coupling strength or isolation.",
+  "checks": {
+    "all_81_basis_generators_are_ten_matchings": true,
+    "all_81_basis_generators_rank20": true,
+    "all_81_basis_generators_skew": true,
+    "basis_generator_span_rank81": true,
+    "both_diagonal_welds_rank66": true,
+    "orthogonal_exponential_follows_exactly": true
+  },
+  "diagonal_weld_generators": {
+    "center_minus_external": {
+      "kernel_dimension": 15,
+      "rank_mod_103": 66,
+      "rank_mod_109": 66
+    },
+    "center_plus_external": {
+      "kernel_dimension": 15,
+      "rank_mod_103": 66,
+      "rank_mod_109": 66
+    }
+  },
+  "finite_flow": {
+    "all_ranks_even": true,
+    "determinant": "+1",
+    "exponential": "U_v(t)=exp(t D_v)",
+    "orthogonality": "U_v(t)^T U_v(t)=I",
+    "reason": "D_v^T=-D_v, so exp(tD_v)^T=exp(-tD_v)"
+  },
+  "headline": "Every E6 cubic Jacobian D_v is a real skew-symmetric 81x81 matrix. The 81 coordinate generators are linearly independent; each is exactly ten disjoint 2x2 rotation blocks, hence rank 20. Therefore exp(t D_v) lies in SO(81) for every real t, and the Cayley transform is orthogonal whenever defined.",
+  "parents": [
+    "analysis/w33_e6_cubic_fourier54_alignment.py",
+    "data/w33_e6_cubic_diagonal_phase_weld.json"
+  ],
+  "schema": "w33.pass11054.cubic-jacobian-skew-orthogonal-flow.v1",
+  "status": "PASS_E6_CUBIC_JACOBIANS_FORM_AN_81D_FAMILY_OF_EXACT_SKEW_GENERATORS"
+}

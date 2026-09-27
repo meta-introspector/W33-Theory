@@ -1,0 +1,145 @@
+{
+  "boundary": "The 4x2 tetracode match is an exact combinatorial bijection, not yet an intertwiner between cocycle chirality and the committed E8 tensor dualizations. 'Temporal anomaly' remains an interpretation of the finite cocycle, not a derivation of physical time.",
+  "boundary_carrier": {
+    "monomial_span_dimension": 9,
+    "twisted_algebra": "M3(C)",
+    "weyl_relation": "ZX = omega XZ"
+  },
+  "checks": {
+    "all_three_slants_nondegenerate": true,
+    "bell_diagonal_lagrangian": true,
+    "determinant_phase_is_3cocycle": true,
+    "doubled_geometry_W33_counts": true,
+    "tetracode_four_by_two_orientation_index": true,
+    "twenty_seven_transverse_lagrangians": true,
+    "weyl_algebra_full_M3": true
+  },
+  "cubic_class": {
+    "cocycle_failures_over_all_27^4_quadruples": 0,
+    "exponent": "det(g,h,k) mod 3",
+    "group": "F3^3",
+    "nontriviality_witness": "Each contraction has nondegenerate alternating commutator; a coboundary on an abelian plane would have trivial projective commutator, so the cubic class cannot be globally trivial.",
+    "slant_contractions": [
+      {
+        "basis_form": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "contracted_axis": 0,
+        "plane_size": 9,
+        "radical_size": 1
+      },
+      {
+        "basis_form": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "contracted_axis": 1,
+        "plane_size": 9,
+        "radical_size": 1
+      },
+      {
+        "basis_form": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "contracted_axis": 2,
+        "plane_size": 9,
+        "radical_size": 1
+      }
+    ]
+  },
+  "headline": "The alternating cubic phase nu(g,h,k)=omega^det(g,h,k) is an exact normalized 3-cocycle on F3^3. Contracting any one axis gives a nondegenerate 2-cocycle on the complementary F3^2 plane, hence the qutrit Weyl algebra M3(C). Doubling two such planes with opposite orientation gives exactly the 40-point/40-line W(3,3) symplectic geometry; the diagonal Bell line cancels the opposite forms and has exactly 27 transverse Lagrangian complements.",
+  "interpretation": "This makes the PDF's anomaly-to-qutrit idea exact after choosing the alternating determinant representative: one cubic composition class has three nondegenerate slant reductions, while opposite temporal orientations glue into the repository's native symplectic W33 label space. The tetracode supplies exactly the same 4 x 2 omission/chirality index set.",
+  "past_future_doubling": {
+    "bell_diagonal_points": 4,
+    "lagrangian_lines": 40,
+    "lines_per_point": 4,
+    "points_per_line": 4,
+    "projective_points": 40,
+    "transverse_lagrangians": 27
+  },
+  "schema": "w33.pass11035.cubic-cocycle-weyl-w33-descent.v1",
+  "status": "PASS",
+  "tetracode_indexing": {
+    "law": "4 omitted clocks x 2 opposite codewords",
+    "nonzero_words": 8,
+    "omission_classes": {
+      "0": [
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          1,
+          2
+        ]
+      ],
+      "1": [
+        [
+          1,
+          0,
+          2,
+          2
+        ],
+        [
+          2,
+          0,
+          1,
+          1
+        ]
+      ],
+      "2": [
+        [
+          1,
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          1,
+          0,
+          2
+        ]
+      ],
+      "3": [
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          2,
+          0
+        ]
+      ]
+    },
+    "weight": 3
+  }
+}

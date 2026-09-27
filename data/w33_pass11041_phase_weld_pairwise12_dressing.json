@@ -1,0 +1,150 @@
+{
+  "boundary": "The 1+6+12+8 split depends on the frozen tensor-factor basis and reference value 0 in each of the three S1 coefficient factors. The split-prime certificates prove the stated transversality over characteristic zero only to the extent that the relevant nonzero minors lift from Z[omega]; a fully symbolic Q(omega) graph matrix is still worth freezing.",
+  "canonical_factorization": {
+    "S1_dimension": 27,
+    "basis_labels": "(external character t, regular multiplicity r, Schrodinger component i)",
+    "correlation_order_dimensions": {
+      "C0": 1,
+      "C1": 6,
+      "C2": 12,
+      "C3": 8
+    },
+    "local_index_set": "F3 x F3 x F3",
+    "reference_value": 0
+  },
+  "certificates": {
+    "center_minus_external": {
+      "103": {
+        "graph_component_ranks": {
+          "C2_to_C0": 1,
+          "C2_to_C1": 6,
+          "C2_to_C3": 8
+        },
+        "pairwise_projection_isomorphism": true,
+        "projection_ranks": {
+          "C0": 1,
+          "C1": 6,
+          "C2": 12,
+          "C3": 8
+        },
+        "pure_sector_intersection_dimensions": {
+          "C0": 0,
+          "C1": 0,
+          "C2": 0,
+          "C3": 0
+        },
+        "sector_dimensions": {
+          "C0": 1,
+          "C1": 6,
+          "C2": 12,
+          "C3": 8
+        }
+      },
+      "109": {
+        "graph_component_ranks": {
+          "C2_to_C0": 1,
+          "C2_to_C1": 6,
+          "C2_to_C3": 8
+        },
+        "pairwise_projection_isomorphism": true,
+        "projection_ranks": {
+          "C0": 1,
+          "C1": 6,
+          "C2": 12,
+          "C3": 8
+        },
+        "pure_sector_intersection_dimensions": {
+          "C0": 0,
+          "C1": 0,
+          "C2": 0,
+          "C3": 0
+        },
+        "sector_dimensions": {
+          "C0": 1,
+          "C1": 6,
+          "C2": 12,
+          "C3": 8
+        }
+      }
+    },
+    "center_plus_external": {
+      "103": {
+        "graph_component_ranks": {
+          "C2_to_C0": 1,
+          "C2_to_C1": 6,
+          "C2_to_C3": 8
+        },
+        "pairwise_projection_isomorphism": true,
+        "projection_ranks": {
+          "C0": 1,
+          "C1": 6,
+          "C2": 12,
+          "C3": 8
+        },
+        "pure_sector_intersection_dimensions": {
+          "C0": 0,
+          "C1": 0,
+          "C2": 0,
+          "C3": 0
+        },
+        "sector_dimensions": {
+          "C0": 1,
+          "C1": 6,
+          "C2": 12,
+          "C3": 8
+        }
+      },
+      "109": {
+        "graph_component_ranks": {
+          "C2_to_C0": 1,
+          "C2_to_C1": 6,
+          "C2_to_C3": 8
+        },
+        "pairwise_projection_isomorphism": true,
+        "projection_ranks": {
+          "C0": 1,
+          "C1": 6,
+          "C2": 12,
+          "C3": 8
+        },
+        "pure_sector_intersection_dimensions": {
+          "C0": 0,
+          "C1": 0,
+          "C2": 0,
+          "C3": 0
+        },
+        "sector_dimensions": {
+          "C0": 1,
+          "C1": 6,
+          "C2": 12,
+          "C3": 8
+        }
+      }
+    }
+  },
+  "checks": {
+    "both_diagonal_welds_tested": true,
+    "correlation_dimensions_1_6_12_8": true,
+    "full_projection_to_C0_C1_C3": true,
+    "full_projection_to_pairwise_C2": true,
+    "intersection_dimension_12": true,
+    "same_verdict_both_weld_orientations": true,
+    "split_primes_103_109": true,
+    "zero_literal_intersection_with_pure_C2": true
+  },
+  "headline": "The diagonal phase weld's 12-dimensional S1 intersection is not literally the pure pairwise-correlation C2 sector. In the frozen S1 coefficient factorization (t,r,i) in F3^3, with dimensions 1+6+12+8 by correlation order, the weld intersection has zero intersection with every pure Ck. However its projection onto C2 has full rank 12, so it is canonically a graph over the entire pairwise 12, dressed by lower- and higher-order pieces.",
+  "importance": "This resolves the numerical 12 coincidence left open by the phase-weld paper and the uploaded temporal note. The missing pairwise 12 is present as a complete quotient coordinate, not as an isolated invariant block. That is a stronger mechanism for mediation between the 6- and 8-dimensional sectors, but it also forbids interpreting the weld as 'purely pairwise'.",
+  "refined_phase_weld_mechanism": {
+    "description": "K12 is transverse to C2 and pi_C2:K12->C2 is an isomorphism. Thus K12={x+A0x+A1x+A3x : x in C2}. The diagonal weld activates all pairwise coordinates, but only as a dressed subspace coupling simultaneously to scalar, one-body, and three-body sectors.",
+    "dressing_component_ranks": {
+      "scalar_C0": 1,
+      "single_C1": 6,
+      "triple_C3": 8
+    },
+    "literal_statement_that_intersection_equals_C2": false,
+    "pairwise_core_complete": true,
+    "pairwise_projection_dimension": 12
+  },
+  "schema": "w33.pass11041.phase-weld-pairwise12-dressing.v1",
+  "status": "PASS"
+}

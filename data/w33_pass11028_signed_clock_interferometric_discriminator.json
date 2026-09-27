@@ -1,0 +1,114 @@
+{
+  "central_operation": {
+    "disjoint_mode_swaps": 12,
+    "matrix_element": "-I in support GL2(3), exact signed monomial lift",
+    "negative_swap_pairs": 6,
+    "noncentral_mode_dimension": 24,
+    "pair_list": [
+      [
+        1,
+        16,
+        1
+      ],
+      [
+        2,
+        15,
+        -1
+      ],
+      [
+        3,
+        14,
+        1
+      ],
+      [
+        4,
+        13,
+        -1
+      ],
+      [
+        5,
+        12,
+        1
+      ],
+      [
+        6,
+        11,
+        -1
+      ],
+      [
+        7,
+        10,
+        1
+      ],
+      [
+        8,
+        9,
+        -1
+      ],
+      [
+        17,
+        26,
+        -1
+      ],
+      [
+        18,
+        25,
+        1
+      ],
+      [
+        19,
+        24,
+        -1
+      ],
+      [
+        20,
+        23,
+        1
+      ]
+    ]
+  },
+  "checks": {
+    "central_network_twelve_swaps_six_negative_pairs": true,
+    "four_clock_fibres": true,
+    "independent_qutrit_trace_ratio_one_third": true,
+    "projective_model_visibility_one": true,
+    "signed_fringe_extrema_two_thirds_one_third": true,
+    "signed_overlap_pattern": true,
+    "six_modes_each": true,
+    "visibility_is_direction_independent_one_third": true
+  },
+  "coarse_fibre_probe": {
+    "absolute_visibility_each": [
+      "1/3",
+      "1/3",
+      "1/3",
+      "1/3"
+    ],
+    "permutation_blind_statistic": "phase-scanned fringe visibility |<v,zv>|/<v,v>",
+    "projective_identity_model_visibility": "1",
+    "signed_model_visibility": "1/3",
+    "signed_overlaps": [
+      "1/3",
+      "-1/3",
+      "1/3",
+      "-1/3"
+    ],
+    "visibility_squared": "1/9"
+  },
+  "cross_representation_check": {
+    "firewall": "This numerical equality is an operational cross-check only. Pass 10952 already proves that the qutrit Clifford and the signed 24-mode carrier are different representations of the same abstract central element.",
+    "qutrit_four_tick_abs_trace_over_3": 0.3333333333333331,
+    "same_number": "1/3"
+  },
+  "equal_arm_fringe": {
+    "projective_Pmax": "1",
+    "projective_Pmin": "0",
+    "protocol": "Prepare a normalized uniform state on any one six-mode clock fibre, split into two coherent arms, apply the exact signed central operation z in one arm and identity in the other, scan the reference phase, and extract fringe visibility.",
+    "signed_Pmax": "2/3",
+    "signed_Pmin": "1/3"
+  },
+  "experimental_boundary": "The certificate derives an ideal coherent-mode observable, not a hardware error budget. Loss imbalance, mode-dependent phase noise, source impurity and detector visibility must be calibrated before a laboratory comparison. The discriminator tests the signed carrier against its coarse projective shadow; it does not test the full TOE.",
+  "headline": "A two-arm identity-versus-central-sign interferometer separates the naive projective clock from the exact signed 24-mode carrier. For each uniform six-mode clock fibre the exact signed overlap is +/-1/3, so phase-scanned fringe visibility is exactly 1/3 independent of clock direction; the coarse projective model predicts visibility 1.",
+  "schema": "w33.pass11028.signed-clock-interferometric-discriminator.v1",
+  "status": "PASS"
+}

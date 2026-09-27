@@ -1,0 +1,62 @@
+{
+  "Bell_relative_geometry": {
+    "Bell_spread_rule": "each of the other nine lines hits every Bell-relative sector once",
+    "off_Bell_points": 36,
+    "points_per_sector": 9,
+    "sectors": 4,
+    "transverse_line_Bell_spread_incidence": 3,
+    "transverse_lines": 27
+  },
+  "boundary": "This does not say off-Bell W33 directions are unobservable; they form an exact operator basis and can enter tomography by linear reconstruction. It says only that the raw rank-one superoperators are not individually implementable CPTP interventions.",
+  "checks": {
+    "Bell_containing_spreads_9": true,
+    "Bell_relative_sectors_4_by_9": true,
+    "Bell_spread_profile_one_CP_context": true,
+    "Bell_spread_transverse_lines_hit_each_sector_once": true,
+    "W33_40_points_40_lines": true,
+    "each_spread_has_4_CP_basis_rays": true,
+    "each_transverse_line_occurs_in_three_Bell_spreads": true,
+    "nonBell_spread_profile_four_single_CP_contexts": true,
+    "spread_count_36": true,
+    "spread_pair_intersections_1_or_4": true
+  },
+  "complete_positivity": {
+    "CP_locus": "the Bell line",
+    "CP_projective_points": 4,
+    "PSD_condition": "u=v up to the fixed Pauli phase convention",
+    "basis_map": "Phi_(u,v)(A)=P_u A P_v^dagger",
+    "non_CP_projective_points": 36,
+    "rank_one_Choi": "|P_u>><<P_v|",
+    "spread_CP_context_profiles": {
+      "27_other_spreads": "four lines with 1 CP ray; six lines with 0",
+      "9_Bell_spreads": "one line with 4 CP rays; nine lines with 0"
+    }
+  },
+  "headline": "W33 has exactly 36 line spreads; 9 contain the Bell line. The spread intersection census is {1:360,4:270}. But a spread is not directly a ten-context family of physical quantum channels: among the 40 projective two-sided Weyl basis rays only the four Bell-diagonal rays are completely positive. Every spread therefore contains 4 CP basis rays and 36 non-CP basis rays.",
+  "physical_firewall": "The uploaded temporal architecture is safe if a W33 point is called an operator/intervention direction. It is too strong to call all 40 basis rays physical channels: complete positivity selects only the Bell line. A ten-setting laboratory instrument built from a spread therefore needs an explicit CP completion (positive linear combinations, ancilla dilation, or a different measurement map) for the 36 off-Bell directions.",
+  "schema": "w33.pass11038.spread-instrument-cp-firewall.v1",
+  "spread_census": {
+    "Bell_containing_spreads": 9,
+    "Bell_line_index": 16,
+    "Bell_spread_example": [
+      1,
+      4,
+      11,
+      14,
+      16,
+      19,
+      27,
+      29,
+      36,
+      38
+    ],
+    "lines_per_spread": 10,
+    "not_containing_Bell": 27,
+    "pair_intersection_histogram": {
+      "1": 360,
+      "4": 270
+    },
+    "spreads": 36
+  },
+  "status": "PASS"
+}

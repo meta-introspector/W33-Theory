@@ -1,0 +1,30 @@
+{
+  "boundary": "This identifies the exact algebraic relation between the two FI orientations. It does not select one orientation dynamically or infer spontaneous chirality.",
+  "checks": {
+    "finite_cayley_inverse_conjugacy": true,
+    "generator_inverse_conjugacy": true,
+    "phase_reversal_involution": true
+  },
+  "finite_gate_identity": {
+    "interpretation": "orientation reversal is external-phase conjugation plus time/generator reversal",
+    "orthogonal_form": "C_minus(t)=R C_plus(t)^T R^T",
+    "relation": "C_minus(t)=R C_plus(-t) R^T"
+  },
+  "generator_identity": {
+    "R_squared": "I",
+    "phase_reversal": "R:(h,p)->(h,-p)",
+    "relation": "D_minus=-R D_plus R^T",
+    "transpose_form": "D_minus=R D_plus^T R^T"
+  },
+  "headline": "Let R reverse only the external qutrit phase p->-p. The two diagonal cubic generators obey D_minus=-R D_plus R^T exactly. Consequently their finite Cayley gates satisfy C_minus(t)=R C_plus(-t) R^T=R C_plus(t)^T R^T. The two FI orientations are therefore exact inverse-conjugate gates, not merely equal-rank alternatives.",
+  "parents": [
+    "data/w33_pass11055_cayley_finite_54_compiler.json",
+    "data/w33_e6_cubic_diagonal_phase_weld.json"
+  ],
+  "schema": "w33.pass11057.diagonal-weld-orientation-conjugacy.v1",
+  "split_prime_replays": [
+    {"inverse_conjugacy_verified":true,"prime":103,"t":1},
+    {"inverse_conjugacy_verified":true,"prime":109,"t":1}
+  ],
+  "status": "PASS_EXTERNAL_PHASE_REVERSAL_EXCHANGES_THE_TWO_DIAGONAL_WELDS_AS_INVERSE_ORTHOGONAL_GATES"
+}

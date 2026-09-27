@@ -1,0 +1,57 @@
+{
+  "boundary": "Minimality is proved for latent finite-dimensional complex H27 modules that dress the existing Schrodinger factor by tensor product. It does not exclude a different physical architecture that changes the carrier, the symmetry group, or the notion of equivariance.",
+  "checks": {
+    "Hesse_character_lines_count_12": true,
+    "chosen_three_characters_form_Hesse_line": true,
+    "common_H27_submodule_dimension_9": true,
+    "common_K_submodule_dimension_27": true,
+    "matches_equivariant_rank_ceiling": true,
+    "matches_minimal_compiler_budget": true,
+    "minimal_latent_dimension_9": true,
+    "retyped_dimension_54": true,
+    "unique_irrep_multiplicity_solution_N3_p1_q1": true
+  },
+  "classification": {
+    "chosen_line": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "dual_affine_lines_of_three_characters": 12,
+    "latent_irrep_content": {
+      "V_omega": 1,
+      "V_omega2": 1,
+      "dimension": 9,
+      "one_dimensional_total": 3
+    },
+    "one_dimensional_choice_freedom": "the three 1D characters may be chosen with multiplicity; choosing an affine line in the dual F3^2 is a natural Hesse-compatible gauge",
+    "uniqueness": "unique at the level of irreducible multiplicities"
+  },
+  "compiler_budget": {
+    "dressed_H27_module": "Reg(H27)=sum_9 chi + 3V_omega + 3V_omega2",
+    "external_C3_factor": 3,
+    "forced_retyped_dimension": 54,
+    "maximal_common_H27_dimension": 9,
+    "maximal_common_K_dimension": 27,
+    "old_H27_module": "9 V_omega",
+    "total_dimension": 81
+  },
+  "headline": "The commutant dressing is minimal and essentially forced. If A contains N one-dimensional H27 characters, p copies of V_omega and q copies of V_omega2, then V_omega tensor A is regular only for N=3,p=1,q=1. Hence dim A=9 is minimal. The old 9V_omega carrier and the regular carrier share exactly 3V_omega (dimension 9); after the external C3 this becomes 27 compatible dimensions and exactly 54 retyped dimensions.",
+  "parents": [
+    "data/w33_pass11043_commutant_dressing_regular_h27.json",
+    "data/w33_minimal_symmetry_changing_81_compiler.json",
+    "data/w33_hybrid81_operator_equivariance_budget.json"
+  ],
+  "schema": "w33.pass11044.minimal-latent-dimension-and-54-budget.v1",
+  "status": "PASS_LATENT_DIMENSION_9_IS_MINIMAL_AND_EXPLAINS_EXACT_27_PLUS_54_COMPILER_SPLIT",
+  "structural_reading": "The old 54-coordinate lower bound was not an accidental rank defect. It is exactly the cost of replacing six of the nine V_omega multiplicity slots by the missing 3V_omega2 plus nine one-dimensional characters. The 9D latent subsystem is precisely large enough to carry that change."
+}

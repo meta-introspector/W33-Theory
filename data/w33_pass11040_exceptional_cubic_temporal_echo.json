@@ -1,0 +1,439 @@
+{
+  "boundary": "This proves coefficient-level and basis-level equality between the qutrit cubic derivative and the repository's abstract E8 nilpotent bracket model. It still does not derive a Hamiltonian that implements these bracket generators as laboratory interventions or fix an energy/time scale.",
+  "checks": {
+    "180_nonzero_oriented_echoes": true,
+    "45_signed_E6_triads": true,
+    "all_360_objectwise_matches": true,
+    "bare_finite_difference_order_is_orientation_blind": true,
+    "temporal_basis_swap_reverses_nested_bracket": true,
+    "triple_finite_difference_returns_cubic_sign": true
+  },
+  "exceptional_level": {
+    "basis_cases": 360,
+    "identity": "[[e_(i,a),e_(j,b)],e_(k,c)] = -eps(a,b) Delta_x Delta_y Delta_z(d_ijk xyz) T_c",
+    "nonzero_cases": 180,
+    "temporal_reversal": "swap a and b; eps flips sign",
+    "triads": 45
+  },
+  "gate_level": {
+    "difference_orders_tested": 6,
+    "orientation_from_difference_order": false,
+    "phase": "omega^(d_ijk*x*y*z)",
+    "signed_echo_values": {
+      "-1": -1,
+      "1": 1
+    },
+    "triple_forward_difference": "d_ijk mod 3"
+  },
+  "headline": "The qutrit cubic echo and the committed E8 bracket ladder now match objectwise on all 45 signed E6 triads. For f_ijk(x,y,z)=d_ijk xyz, Delta_x Delta_y Delta_z f_ijk=d_ijk, while the E8 nested bracket is [[e_(i,a),e_(j,b)],e_(k,c)]=-eps(a,b)d_ijk T_c. All 360 basis cases match the single formula -eps(a,b)*(triple finite difference)*T_c.",
+  "important_correction": "The bare scalar triple finite difference does not itself know temporal orientation: finite-difference operators commute. The orientation sign comes from the alternating temporal two-form eps (equivalently, from the choice of conjugate temporal orientation/antiunitary phase convention). Thus a cubic temporal witness should include that antisymmetric carrier, not identify time reversal with merely permuting Delta operators.",
+  "schema": "w33.pass11040.exceptional-cubic-temporal-echo.v1",
+  "status": "PASS",
+  "triad_table": [
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        0,
+        17,
+        26
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        0,
+        18,
+        25
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        0,
+        19,
+        24
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        0,
+        20,
+        23
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        0,
+        21,
+        22
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        1,
+        8,
+        26
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        1,
+        12,
+        25
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        1,
+        14,
+        24
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        1,
+        15,
+        23
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        1,
+        16,
+        21
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        2,
+        7,
+        26
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        2,
+        11,
+        25
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        2,
+        13,
+        24
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        2,
+        15,
+        22
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        2,
+        16,
+        20
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        3,
+        6,
+        26
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        3,
+        10,
+        25
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        3,
+        13,
+        23
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        3,
+        14,
+        22
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        3,
+        16,
+        19
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        4,
+        5,
+        26
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        4,
+        9,
+        25
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        4,
+        13,
+        21
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        4,
+        14,
+        20
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        4,
+        15,
+        19
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        5,
+        10,
+        24
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        5,
+        11,
+        23
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        5,
+        12,
+        22
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        5,
+        16,
+        18
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        6,
+        9,
+        24
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        6,
+        11,
+        21
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        6,
+        12,
+        20
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        6,
+        15,
+        18
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        7,
+        9,
+        23
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        7,
+        10,
+        21
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        7,
+        12,
+        19
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        7,
+        14,
+        18
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        8,
+        9,
+        22
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        8,
+        10,
+        20
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        8,
+        11,
+        19
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        8,
+        13,
+        18
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        9,
+        16,
+        17
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        10,
+        15,
+        17
+      ]
+    },
+    {
+      "cubic_sign": -1,
+      "gate_echo": -1,
+      "triad": [
+        11,
+        14,
+        17
+      ]
+    },
+    {
+      "cubic_sign": 1,
+      "gate_echo": 1,
+      "triad": [
+        12,
+        13,
+        17
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "boundary": "The terminal commutator is an exact ternary central group coordinate. Calling it a temporal tick is a structural interpretation, not a measurement of continuous physical time.",
+  "checks": {
+    "nonzero_twists_have_pure_second_nested_tick": true,
+    "orientation_reverses_tick": true,
+    "split_nested_commutator_zero": true,
+    "third_nested_zero": true
+  },
+  "closed_formula": {
+    "first": "[e0,e1]_s=(0,0,1,s)",
+    "primitive_generators": ["e0=(1,0,0,0)","e1=(0,1,0,0)"],
+    "second": "[e0,[e0,e1]_s]_s=(0,0,0,-s)",
+    "third": "[e0,[e0,[e0,e1]]]=1"
+  },
+  "connection_to_jennings": "Pass11066 independently records the same degree replacement: K81 has degrees 1,1,1,2 while U81 has 1,1,2,3.",
+  "graded_reading": {
+    "degree1": "two primitive directions e0,e1",
+    "degree2": "H27 commutator/area coordinate c",
+    "degree3": "highest-root central coordinate d",
+    "nonsplit_case": "degree3 tick is nonzero and changes sign under s -> -s",
+    "split_case": "degree3 tick is off"
+  },
+  "headline": "Take the two primitive root directions e0=(1,0,0,0) and e1=(0,1,0,0). For the split law s=0, their commutator is the H27 area/phase coordinate (0,0,1,0) and the next commutator vanishes. For a nonzero cocycle twist, [e0,e1]=(0,0,1,s) and [e0,[e0,e1]]=(0,0,0,-s), a pure highest-root central coordinate. A third nesting vanishes.",
+  "parents": ["data/w33_pass11068_ternary_cocycle_deformation.json","data/w33_pass11066_jennings_clock_promotion.json"],
+  "scalar_replays": {
+    "0": {"first_commutator":[0,0,1,0],"nested_commutator":[0,0,0,0],"third_nested":[0,0,0,0]},
+    "1": {"first_commutator":[0,0,1,1],"nested_commutator":[0,0,0,2],"third_nested":[0,0,0,0]},
+    "2": {"first_commutator":[0,0,1,2],"nested_commutator":[0,0,0,1],"third_nested":[0,0,0,0]}
+  },
+  "schema": "w33.pass11069.nested-commutator-cubic-tick.v1",
+  "status": "PASS_NONZERO_COCYCLE_TWIST_SWITCHES_ON_THE_CLASS3_CENTRAL_TICK"
+}

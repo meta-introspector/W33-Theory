@@ -1,0 +1,16 @@
+{
+  "boundary":"The reduction is exact finite symplectic algebra. Interpreting H_r as physical elapsed time or its sign as dynamical chirality requires additional physics.",
+  "census":{"exhaustive_contraction_identities":787320,"normalizers_t_per_point":27,"oriented_lifts":80,"perp_vectors_per_point":27,"projective_directions_per_residue":4,"projective_points":40},
+  "checks":{"all40_residue_forms_rank2":true,"all_contractions_exact":true,"four_lines_through_each_point":true,"orientation_sign_flip":true},
+  "headline":"For each projective W33 point [r], let tau_r(v)=Omega(r,v) and H_r=tau_r wedge Omega. On r^perp choose any t with tau_r(t)=1. Then for all x,y in r^perp, (i_t H_r)(x,y)=Omega(x,y). The restricted form has radical <r>, so it descends to a nondegenerate alternating form on Q_r=r^perp/<r> ~= F3^2.",
+  "orientation":{"r_to_minus_r":"tau and H change sign while [r] and Q_r are unchanged","two_orientations_per_projective_point":true},
+  "residue_sample":[
+    {"normalizing_transverse_vectors":27,"perp_vectors":27,"point":[0,0,0,1],"restricted_form_rank":2},
+    {"normalizing_transverse_vectors":27,"perp_vectors":27,"point":[0,0,1,0],"restricted_form_rank":2},
+    {"normalizing_transverse_vectors":27,"perp_vectors":27,"point":[0,1,0,0],"restricted_form_rank":2},
+    {"normalizing_transverse_vectors":27,"perp_vectors":27,"point":[0,1,0,1],"restricted_form_rank":2}
+  ],
+  "schema":"w33.pass11078.global-three-form-qutrit-residue-reduction.v1",
+  "status":"PASS_GLOBAL_TAU_WEDGE_OMEGA_THREE_FORM_CONTRACTS_EXACTLY_TO_ALL_40_LOCAL_QUTRIT_RESIDUE_FORMS",
+  "theorem":{"ambient":"V=F3^4 with nondegenerate alternating Omega","contraction":"i_t H_r restricted to r^perp = Omega restricted to r^perp when tau_r(t)=1","covector":"tau_r=Omega(r,-)","quotient":"Q_r=r^perp/<r> has dimension 2 and nondegenerate alternating form","three_form":"H_r=tau_r wedge Omega"}
+}
