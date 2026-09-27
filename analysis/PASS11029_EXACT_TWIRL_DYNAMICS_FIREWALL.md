@@ -4,61 +4,46 @@ Producer: `analysis/w33_pass11029_exact_twirl_dynamics_firewall.py`
 Certificate: `data/w33_pass11029_exact_twirl_dynamics_firewall.json`
 Regression: `tests/test_w33_pass11029_exact_twirl_dynamics_firewall.py`
 
-The exact signed (GL_2(3)) action on the minimal 24-dimensional clock carrier
-admits a canonical finite-group twirl
+The exact signed GL₂(3) action on the minimal 24-dimensional clock carrier
+admits the canonical finite-group twirl
 
-[
-mathcal T(X)=
-rac1{48}sum_g U_g XU_g^T .
-]
+T(X) = (1/48) Σ_g U_g X U_gᵀ.
 
-Because every (U_g) is orthogonal, the Kraus family (U_g/sqrt{48}) makes
-(mathcal T) completely positive, trace preserving and unital. It is also
-idempotent: the unique trace-preserving conditional expectation onto the
-commutant of this finite representation.
-The exact character calculation gives
+Every U_g is orthogonal, so K_g = U_g/√48 is a Kraus family. Therefore T is
+completely positive, trace preserving, unital, and idempotent.
 
-[
-dimoperatorname{Fix}_V(G)=2,
-qquad
-dimoperatorname{End}_G(V)=19.
-]
+The exact fixed dimensions are
 
-Hence the vector Reynolds average has rank two, while the operator twirl fixes
-a 19-dimensional algebra.
+dim Fix_V(G) = 2,
 
-The associated finite Markov generator
+dim End_G(V) = 19.
 
-[
-mathcal L=mathcal T-I
-]
+Thus the vector Reynolds projector has rank two, while the operator twirl is
+a conditional expectation onto a 19-dimensional commutant algebra.
+The Markov generator
+
+L = T − I
 
 has the exact CPTP semigroup
 
-[
-e^{tmathcal L}
-=e^{-t}I+(1-e^{-t})mathcal T .
-]
+exp(tL) = exp(−t) I + (1 − exp(−t)) T.
 
-So a mathematically canonical dissipative dynamics exists — but it does not
-produce the coarse clock field.
-The naive clock augmentation has dimension three. The central signed element
-(-I) takes it outside itself: adjoining its image raises the span from three
-to six dimensions. Closing the same three generators under the full exact
-signed group gives all 24 dimensions.
+So there is a canonical finite-dimensional dissipative dynamics associated
+with the exact symmetry.
 
-Therefore
+But it does not select the coarse three-dimensional clock. The naive clock
+augmentation has dimension 3. Acting with the central signed element −I and
+adjoining its image raises the span to dimension 6. Closing the same three
+generators under the full exact signed group spans all 24 dimensions.
 
-[
-oxed{	ext{no exact signed-}GL_2(3)	ext{-equivariant idempotent has the
-3D clock augmentation as its image}.}
-]
+Hence no exact signed-GL₂(3)-equivariant idempotent can have precisely the
+naive 3D clock augmentation as its image: the image of an equivariant
+idempotent must itself be invariant.
 
-The reason is elementary and decisive: the image of an equivariant idempotent
-must be invariant, and this particular 3D subspace is not.
+A physical mechanism selecting the coarse 3D clock must therefore reduce or
+break the exact signed symmetry, use an explicit quotient/readout map, or add
+dynamics beyond the canonical group twirl.
 
-This sharpens the open dynamics problem left by Passes 10975–10976. A physical
-clock-selection mechanism must reduce/break the exact signed symmetry, employ
-an explicit coarse quotient/readout, or add dynamics not captured by the
-canonical group twirl. The theorem is finite-dimensional; it does not claim a
-microscopic bath, rate, or laboratory relaxation process.
+This is a finite representation/channel theorem. It is not a microscopic
+open-system derivation, a measured relaxation rate, or evidence that nature
+implements this twirl.

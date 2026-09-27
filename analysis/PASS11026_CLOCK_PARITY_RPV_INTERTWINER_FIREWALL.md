@@ -1,70 +1,48 @@
-# Pass 11026 — the new signed-clock parity does not rescue the FI vacua
+# Pass 11026 — signed-clock parity does not rescue the FI vacua
 
 Producer: `analysis/w33_pass11026_clock_parity_rpv_intertwiner_firewall.py`
 Certificate: `data/w33_pass11026_clock_parity_rpv_intertwiner_firewall.json`
 Regression: `tests/test_w33_pass11026_clock_parity_rpv_intertwiner_firewall.py`
 
-Pass 11022 gives the exact signed clock carrier a central split
+Pass 11022 gives V₂₄ = V₊ ⊕ V₋ with dim V₊ = dim V₋ = 12.
+Pass 10951 had already identified the same central clock character, −I, with
+matter parity on the Albert Peirce spinor.
 
-[
-V_{24}=V_+oplus V_-,
-qquad dim V_pm=12.
-]
+Use the standard matter-parity signs: quarks and leptons are odd, Higgs fields
+are even, and the FI-forced νᶜ-like singlet n is odd. Then ordinary Yukawas
+are even, while the dangerous cubic operators UDD, QLD, and LLE are odd.
+Multiplying by the forced singlet reverses the sign:
 
-Pass 10951 had already identified the same central clock element (-I), at
-the level of its central character, with matter parity on the Albert Peirce
-spinor. This makes the obvious cross-track question precise: can the new
-(12_+/12_-) structure protect the orbifold vacua from RPV?
-No. The standard matter-parity signs make the ordinary Yukawas even,
+n·UDD, n·QLD, n·LLE are all even.
 
-[
-QUH_u,quad QDH_d,quad LEH_d : +1,
-]
+Pass 10967 certifies this mechanism in all 23 D-flat Z6-I witness vacua.
+Each has nine forced singlets, no order-three RPV before condensation, and
+all nine forced singlets occur in each of the three allowed quartic families.
+When the required odd singlet acquires a nonzero VEV, the central Z₂ is
+spontaneously broken and the three RPV cubics are regenerated.
+## Intertwiner firewall
 
-while all three dangerous cubics are odd,
+Any bridge preserving the certified identification
 
-[
-UDD,quad QLD,quad LLE : -1.
-]
+clock central −I ↔ matter parity
 
-But Pass 10967 proves that the FI-cancelling (
-u^c)-like singlets are odd
-under every matter parity. Hence
+must place the forced singlet in V₋. Its required nonzero VEV therefore breaks
+that same central sign. Assigning the singlet to V₊ could preserve the clock
+sign only by abandoning the certified matter-parity intertwiner.
 
-[
-n,UDD,quad n,QLD,quad n,LLE : +1.
-]
+Pass 10980 now supplies an independent committed flavour-side corroboration.
+Across the same 23 D-flat witness vacua:
 
-Once the required (langle n
-angle
-eq0) develops, the central parity is
-spontaneously broken and all three effective RPV cubics are regenerated.
-The executable census checks all 23 D-flat Z6-I models frozen in Pass 10967.
-Every one has exactly nine forced singlets, no order-three RPV before
-condensation, and all nine forced singlets appear in each of the three allowed
-quartic families.
+- 7 have no light Hᵤ,
+- 16 retain five light dᶜ-type states because exotic triplets remain massless,
+- 0 analysable vacua have the conservative first-generation statistic below 10⁻¹⁰,
+- the minimum reported upper-bound statistic is 0.0022757781971604134.
 
-Therefore any intertwiner preserving the already-certified statement
+The Pass 10980 coupling estimates are upper bounds using random order-one
+coefficients, so they are not a lower-bound theorem and are not computed
+string couplings. Their role is complementary: the central-parity no-go is
+exact, while the flavour scan finds no independent suppression mechanism and
+every witness vacuum already fails a Higgs or exotic-spectrum condition.
 
-[
-	ext{clock }(-I)longleftrightarrow	ext{matter parity}
-]
-
-must put the forced singlet in the odd clock sector (V_-), and its VEV breaks
-that same sign. Putting the singlet in (V_+) would preserve the clock sign
-only by abandoning the certified matter-parity identification, so it is not a
-rescue of the same symmetry.
-
-Pass 10980 is now a committed executable parent and gives an independent
-flavour-side corroboration. Of the same 23 D-flat Z6-I witness vacua, seven
-have no light (H_u); the other sixteen retain five light (d^c)-type states
-because two exotic triplets remain massless. None of the sixteen analysable
-vacua has the conservative first-generation upper-bound statistic below
-(10^{-10}); the minimum is (2.2758	imes10^{-3}).
-
-That does not turn an upper-bound flavour scan into a lower-bound theorem.
-Its role here is complementary: Pass 11026 closes the central-parity rescue
-exactly, while Pass 10980 finds no independent flavour suppression mechanism
-and every witness vacuum already fails a Higgs or exotic-spectrum condition.
 A genuinely different flavour symmetry unrelated to the certified central
 character remains logically possible.

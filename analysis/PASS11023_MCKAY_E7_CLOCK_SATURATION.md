@@ -1,95 +1,48 @@
-# Pass 11023 — corrected GL2(3) directed tensor saturation
+# Pass 11023 — corrected GL₂(3) directed tensor saturation
 
 Producer: `analysis/w33_pass11023_mckay_e7_clock_saturation.py`
 Certificate: `data/w33_pass11023_mckay_e7_clock_saturation.json`
 Regression: `tests/test_w33_pass11023_mckay_e7_clock_saturation.py`
 
 The filename is retained for provenance. Pass 11025 corrects the original
-McKay/E7 interpretation.
+McKay/E₇ interpretation.
 
-Pass 11022 decomposes the exact 24-dimensional signed clock carrier under
-(GL_2(3)). The GAP character table has two faithful two-dimensional
-characters whose order-eight values are
+The GAP character table has two faithful two-dimensional characters whose
+order-eight values are ±i√2, not ±√2. With those cyclotomic values restored,
+tensoring by a faithful 2D irrep is represented by a directed, non-symmetric
+matrix A. Tensoring by the conjugate faithful irrep gives B = Aᵀ.
 
-[
-pm isqrt2,
-]
+Exact graph facts:
 
-not (pmsqrt2). With those cyclotomic values restored, the faithful tensor
-matrix is not symmetric.
-Let (A) denote tensoring irreducibles by one faithful 2D irrep and (B)
-tensoring by its conjugate. The exact result is
+- A ≠ Aᵀ.
+- Each faithful tensor quiver has 14 directed edges.
+- B = Aᵀ.
+- Each quiver is strongly connected.
+- The underlying undirected graph has 11 edges, not the seven-edge affine-E₇ tree.
 
-[
-oxed{B=A^T,qquad A
-e A^T.}
-]
+The irreducible dimension vector is
 
-Each quiver has 14 directed edges and is strongly connected. The underlying
-undirected graph has 11 edges, so it is **not** the seven-edge affine-(E_7)
-tree.
+d = (1, 1, 2, 2, 2, 3, 3, 4),
 
-For (A), the arrows are
+and ordinary tensor dimension gives A d = B d = 2 d.
+## Clock saturation that survives the correction
 
-[
-egin{aligned}
-1&	o2_a, & det&	o2_b, & 2_q&	o4,\
-2_a&	odet+3, & 2_b&	o1+3_t,\
-3_t&	o2_a+4, & 3&	o2_b+4,\
-4&	o2_q+3_t+3.
-end{aligned}
-]
-The irreducible dimension vector remains
+The signed clock multiplicity vector is
 
-[
-d=(1,1,2,2,2,3,3,4),
-]
+m = (2, 1, 0, 0, 0, 1, 2, 3).
 
-and the ordinary tensor-dimension identity holds:
+For either faithful 2D irrep S, the exact representation-ring identity is
 
-[
-oxed{Ad=Bd=2d}.
-]
+S ⊗ V₂₄ = 3(2q ⊕ 2a ⊕ 2b ⊕ 3t ⊕ 3 ⊕ 4).
 
-The exact clock multiplicity vector is still
+The central 12 + 12 split sharpens this to
 
-[
-m=(2,1,0,0,0,1,2,3).
-]
+S ⊗ V₊ = 3(2a ⊕ 2b ⊕ 4),
 
-Remarkably, the strongest saturation identity from the original pass survives
-the correction unchanged. For **either** faithful 2D irrep (S),
+S ⊗ V₋ = 3(2q ⊕ 3t ⊕ 3).
 
-[
-oxed{
-Sotimes V_{24}
-=
-3(2_qoplus2_aoplus2_boplus3_toplus3oplus4).
-}
-]
-The central (12+12) split also survives:
+The second-order identity A(A + I)m = 3d also survives exactly.
 
-[
-Sotimes V_+
-=3(2_aoplus2_boplus4),
-]
-
-[
-Sotimes V_-
-=3(2_qoplus3_toplus3).
-]
-
-Likewise
-
-[
-A(A+I)m=3d.
-]
-
-These are exact representation-ring identities of (GL_2(3)). They are not
-classical ADE McKay statements.
-
-The group itself is (GL_2(3)=2^+S_4), SmallGroup(48,29), with 13
-nonidentity involutions. Binary octahedral is the non-isomorphic minus cover
-(2^-S_4) and is the group occurring in the classical (SU(2)) affine-(E_7)
-McKay correspondence. The exact clock saturation found here therefore stands
-on its own, without an (E_7) group identification.
+These are genuine GL₂(3) representation-ring identities. They do not define
+a classical ADE McKay graph and do not imply E₇ field content, an E₇ gauge
+symmetry, masses, couplings, or a continuum interaction.
