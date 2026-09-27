@@ -1,0 +1,44 @@
+{
+  "boundary": "This supplies a local three-mode decomposition of the generator and exact kernel/interference structure. It does not claim that a ten-layer product of factor exponentials equals the desired global exponential or Cayley gate.",
+  "checks": {
+    "all_ten_common_kernel_is_exactly_background_ray": true,
+    "each_factor_exponential_splits_into_27_parallel_three_mode_blocks": true,
+    "full_sum_has_14_additional_interference_dark_modes": true,
+    "no_two_factors_commute": true,
+    "pair_kernel_law_verified_at_103_and_109": true
+  },
+  "global_kernel": {
+    "common_kernel_all_ten_dimension": 1,
+    "common_kernel_generator": "v_plus",
+    "extra_dark_dimensions_created_by_interference": 14,
+    "kernel_dimension_of_full_D_plus": 15,
+    "rank_of_full_D_plus": 66
+  },
+  "headline": "The ten rank-54 triangle factors are strongly noncommuting, but their kernel geometry is rigid. Every pair whose H27 connection directions commute has a 9D common kernel; every noncommuting pair has a 3D common kernel. All ten factors together share only one ray, exactly the diagonal background v_plus. Yet their sum D_plus has a 15D kernel. Thus fourteen dark modes are created by destructive interference among active factors rather than being inactive in every local layer.",
+  "local_synthesis": {
+    "disjoint_triangle_blocks_per_factor": 27,
+    "exact_product_equals_exp_of_sum": false,
+    "factors": 10,
+    "generator_layer_depth_for_one_factor_sweep": 10,
+    "parallel_width_within_one_factor": 27,
+    "reason": "no two weighted factors commute; product formulas require noncommuting synthesis/Trotter control",
+    "total_triangle_blocks_per_sweep": 270,
+    "triangle_block_exponentials_per_factor": 27
+  },
+  "pair_kernel_law": {
+    "common_kernel_dimension": 9,
+    "common_kernel_dimension_nonzero_case": 3,
+    "pairwise_commuting_factor_pairs": 0,
+    "symplectic_nonzero_pairs": 24,
+    "symplectic_zero_pairs": 21
+  },
+  "parents": [
+    "data/w33_pass11056_diagonal_weld_ten_triangle_factors.json",
+    "data/w33_pass11055_cayley_finite_54_compiler.json"
+  ],
+  "schema": "w33.pass11058.triangle-factor-kernel-interference.v1",
+  "status": "PASS_TEN_LOCAL_TRIANGLE_FACTORS_SHARE_ONLY_THE_BACKGROUND_RAY_WHILE_THEIR_SUM_CREATES_14_EXTRA_DARK_MODES",
+  "triangle_rotation_frequency_squared_histogram": {
+    "3":24,"6":18,"9":18,"11":18,"12":24,"14":90,"17":18,"19":18,"22":18,"27":24
+  }
+}
