@@ -1,0 +1,32 @@
+{
+  "K81": {
+    "center_order": 9,
+    "derived_order": 3,
+    "exponent": 3,
+    "extension": "1 -> C3_external -> K81 -> H27 -> 1",
+    "nilpotency_class": 2,
+    "order": 81,
+    "order_census": {"1":1,"3":80},
+    "split": true
+  },
+  "U81": {
+    "center_order": 3,
+    "derived_order": 9,
+    "exponent": 9,
+    "extension": "1 -> Z(U81)=C3 -> U81 -> H27 -> 1",
+    "lower_central_sizes": [81,9,3,1],
+    "nilpotency_class": 3,
+    "order": 81,
+    "order_census": {"1":1,"3":44,"9":36},
+    "quotient_by_center": {"center_order":3,"derived_order":3,"is_H27":true,"order":27,"order_census":{"1":1,"3":26}},
+    "split": false
+  },
+  "boundary": "This is an exact finite-group theorem. Calling the extra central coordinate a scheduler clock or chamber tick is architectural language, not a claim about physical elapsed time.",
+  "bridge_reading": "K81 keeps the extra C3 as an independent central scheduler clock; U81 welds that extra ternary degree into a class-three update group whose quotient is the same H27 memory group.",
+  "checks": {"K_U_nonisomorphic":true,"K_split_H27_extension":true,"U_extension_nonsplit":true,"U_quotient_center_is_H27":true},
+  "headline": "The two recurring order-81 groups are not the same object. K81=H27 x C3_external is a split central extension of H27 by C3. The chamber Sylow-3 group U81 has center 3, derived subgroup 9, class three and elements of order 9; quotienting by its center gives the extraspecial exponent-3 H27. Thus U81 is a non-split central C3 extension of the same H27.",
+  "nonisomorphism_witnesses": ["center 9 versus 3","derived 3 versus 9","class 2 versus 3","exponent 3 versus 9"],
+  "parents": ["data/w33_e8_matter81_h27_address_operator_compiler.json","data/PART_W33_PASS5105_U81_DUAL_TORSOR_CONTROLLER.json"],
+  "schema": "w33.pass11065.split-nonsplit-order81-bridge.v1",
+  "status": "PASS_SCHEDULER_K81_AND_CHAMBER_U81_ARE_SPLIT_AND_NONSPLIT_CENTRAL_C3_EXTENSIONS_OF_H27"
+}

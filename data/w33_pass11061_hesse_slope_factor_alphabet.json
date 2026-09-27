@@ -1,0 +1,39 @@
+{
+  "boundary": "The +/- labels are the frozen external C3 branches in the current generator convention. Their physical interpretation as time orientation or chirality requires additional dynamics.",
+  "checks": {
+    "commutation_graph_21_24": true,
+    "eight_outer_plus_two_central": true,
+    "four_hesse_directions_exact": true,
+    "two_branches_per_hesse_direction": true
+  },
+  "commutation_graph": {
+    "degree_histogram": {"3": 8, "9": 2},
+    "structure": "K2 join (4 disjoint K2): the central pair commutes with all, and each Hesse slope pair commutes internally",
+    "symplectic_nonzero_pairs": 24,
+    "symplectic_zero_edges": 21,
+    "vertices": 10
+  },
+  "decomposition": {
+    "central_factors": 2,
+    "formula": "10 = 4*2 + 2",
+    "hesse_directions": [[0,1],[1,0],[1,1],[1,2]],
+    "indexing_set": "P1(F3) x {+,-} disjoint_union {central+ , central-}",
+    "outer_factors": 8
+  },
+  "factor_rows": [
+    {"central":false,"external_branch":1,"factor":0,"generator":[[1,0,1],1],"inverse":[[2,0,2],2],"projective_hesse_direction":[1,0]},
+    {"central":false,"external_branch":-1,"factor":1,"generator":[[1,0,1],2],"inverse":[[2,0,2],1],"projective_hesse_direction":[1,0]},
+    {"central":false,"external_branch":1,"factor":2,"generator":[[1,2,2],1],"inverse":[[2,1,2],2],"projective_hesse_direction":[1,2]},
+    {"central":false,"external_branch":-1,"factor":3,"generator":[[1,2,2],2],"inverse":[[2,1,2],1],"projective_hesse_direction":[1,2]},
+    {"central":false,"external_branch":1,"factor":4,"generator":[[1,1,0],1],"inverse":[[2,2,2],2],"projective_hesse_direction":[1,1]},
+    {"central":false,"external_branch":-1,"factor":5,"generator":[[1,1,0],2],"inverse":[[2,2,2],1],"projective_hesse_direction":[1,1]},
+    {"central":false,"external_branch":1,"factor":6,"generator":[[0,2,2],1],"inverse":[[0,1,1],2],"projective_hesse_direction":[0,1]},
+    {"central":false,"external_branch":-1,"factor":7,"generator":[[0,2,2],2],"inverse":[[0,1,1],1],"projective_hesse_direction":[0,1]},
+    {"central":true,"external_branch":1,"factor":8,"generator":[[0,0,1],1],"inverse":[[0,0,2],2],"projective_hesse_direction":null},
+    {"central":true,"external_branch":-1,"factor":9,"generator":[[0,0,1],2],"inverse":[[0,0,2],1],"projective_hesse_direction":null}
+  ],
+  "headline": "The ten order-three triangle factors of the diagonal cubic weld are not an unstructured ten-set. Eight are exactly the four projective qutrit/Hesse directions in P1(F3), each lifted with the two nonzero external C3 slopes. The remaining two are the two pure-center/external slopes. Thus 10=4x2+2, and the four noncentral direction labels are exactly those used by the induced-H27 Hesse compiler.",
+  "parents": ["data/w33_pass11056_diagonal_weld_ten_triangle_factors.json","data/w33_pass11048_induced_h27_hesse_latent_modules.json"],
+  "schema": "w33.pass11061.hesse-slope-factor-alphabet.v1",
+  "status": "PASS_TEN_WELD_FACTORS_EQUAL_FOUR_HESSE_DIRECTIONS_TIMES_TWO_SLOPES_PLUS_TWO_CENTRAL_SLOPES"
+}
