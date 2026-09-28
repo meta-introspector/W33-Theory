@@ -672,6 +672,51 @@ kind can give them mass. A sibling model offers a near miss in which the needed 
 number, but its parity cannot survive two condensates of the same hidden group. \tierC\ (\cert{w33\_pass10979\_z3xz3\_parity\_vacua\_f\_obstruction.py},
 \cert{w33\_pass11024\_z3xz3\_susy\_vacua\_fractional\_charge\_index.py})
 
+Four questions remain about that verdict, and each has an exact answer.
+
+\emph{What protects those massless states?} Not one symmetry. The unbroken group is assembled from three kinds
+of remnant: of the broken $U(1)$s, of the translations of the orbifold's space group, and of its discrete
+$R$-rotations. Almost half of the forbidden mass terms are forbidden twice over, so there is no single symmetry
+whose breaking would release them.
+
+\emph{Would a different condensate help?} No. The census was rerun over every hidden invariant, including the
+baryonic ones and mixtures of two kinds. It finds $63$ further parity-preserving vacua in which the curing
+factor is condensed, some with both $SU(4)$s broken. Every one keeps at least $142$ fractionally charged
+multiplets massless.
+
+\emph{Could smoothing out the orbifold help?} No. The fractional part of electric charge turns out to be a
+character of the orbifold's space group. On every one of the $946$ fixed points of all $13$ models, the class
+$3Q+t \pmod 3$ is constant ($t$ is the colour triality), and it is a single linear function of the fixed
+point's labels. The $516$ fixed points where it is nonzero carry only fractionally charged states. So no
+neutral field lives there, and they cannot be blown up without breaking colour or electromagnetism. Even
+discarding every discrete selection rule and keeping only gauge invariance leaves at least fifteen fractional
+multiplets massless in every vacuum.
+
+\emph{Would giving up supersymmetry help?} Not here.
+\begin{itemize}
+\item The obstructions concern fermions and gauge charges, which supersymmetry breaking does not touch.
+\item The $\Z_3$ orbifolds admit no non-supersymmetric twin with the same order-three shifts. For every
+      order-three shift of $E_8$, $9V^2$ is even, while attaching $(-1)^F$ to an order-three twist makes $9v^2$
+      odd, and modular invariance needs the two to agree. A non-supersymmetric model on the $\Z_3$ lattice
+      needs a shift of order six, which makes it a different model.
+\item The one $\W$ family whose Standard Models do have such twins is $\Z_6$-I: all $87$ of them, with the twist
+      $(\tfrac16,\tfrac16,\tfrac23)$ of Font and Hern\'andez~\cite{FontHernandez2002}. Without superpartners
+      they have no dimension-four or dimension-five proton-decay operators.
+\end{itemize}
+We computed the $87$ twins after repairing five faults that stop the standard spectrum program at $N=0$. Every
+twin is anomaly-free up to a single Green--Schwarz $U(1)$, keeps its parent's gauge group, and has exactly
+three net generations. And every one has tachyons at its $\theta$ fixed points. The reason is one
+level-matching fact: the tachyonic right-moving level lies exactly $\tfrac16$ below the massless one, and
+$\tfrac16$ is the smallest twisted oscillator mode. So a fixed point of the twin is tachyonic exactly when its
+supersymmetric parent has a massless oscillator-excited state there, and all $87$ parents do. Orbifolds of the
+separate non-supersymmetric $SO(16)\times SO(16)$ string, which has its own
+software~\cite{EscalanteNotario2025}, are a different construction and are not covered by this statement.
+\tierC\ (\cert{w33\_pass11087\_unbroken\_three\_group\_protection.py},
+\cert{w33\_pass11088\_baryonic\_hidden\_condensates.py},
+\cert{w33\_pass11089\_w33\_twist\_without\_supersymmetry.py},
+\cert{w33\_pass11090\_resolution\_cannot\_free\_fractional\_charges.py},
+\cert{w33\_pass11092\_nonsusy\_z6i\_twins\_are\_tachyonic.py})
+
 The apparent opening was an artefact of an
 incomplete selection rule; it was caught by reading the literature on the rules themselves, not by
 the computation. \tierC\ (\cert{w33\_pass10974\_valid\_r\_rules\_close\_the\_rotation\_door.py};
@@ -752,6 +797,19 @@ is the time-reversed one. This answers, in the finite model, the question of whe
 datum that fixes the arrow and the datum that fixes handedness are related: they live in the
 same coset. \tierB
 \end{physical}
+
+The coincidence in Corollary~9.7 is forced rather than accidental. The similitude multiplier $\mu$
+(defined by $M^{\mathsf T}JM=\mu J$) maps $\PGSp(4,3)$ onto $\Z_2$ with kernel $\PSp(4,3)$. Because
+$\Sp(4,3)$ is perfect --- its commutators generate all $51\,840$ of its elements --- $\mu$ is the \emph{only}
+nontrivial sign character on the symmetries of the forty points. Holotrade had already made this
+identification (\cert{5419c27}, \cert{98cafff}): frame orientation parity is the index-two character of
+$W(E_6)$, and the Pass~346 half-spin swap is the same character. It also separated this relative chirality
+from two other $\Z_2$ labels that are \emph{not} characters: the point/line type, which is invariant and can
+be selected, and the local charge conjugations of the $45$ factorisations. The other track later found two
+further labels. Its cubic ``tick'' orientation is again $\mu$. Its chamber-sheet sign is flipped by
+elements with $\mu=+1$, so it is defined only relative to a chosen flag. So however the geometry is
+probed, it has exactly one global sign to fix: which chirality goes with which direction of time.
+\tierT\ \tierC\ (\cert{w33\_pass11091\_one\_global\_orientation\_bit.py})
 
 \subsection{What we do not count as evidence}
 

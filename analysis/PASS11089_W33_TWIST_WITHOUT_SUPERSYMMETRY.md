@@ -8,6 +8,11 @@ The heterotic route with the W(3,3) twist closed on supersymmetric obstructions.
 at the Fayet–Iliopoulos term, and dimension-4 proton decay operators return. In Z3×Z3, fractional charges
 appear. This pass asks what survives, and what opens, without supersymmetry.
 
+Prior art (added in Pass 11092):
+* Font and Hernández, *Non-supersymmetric orbifolds*, hep-th/0202057, list the twin twist (⅙, ⅙, ⅔).
+* Non-supersymmetric heterotic orbifolds of the SO(16)×SO(16) string have a dedicated tool,
+  arXiv:2504.20137, and landscape scans, arXiv:1407.6362 and arXiv:2105.03460.
+
 ## 1. What does not depend on supersymmetry
 
 The two Z3×Z3 obstructions of Passes 11024 and 11090 involve only massless **fermions** and **left-moving**
@@ -32,8 +37,18 @@ of odd sum (a 2π rotation, which is −1 on spinors). Two parity facts settle t
   **9v′² = 2 + 6(n₁ − n₃) + 9n² is odd**.
 
 Modular invariance, 3(V² − v′²) ∈ 2Z, needs the two parities to agree, and they never do. So **no
-non-supersymmetric T⁶/Z3 or T⁶/Z3×Z3 of the E8×E8 string exists, for any shifts**, the W(3,3) (A8 Kac)
+non-supersymmetric T⁶/Z3 or T⁶/Z3×Z3 of the E8×E8 string exists with an order-3 shift**, the W(3,3) (A8 Kac)
 shift included.
+
+> **Correction (Pass 11092).** An earlier version said "for any shifts". That is an over-read. The proof
+> assumes 3V ∈ Λ.
+> * The twisted generator has order 6 on fermions. With a shift of order 6, the Z3 geometry does carry
+>   non-supersymmetric models: Font–Hernández (hep-th/0202057) treat the Z6 action v = (⅓, ⅓, ⅓) on the
+>   T⁶/Z3 lattice.
+> * The SO(16)×SO(16) string has been orbifolded on all 138 Abelian geometries, Z3×Z3 included
+>   (arXiv:2105.03460).
+>
+> What stands is the statement about **twins**: the same order-3 shift, with (−1)^F attached.
 
 This is checked three ways:
 * by the parity proof above;
@@ -71,16 +86,18 @@ With both fixes the supersymmetric control output is **bit-identical**, so the N
 |---|---|---|
 | no N = 0 branch in the multiplet classification | `CState::FindSUSYMultiplets` | **fixed**: each right-moving state classified by helicity q₀ (−½ left-handed Weyl fermion, +½ right-handed, ∓1 vector, ∓2 graviton, 0 scalar) |
 | `RecursiveCounting(..., MaxDigits[0], ...)` on an empty vector | `CFixedBrane::FindSUSYMultiplets` | **fixed**: N = 0 has one, empty, supercharge combination |
-| "State is not invariant under constructing element" | `CFixedBrane::CreateStates` | **open**: the invariance phase assumes the supersymmetric vacuum phase, and the (−1)^F sign on spinor states in odd sectors is missing |
+| "State is not invariant under constructing element" | `CFixedBrane::CreateStates` | **fixed in Pass 11092**. The diagnosis given here ("missing vacuum phase") was wrong: the right-mover eigenvalue counts an oscillator's number operator with the wrong sign (−N instead of +N), which only matters when a massless right-mover carries an oscillator, never in SUSY models |
 
-The third fix, the non-supersymmetric vacuum phase in state construction, is the concrete next step.
+Pass 11092 fixes this fault and two more (a modulus-labelling segfault, and the anomalous-U(1) generator being
+built only for N = 1). It then computes all 87 twins: they are anomaly-free three-generation models, and
+**every one is tachyonic** in its θ sector.
 
-This is the most promising route left on the string side. With no superpartners there are no
+This was the most promising route left on the string side. Pass 11092 closes it at the orbifold point. With no superpartners there are no
 dimension-4 or dimension-5 proton-decay operators, which is the obstruction that closed the
 supersymmetric Z6-I route. The questions to settle, in order:
-1. tachyons in the odd twisted sectors;
-2. whether the chiral content is still three Standard-Model generations;
-3. the one-loop tadpole and cosmological constant.
+1. tachyons in the odd twisted sectors (**answered in Pass 11092: present in all 87**, θ and θ⁵ sectors only);
+2. whether the chiral content is still three Standard-Model generations (**answered in Pass 11092: yes, 87/87**);
+3. the one-loop tadpole and cosmological constant (moot at a tachyonic point).
 
 Scope. "Twin" means (−1)^F attached to one generator with the same shifts. Other non-supersymmetric
 constructions, for example a different lattice from the start, are not classified here. The

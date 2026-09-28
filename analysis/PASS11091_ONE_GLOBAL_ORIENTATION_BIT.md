@@ -1,4 +1,4 @@
-# Pass 11091 — the substrate has exactly one global orientation bit, and it is the chirality of Pass 346
+# Pass 11091 — the other track's cubic tick is the chirality of Pass 346; its chamber sign is not a global orientation
 
 Producer: `analysis/w33_pass11091_one_global_orientation_bit.py`
 Certificate: `data/w33_pass11091_one_global_orientation_bit.json`
@@ -9,15 +9,24 @@ Cross-track join. It cites:
   similitude and the two-bit orientation codec;
 * **Holotrade e92a047**: frame chirality is reversed only by antiunitaries.
 
-## Prior art, stated first
+## Prior art, stated first (this pass is mostly a join, not a discovery)
 
-The Forty Points paper's **Corollary 9.7** already shows the following. In the stabiliser of a Bell line,
-the elements outside PSp(4,3) form one coset. It is exactly the set that reverses the history graph's
-orientation (Theorem 4.4), the set that acts antiunitarily (Pass 5730), and the set that swaps the
-half-spins (Theorem 9.5 / e92a047). This pass does not re-derive that. It adds three things:
-1. the other track's cubic-tick chirality χ is the **same** coset;
-2. a **uniqueness** theorem, which makes the coincidence forced rather than observed;
-3. the other track's chamber-sheet sign σ is **not** a global orientation.
+* **Holotrade 98cafff** already classified three distinct Z₂s called "chirality":
+  * **REL**: Pass 346's half-spins = the similitude **multiplier character** = frame-orientation parity =
+    the sign on the 5 factorizations = the **antiunitary coset**;
+  * **ABS**: point/line type, W(E6)-invariant and selectable;
+  * **INN**: the local charge conjugations of the 45 factorizations, an inner grading.
+* **Holotrade 5419c27** showed that frame-orientation parity is the index-2 character of W(E6).
+* The Forty Points paper's **Corollary 9.7** shows that, in a Bell-line stabiliser, the orientation-
+  reversing, antiunitary and half-spin-swapping elements are one coset.
+
+**The identification "multiplier = half-spin swap = antiunitarity" is therefore prior (Holotrade 98cafff)
+and is not claimed here.** This pass adds three things:
+1. the other track's cubic-tick chirality χ (Passes 11073/11085) is **REL**;
+2. the other track's chamber-sheet sign σ is flipped by an inner element, so it is **not** REL. It is a
+   flag-relative label, closer in kind to INN;
+3. an explicit re-verification that Sp(4,3) is perfect, so that μ is the unique nontrivial *character*.
+   This is standard: W(E6) has abelianization Z₂.
 
 ## The question
 
@@ -55,10 +64,11 @@ By step 3 they are **one and the same character, μ**. Corollary 9.7 established
 of these, one coset at a time. Step 3 makes it a necessity: any Z₂-valued orientation of the substrate that
 is a group homomorphism, including ones not yet found, is either trivial or μ.
 
-## Reading
+## Reading (corrected wording: "one global orientation *character*")
 
-* **Exactly one global orientation bit.** The substrate carries one, μ: the orientation of the symplectic
-  form. It is also the choice of primitive cube root of unity (the coefficient conjugation inside Pass
+* **Exactly one global orientation character.** The substrate carries one, μ: the orientation of the
+  symplectic form. This is Holotrade 98cafff's REL. Other Z₂ labels exist but are not group characters:
+  ABS is an invariant, selectable label; INN and σ are local. It is also the choice of primitive cube root of unity (the coefficient conjugation inside Pass
   333's T), the handedness of the half-spins, the direction of the cubic tick, and unitary versus
   antiunitary.
 * **Pass 346's no-go transfers to χ.** No datum invariant under the full automorphism group selects the

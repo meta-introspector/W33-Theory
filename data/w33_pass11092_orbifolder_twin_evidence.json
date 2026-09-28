@@ -1,0 +1,5110 @@
+{
+ "01": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 57,
+   "chiral_fields_by_sector": {
+    "k0_L": 27,
+    "k0_R": 27,
+    "k1_L": 43,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_R": 43
+   },
+   "n_fermion_fields": 210,
+   "n_scalar_fields": 500
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 57,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 43,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_L": 43
+   },
+   "n_fermion_fields": 202,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 72,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,3adj",
+   "1,1,8adj,1",
+   "1,3adj,1,1",
+   "45adj,1,1,1"
+  ]
+ },
+ "02": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 57,
+   "chiral_fields_by_sector": {
+    "k0_L": 27,
+    "k0_R": 27,
+    "k1_L": 43,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_R": 43
+   },
+   "n_fermion_fields": 210,
+   "n_scalar_fields": 500
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 57,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 43,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_L": 43
+   },
+   "n_fermion_fields": 202,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 72,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,3adj",
+   "1,1,3adj,1",
+   "1,8adj,1,1",
+   "45adj,1,1,1"
+  ]
+ },
+ "03": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 28,
+    "k0_R": 28,
+    "k1_L": 34,
+    "k2_R": 108,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 108,
+    "k5_R": 34
+   },
+   "n_fermion_fields": 191,
+   "n_scalar_fields": 442
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 18,
+    "k0_R": 18,
+    "k1_R": 34,
+    "k2_R": 108,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 108,
+    "k5_L": 34
+   },
+   "n_fermion_fields": 181,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 54,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,3adj",
+   "1,1,8adj,1",
+   "1,3adj,1,1",
+   "45adj,1,1,1"
+  ]
+ },
+ "04": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 30,
+    "k0_R": 30,
+    "k1_L": 36,
+    "k2_R": 67,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 67,
+    "k5_R": 36
+   },
+   "n_fermion_fields": 154,
+   "n_scalar_fields": 372
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 36,
+    "k2_R": 68,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 68,
+    "k5_L": 36
+   },
+   "n_fermion_fields": 144,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 62,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,8adj,1",
+   "1,1,3adj,1,1",
+   "1,3adj,1,1,1",
+   "24adj,1,1,1,1"
+  ]
+ },
+ "05": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 26
+   },
+   "fractional_colourless_fermion_fields": 60,
+   "chiral_fields_by_sector": {
+    "k0_L": 31,
+    "k0_R": 31,
+    "k1_L": 48,
+    "k2_R": 120,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 120,
+    "k5_R": 48
+   },
+   "n_fermion_fields": 231,
+   "n_scalar_fields": 552
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 60,
+   "chiral_fields_by_sector": {
+    "k0_L": 20,
+    "k0_R": 20,
+    "k1_R": 48,
+    "k2_R": 123,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 123,
+    "k5_L": 48
+   },
+   "n_fermion_fields": 223,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 75,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,3adj",
+   "1,8adj,1",
+   "45adj,1,1"
+  ]
+ },
+ "06": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 28,
+    "k0_R": 28,
+    "k1_L": 30,
+    "k2_R": 81,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 81,
+    "k5_R": 30
+   },
+   "n_fermion_fields": 171,
+   "n_scalar_fields": 398
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 21,
+    "k0_R": 21,
+    "k1_R": 30,
+    "k2_R": 81,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 81,
+    "k5_L": 30
+   },
+   "n_fermion_fields": 164,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 60,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,3adj,1",
+   "1,1,8adj,1,1",
+   "1,3adj,1,1,1",
+   "24adj,1,1,1,1"
+  ]
+ },
+ "07": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 48,
+   "chiral_fields_by_sector": {
+    "k0_L": 31,
+    "k0_R": 31,
+    "k1_L": 30,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_R": 30
+   },
+   "n_fermion_fields": 201,
+   "n_scalar_fields": 450
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 48,
+   "chiral_fields_by_sector": {
+    "k0_L": 20,
+    "k0_R": 20,
+    "k1_R": 30,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_L": 30
+   },
+   "n_fermion_fields": 190,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 45,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,3adj",
+   "1,1,3adj,1",
+   "1,8adj,1,1",
+   "28adj,1,1,1"
+  ]
+ },
+ "08": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 28,
+    "k0_R": 28,
+    "k1_L": 34,
+    "k2_R": 108,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 108,
+    "k5_R": 34
+   },
+   "n_fermion_fields": 191,
+   "n_scalar_fields": 442
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 18,
+    "k0_R": 18,
+    "k1_R": 34,
+    "k2_R": 108,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 108,
+    "k5_L": 34
+   },
+   "n_fermion_fields": 181,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 54,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,3adj",
+   "1,1,3adj,1",
+   "1,8adj,1,1",
+   "45adj,1,1,1"
+  ]
+ },
+ "09": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 57,
+   "chiral_fields_by_sector": {
+    "k0_L": 27,
+    "k0_R": 27,
+    "k1_L": 43,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_R": 43
+   },
+   "n_fermion_fields": 210,
+   "n_scalar_fields": 500
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 57,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 43,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_L": 43
+   },
+   "n_fermion_fields": 202,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 72,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,3adj",
+   "1,1,3adj,1",
+   "1,8adj,1,1",
+   "45adj,1,1,1"
+  ]
+ },
+ "10": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 26
+   },
+   "fractional_colourless_fermion_fields": 54,
+   "chiral_fields_by_sector": {
+    "k0_L": 35,
+    "k0_R": 35,
+    "k1_L": 36,
+    "k2_R": 120,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 120,
+    "k5_R": 36
+   },
+   "n_fermion_fields": 223,
+   "n_scalar_fields": 506
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 54,
+   "chiral_fields_by_sector": {
+    "k0_L": 21,
+    "k0_R": 21,
+    "k1_R": 36,
+    "k2_R": 123,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 123,
+    "k5_L": 36
+   },
+   "n_fermion_fields": 212,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 48,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,3adj",
+   "1,8adj,1",
+   "28adj,1,1"
+  ]
+ },
+ "11": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 26
+   },
+   "fractional_colourless_fermion_fields": 76,
+   "chiral_fields_by_sector": {
+    "k0_L": 32,
+    "k0_R": 32,
+    "k1_L": 39,
+    "k2_R": 120,
+    "k3_L": 43,
+    "k3_R": 43,
+    "k4_L": 120,
+    "k5_R": 39
+   },
+   "n_fermion_fields": 234,
+   "n_scalar_fields": 534
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 76,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 39,
+    "k2_R": 123,
+    "k3_L": 43,
+    "k3_R": 43,
+    "k4_L": 123,
+    "k5_L": 39
+   },
+   "n_fermion_fields": 224,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 57,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,3adj",
+   "1,8adj,1",
+   "45adj,1,1"
+  ]
+ },
+ "12": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 26
+   },
+   "fractional_colourless_fermion_fields": 60,
+   "chiral_fields_by_sector": {
+    "k0_L": 31,
+    "k0_R": 31,
+    "k1_L": 48,
+    "k2_R": 120,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 120,
+    "k5_R": 48
+   },
+   "n_fermion_fields": 231,
+   "n_scalar_fields": 552
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 60,
+   "chiral_fields_by_sector": {
+    "k0_L": 20,
+    "k0_R": 20,
+    "k1_R": 48,
+    "k2_R": 123,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 123,
+    "k5_L": 48
+   },
+   "n_fermion_fields": 223,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 75,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,3adj",
+   "1,8adj,1",
+   "45adj,1,1"
+  ]
+ },
+ "13": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 69,
+   "chiral_fields_by_sector": {
+    "k0_L": 35,
+    "k0_R": 35,
+    "k1_L": 30,
+    "k2_R": 72,
+    "k3_L": 43,
+    "k3_R": 43,
+    "k4_L": 72,
+    "k5_R": 30
+   },
+   "n_fermion_fields": 180,
+   "n_scalar_fields": 402
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 69,
+   "chiral_fields_by_sector": {
+    "k0_L": 22,
+    "k0_R": 22,
+    "k1_R": 30,
+    "k2_R": 72,
+    "k3_L": 43,
+    "k3_R": 43,
+    "k4_L": 72,
+    "k5_L": 30
+   },
+   "n_fermion_fields": 167,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 49,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,3adj,1",
+   "1,1,8adj,1,1",
+   "1,3adj,1,1,1",
+   "15adj,1,1,1,1"
+  ]
+ },
+ "14": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 30,
+    "k0_R": 30,
+    "k1_L": 36,
+    "k2_R": 67,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 67,
+    "k5_R": 36
+   },
+   "n_fermion_fields": 154,
+   "n_scalar_fields": 372
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 36,
+    "k2_R": 68,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 68,
+    "k5_L": 36
+   },
+   "n_fermion_fields": 144,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 62,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,3adj,1",
+   "1,1,8adj,1,1",
+   "1,3adj,1,1,1",
+   "24adj,1,1,1,1"
+  ]
+ },
+ "15": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 30,
+    "k0_R": 30,
+    "k1_L": 20,
+    "k2_R": 68,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 68,
+    "k5_R": 20
+   },
+   "n_fermion_fields": 139,
+   "n_scalar_fields": 306
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 20,
+    "k2_R": 67,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 67,
+    "k5_L": 20
+   },
+   "n_fermion_fields": 127,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 42,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,8adj,1",
+   "1,1,3adj,1,1",
+   "1,3adj,1,1,1",
+   "24adj,1,1,1,1"
+  ]
+ },
+ "16": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 52,
+   "chiral_fields_by_sector": {
+    "k0_L": 43,
+    "k0_R": 43,
+    "k1_L": 32,
+    "k2_R": 94,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 94,
+    "k5_R": 32
+   },
+   "n_fermion_fields": 201,
+   "n_scalar_fields": 446
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 52,
+   "chiral_fields_by_sector": {
+    "k0_L": 27,
+    "k0_R": 27,
+    "k1_R": 32,
+    "k2_R": 95,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 95,
+    "k5_L": 32
+   },
+   "n_fermion_fields": 186,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 40,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,3adj",
+   "1,8adj,1",
+   "15adj,1,1"
+  ]
+ },
+ "17": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 35,
+    "k0_R": 35,
+    "k1_L": 19,
+    "k2_R": 73,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 73,
+    "k5_R": 19
+   },
+   "n_fermion_fields": 159,
+   "n_scalar_fields": 342
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 25,
+    "k0_R": 25,
+    "k1_R": 19,
+    "k2_R": 71,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 71,
+    "k5_L": 19
+   },
+   "n_fermion_fields": 147,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 40,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,8adj,1",
+   "1,1,1,3adj,1,1",
+   "1,1,3adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "8adj,1,1,1,1,1"
+  ]
+ },
+ "18": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 30,
+    "k0_R": 30,
+    "k1_L": 36,
+    "k2_R": 67,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 67,
+    "k5_R": 36
+   },
+   "n_fermion_fields": 154,
+   "n_scalar_fields": 372
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 36,
+    "k2_R": 68,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 68,
+    "k5_L": 36
+   },
+   "n_fermion_fields": 144,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 62,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,8adj,1",
+   "1,1,3adj,1,1",
+   "1,3adj,1,1,1",
+   "24adj,1,1,1,1"
+  ]
+ },
+ "19": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 37,
+    "k0_R": 37,
+    "k1_L": 27,
+    "k2_R": 72,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 72,
+    "k5_R": 27
+   },
+   "n_fermion_fields": 157,
+   "n_scalar_fields": 352
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 23,
+    "k0_R": 23,
+    "k1_R": 27,
+    "k2_R": 72,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 72,
+    "k5_L": 27
+   },
+   "n_fermion_fields": 143,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 42,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,8adj,1",
+   "1,1,1,3adj,1,1",
+   "1,1,3adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "8adj,1,1,1,1,1"
+  ]
+ },
+ "20": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 57,
+   "chiral_fields_by_sector": {
+    "k0_L": 27,
+    "k0_R": 27,
+    "k1_L": 43,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_R": 43
+   },
+   "n_fermion_fields": 210,
+   "n_scalar_fields": 500
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 57,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 43,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_L": 43
+   },
+   "n_fermion_fields": 202,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 72,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,3adj",
+   "1,1,8adj,1",
+   "1,3adj,1,1",
+   "45adj,1,1,1"
+  ]
+ },
+ "21": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 48,
+   "chiral_fields_by_sector": {
+    "k0_L": 31,
+    "k0_R": 31,
+    "k1_L": 30,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_R": 30
+   },
+   "n_fermion_fields": 201,
+   "n_scalar_fields": 450
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 48,
+   "chiral_fields_by_sector": {
+    "k0_L": 20,
+    "k0_R": 20,
+    "k1_R": 30,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_L": 30
+   },
+   "n_fermion_fields": 190,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 45,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,3adj",
+   "1,1,3adj,1",
+   "1,8adj,1,1",
+   "28adj,1,1,1"
+  ]
+ },
+ "22": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 34,
+   "chiral_fields_by_sector": {
+    "k0_L": 31,
+    "k0_R": 31,
+    "k1_L": 13,
+    "k2_R": 109,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 109,
+    "k5_R": 13
+   },
+   "n_fermion_fields": 174,
+   "n_scalar_fields": 358
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 34,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 13,
+    "k2_R": 107,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 107,
+    "k5_L": 13
+   },
+   "n_fermion_fields": 160,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 34,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,8adj,1",
+   "1,1,1,3adj,1,1",
+   "1,1,3adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "15adj,1,1,1,1,1"
+  ]
+ },
+ "23": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 26
+   },
+   "fractional_colourless_fermion_fields": 54,
+   "chiral_fields_by_sector": {
+    "k0_L": 35,
+    "k0_R": 35,
+    "k1_L": 36,
+    "k2_R": 120,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 120,
+    "k5_R": 36
+   },
+   "n_fermion_fields": 223,
+   "n_scalar_fields": 506
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 54,
+   "chiral_fields_by_sector": {
+    "k0_L": 21,
+    "k0_R": 21,
+    "k1_R": 36,
+    "k2_R": 123,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 123,
+    "k5_L": 36
+   },
+   "n_fermion_fields": 212,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 48,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,3adj",
+   "1,8adj,1",
+   "28adj,1,1"
+  ]
+ },
+ "24": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 28,
+    "k0_R": 28,
+    "k1_L": 34,
+    "k2_R": 108,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 108,
+    "k5_R": 34
+   },
+   "n_fermion_fields": 191,
+   "n_scalar_fields": 442
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 18,
+    "k0_R": 18,
+    "k1_R": 34,
+    "k2_R": 108,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 108,
+    "k5_L": 34
+   },
+   "n_fermion_fields": 181,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 54,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,3adj",
+   "1,1,8adj,1",
+   "1,3adj,1,1",
+   "45adj,1,1,1"
+  ]
+ },
+ "25": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 52,
+   "chiral_fields_by_sector": {
+    "k0_L": 36,
+    "k0_R": 36,
+    "k1_L": 36,
+    "k2_R": 89,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 89,
+    "k5_R": 36
+   },
+   "n_fermion_fields": 193,
+   "n_scalar_fields": 446
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 52,
+   "chiral_fields_by_sector": {
+    "k0_L": 23,
+    "k0_R": 23,
+    "k1_R": 36,
+    "k2_R": 91,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 91,
+    "k5_L": 36
+   },
+   "n_fermion_fields": 182,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 53,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,24adj",
+   "1,3adj,1",
+   "8adj,1,1"
+  ]
+ },
+ "26": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 69,
+   "chiral_fields_by_sector": {
+    "k0_L": 35,
+    "k0_R": 35,
+    "k1_L": 30,
+    "k2_R": 72,
+    "k3_L": 43,
+    "k3_R": 43,
+    "k4_L": 72,
+    "k5_R": 30
+   },
+   "n_fermion_fields": 180,
+   "n_scalar_fields": 402
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 69,
+   "chiral_fields_by_sector": {
+    "k0_L": 22,
+    "k0_R": 22,
+    "k1_R": 30,
+    "k2_R": 72,
+    "k3_L": 43,
+    "k3_R": 43,
+    "k4_L": 72,
+    "k5_L": 30
+   },
+   "n_fermion_fields": 167,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 49,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,3adj,1",
+   "1,1,15adj,1,1",
+   "1,3adj,1,1,1",
+   "8adj,1,1,1,1"
+  ]
+ },
+ "27": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 43,
+   "chiral_fields_by_sector": {
+    "k0_L": 34,
+    "k0_R": 34,
+    "k1_L": 25,
+    "k2_R": 73,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 73,
+    "k5_R": 25
+   },
+   "n_fermion_fields": 164,
+   "n_scalar_fields": 362
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 43,
+   "chiral_fields_by_sector": {
+    "k0_L": 23,
+    "k0_R": 23,
+    "k1_R": 25,
+    "k2_R": 71,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 71,
+    "k5_L": 25
+   },
+   "n_fermion_fields": 151,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 47,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,3adj,1",
+   "1,1,15adj,1,1",
+   "1,3adj,1,1,1",
+   "8adj,1,1,1,1"
+  ]
+ },
+ "28": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 48,
+   "chiral_fields_by_sector": {
+    "k0_L": 31,
+    "k0_R": 31,
+    "k1_L": 30,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_R": 30
+   },
+   "n_fermion_fields": 201,
+   "n_scalar_fields": 450
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 48,
+   "chiral_fields_by_sector": {
+    "k0_L": 20,
+    "k0_R": 20,
+    "k1_R": 30,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_L": 30
+   },
+   "n_fermion_fields": 190,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 45,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,3adj",
+   "1,1,28adj,1",
+   "1,3adj,1,1",
+   "8adj,1,1,1"
+  ]
+ },
+ "29": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 28,
+    "k0_R": 28,
+    "k1_L": 34,
+    "k2_R": 108,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 108,
+    "k5_R": 34
+   },
+   "n_fermion_fields": 191,
+   "n_scalar_fields": 442
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 18,
+    "k0_R": 18,
+    "k1_R": 34,
+    "k2_R": 108,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 108,
+    "k5_L": 34
+   },
+   "n_fermion_fields": 181,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 54,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,45adj",
+   "1,1,3adj,1",
+   "1,3adj,1,1",
+   "8adj,1,1,1"
+  ]
+ },
+ "30": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 26
+   },
+   "fractional_colourless_fermion_fields": 76,
+   "chiral_fields_by_sector": {
+    "k0_L": 32,
+    "k0_R": 32,
+    "k1_L": 39,
+    "k2_R": 120,
+    "k3_L": 43,
+    "k3_R": 43,
+    "k4_L": 120,
+    "k5_R": 39
+   },
+   "n_fermion_fields": 234,
+   "n_scalar_fields": 534
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 76,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 39,
+    "k2_R": 123,
+    "k3_L": 43,
+    "k3_R": 43,
+    "k4_L": 123,
+    "k5_L": 39
+   },
+   "n_fermion_fields": 224,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 57,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,45adj",
+   "1,3adj,1",
+   "8adj,1,1"
+  ]
+ },
+ "31": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 57,
+   "chiral_fields_by_sector": {
+    "k0_L": 27,
+    "k0_R": 27,
+    "k1_L": 43,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_R": 43
+   },
+   "n_fermion_fields": 210,
+   "n_scalar_fields": 500
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 57,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 43,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_L": 43
+   },
+   "n_fermion_fields": 202,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 72,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,45adj",
+   "1,1,3adj,1",
+   "1,3adj,1,1",
+   "8adj,1,1,1"
+  ]
+ },
+ "32": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 26
+   },
+   "fractional_colourless_fermion_fields": 60,
+   "chiral_fields_by_sector": {
+    "k0_L": 31,
+    "k0_R": 31,
+    "k1_L": 48,
+    "k2_R": 120,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 120,
+    "k5_R": 48
+   },
+   "n_fermion_fields": 231,
+   "n_scalar_fields": 552
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 60,
+   "chiral_fields_by_sector": {
+    "k0_L": 20,
+    "k0_R": 20,
+    "k1_R": 48,
+    "k2_R": 123,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 123,
+    "k5_L": 48
+   },
+   "n_fermion_fields": 223,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 75,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,45adj",
+   "1,3adj,1",
+   "8adj,1,1"
+  ]
+ },
+ "33": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 43,
+   "chiral_fields_by_sector": {
+    "k0_L": 34,
+    "k0_R": 34,
+    "k1_L": 25,
+    "k2_R": 73,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 73,
+    "k5_R": 25
+   },
+   "n_fermion_fields": 164,
+   "n_scalar_fields": 362
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 43,
+   "chiral_fields_by_sector": {
+    "k0_L": 23,
+    "k0_R": 23,
+    "k1_R": 25,
+    "k2_R": 71,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 71,
+    "k5_L": 25
+   },
+   "n_fermion_fields": 151,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 47,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,15adj,1",
+   "1,1,3adj,1,1",
+   "1,3adj,1,1,1",
+   "8adj,1,1,1,1"
+  ]
+ },
+ "34": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 42,
+   "chiral_fields_by_sector": {
+    "k0_L": 39,
+    "k0_R": 39,
+    "k1_L": 23,
+    "k2_R": 85,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 85,
+    "k5_R": 23
+   },
+   "n_fermion_fields": 168,
+   "n_scalar_fields": 372
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 42,
+   "chiral_fields_by_sector": {
+    "k0_L": 27,
+    "k0_R": 27,
+    "k1_R": 23,
+    "k2_R": 86,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 86,
+    "k5_L": 23
+   },
+   "n_fermion_fields": 157,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 42,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,3adj,1",
+   "1,1,1,8adj,1,1",
+   "1,1,3adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "8adj,1,1,1,1,1"
+  ]
+ },
+ "35": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 37,
+    "k0_R": 37,
+    "k1_L": 27,
+    "k2_R": 72,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 72,
+    "k5_R": 27
+   },
+   "n_fermion_fields": 157,
+   "n_scalar_fields": 352
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 23,
+    "k0_R": 23,
+    "k1_R": 27,
+    "k2_R": 72,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 72,
+    "k5_L": 27
+   },
+   "n_fermion_fields": 143,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 42,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,3adj,1",
+   "1,1,1,8adj,1,1",
+   "1,1,3adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "8adj,1,1,1,1,1"
+  ]
+ },
+ "36": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 28,
+    "k0_R": 28,
+    "k1_L": 30,
+    "k2_R": 81,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 81,
+    "k5_R": 30
+   },
+   "n_fermion_fields": 171,
+   "n_scalar_fields": 398
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 21,
+    "k0_R": 21,
+    "k1_R": 30,
+    "k2_R": 81,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 81,
+    "k5_L": 30
+   },
+   "n_fermion_fields": 164,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 60,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,24adj,1",
+   "1,1,3adj,1,1",
+   "1,3adj,1,1,1",
+   "8adj,1,1,1,1"
+  ]
+ },
+ "37": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 35,
+    "k0_R": 35,
+    "k1_L": 19,
+    "k2_R": 73,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 73,
+    "k5_R": 19
+   },
+   "n_fermion_fields": 159,
+   "n_scalar_fields": 342
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 25,
+    "k0_R": 25,
+    "k1_R": 19,
+    "k2_R": 71,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 71,
+    "k5_L": 19
+   },
+   "n_fermion_fields": 147,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 40,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,3adj,1",
+   "1,1,1,8adj,1,1",
+   "1,1,3adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "8adj,1,1,1,1,1"
+  ]
+ },
+ "38": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 44,
+   "chiral_fields_by_sector": {
+    "k0_L": 35,
+    "k0_R": 35,
+    "k1_L": 26,
+    "k2_R": 86,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 86,
+    "k5_R": 26
+   },
+   "n_fermion_fields": 179,
+   "n_scalar_fields": 398
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 44,
+   "chiral_fields_by_sector": {
+    "k0_L": 25,
+    "k0_R": 25,
+    "k1_R": 26,
+    "k2_R": 85,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 85,
+    "k5_L": 26
+   },
+   "n_fermion_fields": 168,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 47,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,15adj,1",
+   "1,1,3adj,1,1",
+   "1,3adj,1,1,1",
+   "8adj,1,1,1,1"
+  ]
+ },
+ "39": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 30,
+    "k0_R": 30,
+    "k1_L": 20,
+    "k2_R": 68,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 68,
+    "k5_R": 20
+   },
+   "n_fermion_fields": 139,
+   "n_scalar_fields": 306
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 20,
+    "k2_R": 67,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 67,
+    "k5_L": 20
+   },
+   "n_fermion_fields": 127,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 42,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,24adj,1",
+   "1,1,3adj,1,1",
+   "1,3adj,1,1,1",
+   "8adj,1,1,1,1"
+  ]
+ },
+ "40": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 37,
+    "k0_R": 37,
+    "k1_L": 27,
+    "k2_R": 72,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 72,
+    "k5_R": 27
+   },
+   "n_fermion_fields": 157,
+   "n_scalar_fields": 352
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 23,
+    "k0_R": 23,
+    "k1_R": 27,
+    "k2_R": 72,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 72,
+    "k5_L": 27
+   },
+   "n_fermion_fields": 143,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 42,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,8adj,1",
+   "1,1,1,3adj,1,1",
+   "1,1,3adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "8adj,1,1,1,1,1"
+  ]
+ },
+ "41": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 43,
+   "chiral_fields_by_sector": {
+    "k0_L": 34,
+    "k0_R": 34,
+    "k1_L": 25,
+    "k2_R": 73,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 73,
+    "k5_R": 25
+   },
+   "n_fermion_fields": 164,
+   "n_scalar_fields": 362
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 43,
+   "chiral_fields_by_sector": {
+    "k0_L": 23,
+    "k0_R": 23,
+    "k1_R": 25,
+    "k2_R": 71,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 71,
+    "k5_L": 25
+   },
+   "n_fermion_fields": 151,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 47,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,8adj,1",
+   "1,1,3adj,1,1",
+   "1,3adj,1,1,1",
+   "15adj,1,1,1,1"
+  ]
+ },
+ "42": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 34,
+   "chiral_fields_by_sector": {
+    "k0_L": 31,
+    "k0_R": 31,
+    "k1_L": 13,
+    "k2_R": 109,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 109,
+    "k5_R": 13
+   },
+   "n_fermion_fields": 174,
+   "n_scalar_fields": 358
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 34,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 13,
+    "k2_R": 107,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 107,
+    "k5_L": 13
+   },
+   "n_fermion_fields": 160,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 34,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,8adj,1",
+   "1,1,1,3adj,1,1",
+   "1,1,3adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "15adj,1,1,1,1,1"
+  ]
+ },
+ "43": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 35,
+    "k0_R": 35,
+    "k1_L": 19,
+    "k2_R": 73,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 73,
+    "k5_R": 19
+   },
+   "n_fermion_fields": 159,
+   "n_scalar_fields": 342
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 25,
+    "k0_R": 25,
+    "k1_R": 19,
+    "k2_R": 71,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 71,
+    "k5_L": 19
+   },
+   "n_fermion_fields": 147,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 40,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,3adj,1",
+   "1,1,1,8adj,1,1",
+   "1,1,3adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "8adj,1,1,1,1,1"
+  ]
+ },
+ "44": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 30,
+    "k0_R": 30,
+    "k1_L": 20,
+    "k2_R": 68,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 68,
+    "k5_R": 20
+   },
+   "n_fermion_fields": 139,
+   "n_scalar_fields": 306
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 20,
+    "k2_R": 67,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 67,
+    "k5_L": 20
+   },
+   "n_fermion_fields": 127,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 42,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,8adj,1",
+   "1,1,3adj,1,1",
+   "1,3adj,1,1,1",
+   "24adj,1,1,1,1"
+  ]
+ },
+ "45": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 43,
+   "chiral_fields_by_sector": {
+    "k0_L": 34,
+    "k0_R": 34,
+    "k1_L": 25,
+    "k2_R": 73,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 73,
+    "k5_R": 25
+   },
+   "n_fermion_fields": 164,
+   "n_scalar_fields": 362
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 43,
+   "chiral_fields_by_sector": {
+    "k0_L": 23,
+    "k0_R": 23,
+    "k1_R": 25,
+    "k2_R": 71,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 71,
+    "k5_L": 25
+   },
+   "n_fermion_fields": 151,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 47,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,3adj,1",
+   "1,1,8adj,1,1",
+   "1,3adj,1,1,1",
+   "15adj,1,1,1,1"
+  ]
+ },
+ "46": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 44,
+   "chiral_fields_by_sector": {
+    "k0_L": 35,
+    "k0_R": 35,
+    "k1_L": 26,
+    "k2_R": 86,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 86,
+    "k5_R": 26
+   },
+   "n_fermion_fields": 179,
+   "n_scalar_fields": 398
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 44,
+   "chiral_fields_by_sector": {
+    "k0_L": 25,
+    "k0_R": 25,
+    "k1_R": 26,
+    "k2_R": 85,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 85,
+    "k5_L": 26
+   },
+   "n_fermion_fields": 168,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 47,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,3adj,1",
+   "1,1,8adj,1,1",
+   "1,3adj,1,1,1",
+   "15adj,1,1,1,1"
+  ]
+ },
+ "47": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 30,
+    "k0_R": 30,
+    "k1_L": 36,
+    "k2_R": 67,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 67,
+    "k5_R": 36
+   },
+   "n_fermion_fields": 154,
+   "n_scalar_fields": 372
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 36,
+    "k2_R": 68,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 68,
+    "k5_L": 36
+   },
+   "n_fermion_fields": 144,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 62,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,8adj,1",
+   "1,1,3adj,1,1",
+   "1,3adj,1,1,1",
+   "24adj,1,1,1,1"
+  ]
+ },
+ "48": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 37,
+    "k0_R": 37,
+    "k1_L": 27,
+    "k2_R": 72,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 72,
+    "k5_R": 27
+   },
+   "n_fermion_fields": 157,
+   "n_scalar_fields": 352
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 23,
+    "k0_R": 23,
+    "k1_R": 27,
+    "k2_R": 72,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 72,
+    "k5_L": 27
+   },
+   "n_fermion_fields": 143,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 42,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,8adj,1",
+   "1,1,1,3adj,1,1",
+   "1,1,3adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "8adj,1,1,1,1,1"
+  ]
+ },
+ "49": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 52,
+   "chiral_fields_by_sector": {
+    "k0_L": 36,
+    "k0_R": 36,
+    "k1_L": 36,
+    "k2_R": 89,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 89,
+    "k5_R": 36
+   },
+   "n_fermion_fields": 193,
+   "n_scalar_fields": 446
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 52,
+   "chiral_fields_by_sector": {
+    "k0_L": 23,
+    "k0_R": 23,
+    "k1_R": 36,
+    "k2_R": 91,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 91,
+    "k5_L": 36
+   },
+   "n_fermion_fields": 182,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 53,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,3adj",
+   "1,8adj,1",
+   "24adj,1,1"
+  ]
+ },
+ "50": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 30,
+    "k0_R": 30,
+    "k1_L": 20,
+    "k2_R": 68,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 68,
+    "k5_R": 20
+   },
+   "n_fermion_fields": 139,
+   "n_scalar_fields": 306
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 20,
+    "k2_R": 67,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 67,
+    "k5_L": 20
+   },
+   "n_fermion_fields": 127,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 42,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,8adj,1",
+   "1,1,3adj,1,1",
+   "1,3adj,1,1,1",
+   "24adj,1,1,1,1"
+  ]
+ },
+ "51": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 52,
+   "chiral_fields_by_sector": {
+    "k0_L": 36,
+    "k0_R": 36,
+    "k1_L": 36,
+    "k2_R": 89,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 89,
+    "k5_R": 36
+   },
+   "n_fermion_fields": 193,
+   "n_scalar_fields": 446
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 52,
+   "chiral_fields_by_sector": {
+    "k0_L": 23,
+    "k0_R": 23,
+    "k1_R": 36,
+    "k2_R": 91,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 91,
+    "k5_L": 36
+   },
+   "n_fermion_fields": 182,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 53,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,24adj",
+   "1,3adj,1",
+   "8adj,1,1"
+  ]
+ },
+ "52": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 69,
+   "chiral_fields_by_sector": {
+    "k0_L": 35,
+    "k0_R": 35,
+    "k1_L": 30,
+    "k2_R": 72,
+    "k3_L": 43,
+    "k3_R": 43,
+    "k4_L": 72,
+    "k5_R": 30
+   },
+   "n_fermion_fields": 180,
+   "n_scalar_fields": 402
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 69,
+   "chiral_fields_by_sector": {
+    "k0_L": 22,
+    "k0_R": 22,
+    "k1_R": 30,
+    "k2_R": 72,
+    "k3_L": 43,
+    "k3_R": 43,
+    "k4_L": 72,
+    "k5_L": 30
+   },
+   "n_fermion_fields": 167,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 49,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,3adj,1",
+   "1,1,15adj,1,1",
+   "1,3adj,1,1,1",
+   "8adj,1,1,1,1"
+  ]
+ },
+ "53": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 37,
+    "k0_R": 37,
+    "k1_L": 27,
+    "k2_R": 72,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 72,
+    "k5_R": 27
+   },
+   "n_fermion_fields": 157,
+   "n_scalar_fields": 352
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 23,
+    "k0_R": 23,
+    "k1_R": 27,
+    "k2_R": 72,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 72,
+    "k5_L": 27
+   },
+   "n_fermion_fields": 143,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 42,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,3adj,1",
+   "1,1,1,8adj,1,1",
+   "1,1,3adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "8adj,1,1,1,1,1"
+  ]
+ },
+ "54": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 48,
+   "chiral_fields_by_sector": {
+    "k0_L": 31,
+    "k0_R": 31,
+    "k1_L": 30,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_R": 30
+   },
+   "n_fermion_fields": 201,
+   "n_scalar_fields": 450
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 48,
+   "chiral_fields_by_sector": {
+    "k0_L": 20,
+    "k0_R": 20,
+    "k1_R": 30,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_L": 30
+   },
+   "n_fermion_fields": 190,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 45,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,28adj",
+   "1,1,3adj,1",
+   "1,3adj,1,1",
+   "8adj,1,1,1"
+  ]
+ },
+ "55": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 35,
+    "k0_R": 35,
+    "k1_L": 19,
+    "k2_R": 73,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 73,
+    "k5_R": 19
+   },
+   "n_fermion_fields": 159,
+   "n_scalar_fields": 342
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 25,
+    "k0_R": 25,
+    "k1_R": 19,
+    "k2_R": 71,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 71,
+    "k5_L": 19
+   },
+   "n_fermion_fields": 147,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 40,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,3adj,1",
+   "1,1,1,3adj,1,1",
+   "1,1,8adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "8adj,1,1,1,1,1"
+  ]
+ },
+ "56": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 68,
+   "chiral_fields_by_sector": {
+    "k0_L": 37,
+    "k0_R": 37,
+    "k1_L": 27,
+    "k2_R": 84,
+    "k3_L": 43,
+    "k3_R": 43,
+    "k4_L": 84,
+    "k5_R": 27
+   },
+   "n_fermion_fields": 191,
+   "n_scalar_fields": 422
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 68,
+   "chiral_fields_by_sector": {
+    "k0_L": 23,
+    "k0_R": 23,
+    "k1_R": 27,
+    "k2_R": 87,
+    "k3_L": 43,
+    "k3_R": 43,
+    "k4_L": 87,
+    "k5_L": 27
+   },
+   "n_fermion_fields": 180,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 42,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,3adj,1",
+   "1,1,8adj,1,1",
+   "1,3adj,1,1,1",
+   "15adj,1,1,1,1"
+  ]
+ },
+ "57": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 30,
+    "k0_R": 30,
+    "k1_L": 20,
+    "k2_R": 68,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 68,
+    "k5_R": 20
+   },
+   "n_fermion_fields": 139,
+   "n_scalar_fields": 306
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 20,
+    "k2_R": 67,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 67,
+    "k5_L": 20
+   },
+   "n_fermion_fields": 127,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 42,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,24adj,1",
+   "1,1,3adj,1,1",
+   "1,3adj,1,1,1",
+   "8adj,1,1,1,1"
+  ]
+ },
+ "58": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 52,
+   "chiral_fields_by_sector": {
+    "k0_L": 43,
+    "k0_R": 43,
+    "k1_L": 32,
+    "k2_R": 94,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 94,
+    "k5_R": 32
+   },
+   "n_fermion_fields": 201,
+   "n_scalar_fields": 446
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 52,
+   "chiral_fields_by_sector": {
+    "k0_L": 27,
+    "k0_R": 27,
+    "k1_R": 32,
+    "k2_R": 95,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 95,
+    "k5_L": 32
+   },
+   "n_fermion_fields": 186,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 40,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,15adj",
+   "1,3adj,1",
+   "8adj,1,1"
+  ]
+ },
+ "59": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 30,
+    "k0_R": 30,
+    "k1_L": 29,
+    "k2_R": 79,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 79,
+    "k5_R": 29
+   },
+   "n_fermion_fields": 159,
+   "n_scalar_fields": 374
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 29,
+    "k2_R": 83,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 83,
+    "k5_L": 29
+   },
+   "n_fermion_fields": 152,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 55,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,3adj,1",
+   "1,1,8adj,1,1",
+   "1,3adj,1,1,1",
+   "24adj,1,1,1,1"
+  ]
+ },
+ "60": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 42,
+   "chiral_fields_by_sector": {
+    "k0_L": 39,
+    "k0_R": 39,
+    "k1_L": 23,
+    "k2_R": 85,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 85,
+    "k5_R": 23
+   },
+   "n_fermion_fields": 168,
+   "n_scalar_fields": 372
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 42,
+   "chiral_fields_by_sector": {
+    "k0_L": 27,
+    "k0_R": 27,
+    "k1_R": 23,
+    "k2_R": 86,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 86,
+    "k5_L": 23
+   },
+   "n_fermion_fields": 157,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 42,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,3adj,1",
+   "1,1,1,8adj,1,1",
+   "1,1,3adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "8adj,1,1,1,1,1"
+  ]
+ },
+ "61": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 34,
+   "chiral_fields_by_sector": {
+    "k0_L": 31,
+    "k0_R": 31,
+    "k1_L": 13,
+    "k2_R": 109,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 109,
+    "k5_R": 13
+   },
+   "n_fermion_fields": 174,
+   "n_scalar_fields": 358
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 34,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 13,
+    "k2_R": 107,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 107,
+    "k5_L": 13
+   },
+   "n_fermion_fields": 160,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 34,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,3adj,1",
+   "1,1,1,8adj,1,1",
+   "1,1,3adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "15adj,1,1,1,1,1"
+  ]
+ },
+ "62": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 43,
+   "chiral_fields_by_sector": {
+    "k0_L": 34,
+    "k0_R": 34,
+    "k1_L": 25,
+    "k2_R": 73,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 73,
+    "k5_R": 25
+   },
+   "n_fermion_fields": 164,
+   "n_scalar_fields": 362
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 43,
+   "chiral_fields_by_sector": {
+    "k0_L": 23,
+    "k0_R": 23,
+    "k1_R": 25,
+    "k2_R": 71,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 71,
+    "k5_L": 25
+   },
+   "n_fermion_fields": 151,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 47,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,15adj,1",
+   "1,1,3adj,1,1",
+   "1,3adj,1,1,1",
+   "8adj,1,1,1,1"
+  ]
+ },
+ "63": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 44,
+   "chiral_fields_by_sector": {
+    "k0_L": 35,
+    "k0_R": 35,
+    "k1_L": 26,
+    "k2_R": 86,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 86,
+    "k5_R": 26
+   },
+   "n_fermion_fields": 179,
+   "n_scalar_fields": 398
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 44,
+   "chiral_fields_by_sector": {
+    "k0_L": 25,
+    "k0_R": 25,
+    "k1_R": 26,
+    "k2_R": 85,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 85,
+    "k5_L": 26
+   },
+   "n_fermion_fields": 168,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 47,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,15adj,1",
+   "1,1,3adj,1,1",
+   "1,3adj,1,1,1",
+   "8adj,1,1,1,1"
+  ]
+ },
+ "64": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 28,
+    "k0_R": 28,
+    "k1_L": 34,
+    "k2_R": 108,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 108,
+    "k5_R": 34
+   },
+   "n_fermion_fields": 191,
+   "n_scalar_fields": 442
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 18,
+    "k0_R": 18,
+    "k1_R": 34,
+    "k2_R": 108,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 108,
+    "k5_L": 34
+   },
+   "n_fermion_fields": 181,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 54,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,45adj",
+   "1,1,3adj,1",
+   "1,3adj,1,1",
+   "8adj,1,1,1"
+  ]
+ },
+ "65": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 57,
+   "chiral_fields_by_sector": {
+    "k0_L": 27,
+    "k0_R": 27,
+    "k1_L": 43,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_R": 43
+   },
+   "n_fermion_fields": 210,
+   "n_scalar_fields": 500
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 57,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 43,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_L": 43
+   },
+   "n_fermion_fields": 202,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 72,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,3adj",
+   "1,1,45adj,1",
+   "1,3adj,1,1",
+   "8adj,1,1,1"
+  ]
+ },
+ "66": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 26
+   },
+   "fractional_colourless_fermion_fields": 54,
+   "chiral_fields_by_sector": {
+    "k0_L": 35,
+    "k0_R": 35,
+    "k1_L": 36,
+    "k2_R": 120,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 120,
+    "k5_R": 36
+   },
+   "n_fermion_fields": 223,
+   "n_scalar_fields": 506
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 54,
+   "chiral_fields_by_sector": {
+    "k0_L": 21,
+    "k0_R": 21,
+    "k1_R": 36,
+    "k2_R": 123,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 123,
+    "k5_L": 36
+   },
+   "n_fermion_fields": 212,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 48,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,28adj",
+   "1,3adj,1",
+   "8adj,1,1"
+  ]
+ },
+ "67": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 48,
+   "chiral_fields_by_sector": {
+    "k0_L": 31,
+    "k0_R": 31,
+    "k1_L": 30,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_R": 30
+   },
+   "n_fermion_fields": 201,
+   "n_scalar_fields": 450
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 48,
+   "chiral_fields_by_sector": {
+    "k0_L": 20,
+    "k0_R": 20,
+    "k1_R": 30,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_L": 30
+   },
+   "n_fermion_fields": 190,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 45,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,3adj",
+   "1,1,28adj,1",
+   "1,3adj,1,1",
+   "8adj,1,1,1"
+  ]
+ },
+ "68": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 30,
+    "k0_R": 30,
+    "k1_L": 29,
+    "k2_R": 79,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 79,
+    "k5_R": 29
+   },
+   "n_fermion_fields": 159,
+   "n_scalar_fields": 374
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 29,
+    "k2_R": 83,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 83,
+    "k5_L": 29
+   },
+   "n_fermion_fields": 152,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 55,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,3adj,1",
+   "1,1,8adj,1,1",
+   "1,3adj,1,1,1",
+   "24adj,1,1,1,1"
+  ]
+ },
+ "69": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 30,
+    "k0_R": 30,
+    "k1_L": 36,
+    "k2_R": 67,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 67,
+    "k5_R": 36
+   },
+   "n_fermion_fields": 154,
+   "n_scalar_fields": 372
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 36,
+    "k2_R": 68,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 68,
+    "k5_L": 36
+   },
+   "n_fermion_fields": 144,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 62,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,3adj,1",
+   "1,1,8adj,1,1",
+   "1,3adj,1,1,1",
+   "24adj,1,1,1,1"
+  ]
+ },
+ "70": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 28,
+    "k0_R": 28,
+    "k1_L": 30,
+    "k2_R": 81,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 81,
+    "k5_R": 30
+   },
+   "n_fermion_fields": 171,
+   "n_scalar_fields": 398
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 21,
+    "k0_R": 21,
+    "k1_R": 30,
+    "k2_R": 81,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 81,
+    "k5_L": 30
+   },
+   "n_fermion_fields": 164,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 60,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,24adj,1",
+   "1,1,3adj,1,1",
+   "1,3adj,1,1,1",
+   "8adj,1,1,1,1"
+  ]
+ },
+ "71": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 69,
+   "chiral_fields_by_sector": {
+    "k0_L": 35,
+    "k0_R": 35,
+    "k1_L": 30,
+    "k2_R": 72,
+    "k3_L": 43,
+    "k3_R": 43,
+    "k4_L": 72,
+    "k5_R": 30
+   },
+   "n_fermion_fields": 180,
+   "n_scalar_fields": 402
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 69,
+   "chiral_fields_by_sector": {
+    "k0_L": 22,
+    "k0_R": 22,
+    "k1_R": 30,
+    "k2_R": 72,
+    "k3_L": 43,
+    "k3_R": 43,
+    "k4_L": 72,
+    "k5_L": 30
+   },
+   "n_fermion_fields": 167,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 49,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,3adj,1",
+   "1,1,8adj,1,1",
+   "1,3adj,1,1,1",
+   "15adj,1,1,1,1"
+  ]
+ },
+ "72": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 42,
+   "chiral_fields_by_sector": {
+    "k0_L": 39,
+    "k0_R": 39,
+    "k1_L": 23,
+    "k2_R": 85,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 85,
+    "k5_R": 23
+   },
+   "n_fermion_fields": 168,
+   "n_scalar_fields": 372
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 42,
+   "chiral_fields_by_sector": {
+    "k0_L": 27,
+    "k0_R": 27,
+    "k1_R": 23,
+    "k2_R": 86,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 86,
+    "k5_L": 23
+   },
+   "n_fermion_fields": 157,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 42,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,3adj,1",
+   "1,1,1,8adj,1,1",
+   "1,1,3adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "8adj,1,1,1,1,1"
+  ]
+ },
+ "73": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 30,
+    "k0_R": 30,
+    "k1_L": 36,
+    "k2_R": 67,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 67,
+    "k5_R": 36
+   },
+   "n_fermion_fields": 154,
+   "n_scalar_fields": 372
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 36,
+    "k2_R": 68,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 68,
+    "k5_L": 36
+   },
+   "n_fermion_fields": 144,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 62,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,3adj,1",
+   "1,1,8adj,1,1",
+   "1,3adj,1,1,1",
+   "24adj,1,1,1,1"
+  ]
+ },
+ "74": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 30,
+    "k0_R": 30,
+    "k1_L": 29,
+    "k2_R": 79,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 79,
+    "k5_R": 29
+   },
+   "n_fermion_fields": 159,
+   "n_scalar_fields": 374
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 29,
+    "k2_R": 83,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 83,
+    "k5_L": 29
+   },
+   "n_fermion_fields": 152,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 55,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,3adj,1",
+   "1,1,8adj,1,1",
+   "1,3adj,1,1,1",
+   "24adj,1,1,1,1"
+  ]
+ },
+ "75": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 68,
+   "chiral_fields_by_sector": {
+    "k0_L": 37,
+    "k0_R": 37,
+    "k1_L": 27,
+    "k2_R": 84,
+    "k3_L": 43,
+    "k3_R": 43,
+    "k4_L": 84,
+    "k5_R": 27
+   },
+   "n_fermion_fields": 191,
+   "n_scalar_fields": 422
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 68,
+   "chiral_fields_by_sector": {
+    "k0_L": 23,
+    "k0_R": 23,
+    "k1_R": 27,
+    "k2_R": 87,
+    "k3_L": 43,
+    "k3_R": 43,
+    "k4_L": 87,
+    "k5_L": 27
+   },
+   "n_fermion_fields": 180,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 42,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,3adj,1",
+   "1,1,8adj,1,1",
+   "1,3adj,1,1,1",
+   "15adj,1,1,1,1"
+  ]
+ },
+ "76": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 37,
+    "k0_R": 37,
+    "k1_L": 27,
+    "k2_R": 72,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 72,
+    "k5_R": 27
+   },
+   "n_fermion_fields": 157,
+   "n_scalar_fields": 352
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 46,
+   "chiral_fields_by_sector": {
+    "k0_L": 23,
+    "k0_R": 23,
+    "k1_R": 27,
+    "k2_R": 72,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 72,
+    "k5_L": 27
+   },
+   "n_fermion_fields": 143,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 42,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,3adj,1",
+   "1,1,1,8adj,1,1",
+   "1,1,3adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "8adj,1,1,1,1,1"
+  ]
+ },
+ "77": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 30,
+    "k0_R": 30,
+    "k1_L": 20,
+    "k2_R": 68,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 68,
+    "k5_R": 20
+   },
+   "n_fermion_fields": 139,
+   "n_scalar_fields": 306
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 20,
+    "k2_R": 67,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 67,
+    "k5_L": 20
+   },
+   "n_fermion_fields": 127,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 42,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,24adj,1",
+   "1,1,3adj,1,1",
+   "1,3adj,1,1,1",
+   "8adj,1,1,1,1"
+  ]
+ },
+ "78": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 35,
+    "k0_R": 35,
+    "k1_L": 19,
+    "k2_R": 73,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 73,
+    "k5_R": 19
+   },
+   "n_fermion_fields": 159,
+   "n_scalar_fields": 342
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 25,
+    "k0_R": 25,
+    "k1_R": 19,
+    "k2_R": 71,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 71,
+    "k5_L": 19
+   },
+   "n_fermion_fields": 147,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 40,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,3adj,1",
+   "1,1,1,8adj,1,1",
+   "1,1,3adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "8adj,1,1,1,1,1"
+  ]
+ },
+ "79": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 43,
+   "chiral_fields_by_sector": {
+    "k0_L": 34,
+    "k0_R": 34,
+    "k1_L": 25,
+    "k2_R": 73,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 73,
+    "k5_R": 25
+   },
+   "n_fermion_fields": 164,
+   "n_scalar_fields": 362
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 43,
+   "chiral_fields_by_sector": {
+    "k0_L": 23,
+    "k0_R": 23,
+    "k1_R": 25,
+    "k2_R": 71,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 71,
+    "k5_L": 25
+   },
+   "n_fermion_fields": 151,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 47,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,8adj,1",
+   "1,1,3adj,1,1",
+   "1,3adj,1,1,1",
+   "15adj,1,1,1,1"
+  ]
+ },
+ "80": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 52,
+   "chiral_fields_by_sector": {
+    "k0_L": 43,
+    "k0_R": 43,
+    "k1_L": 32,
+    "k2_R": 94,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 94,
+    "k5_R": 32
+   },
+   "n_fermion_fields": 201,
+   "n_scalar_fields": 446
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 52,
+   "chiral_fields_by_sector": {
+    "k0_L": 27,
+    "k0_R": 27,
+    "k1_R": 32,
+    "k2_R": 95,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 95,
+    "k5_L": 32
+   },
+   "n_fermion_fields": 186,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 40,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,3adj",
+   "1,8adj,1",
+   "15adj,1,1"
+  ]
+ },
+ "81": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 69,
+   "chiral_fields_by_sector": {
+    "k0_L": 35,
+    "k0_R": 35,
+    "k1_L": 30,
+    "k2_R": 72,
+    "k3_L": 43,
+    "k3_R": 43,
+    "k4_L": 72,
+    "k5_R": 30
+   },
+   "n_fermion_fields": 180,
+   "n_scalar_fields": 402
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 69,
+   "chiral_fields_by_sector": {
+    "k0_L": 22,
+    "k0_R": 22,
+    "k1_R": 30,
+    "k2_R": 72,
+    "k3_L": 43,
+    "k3_R": 43,
+    "k4_L": 72,
+    "k5_L": 30
+   },
+   "n_fermion_fields": 167,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 49,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,3adj",
+   "1,1,1,8adj,1",
+   "1,1,3adj,1,1",
+   "1,3adj,1,1,1",
+   "15adj,1,1,1,1"
+  ]
+ },
+ "82": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 10
+   },
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 35,
+    "k0_R": 35,
+    "k1_L": 19,
+    "k2_R": 73,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 73,
+    "k5_R": 19
+   },
+   "n_fermion_fields": 159,
+   "n_scalar_fields": 342
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 39,
+   "chiral_fields_by_sector": {
+    "k0_L": 25,
+    "k0_R": 25,
+    "k1_R": 19,
+    "k2_R": 71,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 71,
+    "k5_L": 19
+   },
+   "n_fermion_fields": 147,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 40,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,8adj,1",
+   "1,1,1,3adj,1,1",
+   "1,1,3adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "8adj,1,1,1,1,1"
+  ]
+ },
+ "83": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 34,
+   "chiral_fields_by_sector": {
+    "k0_L": 31,
+    "k0_R": 31,
+    "k1_L": 13,
+    "k2_R": 109,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 109,
+    "k5_R": 13
+   },
+   "n_fermion_fields": 174,
+   "n_scalar_fields": 358
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 34,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 13,
+    "k2_R": 107,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 107,
+    "k5_L": 13
+   },
+   "n_fermion_fields": 160,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 34,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,3adj,1",
+   "1,1,1,15adj,1,1",
+   "1,1,3adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "8adj,1,1,1,1,1"
+  ]
+ },
+ "84": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 48,
+   "chiral_fields_by_sector": {
+    "k0_L": 31,
+    "k0_R": 31,
+    "k1_L": 30,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_R": 30
+   },
+   "n_fermion_fields": 201,
+   "n_scalar_fields": 450
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 48,
+   "chiral_fields_by_sector": {
+    "k0_L": 20,
+    "k0_R": 20,
+    "k1_R": 30,
+    "k2_R": 108,
+    "k3_L": 32,
+    "k3_R": 32,
+    "k4_L": 108,
+    "k5_L": 30
+   },
+   "n_fermion_fields": 190,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 45,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,3adj",
+   "1,1,28adj,1",
+   "1,3adj,1,1",
+   "8adj,1,1,1"
+  ]
+ },
+ "85": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 34,
+   "chiral_fields_by_sector": {
+    "k0_L": 31,
+    "k0_R": 31,
+    "k1_L": 13,
+    "k2_R": 109,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 109,
+    "k5_R": 13
+   },
+   "n_fermion_fields": 174,
+   "n_scalar_fields": 358
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 34,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 13,
+    "k2_R": 107,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 107,
+    "k5_L": 13
+   },
+   "n_fermion_fields": 160,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 34,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,3adj,1",
+   "1,1,1,3adj,1,1",
+   "1,1,15adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "8adj,1,1,1,1,1"
+  ]
+ },
+ "86": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 28,
+    "k0_R": 28,
+    "k1_L": 34,
+    "k2_R": 108,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 108,
+    "k5_R": 34
+   },
+   "n_fermion_fields": 191,
+   "n_scalar_fields": 442
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 51,
+   "chiral_fields_by_sector": {
+    "k0_L": 18,
+    "k0_R": 18,
+    "k1_R": 34,
+    "k2_R": 108,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 108,
+    "k5_L": 34
+   },
+   "n_fermion_fields": 181,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 54,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,3adj",
+   "1,1,45adj,1",
+   "1,3adj,1,1",
+   "8adj,1,1,1"
+  ]
+ },
+ "87": {
+  "twin": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {
+    "hidden-singlet": 30
+   },
+   "fractional_colourless_fermion_fields": 34,
+   "chiral_fields_by_sector": {
+    "k0_L": 31,
+    "k0_R": 31,
+    "k1_L": 13,
+    "k2_R": 109,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 109,
+    "k5_R": 13
+   },
+   "n_fermion_fields": 174,
+   "n_scalar_fields": 358
+  },
+  "parent": {
+   "generations": {
+    "q": 3,
+    "u": 3,
+    "d": 3,
+    "l": 3,
+    "e": 3
+   },
+   "higgs_doublet_scalars": {},
+   "fractional_colourless_fermion_fields": 34,
+   "chiral_fields_by_sector": {
+    "k0_L": 19,
+    "k0_R": 19,
+    "k1_R": 13,
+    "k2_R": 107,
+    "k3_L": 21,
+    "k3_R": 21,
+    "k4_L": 107,
+    "k5_L": 13
+   },
+   "n_fermion_fields": 160,
+   "n_scalar_fields": 0
+  },
+  "theta_sector_massless_left_states_orbifolder": 34,
+  "gauge_group_equal_to_parent": true,
+  "vector_multiplets": [
+   "1,1,1,1,1,3adj",
+   "1,1,1,1,3adj,1",
+   "1,1,1,8adj,1,1",
+   "1,1,3adj,1,1,1",
+   "1,3adj,1,1,1,1",
+   "15adj,1,1,1,1,1"
+  ]
+ }
+}

@@ -1,0 +1,2904 @@
+{
+ "models": {
+  "z3z3|Z3Z3_0001_c1__SM_20260932_2822": {
+   "candidates": [],
+   "census": {
+    "fi_cancelling_rays": 68,
+    "parity_exists": true,
+    "realizable_curing_rays": 4,
+    "realizable_rays_needing_a_composite": 4,
+    "verdict": "COUNTEREXAMPLE"
+   },
+   "composites": 277,
+   "curing_slots": [
+    1
+   ],
+   "kinds": {
+    "su2pair": 277
+   },
+   "min_light_fractional_viable": null,
+   "realizable_supports": 4,
+   "summary": {},
+   "with_baryonic": 0
+  },
+  "z3z3|Z3Z3_0001_c3__SM_20260934_739": {
+   "candidates": [
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_86"
+      },
+      {
+       "name": "n_85"
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "name": "n_12"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 174,
+     "light_fractional_protected_by_symmetry": 162,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      1
+     ],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_85"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90538",
+       "of": [
+        "n_7",
+        "n_72"
+       ]
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 160,
+     "light_fractional_protected_by_symmetry": 112,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      1
+     ],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90535",
+       "of": [
+        "n_7",
+        "n_27"
+       ]
+      },
+      {
+       "name": "n_85"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 160,
+     "light_fractional_protected_by_symmetry": 112,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      1
+     ],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_85"
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90538",
+       "of": [
+        "n_7",
+        "n_72"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 164,
+     "light_fractional_protected_by_symmetry": 112,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      1
+     ],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90535",
+       "of": [
+        "n_7",
+        "n_27"
+       ]
+      },
+      {
+       "name": "n_85"
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 164,
+     "light_fractional_protected_by_symmetry": 112,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_14"
+      },
+      {
+       "name": "n_85"
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 152,
+     "light_fractional_protected_by_symmetry": 132,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90211",
+       "of": [
+        "n_2",
+        "n_40"
+       ]
+      },
+      {
+       "name": "n_85"
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 162,
+     "light_fractional_protected_by_symmetry": 138,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_85"
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "name": "n_12"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 158,
+     "light_fractional_protected_by_symmetry": 132,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_10"
+      },
+      {
+       "name": "n_85"
+      },
+      {
+       "name": "n_12"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 148,
+     "light_fractional_protected_by_symmetry": 132,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      1
+     ],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_10"
+      },
+      {
+       "name": "n_85"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90538",
+       "of": [
+        "n_7",
+        "n_72"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 160,
+     "light_fractional_protected_by_symmetry": 112,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      1
+     ],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_10"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90535",
+       "of": [
+        "n_7",
+        "n_27"
+       ]
+      },
+      {
+       "name": "n_85"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 160,
+     "light_fractional_protected_by_symmetry": 112,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_10"
+      },
+      {
+       "name": "n_14"
+      },
+      {
+       "name": "n_85"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 152,
+     "light_fractional_protected_by_symmetry": 132,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_10"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90211",
+       "of": [
+        "n_2",
+        "n_40"
+       ]
+      },
+      {
+       "name": "n_85"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 156,
+     "light_fractional_protected_by_symmetry": 138,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      1
+     ],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90538",
+       "of": [
+        "n_7",
+        "n_72"
+       ]
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 160,
+     "light_fractional_protected_by_symmetry": 112,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      1
+     ],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90535",
+       "of": [
+        "n_7",
+        "n_27"
+       ]
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 168,
+     "light_fractional_protected_by_symmetry": 112,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      1
+     ],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90538",
+       "of": [
+        "n_7",
+        "n_72"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 168,
+     "light_fractional_protected_by_symmetry": 112,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      1
+     ],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90535",
+       "of": [
+        "n_7",
+        "n_27"
+       ]
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 176,
+     "light_fractional_protected_by_symmetry": 112,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_14"
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 162,
+     "light_fractional_protected_by_symmetry": 132,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90211",
+       "of": [
+        "n_2",
+        "n_40"
+       ]
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 166,
+     "light_fractional_protected_by_symmetry": 138,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "name": "n_12"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 162,
+     "light_fractional_protected_by_symmetry": 132,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_10"
+      },
+      {
+       "name": "n_12"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 156,
+     "light_fractional_protected_by_symmetry": 132,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      1
+     ],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_10"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90538",
+       "of": [
+        "n_7",
+        "n_72"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 164,
+     "light_fractional_protected_by_symmetry": 112,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      1
+     ],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_10"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90535",
+       "of": [
+        "n_7",
+        "n_27"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 170,
+     "light_fractional_protected_by_symmetry": 112,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_10"
+      },
+      {
+       "name": "n_14"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 156,
+     "light_fractional_protected_by_symmetry": 132,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_10"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90211",
+       "of": [
+        "n_2",
+        "n_40"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 160,
+     "light_fractional_protected_by_symmetry": 138,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_86"
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "name": "n_12"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 180,
+     "light_fractional_protected_by_symmetry": 162,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_10"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90211",
+       "of": [
+        "n_2",
+        "n_40"
+       ]
+      },
+      {
+       "name": "n_67"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 160,
+     "light_fractional_protected_by_symmetry": 138,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_10"
+      },
+      {
+       "name": "n_67"
+      },
+      {
+       "name": "n_14"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 152,
+     "light_fractional_protected_by_symmetry": 132,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      1
+     ],
+     "fields": [
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_10"
+      },
+      {
+       "name": "n_67"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90535",
+       "of": [
+        "n_7",
+        "n_27"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 170,
+     "light_fractional_protected_by_symmetry": 112,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      1
+     ],
+     "fields": [
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_10"
+      },
+      {
+       "name": "n_67"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90538",
+       "of": [
+        "n_7",
+        "n_72"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 164,
+     "light_fractional_protected_by_symmetry": 112,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_10"
+      },
+      {
+       "name": "n_67"
+      },
+      {
+       "name": "n_12"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 156,
+     "light_fractional_protected_by_symmetry": 132,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_67"
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "name": "n_12"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 162,
+     "light_fractional_protected_by_symmetry": 132,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90211",
+       "of": [
+        "n_2",
+        "n_40"
+       ]
+      },
+      {
+       "name": "n_67"
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 166,
+     "light_fractional_protected_by_symmetry": 138,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_67"
+      },
+      {
+       "name": "n_14"
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 158,
+     "light_fractional_protected_by_symmetry": 132,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      1
+     ],
+     "fields": [
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_67"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90535",
+       "of": [
+        "n_7",
+        "n_27"
+       ]
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 176,
+     "light_fractional_protected_by_symmetry": 112,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      1
+     ],
+     "fields": [
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_67"
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90538",
+       "of": [
+        "n_7",
+        "n_72"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 168,
+     "light_fractional_protected_by_symmetry": 112,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      1
+     ],
+     "fields": [
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_67"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90535",
+       "of": [
+        "n_7",
+        "n_27"
+       ]
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 168,
+     "light_fractional_protected_by_symmetry": 112,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      1
+     ],
+     "fields": [
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_67"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90538",
+       "of": [
+        "n_7",
+        "n_72"
+       ]
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 160,
+     "light_fractional_protected_by_symmetry": 112,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_86"
+      },
+      {
+       "name": "n_67"
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "name": "n_12"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_1",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 180,
+     "light_fractional_protected_by_symmetry": 162,
+     "parity_composites_even": "viable"
+    }
+   ],
+   "census": {
+    "fi_cancelling_rays": 3069,
+    "parity_exists": true,
+    "realizable_curing_rays": 78,
+    "realizable_rays_needing_a_composite": 78,
+    "verdict": "COUNTEREXAMPLE"
+   },
+   "composites": 775,
+   "curing_slots": [
+    0
+   ],
+   "kinds": {
+    "antibaryon": 430,
+    "baryon": 155,
+    "meson": 190
+   },
+   "min_light_fractional_viable": 148,
+   "realizable_supports": 78,
+   "summary": {
+    "('viable', True)": 39
+   },
+   "with_baryonic": 39
+  },
+  "z3z3|Z3Z3_0001_c4__SM_20260935_3729": {
+   "candidates": [
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_84"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90345",
+       "of": [
+        "n_7",
+        "n_71",
+        "n_72"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_2",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0,
+      1
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 168,
+     "light_fractional_protected_by_symmetry": 102,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_84"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90317",
+       "of": [
+        "n_7",
+        "n_26",
+        "n_71"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_2",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0,
+      1
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 168,
+     "light_fractional_protected_by_symmetry": 102,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_84"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90315",
+       "of": [
+        "n_7",
+        "n_26",
+        "n_27"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_2",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0,
+      1
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 160,
+     "light_fractional_protected_by_symmetry": 90,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_84"
+      },
+      {
+       "name": "n_9"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_2",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 158,
+     "light_fractional_protected_by_symmetry": 138,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      0
+     ],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_84"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90211",
+       "of": [
+        "n_5",
+        "n_40"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90345",
+       "of": [
+        "n_7",
+        "n_71",
+        "n_72"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      1
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 144,
+     "light_fractional_protected_by_symmetry": 96,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      0
+     ],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_84"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90211",
+       "of": [
+        "n_5",
+        "n_40"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90317",
+       "of": [
+        "n_7",
+        "n_26",
+        "n_71"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      1
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 144,
+     "light_fractional_protected_by_symmetry": 100,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      0
+     ],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_84"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90211",
+       "of": [
+        "n_5",
+        "n_40"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90315",
+       "of": [
+        "n_7",
+        "n_26",
+        "n_27"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      1
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 142,
+     "light_fractional_protected_by_symmetry": 92,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "name": "n_84"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_2",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 152,
+     "light_fractional_protected_by_symmetry": 138,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90345",
+       "of": [
+        "n_7",
+        "n_71",
+        "n_72"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_2",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0,
+      1
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 168,
+     "light_fractional_protected_by_symmetry": 102,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90317",
+       "of": [
+        "n_7",
+        "n_26",
+        "n_71"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_2",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0,
+      1
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 168,
+     "light_fractional_protected_by_symmetry": 102,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90315",
+       "of": [
+        "n_7",
+        "n_26",
+        "n_27"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_2",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0,
+      1
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 162,
+     "light_fractional_protected_by_symmetry": 90,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_9"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_2",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 158,
+     "light_fractional_protected_by_symmetry": 138,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      0
+     ],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90211",
+       "of": [
+        "n_5",
+        "n_40"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90345",
+       "of": [
+        "n_7",
+        "n_71",
+        "n_72"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      1
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 144,
+     "light_fractional_protected_by_symmetry": 96,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      0
+     ],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90211",
+       "of": [
+        "n_5",
+        "n_40"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90317",
+       "of": [
+        "n_7",
+        "n_26",
+        "n_71"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      1
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 144,
+     "light_fractional_protected_by_symmetry": 100,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      0
+     ],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90211",
+       "of": [
+        "n_5",
+        "n_40"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90315",
+       "of": [
+        "n_7",
+        "n_26",
+        "n_27"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      1
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 142,
+     "light_fractional_protected_by_symmetry": 92,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_4"
+      },
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_2",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 152,
+     "light_fractional_protected_by_symmetry": 138,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_13"
+      },
+      {
+       "name": "n_66"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_2",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 152,
+     "light_fractional_protected_by_symmetry": 138,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      0
+     ],
+     "fields": [
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_66"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90211",
+       "of": [
+        "n_5",
+        "n_40"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90315",
+       "of": [
+        "n_7",
+        "n_26",
+        "n_27"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      1
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 142,
+     "light_fractional_protected_by_symmetry": 92,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      0
+     ],
+     "fields": [
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_66"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90211",
+       "of": [
+        "n_5",
+        "n_40"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90317",
+       "of": [
+        "n_7",
+        "n_26",
+        "n_71"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      1
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 144,
+     "light_fractional_protected_by_symmetry": 96,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [
+      0
+     ],
+     "fields": [
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_66"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "meson",
+       "name": "n_90211",
+       "of": [
+        "n_5",
+        "n_40"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90345",
+       "of": [
+        "n_7",
+        "n_71",
+        "n_72"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      1
+     ],
+     "kinds": [
+      "antibaryon",
+      "meson"
+     ],
+     "light_fractional": 144,
+     "light_fractional_protected_by_symmetry": 96,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_66"
+      },
+      {
+       "name": "n_9"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_2",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 158,
+     "light_fractional_protected_by_symmetry": 138,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_66"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90315",
+       "of": [
+        "n_7",
+        "n_26",
+        "n_27"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_2",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0,
+      1
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 162,
+     "light_fractional_protected_by_symmetry": 90,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_66"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90317",
+       "of": [
+        "n_7",
+        "n_26",
+        "n_71"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_2",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0,
+      1
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 168,
+     "light_fractional_protected_by_symmetry": 102,
+     "parity_composites_even": "viable"
+    },
+    {
+     "W_on_vacuum": null,
+     "aligned_slots": [],
+     "fields": [
+      {
+       "name": "n_81"
+      },
+      {
+       "name": "n_83"
+      },
+      {
+       "name": "n_66"
+      },
+      {
+       "name": "n_39"
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90345",
+       "of": [
+        "n_7",
+        "n_71",
+        "n_72"
+       ]
+      },
+      {
+       "kind": "antibaryon",
+       "name": "n_90000",
+       "of": [
+        "n_2",
+        "n_40",
+        "n_43",
+        "n_46"
+       ]
+      }
+     ],
+     "full_breaking_slots": [
+      0,
+      1
+     ],
+     "kinds": [
+      "antibaryon"
+     ],
+     "light_fractional": 168,
+     "light_fractional_protected_by_symmetry": 102,
+     "parity_composites_even": "viable"
+    }
+   ],
+   "census": {
+    "fi_cancelling_rays": 4417,
+    "parity_exists": true,
+    "realizable_curing_rays": 39,
+    "realizable_rays_needing_a_composite": 39,
+    "verdict": "COUNTEREXAMPLE"
+   },
+   "composites": 802,
+   "curing_slots": [
+    0
+   ],
+   "kinds": {
+    "antibaryon": 496,
+    "baryon": 119,
+    "meson": 187
+   },
+   "min_light_fractional_viable": 142,
+   "realizable_supports": 39,
+   "summary": {
+    "('viable', True)": 24
+   },
+   "with_baryonic": 24
+  }
+ },
+ "pass_id": 11088
+}
