@@ -1,4 +1,4 @@
-# Pass 11108 — tachyon-free over the reachable moduli ⇒ untwisted quarks ⇒ no heavy top (4/4)
+# Pass 11108 — tachyon-free over the reachable moduli ⇒ untwisted quarks ⇒ no heavy top (5/5)
 
 Producer: `analysis/w33_pass11108_tachyon_free_moduli_rescan.py` (`rescan <files>` runs the enumerator on scan output)
 Data:
@@ -37,9 +37,11 @@ i, 1.5i and 2i, and the family torus at ρ.
 Setup: the non-SUSY orbifolder, 8 × 50,000 tries on the 4 productive Witten-shift classes (seeds 20260941–20260952;
 WSL `~/orb/p1109x/a8/rescan`).
 
-Snapshot at about 76,000 tries: **123 new SM-like, tachyon-free (at large radius), inequivalent-by-shift models.**
-* Levels at ρ: −1/18 in 89 models, −1/6 in 31, and **3 are tachyon-free** (A8SM_20260952_1033, _7375, 20260982_8666).
-* Full spectra from both engines (patched orbifolder 1.2.1 levdump2; non-SUSY orbifolder nsosm) put all three through
+The full scan (400,000 tries) gives 771 SM-like models, tachyon-free at large radius. **387 are inequivalent**:
+deduplication by shift vectors agrees exactly with the orbifolder's own count.
+* Levels at ρ: −1/18 in 277 models, −1/6 in 106, and **4 are tachyon-free** (A8SM_20260952_1033, _7375,
+  A8SM_20260972_10118, A8SM_20260982_8666).
+* Full spectra from both engines (patched orbifolder 1.2.1 levdump2; non-SUSY orbifolder nsosm) put all four through
   the gauntlet:
 
 | model | quark doublets | up-type texture | tree-level down Yukawa | light fractional states (hidden unbroken / broken) |
@@ -47,13 +49,14 @@ Snapshot at about 76,000 tries: **123 new SM-like, tachyon-free (at large radius
 | 1033 | untwisted ×3 | (0, 0, 2): top = charm | none | 48 / 12 |
 | 7375 | untwisted ×3 | (0, 0, 2) | none | 24 / 0 |
 | 8666 | untwisted ×3 | (0, 0, 2) | none | 48 / 12 |
+| 10118 | untwisted ×3 | (0, 0, 2) | none | 48 / 12 |
 
 ## Reading
 
-**Every model tachyon-free at the SU(3) point (4 of 4) has untwisted quarks**, and none of the 31 twisted-quark models
+**Every model tachyon-free at the SU(3) point (5 of 5) has untwisted quarks**, and none of the 31 twisted-quark models
 is tachyon-free there. The property that protects against the winding tachyon at small radius (untwisted families) is
 the property that kills the single heavy top (Pass 11098: the ε-structure makes top = charm) and removes the down-type
 Yukawa.
 
 In this sample, tachyon-freedom over the reachable moduli and a realistic quark sector exclude each other. The
-correlation is observed (4/4 and 0/31), not proven. The scan continues, and the final tally is to be appended.
+correlation is observed (5/5 and 0/31), not proven.

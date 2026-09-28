@@ -70,8 +70,12 @@ def _job(m):
 def rescan(paths):
     from multiprocessing import Pool
     models = parse_scan(paths)
+    old = json.loads(RESCAN.read_text()) if RESCAN.exists() else {}
+    known = {'|'.join(' '.join(r.split()) for r in v['rows']) for v in old.values()}
+    todo = [m for m in models if '|'.join(' '.join(r.split()) for r in m['rows']) not in known]
     with Pool(8) as p:
-        out = dict(p.map(_job, models))
+        out = dict(p.map(_job, todo))
+    out = {**old, **out}
     RESCAN.write_text(json.dumps(out, indent=1))
     return out
 

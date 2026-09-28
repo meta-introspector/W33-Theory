@@ -211,5 +211,76 @@
    }
   ],
   "down": []
+ },
+ "A8SM_20260972_10118_TF": {
+  "fractional_light": {
+   "fractional_states": 192,
+   "results": {
+    "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+     "light_fractional_states": 48,
+     "light_fractional_hidden_singlet_states": 24
+    },
+    "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+     "light_fractional_states": 48,
+     "light_fractional_hidden_singlet_states": 24
+    },
+    "B_hidden_broken|gauge+Z2W+PG+SG": {
+     "light_fractional_states": 12,
+     "light_fractional_hidden_singlet_states": 12
+    },
+    "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+     "light_fractional_states": 12,
+     "light_fractional_hidden_singlet_states": 12
+    }
+   }
+  },
+  "Q_l": [
+   0,
+   0,
+   0
+  ],
+  "nQ": 3,
+  "up": [
+   {
+    "k": 0,
+    "l": 0,
+    "cubic_geo": {
+     "1,2": 0,
+     "2,1": 0
+    },
+    "exps": [
+     0.0,
+     0.0,
+     2.0
+    ]
+   },
+   {
+    "k": 1,
+    "l": 0,
+    "cubic_geo": {
+     "0,2": 0,
+     "2,0": 0
+    },
+    "exps": [
+     0.0,
+     -0.0,
+     2.0
+    ]
+   },
+   {
+    "k": 2,
+    "l": 0,
+    "cubic_geo": {
+     "0,1": 0,
+     "1,0": 0
+    },
+    "exps": [
+     0.0,
+     0.0,
+     2.0
+    ]
+   }
+  ],
+  "down": []
  }
 }

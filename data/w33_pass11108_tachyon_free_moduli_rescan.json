@@ -74,6 +74,33 @@
     ]
    ]
   },
+  "A8SM_20260972_10118_TF": {
+   "Q_sectors": [
+    0,
+    0,
+    0
+   ],
+   "down_tree_level": 0,
+   "light_fractional_hidden_broken": 12,
+   "light_fractional_hidden_unbroken": 48,
+   "up_exponents": [
+    [
+     0.0,
+     0.0,
+     2.0
+    ],
+    [
+     0.0,
+     -0.0,
+     2.0
+    ],
+    [
+     0.0,
+     0.0,
+     2.0
+    ]
+   ]
+  },
   "A8SM_20260982_8666_TF": {
    "Q_sectors": [
     0,
@@ -105,15 +132,16 @@
  "B_free_at_rho": [
   "A8SM_20260952_1033_TF",
   "A8SM_20260952_7375_TF",
+  "A8SM_20260972_10118_TF",
   "A8SM_20260982_8666_TF"
  ],
  "B_levels_at_rho": {
-  "-0.0556": 89,
-  "-0.1667": 31,
-  "None": 3
+  "-0.0556": 277,
+  "-0.1667": 106,
+  "None": 4
  },
- "B_new_models": 123,
- "B_tachyon_free_at_rho": 3,
+ "B_new_models": 387,
+ "B_tachyon_free_at_rho": 4,
  "pass_id": 11108,
  "rho_safe_models_all_untwisted_quarks": true
 }

@@ -22,7 +22,7 @@ def test_enumerator_on_model_18_rows():
 
 def test_rescan_candidates_all_untwisted():
     r = P.summarize()
-    assert r['B_new_models'] >= 123 and r['B_tachyon_free_at_rho'] >= 3
+    assert r['B_new_models'] == 387 and r['B_tachyon_free_at_rho'] == 4 and len(r['B_candidates']) == 4
     assert r['rho_safe_models_all_untwisted_quarks']
     assert r['A_twisted_up_models'] == 31 and r['A_twisted_up_free_at_rho'] == []
     for v in r['B_candidates'].values():
