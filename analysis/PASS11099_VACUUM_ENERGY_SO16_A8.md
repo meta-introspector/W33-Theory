@@ -54,3 +54,9 @@ one-loop vacuum energy, linear in the internal volume, and a dilaton tadpole. No
 cures or worsens it at large volume. The leading term is model-independent, being ⅓ of the ten-dimensional value
 times the volume. A viable vacuum would need an additional ingredient: stabilisation at small volume by the
 twisted sectors, fluxes, or non-perturbative effects. None is computed here.
+
+
+Correction (Pass 11106): the n_B − n_F counts omitted the U(1) gauge bosons (the dump lists non-abelian vectors only).
+The corrected range over the 104 models is [−480, −48], still never 0. The massless coefficient of the full one-loop
+integrand (model 2: −252) confirms the corrected count sector by sector. The value at the orbifold point is computed in
+Pass 11106.

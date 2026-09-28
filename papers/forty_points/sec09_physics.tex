@@ -795,6 +795,39 @@ point reflection of the generation line of fixed points about the top's. The two
 parametrically degenerate; a hierarchy would need a fine-tuned cancellation. \tierC\
 (\cert{w33\_pass11102\_higher\_order\_quark\_hierarchy.py})
 
+The reflection has a name. The symmetry group of the $\Z_3$ space-group rule on one torus, found by brute force over
+every permutation and phase of the three fixed points, has order $54$: it is $\Delta(54)$, the flavour group of a
+Wilson-line-free $\Z_3$ torus~\cite{KNPRR2007}. Its Heisenberg subgroup $H_{27}=\langle X,Z\rangle$ (translation of the
+fixed points and the phase of the selection rule) has as its centre the orbifold twist itself, $ZX=\omega^{l}XZ$, and
+the reflection is the $-I$ of $SL(2,3)$ acting on $H_{27}/Z=\F_3^2$. This is the qutrit Heisenberg group of the
+$E_8$ chapters, now realised on the three generations of an explicit string vacuum---with only $\{\pm I\}$ of its
+Clifford normaliser (index $12$), because the space-group rule forbids quadratic phases. In all $104$ models exactly
+one torus is free of Wilson lines, so the geometry realises one qutrit and never two: the two-qutrit Pauli group,
+whose commutation graph is $\W$, is not the flavour group of these vacua. A Higgs localised at one fixed point leaves
+an $S_3$ acting irreducibly on the other two generations, so by Schur's lemma $m_c=m_u$ exactly while it is unbroken.
+
+Breaking it spontaneously---giving the twisted scalars at the three fixed points different expectation values---does
+not help the up sector: for every alignment we tried (six patterns, small and large torus area, hidden group
+unbroken or broken), charm and up stay at the same order in all $36$ Higgs cases. The strange--down pair splits only
+through mixing with vector-like $\bar d$ states, in exactly the $8$ models that have them. The heavy generation fares
+better. Top and bottom share a doublet only if $H_u$ and $H_d$ sit at the same fixed point; then $V_{tb}\approx1$,
+$|V_{cb}|\sim|V_{ub}|\sim\epsilon^2$ and the $\tau$ is singled out---but $V_{cb}\sim m_c/m_t$, a factor of $\sim10$
+below the data, and $\mu$ and $e$ are degenerate like charm and up. \tierC\
+(\cert{w33\_pass11103\_reflection\_breaking\_vacua.py}, \cert{w33\_pass11104\_ckm\_and\_leptons.py},
+\cert{w33\_pass11105\_delta54\_flavour\_join.py})
+
+Finally, the vacuum energy at the orbifold point. We built the full one-loop integrand: all $36$ sectors of
+$\Z_2^W\times\Z_3$ with Wilson lines, the twisted sectors as $24$ modular images of one $\Gamma_1(6)$-invariant block
+per fixed point, the Witten sectors as sums over the Narain lattice. It is modular invariant to $10^{-12}$, reproduces
+the ten-dimensional integral and the large-volume limit, and its massless coefficient matches the spectrum sector by
+sector (which exposed that the earlier Bose--Fermi counts had omitted the $U(1)$ gauge bosons; corrected, they are
+never zero). The Kähler modulus of the family torus is stabilised at its self-dual point $T=\rho$: the potential in
+that direction is exactly $SL(2,\Z)$-invariant and is lowest there. The Wilson-line moduli are not: the potential
+falls monotonically as their tori shrink, stays positive, and below $\mathrm{Im}\,T\approx1.4$ a winding state of the
+Witten-twisted sector becomes tachyonic---in every one of the $12$ survivors, at a radius between $2$ and the $SU(3)$
+point. The instability of the $O(16)\times O(16)$ string on small tori~\cite{GinspargVafa1987} is where these vacua
+roll. \tierC\ (\cert{w33\_pass11106\_one\_loop\_orbifold\_point.py})
+
 The apparent opening was an artefact of an
 incomplete selection rule; it was caught by reading the literature on the rules themselves, not by
 the computation. \tierC\ (\cert{w33\_pass10974\_valid\_r\_rules\_close\_the\_rotation\_door.py};
