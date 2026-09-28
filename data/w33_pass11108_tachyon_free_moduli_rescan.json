@@ -1,0 +1,119 @@
+{
+ "A_free_at_rho": [
+  "18"
+ ],
+ "A_levels_at_rho": {
+  "-0.0556": 76,
+  "-0.1667": 27,
+  "None": 1
+ },
+ "A_survivors_free_at_rho": [],
+ "A_survivors_free_on_axis_to_i": [
+  "77"
+ ],
+ "A_tachyon_free_counts_104": {
+  "1.0": 55,
+  "1.5": 55,
+  "2.0": 104,
+  "rho": 1
+ },
+ "A_twisted_up_free_at_rho": [],
+ "A_twisted_up_models": 31,
+ "B_candidates": {
+  "A8SM_20260952_1033_TF": {
+   "Q_sectors": [
+    0,
+    0,
+    0
+   ],
+   "down_tree_level": 0,
+   "light_fractional_hidden_broken": 12,
+   "light_fractional_hidden_unbroken": 48,
+   "up_exponents": [
+    [
+     0.0,
+     0.0,
+     2.0
+    ],
+    [
+     0.0,
+     -0.0,
+     2.0
+    ],
+    [
+     0.0,
+     0.0,
+     2.0
+    ]
+   ]
+  },
+  "A8SM_20260952_7375_TF": {
+   "Q_sectors": [
+    0,
+    0,
+    0
+   ],
+   "down_tree_level": 0,
+   "light_fractional_hidden_broken": 0,
+   "light_fractional_hidden_unbroken": 24,
+   "up_exponents": [
+    [
+     0.0,
+     0.0,
+     2.0
+    ],
+    [
+     0.0,
+     -0.0,
+     2.0
+    ],
+    [
+     0.0,
+     0.0,
+     2.0
+    ]
+   ]
+  },
+  "A8SM_20260982_8666_TF": {
+   "Q_sectors": [
+    0,
+    0,
+    0
+   ],
+   "down_tree_level": 0,
+   "light_fractional_hidden_broken": 12,
+   "light_fractional_hidden_unbroken": 48,
+   "up_exponents": [
+    [
+     0.0,
+     0.0,
+     2.0
+    ],
+    [
+     0.0,
+     -0.0,
+     2.0
+    ],
+    [
+     0.0,
+     0.0,
+     2.0
+    ]
+   ]
+  }
+ },
+ "B_free_at_rho": [
+  "A8SM_20260952_1033_TF",
+  "A8SM_20260952_7375_TF",
+  "A8SM_20260982_8666_TF"
+ ],
+ "B_levels_at_rho": {
+  "-0.0556": 89,
+  "-0.1667": 31,
+  "None": 3
+ },
+ "B_new_models": 123,
+ "B_tachyon_free_at_rho": 3,
+ "pass_id": 11108,
+ "rho_safe_models_all_untwisted_quarks": true
+}

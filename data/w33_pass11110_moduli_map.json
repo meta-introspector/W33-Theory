@@ -1,0 +1,226 @@
+{
+ "I_twisted": -74.26208290841721,
+ "dilaton": "V_E = e^(4 phi_4) Lambda_4 with Lambda_4 > 0: runaway to weak coupling",
+ "family_direction": [
+  [
+   1.0,
+   687.4378310874224
+  ],
+  [
+   1.2,
+   710.6455519691236
+  ],
+  [
+   1.5,
+   799.9511926408815
+  ],
+  [
+   2.0,
+   1006.0668606128792
+  ],
+  [
+   3.2,
+   1563.5915993690185
+  ],
+  [
+   4.0,
+   1943.2175955934815
+  ]
+ ],
+ "family_min_at_rho": true,
+ "hierarchy_point_above_rho": true,
+ "lambda_positive_everywhere": true,
+ "lowest_is_at_smallest_radius": true,
+ "lowest_wilson_line_point": {
+  "Lambda_over_M4": 501.7289081110513,
+  "T_WL": [
+   "1.75j",
+   "1.75j"
+  ],
+  "T_star": "(0.5+0.8660254037844386j)",
+  "tachyon_free_certified": true
+ },
+ "pass_id": 11110,
+ "points": [
+  {
+   "Lambda_over_M4": 657.6257319206192,
+   "T_WL": [
+    "2j",
+    "2j"
+   ],
+   "T_star": "(0.5+0.8660254037844386j)",
+   "tachyon_free_certified": true
+  },
+  {
+   "Lambda_over_M4": 687.4378310874224,
+   "T_WL": [
+    "2j",
+    "2j"
+   ],
+   "T_star": "1j",
+   "tachyon_free_certified": true
+  },
+  {
+   "Lambda_over_M4": 710.6455519691236,
+   "T_WL": [
+    "2j",
+    "2j"
+   ],
+   "T_star": "1.2j",
+   "tachyon_free_certified": true
+  },
+  {
+   "Lambda_over_M4": 799.9511926408815,
+   "T_WL": [
+    "2j",
+    "2j"
+   ],
+   "T_star": "1.5j",
+   "tachyon_free_certified": true
+  },
+  {
+   "Lambda_over_M4": 1006.0668606128792,
+   "T_WL": [
+    "2j",
+    "2j"
+   ],
+   "T_star": "2j",
+   "tachyon_free_certified": true
+  },
+  {
+   "Lambda_over_M4": 676.5041086179303,
+   "T_WL": [
+    "2j",
+    "2j"
+   ],
+   "T_star": "(0.25+1j)",
+   "tachyon_free_certified": true
+  },
+  {
+   "Lambda_over_M4": 703.0939849088046,
+   "T_WL": [
+    "2j",
+    "2j"
+   ],
+   "T_star": "(0.5+1.2j)",
+   "tachyon_free_certified": true
+  },
+  {
+   "Lambda_over_M4": 501.7289081110513,
+   "T_WL": [
+    "1.75j",
+    "1.75j"
+   ],
+   "T_star": "(0.5+0.8660254037844386j)",
+   "tachyon_free_certified": true
+  },
+  {
+   "Lambda_over_M4": 1022.941915290675,
+   "T_WL": [
+    "2.5j",
+    "2.5j"
+   ],
+   "T_star": "(0.5+0.8660254037844386j)",
+   "tachyon_free_certified": true
+  },
+  {
+   "Lambda_over_M4": 1464.9262678700559,
+   "T_WL": [
+    "3j",
+    "3j"
+   ],
+   "T_star": "(0.5+0.8660254037844386j)",
+   "tachyon_free_certified": true
+  },
+  {
+   "Lambda_over_M4": 1563.5915993690185,
+   "T_WL": [
+    "2j",
+    "2j"
+   ],
+   "T_star": "3.2j",
+   "tachyon_free_certified": true
+  },
+  {
+   "Lambda_over_M4": 1943.2175955934815,
+   "T_WL": [
+    "2j",
+    "2j"
+   ],
+   "T_star": "4j",
+   "tachyon_free_certified": true
+  },
+  {
+   "Lambda_over_M4": 531.6616203252732,
+   "T_WL": [
+    "1.8j",
+    "1.8j"
+   ],
+   "T_star": "(0.5+0.8660254037844386j)",
+   "tachyon_free_certified": true
+  },
+  {
+   "Lambda_over_M4": 794.7868474571853,
+   "T_WL": [
+    "2.2j",
+    "2.2j"
+   ],
+   "T_star": "(0.5+0.8660254037844386j)",
+   "tachyon_free_certified": true
+  },
+  {
+   "Lambda_over_M4": 769.1240394703416,
+   "T_WL": [
+    "1.8j",
+    "2.6j"
+   ],
+   "T_star": "(0.5+0.8660254037844386j)",
+   "tachyon_free_certified": true
+  },
+  {
+   "Lambda_over_M4": 759.7344254483228,
+   "T_WL": [
+    "2.6j",
+    "1.8j"
+   ],
+   "T_star": "(0.5+0.8660254037844386j)",
+   "tachyon_free_certified": true
+  },
+  {
+   "Lambda_over_M4": 884.3918222254765,
+   "T_WL": [
+    "1.8j",
+    "3j"
+   ],
+   "T_star": "(0.5+0.8660254037844386j)",
+   "tachyon_free_certified": true
+  },
+  {
+   "Lambda_over_M4": 657.6559020867261,
+   "T_WL": [
+    "(0.3+2j)",
+    "(0.3+2j)"
+   ],
+   "T_star": "(0.5+0.8660254037844386j)",
+   "tachyon_free_certified": true
+  },
+  {
+   "Lambda_over_M4": 657.6717356993,
+   "T_WL": [
+    "(0.5+2j)",
+    "(0.5+2j)"
+   ],
+   "T_star": "(0.5+0.8660254037844386j)",
+   "tachyon_free_certified": true
+  },
+  {
+   "Lambda_over_M4": 531.9093477432576,
+   "T_WL": [
+    "(0.5+1.8j)",
+    "(0.5+1.8j)"
+   ],
+   "T_star": "(0.5+0.8660254037844386j)",
+   "tachyon_free_certified": true
+  }
+ ]
+}

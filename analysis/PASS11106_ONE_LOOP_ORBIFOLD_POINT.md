@@ -96,3 +96,15 @@ dynamically. The end point of tachyon condensation is not computed.
 
 Scope: one model (2) for the potential, 12 for the tachyon onset. The WL-torus moduli are taken equal; the diagonal
 and T\* directions are sampled, not minimised over the full moduli space.
+
+## Correction (Pass 11107)
+
+The onset radius above came from a growth-ratio test on τ₂⟨Z⟩. That test cannot see a tachyon with |Δ| ≲ 0.05 under the
+evolving Kaluza–Klein tower. The explicit spectrum (Pass 11107) corrects it in three places:
+* **Onset.** The critical Wilson-line radius is Im T_WL = √3 ≈ 1.73 (models 2, 14, 53, 102) or 1.51 (7 models). Model
+  77 is tachyon-free along the imaginary axis and tachyonic at ρ.
+* **Void value.** Model 2's Λ at T_WL = 1.5i lies inside the tachyonic region, where the integral diverges, so that
+  value is void. The monotone fall holds on the tachyon-free segment 1.75 ≤ Im T_WL ≤ 3.
+* **Charges.** The tachyons are fractionally charged colour singlets in 10 of 12 models.
+
+At Im T_WL = 1 the lowest level is Δ = −(3−√3)/6 = −0.2113. That agrees with the growth rate measured here (−0.205).

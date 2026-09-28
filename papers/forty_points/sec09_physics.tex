@@ -823,10 +823,36 @@ the ten-dimensional integral and the large-volume limit, and its massless coeffi
 sector (which exposed that the earlier Bose--Fermi counts had omitted the $U(1)$ gauge bosons; corrected, they are
 never zero). The Kähler modulus of the family torus is stabilised at its self-dual point $T=\rho$: the potential in
 that direction is exactly $SL(2,\Z)$-invariant and is lowest there. The Wilson-line moduli are not: the potential
-falls monotonically as their tori shrink, stays positive, and below $\mathrm{Im}\,T\approx1.4$ a winding state of the
+falls monotonically as their tori shrink, stays positive, and below a critical radius a winding state of the
 Witten-twisted sector becomes tachyonic---in every one of the $12$ survivors, at a radius between $2$ and the $SU(3)$
 point. The instability of the $O(16)\times O(16)$ string on small tori~\cite{GinspargVafa1987} is where these vacua
 roll. \tierC\ (\cert{w33\_pass11106\_one\_loop\_orbifold\_point.py})
+
+Built state by state, the tachyon has the right-moving ground state of the Witten-twisted sector and a winding in the
+Wilson-line tori; its level at $\mathrm{Im}\,T=1$ is $\Delta=-(3-\sqrt3)/6$, which the one-loop integrand confirms. The
+critical radius is $\sqrt3$ or $1.51$ (one model is safe on the whole imaginary axis and fails only at $\rho$). Every
+tachyonic state is a colour singlet, and in $10$ of the $12$ models every one carries fractional electric charge
+($\pm\frac13,\pm\frac23$): a condensate would break electromagnetism, the disease of the non-supersymmetric twins again.
+Over the moduli the potential can reach, it has no minimum in the tachyon-free region: $\Lambda>0$ at all $20$ sampled
+points of model $2$, lowest right at the tachyon boundary, and in the Einstein frame the dilaton runs to weak coupling.
+Among all $104$ models only one stays tachyon-free down to the $SU(3)$ point, and it fails the earlier tests (massless
+fractional charges, top $=$ charm, no down-type Yukawa); a fresh scan of $123$ new models finds
+$3$ more---and every model that survives the $SU(3)$ point has untwisted quarks, hence top $=$ charm and no
+down-type Yukawa, while none of the $31$ twisted-quark models survives it. \tierC\ (\cert{w33\_pass11107\_winding\_tachyons.py},
+\cert{w33\_pass11108\_tachyon\_free\_moduli\_rescan.py}, \cert{w33\_pass11110\_moduli\_map.py})
+
+The stabilised family modulus also undoes the heavy top. Worldsheet instantons make the $\Z_3$ Yukawa couplings theta
+functions of the $A_2$ lattice in $T$~\cite{LauerMasNilles1991}; the one-loop minimum $T=\rho$ is a fixed point of the
+duality group, where $|Y_{\rm distinct}/Y_{\rm same}|=\frac12$ exactly. At tree level the vacuum therefore gives
+$m_c=m_u=m_t/2$; the observed $m_c/m_t$ needs $\mathrm{Im}\,T\approx3.2$, where the potential is $2.4$ times higher.
+\tierB\ (\cert{w33\_pass11109\_instanton\_yukawas\_at\_rho.py})
+
+Nor can the generations carry more than one qutrit. The $k$-qutrit Pauli group $3^{1+2k}$ acts nontrivially through
+its centre only in dimensions divisible by $3^k$; the centre here is the orbifold twist, so three twisted generations
+force $k=1$---the single free torus of all $104$ models is a theorem, not an accident. The two-qutrit group whose
+commutation graph is $\W$ cannot be the family group, and it cannot be assembled from family and colour either: the
+twist is not a gauge-centre element on the quarks of any survivor. \tierB\
+(\cert{w33\_pass11111\_no\_243\_family\_group.py})
 
 The apparent opening was an artefact of an
 incomplete selection rule; it was caught by reading the literature on the rules themselves, not by
