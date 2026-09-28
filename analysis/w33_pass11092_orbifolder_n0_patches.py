@@ -17,16 +17,27 @@ N=1 spectra of all 87 Z6-I W(3,3) models are byte-identical with and without the
                                            carries an oscillator, so the sign never mattered.  In the Z6-I twins the
                                            massless scalar q_sh = (0,1/6,1/6,-1/3) with N_R = 1/6 exposed it: the
                                            mismatch was exactly 1 + 2 N_R = 1/3 (mod 1), in every model.
+                                           PRIOR ART: the non-SUSY orbifolder (arXiv:2504.20137) carries the same fix
+                                           ("wrong trafo sign for R-moving oscillator excitations in original
+                                           Orbifolder"); this patch is a rediscovery and the fix is theirs.
   4. CState::CreateRepresentations      -- a gauge-neutral untwisted fermion was relabelled as a modulus and its unset
                                            q_sh read (segfault).  Fix: no moduli relabelling at N=0; q_sh = the state's
                                            single right-moving weight.
+  6. CTwistVector::UpdateData (Pass 11095) -- the order of a twist was its geometric order (n v integer); on fermions it is
+                                           2n when sum n v_i is odd.  Without it the local modular-invariance check drops
+                                           Witten-twisted sectors (found by cross-checking against the non-SUSY
+                                           orbifolder, arXiv:2504.20137).  Irrelevant for the Z6-I twins (6 v' has even sum).
+  7. CTwistVector::UpdateData (Pass 11094) -- optional mass level mu from ORB_MASS_LEVEL: every non-identity sector solved
+                                           at M^2/8 = mu, giving tachyonic spectra through the full projection; 7b/7c make a
+                                           sector with no right-movers at that level empty instead of fatal.  Inert when
+                                           the variable is unset.
   5. COrbifold::Create (anomalous U(1)) -- the anomalous U(1) generator t = (1/12) sum p_sh (over left-handed fermions)
                                            was built only for N=1, so the anomaly check read an unrotated basis and
                                            reported 21/87 twins "not universal" (all of them are universal).  Fix:
                                            build it for N=0 too.
 
 Usage:  py -3 analysis/w33_pass11092_orbifolder_n0_patches.py <orbifolder-1.2.1/src/orbifolder> <out_dir>
-writes patched copies of cstate.cpp, cfixedpoint.cpp, csector.cpp, corbifold.cpp into out_dir.
+writes patched copies of cstate.cpp, cfixedpoint.cpp, csector.cpp, ctwist.cpp, corbifold.cpp into out_dir.
 """
 from __future__ import annotations
 
@@ -101,6 +112,28 @@ PATCHES = {
     vector<unsigned> MaxDigits(NumberOfSUSY, 3);'''),
     ],
     "csector.cpp": [
+        (r'''#include <iostream>''', r'''#include <iostream>
+#include <cstdlib>'''),
+        (r'''  const size_t s1 = this->RM_Excitations.size();
+  if (s1 == 0)
+  {
+    cout << "\n  Warning in bool CSector::CreateMasslessRightMover(...) : Set of excitations is empty. Return false.";
+    return false;
+  }''',
+         r'''  const size_t s1 = this->RM_Excitations.size();
+  if (s1 == 0)
+  {
+    // PATCH 7b (Pass 11094): at a mass level mu < 0 a sector may have no right-movers at all -- that is an empty sector,
+    // not a failure
+    if (getenv("ORB_MASS_LEVEL") != NULL)
+      return true;
+    cout << "\n  Warning in bool CSector::CreateMasslessRightMover(...) : Set of excitations is empty. Return false.";
+    return false;
+  }'''),
+        (r'''  if (((s1 == 0) || (s2 == 0)) && (this->Twist.OrderOfTwist() != 1))''',
+         r'''  // PATCH 6b (Pass 11095): with PATCH 6 a pure (-1)^F sector (integer twist of odd sum, e.g. the Witten twist
+  // (0,1,1,1)) has order 2, but it rotates no plane, so it has no fractional oscillators.  Test geometry, not order.
+  if (((s1 == 0) || (s2 == 0)) && !(is_integer(this->Twist[1]) && is_integer(this->Twist[2]) && is_integer(this->Twist[3])))'''),
         (r'''        Eigenvalue = ZMxZN_Twists[k] * Weight;
 
         // begin: add the transformation of the oscillators
@@ -115,7 +148,65 @@ PATCHES = {
         if (with_excitation)
           Eigenvalue -= OsciEigenvalues[k];'''),
     ],
+    "ctwist.cpp": [
+        (r'''#include <cstdlib>''', r'''#include <cstdlib>
+#include <cstdio>
+#include <cmath>'''),
+        (r'''  this->a_L = -1.0 + (0.5 * tmp);
+  this->a_R = -0.5 + (0.5 * tmp);''',
+         r'''  this->a_L = -1.0 + (0.5 * tmp);
+  this->a_R = -0.5 + (0.5 * tmp);
+
+  // PATCH 7 (Pass 11094): optional mass level.  With the environment variable ORB_MASS_LEVEL = "num/den" (mu < 0) every
+  // non-identity sector is solved at M^2/8 = mu instead of 0 (both zero-point energies shifted by -mu), so the whole
+  // projection machinery (centralisers, gamma phases, level matching) yields the TACHYONIC spectrum at that level.
+  // Without the variable nothing changes.
+  const char *mass_level = getenv("ORB_MASS_LEVEL");
+  if (mass_level != NULL)
+  {
+    double num = 0.0, den = 1.0;
+    if (sscanf(mass_level, "%lf/%lf", &num, &den) < 1) den = 1.0;
+    bool identity = true;
+    for (i = 0; i < 4; ++i)
+      if (fabs((*this)[i]) > prec) identity = false;
+    if (!identity)
+    {
+      this->a_L -= num / den;
+      this->a_R -= num / den;
+    }
+  }'''),
+        (r'''    if (Order_found)
+    {
+      this->Order = n;
+      return true;
+    }''',
+         r'''    if (Order_found)
+    {
+      // PATCH 6 (Pass 11095): the order on SPINORS.  theta^n is a rotation by 2 pi (n v); if sum_i n v_i is odd it is
+      // (-1)^F, so the twist has order 2n on fermions.  SUSY twists (sum v = 0) are unaffected.
+      int s = 0;
+      for (i = 1; i < 4; ++i)
+        s += (int)round_double_to_int((*this)[i] * n);
+      this->Order = ((s % 2) != 0) ? 2 * n : n;
+      return true;
+    }'''),
+    ],
     "corbifold.cpp": [
+        (r'''#include "chugeint.h"''', r'''#include "chugeint.h"
+#include <cstdlib>'''),
+        (r'''    if (Sector.GetRightMovers().size() == 0)
+    {
+      cout << "\n  Warning in bool COrbifold::Create() : Right-movers of the " << i << "-th sector have not been created. Return false." << endl;
+      return false;
+    }''',
+         r'''    if (Sector.GetRightMovers().size() == 0)
+    {
+      // PATCH 7c (Pass 11094): at a mass level mu < 0 an empty sector is skipped, not fatal
+      if (getenv("ORB_MASS_LEVEL") != NULL)
+        continue;
+      cout << "\n  Warning in bool COrbifold::Create() : Right-movers of the " << i << "-th sector have not been created. Return false." << endl;
+      return false;
+    }'''),
         (r'''  if (CreateAnomalousU1Generator && (this->OrbifoldGroup.GetNumberOfSupersymmetry() == 1))''',
          r'''  // PATCH 5 (Pass 11092): N=0 too -- the sum runs over left-handed Weyl fermions (right-mover helicity -1/2)
   if (CreateAnomalousU1Generator && ((this->OrbifoldGroup.GetNumberOfSupersymmetry() == 1) || (this->OrbifoldGroup.GetNumberOfSupersymmetry() == 0)))'''),

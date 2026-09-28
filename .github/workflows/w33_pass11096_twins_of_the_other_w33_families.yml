@@ -1,0 +1,21 @@
+name: W33 Pass 11096 twins of the other w33 families
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11096_twins_of_the_other_w33_families.py"
+      - "analysis/PASS11096_TWINS_OF_THE_OTHER_W33_FAMILIES.md"
+      - "data/w33_pass11096_*.json"
+      - "tests/test_w33_pass11096_twins_of_the_other_w33_families.py"
+      - ".github/workflows/w33_pass11096_twins_of_the_other_w33_families.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest pycddlib
+      - run: python -m pytest -q tests/test_w33_pass11096_twins_of_the_other_w33_families.py

@@ -1,0 +1,21 @@
+name: W33 Pass 11094 tachyons break electromagnetism
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11094_tachyons_break_electromagnetism.py"
+      - "analysis/PASS11094_TACHYONS_BREAK_ELECTROMAGNETISM.md"
+      - "data/w33_pass11094_*.json"
+      - "tests/test_w33_pass11094_tachyons_break_electromagnetism.py"
+      - ".github/workflows/w33_pass11094_tachyons_break_electromagnetism.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest pycddlib
+      - run: python -m pytest -q tests/test_w33_pass11094_tachyons_break_electromagnetism.py

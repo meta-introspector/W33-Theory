@@ -48,7 +48,11 @@ working build byte for byte on 6 sample models.
 | 4 | `CState::CreateRepresentations` | a neutral untwisted fermion is relabelled as a modulus and its unset q_sh is read (segfault) | no moduli at N = 0 |
 | 5 | `COrbifold::Create` | anomalous-U(1) generator built only for N = 1, so the anomaly check read an unrotated basis | build it for N = 0 too |
 
-**Fault 3 is the one Pass 11089 left open, and 11089's diagnosis ("missing vacuum phase") was wrong.** The
+**Fault 3 is the one Pass 11089 left open, and 11089's diagnosis ("missing vacuum phase") was wrong.**
+**Prior art (found in Pass 11095):** the non-SUSY orbifolder (arXiv:2504.20137) already carries exactly this
+correction in `CSector::SortByEigenvalue` ("wrong trafo sign for R-moving oscillator excitations in original
+Orbifolder"). Our patch 3 is an independent rediscovery, and the fix is theirs. Pass 11095 also adds patch 6 (the
+order of a twist on spinors) and patch 7 (a mass-level engine for tachyons). The
 debug print showed a mismatch of exactly **1 + 2N_R = ⅓ (mod 1)** in every failing state. All of them were the
 massless scalar with q_sh = (0, ⅙, ⅙, −⅓) and N_R = ⅙. In supersymmetric models no massless right-mover ever
 carries an oscillator, so the sign had never been exercised.

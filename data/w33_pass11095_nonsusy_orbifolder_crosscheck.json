@@ -1,0 +1,159 @@
+{
+ "models": {
+  "modelZ12-II_1_1": {
+   "gauge": "GAUGE D5 and D8 NU1 3",
+   "gauge_same": true,
+   "nso_fields": 716,
+   "nso_tachyon_fields": 0,
+   "our_fields": 716,
+   "spectrum_same": true
+  },
+  "modelZ12-I_1_1": {
+   "gauge": "GAUGE D5 and D8 NU1 3",
+   "gauge_same": true,
+   "nso_fields": 656,
+   "nso_tachyon_fields": 0,
+   "our_fields": 656,
+   "spectrum_same": true
+  },
+  "modelZ12-I_2_1": {
+   "gauge": "GAUGE D5 and D8 NU1 3",
+   "gauge_same": true,
+   "nso_fields": 512,
+   "nso_tachyon_fields": 0,
+   "our_fields": 512,
+   "spectrum_same": true
+  },
+  "modelZ3_1_1": {
+   "gauge": "GAUGE D5 + A2 and D8 NU1 1",
+   "gauge_same": true,
+   "nso_fields": 434,
+   "nso_tachyon_fields": 0,
+   "our_fields": 434,
+   "spectrum_same": true
+  },
+  "modelZ4_1_1": {
+   "gauge": "GAUGE D5 + A1 and D8 NU1 2",
+   "gauge_same": true,
+   "nso_fields": 638,
+   "nso_tachyon_fields": 0,
+   "our_fields": 638,
+   "spectrum_same": true
+  },
+  "modelZ4_2_1": {
+   "gauge": "GAUGE D5 + A1 and D8 NU1 2",
+   "gauge_same": true,
+   "nso_fields": 526,
+   "nso_tachyon_fields": 0,
+   "our_fields": 526,
+   "spectrum_same": true
+  },
+  "modelZ4_3_1": {
+   "gauge": "GAUGE D5 + A1 and D8 NU1 2",
+   "gauge_same": true,
+   "nso_fields": 470,
+   "nso_tachyon_fields": 0,
+   "our_fields": 470,
+   "spectrum_same": true
+  },
+  "modelZ6-II_1_1": {
+   "gauge": "GAUGE D5 and D8 NU1 3",
+   "gauge_same": true,
+   "nso_fields": 828,
+   "nso_tachyon_fields": 0,
+   "our_fields": 828,
+   "spectrum_same": true
+  },
+  "modelZ6-II_2_1": {
+   "gauge": "GAUGE D5 and D8 NU1 3",
+   "gauge_same": true,
+   "nso_fields": 684,
+   "nso_tachyon_fields": 0,
+   "our_fields": 684,
+   "spectrum_same": true
+  },
+  "modelZ6-II_3-1": {
+   "gauge": "GAUGE D5 and D8 NU1 3",
+   "gauge_same": true,
+   "nso_fields": 624,
+   "nso_tachyon_fields": 0,
+   "our_fields": 624,
+   "spectrum_same": true
+  },
+  "modelZ6-II_4_1": {
+   "gauge": "GAUGE D5 and D8 NU1 3",
+   "gauge_same": true,
+   "nso_fields": 480,
+   "nso_tachyon_fields": 0,
+   "our_fields": 480,
+   "spectrum_same": true
+  },
+  "modelZ6-I_1_1": {
+   "gauge": "GAUGE D5 + A1 and D8 NU1 2",
+   "gauge_same": true,
+   "nso_fields": 578,
+   "nso_tachyon_fields": 0,
+   "our_fields": 578,
+   "spectrum_same": true
+  },
+  "modelZ6-I_2_1": {
+   "gauge": "GAUGE D5 + A1 and D8 NU1 2",
+   "gauge_same": true,
+   "nso_fields": 466,
+   "nso_tachyon_fields": 0,
+   "our_fields": 466,
+   "spectrum_same": true
+  },
+  "modelZ7_1_1": {
+   "gauge": "GAUGE D5 and D8 NU1 3",
+   "gauge_same": true,
+   "nso_fields": 552,
+   "nso_tachyon_fields": 0,
+   "our_fields": 552,
+   "spectrum_same": true
+  },
+  "modelZ8-II_1_1": {
+   "gauge": "GAUGE D5 and D8 NU1 3",
+   "gauge_same": true,
+   "nso_fields": 716,
+   "nso_tachyon_fields": 0,
+   "our_fields": 716,
+   "spectrum_same": true
+  },
+  "modelZ8-II_2_1": {
+   "gauge": "GAUGE D5 and D8 NU1 3",
+   "gauge_same": true,
+   "nso_fields": 572,
+   "nso_tachyon_fields": 0,
+   "our_fields": 572,
+   "spectrum_same": true
+  },
+  "modelZ8-I_1_1": {
+   "gauge": "GAUGE D5 and D8 NU1 3",
+   "gauge_same": true,
+   "nso_fields": 632,
+   "nso_tachyon_fields": 0,
+   "our_fields": 632,
+   "spectrum_same": true
+  },
+  "modelZ8_I-2-1": {
+   "gauge": "GAUGE D5 and D8 NU1 3",
+   "gauge_same": true,
+   "nso_fields": 560,
+   "nso_tachyon_fields": 0,
+   "our_fields": 560,
+   "spectrum_same": true
+  },
+  "modelZ8_I-3-1": {
+   "gauge": "GAUGE D5 and D8 NU1 3",
+   "gauge_same": true,
+   "nso_fields": 524,
+   "nso_tachyon_fields": 0,
+   "our_fields": 524,
+   "spectrum_same": true
+  }
+ },
+ "sign_fix_prior_art": "nonSUSYorbifolder src/orbifolder/csector.cpp, CSector::SortByEigenvalue: 'Eigenvalue -= OsciEigenvalues[k]; //hacking here!!! wrong trafo sign for R-moving oscillator excitations in original Orbifolder'",
+ "tachyon_control": "SO(16)xE8 on T6/Z3, standard embedding, Witten shift (0,0,0,1,0^4;0^8): non-SUSY orbifolder 1 tachyon (10,1,1); ours (ORB_MASS_LEVEL=-1/2) 1 tachyon (10,1,1)",
+ "twins_not_loadable": "their chalfstate.cpp hard-codes the right-mover lattice classes for the Witten-twist structure; the E8xE8 twin (twist (0,1/6,1/6,2/3)) fails 'State is not invariant under constructing element'"
+}

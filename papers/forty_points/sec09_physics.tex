@@ -717,6 +717,44 @@ software~\cite{EscalanteNotario2025}, are a different construction and are not c
 \cert{w33\_pass11090\_resolution\_cannot\_free\_fractional\_charges.py},
 \cert{w33\_pass11092\_nonsusy\_z6i\_twins\_are\_tachyonic.py})
 
+The same level-matching fact decides the whole $\Z_6$-I scan, not only its Standard Models.
+\begin{itemize}
+\item For $47$ of its $58$ base shifts, the fixed point without a Wilson line is already tachyonic, so every
+      model built on those shifts is tachyonic whatever its Wilson lines.
+\item On the other $11$ shifts we drew $66\,000$ random Wilson lines. $9\,576$ twins are tachyon-free and
+      $705$ parents are Standard Models, and no model is both. If the two properties were independent, about
+      $79$ would be.
+\end{itemize}
+The spectrum shows why. The Standard-Model Wilson lines always leave half-charged exotic states one
+oscillator step above the tachyonic level, and those states become the tachyons of the twin. Every tachyon
+carries electric charge $\pm\tfrac12$ or colour, so any condensate of them breaks electromagnetism. The twins
+of the other $\W$ families behave the same way ($333$ Standard Models of $\Z_{12}$-I, $\Z_2\times\Z_6$-I,
+$\Z_3\times\Z_6$ and $\Z_6\times\Z_6$): none is both tachyon-free and a three-generation Standard Model.
+\tierC\ (\cert{w33\_pass11093\_tachyon\_free\_filter\_z6i\_scan.py},
+\cert{w33\_pass11094\_tachyons\_break\_electromagnetism.py},
+\cert{w33\_pass11096\_twins\_of\_the\_other\_w33\_families.py})
+
+The separate non-supersymmetric string does better. In the $SO(16)\times SO(16)$ heterotic
+string~\cite{EscalanteNotario2025,PerezMartinez2021} the $(-1)^F$ twist is a freely acting $\Z_2$ of its own, with
+its own gauge shift $V_0$.
+\begin{itemize}
+\item The $\W$ shift of $T^6/\Z_3$, the $A_8$ Kac pair, admits $793\,508$ such $V_0$, in six gauge-group
+      classes. The Witten shift always breaks the $SU(9)$.
+\item On the four classes the code accepts we drew 80\,000 random Wilson lines. Every model is
+      tachyon-free, and 153 of them (104 inequivalent) pass the Standard-Model test of the
+      non-supersymmetric orbifolder.
+\item We re-derived every one of them with an independent engine. Each is tachyon-free and anomaly-free, and
+      has exactly three chiral generations, no net fractionally charged fermion, and at least 6
+      Higgs-doublet scalar fields.
+\end{itemize}
+These are non-supersymmetric, tachyon-free, three-generation string models built on the $\W$ twist. Three
+things remain to be shown: masses for their vector-like exotics, some of them fractionally charged; a
+stabilised vacuum, which requires the one-loop cosmological constant and dilaton tadpole of a
+non-supersymmetric string; and realistic Yukawa couplings. Standard-Model-like models of this string are
+known in large numbers~\cite{PerezMartinez2021}; what is new here is that the $\W$ shift is among them. Two
+independent codes agree on the massless spectra of every sample model the non-supersymmetric orbifolder
+ships. \tierC\ (\cert{w33\_pass11095\_so16xso16\_a8\_standard\_models.py})
+
 The apparent opening was an artefact of an
 incomplete selection rule; it was caught by reading the literature on the rules themselves, not by
 the computation. \tierC\ (\cert{w33\_pass10974\_valid\_r\_rules\_close\_the\_rotation\_door.py};

@@ -1,0 +1,536 @@
+{
+ "base_fixed_points": {
+  "Z6I_00": {
+   "massless_left_states": 68,
+   "min_half_norm": "1/4",
+   "tachyonic_left_states": 8
+  },
+  "Z6I_01": {
+   "massless_left_states": 41,
+   "min_half_norm": "1/12",
+   "tachyonic_left_states": 8
+  },
+  "Z6I_02": {
+   "massless_left_states": 54,
+   "min_half_norm": "5/12",
+   "tachyonic_left_states": 18
+  },
+  "Z6I_03": {
+   "massless_left_states": 52,
+   "min_half_norm": "1/4",
+   "tachyonic_left_states": 18
+  },
+  "Z6I_04": {
+   "massless_left_states": 45,
+   "min_half_norm": "1/4",
+   "tachyonic_left_states": 13
+  },
+  "Z6I_05": {
+   "massless_left_states": 25,
+   "min_half_norm": "1/12",
+   "tachyonic_left_states": 6
+  },
+  "Z6I_06": {
+   "massless_left_states": 44,
+   "min_half_norm": "5/12",
+   "tachyonic_left_states": 16
+  },
+  "Z6I_07": {
+   "massless_left_states": 34,
+   "min_half_norm": "1/4",
+   "tachyonic_left_states": 18
+  },
+  "Z6I_08": {
+   "massless_left_states": 30,
+   "min_half_norm": "5/12",
+   "tachyonic_left_states": 6
+  },
+  "Z6I_09": {
+   "massless_left_states": 22,
+   "min_half_norm": "1/4",
+   "tachyonic_left_states": 6
+  },
+  "Z6I_10": {
+   "massless_left_states": 27,
+   "min_half_norm": "5/12",
+   "tachyonic_left_states": 9
+  },
+  "Z6I_11": {
+   "massless_left_states": 12,
+   "min_half_norm": "7/12",
+   "tachyonic_left_states": 6
+  },
+  "Z6I_12": {
+   "massless_left_states": 14,
+   "min_half_norm": "5/12",
+   "tachyonic_left_states": 4
+  },
+  "Z6I_13": {
+   "massless_left_states": 20,
+   "min_half_norm": "7/12",
+   "tachyonic_left_states": 4
+  },
+  "Z6I_14": {
+   "massless_left_states": 32,
+   "min_half_norm": "3/4",
+   "tachyonic_left_states": 0
+  },
+  "Z6I_15": {
+   "massless_left_states": 39,
+   "min_half_norm": "5/12",
+   "tachyonic_left_states": 6
+  },
+  "Z6I_16": {
+   "massless_left_states": 30,
+   "min_half_norm": "1/4",
+   "tachyonic_left_states": 7
+  },
+  "Z6I_17": {
+   "massless_left_states": 32,
+   "min_half_norm": "5/12",
+   "tachyonic_left_states": 10
+  },
+  "Z6I_18": {
+   "massless_left_states": 32,
+   "min_half_norm": "7/12",
+   "tachyonic_left_states": 16
+  },
+  "Z6I_19": {
+   "massless_left_states": 17,
+   "min_half_norm": "5/12",
+   "tachyonic_left_states": 4
+  },
+  "Z6I_20": {
+   "massless_left_states": 39,
+   "min_half_norm": "1/4",
+   "tachyonic_left_states": 7
+  },
+  "Z6I_21": {
+   "massless_left_states": 20,
+   "min_half_norm": "7/12",
+   "tachyonic_left_states": 4
+  },
+  "Z6I_22": {
+   "massless_left_states": 21,
+   "min_half_norm": "5/12",
+   "tachyonic_left_states": 3
+  },
+  "Z6I_23": {
+   "massless_left_states": 18,
+   "min_half_norm": "3/4",
+   "tachyonic_left_states": 0
+  },
+  "Z6I_24": {
+   "massless_left_states": 12,
+   "min_half_norm": "7/12",
+   "tachyonic_left_states": 3
+  },
+  "Z6I_25": {
+   "massless_left_states": 18,
+   "min_half_norm": "7/12",
+   "tachyonic_left_states": 6
+  },
+  "Z6I_26": {
+   "massless_left_states": 21,
+   "min_half_norm": "5/12",
+   "tachyonic_left_states": 4
+  },
+  "Z6I_27": {
+   "massless_left_states": 14,
+   "min_half_norm": "7/12",
+   "tachyonic_left_states": 2
+  },
+  "Z6I_28": {
+   "massless_left_states": 28,
+   "min_half_norm": "5/12",
+   "tachyonic_left_states": 6
+  },
+  "Z6I_29": {
+   "massless_left_states": 18,
+   "min_half_norm": "3/4",
+   "tachyonic_left_states": 0
+  },
+  "Z6I_30": {
+   "massless_left_states": 12,
+   "min_half_norm": "7/12",
+   "tachyonic_left_states": 4
+  },
+  "Z6I_31": {
+   "massless_left_states": 16,
+   "min_half_norm": "3/4",
+   "tachyonic_left_states": 0
+  },
+  "Z6I_32": {
+   "massless_left_states": 23,
+   "min_half_norm": "5/12",
+   "tachyonic_left_states": 6
+  },
+  "Z6I_33": {
+   "massless_left_states": 13,
+   "min_half_norm": "7/12",
+   "tachyonic_left_states": 1
+  },
+  "Z6I_34": {
+   "massless_left_states": 12,
+   "min_half_norm": "3/4",
+   "tachyonic_left_states": 0
+  },
+  "Z6I_35": {
+   "massless_left_states": 0,
+   "min_half_norm": null,
+   "tachyonic_left_states": 0
+  },
+  "Z6I_36": {
+   "massless_left_states": 20,
+   "min_half_norm": "5/12",
+   "tachyonic_left_states": 3
+  },
+  "Z6I_37": {
+   "massless_left_states": 34,
+   "min_half_norm": "1/4",
+   "tachyonic_left_states": 11
+  },
+  "Z6I_38": {
+   "massless_left_states": 16,
+   "min_half_norm": "7/12",
+   "tachyonic_left_states": 4
+  },
+  "Z6I_39": {
+   "massless_left_states": 25,
+   "min_half_norm": "5/12",
+   "tachyonic_left_states": 2
+  },
+  "Z6I_40": {
+   "massless_left_states": 14,
+   "min_half_norm": "7/12",
+   "tachyonic_left_states": 2
+  },
+  "Z6I_41": {
+   "massless_left_states": 28,
+   "min_half_norm": "1/4",
+   "tachyonic_left_states": 5
+  },
+  "Z6I_42": {
+   "massless_left_states": 26,
+   "min_half_norm": "5/12",
+   "tachyonic_left_states": 9
+  },
+  "Z6I_43": {
+   "massless_left_states": 15,
+   "min_half_norm": "7/12",
+   "tachyonic_left_states": 3
+  },
+  "Z6I_44": {
+   "massless_left_states": 18,
+   "min_half_norm": "7/12",
+   "tachyonic_left_states": 2
+  },
+  "Z6I_45": {
+   "massless_left_states": 39,
+   "min_half_norm": "5/12",
+   "tachyonic_left_states": 12
+  },
+  "Z6I_46": {
+   "massless_left_states": 12,
+   "min_half_norm": "3/4",
+   "tachyonic_left_states": 0
+  },
+  "Z6I_47": {
+   "massless_left_states": 12,
+   "min_half_norm": "7/12",
+   "tachyonic_left_states": 3
+  },
+  "Z6I_48": {
+   "massless_left_states": 18,
+   "min_half_norm": "7/12",
+   "tachyonic_left_states": 9
+  },
+  "Z6I_49": {
+   "massless_left_states": 9,
+   "min_half_norm": "3/4",
+   "tachyonic_left_states": 0
+  },
+  "Z6I_50": {
+   "massless_left_states": 34,
+   "min_half_norm": "5/12",
+   "tachyonic_left_states": 16
+  },
+  "Z6I_51": {
+   "massless_left_states": 22,
+   "min_half_norm": "5/12",
+   "tachyonic_left_states": 4
+  },
+  "Z6I_52": {
+   "massless_left_states": 24,
+   "min_half_norm": "7/12",
+   "tachyonic_left_states": 8
+  },
+  "Z6I_53": {
+   "massless_left_states": 18,
+   "min_half_norm": "7/12",
+   "tachyonic_left_states": 2
+  },
+  "Z6I_54": {
+   "massless_left_states": 16,
+   "min_half_norm": "3/4",
+   "tachyonic_left_states": 0
+  },
+  "Z6I_55": {
+   "massless_left_states": 8,
+   "min_half_norm": "3/4",
+   "tachyonic_left_states": 0
+  },
+  "Z6I_56": {
+   "massless_left_states": 8,
+   "min_half_norm": "3/4",
+   "tachyonic_left_states": 0
+  },
+  "Z6I_57": {
+   "massless_left_states": 16,
+   "min_half_norm": "7/12",
+   "tachyonic_left_states": 2
+  }
+ },
+ "pass_id": 11093,
+ "scan": {
+  "Z6I_14": {
+   "ok": 6000,
+   "parent_sm": 0,
+   "tachyon_free": 1133,
+   "tachyon_free_inequivalent": 8,
+   "tachyon_free_with_sm_parent": 0,
+   "tachyonic": 4867,
+   "tries": 6000,
+   "twin_sm": 0,
+   "twin_sm_inequivalent": 0
+  },
+  "Z6I_23": {
+   "ok": 6000,
+   "parent_sm": 0,
+   "tachyon_free": 1316,
+   "tachyon_free_inequivalent": 20,
+   "tachyon_free_with_sm_parent": 0,
+   "tachyonic": 4684,
+   "tries": 6000,
+   "twin_sm": 0,
+   "twin_sm_inequivalent": 0
+  },
+  "Z6I_29": {
+   "ok": 6000,
+   "parent_sm": 0,
+   "tachyon_free": 1028,
+   "tachyon_free_inequivalent": 19,
+   "tachyon_free_with_sm_parent": 0,
+   "tachyonic": 4972,
+   "tries": 6000,
+   "twin_sm": 0,
+   "twin_sm_inequivalent": 0
+  },
+  "Z6I_31": {
+   "ok": 6000,
+   "parent_sm": 0,
+   "tachyon_free": 780,
+   "tachyon_free_inequivalent": 25,
+   "tachyon_free_with_sm_parent": 0,
+   "tachyonic": 5220,
+   "tries": 6000,
+   "twin_sm": 0,
+   "twin_sm_inequivalent": 0
+  },
+  "Z6I_34": {
+   "ok": 6000,
+   "parent_sm": 177,
+   "tachyon_free": 644,
+   "tachyon_free_inequivalent": 37,
+   "tachyon_free_with_sm_parent": 0,
+   "tachyonic": 5356,
+   "tries": 6000,
+   "twin_sm": 0,
+   "twin_sm_inequivalent": 0
+  },
+  "Z6I_35": {
+   "ok": 6000,
+   "parent_sm": 0,
+   "tachyon_free": 1249,
+   "tachyon_free_inequivalent": 17,
+   "tachyon_free_with_sm_parent": 0,
+   "tachyonic": 4751,
+   "tries": 6000,
+   "twin_sm": 0,
+   "twin_sm_inequivalent": 0
+  },
+  "Z6I_46": {
+   "ok": 6000,
+   "parent_sm": 291,
+   "tachyon_free": 618,
+   "tachyon_free_inequivalent": 29,
+   "tachyon_free_with_sm_parent": 0,
+   "tachyonic": 5382,
+   "tries": 6000,
+   "twin_sm": 0,
+   "twin_sm_inequivalent": 0
+  },
+  "Z6I_49": {
+   "ok": 6000,
+   "parent_sm": 0,
+   "tachyon_free": 597,
+   "tachyon_free_inequivalent": 12,
+   "tachyon_free_with_sm_parent": 0,
+   "tachyonic": 5403,
+   "tries": 6000,
+   "twin_sm": 0,
+   "twin_sm_inequivalent": 0
+  },
+  "Z6I_54": {
+   "ok": 6000,
+   "parent_sm": 0,
+   "tachyon_free": 888,
+   "tachyon_free_inequivalent": 15,
+   "tachyon_free_with_sm_parent": 0,
+   "tachyonic": 5112,
+   "tries": 6000,
+   "twin_sm": 0,
+   "twin_sm_inequivalent": 0
+  },
+  "Z6I_55": {
+   "ok": 6000,
+   "parent_sm": 214,
+   "tachyon_free": 773,
+   "tachyon_free_inequivalent": 21,
+   "tachyon_free_with_sm_parent": 0,
+   "tachyonic": 5227,
+   "tries": 6000,
+   "twin_sm": 0,
+   "twin_sm_inequivalent": 0
+  },
+  "Z6I_56": {
+   "ok": 6000,
+   "parent_sm": 23,
+   "tachyon_free": 550,
+   "tachyon_free_inequivalent": 23,
+   "tachyon_free_with_sm_parent": 0,
+   "tachyonic": 5450,
+   "tries": 6000,
+   "twin_sm": 0,
+   "twin_sm_inequivalent": 0
+  }
+ },
+ "summary": {
+  "base_shifts": 58,
+  "expected_overlap_if_independent": 78.65,
+  "poisson_probability_of_zero": 6.964400902688196e-35,
+  "scan_totals": {
+   "ok": 66000,
+   "parent_sm": 705,
+   "tachyon_free": 9576,
+   "tachyon_free_inequivalent": 226,
+   "tachyon_free_with_sm_parent": 0,
+   "tachyonic": 56424,
+   "tries": 66000,
+   "twin_sm": 0,
+   "twin_sm_inequivalent": 0
+  },
+  "sm_parent_excited_theta_labels": {
+   "bv": 386,
+   "bw": 144,
+   "bx": 96,
+   "v": 310,
+   "w": 196,
+   "x": 172
+  },
+  "sm_parents_among_tachyon_free": 0,
+  "sm_parents_checked_for_excited_states": 705,
+  "sm_parents_without_excited_theta_state": 0,
+  "surviving_base_shifts": [
+   "Z6I_14",
+   "Z6I_23",
+   "Z6I_29",
+   "Z6I_31",
+   "Z6I_34",
+   "Z6I_35",
+   "Z6I_46",
+   "Z6I_49",
+   "Z6I_54",
+   "Z6I_55",
+   "Z6I_56"
+  ],
+  "tachyon_free_inequivalent_spectra": 226,
+  "tachyon_free_with_an_su3_and_an_su2_factor": 92,
+  "tachyonic_at_wilson_line_free_fixed_point": 47
+ },
+ "tachyon_free_gauge_groups": {
+  "A1 A1 A1 A1 A1 A1 A1 A1": 7,
+  "A1 A1 A1 A1 A1 A1 A1 A3": 2,
+  "A1 A1 A1 A1 A1 A1 A3 A3": 2,
+  "A1 A1 A1 A1 A1 A1 A5": 4,
+  "A1 A1 A1 A1 A1 A1 D6": 1,
+  "A1 A1 A1 A1 A1 A2 A2 A2": 9,
+  "A1 A1 A1 A1 A1 A2 A3": 3,
+  "A1 A1 A1 A1 A1 A2 A4": 3,
+  "A1 A1 A1 A1 A1 A2 A5": 7,
+  "A1 A1 A1 A1 A1 A3 A3": 9,
+  "A1 A1 A1 A1 A1 A3 A4": 2,
+  "A1 A1 A1 A1 A2 A2 A2 A2": 4,
+  "A1 A1 A1 A1 A2 A2 A5": 2,
+  "A1 A1 A1 A1 A2 A3": 5,
+  "A1 A1 A1 A1 A2 A7": 3,
+  "A1 A1 A1 A1 A2 A8": 1,
+  "A1 A1 A1 A1 A2 E6": 1,
+  "A1 A1 A1 A1 A3": 2,
+  "A1 A1 A1 A1 D4": 1,
+  "A1 A1 A1 A1 D8": 1,
+  "A1 A1 A1 A2 A2": 2,
+  "A1 A1 A1 A2 A2 A2 A5": 3,
+  "A1 A1 A1 A2 A5 A5": 4,
+  "A1 A1 A1 A2 D8": 3,
+  "A1 A1 A1 A3 A3": 2,
+  "A1 A1 A1 A3 D4": 2,
+  "A1 A1 A2 A2 A2 D5": 1,
+  "A1 A1 A2 A3 A3": 9,
+  "A1 A1 A2 A3 D4": 2,
+  "A1 A1 A3 A3 A3": 2,
+  "A1 A1 A3 A3 D4": 9,
+  "A1 A1 A3 A5": 3,
+  "A1 A1 A3 D6": 1,
+  "A1 A1 A7 D5": 2,
+  "A1 A1 A8 D5": 1,
+  "A1 A2 A2 A2 A2 A2 A2 A2": 2,
+  "A1 A2 A2 A2 A2 A2 A5": 1,
+  "A1 A2 A2 A2 A2 E6": 1,
+  "A1 A2 A2 A2 A3": 9,
+  "A1 A2 A2 A2 D4": 2,
+  "A1 A2 A2 A2 D8": 1,
+  "A1 A2 A2 A5": 3,
+  "A1 A2 A2 A5 E6": 1,
+  "A1 A2 A3 A5": 6,
+  "A1 A2 A5 D4": 1,
+  "A1 A2 A5 D8": 3,
+  "A1 A3 A3 A4": 3,
+  "A1 A3 A5 D4": 2,
+  "A1 A3 A7": 17,
+  "A1 A3 A8": 5,
+  "A1 A3 D4 D6": 2,
+  "A1 A7 D4": 1,
+  "A1 A8 D4": 1,
+  "A1 D5 D8": 3,
+  "A1 D8 E7": 1,
+  "A2 A2 A2 A2 A2": 6,
+  "A2 A2 A2 A2 A3": 2,
+  "A2 A2 A2 A3 D4": 2,
+  "A2 A2 A2 A5": 3,
+  "A2 A2 A2 A6": 1,
+  "A2 A2 A3 A3": 2,
+  "A2 A2 A3 A5": 2,
+  "A2 A2 A7": 2,
+  "A2 A2 A8": 1,
+  "A2 A3 A3 A3": 7,
+  "A2 A3 A5 D4": 3,
+  "A2 A3 A7": 2,
+  "A3 A3 A5": 2,
+  "A3 D8": 3,
+  "A4 A7": 3,
+  "A6 A7": 3,
+  "A6 A8": 1,
+  "D4 D8": 1
+ }
+}

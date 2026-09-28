@@ -85,8 +85,10 @@ def twin_table():
                 if len(tw) == 2:
                     from math import gcd
                     gg = gcd(*orders)
+                    # gcd(M,N) (v1'.v2' - v1.v2) must be EVEN (orbifolder: "= 0 mod 2"); an earlier version tested only
+                    # integrality and listed twists that fail it (corrected in Pass 11096)
                     same_shifts = same_shifts and (gg * (sum(a * b for a, b in zip(tw[0], tw[1])) -
-                                                          sum(a * b for a, b in zip(twists[0], twists[1])))).denominator == 1
+                                                          sum(a * b for a, b in zip(twists[0], twists[1])))) % 2 == 0
                 cand = dict(generator=g, n=list(n), twist=[[str(x) for x in v] for v in tw], same_shifts=same_shifts)
                 if best is None or (same_shifts and not best["same_shifts"]):
                     best = cand
