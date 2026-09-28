@@ -1,0 +1,4370 @@
+{
+ "1": {
+  "label": "A8SM_20260928_1335_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "2": {
+  "label": "A8SM_20260928_1577_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.351377,
+    0.107026
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.840892,
+    0.802736
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.244797,
+    0.183522
+   ]
+  }
+ },
+ "3": {
+  "label": "A8SM_20260928_3294_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.47521,
+    0.28711
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.467146,
+    0.139979
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.272892,
+    0.097738
+   ]
+  }
+ },
+ "4": {
+  "label": "A8SM_20260928_4146_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "5": {
+  "label": "A8SM_20260928_5110_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "6": {
+  "label": "A8SM_20260928_5752_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "7": {
+  "label": "A8SM_20260928_6276_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "8": {
+  "label": "A8SM_20260928_8460_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "9": {
+  "label": "A8SM_20260928_8780_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "10": {
+  "label": "A8SM_20260928_9434_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.303815,
+    0.082427
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.145126,
+    0.054378
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.814181,
+    0.201906
+   ]
+  }
+ },
+ "11": {
+  "label": "A8SM_20260928_9509_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "12": {
+  "label": "A8SM_20260928_9787_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "13": {
+  "label": "A8SM_20260928_10338_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.714071,
+    0.048311
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.229018,
+    0.167876
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.686103,
+    0.087838
+   ]
+  }
+ },
+ "14": {
+  "label": "A8SM_20260928_14146_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.318219,
+    0.143087
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.561584,
+    0.09365
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.564234,
+    0.214009
+   ]
+  }
+ },
+ "15": {
+  "label": "A8SM_20260928_16457_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.637585,
+    0.618007
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.771405,
+    0.073236
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.586736,
+    0.357758
+   ]
+  }
+ },
+ "16": {
+  "label": "A8SM_20260928_18875_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "17": {
+  "label": "A8SM_20260928_137_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "18": {
+  "label": "A8SM_20260928_639_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "19": {
+  "label": "A8SM_20260928_851_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "20": {
+  "label": "A8SM_20260928_904_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "21": {
+  "label": "A8SM_20260928_1691_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "22": {
+  "label": "A8SM_20260928_1799_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "23": {
+  "label": "A8SM_20260928_2303_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.90426,
+    0.640018
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.824083,
+    0.054119
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.772583,
+    0.527735
+   ]
+  }
+ },
+ "24": {
+  "label": "A8SM_20260928_2356_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.948715,
+    0.247139
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.693856,
+    0.028845
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.982129,
+    0.979221
+   ]
+  }
+ },
+ "25": {
+  "label": "A8SM_20260928_2373_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "26": {
+  "label": "A8SM_20260928_2375_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.766585,
+    0.402856
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.346536,
+    0.047191
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.523533,
+    0.454702
+   ]
+  }
+ },
+ "27": {
+  "label": "A8SM_20260928_2519_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "28": {
+  "label": "A8SM_20260928_2889_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "29": {
+  "label": "A8SM_20260928_3298_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "30": {
+  "label": "A8SM_20260928_4168_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "31": {
+  "label": "A8SM_20260928_5468_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "32": {
+  "label": "A8SM_20260928_5798_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "33": {
+  "label": "A8SM_20260928_6573_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "34": {
+  "label": "A8SM_20260928_7339_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "35": {
+  "label": "A8SM_20260928_7414_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.519095,
+    0.39106
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.109295,
+    0.102469
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.917678,
+    0.065225
+   ]
+  }
+ },
+ "36": {
+  "label": "A8SM_20260928_7753_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "37": {
+  "label": "A8SM_20260928_9767_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "38": {
+  "label": "A8SM_20260928_10966_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.401075,
+    0.344552
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 3,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "39": {
+  "label": "A8SM_20260928_11188_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.329519,
+    0.307195
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.61885,
+    0.333697
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.855598,
+    0.385704
+   ]
+  }
+ },
+ "40": {
+  "label": "A8SM_20260928_13698_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "41": {
+  "label": "A8SM_20260928_14681_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "42": {
+  "label": "A8SM_20260928_15565_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "43": {
+  "label": "A8SM_20260928_16432_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "44": {
+  "label": "A8SM_20260928_16834_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.500154,
+    0.41872
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.637965,
+    0.399731
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.454563,
+    0.371717
+   ]
+  }
+ },
+ "45": {
+  "label": "A8SM_20260928_17793_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.869575,
+    0.671693
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.677676,
+    0.498591
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.660082,
+    0.242264
+   ]
+  }
+ },
+ "46": {
+  "label": "A8SM_20260928_17993_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "47": {
+  "label": "A8SM_20260928_18573_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "48": {
+  "label": "A8SM_20260928_19529_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "49": {
+  "label": "A8SM_20260928_19635_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "50": {
+  "label": "A8SM_20260928_19804_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "51": {
+  "label": "A8SM_20260928_438_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "52": {
+  "label": "A8SM_20260928_515_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "53": {
+  "label": "A8SM_20260928_533_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.424509,
+    0.246418
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.642692,
+    0.63766
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.747836,
+    0.338389
+   ]
+  }
+ },
+ "54": {
+  "label": "A8SM_20260928_783_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "55": {
+  "label": "A8SM_20260928_1279_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "56": {
+  "label": "A8SM_20260928_1953_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.936986,
+    0.521393
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 9,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 12,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "57": {
+  "label": "A8SM_20260928_2233_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.952878,
+    0.421752
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.820532,
+    0.395346
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.994587,
+    0.266118
+   ]
+  }
+ },
+ "58": {
+  "label": "A8SM_20260928_2321_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "59": {
+  "label": "A8SM_20260928_2866_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "60": {
+  "label": "A8SM_20260928_3721_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "61": {
+  "label": "A8SM_20260928_3762_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "62": {
+  "label": "A8SM_20260928_3994_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "63": {
+  "label": "A8SM_20260928_4537_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "64": {
+  "label": "A8SM_20260928_6052_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "65": {
+  "label": "A8SM_20260928_7100_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "66": {
+  "label": "A8SM_20260928_7616_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "67": {
+  "label": "A8SM_20260928_9667_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.399702,
+    0.14806
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.607956,
+    0.559276
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.420698,
+    0.186522
+   ]
+  }
+ },
+ "68": {
+  "label": "A8SM_20260928_10006_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "69": {
+  "label": "A8SM_20260928_10086_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.327127,
+    0.246852
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.619406,
+    0.586031
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.513027,
+    0.093055
+   ]
+  }
+ },
+ "70": {
+  "label": "A8SM_20260928_10139_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "71": {
+  "label": "A8SM_20260928_10269_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "72": {
+  "label": "A8SM_20260928_10545_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "73": {
+  "label": "A8SM_20260928_10740_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "74": {
+  "label": "A8SM_20260928_10864_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "75": {
+  "label": "A8SM_20260928_12722_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "76": {
+  "label": "A8SM_20260928_14359_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.54307,
+    0.199035
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 3,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "77": {
+  "label": "A8SM_20260928_14608_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.406411,
+    0.173938
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.528529,
+    0.069403
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.165407,
+    0.145677
+   ]
+  }
+ },
+ "78": {
+  "label": "A8SM_20260928_14914_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.832159,
+    0.497298
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.465939,
+    0.351099
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.200257,
+    0.118552
+   ]
+  }
+ },
+ "79": {
+  "label": "A8SM_20260928_14993_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "80": {
+  "label": "A8SM_20260928_17724_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "81": {
+  "label": "A8SM_20260928_19483_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "82": {
+  "label": "A8SM_20260928_1295_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "83": {
+  "label": "A8SM_20260928_1356_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "84": {
+  "label": "A8SM_20260928_2423_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.851414,
+    0.076722
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.88328,
+    0.474702
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.703295,
+    0.528796
+   ]
+  }
+ },
+ "85": {
+  "label": "A8SM_20260928_3250_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.831758,
+    0.413084
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.847605,
+    0.746177
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.81403,
+    0.265089
+   ]
+  }
+ },
+ "86": {
+  "label": "A8SM_20260928_3284_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "87": {
+  "label": "A8SM_20260928_3572_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.304372,
+    0.192389
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 3,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "88": {
+  "label": "A8SM_20260928_4200_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "89": {
+  "label": "A8SM_20260928_4582_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "90": {
+  "label": "A8SM_20260928_5760_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.980426,
+    0.188602
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.591659,
+    0.583764
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.667642,
+    0.382836
+   ]
+  }
+ },
+ "91": {
+  "label": "A8SM_20260928_6322_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "92": {
+  "label": "A8SM_20260928_7833_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "93": {
+  "label": "A8SM_20260928_7974_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "94": {
+  "label": "A8SM_20260928_8363_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.192335,
+    0.029034
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.941265,
+    0.795683
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.210539,
+    0.180253
+   ]
+  }
+ },
+ "95": {
+  "label": "A8SM_20260928_8904_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.728746,
+    0.392727
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.892492,
+    0.807356
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.355021,
+    0.241321
+   ]
+  }
+ },
+ "96": {
+  "label": "A8SM_20260928_9246_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.268027,
+    0.038464
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.290957,
+    0.046446
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.627944,
+    0.046811
+   ]
+  }
+ },
+ "97": {
+  "label": "A8SM_20260928_9594_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "98": {
+  "label": "A8SM_20260928_11138_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "99": {
+  "label": "A8SM_20260928_11397_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "100": {
+  "label": "A8SM_20260928_14376_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.680811,
+    0.200017
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.918351,
+    0.502336
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.90745,
+    0.532222
+   ]
+  }
+ },
+ "101": {
+  "label": "A8SM_20260928_14861_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "102": {
+  "label": "A8SM_20260928_15495_TF",
+  "up": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.598377,
+    0.59584
+   ]
+  },
+  "down": {
+   "triples": 9,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 6,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.743143,
+    0.247555
+   ]
+  },
+  "lepton": {
+   "triples": 12,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 3,
+   "twisted_suppressed": 9,
+   "o1_rank": 3,
+   "o1_singular_values": [
+    1.0,
+    0.417027,
+    0.247234
+   ]
+  }
+ },
+ "103": {
+  "label": "A8SM_20260928_16222_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "104": {
+  "label": "A8SM_20260928_18197_TF",
+  "up": {
+   "triples": 6,
+   "untwisted": 6,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 2,
+   "o1_singular_values": [
+    1.0,
+    1.0,
+    0.0
+   ]
+  },
+  "down": {
+   "triples": 0,
+   "untwisted": 0,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 0,
+   "o1_singular_values": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "lepton": {
+   "triples": 3,
+   "untwisted": 3,
+   "untwisted_zero_eps": 0,
+   "twisted_same_fixed_point": 0,
+   "twisted_suppressed": 0,
+   "o1_rank": 1,
+   "o1_singular_values": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ }
+}

@@ -1,0 +1,5380 @@
+{
+ "1": {
+  "label": "A8SM_20260928_1335_TF",
+  "fractional_fields": 126,
+  "fractional_states": 212,
+  "fractional_hidden_singlet_states": 142,
+  "sm_neutral_scalars": 234,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 198,
+    "allowed_edges": 1823,
+    "light_fractional_states": 36,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,1)_1/2*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 198,
+    "allowed_edges": 1823,
+    "light_fractional_states": 36,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,1)_1/2*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 234,
+    "allowed_edges": 2483,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 234,
+    "allowed_edges": 2483,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "2": {
+  "label": "A8SM_20260928_1577_TF",
+  "fractional_fields": 150,
+  "fractional_states": 222,
+  "fractional_hidden_singlet_states": 222,
+  "sm_neutral_scalars": 126,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 120,
+    "allowed_edges": 1269,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 120,
+    "allowed_edges": 1269,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 126,
+    "allowed_edges": 1269,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 126,
+    "allowed_edges": 1269,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "3": {
+  "label": "A8SM_20260928_3294_TF",
+  "fractional_fields": 114,
+  "fractional_states": 204,
+  "fractional_hidden_singlet_states": 138,
+  "sm_neutral_scalars": 90,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 60,
+    "allowed_edges": 270,
+    "light_fractional_states": 96,
+    "light_fractional_hidden_singlet_states": 48,
+    "light_reps": {
+     "(1,1)_-2/3": 3,
+     "(-3,1)_-1/3": 3,
+     "(1,2)_1/6": 3,
+     "(1,1)_-1/3*hidden": 6,
+     "(1,1)_-1/3": 6,
+     "(1,1)_1/3*hidden": 6,
+     "(1,1)_1/3": 6,
+     "(3,1)_1/3": 3,
+     "(1,2)_-1/6": 3,
+     "(1,1)_2/3": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 60,
+    "allowed_edges": 270,
+    "light_fractional_states": 96,
+    "light_fractional_hidden_singlet_states": 48,
+    "light_reps": {
+     "(1,1)_-2/3": 3,
+     "(-3,1)_-1/3": 3,
+     "(1,2)_1/6": 3,
+     "(1,1)_-1/3*hidden": 6,
+     "(1,1)_-1/3": 6,
+     "(1,1)_1/3*hidden": 6,
+     "(1,1)_1/3": 6,
+     "(3,1)_1/3": 3,
+     "(1,2)_-1/6": 3,
+     "(1,1)_2/3": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 90,
+    "allowed_edges": 477,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 48,
+    "light_reps": {
+     "(1,1)_-2/3": 3,
+     "(-3,1)_-1/3": 3,
+     "(1,2)_1/6": 3,
+     "(1,1)_-1/3": 6,
+     "(1,1)_1/3": 6,
+     "(3,1)_1/3": 3,
+     "(1,2)_-1/6": 3,
+     "(1,1)_2/3": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 90,
+    "allowed_edges": 477,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 48,
+    "light_reps": {
+     "(1,1)_-2/3": 3,
+     "(-3,1)_-1/3": 3,
+     "(1,2)_1/6": 3,
+     "(1,1)_-1/3": 6,
+     "(1,1)_1/3": 6,
+     "(3,1)_1/3": 3,
+     "(1,2)_-1/6": 3,
+     "(1,1)_2/3": 3
+    }
+   }
+  }
+ },
+ "4": {
+  "label": "A8SM_20260928_4146_TF",
+  "fractional_fields": 106,
+  "fractional_states": 176,
+  "fractional_hidden_singlet_states": 148,
+  "sm_neutral_scalars": 186,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 162,
+    "allowed_edges": 1069,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 162,
+    "allowed_edges": 454,
+    "light_fractional_states": 72,
+    "light_fractional_hidden_singlet_states": 60,
+    "light_reps": {
+     "(1,1)_-1/2": 21,
+     "(-3,1)_-1/6": 3,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_1/2": 21,
+     "(3,1)_1/6": 3,
+     "(1,1)_1/2*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 186,
+    "allowed_edges": 1447,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 186,
+    "allowed_edges": 604,
+    "light_fractional_states": 70,
+    "light_fractional_hidden_singlet_states": 62,
+    "light_reps": {
+     "(1,1)_-1/2": 21,
+     "(-3,1)_-1/6": 3,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_1/2": 23,
+     "(3,1)_1/6": 3,
+     "(1,1)_1/2*hidden": 1
+    }
+   }
+  }
+ },
+ "5": {
+  "label": "A8SM_20260928_5110_TF",
+  "fractional_fields": 110,
+  "fractional_states": 152,
+  "fractional_hidden_singlet_states": 152,
+  "sm_neutral_scalars": 198,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 186,
+    "allowed_edges": 1807,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 186,
+    "allowed_edges": 1807,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 198,
+    "allowed_edges": 1807,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 198,
+    "allowed_edges": 1807,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "6": {
+  "label": "A8SM_20260928_5752_TF",
+  "fractional_fields": 114,
+  "fractional_states": 168,
+  "fractional_hidden_singlet_states": 132,
+  "sm_neutral_scalars": 90,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 78,
+    "allowed_edges": 351,
+    "light_fractional_states": 84,
+    "light_fractional_hidden_singlet_states": 48,
+    "light_reps": {
+     "(1,1)_-1/3": 9,
+     "(-3,1)_0": 3,
+     "(1,2)_1/6": 3,
+     "(1,1)_1/3*hidden": 6,
+     "(3,1)_0": 3,
+     "(1,1)_1/3": 9,
+     "(1,2)_-1/6": 3,
+     "(1,1)_-1/3*hidden": 6
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 78,
+    "allowed_edges": 162,
+    "light_fractional_states": 108,
+    "light_fractional_hidden_singlet_states": 72,
+    "light_reps": {
+     "(1,1)_-1/3": 21,
+     "(-3,1)_0": 3,
+     "(1,2)_1/6": 3,
+     "(1,1)_1/3*hidden": 6,
+     "(1,1)_1/3": 21,
+     "(3,1)_0": 3,
+     "(1,2)_-1/6": 3,
+     "(1,1)_-1/3*hidden": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 90,
+    "allowed_edges": 387,
+    "light_fractional_states": 60,
+    "light_fractional_hidden_singlet_states": 42,
+    "light_reps": {
+     "(-3,1)_0": 3,
+     "(1,1)_-1/3": 6,
+     "(1,2)_1/6": 3,
+     "(1,1)_1/3*hidden": 3,
+     "(3,1)_0": 3,
+     "(1,1)_1/3": 6,
+     "(1,2)_-1/6": 3,
+     "(1,1)_-1/3*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 90,
+    "allowed_edges": 162,
+    "light_fractional_states": 108,
+    "light_fractional_hidden_singlet_states": 72,
+    "light_reps": {
+     "(1,1)_-1/3": 21,
+     "(-3,1)_0": 3,
+     "(1,2)_1/6": 3,
+     "(1,1)_1/3*hidden": 6,
+     "(1,1)_1/3": 21,
+     "(3,1)_0": 3,
+     "(1,2)_-1/6": 3,
+     "(1,1)_-1/3*hidden": 6
+    }
+   }
+  }
+ },
+ "7": {
+  "label": "A8SM_20260928_6276_TF",
+  "fractional_fields": 132,
+  "fractional_states": 180,
+  "fractional_hidden_singlet_states": 180,
+  "sm_neutral_scalars": 84,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 78,
+    "allowed_edges": 684,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 78,
+    "allowed_edges": 252,
+    "light_fractional_states": 36,
+    "light_fractional_hidden_singlet_states": 36,
+    "light_reps": {
+     "(1,1)_-1/3": 18,
+     "(1,1)_1/3": 18
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 84,
+    "allowed_edges": 684,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 84,
+    "allowed_edges": 252,
+    "light_fractional_states": 36,
+    "light_fractional_hidden_singlet_states": 36,
+    "light_reps": {
+     "(1,1)_-1/3": 18,
+     "(1,1)_1/3": 18
+    }
+   }
+  }
+ },
+ "8": {
+  "label": "A8SM_20260928_8460_TF",
+  "fractional_fields": 114,
+  "fractional_states": 168,
+  "fractional_hidden_singlet_states": 120,
+  "sm_neutral_scalars": 132,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 120,
+    "allowed_edges": 468,
+    "light_fractional_states": 24,
+    "light_fractional_hidden_singlet_states": 6,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 3,
+     "(1,1)_1/3*hidden": 3,
+     "(1,1)_1/3": 3,
+     "(1,1)_-1/3": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 120,
+    "allowed_edges": 279,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 30,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 3,
+     "(1,1)_-1/3": 9,
+     "(1,1)_1/3*hidden": 3,
+     "(1,1)_1/3": 9,
+     "(1,2)_-1/6": 3,
+     "(1,2)_1/6": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 132,
+    "allowed_edges": 711,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 132,
+    "allowed_edges": 297,
+    "light_fractional_states": 44,
+    "light_fractional_hidden_singlet_states": 32,
+    "light_reps": {
+     "(1,1)_-1/3": 12,
+     "(1,1)_1/3*hidden": 4,
+     "(1,1)_1/3": 8,
+     "(1,2)_-1/6": 3,
+     "(1,2)_1/6": 3
+    }
+   }
+  }
+ },
+ "9": {
+  "label": "A8SM_20260928_8780_TF",
+  "fractional_fields": 126,
+  "fractional_states": 168,
+  "fractional_hidden_singlet_states": 132,
+  "sm_neutral_scalars": 132,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 132,
+    "allowed_edges": 639,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 132,
+    "allowed_edges": 639,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 132,
+    "allowed_edges": 639,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 132,
+    "allowed_edges": 639,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "10": {
+  "label": "A8SM_20260928_9434_TF",
+  "fractional_fields": 132,
+  "fractional_states": 186,
+  "fractional_hidden_singlet_states": 162,
+  "sm_neutral_scalars": 132,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 120,
+    "allowed_edges": 810,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 120,
+    "allowed_edges": 810,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 132,
+    "allowed_edges": 972,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 132,
+    "allowed_edges": 972,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "11": {
+  "label": "A8SM_20260928_9509_TF",
+  "fractional_fields": 96,
+  "fractional_states": 156,
+  "fractional_hidden_singlet_states": 84,
+  "sm_neutral_scalars": 96,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 78,
+    "allowed_edges": 270,
+    "light_fractional_states": 72,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 12,
+     "(1,1)_1/3*hidden": 12
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 78,
+    "allowed_edges": 270,
+    "light_fractional_states": 72,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 12,
+     "(1,1)_1/3*hidden": 12
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 96,
+    "allowed_edges": 342,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 96,
+    "allowed_edges": 270,
+    "light_fractional_states": 72,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 12,
+     "(1,1)_1/3*hidden": 12
+    }
+   }
+  }
+ },
+ "12": {
+  "label": "A8SM_20260928_9787_TF",
+  "fractional_fields": 126,
+  "fractional_states": 168,
+  "fractional_hidden_singlet_states": 132,
+  "sm_neutral_scalars": 102,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 90,
+    "allowed_edges": 297,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 90,
+    "allowed_edges": 297,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 102,
+    "allowed_edges": 423,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 102,
+    "allowed_edges": 297,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "13": {
+  "label": "A8SM_20260928_10338_TF",
+  "fractional_fields": 150,
+  "fractional_states": 222,
+  "fractional_hidden_singlet_states": 222,
+  "sm_neutral_scalars": 132,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 126,
+    "allowed_edges": 1449,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 126,
+    "allowed_edges": 1449,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 132,
+    "allowed_edges": 1449,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 132,
+    "allowed_edges": 1449,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "14": {
+  "label": "A8SM_20260928_14146_TF",
+  "fractional_fields": 144,
+  "fractional_states": 234,
+  "fractional_hidden_singlet_states": 198,
+  "sm_neutral_scalars": 132,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 126,
+    "allowed_edges": 882,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 126,
+    "allowed_edges": 882,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 132,
+    "allowed_edges": 1026,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 132,
+    "allowed_edges": 1026,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "15": {
+  "label": "A8SM_20260928_16457_TF",
+  "fractional_fields": 108,
+  "fractional_states": 162,
+  "fractional_hidden_singlet_states": 126,
+  "sm_neutral_scalars": 132,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 120,
+    "allowed_edges": 702,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 120,
+    "allowed_edges": 702,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 132,
+    "allowed_edges": 864,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 132,
+    "allowed_edges": 864,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "16": {
+  "label": "A8SM_20260928_18875_TF",
+  "fractional_fields": 114,
+  "fractional_states": 168,
+  "fractional_hidden_singlet_states": 132,
+  "sm_neutral_scalars": 90,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 78,
+    "allowed_edges": 351,
+    "light_fractional_states": 84,
+    "light_fractional_hidden_singlet_states": 48,
+    "light_reps": {
+     "(1,1)_1/3*hidden": 6,
+     "(1,2)_1/6": 3,
+     "(1,1)_-1/3": 9,
+     "(-3,1)_0": 3,
+     "(1,1)_-1/3*hidden": 6,
+     "(1,1)_1/3": 9,
+     "(1,2)_-1/6": 3,
+     "(3,1)_0": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 78,
+    "allowed_edges": 162,
+    "light_fractional_states": 108,
+    "light_fractional_hidden_singlet_states": 72,
+    "light_reps": {
+     "(1,1)_1/3*hidden": 6,
+     "(1,2)_1/6": 3,
+     "(1,1)_-1/3": 21,
+     "(1,1)_1/3": 21,
+     "(-3,1)_0": 3,
+     "(1,1)_-1/3*hidden": 6,
+     "(1,2)_-1/6": 3,
+     "(3,1)_0": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 90,
+    "allowed_edges": 387,
+    "light_fractional_states": 60,
+    "light_fractional_hidden_singlet_states": 42,
+    "light_reps": {
+     "(1,1)_-1/3": 6,
+     "(-3,1)_0": 3,
+     "(1,1)_1/3*hidden": 3,
+     "(1,2)_1/6": 3,
+     "(1,1)_1/3": 6,
+     "(1,2)_-1/6": 3,
+     "(3,1)_0": 3,
+     "(1,1)_-1/3*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 90,
+    "allowed_edges": 162,
+    "light_fractional_states": 108,
+    "light_fractional_hidden_singlet_states": 72,
+    "light_reps": {
+     "(1,1)_1/3*hidden": 6,
+     "(1,2)_1/6": 3,
+     "(1,1)_-1/3": 21,
+     "(1,1)_1/3": 21,
+     "(-3,1)_0": 3,
+     "(1,1)_-1/3*hidden": 6,
+     "(1,2)_-1/6": 3,
+     "(3,1)_0": 3
+    }
+   }
+  }
+ },
+ "17": {
+  "label": "A8SM_20260928_137_TF",
+  "fractional_fields": 115,
+  "fractional_states": 200,
+  "fractional_hidden_singlet_states": 148,
+  "sm_neutral_scalars": 162,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 138,
+    "allowed_edges": 1291,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(1,1)_-1/2*hidden": 3,
+     "(3,1)_1/6*hidden": 3,
+     "(-3,1)_-1/6": 6,
+     "(1,1)_1/2": 6
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 138,
+    "allowed_edges": 997,
+    "light_fractional_states": 66,
+    "light_fractional_hidden_singlet_states": 30,
+    "light_reps": {
+     "(1,1)_-1/2*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(3,1)_1/6*hidden": 3,
+     "(-3,1)_-1/6": 6,
+     "(1,1)_1/2": 9,
+     "(1,1)_-1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 162,
+    "allowed_edges": 1741,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(-3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 162,
+    "allowed_edges": 1741,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(-3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   }
+  }
+ },
+ "18": {
+  "label": "A8SM_20260928_639_TF",
+  "fractional_fields": 105,
+  "fractional_states": 192,
+  "fractional_hidden_singlet_states": 112,
+  "sm_neutral_scalars": 174,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 138,
+    "allowed_edges": 782,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(3,1)_1/6*hidden": 3,
+     "(-3,1)_-1/6": 6,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_1/2": 6
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 138,
+    "allowed_edges": 782,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(3,1)_1/6*hidden": 3,
+     "(-3,1)_-1/6": 6,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_1/2": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 174,
+    "allowed_edges": 1537,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(-3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 174,
+    "allowed_edges": 1537,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(-3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   }
+  }
+ },
+ "19": {
+  "label": "A8SM_20260928_851_TF",
+  "fractional_fields": 116,
+  "fractional_states": 176,
+  "fractional_hidden_singlet_states": 152,
+  "sm_neutral_scalars": 162,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 138,
+    "allowed_edges": 1528,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 138,
+    "allowed_edges": 1099,
+    "light_fractional_states": 66,
+    "light_fractional_hidden_singlet_states": 42,
+    "light_reps": {
+     "(1,2)_0": 3,
+     "(1,1)_1/2*hidden": 6,
+     "(3,1)_1/6": 3,
+     "(1,1)_1/2": 9,
+     "(1,1)_-1/2*hidden": 6,
+     "(1,1)_-1/2": 9,
+     "(-3,1)_-1/6": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 162,
+    "allowed_edges": 1936,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 162,
+    "allowed_edges": 1249,
+    "light_fractional_states": 60,
+    "light_fractional_hidden_singlet_states": 48,
+    "light_reps": {
+     "(1,2)_0": 3,
+     "(1,1)_1/2*hidden": 6,
+     "(3,1)_1/6": 3,
+     "(1,1)_1/2": 9,
+     "(1,1)_-1/2": 15,
+     "(-3,1)_-1/6": 3
+    }
+   }
+  }
+ },
+ "20": {
+  "label": "A8SM_20260928_904_TF",
+  "fractional_fields": 80,
+  "fractional_states": 148,
+  "fractional_hidden_singlet_states": 84,
+  "sm_neutral_scalars": 186,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 162,
+    "allowed_edges": 508,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(3,1)_1/6*hidden": 3,
+     "(-3,1)_-1/6": 6,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_1/2": 6
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 162,
+    "allowed_edges": 508,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(3,1)_1/6*hidden": 3,
+     "(-3,1)_-1/6": 6,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_1/2": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 186,
+    "allowed_edges": 844,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(-3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 186,
+    "allowed_edges": 844,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(-3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   }
+  }
+ },
+ "21": {
+  "label": "A8SM_20260928_1691_TF",
+  "fractional_fields": 105,
+  "fractional_states": 180,
+  "fractional_hidden_singlet_states": 128,
+  "sm_neutral_scalars": 186,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 138,
+    "allowed_edges": 531,
+    "light_fractional_states": 72,
+    "light_fractional_hidden_singlet_states": 48,
+    "light_reps": {
+     "(-3,1)_1/6*hidden": 3,
+     "(1,1)_1/2": 12,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_-1/2": 6,
+     "(1,2)_0": 6,
+     "(3,1)_-1/6": 6
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 138,
+    "allowed_edges": 423,
+    "light_fractional_states": 96,
+    "light_fractional_hidden_singlet_states": 60,
+    "light_reps": {
+     "(3,1)_-1/6": 6,
+     "(1,2)_0": 12,
+     "(-3,1)_1/6*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,1)_1/2": 12,
+     "(1,1)_-1/2": 6,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 186,
+    "allowed_edges": 1526,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,1)_1/2": 3,
+     "(3,1)_-1/6": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 186,
+    "allowed_edges": 1526,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,1)_1/2": 3,
+     "(3,1)_-1/6": 3
+    }
+   }
+  }
+ },
+ "22": {
+  "label": "A8SM_20260928_1799_TF",
+  "fractional_fields": 131,
+  "fractional_states": 188,
+  "fractional_hidden_singlet_states": 152,
+  "sm_neutral_scalars": 258,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 246,
+    "allowed_edges": 2429,
+    "light_fractional_states": 24,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,1)_1/2*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 246,
+    "allowed_edges": 2429,
+    "light_fractional_states": 24,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,1)_1/2*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 258,
+    "allowed_edges": 2792,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 258,
+    "allowed_edges": 2792,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "23": {
+  "label": "A8SM_20260928_2303_TF",
+  "fractional_fields": 120,
+  "fractional_states": 204,
+  "fractional_hidden_singlet_states": 144,
+  "sm_neutral_scalars": 96,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 84,
+    "allowed_edges": 288,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 84,
+    "allowed_edges": 27,
+    "light_fractional_states": 192,
+    "light_fractional_hidden_singlet_states": 132,
+    "light_reps": {
+     "(3,1)_0": 3,
+     "(1,1)_2/3": 9,
+     "(-3,1)_1/3": 3,
+     "(1,1)_-1/3": 21,
+     "(1,1)_1/3*hidden": 9,
+     "(1,1)_1/3": 21,
+     "(1,1)_-1/3*hidden": 9,
+     "(-3,1)_0": 3,
+     "(3,1)_-1/3": 3,
+     "(1,1)_-2/3": 9,
+     "(1,2)_1/6": 9,
+     "(1,2)_-1/6": 9
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 96,
+    "allowed_edges": 342,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 96,
+    "allowed_edges": 54,
+    "light_fractional_states": 162,
+    "light_fractional_hidden_singlet_states": 126,
+    "light_reps": {
+     "(3,1)_0": 3,
+     "(1,1)_2/3": 9,
+     "(-3,1)_1/3": 3,
+     "(1,1)_-1/3": 18,
+     "(1,1)_1/3*hidden": 6,
+     "(1,1)_1/3": 18,
+     "(1,1)_-1/3*hidden": 6,
+     "(-3,1)_0": 3,
+     "(3,1)_-1/3": 3,
+     "(1,1)_-2/3": 9,
+     "(1,2)_1/6": 9,
+     "(1,2)_-1/6": 9
+    }
+   }
+  }
+ },
+ "24": {
+  "label": "A8SM_20260928_2356_TF",
+  "fractional_fields": 90,
+  "fractional_states": 186,
+  "fractional_hidden_singlet_states": 114,
+  "sm_neutral_scalars": 72,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 42,
+    "allowed_edges": 90,
+    "light_fractional_states": 102,
+    "light_fractional_hidden_singlet_states": 48,
+    "light_reps": {
+     "(1,1)_-1/3": 6,
+     "(1,2)_1/6": 3,
+     "(1,1)_1/3": 6,
+     "(1,1)_1/3*hidden": 9,
+     "(3,1)_0": 3,
+     "(1,1)_2/3": 3,
+     "(1,1)_-2/3": 3,
+     "(1,2)_-1/6": 3,
+     "(1,1)_-1/3*hidden": 9,
+     "(-3,1)_0": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 42,
+    "allowed_edges": 90,
+    "light_fractional_states": 102,
+    "light_fractional_hidden_singlet_states": 48,
+    "light_reps": {
+     "(1,1)_-1/3": 6,
+     "(1,2)_1/6": 3,
+     "(1,1)_1/3": 6,
+     "(1,1)_1/3*hidden": 9,
+     "(3,1)_0": 3,
+     "(1,1)_2/3": 3,
+     "(1,1)_-2/3": 3,
+     "(1,2)_-1/6": 3,
+     "(1,1)_-1/3*hidden": 9,
+     "(-3,1)_0": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 72,
+    "allowed_edges": 162,
+    "light_fractional_states": 60,
+    "light_fractional_hidden_singlet_states": 42,
+    "light_reps": {
+     "(1,1)_-1/3": 3,
+     "(1,2)_1/6": 3,
+     "(1,1)_1/3": 3,
+     "(1,1)_1/3*hidden": 3,
+     "(3,1)_0": 3,
+     "(1,1)_2/3": 3,
+     "(1,1)_-2/3": 3,
+     "(1,2)_-1/6": 3,
+     "(1,1)_-1/3*hidden": 3,
+     "(-3,1)_0": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 72,
+    "allowed_edges": 117,
+    "light_fractional_states": 78,
+    "light_fractional_hidden_singlet_states": 42,
+    "light_reps": {
+     "(1,1)_-1/3": 3,
+     "(1,2)_1/6": 3,
+     "(1,1)_1/3": 3,
+     "(1,1)_1/3*hidden": 6,
+     "(3,1)_0": 3,
+     "(1,1)_2/3": 3,
+     "(1,1)_-2/3": 3,
+     "(1,2)_-1/6": 3,
+     "(1,1)_-1/3*hidden": 6,
+     "(-3,1)_0": 3
+    }
+   }
+  }
+ },
+ "25": {
+  "label": "A8SM_20260928_2373_TF",
+  "fractional_fields": 138,
+  "fractional_states": 156,
+  "fractional_hidden_singlet_states": 144,
+  "sm_neutral_scalars": 108,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 102,
+    "allowed_edges": 495,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 102,
+    "allowed_edges": 315,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 108,
+    "allowed_edges": 531,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 108,
+    "allowed_edges": 315,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "26": {
+  "label": "A8SM_20260928_2375_TF",
+  "fractional_fields": 114,
+  "fractional_states": 174,
+  "fractional_hidden_singlet_states": 132,
+  "sm_neutral_scalars": 96,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 84,
+    "allowed_edges": 477,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 84,
+    "allowed_edges": 162,
+    "light_fractional_states": 144,
+    "light_fractional_hidden_singlet_states": 102,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 6,
+     "(1,2)_-1/6": 9,
+     "(1,1)_1/3": 15,
+     "(1,1)_-2/3": 9,
+     "(1,1)_1/3*hidden": 6,
+     "(1,2)_1/6": 9,
+     "(1,1)_2/3": 9,
+     "(1,1)_-1/3": 15,
+     "(-3,1)_0": 3,
+     "(3,1)_0": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 96,
+    "allowed_edges": 585,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 96,
+    "allowed_edges": 216,
+    "light_fractional_states": 114,
+    "light_fractional_hidden_singlet_states": 96,
+    "light_reps": {
+     "(1,2)_-1/6": 9,
+     "(1,1)_-2/3": 9,
+     "(1,1)_1/3": 12,
+     "(1,2)_1/6": 9,
+     "(1,1)_2/3": 9,
+     "(1,1)_-1/3": 12,
+     "(-3,1)_0": 3,
+     "(3,1)_0": 3,
+     "(1,1)_-1/3*hidden": 3,
+     "(1,1)_1/3*hidden": 3
+    }
+   }
+  }
+ },
+ "27": {
+  "label": "A8SM_20260928_2519_TF",
+  "fractional_fields": 126,
+  "fractional_states": 174,
+  "fractional_hidden_singlet_states": 144,
+  "sm_neutral_scalars": 84,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 84,
+    "allowed_edges": 603,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 84,
+    "allowed_edges": 603,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 84,
+    "allowed_edges": 603,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 84,
+    "allowed_edges": 603,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "28": {
+  "label": "A8SM_20260928_2889_TF",
+  "fractional_fields": 123,
+  "fractional_states": 200,
+  "fractional_hidden_singlet_states": 140,
+  "sm_neutral_scalars": 222,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 198,
+    "allowed_edges": 1683,
+    "light_fractional_states": 42,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,2)_0*hidden": 3,
+     "(1,1)_-1/2*hidden": 6,
+     "(1,1)_1/2*hidden": 6
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 198,
+    "allowed_edges": 1683,
+    "light_fractional_states": 42,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,2)_0*hidden": 3,
+     "(1,1)_-1/2*hidden": 6,
+     "(1,1)_1/2*hidden": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 222,
+    "allowed_edges": 2330,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 222,
+    "allowed_edges": 2330,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "29": {
+  "label": "A8SM_20260928_3298_TF",
+  "fractional_fields": 120,
+  "fractional_states": 160,
+  "fractional_hidden_singlet_states": 160,
+  "sm_neutral_scalars": 222,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 198,
+    "allowed_edges": 2252,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 198,
+    "allowed_edges": 2252,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 222,
+    "allowed_edges": 2252,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 222,
+    "allowed_edges": 2252,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "30": {
+  "label": "A8SM_20260928_4168_TF",
+  "fractional_fields": 106,
+  "fractional_states": 136,
+  "fractional_hidden_singlet_states": 136,
+  "sm_neutral_scalars": 210,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 198,
+    "allowed_edges": 1861,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 198,
+    "allowed_edges": 1861,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 210,
+    "allowed_edges": 1861,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 210,
+    "allowed_edges": 1861,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "31": {
+  "label": "A8SM_20260928_5468_TF",
+  "fractional_fields": 111,
+  "fractional_states": 156,
+  "fractional_hidden_singlet_states": 104,
+  "sm_neutral_scalars": 216,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 162,
+    "allowed_edges": 723,
+    "light_fractional_states": 36,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(1,1)_-1/2*hidden": 3,
+     "(1,2)_0": 6,
+     "(1,1)_1/2": 6,
+     "(1,1)_1/2*hidden": 3,
+     "(1,1)_-1/2": 6
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 162,
+    "allowed_edges": 660,
+    "light_fractional_states": 60,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(1,1)_-1/2*hidden": 9,
+     "(1,2)_0": 6,
+     "(1,1)_1/2*hidden": 9,
+     "(1,1)_1/2": 6,
+     "(1,1)_-1/2": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 216,
+    "allowed_edges": 2015,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,2)_0": 3,
+     "(1,1)_1/2": 3,
+     "(1,1)_-1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 216,
+    "allowed_edges": 2015,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,2)_0": 3,
+     "(1,1)_1/2": 3,
+     "(1,1)_-1/2": 3
+    }
+   }
+  }
+ },
+ "32": {
+  "label": "A8SM_20260928_5798_TF",
+  "fractional_fields": 100,
+  "fractional_states": 160,
+  "fractional_hidden_singlet_states": 120,
+  "sm_neutral_scalars": 192,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 126,
+    "allowed_edges": 926,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 126,
+    "allowed_edges": 611,
+    "light_fractional_states": 30,
+    "light_fractional_hidden_singlet_states": 18,
+    "light_reps": {
+     "(1,1)_-1/2*hidden": 3,
+     "(1,2)_0": 3,
+     "(1,1)_1/2*hidden": 3,
+     "(1,1)_-1/2": 6,
+     "(1,1)_1/2": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 192,
+    "allowed_edges": 1472,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 192,
+    "allowed_edges": 1472,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "33": {
+  "label": "A8SM_20260928_6573_TF",
+  "fractional_fields": 112,
+  "fractional_states": 140,
+  "fractional_hidden_singlet_states": 128,
+  "sm_neutral_scalars": 246,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 222,
+    "allowed_edges": 1730,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,1)_1/2": 3,
+     "(1,2)_0": 3,
+     "(1,1)_-1/2": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 222,
+    "allowed_edges": 1730,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,1)_1/2": 3,
+     "(1,2)_0": 3,
+     "(1,1)_-1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 246,
+    "allowed_edges": 1970,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,1)_1/2": 3,
+     "(1,2)_0": 3,
+     "(1,1)_-1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 246,
+    "allowed_edges": 1970,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,1)_1/2": 3,
+     "(1,2)_0": 3,
+     "(1,1)_-1/2": 3
+    }
+   }
+  }
+ },
+ "34": {
+  "label": "A8SM_20260928_7339_TF",
+  "fractional_fields": 112,
+  "fractional_states": 152,
+  "fractional_hidden_singlet_states": 152,
+  "sm_neutral_scalars": 234,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 222,
+    "allowed_edges": 1916,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 222,
+    "allowed_edges": 1916,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 234,
+    "allowed_edges": 1916,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 234,
+    "allowed_edges": 1916,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "35": {
+  "label": "A8SM_20260928_7414_TF",
+  "fractional_fields": 108,
+  "fractional_states": 168,
+  "fractional_hidden_singlet_states": 114,
+  "sm_neutral_scalars": 138,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 126,
+    "allowed_edges": 342,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 126,
+    "allowed_edges": 342,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 138,
+    "allowed_edges": 504,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 138,
+    "allowed_edges": 504,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "36": {
+  "label": "A8SM_20260928_7753_TF",
+  "fractional_fields": 139,
+  "fractional_states": 200,
+  "fractional_hidden_singlet_states": 164,
+  "sm_neutral_scalars": 222,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 198,
+    "allowed_edges": 2711,
+    "light_fractional_states": 24,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,1)_1/2*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 198,
+    "allowed_edges": 2711,
+    "light_fractional_states": 24,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,1)_1/2*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 222,
+    "allowed_edges": 3098,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 222,
+    "allowed_edges": 3098,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "37": {
+  "label": "A8SM_20260928_9767_TF",
+  "fractional_fields": 118,
+  "fractional_states": 160,
+  "fractional_hidden_singlet_states": 160,
+  "sm_neutral_scalars": 198,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 186,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 186,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 198,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 198,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "38": {
+  "label": "A8SM_20260928_10966_TF",
+  "fractional_fields": 108,
+  "fractional_states": 156,
+  "fractional_hidden_singlet_states": 84,
+  "sm_neutral_scalars": 84,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 60,
+    "allowed_edges": 90,
+    "light_fractional_states": 114,
+    "light_fractional_hidden_singlet_states": 66,
+    "light_reps": {
+     "(1,1)_1/3*hidden": 12,
+     "(1,1)_1/3": 15,
+     "(1,2)_1/6": 6,
+     "(1,1)_2/3": 6,
+     "(1,1)_-1/3*hidden": 12,
+     "(1,1)_-1/3": 15,
+     "(1,2)_-1/6": 6,
+     "(1,1)_-2/3": 6
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 60,
+    "allowed_edges": 45,
+    "light_fractional_states": 120,
+    "light_fractional_hidden_singlet_states": 72,
+    "light_reps": {
+     "(1,1)_1/3*hidden": 12,
+     "(1,1)_1/3": 18,
+     "(1,2)_1/6": 6,
+     "(1,1)_-1/3": 18,
+     "(1,1)_2/3": 6,
+     "(1,1)_-1/3*hidden": 12,
+     "(1,2)_-1/6": 6,
+     "(1,1)_-2/3": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 84,
+    "allowed_edges": 810,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 84,
+    "allowed_edges": 225,
+    "light_fractional_states": 78,
+    "light_fractional_hidden_singlet_states": 66,
+    "light_reps": {
+     "(1,1)_1/3": 15,
+     "(1,2)_1/6": 6,
+     "(1,1)_-1/3": 15,
+     "(1,1)_2/3": 6,
+     "(1,2)_-1/6": 6,
+     "(1,1)_-2/3": 6,
+     "(1,1)_-1/3*hidden": 3,
+     "(1,1)_1/3*hidden": 3
+    }
+   }
+  }
+ },
+ "39": {
+  "label": "A8SM_20260928_11188_TF",
+  "fractional_fields": 111,
+  "fractional_states": 162,
+  "fractional_hidden_singlet_states": 114,
+  "sm_neutral_scalars": 60,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 30,
+    "allowed_edges": 126,
+    "light_fractional_states": 120,
+    "light_fractional_hidden_singlet_states": 84,
+    "light_reps": {
+     "(3,1)_-1/3": 3,
+     "(1,1)_1/3": 9,
+     "(1,1)_1/3*hidden": 9,
+     "(1,1)_2/3": 12,
+     "(1,1)_-1/3": 21,
+     "(3,1)_0": 3,
+     "(1,1)_-1/3*hidden": 3,
+     "(-3,1)_0": 3,
+     "(1,1)_-2/3*hidden": 3,
+     "(1,1)_-2/3": 6,
+     "(-3,1)_1/3": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 30,
+    "allowed_edges": 45,
+    "light_fractional_states": 132,
+    "light_fractional_hidden_singlet_states": 96,
+    "light_reps": {
+     "(3,1)_-1/3": 3,
+     "(1,1)_1/3": 15,
+     "(1,1)_1/3*hidden": 9,
+     "(1,1)_2/3": 12,
+     "(1,1)_-1/3": 27,
+     "(3,1)_0": 3,
+     "(1,1)_-1/3*hidden": 3,
+     "(-3,1)_0": 3,
+     "(1,1)_-2/3*hidden": 3,
+     "(1,1)_-2/3": 6,
+     "(-3,1)_1/3": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 60,
+    "allowed_edges": 189,
+    "light_fractional_states": 96,
+    "light_fractional_hidden_singlet_states": 78,
+    "light_reps": {
+     "(3,1)_-1/3": 3,
+     "(1,1)_1/3": 6,
+     "(1,1)_1/3*hidden": 6,
+     "(1,1)_2/3": 12,
+     "(1,1)_-1/3": 18,
+     "(3,1)_0": 3,
+     "(-3,1)_0": 3,
+     "(1,1)_-2/3*hidden": 3,
+     "(1,1)_-2/3": 6,
+     "(-3,1)_1/3": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 60,
+    "allowed_edges": 45,
+    "light_fractional_states": 132,
+    "light_fractional_hidden_singlet_states": 96,
+    "light_reps": {
+     "(3,1)_-1/3": 3,
+     "(1,1)_1/3": 15,
+     "(1,1)_1/3*hidden": 9,
+     "(1,1)_2/3": 12,
+     "(1,1)_-1/3": 27,
+     "(3,1)_0": 3,
+     "(1,1)_-1/3*hidden": 3,
+     "(-3,1)_0": 3,
+     "(1,1)_-2/3*hidden": 3,
+     "(1,1)_-2/3": 6,
+     "(-3,1)_1/3": 3
+    }
+   }
+  }
+ },
+ "40": {
+  "label": "A8SM_20260928_13698_TF",
+  "fractional_fields": 135,
+  "fractional_states": 168,
+  "fractional_hidden_singlet_states": 150,
+  "sm_neutral_scalars": 72,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 66,
+    "allowed_edges": 144,
+    "light_fractional_states": 108,
+    "light_fractional_hidden_singlet_states": 90,
+    "light_reps": {
+     "(1,1)_-1/3": 36,
+     "(-3,1)_0": 3,
+     "(1,1)_1/3": 18,
+     "(3,1)_0": 3,
+     "(1,1)_1/3*hidden": 9,
+     "(1,2)_-1/6": 3,
+     "(1,1)_-2/3": 3,
+     "(1,2)_1/6": 3,
+     "(1,1)_2/3": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 66,
+    "allowed_edges": 126,
+    "light_fractional_states": 120,
+    "light_fractional_hidden_singlet_states": 102,
+    "light_reps": {
+     "(1,1)_-1/3": 42,
+     "(-3,1)_0": 3,
+     "(1,1)_1/3": 24,
+     "(3,1)_0": 3,
+     "(1,1)_1/3*hidden": 9,
+     "(1,2)_-1/6": 3,
+     "(1,1)_-2/3": 3,
+     "(1,2)_1/6": 3,
+     "(1,1)_2/3": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 72,
+    "allowed_edges": 225,
+    "light_fractional_states": 81,
+    "light_fractional_hidden_singlet_states": 81,
+    "light_reps": {
+     "(1,1)_-1/3": 27,
+     "(-3,1)_0": 3,
+     "(1,1)_1/3": 18,
+     "(3,1)_0": 3,
+     "(1,2)_-1/6": 3,
+     "(1,1)_-2/3": 3,
+     "(1,2)_1/6": 3,
+     "(1,1)_2/3": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 72,
+    "allowed_edges": 135,
+    "light_fractional_states": 111,
+    "light_fractional_hidden_singlet_states": 99,
+    "light_reps": {
+     "(1,1)_-1/3": 39,
+     "(-3,1)_0": 3,
+     "(1,1)_1/3": 24,
+     "(3,1)_0": 3,
+     "(1,1)_1/3*hidden": 6,
+     "(1,2)_-1/6": 3,
+     "(1,1)_-2/3": 3,
+     "(1,2)_1/6": 3,
+     "(1,1)_2/3": 3
+    }
+   }
+  }
+ },
+ "41": {
+  "label": "A8SM_20260928_14681_TF",
+  "fractional_fields": 85,
+  "fractional_states": 152,
+  "fractional_hidden_singlet_states": 88,
+  "sm_neutral_scalars": 198,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 186,
+    "allowed_edges": 341,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(-3,1)_1/6*hidden": 3,
+     "(3,1)_-1/6": 6,
+     "(1,1)_1/2": 6,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 186,
+    "allowed_edges": 254,
+    "light_fractional_states": 66,
+    "light_fractional_hidden_singlet_states": 30,
+    "light_reps": {
+     "(1,1)_-1/2": 3,
+     "(-3,1)_1/6*hidden": 3,
+     "(1,1)_1/2": 9,
+     "(1,2)_0*hidden": 3,
+     "(3,1)_-1/6": 6,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 198,
+    "allowed_edges": 1039,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 198,
+    "allowed_edges": 1039,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   }
+  }
+ },
+ "42": {
+  "label": "A8SM_20260928_15565_TF",
+  "fractional_fields": 103,
+  "fractional_states": 176,
+  "fractional_hidden_singlet_states": 124,
+  "sm_neutral_scalars": 180,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 150,
+    "allowed_edges": 1001,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(3,1)_-1/6": 6,
+     "(-3,1)_1/6*hidden": 3,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_1/2": 6
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 150,
+    "allowed_edges": 743,
+    "light_fractional_states": 66,
+    "light_fractional_hidden_singlet_states": 30,
+    "light_reps": {
+     "(1,2)_0*hidden": 3,
+     "(1,1)_1/2": 9,
+     "(3,1)_-1/6": 6,
+     "(-3,1)_1/6*hidden": 3,
+     "(1,1)_-1/2": 3,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 180,
+    "allowed_edges": 1465,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 180,
+    "allowed_edges": 1465,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   }
+  }
+ },
+ "43": {
+  "label": "A8SM_20260928_16432_TF",
+  "fractional_fields": 118,
+  "fractional_states": 140,
+  "fractional_hidden_singlet_states": 140,
+  "sm_neutral_scalars": 234,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 198,
+    "allowed_edges": 2237,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,1)_1/2": 3,
+     "(1,2)_0": 3,
+     "(1,1)_-1/2": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 198,
+    "allowed_edges": 2237,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,1)_1/2": 3,
+     "(1,2)_0": 3,
+     "(1,1)_-1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 234,
+    "allowed_edges": 2237,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,1)_1/2": 3,
+     "(1,2)_0": 3,
+     "(1,1)_-1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 234,
+    "allowed_edges": 2237,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,1)_1/2": 3,
+     "(1,2)_0": 3,
+     "(1,1)_-1/2": 3
+    }
+   }
+  }
+ },
+ "44": {
+  "label": "A8SM_20260928_16834_TF",
+  "fractional_fields": 108,
+  "fractional_states": 210,
+  "fractional_hidden_singlet_states": 138,
+  "sm_neutral_scalars": 96,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 84,
+    "allowed_edges": 468,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 84,
+    "allowed_edges": 162,
+    "light_fractional_states": 180,
+    "light_fractional_hidden_singlet_states": 108,
+    "light_reps": {
+     "(1,2)_1/6": 6,
+     "(1,1)_2/3": 6,
+     "(1,1)_-1/3*hidden": 9,
+     "(1,1)_-1/3": 9,
+     "(1,1)_1/3*hidden": 9,
+     "(1,1)_-2/3": 6,
+     "(1,2)_-1/6": 6,
+     "(1,1)_1/3": 9,
+     "(3,1)_0": 6,
+     "(-3,1)_1/3": 3,
+     "(-3,1)_0": 6,
+     "(3,1)_-1/3": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 96,
+    "allowed_edges": 612,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 96,
+    "allowed_edges": 234,
+    "light_fractional_states": 120,
+    "light_fractional_hidden_singlet_states": 96,
+    "light_reps": {
+     "(1,2)_1/6": 6,
+     "(1,1)_2/3": 6,
+     "(1,1)_-1/3*hidden": 3,
+     "(1,1)_1/3*hidden": 3,
+     "(1,1)_-2/3": 6,
+     "(1,2)_-1/6": 6,
+     "(3,1)_0": 6,
+     "(-3,1)_1/3": 3,
+     "(1,1)_-1/3": 3,
+     "(1,1)_1/3": 3,
+     "(-3,1)_0": 6,
+     "(3,1)_-1/3": 3
+    }
+   }
+  }
+ },
+ "45": {
+  "label": "A8SM_20260928_17793_TF",
+  "fractional_fields": 102,
+  "fractional_states": 210,
+  "fractional_hidden_singlet_states": 114,
+  "sm_neutral_scalars": 60,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 30,
+    "allowed_edges": 0,
+    "light_fractional_states": 210,
+    "light_fractional_hidden_singlet_states": 114,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 15,
+     "(1,1)_-1/3": 18,
+     "(1,2)_-1/6": 12,
+     "(1,1)_1/3*hidden": 12,
+     "(-3,1)_0": 3,
+     "(-3,1)_1/3": 3,
+     "(3,1)_0": 3,
+     "(1,2)_1/6*hidden": 3,
+     "(1,2)_1/6": 6,
+     "(1,1)_1/3": 24,
+     "(3,1)_-1/3": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 30,
+    "allowed_edges": 0,
+    "light_fractional_states": 210,
+    "light_fractional_hidden_singlet_states": 114,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 15,
+     "(1,1)_-1/3": 18,
+     "(1,2)_-1/6": 12,
+     "(1,1)_1/3*hidden": 12,
+     "(-3,1)_0": 3,
+     "(-3,1)_1/3": 3,
+     "(3,1)_0": 3,
+     "(1,2)_1/6*hidden": 3,
+     "(1,2)_1/6": 6,
+     "(1,1)_1/3": 24,
+     "(3,1)_-1/3": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 60,
+    "allowed_edges": 153,
+    "light_fractional_states": 126,
+    "light_fractional_hidden_singlet_states": 96,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 6,
+     "(1,1)_-1/3": 9,
+     "(1,2)_-1/6": 12,
+     "(-3,1)_0": 3,
+     "(-3,1)_1/3": 3,
+     "(3,1)_0": 3,
+     "(1,2)_1/6*hidden": 3,
+     "(1,2)_1/6": 6,
+     "(1,1)_1/3*hidden": 3,
+     "(1,1)_1/3": 15,
+     "(3,1)_-1/3": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 60,
+    "allowed_edges": 36,
+    "light_fractional_states": 165,
+    "light_fractional_hidden_singlet_states": 105,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 9,
+     "(1,1)_-1/3": 15,
+     "(1,2)_-1/6": 12,
+     "(1,1)_1/3*hidden": 9,
+     "(-3,1)_0": 3,
+     "(-3,1)_1/3": 3,
+     "(3,1)_0": 3,
+     "(1,2)_1/6*hidden": 3,
+     "(1,2)_1/6": 6,
+     "(1,1)_1/3": 18,
+     "(3,1)_-1/3": 3
+    }
+   }
+  }
+ },
+ "46": {
+  "label": "A8SM_20260928_17993_TF",
+  "fractional_fields": 98,
+  "fractional_states": 148,
+  "fractional_hidden_singlet_states": 96,
+  "sm_neutral_scalars": 210,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 174,
+    "allowed_edges": 883,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 174,
+    "allowed_edges": 883,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 210,
+    "allowed_edges": 1687,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 210,
+    "allowed_edges": 1687,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "47": {
+  "label": "A8SM_20260928_18573_TF",
+  "fractional_fields": 118,
+  "fractional_states": 160,
+  "fractional_hidden_singlet_states": 160,
+  "sm_neutral_scalars": 198,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 198,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 198,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 198,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 198,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "48": {
+  "label": "A8SM_20260928_19529_TF",
+  "fractional_fields": 109,
+  "fractional_states": 176,
+  "fractional_hidden_singlet_states": 136,
+  "sm_neutral_scalars": 162,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 126,
+    "allowed_edges": 1429,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(3,1)_-1/6": 6,
+     "(-3,1)_1/6*hidden": 3,
+     "(1,1)_1/2": 6,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 126,
+    "allowed_edges": 1117,
+    "light_fractional_states": 66,
+    "light_fractional_hidden_singlet_states": 30,
+    "light_reps": {
+     "(1,2)_0*hidden": 3,
+     "(3,1)_-1/6": 6,
+     "(-3,1)_1/6*hidden": 3,
+     "(1,1)_1/2": 9,
+     "(1,1)_-1/2": 3,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 162,
+    "allowed_edges": 1687,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 162,
+    "allowed_edges": 1687,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   }
+  }
+ },
+ "49": {
+  "label": "A8SM_20260928_19635_TF",
+  "fractional_fields": 109,
+  "fractional_states": 188,
+  "fractional_hidden_singlet_states": 98,
+  "sm_neutral_scalars": 246,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 234,
+    "allowed_edges": 731,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,1)_1/2*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,2)_0": 3,
+     "(1,1)_1/2": 3,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_-1/2": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 234,
+    "allowed_edges": 731,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,1)_1/2*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,2)_0": 3,
+     "(1,1)_1/2": 3,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_-1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 246,
+    "allowed_edges": 1772,
+    "light_fractional_states": 36,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,1)_1/2*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 246,
+    "allowed_edges": 1772,
+    "light_fractional_states": 36,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,1)_1/2*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,1)_-1/2*hidden": 3
+    }
+   }
+  }
+ },
+ "50": {
+  "label": "A8SM_20260928_19804_TF",
+  "fractional_fields": 105,
+  "fractional_states": 192,
+  "fractional_hidden_singlet_states": 112,
+  "sm_neutral_scalars": 174,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 138,
+    "allowed_edges": 782,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(-3,1)_-1/6": 6,
+     "(3,1)_1/6*hidden": 3,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_1/2": 6
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 138,
+    "allowed_edges": 782,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(-3,1)_-1/6": 6,
+     "(3,1)_1/6*hidden": 3,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_1/2": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 174,
+    "allowed_edges": 1537,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(-3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 174,
+    "allowed_edges": 1537,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(-3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   }
+  }
+ },
+ "51": {
+  "label": "A8SM_20260928_438_TF",
+  "fractional_fields": 110,
+  "fractional_states": 208,
+  "fractional_hidden_singlet_states": 148,
+  "sm_neutral_scalars": 174,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 150,
+    "allowed_edges": 1302,
+    "light_fractional_states": 90,
+    "light_fractional_hidden_singlet_states": 36,
+    "light_reps": {
+     "(-3,1)_-1/6": 9,
+     "(1,1)_-1/2*hidden": 3,
+     "(3,1)_1/6*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,1)_1/2": 9
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 150,
+    "allowed_edges": 1302,
+    "light_fractional_states": 90,
+    "light_fractional_hidden_singlet_states": 36,
+    "light_reps": {
+     "(-3,1)_-1/6": 9,
+     "(1,1)_-1/2*hidden": 3,
+     "(3,1)_1/6*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,1)_1/2": 9
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 174,
+    "allowed_edges": 1585,
+    "light_fractional_states": 24,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(-3,1)_-1/6": 6,
+     "(1,1)_1/2": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 174,
+    "allowed_edges": 1585,
+    "light_fractional_states": 24,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(-3,1)_-1/6": 6,
+     "(1,1)_1/2": 6
+    }
+   }
+  }
+ },
+ "52": {
+  "label": "A8SM_20260928_515_TF",
+  "fractional_fields": 101,
+  "fractional_states": 172,
+  "fractional_hidden_singlet_states": 132,
+  "sm_neutral_scalars": 150,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 102,
+    "allowed_edges": 1099,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(3,1)_1/6*hidden": 3,
+     "(1,1)_-1/2*hidden": 3,
+     "(-3,1)_-1/6": 6,
+     "(1,1)_1/2": 6
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 102,
+    "allowed_edges": 1099,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(3,1)_1/6*hidden": 3,
+     "(1,1)_-1/2*hidden": 3,
+     "(-3,1)_-1/6": 6,
+     "(1,1)_1/2": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 150,
+    "allowed_edges": 1339,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(-3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 150,
+    "allowed_edges": 1339,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(-3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   }
+  }
+ },
+ "53": {
+  "label": "A8SM_20260928_533_TF",
+  "fractional_fields": 102,
+  "fractional_states": 156,
+  "fractional_hidden_singlet_states": 78,
+  "sm_neutral_scalars": 138,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 120,
+    "allowed_edges": 261,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 120,
+    "allowed_edges": 261,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 138,
+    "allowed_edges": 477,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 138,
+    "allowed_edges": 477,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "54": {
+  "label": "A8SM_20260928_783_TF",
+  "fractional_fields": 88,
+  "fractional_states": 176,
+  "fractional_hidden_singlet_states": 116,
+  "sm_neutral_scalars": 150,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 114,
+    "allowed_edges": 335,
+    "light_fractional_states": 114,
+    "light_fractional_hidden_singlet_states": 60,
+    "light_reps": {
+     "(1,1)_-1/2*hidden": 3,
+     "(3,1)_1/6*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(-3,1)_-1/6": 9,
+     "(1,1)_-1/2": 3,
+     "(1,1)_1/2": 12,
+     "(1,2)_0": 9
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 114,
+    "allowed_edges": 308,
+    "light_fractional_states": 114,
+    "light_fractional_hidden_singlet_states": 60,
+    "light_reps": {
+     "(1,1)_-1/2*hidden": 3,
+     "(3,1)_1/6*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,1)_-1/2": 3,
+     "(-3,1)_-1/6": 9,
+     "(1,1)_1/2": 12,
+     "(1,2)_0": 9
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 150,
+    "allowed_edges": 994,
+    "light_fractional_states": 24,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(-3,1)_-1/6": 6,
+     "(1,1)_1/2": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 150,
+    "allowed_edges": 994,
+    "light_fractional_states": 24,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(-3,1)_-1/6": 6,
+     "(1,1)_1/2": 6
+    }
+   }
+  }
+ },
+ "55": {
+  "label": "A8SM_20260928_1279_TF",
+  "fractional_fields": 123,
+  "fractional_states": 200,
+  "fractional_hidden_singlet_states": 140,
+  "sm_neutral_scalars": 222,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 198,
+    "allowed_edges": 1683,
+    "light_fractional_states": 42,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,2)_0*hidden": 3,
+     "(1,1)_1/2*hidden": 6,
+     "(1,1)_-1/2*hidden": 6
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 198,
+    "allowed_edges": 1683,
+    "light_fractional_states": 42,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,2)_0*hidden": 3,
+     "(1,1)_1/2*hidden": 6,
+     "(1,1)_-1/2*hidden": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 222,
+    "allowed_edges": 2330,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 222,
+    "allowed_edges": 2330,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "56": {
+  "label": "A8SM_20260928_1953_TF",
+  "fractional_fields": 120,
+  "fractional_states": 204,
+  "fractional_hidden_singlet_states": 144,
+  "sm_neutral_scalars": 108,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 96,
+    "allowed_edges": 288,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 96,
+    "allowed_edges": 54,
+    "light_fractional_states": 168,
+    "light_fractional_hidden_singlet_states": 108,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 9,
+     "(1,2)_1/6": 9,
+     "(1,1)_1/3*hidden": 9,
+     "(1,2)_-1/6": 9,
+     "(1,1)_-2/3": 6,
+     "(1,1)_-1/3": 12,
+     "(1,1)_2/3": 6,
+     "(1,1)_1/3": 12,
+     "(-3,1)_-1/3": 3,
+     "(3,1)_1/3": 3,
+     "(3,1)_0": 3,
+     "(-3,1)_0": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 108,
+    "allowed_edges": 342,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 108,
+    "allowed_edges": 72,
+    "light_fractional_states": 153,
+    "light_fractional_hidden_singlet_states": 113,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 7,
+     "(1,2)_1/6": 9,
+     "(1,1)_1/3*hidden": 6,
+     "(1,2)_-1/6": 9,
+     "(1,1)_1/3": 15,
+     "(1,1)_-2/3": 6,
+     "(1,1)_-1/3": 14,
+     "(1,1)_2/3": 6,
+     "(-3,1)_-1/3": 3,
+     "(3,1)_1/3": 3,
+     "(3,1)_0": 3,
+     "(-3,1)_0": 3
+    }
+   }
+  }
+ },
+ "57": {
+  "label": "A8SM_20260928_2233_TF",
+  "fractional_fields": 150,
+  "fractional_states": 222,
+  "fractional_hidden_singlet_states": 222,
+  "sm_neutral_scalars": 132,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 126,
+    "allowed_edges": 1449,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 126,
+    "allowed_edges": 1449,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 132,
+    "allowed_edges": 1449,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 132,
+    "allowed_edges": 1449,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "58": {
+  "label": "A8SM_20260928_2321_TF",
+  "fractional_fields": 135,
+  "fractional_states": 168,
+  "fractional_hidden_singlet_states": 150,
+  "sm_neutral_scalars": 84,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 78,
+    "allowed_edges": 234,
+    "light_fractional_states": 102,
+    "light_fractional_hidden_singlet_states": 84,
+    "light_reps": {
+     "(-3,1)_0": 3,
+     "(1,1)_1/3": 33,
+     "(1,1)_-1/3*hidden": 9,
+     "(1,1)_-1/3": 15,
+     "(3,1)_0": 3,
+     "(1,1)_-2/3": 3,
+     "(1,1)_2/3": 3,
+     "(1,2)_-1/6": 3,
+     "(1,2)_1/6": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 78,
+    "allowed_edges": 189,
+    "light_fractional_states": 114,
+    "light_fractional_hidden_singlet_states": 96,
+    "light_reps": {
+     "(-3,1)_0": 3,
+     "(1,1)_1/3": 39,
+     "(1,1)_-1/3": 21,
+     "(1,1)_-1/3*hidden": 9,
+     "(3,1)_0": 3,
+     "(1,1)_-2/3": 3,
+     "(1,1)_2/3": 3,
+     "(1,2)_-1/6": 3,
+     "(1,2)_1/6": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 84,
+    "allowed_edges": 549,
+    "light_fractional_states": 45,
+    "light_fractional_hidden_singlet_states": 45,
+    "light_reps": {
+     "(1,1)_1/3": 18,
+     "(1,1)_-1/3": 9,
+     "(1,1)_-2/3": 3,
+     "(1,1)_2/3": 3,
+     "(1,2)_-1/6": 3,
+     "(1,2)_1/6": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 84,
+    "allowed_edges": 225,
+    "light_fractional_states": 105,
+    "light_fractional_hidden_singlet_states": 93,
+    "light_reps": {
+     "(-3,1)_0": 3,
+     "(1,1)_1/3": 36,
+     "(1,1)_-1/3": 21,
+     "(1,1)_-1/3*hidden": 6,
+     "(3,1)_0": 3,
+     "(1,1)_-2/3": 3,
+     "(1,1)_2/3": 3,
+     "(1,2)_-1/6": 3,
+     "(1,2)_1/6": 3
+    }
+   }
+  }
+ },
+ "59": {
+  "label": "A8SM_20260928_2866_TF",
+  "fractional_fields": 118,
+  "fractional_states": 160,
+  "fractional_hidden_singlet_states": 160,
+  "sm_neutral_scalars": 198,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 186,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 186,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 198,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 198,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "60": {
+  "label": "A8SM_20260928_3721_TF",
+  "fractional_fields": 126,
+  "fractional_states": 168,
+  "fractional_hidden_singlet_states": 132,
+  "sm_neutral_scalars": 132,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 132,
+    "allowed_edges": 639,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 132,
+    "allowed_edges": 306,
+    "light_fractional_states": 60,
+    "light_fractional_hidden_singlet_states": 60,
+    "light_reps": {
+     "(1,1)_-1/3": 12,
+     "(-3,1)_0": 3,
+     "(3,1)_0": 3,
+     "(1,1)_1/3": 12,
+     "(1,1)_-2/3": 3,
+     "(1,2)_1/6": 3,
+     "(1,2)_-1/6": 3,
+     "(1,1)_2/3": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 132,
+    "allowed_edges": 639,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 132,
+    "allowed_edges": 306,
+    "light_fractional_states": 60,
+    "light_fractional_hidden_singlet_states": 60,
+    "light_reps": {
+     "(1,1)_-1/3": 12,
+     "(-3,1)_0": 3,
+     "(3,1)_0": 3,
+     "(1,1)_1/3": 12,
+     "(1,1)_-2/3": 3,
+     "(1,2)_1/6": 3,
+     "(1,2)_-1/6": 3,
+     "(1,1)_2/3": 3
+    }
+   }
+  }
+ },
+ "61": {
+  "label": "A8SM_20260928_3762_TF",
+  "fractional_fields": 139,
+  "fractional_states": 200,
+  "fractional_hidden_singlet_states": 164,
+  "sm_neutral_scalars": 222,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 198,
+    "allowed_edges": 2711,
+    "light_fractional_states": 24,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,1)_1/2*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 198,
+    "allowed_edges": 2711,
+    "light_fractional_states": 24,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,1)_1/2*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 222,
+    "allowed_edges": 3098,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 222,
+    "allowed_edges": 3098,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "62": {
+  "label": "A8SM_20260928_3994_TF",
+  "fractional_fields": 105,
+  "fractional_states": 192,
+  "fractional_hidden_singlet_states": 112,
+  "sm_neutral_scalars": 174,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 138,
+    "allowed_edges": 782,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(3,1)_1/6*hidden": 3,
+     "(-3,1)_-1/6": 6,
+     "(1,1)_1/2": 6,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 138,
+    "allowed_edges": 782,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(3,1)_1/6*hidden": 3,
+     "(-3,1)_-1/6": 6,
+     "(1,1)_1/2": 6,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 174,
+    "allowed_edges": 1537,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(-3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 174,
+    "allowed_edges": 1537,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(-3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   }
+  }
+ },
+ "63": {
+  "label": "A8SM_20260928_4537_TF",
+  "fractional_fields": 167,
+  "fractional_states": 266,
+  "fractional_hidden_singlet_states": 150,
+  "sm_neutral_scalars": 78,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 72,
+    "allowed_edges": 547,
+    "light_fractional_states": 96,
+    "light_fractional_hidden_singlet_states": 36,
+    "light_reps": {
+     "(1,1)_-1/3": 6,
+     "(1,1)_-1/3*hidden": 3,
+     "(1,1)_1/3": 6,
+     "(1,1)_1/3*hidden": 3,
+     "(1,1)_1/2": 3,
+     "(1,2)_0": 6,
+     "(1,1)_1/2*hidden": 3,
+     "(1,1)_-1/6*hidden": 3,
+     "(1,1)_-1/6": 3,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_-1/2": 3,
+     "(1,1)_1/6": 3,
+     "(1,1)_1/6*hidden": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 72,
+    "allowed_edges": 358,
+    "light_fractional_states": 114,
+    "light_fractional_hidden_singlet_states": 54,
+    "light_reps": {
+     "(1,1)_-1/3": 9,
+     "(1,1)_-1/3*hidden": 3,
+     "(1,1)_1/3*hidden": 3,
+     "(1,1)_1/3": 9,
+     "(1,1)_1/2": 3,
+     "(1,2)_0": 6,
+     "(1,1)_1/2*hidden": 3,
+     "(1,1)_-1/6*hidden": 3,
+     "(1,1)_-1/6": 9,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_-1/2": 3,
+     "(1,1)_1/6*hidden": 3,
+     "(1,1)_1/6": 9
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 78,
+    "allowed_edges": 586,
+    "light_fractional_states": 66,
+    "light_fractional_hidden_singlet_states": 36,
+    "light_reps": {
+     "(1,1)_-1/3": 6,
+     "(1,1)_1/3": 6,
+     "(1,1)_1/2*hidden": 3,
+     "(1,1)_1/2": 3,
+     "(1,2)_0": 6,
+     "(1,1)_-1/6": 3,
+     "(1,1)_-1/6*hidden": 3,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_-1/2": 3,
+     "(1,1)_1/6": 3,
+     "(1,1)_1/6*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 78,
+    "allowed_edges": 361,
+    "light_fractional_states": 116,
+    "light_fractional_hidden_singlet_states": 54,
+    "light_reps": {
+     "(1,1)_-1/3": 9,
+     "(1,1)_-1/3*hidden": 3,
+     "(1,1)_1/3*hidden": 3,
+     "(1,1)_1/3": 9,
+     "(1,1)_1/2*hidden": 3,
+     "(1,1)_1/2": 3,
+     "(1,2)_0": 6,
+     "(1,1)_-1/6*hidden": 3,
+     "(1,1)_-1/6": 9,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_-1/2": 3,
+     "(1,1)_1/6*hidden": 3,
+     "(1,1)_1/6": 9
+    }
+   }
+  }
+ },
+ "64": {
+  "label": "A8SM_20260928_6052_TF",
+  "fractional_fields": 106,
+  "fractional_states": 136,
+  "fractional_hidden_singlet_states": 136,
+  "sm_neutral_scalars": 210,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 198,
+    "allowed_edges": 1861,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 198,
+    "allowed_edges": 1861,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 210,
+    "allowed_edges": 1861,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 210,
+    "allowed_edges": 1861,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "65": {
+  "label": "A8SM_20260928_7100_TF",
+  "fractional_fields": 113,
+  "fractional_states": 176,
+  "fractional_hidden_singlet_states": 140,
+  "sm_neutral_scalars": 174,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 162,
+    "allowed_edges": 1405,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 162,
+    "allowed_edges": 994,
+    "light_fractional_states": 66,
+    "light_fractional_hidden_singlet_states": 42,
+    "light_reps": {
+     "(3,1)_1/6": 3,
+     "(1,1)_1/2*hidden": 6,
+     "(1,2)_0": 3,
+     "(-3,1)_-1/6": 3,
+     "(1,1)_-1/2*hidden": 6,
+     "(1,1)_1/2": 9,
+     "(1,1)_-1/2": 9
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 174,
+    "allowed_edges": 1867,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 174,
+    "allowed_edges": 1189,
+    "light_fractional_states": 60,
+    "light_fractional_hidden_singlet_states": 48,
+    "light_reps": {
+     "(3,1)_1/6": 3,
+     "(1,1)_1/2*hidden": 6,
+     "(1,2)_0": 3,
+     "(-3,1)_-1/6": 3,
+     "(1,1)_-1/2": 15,
+     "(1,1)_1/2": 9
+    }
+   }
+  }
+ },
+ "66": {
+  "label": "A8SM_20260928_7616_TF",
+  "fractional_fields": 120,
+  "fractional_states": 168,
+  "fractional_hidden_singlet_states": 126,
+  "sm_neutral_scalars": 132,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 120,
+    "allowed_edges": 576,
+    "light_fractional_states": 24,
+    "light_fractional_hidden_singlet_states": 6,
+    "light_reps": {
+     "(1,1)_1/3*hidden": 3,
+     "(1,1)_-1/3": 3,
+     "(1,1)_-1/3*hidden": 3,
+     "(1,1)_1/3": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 120,
+    "allowed_edges": 540,
+    "light_fractional_states": 42,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 6,
+     "(1,1)_1/3*hidden": 6,
+     "(1,1)_-2/3": 3,
+     "(1,1)_-1/3": 3,
+     "(1,1)_2/3": 3,
+     "(1,1)_1/3": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 132,
+    "allowed_edges": 774,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 132,
+    "allowed_edges": 576,
+    "light_fractional_states": 30,
+    "light_fractional_hidden_singlet_states": 18,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 3,
+     "(1,1)_1/3*hidden": 3,
+     "(1,1)_1/3": 6,
+     "(1,1)_-2/3": 3,
+     "(1,1)_-1/3": 6,
+     "(1,1)_2/3": 3
+    }
+   }
+  }
+ },
+ "67": {
+  "label": "A8SM_20260928_9667_TF",
+  "fractional_fields": 108,
+  "fractional_states": 180,
+  "fractional_hidden_singlet_states": 114,
+  "sm_neutral_scalars": 66,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 42,
+    "allowed_edges": 180,
+    "light_fractional_states": 108,
+    "light_fractional_hidden_singlet_states": 54,
+    "light_reps": {
+     "(-3,1)_-1/3": 3,
+     "(1,2)_-1/6": 3,
+     "(1,1)_2/3": 3,
+     "(1,1)_-1/3*hidden": 9,
+     "(1,1)_-1/3": 9,
+     "(1,1)_1/3*hidden": 9,
+     "(1,1)_1/3": 9,
+     "(1,1)_-2/3": 3,
+     "(3,1)_1/3": 3,
+     "(1,2)_1/6": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 42,
+    "allowed_edges": 99,
+    "light_fractional_states": 120,
+    "light_fractional_hidden_singlet_states": 66,
+    "light_reps": {
+     "(-3,1)_-1/3": 3,
+     "(1,2)_-1/6": 3,
+     "(1,1)_2/3": 3,
+     "(1,1)_-1/3*hidden": 9,
+     "(1,1)_-1/3": 15,
+     "(1,1)_1/3": 15,
+     "(1,1)_1/3*hidden": 9,
+     "(1,1)_-2/3": 3,
+     "(3,1)_1/3": 3,
+     "(1,2)_1/6": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 66,
+    "allowed_edges": 243,
+    "light_fractional_states": 84,
+    "light_fractional_hidden_singlet_states": 48,
+    "light_reps": {
+     "(-3,1)_-1/3": 3,
+     "(1,2)_-1/6": 3,
+     "(1,1)_2/3": 3,
+     "(1,1)_-1/3*hidden": 6,
+     "(1,1)_-1/3": 6,
+     "(1,1)_1/3*hidden": 6,
+     "(1,1)_1/3": 6,
+     "(1,1)_-2/3": 3,
+     "(3,1)_1/3": 3,
+     "(1,2)_1/6": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 66,
+    "allowed_edges": 99,
+    "light_fractional_states": 120,
+    "light_fractional_hidden_singlet_states": 66,
+    "light_reps": {
+     "(-3,1)_-1/3": 3,
+     "(1,2)_-1/6": 3,
+     "(1,1)_2/3": 3,
+     "(1,1)_-1/3*hidden": 9,
+     "(1,1)_-1/3": 15,
+     "(1,1)_1/3": 15,
+     "(1,1)_1/3*hidden": 9,
+     "(1,1)_-2/3": 3,
+     "(3,1)_1/3": 3,
+     "(1,2)_1/6": 3
+    }
+   }
+  }
+ },
+ "68": {
+  "label": "A8SM_20260928_10006_TF",
+  "fractional_fields": 100,
+  "fractional_states": 152,
+  "fractional_hidden_singlet_states": 100,
+  "sm_neutral_scalars": 174,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 138,
+    "allowed_edges": 614,
+    "light_fractional_states": 24,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,1)_1/2*hidden": 3,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_-1/2": 6,
+     "(1,1)_1/2": 6
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 138,
+    "allowed_edges": 560,
+    "light_fractional_states": 78,
+    "light_fractional_hidden_singlet_states": 30,
+    "light_reps": {
+     "(1,1)_1/2*hidden": 9,
+     "(3,1)_-1/6": 3,
+     "(1,1)_-1/2*hidden": 9,
+     "(1,1)_-1/2": 6,
+     "(-3,1)_1/6": 3,
+     "(1,1)_1/2": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 174,
+    "allowed_edges": 1894,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 174,
+    "allowed_edges": 1894,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "69": {
+  "label": "A8SM_20260928_10086_TF",
+  "fractional_fields": 108,
+  "fractional_states": 168,
+  "fractional_hidden_singlet_states": 114,
+  "sm_neutral_scalars": 138,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 126,
+    "allowed_edges": 342,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 126,
+    "allowed_edges": 342,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 138,
+    "allowed_edges": 504,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 138,
+    "allowed_edges": 504,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "70": {
+  "label": "A8SM_20260928_10139_TF",
+  "fractional_fields": 131,
+  "fractional_states": 188,
+  "fractional_hidden_singlet_states": 152,
+  "sm_neutral_scalars": 258,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 246,
+    "allowed_edges": 2429,
+    "light_fractional_states": 24,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,1)_1/2*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 246,
+    "allowed_edges": 2429,
+    "light_fractional_states": 24,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,1)_1/2*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 258,
+    "allowed_edges": 2792,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 258,
+    "allowed_edges": 2792,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "71": {
+  "label": "A8SM_20260928_10269_TF",
+  "fractional_fields": 126,
+  "fractional_states": 168,
+  "fractional_hidden_singlet_states": 132,
+  "sm_neutral_scalars": 102,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 90,
+    "allowed_edges": 297,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 90,
+    "allowed_edges": 297,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 102,
+    "allowed_edges": 423,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 102,
+    "allowed_edges": 297,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "72": {
+  "label": "A8SM_20260928_10545_TF",
+  "fractional_fields": 97,
+  "fractional_states": 200,
+  "fractional_hidden_singlet_states": 128,
+  "sm_neutral_scalars": 150,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 126,
+    "allowed_edges": 488,
+    "light_fractional_states": 120,
+    "light_fractional_hidden_singlet_states": 66,
+    "light_reps": {
+     "(3,1)_1/6*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,1)_-1/2": 6,
+     "(-3,1)_-1/6": 9,
+     "(1,2)_0": 9,
+     "(1,1)_1/2": 15,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 126,
+    "allowed_edges": 488,
+    "light_fractional_states": 120,
+    "light_fractional_hidden_singlet_states": 66,
+    "light_reps": {
+     "(3,1)_1/6*hidden": 3,
+     "(1,2)_0*hidden": 3,
+     "(1,1)_-1/2": 6,
+     "(-3,1)_-1/6": 9,
+     "(1,2)_0": 9,
+     "(1,1)_1/2": 15,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 150,
+    "allowed_edges": 1135,
+    "light_fractional_states": 24,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(-3,1)_-1/6": 6,
+     "(1,1)_1/2": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 150,
+    "allowed_edges": 1135,
+    "light_fractional_states": 24,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(-3,1)_-1/6": 6,
+     "(1,1)_1/2": 6
+    }
+   }
+  }
+ },
+ "73": {
+  "label": "A8SM_20260928_10740_TF",
+  "fractional_fields": 106,
+  "fractional_states": 176,
+  "fractional_hidden_singlet_states": 112,
+  "sm_neutral_scalars": 174,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 150,
+    "allowed_edges": 668,
+    "light_fractional_states": 36,
+    "light_fractional_hidden_singlet_states": 18,
+    "light_reps": {
+     "(1,2)_0": 6,
+     "(1,1)_1/2*hidden": 3,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_-1/2": 3,
+     "(1,1)_1/2": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 150,
+    "allowed_edges": 548,
+    "light_fractional_states": 84,
+    "light_fractional_hidden_singlet_states": 36,
+    "light_reps": {
+     "(1,2)_0": 6,
+     "(1,1)_1/2*hidden": 9,
+     "(1,1)_-1/2*hidden": 9,
+     "(1,1)_-1/2": 3,
+     "(-3,1)_-1/6": 3,
+     "(3,1)_1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 174,
+    "allowed_edges": 1921,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 174,
+    "allowed_edges": 1921,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "74": {
+  "label": "A8SM_20260928_10864_TF",
+  "fractional_fields": 138,
+  "fractional_states": 156,
+  "fractional_hidden_singlet_states": 144,
+  "sm_neutral_scalars": 120,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 114,
+    "allowed_edges": 927,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 114,
+    "allowed_edges": 567,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 120,
+    "allowed_edges": 963,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 120,
+    "allowed_edges": 567,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "75": {
+  "label": "A8SM_20260928_12722_TF",
+  "fractional_fields": 108,
+  "fractional_states": 156,
+  "fractional_hidden_singlet_states": 84,
+  "sm_neutral_scalars": 72,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 66,
+    "allowed_edges": 99,
+    "light_fractional_states": 114,
+    "light_fractional_hidden_singlet_states": 66,
+    "light_reps": {
+     "(1,1)_1/3": 15,
+     "(1,1)_-1/3*hidden": 12,
+     "(1,2)_-1/6": 6,
+     "(1,1)_-2/3": 6,
+     "(1,2)_1/6": 6,
+     "(1,1)_2/3": 6,
+     "(1,1)_-1/3": 15,
+     "(1,1)_1/3*hidden": 12
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 66,
+    "allowed_edges": 99,
+    "light_fractional_states": 114,
+    "light_fractional_hidden_singlet_states": 66,
+    "light_reps": {
+     "(1,1)_1/3": 15,
+     "(1,1)_-1/3*hidden": 12,
+     "(1,2)_-1/6": 6,
+     "(1,1)_-2/3": 6,
+     "(1,2)_1/6": 6,
+     "(1,1)_2/3": 6,
+     "(1,1)_-1/3": 15,
+     "(1,1)_1/3*hidden": 12
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 72,
+    "allowed_edges": 144,
+    "light_fractional_states": 113,
+    "light_fractional_hidden_singlet_states": 67,
+    "light_reps": {
+     "(1,1)_1/3": 15,
+     "(1,1)_-1/3*hidden": 11,
+     "(1,2)_-1/6": 6,
+     "(1,1)_-2/3": 6,
+     "(1,2)_1/6": 6,
+     "(1,1)_2/3": 6,
+     "(1,1)_-1/3": 16,
+     "(1,1)_1/3*hidden": 12
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 72,
+    "allowed_edges": 99,
+    "light_fractional_states": 114,
+    "light_fractional_hidden_singlet_states": 66,
+    "light_reps": {
+     "(1,1)_1/3": 15,
+     "(1,1)_-1/3*hidden": 12,
+     "(1,2)_-1/6": 6,
+     "(1,1)_-2/3": 6,
+     "(1,2)_1/6": 6,
+     "(1,1)_2/3": 6,
+     "(1,1)_-1/3": 15,
+     "(1,1)_1/3*hidden": 12
+    }
+   }
+  }
+ },
+ "76": {
+  "label": "A8SM_20260928_14359_TF",
+  "fractional_fields": 102,
+  "fractional_states": 198,
+  "fractional_hidden_singlet_states": 138,
+  "sm_neutral_scalars": 66,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 42,
+    "allowed_edges": 90,
+    "light_fractional_states": 126,
+    "light_fractional_hidden_singlet_states": 66,
+    "light_reps": {
+     "(1,1)_1/3*hidden": 9,
+     "(1,2)_-1/6": 3,
+     "(3,1)_-1/3": 3,
+     "(1,1)_-1/3*hidden": 9,
+     "(3,1)_0": 6,
+     "(-3,1)_1/3": 3,
+     "(1,2)_1/6": 3,
+     "(-3,1)_0": 6
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 42,
+    "allowed_edges": 90,
+    "light_fractional_states": 126,
+    "light_fractional_hidden_singlet_states": 66,
+    "light_reps": {
+     "(1,1)_1/3*hidden": 9,
+     "(1,2)_-1/6": 3,
+     "(3,1)_-1/3": 3,
+     "(1,1)_-1/3*hidden": 9,
+     "(3,1)_0": 6,
+     "(-3,1)_1/3": 3,
+     "(1,2)_1/6": 3,
+     "(-3,1)_0": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 66,
+    "allowed_edges": 189,
+    "light_fractional_states": 90,
+    "light_fractional_hidden_singlet_states": 66,
+    "light_reps": {
+     "(1,2)_-1/6": 3,
+     "(3,1)_-1/3": 3,
+     "(3,1)_0": 6,
+     "(1,1)_-1/3*hidden": 3,
+     "(-3,1)_1/3": 3,
+     "(1,2)_1/6": 3,
+     "(-3,1)_0": 6,
+     "(1,1)_1/3*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 66,
+    "allowed_edges": 144,
+    "light_fractional_states": 90,
+    "light_fractional_hidden_singlet_states": 66,
+    "light_reps": {
+     "(1,2)_-1/6": 3,
+     "(3,1)_-1/3": 3,
+     "(3,1)_0": 6,
+     "(1,1)_-1/3*hidden": 3,
+     "(-3,1)_1/3": 3,
+     "(1,2)_1/6": 3,
+     "(-3,1)_0": 6,
+     "(1,1)_1/3*hidden": 3
+    }
+   }
+  }
+ },
+ "77": {
+  "label": "A8SM_20260928_14608_TF",
+  "fractional_fields": 102,
+  "fractional_states": 162,
+  "fractional_hidden_singlet_states": 102,
+  "sm_neutral_scalars": 132,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 120,
+    "allowed_edges": 513,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 120,
+    "allowed_edges": 513,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 132,
+    "allowed_edges": 639,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 132,
+    "allowed_edges": 639,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "78": {
+  "label": "A8SM_20260928_14914_TF",
+  "fractional_fields": 102,
+  "fractional_states": 156,
+  "fractional_hidden_singlet_states": 78,
+  "sm_neutral_scalars": 138,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 120,
+    "allowed_edges": 261,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 120,
+    "allowed_edges": 261,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 138,
+    "allowed_edges": 477,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 138,
+    "allowed_edges": 477,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "79": {
+  "label": "A8SM_20260928_14993_TF",
+  "fractional_fields": 114,
+  "fractional_states": 156,
+  "fractional_hidden_singlet_states": 96,
+  "sm_neutral_scalars": 102,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 84,
+    "allowed_edges": 333,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 84,
+    "allowed_edges": 333,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 102,
+    "allowed_edges": 369,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 102,
+    "allowed_edges": 369,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "80": {
+  "label": "A8SM_20260928_17724_TF",
+  "fractional_fields": 122,
+  "fractional_states": 172,
+  "fractional_hidden_singlet_states": 130,
+  "sm_neutral_scalars": 222,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 186,
+    "allowed_edges": 1827,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,1)_1/2": 3,
+     "(1,2)_0": 3,
+     "(1,1)_-1/2": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 186,
+    "allowed_edges": 1827,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,1)_1/2": 3,
+     "(1,2)_0": 3,
+     "(1,1)_-1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 222,
+    "allowed_edges": 2425,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,1)_1/2": 3,
+     "(1,2)_0": 3,
+     "(1,1)_-1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 222,
+    "allowed_edges": 2425,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(1,1)_1/2": 3,
+     "(1,2)_0": 3,
+     "(1,1)_-1/2": 3
+    }
+   }
+  }
+ },
+ "81": {
+  "label": "A8SM_20260928_19483_TF",
+  "fractional_fields": 118,
+  "fractional_states": 160,
+  "fractional_hidden_singlet_states": 160,
+  "sm_neutral_scalars": 198,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 198,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 198,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 198,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 198,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "82": {
+  "label": "A8SM_20260928_1295_TF",
+  "fractional_fields": 98,
+  "fractional_states": 148,
+  "fractional_hidden_singlet_states": 96,
+  "sm_neutral_scalars": 210,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 174,
+    "allowed_edges": 883,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 174,
+    "allowed_edges": 883,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 210,
+    "allowed_edges": 1687,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 210,
+    "allowed_edges": 1687,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "83": {
+  "label": "A8SM_20260928_1356_TF",
+  "fractional_fields": 105,
+  "fractional_states": 192,
+  "fractional_hidden_singlet_states": 112,
+  "sm_neutral_scalars": 174,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 138,
+    "allowed_edges": 782,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(-3,1)_-1/6": 6,
+     "(3,1)_1/6*hidden": 3,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_1/2": 6
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 138,
+    "allowed_edges": 782,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(-3,1)_-1/6": 6,
+     "(3,1)_1/6*hidden": 3,
+     "(1,1)_-1/2*hidden": 3,
+     "(1,1)_1/2": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 174,
+    "allowed_edges": 1537,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(-3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 174,
+    "allowed_edges": 1537,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(-3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   }
+  }
+ },
+ "84": {
+  "label": "A8SM_20260928_2423_TF",
+  "fractional_fields": 114,
+  "fractional_states": 168,
+  "fractional_hidden_singlet_states": 114,
+  "sm_neutral_scalars": 120,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 108,
+    "allowed_edges": 405,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 108,
+    "allowed_edges": 99,
+    "light_fractional_states": 102,
+    "light_fractional_hidden_singlet_states": 60,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 9,
+     "(1,1)_-1/3": 12,
+     "(3,1)_0": 3,
+     "(1,1)_1/3*hidden": 9,
+     "(1,1)_1/3": 12,
+     "(-3,1)_0": 3,
+     "(1,2)_1/6": 3,
+     "(1,1)_2/3": 3,
+     "(1,1)_-2/3": 3,
+     "(1,2)_-1/6": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 120,
+    "allowed_edges": 459,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 120,
+    "allowed_edges": 117,
+    "light_fractional_states": 94,
+    "light_fractional_hidden_singlet_states": 64,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 6,
+     "(1,1)_-1/3": 15,
+     "(3,1)_0": 3,
+     "(1,1)_1/3*hidden": 8,
+     "(1,1)_1/3": 13,
+     "(-3,1)_0": 3,
+     "(1,2)_1/6": 3,
+     "(1,1)_2/3": 3,
+     "(1,1)_-2/3": 3,
+     "(1,2)_-1/6": 3
+    }
+   }
+  }
+ },
+ "85": {
+  "label": "A8SM_20260928_3250_TF",
+  "fractional_fields": 120,
+  "fractional_states": 204,
+  "fractional_hidden_singlet_states": 144,
+  "sm_neutral_scalars": 108,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 96,
+    "allowed_edges": 288,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 96,
+    "allowed_edges": 54,
+    "light_fractional_states": 168,
+    "light_fractional_hidden_singlet_states": 108,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 9,
+     "(1,1)_-1/3": 12,
+     "(3,1)_-1/3": 3,
+     "(-3,1)_0": 3,
+     "(1,1)_-2/3": 6,
+     "(1,1)_1/3*hidden": 9,
+     "(1,1)_1/3": 12,
+     "(-3,1)_1/3": 3,
+     "(3,1)_0": 3,
+     "(1,2)_1/6": 9,
+     "(1,1)_2/3": 6,
+     "(1,2)_-1/6": 9
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 108,
+    "allowed_edges": 342,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 108,
+    "allowed_edges": 72,
+    "light_fractional_states": 150,
+    "light_fractional_hidden_singlet_states": 114,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 6,
+     "(1,1)_-1/3": 15,
+     "(3,1)_-1/3": 3,
+     "(-3,1)_0": 3,
+     "(1,1)_-2/3": 6,
+     "(1,1)_1/3*hidden": 6,
+     "(1,1)_1/3": 15,
+     "(-3,1)_1/3": 3,
+     "(3,1)_0": 3,
+     "(1,2)_1/6": 9,
+     "(1,1)_2/3": 6,
+     "(1,2)_-1/6": 9
+    }
+   }
+  }
+ },
+ "86": {
+  "label": "A8SM_20260928_3284_TF",
+  "fractional_fields": 115,
+  "fractional_states": 200,
+  "fractional_hidden_singlet_states": 148,
+  "sm_neutral_scalars": 162,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 138,
+    "allowed_edges": 1291,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(3,1)_1/6*hidden": 3,
+     "(-3,1)_-1/6": 6,
+     "(1,1)_1/2": 6,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 138,
+    "allowed_edges": 997,
+    "light_fractional_states": 66,
+    "light_fractional_hidden_singlet_states": 30,
+    "light_reps": {
+     "(3,1)_1/6*hidden": 3,
+     "(-3,1)_-1/6": 6,
+     "(1,1)_1/2": 9,
+     "(1,2)_0*hidden": 3,
+     "(1,1)_-1/2": 3,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 162,
+    "allowed_edges": 1741,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(-3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 162,
+    "allowed_edges": 1741,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(-3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   }
+  }
+ },
+ "87": {
+  "label": "A8SM_20260928_3572_TF",
+  "fractional_fields": 108,
+  "fractional_states": 216,
+  "fractional_hidden_singlet_states": 132,
+  "sm_neutral_scalars": 60,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 30,
+    "allowed_edges": 9,
+    "light_fractional_states": 198,
+    "light_fractional_hidden_singlet_states": 114,
+    "light_reps": {
+     "(1,1)_1/3*hidden": 12,
+     "(1,2)_-1/6": 12,
+     "(1,1)_-1/3*hidden": 12,
+     "(1,1)_-1/3": 12,
+     "(1,1)_2/3": 12,
+     "(1,1)_-2/3": 12,
+     "(1,2)_1/6": 12,
+     "(-3,1)_0": 3,
+     "(3,1)_0": 3,
+     "(1,1)_1/3": 12
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 30,
+    "allowed_edges": 0,
+    "light_fractional_states": 216,
+    "light_fractional_hidden_singlet_states": 132,
+    "light_reps": {
+     "(1,1)_1/3*hidden": 12,
+     "(-3,1)_0": 6,
+     "(1,2)_-1/6": 12,
+     "(1,1)_-1/3*hidden": 12,
+     "(1,1)_-1/3": 12,
+     "(3,1)_0": 6,
+     "(1,1)_2/3": 12,
+     "(1,1)_-2/3": 12,
+     "(1,2)_1/6": 12,
+     "(1,1)_1/3": 12
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 60,
+    "allowed_edges": 117,
+    "light_fractional_states": 104,
+    "light_fractional_hidden_singlet_states": 101,
+    "light_reps": {
+     "(1,2)_-1/6": 12,
+     "(1,1)_-1/3": 6,
+     "(1,1)_2/3": 12,
+     "(1,1)_-2/3": 12,
+     "(1,2)_1/6": 12,
+     "(-3,1)_0": 3,
+     "(1,1)_1/3*hidden": 1,
+     "(3,1)_0": 3,
+     "(1,1)_1/3": 5
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 60,
+    "allowed_edges": 90,
+    "light_fractional_states": 120,
+    "light_fractional_hidden_singlet_states": 120,
+    "light_reps": {
+     "(-3,1)_0": 6,
+     "(1,2)_-1/6": 12,
+     "(1,1)_-1/3": 6,
+     "(3,1)_0": 6,
+     "(1,1)_2/3": 12,
+     "(1,1)_-2/3": 12,
+     "(1,2)_1/6": 12,
+     "(1,1)_1/3": 6
+    }
+   }
+  }
+ },
+ "88": {
+  "label": "A8SM_20260928_4200_TF",
+  "fractional_fields": 108,
+  "fractional_states": 168,
+  "fractional_hidden_singlet_states": 114,
+  "sm_neutral_scalars": 60,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 42,
+    "allowed_edges": 189,
+    "light_fractional_states": 54,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 9,
+     "(1,1)_1/3*hidden": 9
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 42,
+    "allowed_edges": 189,
+    "light_fractional_states": 54,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 9,
+     "(1,1)_1/3*hidden": 9
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 60,
+    "allowed_edges": 216,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 60,
+    "allowed_edges": 189,
+    "light_fractional_states": 54,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 9,
+     "(1,1)_1/3*hidden": 9
+    }
+   }
+  }
+ },
+ "89": {
+  "label": "A8SM_20260928_4582_TF",
+  "fractional_fields": 118,
+  "fractional_states": 160,
+  "fractional_hidden_singlet_states": 160,
+  "sm_neutral_scalars": 198,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 186,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 186,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 198,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 198,
+    "allowed_edges": 2143,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "90": {
+  "label": "A8SM_20260928_5760_TF",
+  "fractional_fields": 108,
+  "fractional_states": 210,
+  "fractional_hidden_singlet_states": 138,
+  "sm_neutral_scalars": 108,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 96,
+    "allowed_edges": 468,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 96,
+    "allowed_edges": 180,
+    "light_fractional_states": 150,
+    "light_fractional_hidden_singlet_states": 78,
+    "light_reps": {
+     "(1,2)_1/6": 6,
+     "(1,1)_-1/3": 3,
+     "(1,1)_2/3": 6,
+     "(1,1)_-1/3*hidden": 9,
+     "(1,1)_1/3*hidden": 9,
+     "(1,1)_1/3": 3,
+     "(1,1)_-2/3": 6,
+     "(1,2)_-1/6": 6,
+     "(3,1)_0": 3,
+     "(-3,1)_1/3": 3,
+     "(-3,1)_0": 3,
+     "(3,1)_-1/3": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 108,
+    "allowed_edges": 612,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 108,
+    "allowed_edges": 243,
+    "light_fractional_states": 105,
+    "light_fractional_hidden_singlet_states": 77,
+    "light_reps": {
+     "(1,2)_1/6": 6,
+     "(1,1)_2/3": 6,
+     "(1,1)_-1/3*hidden": 3,
+     "(1,1)_1/3*hidden": 4,
+     "(1,1)_-2/3": 6,
+     "(1,2)_-1/6": 6,
+     "(3,1)_0": 3,
+     "(-3,1)_1/3": 3,
+     "(-3,1)_0": 3,
+     "(3,1)_-1/3": 3,
+     "(1,1)_1/3": 2,
+     "(1,1)_-1/3": 3
+    }
+   }
+  }
+ },
+ "91": {
+  "label": "A8SM_20260928_6322_TF",
+  "fractional_fields": 103,
+  "fractional_states": 176,
+  "fractional_hidden_singlet_states": 124,
+  "sm_neutral_scalars": 180,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 150,
+    "allowed_edges": 1001,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(-3,1)_-1/6": 6,
+     "(3,1)_1/6*hidden": 3,
+     "(1,1)_1/2": 6,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 150,
+    "allowed_edges": 743,
+    "light_fractional_states": 66,
+    "light_fractional_hidden_singlet_states": 30,
+    "light_reps": {
+     "(-3,1)_-1/6": 6,
+     "(1,1)_1/2": 9,
+     "(1,2)_0*hidden": 3,
+     "(3,1)_1/6*hidden": 3,
+     "(1,1)_-1/2": 3,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 180,
+    "allowed_edges": 1465,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(-3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 180,
+    "allowed_edges": 1465,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(-3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   }
+  }
+ },
+ "92": {
+  "label": "A8SM_20260928_7833_TF",
+  "fractional_fields": 101,
+  "fractional_states": 172,
+  "fractional_hidden_singlet_states": 132,
+  "sm_neutral_scalars": 150,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 102,
+    "allowed_edges": 1099,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(-3,1)_1/6*hidden": 3,
+     "(3,1)_-1/6": 6,
+     "(1,1)_1/2": 6,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 102,
+    "allowed_edges": 1099,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(-3,1)_1/6*hidden": 3,
+     "(3,1)_-1/6": 6,
+     "(1,1)_1/2": 6,
+     "(1,1)_-1/2*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 150,
+    "allowed_edges": 1339,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 150,
+    "allowed_edges": 1339,
+    "light_fractional_states": 12,
+    "light_fractional_hidden_singlet_states": 12,
+    "light_reps": {
+     "(3,1)_-1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   }
+  }
+ },
+ "93": {
+  "label": "A8SM_20260928_7974_TF",
+  "fractional_fields": 120,
+  "fractional_states": 156,
+  "fractional_hidden_singlet_states": 108,
+  "sm_neutral_scalars": 102,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 96,
+    "allowed_edges": 342,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 96,
+    "allowed_edges": 153,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 6,
+     "(1,1)_1/3*hidden": 6,
+     "(1,1)_-1/3": 6,
+     "(1,2)_1/6": 3,
+     "(1,1)_1/3": 6,
+     "(1,2)_-1/6": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 102,
+    "allowed_edges": 378,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 102,
+    "allowed_edges": 153,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 6,
+     "(1,1)_1/3*hidden": 6,
+     "(1,1)_-1/3": 6,
+     "(1,2)_1/6": 3,
+     "(1,1)_1/3": 6,
+     "(1,2)_-1/6": 3
+    }
+   }
+  }
+ },
+ "94": {
+  "label": "A8SM_20260928_8363_TF",
+  "fractional_fields": 102,
+  "fractional_states": 210,
+  "fractional_hidden_singlet_states": 114,
+  "sm_neutral_scalars": 60,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 30,
+    "allowed_edges": 0,
+    "light_fractional_states": 210,
+    "light_fractional_hidden_singlet_states": 114,
+    "light_reps": {
+     "(1,1)_1/3*hidden": 12,
+     "(1,2)_-1/6": 12,
+     "(-3,1)_0": 3,
+     "(-3,1)_1/3": 3,
+     "(1,1)_-1/3": 18,
+     "(1,1)_-1/3*hidden": 15,
+     "(3,1)_-1/3": 3,
+     "(1,1)_1/3": 24,
+     "(3,1)_0": 3,
+     "(1,2)_1/6*hidden": 3,
+     "(1,2)_1/6": 6
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 30,
+    "allowed_edges": 0,
+    "light_fractional_states": 210,
+    "light_fractional_hidden_singlet_states": 114,
+    "light_reps": {
+     "(1,1)_1/3*hidden": 12,
+     "(1,2)_-1/6": 12,
+     "(-3,1)_0": 3,
+     "(-3,1)_1/3": 3,
+     "(1,1)_-1/3": 18,
+     "(1,1)_-1/3*hidden": 15,
+     "(3,1)_-1/3": 3,
+     "(1,1)_1/3": 24,
+     "(3,1)_0": 3,
+     "(1,2)_1/6*hidden": 3,
+     "(1,2)_1/6": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 60,
+    "allowed_edges": 153,
+    "light_fractional_states": 126,
+    "light_fractional_hidden_singlet_states": 96,
+    "light_reps": {
+     "(1,2)_-1/6": 12,
+     "(-3,1)_0": 3,
+     "(-3,1)_1/3": 3,
+     "(1,1)_-1/3": 9,
+     "(1,1)_-1/3*hidden": 6,
+     "(3,1)_-1/3": 3,
+     "(1,1)_1/3": 15,
+     "(3,1)_0": 3,
+     "(1,2)_1/6*hidden": 3,
+     "(1,2)_1/6": 6,
+     "(1,1)_1/3*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 60,
+    "allowed_edges": 36,
+    "light_fractional_states": 165,
+    "light_fractional_hidden_singlet_states": 105,
+    "light_reps": {
+     "(1,1)_1/3*hidden": 9,
+     "(1,2)_-1/6": 12,
+     "(-3,1)_0": 3,
+     "(-3,1)_1/3": 3,
+     "(1,1)_-1/3": 15,
+     "(1,1)_-1/3*hidden": 9,
+     "(3,1)_-1/3": 3,
+     "(1,1)_1/3": 18,
+     "(3,1)_0": 3,
+     "(1,2)_1/6*hidden": 3,
+     "(1,2)_1/6": 6
+    }
+   }
+  }
+ },
+ "95": {
+  "label": "A8SM_20260928_8904_TF",
+  "fractional_fields": 102,
+  "fractional_states": 156,
+  "fractional_hidden_singlet_states": 72,
+  "sm_neutral_scalars": 114,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 96,
+    "allowed_edges": 225,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 96,
+    "allowed_edges": 36,
+    "light_fractional_states": 132,
+    "light_fractional_hidden_singlet_states": 48,
+    "light_reps": {
+     "(1,1)_1/3*hidden": 21,
+     "(1,1)_1/3": 6,
+     "(1,1)_-2/3": 6,
+     "(1,2)_-1/6": 6,
+     "(1,1)_2/3": 6,
+     "(1,2)_1/6": 6,
+     "(1,1)_-1/3": 6,
+     "(1,1)_-1/3*hidden": 21
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 114,
+    "allowed_edges": 351,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 114,
+    "allowed_edges": 90,
+    "light_fractional_states": 87,
+    "light_fractional_hidden_singlet_states": 45,
+    "light_reps": {
+     "(1,1)_1/3*hidden": 9,
+     "(1,1)_-2/3": 6,
+     "(1,2)_-1/6": 6,
+     "(1,1)_2/3": 6,
+     "(1,2)_1/6": 6,
+     "(1,1)_-1/3*hidden": 12,
+     "(1,1)_1/3": 6,
+     "(1,1)_-1/3": 3
+    }
+   }
+  }
+ },
+ "96": {
+  "label": "A8SM_20260928_9246_TF",
+  "fractional_fields": 108,
+  "fractional_states": 198,
+  "fractional_hidden_singlet_states": 126,
+  "sm_neutral_scalars": 114,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 108,
+    "allowed_edges": 648,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 108,
+    "allowed_edges": 252,
+    "light_fractional_states": 108,
+    "light_fractional_hidden_singlet_states": 36,
+    "light_reps": {
+     "(1,2)_1/6": 3,
+     "(1,1)_2/3": 3,
+     "(-3,1)_1/3": 3,
+     "(3,1)_-1/3": 3,
+     "(1,2)_-1/6": 3,
+     "(1,1)_-2/3": 3,
+     "(1,1)_-1/3*hidden": 9,
+     "(1,1)_1/3*hidden": 9
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 114,
+    "allowed_edges": 666,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 114,
+    "allowed_edges": 261,
+    "light_fractional_states": 84,
+    "light_fractional_hidden_singlet_states": 36,
+    "light_reps": {
+     "(1,1)_2/3": 3,
+     "(-3,1)_1/3": 3,
+     "(3,1)_-1/3": 3,
+     "(1,2)_-1/6": 3,
+     "(1,1)_-2/3": 3,
+     "(1,2)_1/6": 3,
+     "(1,1)_-1/3*hidden": 6,
+     "(1,1)_1/3*hidden": 6
+    }
+   }
+  }
+ },
+ "97": {
+  "label": "A8SM_20260928_9594_TF",
+  "fractional_fields": 138,
+  "fractional_states": 156,
+  "fractional_hidden_singlet_states": 144,
+  "sm_neutral_scalars": 120,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 114,
+    "allowed_edges": 927,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 114,
+    "allowed_edges": 567,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 120,
+    "allowed_edges": 963,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 120,
+    "allowed_edges": 567,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "98": {
+  "label": "A8SM_20260928_11138_TF",
+  "fractional_fields": 120,
+  "fractional_states": 210,
+  "fractional_hidden_singlet_states": 150,
+  "sm_neutral_scalars": 84,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 60,
+    "allowed_edges": 468,
+    "light_fractional_states": 36,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 6,
+     "(1,1)_1/3*hidden": 6
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 60,
+    "allowed_edges": 225,
+    "light_fractional_states": 54,
+    "light_fractional_hidden_singlet_states": 18,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 6,
+     "(1,1)_1/3*hidden": 6,
+     "(1,1)_1/3": 9,
+     "(1,1)_-1/3": 9
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 84,
+    "allowed_edges": 630,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 84,
+    "allowed_edges": 630,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "99": {
+  "label": "A8SM_20260928_11397_TF",
+  "fractional_fields": 104,
+  "fractional_states": 160,
+  "fractional_hidden_singlet_states": 112,
+  "sm_neutral_scalars": 168,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 126,
+    "allowed_edges": 1026,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 126,
+    "allowed_edges": 882,
+    "light_fractional_states": 48,
+    "light_fractional_hidden_singlet_states": 24,
+    "light_reps": {
+     "(-3,1)_-1/6": 3,
+     "(1,1)_1/2*hidden": 6,
+     "(1,1)_-1/2": 3,
+     "(1,1)_-1/2*hidden": 6,
+     "(3,1)_1/6": 3,
+     "(1,1)_1/2": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 168,
+    "allowed_edges": 1836,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 168,
+    "allowed_edges": 1836,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "100": {
+  "label": "A8SM_20260928_14376_TF",
+  "fractional_fields": 102,
+  "fractional_states": 192,
+  "fractional_hidden_singlet_states": 102,
+  "sm_neutral_scalars": 90,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 54,
+    "allowed_edges": 144,
+    "light_fractional_states": 108,
+    "light_fractional_hidden_singlet_states": 36,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 9,
+     "(1,2)_1/6": 9,
+     "(1,1)_-2/3": 9,
+     "(1,1)_1/3*hidden": 6,
+     "(1,1)_1/3": 9,
+     "(1,1)_2/3*hidden": 3,
+     "(1,2)_-1/6*hidden": 3
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 54,
+    "allowed_edges": 144,
+    "light_fractional_states": 108,
+    "light_fractional_hidden_singlet_states": 36,
+    "light_reps": {
+     "(1,1)_-1/3*hidden": 9,
+     "(1,2)_1/6": 9,
+     "(1,1)_-2/3": 9,
+     "(1,1)_1/3*hidden": 6,
+     "(1,1)_1/3": 9,
+     "(1,1)_2/3*hidden": 3,
+     "(1,2)_-1/6*hidden": 3
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 90,
+    "allowed_edges": 288,
+    "light_fractional_states": 44,
+    "light_fractional_hidden_singlet_states": 32,
+    "light_reps": {
+     "(1,2)_1/6": 6,
+     "(1,1)_-2/3": 6,
+     "(1,1)_-1/3": 6,
+     "(1,1)_1/3": 8,
+     "(1,1)_1/3*hidden": 4
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 90,
+    "allowed_edges": 288,
+    "light_fractional_states": 44,
+    "light_fractional_hidden_singlet_states": 32,
+    "light_reps": {
+     "(1,2)_1/6": 6,
+     "(1,1)_-2/3": 6,
+     "(1,1)_-1/3": 6,
+     "(1,1)_1/3": 8,
+     "(1,1)_1/3*hidden": 4
+    }
+   }
+  }
+ },
+ "101": {
+  "label": "A8SM_20260928_14861_TF",
+  "fractional_fields": 144,
+  "fractional_states": 156,
+  "fractional_hidden_singlet_states": 156,
+  "sm_neutral_scalars": 90,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 90,
+    "allowed_edges": 261,
+    "light_fractional_states": 96,
+    "light_fractional_hidden_singlet_states": 96,
+    "light_reps": {
+     "(1,1)_1/3": 30,
+     "(1,1)_-1/3": 30,
+     "(1,2)_-1/6": 6,
+     "(1,1)_-2/3": 6,
+     "(1,2)_1/6": 6,
+     "(1,1)_2/3": 6
+    }
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 90,
+    "allowed_edges": 180,
+    "light_fractional_states": 96,
+    "light_fractional_hidden_singlet_states": 96,
+    "light_reps": {
+     "(1,1)_1/3": 30,
+     "(1,1)_-1/3": 30,
+     "(1,2)_-1/6": 6,
+     "(1,1)_-2/3": 6,
+     "(1,2)_1/6": 6,
+     "(1,1)_2/3": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 90,
+    "allowed_edges": 261,
+    "light_fractional_states": 96,
+    "light_fractional_hidden_singlet_states": 96,
+    "light_reps": {
+     "(1,1)_1/3": 30,
+     "(1,1)_-1/3": 30,
+     "(1,2)_-1/6": 6,
+     "(1,1)_-2/3": 6,
+     "(1,2)_1/6": 6,
+     "(1,1)_2/3": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 90,
+    "allowed_edges": 180,
+    "light_fractional_states": 96,
+    "light_fractional_hidden_singlet_states": 96,
+    "light_reps": {
+     "(1,1)_1/3": 30,
+     "(1,1)_-1/3": 30,
+     "(1,2)_-1/6": 6,
+     "(1,1)_-2/3": 6,
+     "(1,2)_1/6": 6,
+     "(1,1)_2/3": 6
+    }
+   }
+  }
+ },
+ "102": {
+  "label": "A8SM_20260928_15495_TF",
+  "fractional_fields": 138,
+  "fractional_states": 294,
+  "fractional_hidden_singlet_states": 210,
+  "sm_neutral_scalars": 126,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 120,
+    "allowed_edges": 639,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 120,
+    "allowed_edges": 639,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 126,
+    "allowed_edges": 765,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 126,
+    "allowed_edges": 765,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "103": {
+  "label": "A8SM_20260928_16222_TF",
+  "fractional_fields": 130,
+  "fractional_states": 184,
+  "fractional_hidden_singlet_states": 184,
+  "sm_neutral_scalars": 186,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 186,
+    "allowed_edges": 2461,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 186,
+    "allowed_edges": 2461,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 186,
+    "allowed_edges": 2461,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 186,
+    "allowed_edges": 2461,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   }
+  }
+ },
+ "104": {
+  "label": "A8SM_20260928_18197_TF",
+  "fractional_fields": 108,
+  "fractional_states": 156,
+  "fractional_hidden_singlet_states": 84,
+  "sm_neutral_scalars": 66,
+  "results": {
+   "A_hidden_unbroken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 60,
+    "allowed_edges": 180,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "A_hidden_unbroken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 60,
+    "allowed_edges": 45,
+    "light_fractional_states": 108,
+    "light_fractional_hidden_singlet_states": 72,
+    "light_reps": {
+     "(1,2)_1/6": 6,
+     "(1,1)_2/3": 6,
+     "(1,1)_-1/3": 18,
+     "(1,1)_1/3*hidden": 9,
+     "(1,1)_-1/3*hidden": 9,
+     "(1,1)_1/3": 18,
+     "(1,2)_-1/6": 6,
+     "(1,1)_-2/3": 6
+    }
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG": {
+    "vev_scalars": 66,
+    "allowed_edges": 180,
+    "light_fractional_states": 0,
+    "light_fractional_hidden_singlet_states": 0,
+    "light_reps": {}
+   },
+   "B_hidden_broken|gauge+Z2W+PG+SG+R": {
+    "vev_scalars": 66,
+    "allowed_edges": 45,
+    "light_fractional_states": 108,
+    "light_fractional_hidden_singlet_states": 72,
+    "light_reps": {
+     "(1,2)_1/6": 6,
+     "(1,1)_2/3": 6,
+     "(1,1)_-1/3": 18,
+     "(1,1)_1/3*hidden": 9,
+     "(1,1)_-1/3*hidden": 9,
+     "(1,1)_1/3": 18,
+     "(1,2)_-1/6": 6,
+     "(1,1)_-2/3": 6
+    }
+   }
+  }
+ }
+}

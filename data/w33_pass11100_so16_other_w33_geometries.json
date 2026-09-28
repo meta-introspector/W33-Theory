@@ -1,0 +1,38 @@
+{
+ "only_z3_gives_tachyon_free_sm": true,
+ "pass_id": 11100,
+ "table": {
+  "T6/(Z3xZ3)": {
+   "bases": 2,
+   "sm_and_tachyon_free": 0,
+   "sm_draws": 12,
+   "tachyon_free": 97,
+   "tachyon_free_fraction": 0.0072,
+   "tries": 13500
+  },
+  "T6/Z12-I": {
+   "bases": 117,
+   "sm_and_tachyon_free": 0,
+   "sm_draws": 0,
+   "tachyon_free": 1460,
+   "tachyon_free_fraction": 0.0416,
+   "tries": 35100
+  },
+  "T6/Z3 (Pass 11095)": {
+   "sm_and_tachyon_free": 153,
+   "sm_draws": 153,
+   "sm_inequivalent": 104,
+   "tachyon_free": 80000,
+   "tachyon_free_fraction": 1.0,
+   "tries": 80000
+  },
+  "T6/Z6-I": {
+   "bases": 58,
+   "sm_and_tachyon_free": 0,
+   "sm_draws": 3,
+   "tachyon_free": 11024,
+   "tachyon_free_fraction": 0.3801,
+   "tries": 29000
+  }
+ }
+}

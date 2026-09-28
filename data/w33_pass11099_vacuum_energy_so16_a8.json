@@ -1,0 +1,24 @@
+{
+ "lambda10": {
+  "I": -725.9671763548073,
+  "Lambda10_over_M10": 362.98358817740365,
+  "expected_nB_minus_nF": -2112,
+  "massless_constant_term": -2112.0,
+  "modular_S_relative_error": 1.868237944028322e-14,
+  "sign": "positive"
+ },
+ "large_volume": {
+  "group_order": 6,
+  "other_sectors_rotate_all_planes": true,
+  "sectors": 36,
+  "weight_of_so16_on_T6": "1/3",
+  "zero_mode_sectors": 4
+ },
+ "massless_bose_fermi": {
+  "degenerate": 0,
+  "models": 104,
+  "nB_minus_nF_max": -64,
+  "nB_minus_nF_min": -500
+ },
+ "pass_id": 11099
+}

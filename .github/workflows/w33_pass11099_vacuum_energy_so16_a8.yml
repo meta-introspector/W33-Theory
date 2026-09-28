@@ -1,0 +1,22 @@
+name: W33 Pass 11099 vacuum energy so16 a8
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11099_*.py"
+      - "analysis/w33_so16_selection_rules.py"
+      - "analysis/PASS11099_VACUUM_ENERGY_SO16_A8.md"
+      - "data/w33_pass11099_*.json"
+      - "tests/test_w33_pass11099_vacuum_energy_so16_a8.py"
+      - ".github/workflows/w33_pass11099_vacuum_energy_so16_a8.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest pycddlib networkx
+      - run: python -m pytest -q tests/test_w33_pass11099_vacuum_energy_so16_a8.py

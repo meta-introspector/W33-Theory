@@ -1,0 +1,22 @@
+name: W33 Pass 11100 so16 other w33 geometries
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11100_*.py"
+      - "analysis/w33_so16_selection_rules.py"
+      - "analysis/PASS11100_SO16_OTHER_W33_GEOMETRIES.md"
+      - "data/w33_pass11100_*.json"
+      - "tests/test_w33_pass11100_so16_other_w33_geometries.py"
+      - ".github/workflows/w33_pass11100_so16_other_w33_geometries.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest pycddlib networkx
+      - run: python -m pytest -q tests/test_w33_pass11100_so16_other_w33_geometries.py

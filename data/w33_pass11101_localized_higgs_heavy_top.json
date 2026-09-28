@@ -1,0 +1,42 @@
+{
+ "best_models": [
+  "2",
+  "10",
+  "13",
+  "14",
+  "15",
+  "35",
+  "53",
+  "57",
+  "69",
+  "77",
+  "78",
+  "102"
+ ],
+ "charm_up_degenerate_in_every_single_heavy_model": true,
+ "classes": {
+  "down": {
+   "none": 76,
+   "other": 1,
+   "single_heavy": 27
+  },
+  "lepton": {
+   "none": 49,
+   "other": 55
+  },
+  "up": {
+   "degenerate": 73,
+   "single_heavy": 31
+  }
+ },
+ "pass_id": 11101,
+ "single_heavy_up_equals_twisted_up": true,
+ "su3_fixed_points": {
+  "all_fixed_by_theta": true,
+  "distances": {
+   "01": 0.816496580928,
+   "02": 0.816496580928,
+   "12": 0.816496580928
+  }
+ }
+}

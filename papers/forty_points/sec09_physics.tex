@@ -755,6 +755,39 @@ known in large numbers~\cite{PerezMartinez2021}; what is new here is that the $\
 independent codes agree on the massless spectra of every sample model the non-supersymmetric orbifolder
 ships. \tierC\ (\cert{w33\_pass11095\_so16xso16\_a8\_standard\_models.py})
 
+How good are these models? We asked the three questions that decide a string vacuum.
+
+\emph{Can the fractional charges be removed?} Unlike in $\Z_3\times\Z_3$, they are not protected by a symmetry.
+Let the Standard-Model-neutral, hidden-singlet scalars take expectation values, and impose the full set of string
+selection rules (gauge, the Witten $\Z_2$, point group, space group and $H$-momentum).
+\begin{itemize}
+\item Masses for \emph{all} fractionally charged fermions are allowed in $33$ of the $104$ models.
+\item In $6$ of those $33$, a single scalar suffices, through cubic couplings. In every one of the $33$
+      all such masses appear by order $7$.
+\end{itemize}
+
+\emph{Is the top heavy, and alone?} In $73$ models, no. Their up-type Yukawas are untwisted and carry the
+$\epsilon$-structure of the ten-dimensional gauge coupling. The singular values are $(1,1,0)$ for every Higgs
+direction: top and charm degenerate, the up quark massless. In the other $31$ the quarks and Higgs doublets sit at
+fixed points. A light Higgs localized at one fixed point then gives a single heavy top, with charm and up suppressed
+by $e^{-\mathrm{area}}$. The two are degenerate at tree level, because the three fixed points of the $\Z_3$ torus form
+an equilateral triangle; this is the known two-valued structure of $\Z_3$ Yukawas. In $27$ models the bottom behaves
+the same way. Twelve models pass every test so far: they are tachyon-free, have three generations, can give all their
+fractional charges masses (at third order), and have a heavy top and bottom from a localized Higgs.
+
+\emph{Is the vacuum stable?} We recomputed the ten-dimensional $SO(16)\times SO(16)$ one-loop integral:
+$\Lambda_{10}=+363\,M^{10}$, positive, as Alvarez-Gaum\'e, Ginsparg, Moore and Vafa found~\cite{AGMV1986}. In every
+model the large-volume vacuum energy is one third of it times the volume, and the massless Bose--Fermi counts are never
+degenerate. The potential runs away, as it does for every symmetric non-supersymmetric orbifold~\cite{GrootNibbelink2017}.
+
+The $\W$ models of the $SO(16)\times SO(16)$ string thus remove the proton-decay and fractional-charge obstructions of
+the supersymmetric routes. Twelve of them even single out the top, but charm and up are degenerate at tree level. All of them meet
+the universal vacuum-energy problem of non-supersymmetric strings. The other $\W$ geometries give no tachyon-free Standard Model at all: $77\,600$ draws on
+$\Z_3\times\Z_3$, $\Z_6$-I and $\Z_{12}$-I.
+\tierC\ (\cert{w33\_pass11097\_fractional\_fermion\_masses.py}, \cert{w33\_pass11098\_yukawa\_textures.py},
+\cert{w33\_pass11099\_vacuum\_energy\_so16\_a8.py}, \cert{w33\_pass11100\_so16\_other\_w33\_geometries.py},
+\cert{w33\_pass11101\_localized\_higgs\_heavy\_top.py})
+
 The apparent opening was an artefact of an
 incomplete selection rule; it was caught by reading the literature on the rules themselves, not by
 the computation. \tierC\ (\cert{w33\_pass10974\_valid\_r\_rules\_close\_the\_rotation\_door.py};
