@@ -58,3 +58,7 @@ it also maps their quantum numbers into each other in every case found. A way ou
 
 Scope. The pass computes orders and parametric exponents with random O(1) coefficients. The actual coupling constants
 are not computed; they could at best produce an O(1), non-parametric splitting.
+
+Follow-up: the reflection is the −I of the flavour group Δ(54) = H27 : ⟨−I⟩ (Pass 11105). Spontaneous breaking of it
+through fixed-point-dependent VEV sizes was tested in Pass 11103: charm and up stay at the same order for every
+alignment, including with the hidden group broken.

@@ -1,4 +1,4 @@
-# DRAFT (not posted) — issue for github.com/StringsIFUNAM/nonSUSYorbifolder
+# POSTED 2026-09-28 as https://github.com/StringsIFUNAM/nonSUSYorbifolder/issues/1
 
 **Title:** Order of a SUSY-breaking twist is wrong when Σvᵢ < 0 (empty spectrum for an equivalent twist vector)
 
