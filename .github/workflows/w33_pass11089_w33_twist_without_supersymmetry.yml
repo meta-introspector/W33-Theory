@@ -1,0 +1,21 @@
+name: W33 Pass 11089 w33 twist without supersymmetry
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11089_w33_twist_without_supersymmetry.py"
+      - "data/w33_pass11089_w33_twist_without_supersymmetry.json"
+      - "tests/test_w33_pass11089_w33_twist_without_supersymmetry.py"
+      - ".github/workflows/w33_pass11089_w33_twist_without_supersymmetry.yml"
+
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest
+      - run: python analysis/w33_pass11089_w33_twist_without_supersymmetry.py
+      - run: python -m pytest -q tests/test_w33_pass11089_w33_twist_without_supersymmetry.py

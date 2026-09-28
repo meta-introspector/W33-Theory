@@ -1,0 +1,21 @@
+name: W33 Pass 11090 resolution cannot free fractional charges
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11090_resolution_cannot_free_fractional_charges.py"
+      - "analysis/PASS11090_RESOLUTION_CANNOT_FREE_FRACTIONAL_CHARGES.md"
+      - "data/w33_pass11090_resolution_cannot_free_fractional_charges.json"
+      - "tests/test_w33_pass11090_resolution_cannot_free_fractional_charges.py"
+      - ".github/workflows/w33_pass11090_resolution_cannot_free_fractional_charges.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest pycddlib
+      - run: python -m pytest -q tests/test_w33_pass11090_resolution_cannot_free_fractional_charges.py

@@ -1,0 +1,21 @@
+name: W33 Pass 11087 unbroken 3-group protection
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11087_unbroken_three_group_protection.py"
+      - "analysis/PASS11087_UNBROKEN_THREE_GROUP_PROTECTION.md"
+      - "data/w33_pass11087_unbroken_three_group_protection.json"
+      - "tests/test_w33_pass11087_unbroken_three_group_protection.py"
+      - ".github/workflows/w33_pass11087_unbroken_three_group_protection.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest pycddlib
+      - run: python -m pytest -q tests/test_w33_pass11087_unbroken_three_group_protection.py

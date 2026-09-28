@@ -73,3 +73,59 @@ class FastParity:
             if not ok.any():
                 return False
         return bool(ok.any())
+
+
+def realizable_choice(nq, orders, odd_vecs, even_vecs, types):
+    """Exact: is there one variant per type (types = list of lists of charge vectors; all variants of a type share
+    their U(1) part) such that odd_vecs are odd and even_vecs + the chosen variants are even?  Returns the list of
+    chosen variant indices, or None.
+
+    For fixed discrete element x_d the condition is: for every relation c among the U(1) parts,
+        sum_base c_v (tau_v - e_v.x_d) - sum_u c_u (e_{k_u}.x_d) in Z.
+    Relations not touching the types filter x_d; for the rest a dynamic programme over the finite group of residue
+    vectors decides the existence of a choice (subset-sum), with backtracking for the witness."""
+    odd = [[Fraction(x) for x in v] for v in odd_vecs]
+    even = [[Fraction(x) for x in v] for v in even_vecs]
+    typs = [[[Fraction(x) for x in v] for v in vs] for vs in types]
+    for vs in typs:
+        assert all(v[:nq] == vs[0][:nq] for v in vs)
+    reps = [vs[0] for vs in typs]
+    allv = odd + even + reps
+    den = lcm(*[x.denominator for v in odd + even + [w for vs in typs for w in vs] for x in v], 2)
+    rel = _relations([[sp.Rational(x.numerator, x.denominator) for x in v[:nq]] for v in allv])
+    nb = len(odd) + len(even)
+    grid = np.array(list(itertools.product(*[range(o) for o in orders])), dtype=np.int64).reshape(-1, len(orders))
+    ph = lambda v: grid @ np.array([int(Fraction(x) * den) for x in v[nq:]], dtype=np.int64)
+    tau = np.array([den // 2] * len(odd) + [0] * len(even), dtype=np.int64)
+    base_ph = np.stack([ph(v) for v in odd + even], axis=1) if nb else np.zeros((len(grid), 0), dtype=np.int64)
+    R = np.array(rel, dtype=np.int64).reshape(-1, len(allv))
+    Rb, Ru = R[:, :nb], R[:, nb:]
+    touching = np.any(Ru != 0, axis=1)
+    bval = (tau @ Rb.T)[None, :] - base_ph @ Rb.T            # grid x g   (den * base part)
+    ok = np.all((bval[:, ~touching] % den) == 0, axis=1)
+    idx = np.nonzero(ok)[0]
+    Rt = Ru[touching]                                        # g' x m
+    if Rt.shape[0] == 0:
+        return [0] * len(typs) if len(idx) else None
+    var_ph = [np.stack([ph(v) for v in vs], axis=1) for vs in typs]   # per type: grid x variants
+    for xi in idx:
+        target = tuple(int(x) % den for x in bval[xi, touching])       # need sum_u c_u e_k.x_d == base part
+        reach = {tuple([0] * Rt.shape[0]): None}
+        layers = []
+        for u in range(len(typs)):
+            contrib = [tuple(int(Rt[g, u] * var_ph[u][xi, k]) % den for g in range(Rt.shape[0])) for k in range(len(typs[u]))]
+            nxt = {}
+            for s in reach:
+                for k, c in enumerate(contrib):
+                    t = tuple((a + b) % den for a, b in zip(s, c))
+                    if t not in nxt:
+                        nxt[t] = (s, k)
+            layers.append(nxt)
+            reach = nxt
+        if target in reach:
+            choice, s = [], target
+            for u in range(len(typs) - 1, -1, -1):
+                s, k = layers[u][s]
+                choice.append(k)
+            return choice[::-1]
+    return None

@@ -1,0 +1,1356 @@
+{
+ "charge_character": {
+  "z3z3|Z3Z3_0000_c1__SM_20260928_2895": {
+   "constant_on_every_fixed_point": true,
+   "fixed_points": 82,
+   "fractional_fixed_points": 42,
+   "sm_singlets_at_fractional_fixed_points": 0,
+   "space_group_characters": [
+    [
+     0,
+     0,
+     0,
+     0,
+     2
+    ]
+   ],
+   "untwisted_class": 0
+  },
+  "z3z3|Z3Z3_0000_c1__SM_20260928_3370": {
+   "constant_on_every_fixed_point": true,
+   "fixed_points": 64,
+   "fractional_fixed_points": 30,
+   "sm_singlets_at_fractional_fixed_points": 0,
+   "space_group_characters": [
+    [
+     0,
+     0,
+     2,
+     0,
+     0
+    ]
+   ],
+   "untwisted_class": 0
+  },
+  "z3z3|Z3Z3_0000_c2__SM_20260929_1560": {
+   "constant_on_every_fixed_point": true,
+   "fixed_points": 64,
+   "fractional_fixed_points": 30,
+   "sm_singlets_at_fractional_fixed_points": 0,
+   "space_group_characters": [
+    [
+     0,
+     0,
+     2,
+     0,
+     0
+    ]
+   ],
+   "untwisted_class": 0
+  },
+  "z3z3|Z3Z3_0000_c2__SM_20260929_1895": {
+   "constant_on_every_fixed_point": true,
+   "fixed_points": 70,
+   "fractional_fixed_points": 42,
+   "sm_singlets_at_fractional_fixed_points": 0,
+   "space_group_characters": [
+    [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "untwisted_class": 0
+  },
+  "z3z3|Z3Z3_0000_c2__SM_20260929_818": {
+   "constant_on_every_fixed_point": true,
+   "fixed_points": 64,
+   "fractional_fixed_points": 42,
+   "sm_singlets_at_fractional_fixed_points": 0,
+   "space_group_characters": [
+    [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "untwisted_class": 0
+  },
+  "z3z3|Z3Z3_0000_c4__SM_20260931_1291": {
+   "constant_on_every_fixed_point": true,
+   "fixed_points": 70,
+   "fractional_fixed_points": 30,
+   "sm_singlets_at_fractional_fixed_points": 0,
+   "space_group_characters": [
+    [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "untwisted_class": 0
+  },
+  "z3z3|Z3Z3_0001_c1__SM_20260932_2822": {
+   "constant_on_every_fixed_point": true,
+   "fixed_points": 76,
+   "fractional_fixed_points": 48,
+   "sm_singlets_at_fractional_fixed_points": 0,
+   "space_group_characters": [
+    [
+     2,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "untwisted_class": 0
+  },
+  "z3z3|Z3Z3_0001_c2__SM_20260933_2473": {
+   "constant_on_every_fixed_point": true,
+   "fixed_points": 73,
+   "fractional_fixed_points": 42,
+   "sm_singlets_at_fractional_fixed_points": 0,
+   "space_group_characters": [
+    [
+     0,
+     0,
+     0,
+     2,
+     0
+    ]
+   ],
+   "untwisted_class": 0
+  },
+  "z3z3|Z3Z3_0001_c2__SM_20260933_4158": {
+   "constant_on_every_fixed_point": true,
+   "fixed_points": 73,
+   "fractional_fixed_points": 42,
+   "sm_singlets_at_fractional_fixed_points": 0,
+   "space_group_characters": [
+    [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "untwisted_class": 0
+  },
+  "z3z3|Z3Z3_0001_c3__SM_20260934_4898": {
+   "constant_on_every_fixed_point": true,
+   "fixed_points": 73,
+   "fractional_fixed_points": 42,
+   "sm_singlets_at_fractional_fixed_points": 0,
+   "space_group_characters": [
+    [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "untwisted_class": 0
+  },
+  "z3z3|Z3Z3_0001_c3__SM_20260934_739": {
+   "constant_on_every_fixed_point": true,
+   "fixed_points": 82,
+   "fractional_fixed_points": 42,
+   "sm_singlets_at_fractional_fixed_points": 0,
+   "space_group_characters": [
+    [
+     0,
+     0,
+     0,
+     2,
+     0
+    ]
+   ],
+   "untwisted_class": 0
+  },
+  "z3z3|Z3Z3_0001_c4__SM_20260935_3729": {
+   "constant_on_every_fixed_point": true,
+   "fixed_points": 82,
+   "fractional_fixed_points": 42,
+   "sm_singlets_at_fractional_fixed_points": 0,
+   "space_group_characters": [
+    [
+     0,
+     1,
+     0,
+     1,
+     0
+    ]
+   ],
+   "untwisted_class": 0
+  },
+  "z3z3|Z3Z3_0001_c4__SM_20260935_881": {
+   "constant_on_every_fixed_point": true,
+   "fixed_points": 73,
+   "fractional_fixed_points": 42,
+   "sm_singlets_at_fractional_fixed_points": 0,
+   "space_group_characters": [
+    [
+     0,
+     2,
+     0,
+     1,
+     0
+    ]
+   ],
+   "untwisted_class": 0
+  }
+ },
+ "pass_id": 11090,
+ "rules": {
+  "all": [
+   "U1",
+   "PG",
+   "SG",
+   "R",
+   "centre"
+  ],
+  "gauge only": [
+   "U1",
+   "centre"
+  ],
+  "no SG": [
+   "U1",
+   "PG",
+   "R",
+   "centre"
+  ],
+  "no SG, PG": [
+   "U1",
+   "R",
+   "centre"
+  ]
+ },
+ "summary": {
+  "condensate": {
+   "isolated": {
+    "elsewhere": 3775
+   },
+   "max_light_fractional": {
+    "all": 166,
+    "gauge only": 130,
+    "no SG": 156,
+    "no SG, PG": 156
+   },
+   "min_light_fractional": {
+    "all": 120,
+    "gauge only": 18,
+    "no SG": 108,
+    "no SG, PG": 108
+   },
+   "vacua": 55
+  },
+  "singlet": {
+   "isolated": {
+    "elsewhere": 1228
+   },
+   "max_light_fractional": {
+    "all": 115,
+    "gauge only": 69,
+    "no SG": 105,
+    "no SG, PG": 105
+   },
+   "min_light_fractional": {
+    "all": 93,
+    "gauge only": 15,
+    "no SG": 81,
+    "no SG, PG": 81
+   },
+   "vacua": 28
+  }
+ },
+ "vacua": [
+  {
+   "isolated_states": {
+    "elsewhere": 71
+   },
+   "light_fractional": {
+    "all": 158,
+    "gauge only": 130,
+    "no SG": 150,
+    "no SG, PG": 150
+   },
+   "model": "z3z3|Z3Z3_0001_c1__SM_20260932_2822",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 67
+   },
+   "light_fractional": {
+    "all": 140,
+    "gauge only": 36,
+    "no SG": 120,
+    "no SG, PG": 120
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 67
+   },
+   "light_fractional": {
+    "all": 140,
+    "gauge only": 54,
+    "no SG": 132,
+    "no SG, PG": 132
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 75
+   },
+   "light_fractional": {
+    "all": 154,
+    "gauge only": 18,
+    "no SG": 150,
+    "no SG, PG": 150
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 75
+   },
+   "light_fractional": {
+    "all": 154,
+    "gauge only": 48,
+    "no SG": 150,
+    "no SG, PG": 150
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 63
+   },
+   "light_fractional": {
+    "all": 132,
+    "gauge only": 48,
+    "no SG": 120,
+    "no SG, PG": 120
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 66
+   },
+   "light_fractional": {
+    "all": 138,
+    "gauge only": 24,
+    "no SG": 120,
+    "no SG, PG": 120
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 75
+   },
+   "light_fractional": {
+    "all": 158,
+    "gauge only": 42,
+    "no SG": 132,
+    "no SG, PG": 132
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 75
+   },
+   "light_fractional": {
+    "all": 158,
+    "gauge only": 36,
+    "no SG": 132,
+    "no SG, PG": 132
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 71
+   },
+   "light_fractional": {
+    "all": 144,
+    "gauge only": 42,
+    "no SG": 126,
+    "no SG, PG": 126
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 67
+   },
+   "light_fractional": {
+    "all": 140,
+    "gauge only": 36,
+    "no SG": 120,
+    "no SG, PG": 120
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 70
+   },
+   "light_fractional": {
+    "all": 142,
+    "gauge only": 48,
+    "no SG": 132,
+    "no SG, PG": 132
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 74
+   },
+   "light_fractional": {
+    "all": 150,
+    "gauge only": 60,
+    "no SG": 144,
+    "no SG, PG": 144
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 70
+   },
+   "light_fractional": {
+    "all": 142,
+    "gauge only": 54,
+    "no SG": 132,
+    "no SG, PG": 132
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 66
+   },
+   "light_fractional": {
+    "all": 138,
+    "gauge only": 24,
+    "no SG": 120,
+    "no SG, PG": 120
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 75
+   },
+   "light_fractional": {
+    "all": 158,
+    "gauge only": 42,
+    "no SG": 132,
+    "no SG, PG": 132
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 81
+   },
+   "light_fractional": {
+    "all": 166,
+    "gauge only": 36,
+    "no SG": 144,
+    "no SG, PG": 144
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 73
+   },
+   "light_fractional": {
+    "all": 148,
+    "gauge only": 48,
+    "no SG": 132,
+    "no SG, PG": 132
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 67
+   },
+   "light_fractional": {
+    "all": 140,
+    "gauge only": 36,
+    "no SG": 120,
+    "no SG, PG": 120
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 72
+   },
+   "light_fractional": {
+    "all": 146,
+    "gauge only": 54,
+    "no SG": 138,
+    "no SG, PG": 138
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 72
+   },
+   "light_fractional": {
+    "all": 146,
+    "gauge only": 60,
+    "no SG": 138,
+    "no SG, PG": 138
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 76
+   },
+   "light_fractional": {
+    "all": 154,
+    "gauge only": 66,
+    "no SG": 150,
+    "no SG, PG": 150
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 63
+   },
+   "light_fractional": {
+    "all": 134,
+    "gauge only": 48,
+    "no SG": 120,
+    "no SG, PG": 120
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 78
+   },
+   "light_fractional": {
+    "all": 160,
+    "gauge only": 60,
+    "no SG": 156,
+    "no SG, PG": 156
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 78
+   },
+   "light_fractional": {
+    "all": 160,
+    "gauge only": 42,
+    "no SG": 156,
+    "no SG, PG": 156
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 67
+   },
+   "light_fractional": {
+    "all": 142,
+    "gauge only": 54,
+    "no SG": 132,
+    "no SG, PG": 132
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 67
+   },
+   "light_fractional": {
+    "all": 140,
+    "gauge only": 36,
+    "no SG": 120,
+    "no SG, PG": 120
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 72
+   },
+   "light_fractional": {
+    "all": 146,
+    "gauge only": 60,
+    "no SG": 138,
+    "no SG, PG": 138
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 76
+   },
+   "light_fractional": {
+    "all": 154,
+    "gauge only": 66,
+    "no SG": 150,
+    "no SG, PG": 150
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 72
+   },
+   "light_fractional": {
+    "all": 146,
+    "gauge only": 48,
+    "no SG": 138,
+    "no SG, PG": 138
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 66
+   },
+   "light_fractional": {
+    "all": 138,
+    "gauge only": 36,
+    "no SG": 114,
+    "no SG, PG": 114
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 72
+   },
+   "light_fractional": {
+    "all": 146,
+    "gauge only": 48,
+    "no SG": 132,
+    "no SG, PG": 132
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 80
+   },
+   "light_fractional": {
+    "all": 164,
+    "gauge only": 36,
+    "no SG": 144,
+    "no SG, PG": 144
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 74
+   },
+   "light_fractional": {
+    "all": 156,
+    "gauge only": 36,
+    "no SG": 132,
+    "no SG, PG": 132
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 63
+   },
+   "light_fractional": {
+    "all": 128,
+    "gauge only": 24,
+    "no SG": 114,
+    "no SG, PG": 114
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 66
+   },
+   "light_fractional": {
+    "all": 140,
+    "gauge only": 48,
+    "no SG": 120,
+    "no SG, PG": 120
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 78
+   },
+   "light_fractional": {
+    "all": 160,
+    "gauge only": 60,
+    "no SG": 156,
+    "no SG, PG": 156
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 78
+   },
+   "light_fractional": {
+    "all": 160,
+    "gauge only": 42,
+    "no SG": 156,
+    "no SG, PG": 156
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 70
+   },
+   "light_fractional": {
+    "all": 148,
+    "gauge only": 54,
+    "no SG": 132,
+    "no SG, PG": 132
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 66
+   },
+   "light_fractional": {
+    "all": 138,
+    "gauge only": 36,
+    "no SG": 114,
+    "no SG, PG": 114
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 61
+   },
+   "light_fractional": {
+    "all": 126,
+    "gauge only": 36,
+    "no SG": 114,
+    "no SG, PG": 114
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 58
+   },
+   "light_fractional": {
+    "all": 120,
+    "gauge only": 36,
+    "no SG": 108,
+    "no SG, PG": 108
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 65
+   },
+   "light_fractional": {
+    "all": 132,
+    "gauge only": 48,
+    "no SG": 120,
+    "no SG, PG": 120
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 61
+   },
+   "light_fractional": {
+    "all": 126,
+    "gauge only": 36,
+    "no SG": 114,
+    "no SG, PG": 114
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 62
+   },
+   "light_fractional": {
+    "all": 126,
+    "gauge only": 54,
+    "no SG": 114,
+    "no SG, PG": 114
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 58
+   },
+   "light_fractional": {
+    "all": 120,
+    "gauge only": 36,
+    "no SG": 108,
+    "no SG, PG": 108
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 65
+   },
+   "light_fractional": {
+    "all": 132,
+    "gauge only": 48,
+    "no SG": 120,
+    "no SG, PG": 120
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 61
+   },
+   "light_fractional": {
+    "all": 126,
+    "gauge only": 36,
+    "no SG": 114,
+    "no SG, PG": 114
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 62
+   },
+   "light_fractional": {
+    "all": 126,
+    "gauge only": 54,
+    "no SG": 114,
+    "no SG, PG": 114
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 61
+   },
+   "light_fractional": {
+    "all": 126,
+    "gauge only": 36,
+    "no SG": 114,
+    "no SG, PG": 114
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 62
+   },
+   "light_fractional": {
+    "all": 126,
+    "gauge only": 42,
+    "no SG": 114,
+    "no SG, PG": 114
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 61
+   },
+   "light_fractional": {
+    "all": 126,
+    "gauge only": 30,
+    "no SG": 114,
+    "no SG, PG": 114
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 65
+   },
+   "light_fractional": {
+    "all": 132,
+    "gauge only": 42,
+    "no SG": 120,
+    "no SG, PG": 120
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 58
+   },
+   "light_fractional": {
+    "all": 120,
+    "gauge only": 24,
+    "no SG": 108,
+    "no SG, PG": 108
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 61
+   },
+   "light_fractional": {
+    "all": 126,
+    "gauge only": 30,
+    "no SG": 114,
+    "no SG, PG": 114
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "condensate"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 38
+   },
+   "light_fractional": {
+    "all": 93,
+    "gauge only": 15,
+    "no SG": 81,
+    "no SG, PG": 81
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 46
+   },
+   "light_fractional": {
+    "all": 101,
+    "gauge only": 27,
+    "no SG": 93,
+    "no SG, PG": 93
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 46
+   },
+   "light_fractional": {
+    "all": 101,
+    "gauge only": 27,
+    "no SG": 93,
+    "no SG, PG": 93
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 38
+   },
+   "light_fractional": {
+    "all": 93,
+    "gauge only": 15,
+    "no SG": 81,
+    "no SG, PG": 81
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 44
+   },
+   "light_fractional": {
+    "all": 99,
+    "gauge only": 39,
+    "no SG": 87,
+    "no SG, PG": 87
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 41
+   },
+   "light_fractional": {
+    "all": 95,
+    "gauge only": 21,
+    "no SG": 87,
+    "no SG, PG": 87
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 41
+   },
+   "light_fractional": {
+    "all": 95,
+    "gauge only": 21,
+    "no SG": 87,
+    "no SG, PG": 87
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 47
+   },
+   "light_fractional": {
+    "all": 101,
+    "gauge only": 57,
+    "no SG": 93,
+    "no SG, PG": 93
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 41
+   },
+   "light_fractional": {
+    "all": 95,
+    "gauge only": 45,
+    "no SG": 87,
+    "no SG, PG": 87
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 47
+   },
+   "light_fractional": {
+    "all": 101,
+    "gauge only": 57,
+    "no SG": 93,
+    "no SG, PG": 93
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 41
+   },
+   "light_fractional": {
+    "all": 95,
+    "gauge only": 45,
+    "no SG": 87,
+    "no SG, PG": 87
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 46
+   },
+   "light_fractional": {
+    "all": 101,
+    "gauge only": 39,
+    "no SG": 93,
+    "no SG, PG": 93
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 40
+   },
+   "light_fractional": {
+    "all": 95,
+    "gauge only": 39,
+    "no SG": 87,
+    "no SG, PG": 87
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 46
+   },
+   "light_fractional": {
+    "all": 101,
+    "gauge only": 51,
+    "no SG": 93,
+    "no SG, PG": 93
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 46
+   },
+   "light_fractional": {
+    "all": 101,
+    "gauge only": 51,
+    "no SG": 93,
+    "no SG, PG": 93
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 40
+   },
+   "light_fractional": {
+    "all": 95,
+    "gauge only": 39,
+    "no SG": 87,
+    "no SG, PG": 87
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 46
+   },
+   "light_fractional": {
+    "all": 101,
+    "gauge only": 39,
+    "no SG": 93,
+    "no SG, PG": 93
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 40
+   },
+   "light_fractional": {
+    "all": 95,
+    "gauge only": 39,
+    "no SG": 87,
+    "no SG, PG": 87
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 40
+   },
+   "light_fractional": {
+    "all": 95,
+    "gauge only": 39,
+    "no SG": 87,
+    "no SG, PG": 87
+   },
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 45
+   },
+   "light_fractional": {
+    "all": 107,
+    "gauge only": 45,
+    "no SG": 93,
+    "no SG, PG": 93
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 43
+   },
+   "light_fractional": {
+    "all": 101,
+    "gauge only": 39,
+    "no SG": 81,
+    "no SG, PG": 81
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 46
+   },
+   "light_fractional": {
+    "all": 109,
+    "gauge only": 63,
+    "no SG": 99,
+    "no SG, PG": 99
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 44
+   },
+   "light_fractional": {
+    "all": 103,
+    "gauge only": 57,
+    "no SG": 87,
+    "no SG, PG": 87
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 47
+   },
+   "light_fractional": {
+    "all": 109,
+    "gauge only": 63,
+    "no SG": 93,
+    "no SG, PG": 93
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 50
+   },
+   "light_fractional": {
+    "all": 115,
+    "gauge only": 69,
+    "no SG": 105,
+    "no SG, PG": 105
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 45
+   },
+   "light_fractional": {
+    "all": 107,
+    "gauge only": 39,
+    "no SG": 87,
+    "no SG, PG": 87
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 49
+   },
+   "light_fractional": {
+    "all": 113,
+    "gauge only": 45,
+    "no SG": 99,
+    "no SG, PG": 99
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "singlet"
+  },
+  {
+   "isolated_states": {
+    "elsewhere": 45
+   },
+   "light_fractional": {
+    "all": 107,
+    "gauge only": 33,
+    "no SG": 87,
+    "no SG, PG": 87
+   },
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "tag": "singlet"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "Sp_perfect": true,
+ "abelianization_PGSp": "Z2 (mu is the unique nontrivial character)",
+ "chi_equals_mu": true,
+ "deck_multiplier": {
+  "1": 1,
+  "S": -1,
+  "T": 1,
+  "TS": -1
+ },
+ "identifications": [
+  "half-spin swap S+<->S- (Pass 346: outer, det -1 on the D5 module)",
+  "cubic-tick reversal chi (Pass 11073/11085)",
+  "sign character of W(E6) = PGSp(4,3) (det on the reflection representation)",
+  "antiunitarity of the frame action (Holotrade e92a047)"
+ ],
+ "multiplier_is_homomorphism": true,
+ "orders": {
+  "GSp": 103680,
+  "PGSp": 51840,
+  "PSp": 25920,
+  "Sp": 51840
+ },
+ "parents": {
+  "data/w33_pass11073_outer_similitude_tick_reversal.json": "PASS_OUTER_PGSP_INVOLUTION_REVERSES_THE_COCYCLE_AND_HIGHEST_ROOT_TICK_WHILE_THE_INTERNAL_BOREL_DECK_DOES_NOT",
+  "data/w33_pass11085_two_bit_orientation_codec.json": "PASS_FOUR_PGSP_CHAMBER_SHEETS_ARE_EXACTLY_TETRACODE_SIGN_CROSS_CUBIC_TICK_CHIRALITY"
+ },
+ "pass_id": 11091,
+ "scalars_have_multiplier_1": true,
+ "sigma_is_global_character": false
+}

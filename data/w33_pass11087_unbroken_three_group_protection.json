@@ -1,0 +1,6109 @@
+{
+ "pass_id": 11087,
+ "singlet_vacua_extra_u1": {
+  "extra U(1)' coupling to SM matter": 28
+ },
+ "summary": {
+  "condensate": {
+   "charge_third_pairs": {
+    "allowed": 1761,
+    "forbidden": 81876,
+    "necessary: R": 52,
+    "necessary: SG": 8256,
+    "necessary: U1": 21206,
+    "necessary: U1+R": 9636,
+    "necessary: U1+SG": 3794,
+    "necessary: U1+SG+R": 742,
+    "redundant (no single block necessary)": 38190
+   },
+   "groups": {
+    "[3, 3, 3, 3, 9]": 12,
+    "[3, 3, 3]": 1,
+    "[3, 3, 9, 9]": 36,
+    "[3, 3, 9]": 6
+   },
+   "order_drop": {
+    "(('PG', 27), ('R', 1), ('SG', 27), ('U1', 18), ('centre', 27))": 1,
+    "(('PG', 729), ('R', 81), ('SG', 81), ('U1', 27), ('centre', 729))": 30,
+    "(('PG', 729), ('R', 81), ('SG', 81), ('U1', 81), ('centre', 729))": 8,
+    "(('PG', 729), ('R', 81), ('SG', 81), ('U1', 9), ('centre', 729))": 10,
+    "(('PG', 81), ('R', 27), ('SG', 9), ('U1', 9), ('centre', 81))": 1,
+    "(('PG', 81), ('R', 9), ('SG', 9), ('U1', 9), ('centre', 81))": 5
+   },
+   "orders": {
+    "27": 1,
+    "729": 48,
+    "81": 6
+   },
+   "unbroken_u1s": {
+    "1": 54,
+    "5": 1
+   },
+   "vacua": 55
+  },
+  "singlet": {
+   "charge_third_pairs": {
+    "allowed": 1516,
+    "forbidden": 40820,
+    "necessary: SG": 8492,
+    "necessary: U1": 5734,
+    "necessary: U1+R": 2488,
+    "necessary: U1+SG": 1044,
+    "redundant (no single block necessary)": 23062
+   },
+   "groups": {
+    "[3, 3, 3, 3]": 16,
+    "[3, 3, 9]": 12
+   },
+   "order_drop": {
+    "(('PG', 81), ('R', 27), ('SG', 9), ('U1', 108), ('centre', 81))": 11,
+    "(('PG', 81), ('R', 27), ('SG', 9), ('U1', 324), ('centre', 81))": 16,
+    "(('PG', 81), ('R', 27), ('SG', 9), ('U1', 36), ('centre', 81))": 1
+   },
+   "orders": {
+    "81": 28
+   },
+   "unbroken_u1s": {
+    "2": 28
+   },
+   "vacua": 28
+  }
+ },
+ "vacua": [
+  {
+   "charge_third_pairs": {
+    "allowed": 27,
+    "forbidden": 1962,
+    "necessary: R": 52,
+    "necessary: U1": 976,
+    "necessary: U1+R": 76,
+    "redundant (no single block necessary)": 858
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3
+   ],
+   "model": "z3z3|Z3Z3_0001_c1__SM_20260932_2822",
+   "order": 27,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "R": {
+     "invariant_factors": [],
+     "order": 1
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "U1": {
+     "invariant_factors": [
+      18
+     ],
+     "order": 18
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    }
+   },
+   "support": [
+    "n_28",
+    "n_17",
+    "n_3",
+    "n_14",
+    "n_20",
+    "n_22",
+    "n_36",
+    "n_39"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 5
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 245,
+    "necessary: U1+R": 164,
+    "redundant (no single block necessary)": 1069
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_86",
+    "n_3",
+    "n_85",
+    "n_39",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 186,
+    "necessary: U1": 256,
+    "necessary: U1+R": 155,
+    "necessary: U1+SG": 59,
+    "redundant (no single block necessary)": 822
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_86",
+    "n_3",
+    "n_85",
+    "n_13",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 13,
+    "forbidden": 1499,
+    "necessary: SG": 96,
+    "necessary: U1": 289,
+    "necessary: U1+R": 167,
+    "necessary: U1+SG": 35,
+    "redundant (no single block necessary)": 912
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_86",
+    "n_85",
+    "n_13",
+    "n_12",
+    "n_11",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 15,
+    "forbidden": 1497,
+    "necessary: SG": 96,
+    "necessary: U1": 291,
+    "necessary: U1+R": 165,
+    "necessary: U1+SG": 33,
+    "redundant (no single block necessary)": 912
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_86",
+    "n_85",
+    "n_13",
+    "n_12",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 186,
+    "necessary: U1": 256,
+    "necessary: U1+R": 155,
+    "necessary: U1+SG": 59,
+    "redundant (no single block necessary)": 822
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_86",
+    "n_10",
+    "n_3",
+    "n_85",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 174,
+    "necessary: U1": 325,
+    "necessary: U1+R": 164,
+    "necessary: U1+SG": 71,
+    "redundant (no single block necessary)": 744
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_85",
+    "n_66",
+    "n_39",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 70,
+    "forbidden": 1442,
+    "necessary: SG": 330,
+    "necessary: U1+R": 375,
+    "necessary: U1+SG+R": 149,
+    "redundant (no single block necessary)": 588
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_85",
+    "n_39",
+    "n_2",
+    "n_40",
+    "n_7",
+    "n_72"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 70,
+    "forbidden": 1442,
+    "necessary: SG": 330,
+    "necessary: U1+R": 375,
+    "necessary: U1+SG+R": 149,
+    "redundant (no single block necessary)": 588
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_85",
+    "n_39",
+    "n_2",
+    "n_40",
+    "n_7",
+    "n_27"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 186,
+    "necessary: U1": 277,
+    "necessary: U1+R": 134,
+    "necessary: U1+SG": 59,
+    "redundant (no single block necessary)": 822
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_85",
+    "n_13",
+    "n_39",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 245,
+    "necessary: U1+R": 164,
+    "redundant (no single block necessary)": 1069
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_3",
+    "n_85",
+    "n_39",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 186,
+    "necessary: U1": 277,
+    "necessary: U1+R": 134,
+    "necessary: U1+SG": 59,
+    "redundant (no single block necessary)": 822
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_10",
+    "n_85",
+    "n_39",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 186,
+    "necessary: U1": 256,
+    "necessary: U1+R": 155,
+    "necessary: U1+SG": 59,
+    "redundant (no single block necessary)": 822
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_86",
+    "n_85",
+    "n_13",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 186,
+    "necessary: U1": 256,
+    "necessary: U1+R": 155,
+    "necessary: U1+SG": 59,
+    "redundant (no single block necessary)": 822
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_86",
+    "n_10",
+    "n_85",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 174,
+    "necessary: U1": 325,
+    "necessary: U1+R": 164,
+    "necessary: U1+SG": 71,
+    "redundant (no single block necessary)": 744
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_81",
+    "n_66",
+    "n_39",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 70,
+    "forbidden": 1442,
+    "necessary: SG": 330,
+    "necessary: U1+R": 375,
+    "necessary: U1+SG+R": 149,
+    "redundant (no single block necessary)": 588
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_81",
+    "n_39",
+    "n_2",
+    "n_40",
+    "n_7",
+    "n_72"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 70,
+    "forbidden": 1442,
+    "necessary: SG": 330,
+    "necessary: U1+R": 375,
+    "necessary: U1+SG+R": 149,
+    "redundant (no single block necessary)": 588
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_81",
+    "n_39",
+    "n_2",
+    "n_40",
+    "n_7",
+    "n_27"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 186,
+    "necessary: U1": 277,
+    "necessary: U1+R": 134,
+    "necessary: U1+SG": 59,
+    "redundant (no single block necessary)": 822
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_81",
+    "n_13",
+    "n_39",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 245,
+    "necessary: U1+R": 164,
+    "redundant (no single block necessary)": 1069
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_81",
+    "n_3",
+    "n_39",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 186,
+    "necessary: U1": 277,
+    "necessary: U1+R": 134,
+    "necessary: U1+SG": 59,
+    "redundant (no single block necessary)": 822
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_81",
+    "n_10",
+    "n_39",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 186,
+    "necessary: U1": 256,
+    "necessary: U1+R": 155,
+    "necessary: U1+SG": 59,
+    "redundant (no single block necessary)": 822
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_81",
+    "n_86",
+    "n_10",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 186,
+    "necessary: U1": 256,
+    "necessary: U1+R": 155,
+    "necessary: U1+SG": 59,
+    "redundant (no single block necessary)": 822
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_81",
+    "n_86",
+    "n_13",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 186,
+    "necessary: U1": 256,
+    "necessary: U1+R": 155,
+    "necessary: U1+SG": 59,
+    "redundant (no single block necessary)": 822
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_86",
+    "n_10",
+    "n_3",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 15,
+    "forbidden": 1497,
+    "necessary: SG": 96,
+    "necessary: U1": 291,
+    "necessary: U1+R": 165,
+    "necessary: U1+SG": 33,
+    "redundant (no single block necessary)": 912
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_86",
+    "n_13",
+    "n_12",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 13,
+    "forbidden": 1499,
+    "necessary: SG": 96,
+    "necessary: U1": 289,
+    "necessary: U1+R": 167,
+    "necessary: U1+SG": 35,
+    "redundant (no single block necessary)": 912
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_86",
+    "n_13",
+    "n_12",
+    "n_11",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 186,
+    "necessary: U1": 256,
+    "necessary: U1+R": 155,
+    "necessary: U1+SG": 59,
+    "redundant (no single block necessary)": 822
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_86",
+    "n_3",
+    "n_13",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 245,
+    "necessary: U1+R": 164,
+    "redundant (no single block necessary)": 1069
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_86",
+    "n_3",
+    "n_39",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: U1": 1075,
+    "necessary: U1+R": 158,
+    "necessary: U1+SG": 245
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      9,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_83",
+    "n_81",
+    "n_86",
+    "n_10",
+    "n_67",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: U1": 1075,
+    "necessary: U1+R": 158,
+    "necessary: U1+SG": 245
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      9,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_83",
+    "n_81",
+    "n_86",
+    "n_67",
+    "n_13",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: U1": 1096,
+    "necessary: U1+R": 137,
+    "necessary: U1+SG": 245
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      9,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_83",
+    "n_81",
+    "n_10",
+    "n_67",
+    "n_39",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 174,
+    "necessary: U1": 322,
+    "necessary: U1+R": 167,
+    "necessary: U1+SG": 71,
+    "redundant (no single block necessary)": 744
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_83",
+    "n_81",
+    "n_3",
+    "n_67",
+    "n_39",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: U1": 1096,
+    "necessary: U1+R": 137,
+    "necessary: U1+SG": 245
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      9,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_83",
+    "n_81",
+    "n_67",
+    "n_13",
+    "n_39",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 73,
+    "forbidden": 1439,
+    "necessary: SG": 330,
+    "necessary: U1+R": 375,
+    "necessary: U1+SG+R": 146,
+    "redundant (no single block necessary)": 588
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_83",
+    "n_81",
+    "n_67",
+    "n_39",
+    "n_2",
+    "n_40",
+    "n_7",
+    "n_27"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 73,
+    "forbidden": 1439,
+    "necessary: SG": 330,
+    "necessary: U1": 253,
+    "necessary: U1+R": 122,
+    "necessary: U1+SG": 146,
+    "redundant (no single block necessary)": 588
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      9
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_83",
+    "n_81",
+    "n_67",
+    "n_39",
+    "n_2",
+    "n_40",
+    "n_7",
+    "n_72"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 37,
+    "forbidden": 1475,
+    "necessary: SG": 174,
+    "necessary: U1": 319,
+    "necessary: U1+R": 170,
+    "necessary: U1+SG": 68,
+    "redundant (no single block necessary)": 744
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_83",
+    "n_81",
+    "n_67",
+    "n_66",
+    "n_39",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: U1": 1075,
+    "necessary: U1+R": 158,
+    "necessary: U1+SG": 245
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      9,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_83",
+    "n_86",
+    "n_10",
+    "n_3",
+    "n_67",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 15,
+    "forbidden": 1497,
+    "necessary: U1": 1203,
+    "necessary: U1+R": 165,
+    "necessary: U1+SG": 129
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_83",
+    "n_86",
+    "n_67",
+    "n_13",
+    "n_12",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 13,
+    "forbidden": 1499,
+    "necessary: U1": 1204,
+    "necessary: U1+R": 164,
+    "necessary: U1+SG": 131
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      9,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_83",
+    "n_86",
+    "n_67",
+    "n_13",
+    "n_12",
+    "n_11",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: U1": 1075,
+    "necessary: U1+R": 158,
+    "necessary: U1+SG": 245
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      9,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_83",
+    "n_86",
+    "n_3",
+    "n_67",
+    "n_13",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 34,
+    "forbidden": 1478,
+    "necessary: SG": 174,
+    "necessary: U1": 322,
+    "necessary: U1+R": 167,
+    "necessary: U1+SG": 71,
+    "redundant (no single block necessary)": 744
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_83",
+    "n_86",
+    "n_3",
+    "n_67",
+    "n_39",
+    "n_2",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 20,
+    "forbidden": 1492,
+    "necessary: SG": 169,
+    "necessary: U1+R": 166,
+    "redundant (no single block necessary)": 1157
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_85",
+    "n_3",
+    "n_84",
+    "n_39",
+    "n_5",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 20,
+    "forbidden": 1492,
+    "necessary: SG": 126,
+    "necessary: U1": 329,
+    "necessary: U1+R": 166,
+    "necessary: U1+SG": 43,
+    "redundant (no single block necessary)": 828
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_84",
+    "n_39",
+    "n_65",
+    "n_5",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 20,
+    "forbidden": 1492,
+    "necessary: SG": 126,
+    "necessary: U1": 287,
+    "necessary: U1+R": 154,
+    "necessary: U1+SG": 43,
+    "redundant (no single block necessary)": 882
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_84",
+    "n_9",
+    "n_39",
+    "n_5",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 20,
+    "forbidden": 1492,
+    "necessary: SG": 169,
+    "necessary: U1+R": 166,
+    "redundant (no single block necessary)": 1157
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_3",
+    "n_84",
+    "n_39",
+    "n_5",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 20,
+    "forbidden": 1492,
+    "necessary: SG": 126,
+    "necessary: U1": 287,
+    "necessary: U1+R": 154,
+    "necessary: U1+SG": 43,
+    "redundant (no single block necessary)": 882
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_13",
+    "n_84",
+    "n_39",
+    "n_5",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 20,
+    "forbidden": 1492,
+    "necessary: SG": 126,
+    "necessary: U1": 329,
+    "necessary: U1+R": 166,
+    "necessary: U1+SG": 43,
+    "redundant (no single block necessary)": 828
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_83",
+    "n_39",
+    "n_65",
+    "n_5",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 20,
+    "forbidden": 1492,
+    "necessary: SG": 126,
+    "necessary: U1": 287,
+    "necessary: U1+R": 154,
+    "necessary: U1+SG": 43,
+    "redundant (no single block necessary)": 882
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_83",
+    "n_9",
+    "n_39",
+    "n_5",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 20,
+    "forbidden": 1492,
+    "necessary: SG": 169,
+    "necessary: U1+R": 166,
+    "redundant (no single block necessary)": 1157
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_83",
+    "n_3",
+    "n_39",
+    "n_5",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 20,
+    "forbidden": 1492,
+    "necessary: SG": 126,
+    "necessary: U1": 287,
+    "necessary: U1+R": 154,
+    "necessary: U1+SG": 43,
+    "redundant (no single block necessary)": 882
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_83",
+    "n_13",
+    "n_39",
+    "n_5",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 20,
+    "forbidden": 1492,
+    "necessary: SG": 169,
+    "necessary: U1+R": 166,
+    "redundant (no single block necessary)": 1157
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_85",
+    "n_3",
+    "n_39",
+    "n_5",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 20,
+    "forbidden": 1492,
+    "necessary: U1": 1172,
+    "necessary: U1+R": 151,
+    "necessary: U1+SG": 169
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      9,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_81",
+    "n_83",
+    "n_13",
+    "n_66",
+    "n_39",
+    "n_5",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 20,
+    "forbidden": 1492,
+    "necessary: SG": 126,
+    "necessary: U1": 332,
+    "necessary: U1+R": 163,
+    "necessary: U1+SG": 43,
+    "redundant (no single block necessary)": 828
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_81",
+    "n_83",
+    "n_3",
+    "n_66",
+    "n_39",
+    "n_5",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 20,
+    "forbidden": 1492,
+    "necessary: U1": 1172,
+    "necessary: U1+R": 151,
+    "necessary: U1+SG": 169
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      9,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_81",
+    "n_83",
+    "n_66",
+    "n_9",
+    "n_39",
+    "n_5",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 23,
+    "forbidden": 1489,
+    "necessary: SG": 126,
+    "necessary: U1": 335,
+    "necessary: U1+R": 160,
+    "necessary: U1+SG": 40,
+    "redundant (no single block necessary)": 828
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_81",
+    "n_83",
+    "n_66",
+    "n_39",
+    "n_65",
+    "n_5",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 20,
+    "forbidden": 1492,
+    "necessary: SG": 126,
+    "necessary: U1": 332,
+    "necessary: U1+R": 163,
+    "necessary: U1+SG": 43,
+    "redundant (no single block necessary)": 828
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 729,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9,
+      9
+     ],
+     "order": 729
+    }
+   },
+   "support": [
+    "n_81",
+    "n_85",
+    "n_3",
+    "n_66",
+    "n_39",
+    "n_5",
+    "n_40"
+   ],
+   "tag": "condensate",
+   "unbroken_u1s": 1
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 61,
+    "forbidden": 1451,
+    "necessary: SG": 380,
+    "necessary: U1": 52,
+    "necessary: U1+R": 103,
+    "redundant (no single block necessary)": 916
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      12
+     ],
+     "order": 324
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_86",
+    "n_3",
+    "n_14",
+    "n_85",
+    "n_13",
+    "n_63",
+    "n_65"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 61,
+    "forbidden": 1451,
+    "necessary: SG": 380,
+    "necessary: U1": 52,
+    "necessary: U1+R": 103,
+    "redundant (no single block necessary)": 916
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      12
+     ],
+     "order": 324
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_86",
+    "n_14",
+    "n_85",
+    "n_13",
+    "n_12",
+    "n_63",
+    "n_65"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 61,
+    "forbidden": 1451,
+    "necessary: SG": 380,
+    "necessary: U1": 52,
+    "necessary: U1+R": 103,
+    "redundant (no single block necessary)": 916
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      12
+     ],
+     "order": 324
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_86",
+    "n_10",
+    "n_85",
+    "n_13",
+    "n_12",
+    "n_63",
+    "n_65"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 61,
+    "forbidden": 1451,
+    "necessary: SG": 380,
+    "necessary: U1": 52,
+    "necessary: U1+R": 103,
+    "redundant (no single block necessary)": 916
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      12
+     ],
+     "order": 324
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_86",
+    "n_10",
+    "n_3",
+    "n_85",
+    "n_12",
+    "n_63",
+    "n_65"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 61,
+    "forbidden": 1451,
+    "necessary: SG": 380,
+    "necessary: U1": 52,
+    "necessary: U1+R": 103,
+    "redundant (no single block necessary)": 916
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      12
+     ],
+     "order": 324
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_86",
+    "n_10",
+    "n_3",
+    "n_14",
+    "n_85",
+    "n_63",
+    "n_65"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 61,
+    "forbidden": 1451,
+    "necessary: SG": 380,
+    "necessary: U1": 52,
+    "necessary: U1+R": 103,
+    "redundant (no single block necessary)": 916
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      12
+     ],
+     "order": 324
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_86",
+    "n_14",
+    "n_85",
+    "n_13",
+    "n_63",
+    "n_65"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 61,
+    "forbidden": 1451,
+    "necessary: SG": 380,
+    "necessary: U1": 52,
+    "necessary: U1+R": 103,
+    "redundant (no single block necessary)": 916
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      12
+     ],
+     "order": 324
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_86",
+    "n_10",
+    "n_85",
+    "n_12",
+    "n_65",
+    "n_63"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 61,
+    "forbidden": 1451,
+    "necessary: SG": 380,
+    "necessary: U1": 52,
+    "necessary: U1+R": 103,
+    "redundant (no single block necessary)": 916
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      12
+     ],
+     "order": 324
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_86",
+    "n_10",
+    "n_14",
+    "n_85",
+    "n_63",
+    "n_65"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 61,
+    "forbidden": 1451,
+    "necessary: SG": 380,
+    "necessary: U1": 52,
+    "necessary: U1+R": 103,
+    "redundant (no single block necessary)": 916
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      12
+     ],
+     "order": 324
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_81",
+    "n_86",
+    "n_10",
+    "n_12",
+    "n_63",
+    "n_65"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 61,
+    "forbidden": 1451,
+    "necessary: SG": 380,
+    "necessary: U1": 52,
+    "necessary: U1+R": 103,
+    "redundant (no single block necessary)": 916
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      12
+     ],
+     "order": 324
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_81",
+    "n_86",
+    "n_10",
+    "n_14",
+    "n_63",
+    "n_65"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 61,
+    "forbidden": 1451,
+    "necessary: SG": 380,
+    "necessary: U1": 52,
+    "necessary: U1+R": 103,
+    "redundant (no single block necessary)": 916
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      12
+     ],
+     "order": 324
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_81",
+    "n_86",
+    "n_14",
+    "n_13",
+    "n_63",
+    "n_65"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 61,
+    "forbidden": 1451,
+    "necessary: SG": 380,
+    "necessary: U1": 52,
+    "necessary: U1+R": 103,
+    "redundant (no single block necessary)": 916
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      12
+     ],
+     "order": 324
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_86",
+    "n_10",
+    "n_3",
+    "n_14",
+    "n_63",
+    "n_65"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 61,
+    "forbidden": 1451,
+    "necessary: SG": 380,
+    "necessary: U1": 52,
+    "necessary: U1+R": 103,
+    "redundant (no single block necessary)": 916
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      12
+     ],
+     "order": 324
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_86",
+    "n_10",
+    "n_3",
+    "n_12",
+    "n_63",
+    "n_65"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 61,
+    "forbidden": 1451,
+    "necessary: SG": 380,
+    "necessary: U1": 52,
+    "necessary: U1+R": 103,
+    "redundant (no single block necessary)": 916
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      12
+     ],
+     "order": 324
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_86",
+    "n_10",
+    "n_13",
+    "n_12",
+    "n_63",
+    "n_65"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 61,
+    "forbidden": 1451,
+    "necessary: SG": 380,
+    "necessary: U1": 52,
+    "necessary: U1+R": 103,
+    "redundant (no single block necessary)": 916
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      12
+     ],
+     "order": 324
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_86",
+    "n_14",
+    "n_13",
+    "n_12",
+    "n_63",
+    "n_65"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 61,
+    "forbidden": 1451,
+    "necessary: SG": 380,
+    "necessary: U1": 52,
+    "necessary: U1+R": 103,
+    "redundant (no single block necessary)": 916
+   },
+   "invariant_factors": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      3,
+      3
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      12
+     ],
+     "order": 324
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_86",
+    "n_3",
+    "n_14",
+    "n_13",
+    "n_65",
+    "n_63"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 58,
+    "forbidden": 1454,
+    "necessary: SG": 276,
+    "necessary: U1": 329,
+    "necessary: U1+R": 100,
+    "necessary: U1+SG": 107,
+    "redundant (no single block necessary)": 642
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      9
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      12
+     ],
+     "order": 108
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_83",
+    "n_86",
+    "n_10",
+    "n_3",
+    "n_67",
+    "n_14",
+    "n_63",
+    "n_65"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 58,
+    "forbidden": 1454,
+    "necessary: SG": 276,
+    "necessary: U1": 329,
+    "necessary: U1+R": 100,
+    "necessary: U1+SG": 107,
+    "redundant (no single block necessary)": 642
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      9
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      12
+     ],
+     "order": 108
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_83",
+    "n_86",
+    "n_10",
+    "n_3",
+    "n_67",
+    "n_12",
+    "n_63",
+    "n_65"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 58,
+    "forbidden": 1454,
+    "necessary: SG": 276,
+    "necessary: U1": 329,
+    "necessary: U1+R": 100,
+    "necessary: U1+SG": 107,
+    "redundant (no single block necessary)": 642
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c3__SM_20260934_739",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      9
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      12
+     ],
+     "order": 108
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_83",
+    "n_86",
+    "n_3",
+    "n_67",
+    "n_14",
+    "n_13",
+    "n_65",
+    "n_63"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 41,
+    "forbidden": 1471,
+    "necessary: SG": 198,
+    "necessary: U1": 345,
+    "necessary: U1+R": 60,
+    "necessary: U1+SG": 58,
+    "redundant (no single block necessary)": 810
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      9
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      12
+     ],
+     "order": 108
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_85",
+    "n_3",
+    "n_84",
+    "n_9",
+    "n_39",
+    "n_62"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 41,
+    "forbidden": 1471,
+    "necessary: SG": 198,
+    "necessary: U1": 345,
+    "necessary: U1+R": 60,
+    "necessary: U1+SG": 58,
+    "redundant (no single block necessary)": 810
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      9
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      12
+     ],
+     "order": 108
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_85",
+    "n_13",
+    "n_3",
+    "n_84",
+    "n_39",
+    "n_62"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 41,
+    "forbidden": 1471,
+    "necessary: SG": 198,
+    "necessary: U1": 345,
+    "necessary: U1+R": 60,
+    "necessary: U1+SG": 58,
+    "redundant (no single block necessary)": 810
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      9
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      12
+     ],
+     "order": 108
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_85",
+    "n_84",
+    "n_9",
+    "n_39",
+    "n_62"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 41,
+    "forbidden": 1471,
+    "necessary: SG": 198,
+    "necessary: U1": 345,
+    "necessary: U1+R": 60,
+    "necessary: U1+SG": 58,
+    "redundant (no single block necessary)": 810
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      9
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      12
+     ],
+     "order": 108
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_83",
+    "n_85",
+    "n_13",
+    "n_84",
+    "n_39",
+    "n_62"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 41,
+    "forbidden": 1471,
+    "necessary: SG": 198,
+    "necessary: U1": 345,
+    "necessary: U1+R": 60,
+    "necessary: U1+SG": 58,
+    "redundant (no single block necessary)": 810
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      9
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      12
+     ],
+     "order": 108
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_83",
+    "n_85",
+    "n_13",
+    "n_39",
+    "n_62"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 41,
+    "forbidden": 1471,
+    "necessary: SG": 198,
+    "necessary: U1": 345,
+    "necessary: U1+R": 60,
+    "necessary: U1+SG": 58,
+    "redundant (no single block necessary)": 810
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      9
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      12
+     ],
+     "order": 108
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_83",
+    "n_85",
+    "n_9",
+    "n_39",
+    "n_62"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 41,
+    "forbidden": 1471,
+    "necessary: SG": 198,
+    "necessary: U1": 345,
+    "necessary: U1+R": 60,
+    "necessary: U1+SG": 58,
+    "redundant (no single block necessary)": 810
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      9
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      12
+     ],
+     "order": 108
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_85",
+    "n_13",
+    "n_3",
+    "n_39",
+    "n_62"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 41,
+    "forbidden": 1471,
+    "necessary: SG": 198,
+    "necessary: U1": 345,
+    "necessary: U1+R": 60,
+    "necessary: U1+SG": 58,
+    "redundant (no single block necessary)": 810
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      9
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      3,
+      12
+     ],
+     "order": 108
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_4",
+    "n_81",
+    "n_85",
+    "n_3",
+    "n_9",
+    "n_39",
+    "n_62"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  },
+  {
+   "charge_third_pairs": {
+    "allowed": 38,
+    "forbidden": 1474,
+    "necessary: U1": 1155,
+    "necessary: U1+R": 60,
+    "necessary: U1+SG": 259
+   },
+   "invariant_factors": [
+    3,
+    3,
+    9
+   ],
+   "model": "z3z3|Z3Z3_0001_c4__SM_20260935_3729",
+   "order": 81,
+   "order_with_block_dropped": {
+    "PG": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    },
+    "R": {
+     "invariant_factors": [
+      3,
+      9
+     ],
+     "order": 27
+    },
+    "SG": {
+     "invariant_factors": [
+      3,
+      3
+     ],
+     "order": 9
+    },
+    "U1": {
+     "invariant_factors": [
+      3,
+      12
+     ],
+     "order": 36
+    },
+    "centre": {
+     "invariant_factors": [
+      3,
+      3,
+      9
+     ],
+     "order": 81
+    }
+   },
+   "support": [
+    "n_81",
+    "n_85",
+    "n_13",
+    "n_3",
+    "n_66",
+    "n_39",
+    "n_62"
+   ],
+   "tag": "singlet",
+   "unbroken_u1s": 2
+  }
+ ]
+}
