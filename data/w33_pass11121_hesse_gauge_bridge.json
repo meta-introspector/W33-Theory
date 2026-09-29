@@ -1,0 +1,61 @@
+{
+ "bridge": [
+  {
+   "other": "external-A2 qutrit H27 (2026-09-21_physical_external_a2_h27.md)",
+   "ours": "family Delta(54) of every model: X = fixed-point translation, Z = space-group phase (Pass 11105)",
+   "status": "realised"
+  },
+  {
+   "other": "H27 centre = FI Z3 exp(2 pi i Q_psi / 3) (2026-09-21_physical_fi_is_h27_center.md)",
+   "ours": "centre = orbifold twist; a gauge element in 104/104 models; exactly the anomalous-U(1) Z3 in models 4, 25, 29 (Pass 11116)",
+   "status": "realised as a gauge element; literally the FI Z3 in 3/104"
+  },
+  {
+   "other": "Clifford-648 = H27:SL(2,3) = W33 point stabiliser (2026-09-21_physical_a2_clifford648_w33_bridge.md; 1296 with similitudes)",
+   "ours": "only H27:<-I> (index 12); the quadratic phases are forbidden by the space-group rule (Pass 11105)",
+   "status": "partially realised (-I only)"
+  },
+  {
+   "other": "two-qutrit 3^(1+4) = H27_int o H27_ext, commutation graph W(3,3) (2026-09-21_e8_trinification_two_qutrit_pauli243.md)",
+   "ours": "not on generations (faithful degree 3^k: k = 1), not on generation x colour, not on hidden SU(3) (Passes 11111, 11116)",
+   "status": "not realised on any matter"
+  },
+  {
+   "other": "matter 81 = 9 x H9 under 3^(1+4) (2026-09-21_e8_matter81_pauli243_restriction.md)",
+   "ours": "requires the E6 trinification centre; the vacua carry SM x U(1)^n x hidden, no E6",
+   "status": "not realised"
+  },
+  {
+   "other": "Hesse configuration / Hesse pencil (Passes 11061-11066; 2026-09-23 Hesse notes; Artebani-Dolgachev)",
+   "ours": "the up-quark mass determinant over the Delta(54) Higgs triplet is a Hesse-pencil cubic (forced by Delta(27)); the family modulus picks the member: singular at the one-loop minimum rho (Pass 11114)",
+   "status": "realised: the Hesse pencil is the geometry of the quark masses"
+  },
+  {
+   "other": "AG(3,3) / collinearity (27 fixed points of T6/Z3)",
+   "ours": "theta^3 couplings = collinear triples; theta x theta^2 x untwisted = same point (Pass 11105)",
+   "status": "realised"
+  }
+ ],
+ "jcurve_i": [
+  1727.9999999999998,
+  0.0
+ ],
+ "lambda_i": [
+  2.7320508075688763,
+  0.0
+ ],
+ "lambda_i_is_1_plus_sqrt3": true,
+ "lambda_large_T": [
+  700341.92140596,
+  3045419095.76279
+ ],
+ "lambda_rho": [
+  -0.49999999999999994,
+  -0.8660254037844384
+ ],
+ "lambda_rho_cubed": [
+  0.9999999999999992,
+  -2.220446049250313e-16
+ ],
+ "pass_id": 11121
+}

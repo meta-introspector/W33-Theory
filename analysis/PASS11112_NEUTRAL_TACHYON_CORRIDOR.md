@@ -50,3 +50,9 @@ The preference is model-specific: model 2, whose tachyons are all charged, prefe
 not computed:
 * the endpoint of the condensation, which needs the tachyon potential beyond quadratic order;
 * whether the charged torus stays above its critical radius all the way there.
+
+## Follow-up (Pass 11118)
+
+The full gradient flow on a 6 × 6 grid reaches the neutral boundary from equal starting radii. The preference is
+narrow, though: a starting asymmetry of about 1.5% in favour of shrinking the charged torus is enough to reverse it
+(separatrix δ\* between 0.010 and 0.020).

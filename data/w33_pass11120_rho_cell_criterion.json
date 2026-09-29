@@ -1,0 +1,22 @@
+{
+ "models": 491,
+ "pass_id": 11120,
+ "patterns": {
+  "(1.0, 1.0, 1.0)|safe=False": 185,
+  "(1.0, 1.0, 1.667)|safe=False": 95,
+  "(1.0, 1.667, 1.0)|safe=False": 115,
+  "(1.0, 1.667, 1.0)|safe=True": 5,
+  "(1.667, 1.667, 1.667)|safe=False": 91
+ },
+ "safe_all_sparse": true,
+ "safe_models": [
+  "18",
+  "A8SM_20260952_1033_TF",
+  "A8SM_20260952_7375_TF",
+  "A8SM_20260982_8666_TF",
+  "A8SM_20260972_10118_TF"
+ ],
+ "safe_norm1_cells_mixed_single_kappa": true,
+ "sparse_models": 20,
+ "sparse_tachyonic": 15
+}

@@ -1,0 +1,29 @@
+{
+ "53": {
+  "broken_u1_rank": 1,
+  "charge_vectors": 2,
+  "charged_under_anomalous": true,
+  "cubic_allowed": false,
+  "hypercharge_zero": true,
+  "levels": [
+   -0.0959
+  ],
+  "n_u1": 9,
+  "nonabelian_singlet": true,
+  "opposite_pair": true
+ },
+ "57": {
+  "broken_u1_rank": 1,
+  "charge_vectors": 2,
+  "charged_under_anomalous": true,
+  "cubic_allowed": false,
+  "hypercharge_zero": true,
+  "levels": [
+   -0.0638
+  ],
+  "n_u1": 8,
+  "nonabelian_singlet": true,
+  "opposite_pair": true
+ },
+ "pass_id": 11117
+}
