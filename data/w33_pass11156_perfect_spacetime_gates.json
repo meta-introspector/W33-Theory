@@ -1,0 +1,41 @@
+{
+ "antiunitary_det_law_eq_minus1": true,
+ "antiunitary_perfect_count": 13824,
+ "det_law_detAA_plus_detBA_eq_1": true,
+ "formula_checked_on_random_cliffords": true,
+ "local_stabilizer_order": 24,
+ "n_checks": 10,
+ "pass_id": 11156,
+ "perfect_all_blocks_invertible": 13824,
+ "perfect_block_dets": {
+  "(2, 2)": 13824
+ },
+ "perfect_count": 13824,
+ "perfect_fraction": 0.26666666666666666,
+ "perfect_local_double_cosets": [
+  13824
+ ],
+ "perfect_orders": {
+  "3": 144,
+  "4": 576,
+  "5": 1728,
+  "6": 1872,
+  "8": 1728,
+  "9": 1152,
+  "10": 1728,
+  "12": 3744,
+  "18": 1152
+ },
+ "rank_census": {
+  "space0_diag2": 576,
+  "space1_diag2": 18432,
+  "space2_diag0": 576,
+  "space2_diag1": 18432,
+  "space2_diag2": 13824
+ },
+ "sp43_order": 51840,
+ "tetracode_gate_is_antiunitary": true,
+ "tetracode_gate_is_perfect": true,
+ "tetracode_times_local_time_reversal_is_perfect": true,
+ "tetracode_times_local_time_reversal_is_symplectic": true
+}

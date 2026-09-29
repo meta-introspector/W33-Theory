@@ -257,3 +257,37 @@ In space, a system can give its full entanglement to only one partner. Across ti
 once --- because it is not sharing anything, it is simply persisting. That is why the spatial kind is scarce and
 ``spooky'', and the temporal kind is free.
 \end{plainwords}
+
+\begin{result}{Theorem 3.7 (perfect space--time gates) \hfill \tierT\ \tierC}
+Write a two-qutrit Clifford gate as $S=\begin{psmallmatrix}S_{AA}&S_{AB}\\S_{BA}&S_{BB}\end{psmallmatrix}\in\Sp(4,3)$.
+Its Choi state on $A_{\rm in},B_{\rm in},A_{\rm out},B_{\rm out}$ is maximally entangled across time (always), carries
+entanglement $\operatorname{rank}S_{BA}$ across space and $\operatorname{rank}S_{AA}$ across the space--time diagonal
+$\{A_{\rm in}B_{\rm out}\}$, and
+\[
+\det S_{AA}+\det S_{BA}=1 \pmod 3 ,
+\]
+so a gate can never be weak across both space and the diagonal. The gates that are maximal across all three cuts ---
+whose Choi state is the absolutely maximally entangled state of four qutrits --- are exactly those with
+$\det S_{AA}=\det S_{BA}=-1$: there are $13824=24^3$ of them ($4/15$ of $\Sp(4,3)$), forming a single orbit under local
+Clifford operations. For time-reversing Clifford operations the law reads $\det S_{AA}+\det S_{BA}=-1$, and the
+tetracode gate $K\otimes I$, $K=\begin{psmallmatrix}1&1\\1&-1\end{psmallmatrix}$, is perfect; composed with a local time
+reversal it is the perfect unitary gate.
+\cert{w33\_pass11156\_perfect\_spacetime\_gates.py}
+\end{result}
+
+\begin{physical}[Entanglement that is spatial and temporal at once]
+A perfect gate hides everything in pairs: every two-qutrit marginal of its Choi state is maximally mixed, so $A$'s past
+is uncorrelated with $A$'s future and with $B$'s future separately, and entirely correlated with them jointly --- maximal
+scrambling. No such gate exists for qubits; for qutrits it exists, and in $\W$ it is the tetracode that sits at every
+point. That the four-qutrit absolutely maximally entangled state comes from the tetracode and is unique up to local
+unitaries is known \cite{Tan2026}; the complementarity law and the space/time/diagonal reading are specific to $\W$.
+\end{physical}
+
+Four refinements of Proposition~3.6. The Pauli-only Bell operator has characteristic polynomial
+$(x^3-6x-2)(x^3-3x+1)^2$ exactly, its remaining eigenvalues being $2\cos(2\pi k/9)$. In time the magic cannot sit in the
+start: with Pauli measurements a single qutrit gives exactly $2$ whatever its initial state, whereas in space a magic
+state already violates. The temporal optimum keeps climbing with dimension ($3.453$, $3.517$ at $d=6,7$, deficit from $4$
+falling like $d^{-0.65}$) while the spatial one barely moves ($3.050$, $3.078$). And the $4/\sqrt{15}$ optimum is carried
+by a state whose invariants are all fifteenths: spectra $(7,4,4)/15$ and $(11,2,2)/15$, $N_{AB}=N_{AC}=2/\sqrt{15}$,
+$N_{BC}=1/15$. \tierC\ (\cert{w33\_pass11152\_pauli\_bell\_charpoly.py}, \cert{w33\_pass11153\_temporal\_magic\_budget.py},
+\cert{w33\_pass11154\_polygamy\_optimum\_structure.py}, \cert{w33\_pass11155\_temporal\_cglmp\_trend.py})

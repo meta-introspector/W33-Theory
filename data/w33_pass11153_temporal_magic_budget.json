@@ -1,0 +1,8 @@
+{
+ "in_time_magic_must_be_in_measurements": true,
+ "pass_id": 11153,
+ "spatial_pauli_measurements_magic_state": 2.6016791318831545,
+ "spatial_stabilizer_state_magic_measurements": 2.872934051172338,
+ "temporal_any_bases_stabilizer_start": 3.1628065077657714,
+ "temporal_pauli_measurements_any_start": 2.000000000000004
+}
