@@ -908,13 +908,33 @@ $\mathrm{Im}\,T\le1$, always at least $0.4$ below the neutral onset, and in the 
 the neutral tachyon at $\mathrm{Im}\,T=1.4$. The condensate carries no quantum numbers on the family torus, so it cannot
 move $T^*$ from $\rho$ or touch $m_c=m_u$. What it does change is the selection rules: its charge lies outside the span
 of the singlet vacuum, and every Yukawa target in the new direction needs exactly one condensate insertion. With it,
-charged-lepton Yukawas forbidden at every order become allowed in all six, down-quark ones in four, and neutrino Dirac
-terms in all six (orders $2$--$6$, $1863$ entries, $1854$ with a twisted field), while up-type Yukawas and the
-$\mu$-term stay forbidden. A first encoding that treated the winding as an exactly conserved $\Z_3$ found nothing; that
+charged-lepton, down-quark and neutrino-Dirac entries forbidden at every order become allowed (orders $2$--$6$,
+$1863$ entries, $1854$ with a twisted field), while up-type Yukawas and the $\mu$-term stay forbidden. These are
+individual entries of matrices that already have allowed ones: the light doublets have tree-level lepton and down
+Yukawas (see below), so this is not a new source of the missing masses, as first read. A first encoding that treated the winding as an exactly conserved $\Z_3$ found nothing; that
 zero was an artefact, since winding modulo $(1-\theta)\Lambda$ is the fixed-point class. \tierC\
 (\cert{w33\_pass11122\_six\_potentials.py}, \cert{w33\_pass11123\_critical\_point\_amplitude.py},
 \cert{w33\_pass11124\_condensate\_unlocked\_couplings.py}, \cert{w33\_pass11125\_bfield\_charged\_onset.py},
 \cert{w33\_pass11126\_family\_modulus\_under\_condensation.py})
+
+Where the unlocked entries matter, and where the opening ends. For the three light Higgs doublets (those with a
+tree-level down coupling) the lepton and down textures are $[0,1,1]$ with and without the condensate, and the cubic
+lepton entries are symmetric under the point reflection that forces $m_c=m_u$, so $m_\mu=m_e$ survives. But in a
+non-supersymmetric model with one light Higgs $h$---the doublet that gives the top---the bottom and tau come from $h^*$,
+and $h^*$ is not a tree-level down doublet: in all six the conjugates of the three top doublets are exactly the heavier
+doublets. There the condensate lowers $m_b/m_t$ from $\epsilon^3$ to $\epsilon^2$ in four models and brings the tau to
+the same order, so $m_b/m_\tau=O(1)$ with $\epsilon\approx0.12$--$0.15$, i.e. $\langle T\rangle\langle S\rangle/M^2
+\approx0.01$--$0.02$; the light generations stay degenerate. Across all $21$ neutral-exit survivors the condensate never
+unlocks an up-type Yukawa or a $\mu$-term (down entries in $14$, lepton in $17$). The endpoint itself is not a nearby
+vacuum: shrinking the neutral torus deepens the tachyon along an exact winding law, $p_R^2=y_1/\sqrt3$ (plus
+$1/(3\sqrt3\,y_2)$ in the golden models), whose diagonal root $y^2-\sqrt3\,y+\frac13=0$ is where the golden radius
+$\varphi^2/\sqrt3=(3+\sqrt5)/(2\sqrt3)$ comes from; as $y\to0$ it approaches the $\Delta=-\frac12$ ground state of the
+T-dual tachyonic string (cf.\ Fraiman--Gra\~na--Parra De Freitas--Sethi) with no tachyon-free island. The $B$-field is a
+near-flat direction ($|\partial_B\Lambda|\lesssim5\times10^{-5}|\partial_y\Lambda|$), with $B=0$ a shallow minimum just
+above the onset. \tierC\
+(\cert{w33\_pass11127\_lepton\_texture\_under\_condensation.py}, \cert{w33\_pass11128\_pinched\_cycle.py},
+\cert{w33\_pass11129\_offaxis\_potential.py}, \cert{w33\_pass11130\_single\_higgs\_bottom\_tau.py},
+\cert{w33\_pass11131\_unlocked\_across\_21.py})
 
 The apparent opening was an artefact of an
 incomplete selection rule; it was caught by reading the literature on the rules themselves, not by

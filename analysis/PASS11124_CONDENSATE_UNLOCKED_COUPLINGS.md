@@ -1,4 +1,9 @@
-# Pass 11124 — the neutral condensate unlocks the missing lepton and down-quark Yukawas, and nothing in the up sector
+# Pass 11124 — the neutral condensate unlocks forbidden lepton, down and neutrino-Dirac entries, and nothing in the up sector
+
+> **Corrected by Passes 11127 and 11130.** The first reading, that the condensate supplies "the missing lepton and
+> down-quark Yukawas", was an over-read. The light doublets H6–8 already have those Yukawas at tree level, with an
+> unchanged hierarchy. The unlocked entries matter for the conjugate of the top Higgs (Hd3–5): with one light Higgs,
+> m_b/m_t drops from ε³ to ε² in 4 of the six. The counts below stand; the hidden-gauge check removes none.
 
 Producer: `analysis/w33_pass11124_condensate_unlocked_couplings.py`
 Scan: `analysis/w33_pass11124_scan_dumps.py` (needs the Pass 11108 orbifolder dumps)

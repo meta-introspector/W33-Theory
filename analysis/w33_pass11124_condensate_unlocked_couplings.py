@@ -24,10 +24,12 @@ Results:
     six -- an artefact: winding mod (1 - theta) Lambda is the same Z3 as the fixed-point class and is compensated by
     twisted fields.  It is kept as the strict-rule bound (exact for couplings with no twisted field);
   * control: a probe with charge 6 q_T is forbidden without T and allowed at order 6 with it, in all six.
-Reading: the condensate is a new source for exactly the Yukawas this class lacks (down/lepton, Passes 11101-11102
-counted only a heavy top and bottom), each suppressed by one power of <T>/M_s; it leaves the up sector (m_c = m_u) alone,
-as the Delta(54)-singlet argument of Pass 11117 requires.  Scope: selection rules only -- no coefficients; whether the
-unlocked entries lift the Delta(54) degeneracy of the charged leptons is not decided here.
+Reading (CORRECTED by Passes 11127 and 11130): the unlocked entries are forbidden ENTRIES of down/lepton matrices that
+already have allowed ones -- the light (tree-level) doublets H6-8 have lepton and down Yukawas at tree level, and their
+hierarchy ([0,1,1]) is unchanged by the condensate.  The original reading ("a new source for exactly the Yukawas this
+class lacks") was an over-read.  Where the unlocked entries matter is the conjugate of the top Higgs (Hd3-5): with one
+light Higgs, m_b/m_t drops from eps^3 to eps^2 in 4 of the six (Pass 11130).  The selection-rule statements above stand
+(Pass 11127 re-derived the counts with the hidden-gauge check: identical).
 """
 from __future__ import annotations
 

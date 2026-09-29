@@ -1,0 +1,166 @@
+{
+ "control_all": true,
+ "counts": {
+  "A8SM_20260928_2233_TF": {
+   "down": 81,
+   "lepton": 108,
+   "mu_HuHd": 0,
+   "nu_dirac": 324,
+   "up": 0
+  },
+  "A8SM_20260928_533_TF": {
+   "down": 81,
+   "lepton": 81,
+   "mu_HuHd": 0,
+   "nu_dirac": 234,
+   "up": 0
+  },
+  "A8SM_20260941_7061_TF": {
+   "down": 0,
+   "lepton": 0,
+   "mu_HuHd": 0,
+   "nu_dirac": 189,
+   "up": 0
+  },
+  "A8SM_20260941_7243_TF": {
+   "down": 0,
+   "lepton": 27,
+   "mu_HuHd": 0,
+   "nu_dirac": 54,
+   "up": 0
+  },
+  "A8SM_20260942_36621_TF": {
+   "down": 0,
+   "lepton": 27,
+   "mu_HuHd": 0,
+   "nu_dirac": 54,
+   "up": 0
+  },
+  "A8SM_20260942_46043_TF": {
+   "down": 0,
+   "lepton": 27,
+   "mu_HuHd": 0,
+   "nu_dirac": 54,
+   "up": 0
+  },
+  "A8SM_20260951_24165_TF": {
+   "down": 81,
+   "lepton": 81,
+   "mu_HuHd": 0,
+   "nu_dirac": 162,
+   "up": 0
+  },
+  "A8SM_20260971_14027_TF": {
+   "down": 0,
+   "lepton": 0,
+   "mu_HuHd": 0,
+   "nu_dirac": 189,
+   "up": 0
+  },
+  "A8SM_20260971_18172_TF": {
+   "down": 81,
+   "lepton": 81,
+   "mu_HuHd": 0,
+   "nu_dirac": 270,
+   "up": 0
+  },
+  "A8SM_20260971_19247_TF": {
+   "down": 81,
+   "lepton": 81,
+   "mu_HuHd": 0,
+   "nu_dirac": 234,
+   "up": 0
+  },
+  "A8SM_20260971_3818_TF": {
+   "down": 81,
+   "lepton": 81,
+   "mu_HuHd": 0,
+   "nu_dirac": 198,
+   "up": 0
+  },
+  "A8SM_20260971_40521_TF": {
+   "down": 81,
+   "lepton": 108,
+   "mu_HuHd": 0,
+   "nu_dirac": 324,
+   "up": 0
+  },
+  "A8SM_20260971_5285_TF": {
+   "down": 81,
+   "lepton": 108,
+   "mu_HuHd": 0,
+   "nu_dirac": 324,
+   "up": 0
+  },
+  "A8SM_20260971_5904_TF": {
+   "down": 81,
+   "lepton": 81,
+   "mu_HuHd": 0,
+   "nu_dirac": 270,
+   "up": 0
+  },
+  "A8SM_20260972_17224_TF": {
+   "down": 81,
+   "lepton": 81,
+   "mu_HuHd": 0,
+   "nu_dirac": 270,
+   "up": 0
+  },
+  "A8SM_20260972_19688_TF": {
+   "down": 81,
+   "lepton": 108,
+   "mu_HuHd": 0,
+   "nu_dirac": 324,
+   "up": 0
+  },
+  "A8SM_20260972_2080_TF": {
+   "down": 81,
+   "lepton": 81,
+   "mu_HuHd": 0,
+   "nu_dirac": 234,
+   "up": 0
+  },
+  "A8SM_20260972_31386_TF": {
+   "down": 81,
+   "lepton": 108,
+   "mu_HuHd": 0,
+   "nu_dirac": 324,
+   "up": 0
+  },
+  "A8SM_20260972_5273_TF": {
+   "down": 81,
+   "lepton": 81,
+   "mu_HuHd": 0,
+   "nu_dirac": 270,
+   "up": 0
+  },
+  "A8SM_20260982_1645_TF": {
+   "down": 0,
+   "lepton": 0,
+   "mu_HuHd": 0,
+   "nu_dirac": 189,
+   "up": 0
+  },
+  "A8SM_20260982_47048_TF": {
+   "down": 0,
+   "lepton": 0,
+   "mu_HuHd": 0,
+   "nu_dirac": 0,
+   "up": 0
+  }
+ },
+ "hidden_check_removes_none": true,
+ "models_with_unlocked": {
+  "down": 14,
+  "lepton": 17,
+  "mu_HuHd": 0,
+  "nu_dirac": 20,
+  "up": 0
+ },
+ "n_models": 21,
+ "nothing_unlocked": [
+  "A8SM_20260982_47048_TF"
+ ],
+ "pass_id": 11131,
+ "reproduces_11124": true
+}
