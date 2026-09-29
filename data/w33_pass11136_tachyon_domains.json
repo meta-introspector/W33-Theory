@@ -1,0 +1,26 @@
+{
+ "charged_absent_consistent": true,
+ "charged_eR": 3.732050807568877,
+ "charged_hyperbolic_centre": 0.28867513459481287,
+ "elliptic_point_im": 0.28867513459481287,
+ "fricke_point": 0.5773502691896258,
+ "golden_eR": 2.618033988749895,
+ "golden_hyperbolic_centre": 0.5773502691896257,
+ "golden_top": 1.5115226281523415,
+ "golden_top_is_phi2_over_sqrt3": true,
+ "max_deviation": {
+  "A8SM_20260942_36621_TF": {
+   "charged": 8.786089633616712e-10,
+   "neutral": 3.3306690738754696e-16
+  },
+  "A8SM_20260971_40521_TF": {
+   "charged": 8.786089633616712e-10,
+   "neutral": 6.415004083493159e-10
+  }
+ },
+ "min_gap_neutral_over_charged": 0.19692342505867577,
+ "pass_id": 11136,
+ "phi_squared": 2.618033988749895,
+ "sqrt3_horodisk_tangent": true,
+ "two_plus_sqrt3": 3.732050807568877
+}

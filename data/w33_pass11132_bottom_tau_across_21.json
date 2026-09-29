@@ -1,0 +1,44 @@
+{
+ "bottom_eps3_without_T": true,
+ "conjugation_bijection": true,
+ "down_anarchic_every_r": true,
+ "lowered_equals_down_unlocked": true,
+ "lowered_models": [
+  "A8SM_20260928_2233_TF",
+  "A8SM_20260928_533_TF",
+  "A8SM_20260951_24165_TF",
+  "A8SM_20260971_18172_TF",
+  "A8SM_20260971_19247_TF",
+  "A8SM_20260971_3818_TF",
+  "A8SM_20260971_40521_TF",
+  "A8SM_20260971_5285_TF",
+  "A8SM_20260971_5904_TF",
+  "A8SM_20260972_17224_TF",
+  "A8SM_20260972_19688_TF",
+  "A8SM_20260972_2080_TF",
+  "A8SM_20260972_31386_TF",
+  "A8SM_20260972_5273_TF"
+ ],
+ "n_models": 21,
+ "pass_id": [
+  11132,
+  11133
+ ],
+ "tau_at_eps2_higgs_count": {
+  "A8SM_20260928_2233_TF": 2,
+  "A8SM_20260928_533_TF": 2,
+  "A8SM_20260951_24165_TF": 3,
+  "A8SM_20260971_18172_TF": 2,
+  "A8SM_20260971_19247_TF": 2,
+  "A8SM_20260971_3818_TF": 2,
+  "A8SM_20260971_40521_TF": 2,
+  "A8SM_20260971_5285_TF": 2,
+  "A8SM_20260971_5904_TF": 2,
+  "A8SM_20260972_17224_TF": 2,
+  "A8SM_20260972_19688_TF": 2,
+  "A8SM_20260972_2080_TF": 2,
+  "A8SM_20260972_31386_TF": 2,
+  "A8SM_20260972_5273_TF": 2
+ },
+ "three_distinct_exponent_cases": 0
+}

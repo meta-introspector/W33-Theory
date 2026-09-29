@@ -21,8 +21,8 @@ Results (all six; exact to 1e-10):
     lines is T-dual to the tachyonic ten-dimensional strings; Fraiman-Grana-Parra De Freitas-Sethi, arXiv:2307.13745).
 Reading: the pinched-cycle endpoint is not a nearby tachyon-free orbifold. Along the whole line the instability only
 deepens; no radius below y_c stops it.  Scope: B = 0, one torus shrunk at a time, the other at 3i; the gauge group of the
-T-dual string is not identified here (its tachyon has l^2 = 1, the vector class of the SO(32) / SO(16)xE8 tachyonic
-strings).
+T-dual string is not identified here (its tachyon has l^2 = 1; CORRECTED by Pass 11134: it is ONE complex species, not
+the vector-class multiplet of the SO(32) / SO(16)xE8 tachyonic strings -- the identification stays open).
 """
 from __future__ import annotations
 

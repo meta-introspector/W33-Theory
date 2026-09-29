@@ -1,0 +1,12 @@
+{
+ "l1sq_distribution": {
+  "0.222222": 13,
+  "0.444444": 2,
+  "0.555556": 5,
+  "0.777778": 1
+ },
+ "n_models": 21,
+ "one_complex_species": true,
+ "pass_id": 11134,
+ "three_W_in_lattice": true
+}

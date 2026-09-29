@@ -1,0 +1,296 @@
+{
+ "A8SM_20260928_2233_TF": {
+  "anom_index": 0,
+  "TrQA": "396",
+  "uA_norm2": "33",
+  "qT_A": "4",
+  "T_over_MP_g2half": 0.16162260874577605,
+  "T_over_MP_g1": 0.22856888527439692,
+  "singlet_qA_min_max": [
+   "-5",
+   "5"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.17924985045020803
+ },
+ "A8SM_20260928_533_TF": {
+  "anom_index": 0,
+  "TrQA": "324",
+  "uA_norm2": "27",
+  "qT_A": "4",
+  "T_over_MP_g2half": 0.14619315023131427,
+  "T_over_MP_g1": 0.20674833578317203,
+  "singlet_qA_min_max": [
+   "-5",
+   "5"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.2113248654051869
+ },
+ "A8SM_20260941_7061_TF": {
+  "anom_index": 0,
+  "TrQA": "252",
+  "uA_norm2": "21",
+  "qT_A": "3",
+  "T_over_MP_g2half": 0.14887581711534412,
+  "T_over_MP_g1": 0.2105421996738962,
+  "singlet_qA_min_max": [
+   "-4",
+   "4"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.21132486540518708
+ },
+ "A8SM_20260941_7243_TF": {
+  "anom_index": 0,
+  "TrQA": "324",
+  "uA_norm2": "27",
+  "qT_A": "3",
+  "T_over_MP_g2half": 0.1688093092794574,
+  "T_over_MP_g1": 0.238732414637843,
+  "singlet_qA_min_max": [
+   "-5",
+   "5"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.17924985045020791
+ },
+ "A8SM_20260942_36621_TF": {
+  "anom_index": 0,
+  "TrQA": "324",
+  "uA_norm2": "27",
+  "qT_A": "-3",
+  "T_over_MP_g2half": 0.1688093092794574,
+  "T_over_MP_g1": 0.238732414637843,
+  "singlet_qA_min_max": [
+   "-5",
+   "5"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.21132486540518708
+ },
+ "A8SM_20260942_46043_TF": {
+  "anom_index": 0,
+  "TrQA": "324",
+  "uA_norm2": "27",
+  "qT_A": "3",
+  "T_over_MP_g2half": 0.1688093092794574,
+  "T_over_MP_g1": 0.238732414637843,
+  "singlet_qA_min_max": [
+   "-5",
+   "5"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.17924985045020791
+ },
+ "A8SM_20260951_24165_TF": {
+  "anom_index": 0,
+  "TrQA": "396",
+  "uA_norm2": "33",
+  "qT_A": "4",
+  "T_over_MP_g2half": 0.16162260874577605,
+  "T_over_MP_g1": 0.22856888527439692,
+  "singlet_qA_min_max": [
+   "-5",
+   "5"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.17924985045020786
+ },
+ "A8SM_20260971_14027_TF": {
+  "anom_index": 0,
+  "TrQA": "252",
+  "uA_norm2": "21",
+  "qT_A": "3",
+  "T_over_MP_g2half": 0.14887581711534412,
+  "T_over_MP_g1": 0.2105421996738962,
+  "singlet_qA_min_max": [
+   "-4",
+   "4"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.21132486540518802
+ },
+ "A8SM_20260971_18172_TF": {
+  "anom_index": 0,
+  "TrQA": "396",
+  "uA_norm2": "33",
+  "qT_A": "4",
+  "T_over_MP_g2half": 0.16162260874577605,
+  "T_over_MP_g1": 0.22856888527439692,
+  "singlet_qA_min_max": [
+   "-5",
+   "5"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.2113248654051869
+ },
+ "A8SM_20260971_19247_TF": {
+  "anom_index": 0,
+  "TrQA": "540",
+  "uA_norm2": "45",
+  "qT_A": "4",
+  "T_over_MP_g2half": 0.18873454539182638,
+  "T_over_MP_g1": 0.2669109537814414,
+  "singlet_qA_min_max": [
+   "-5",
+   "5"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.1792498504502078
+ },
+ "A8SM_20260971_3818_TF": {
+  "anom_index": 0,
+  "TrQA": "324",
+  "uA_norm2": "27",
+  "qT_A": "4",
+  "T_over_MP_g2half": 0.14619315023131427,
+  "T_over_MP_g1": 0.20674833578317203,
+  "singlet_qA_min_max": [
+   "-5",
+   "5"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.1792498504502077
+ },
+ "A8SM_20260971_40521_TF": {
+  "anom_index": 0,
+  "TrQA": "612",
+  "uA_norm2": "51",
+  "qT_A": "-4",
+  "T_over_MP_g2half": 0.20092326671516655,
+  "T_over_MP_g1": 0.2841484087848952,
+  "singlet_qA_min_max": [
+   "-5",
+   "5"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.17924985045020786
+ },
+ "A8SM_20260971_5285_TF": {
+  "anom_index": 0,
+  "TrQA": "396",
+  "uA_norm2": "33",
+  "qT_A": "4",
+  "T_over_MP_g2half": 0.16162260874577605,
+  "T_over_MP_g1": 0.22856888527439692,
+  "singlet_qA_min_max": [
+   "-5",
+   "5"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.1792498504502078
+ },
+ "A8SM_20260971_5904_TF": {
+  "anom_index": 0,
+  "TrQA": "396",
+  "uA_norm2": "33",
+  "qT_A": "-4",
+  "T_over_MP_g2half": 0.16162260874577605,
+  "T_over_MP_g1": 0.22856888527439692,
+  "singlet_qA_min_max": [
+   "-5",
+   "5"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.17924985045020903
+ },
+ "A8SM_20260972_17224_TF": {
+  "anom_index": 0,
+  "TrQA": "324",
+  "uA_norm2": "27",
+  "qT_A": "4",
+  "T_over_MP_g2half": 0.14619315023131427,
+  "T_over_MP_g1": 0.20674833578317203,
+  "singlet_qA_min_max": [
+   "-5",
+   "5"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.2113248654051869
+ },
+ "A8SM_20260972_19688_TF": {
+  "anom_index": 0,
+  "TrQA": "396",
+  "uA_norm2": "33",
+  "qT_A": "4",
+  "T_over_MP_g2half": 0.16162260874577605,
+  "T_over_MP_g1": 0.22856888527439692,
+  "singlet_qA_min_max": [
+   "-5",
+   "5"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.1792498504502077
+ },
+ "A8SM_20260972_2080_TF": {
+  "anom_index": 0,
+  "TrQA": "324",
+  "uA_norm2": "27",
+  "qT_A": "-4",
+  "T_over_MP_g2half": 0.14619315023131427,
+  "T_over_MP_g1": 0.20674833578317203,
+  "singlet_qA_min_max": [
+   "-5",
+   "5"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.17924985045020791
+ },
+ "A8SM_20260972_31386_TF": {
+  "anom_index": 0,
+  "TrQA": "396",
+  "uA_norm2": "33",
+  "qT_A": "-4",
+  "T_over_MP_g2half": 0.16162260874577605,
+  "T_over_MP_g1": 0.22856888527439692,
+  "singlet_qA_min_max": [
+   "-5",
+   "5"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.17924985045020786
+ },
+ "A8SM_20260972_5273_TF": {
+  "anom_index": 0,
+  "TrQA": "396",
+  "uA_norm2": "33",
+  "qT_A": "4",
+  "T_over_MP_g2half": 0.16162260874577605,
+  "T_over_MP_g1": 0.22856888527439692,
+  "singlet_qA_min_max": [
+   "-5",
+   "5"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.1792498504502077
+ },
+ "A8SM_20260982_1645_TF": {
+  "anom_index": 0,
+  "TrQA": "468",
+  "uA_norm2": "39",
+  "qT_A": "-3",
+  "T_over_MP_g2half": 0.2028835401275809,
+  "T_over_MP_g1": 0.28692065403069095,
+  "singlet_qA_min_max": [
+   "-7",
+   "7"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.2113248654051867
+ },
+ "A8SM_20260982_47048_TF": {
+  "anom_index": 0,
+  "TrQA": "324",
+  "uA_norm2": "27",
+  "qT_A": "3",
+  "T_over_MP_g2half": 0.1688093092794574,
+  "T_over_MP_g1": 0.238732414637843,
+  "singlet_qA_min_max": [
+   "-5",
+   "5"
+  ],
+  "sign_opposite_available": true,
+  "Delta": -0.21132486540518708
+ }
+}

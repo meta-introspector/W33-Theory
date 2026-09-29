@@ -1,0 +1,17 @@
+{
+ "all_consistent": true,
+ "eps_product_needed": 0.0135,
+ "fails_or_open": {
+  "condensate_size_unfixed": true,
+  "conjugate_sector_anarchic": true,
+  "dual_tachyon_one_species": true,
+  "endpoint_nonperturbative": true,
+  "m_c_equals_m_u_and_m_mu_equals_m_e": true
+ },
+ "pass_id": 11137,
+ "works": {
+  "bottom_tau_same_order_models": 14,
+  "neutral_first_exactly": true,
+  "up_mu_never_unlocked": true
+ }
+}

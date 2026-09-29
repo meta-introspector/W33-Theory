@@ -35,5 +35,6 @@ neutral condensation is non-perturbative.
 
 Scope:
 * B = 0, with one torus shrunk at a time.
-* The gauge group of the T-dual string is not identified. Its tachyon has l² = 1, the vector class shared by the SO(32)
-  and SO(16)×E8 tachyonic strings.
+* The gauge group of the T-dual string is not identified. Its tachyon has l² = 1. **Corrected by Pass 11134:** it is a
+  single complex species, not the vector-class multiplet of the SO(32) or SO(16)×E8 strings; the identification stays
+  open.

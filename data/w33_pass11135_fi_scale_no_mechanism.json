@@ -1,0 +1,19 @@
+{
+ "fi_mechanism_applies": false,
+ "n_models": 21,
+ "needed_eps": [
+  0.116,
+  0.151
+ ],
+ "one_anomalous_u1": true,
+ "pass_id": 11135,
+ "qTA_abs": [
+  3,
+  4
+ ],
+ "susy_formula_T_over_MP": [
+  0.14619315023131427,
+  0.2028835401275809
+ ],
+ "trq_equals_12_norm2": true
+}
