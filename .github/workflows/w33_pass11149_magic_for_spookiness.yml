@@ -1,0 +1,23 @@
+name: W33 Pass 11149 magic for spookiness
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11149_*.py"
+      - "analysis/w33_pass11143_*.py"
+      - "analysis/w33_so16_one_loop.py"
+      - "analysis/PASS11149_MAGIC_FOR_SPOOKINESS.md"
+      - "data/w33_pass11149_*.json"
+      - "tests/test_w33_pass11149_magic_for_spookiness.py"
+      - ".github/workflows/w33_pass11149_magic_for_spookiness.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest pycddlib networkx
+      - run: python -m pytest -q tests/test_w33_pass11149_magic_for_spookiness.py

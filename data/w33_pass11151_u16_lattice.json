@@ -1,0 +1,10 @@
+{
+ "discriminant_form_hyperbolic_checked": true,
+ "identified": "Gamma_v^(1) (U(16) string)",
+ "identified_in_all": true,
+ "n_models": 21,
+ "pass_id": 11151,
+ "root_system_A15": true,
+ "validation_is_gamma_v0": true,
+ "zero_radius_same_genus": true
+}

@@ -238,3 +238,22 @@ the thermofield double $\sum_i\sqrt{p_i}\ket{ii}$ equals the Jamio{\l}kowski mat
 $A\mapsto\rho^{1/2}A\rho^{1/2}$, with negativity $((\sum_i\sqrt{p_i})^2-1)/2$: the temporal Bell line at $\beta=0$, a
 product line as $\beta\to\infty$. The modular clock above is the flow whose Euclidean continuation prepares this
 entanglement. \tierC\ (\cert{w33\_pass11146\_thermal\_reading.py})
+
+\begin{result}{Proposition 3.6 (polygamy in time, and where the magic sits) \hfill \tierC}
+A qutrit evolving by the identity is maximally entangled with its past and with its future at once: every pair of times
+carries the temporal Bell line, so the pairwise temporal negativities of three times sum to $3$. Three qutrits in space
+reach at most $1.1394$ for the same sum, and $N_{AB}+N_{AC}\le 1.0328=4/\sqrt{15}$ (numerical optimum, identified to
+$10^{-15}$). The temporal advantage of Proposition~3.5 is not special to qutrits: one qudit measured twice beats two
+qudits for every $d\ge3$ ($d=3,4,5$: $3.163$, $3.283$, $3.377$ against $2.915=1+\sqrt{11/3}$, $2.973$, $3.016$),
+and only qubits coincide. Magic can sit in either place: with Pauli measurements only, the best state reaches
+$2\sqrt2\cos\!\bigl(\tfrac13\arccos\tfrac1{2\sqrt2}\bigr)=2.6017$, the largest root of $x^3-6x-2$ (mana $0.39$), while
+the stabilizer state $\ket{\Omega}$ with magic measurements reaches $2.8729$. There is no threshold: the least mana that reaches +\varepsilon$ with Pauli measurements grows linearly from zero, about /usr/bin/bash.65$ per unit of violation. \tierC
+(\cert{w33\_pass11147\_temporal\_cglmp\_by\_dimension.py}, \cert{w33\_pass11148\_polygamy\_in\_time.py},
+\cert{w33\_pass11149\_magic\_for\_spookiness.py})
+\end{result}
+
+\begin{plainwords}
+In space, a system can give its full entanglement to only one partner. Across time it gives it to its whole history at
+once --- because it is not sharing anything, it is simply persisting. That is why the spatial kind is scarce and
+``spooky'', and the temporal kind is free.
+\end{plainwords}

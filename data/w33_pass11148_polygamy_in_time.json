@@ -1,0 +1,22 @@
+{
+ "ab_ac_equals_4_over_sqrt15": true,
+ "pass_id": 11148,
+ "polygamy_gap_all_pairs": 1.8605643497736695,
+ "polygamy_gap_two_pairs": 0.9672044410113567,
+ "references": {
+  "antisymmetric": [
+   0.3333333333333336,
+   0.3333333333333336,
+   0.3333333333333336
+  ],
+  "ghz": [
+   1.1102230246251565e-16,
+   1.1102230246251565e-16,
+   1.1102230246251565e-16
+  ]
+ },
+ "spatial_AB_AC": 1.0327955589886433,
+ "spatial_all_pairs": 1.1394356502263305,
+ "temporal_AB_AC": 2.0,
+ "temporal_all_pairs": 3.0
+}
