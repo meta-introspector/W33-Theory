@@ -1,0 +1,22 @@
+name: W33 Pass 11113 rho tachyon correlation
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11113_*.py"
+      - "analysis/w33_so16_one_loop.py"
+      - "analysis/PASS11113_RHO_TACHYON_CORRELATION.md"
+      - "data/w33_pass11113_*.json"
+      - "tests/test_w33_pass11113_rho_tachyon_correlation.py"
+      - ".github/workflows/w33_pass11113_rho_tachyon_correlation.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest pycddlib networkx
+      - run: python -m pytest -q tests/test_w33_pass11113_rho_tachyon_correlation.py

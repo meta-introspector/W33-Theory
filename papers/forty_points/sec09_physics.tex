@@ -837,8 +837,9 @@ Over the moduli the potential can reach, it has no minimum in the tachyon-free r
 points of model $2$, lowest right at the tachyon boundary, and in the Einstein frame the dilaton runs to weak coupling.
 Among all $104$ models only one stays tachyon-free down to the $SU(3)$ point, and it fails the earlier tests (massless
 fractional charges, top $=$ charm, no down-type Yukawa); a fresh scan of $387$ new models finds
-$4$ more---and every model that survives the $SU(3)$ point has untwisted quarks, hence top $=$ charm and no
-down-type Yukawa, while none of the $31$ twisted-quark models survives it. \tierC\ (\cert{w33\_pass11107\_winding\_tachyons.py},
+$4$ more---all five with untwisted quarks, hence top $=$ charm and no down-type Yukawa. Classifying all $491$ quark
+sectors gives $0$ of $152$ twisted-quark models safe against $5$ of $339$ untwisted: suggestive, not significant (Fisher
+$p=0.16$). \tierC\ (\cert{w33\_pass11107\_winding\_tachyons.py},
 \cert{w33\_pass11108\_tachyon\_free\_moduli\_rescan.py}, \cert{w33\_pass11110\_moduli\_map.py})
 
 The stabilised family modulus also undoes the heavy top. Worldsheet instantons make the $\Z_3$ Yukawa couplings theta
@@ -853,6 +854,27 @@ force $k=1$---the single free torus of all $104$ models is a theorem, not an acc
 commutation graph is $\W$ cannot be the family group, and it cannot be assembled from family and colour either: the
 twist is not a gauge-centre element on the quarks of any survivor. \tierB\
 (\cert{w33\_pass11111\_no\_243\_family\_group.py})
+
+Three further attempts, and one opening. \emph{The Higgs direction.} With a general light Higgs in the $\Delta(54)$
+triplet the up-type mass determinant is a member of the Hesse pencil $x^3+y^3+z^3-3\lambda xyz$ in the Higgs
+direction (forced by $\Delta(27)$, whose invariant cubics are exactly that pencil---the other track's Hesse
+configuration is the geometry of the quark masses), and the modulus picks the member: at the stabilised point
+$T=\rho$ it is exactly the singular one, $\lambda=\omega^2$. Yet no alignment beats a localised Higgs: the second
+singular value never falls below $|Y_{\rm dist}/Y_{\rm same}|=\frac12$ of the first. \emph{Duality.} Along the
+zero-$B$ axis of the Wilson-line tori the potential must turn around at small radius, but the turnaround never lands
+in a tachyon-free window: one model's duality extremum is its tachyonic self-dual radius, and the survivor safe
+furthest down rolls into a charged tachyon. \emph{The other track's groups.} The centre of the family $H_{27}$---the
+orbifold twist---acts on the massless spectrum as a gauge element in all $104$ models (as the anomalous-$U(1)$
+$\Z_3$ itself in three), cf.\ the gauge origin of $\Delta(54)$~\cite{BeyeKobayashiKuwakino2014}; no $SU(3)$ factor,
+visible or hidden, can be glued to it, so the two-qutrit group is realised on no matter at all.
+
+\emph{The opening.} In the two survivors with neutral winding tachyons, the neutral ones wind in one Wilson-line torus
+and the charged ones in the other, and the one-loop potential pulls the neutral torus down faster. The first
+instability these vacua meet is therefore Standard-Model-neutral: its condensation breaks extra $U(1)$s only, and
+electromagnetism survives. Where it ends is the open question. \tierC\
+(\cert{w33\_pass11112\_neutral\_tachyon\_corridor.py}, \cert{w33\_pass11113\_rho\_tachyon\_correlation.py},
+\cert{w33\_pass11114\_hesse\_mass\_determinant.py}, \cert{w33\_pass11115\_axis\_duality\_and\_window.py},
+\cert{w33\_pass11116\_one\_qutrit\_vs\_other\_track.py})
 
 The apparent opening was an artefact of an
 incomplete selection rule; it was caught by reading the literature on the rules themselves, not by

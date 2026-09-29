@@ -1,0 +1,28 @@
+{
+ "classification": {
+  "a": "realised: family Delta(54) of every model; centre = twist = gauge element",
+  "b": "only +-I of SL(2,3) realised (index 12)",
+  "c": "not realised on any matter (generations, generation x colour, hidden SU(3))"
+ },
+ "glueable_su3_models": [],
+ "models": 104,
+ "one_anomalous_u1": 101,
+ "pass_id": 11116,
+ "survivors_twist_gauge": true,
+ "twist_gauge_u1_only": 97,
+ "twist_gauge_with_centres": 104,
+ "twist_is_fi_z3": [
+  "4",
+  "25",
+  "29"
+ ],
+ "u1_only_failures": [
+  "3",
+  "24",
+  "39",
+  "45",
+  "67",
+  "94",
+  "100"
+ ]
+}

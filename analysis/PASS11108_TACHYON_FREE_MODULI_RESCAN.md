@@ -60,3 +60,16 @@ Yukawa.
 
 In this sample, tachyon-freedom over the reachable moduli and a realistic quark sector exclude each other. The
 correlation is observed (5/5 and 0/31), not proven.
+
+## Correction (Pass 11113)
+
+The "0/31" count was a convenience sample. With the quark sectors of all 387 new models classified, the table is:
+
+|  | twisted up-quarks | untwisted up-quarks |
+|---|---|---|
+| ρ-safe | 0 | 5 |
+| tachyonic at ρ | 152 | 334 |
+
+Fisher's one-sided p = 0.16. The correlation is suggestive but not significant: the ρ-safe rate is about 1% everywhere.
+The Reading above ("exclude each other") is an over-read and is withdrawn. What stands is that no model found so far is
+both ρ-safe and has twisted quarks.

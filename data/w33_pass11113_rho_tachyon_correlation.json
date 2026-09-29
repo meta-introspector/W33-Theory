@@ -1,0 +1,14 @@
+{
+ "expected_twisted_safe": 1.5478615071283095,
+ "fisher_one_sided": 0.15545159028832115,
+ "models": 491,
+ "pass_id": 11113,
+ "poisson_p0": 0.21270235027303702,
+ "significant_at_5pct": false,
+ "table": {
+  "twisted|rho_safe=False": 152,
+  "twisted|rho_safe=True": 0,
+  "untwisted|rho_safe=False": 334,
+  "untwisted|rho_safe=True": 5
+ }
+}
