@@ -1873,6 +1873,30 @@
           upgrades a finite result into a physical one &mdash; that boundary is
           unchanged and is stated in <a href="#numbers">Core Numbers</a>.</p>
         <div class="card-grid">
+          <div class="card" id="pass11168-lightcone">
+            <div class="num">A perfect tick needs a Lorentz-breaking potential, and it time-reverses along the light-cone reflection</div>
+            <div class="label">Pass 11168: clock + kick + Lorentz group (order 576) has no perfect element; kick&ndash;tick&ndash;kick is perfect for 108 of 729 potentials</div>
+            <div class="detail">All 108 share &pi; = (v<sub>0</sub> &harr; v<sub>2</sub>, v<sub>1</sub> fixed): forced by square determinants on the light-cone blocks.
+              <a href="https://github.com/wilcompute/W33-Theory/blob/master/analysis/PASS11168_CLOCK_DUAL_PAIR.md">Report</a>.</div>
+          </div>
+          <div class="card" id="pass11170-ladder">
+            <div class="num">Perfect qutrit ticks exist for 1, 2, 3 and 5 qutrits &mdash; never 4</div>
+            <div class="label">Pass 11170: AME(8,3) is excluded by the shadow inequalities (Huber et al.); explicit perfect five-qutrit circulant over F<sub>9</sub></div>
+            <div class="detail">Also corrects Pass 11164: K = P<sup>2</sup> + i&middot;1 is Grassl&ndash;Gulliver&rsquo;s double-circulant code, not new.
+              <a href="https://github.com/wilcompute/W33-Theory/blob/master/analysis/PASS11170_PERFECT_GATE_LADDER.md">Report</a>.</div>
+          </div>
+          <div class="card" id="pass11169-orbits">
+            <div class="num">The perfect three-qutrit gate is unique up to local operations and relabelling</div>
+            <div class="label">Pass 11169: six local orbits, labelled by the permutation &pi; that sends each past to the future where it reappears time-reversed</div>
+            <div class="detail">Stabiliser order 4, orbit 47 775 744 = 1/6 of all perfect gates; the F<sub>9</sub> gates split 2048 per orbit.
+              <a href="https://github.com/wilcompute/W33-Theory/blob/master/analysis/PASS11169_PERFECT_GATE_LOCAL_ORBITS.md">Report</a>.</div>
+          </div>
+          <div class="card" id="pass11167-global">
+            <div class="num">4/&radic;15 is exact on its symmetry class; globally 1.0328 &le; max &le; 25/18</div>
+            <div class="label">Pass 11167: closed form &radic;(&gamma;<sup>4</sup>+4&alpha;<sup>2</sup>&beta;<sup>2</sup>) + &radic;(&beta;<sup>4</sup>+4&alpha;<sup>2</sup>&gamma;<sup>2</sup>)</div>
+            <div class="detail">Rigorous bound from Rana&rsquo;s negative-eigenvalue count; 3000/3000 dual see-saws reach 4/&radic;15. Global optimality still open.
+              <a href="https://github.com/wilcompute/W33-Theory/blob/master/analysis/PASS11167_POLYGAMY_GLOBAL.md">Report</a>.</div>
+          </div>
           <div class="card" id="pass11166-clock">
             <div class="num">The spectral clock tick is the Clifford propagator e<sup>&minus;iq(p)</sup>; no translation-invariant clock is perfect</div>
             <div class="label">Pass 11166: X<sub>a</sub> &rarr; X<sub>a</sub>, Z<sub>b</sub> &rarr; Z<sub>b</sub>X<sub>Mb</sub>, M = Gram matrix of the light-cone quadric</div>

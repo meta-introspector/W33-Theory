@@ -40,6 +40,8 @@ the orientation sign discussed there. It is also the q = 3 rung [4,2,3]₃ of Pa
 three-qutrit K = P² + i𝟙 has all nine 2×2 minors nonzero (det K = 1), so its graph is a **[6,3,4]₉ MDS code**, and
 that is why F₉ is needed. The [6,3,4]₅ of Pass 10970 is over F₅ and carries no qutrit symplectic structure.
 
-**Scope.** Embedding U(n,q²) in Sp(2n,q) is standard, and so is building AME states from MDS codes over extension
-fields. New here: the three-qutrit perfect gates inside W(3,3)'s Clifford group, the F₉-linear count, and the closed
-form K.
+**Scope (corrected in Pass 11170).** Embedding U(n,q²) in Sp(2n,q) is standard, and so is building AME states from MDS
+codes over extension fields. **The closed form K is not new either.** With η = 1 + i (norm −1), [I | ηK] generates a
+Hermitian self-dual [6,3,4]₉ double-circulant code. That is Grassl–Gulliver's construction (Des. Codes Cryptogr. 52
+(2009) 57–81), the code behind [[6,0,4]]₃ in Grassl–Rötteler (arXiv:1502.05267). New here: only the F₉-linear count
+(12 288) and the reading as a perfect three-qutrit tick inside W(3,3)'s Clifford group.

@@ -1,0 +1,58 @@
+{
+ "K_V_K_V_perfect": 30,
+ "K_V_K_perfect": 0,
+ "K_V_perfect": 0,
+ "V1_K_V2_perfect_pairs": 23328,
+ "V_K_V_all_lorentz_breaking": true,
+ "V_K_V_example": [
+  0,
+  1,
+  0,
+  0,
+  1,
+  0
+ ],
+ "V_K_V_perfect": 108,
+ "V_K_V_pis": [
+  [
+   2,
+   1,
+   0
+  ]
+ ],
+ "clock_is_kinetic_with_gram_M": true,
+ "determinant_formulas_hold": true,
+ "lorentz_invariant_potentials": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   2,
+   2,
+   0,
+   0
+  ]
+ ],
+ "lorentz_order": 48,
+ "order_K_V": 24,
+ "order_K_V_Lorentz": 576,
+ "pass_id": 11168,
+ "perfect_in_K_V": 0,
+ "perfect_in_K_V_Lorentz": 0,
+ "transverse_blocks_vanish_in_K_V": true
+}

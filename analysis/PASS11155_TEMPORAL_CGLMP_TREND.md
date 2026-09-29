@@ -19,3 +19,6 @@ Regression: `tests/test_w33_pass11155_temporal_cglmp_trend.py`
 
 Reading: extra levels let one system "tell its future self" more through a projective measurement. Two separated
 systems gain almost nothing from them. That is the dimensional face of Passes 11144 and 11147.
+
+**Correction (Pass 11171).** The d = 6, 7 temporal optima here (3.4531, 3.5168) were local optima: a new optimiser gives
+3.4552 and 3.5209. The deficit exponent d^−0.65 is superseded: for d ≥ 6 the deficit falls like ≈ 3.4/d.

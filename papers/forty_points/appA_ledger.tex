@@ -36,17 +36,22 @@ perfect space--time gates: $\det S_{AA}+\det S_{BA}=1$; $13824=24^3$ perfect (AM
 Pauli-only Bell operator: characteristic polynomial $(x^3-6x-2)(x^3-3x+1)^2$ exactly & \tierC & \cert{w33\_pass11152\_pauli\_bell\_charpoly.py}\\
 in time, Pauli measurements give exactly $2$ for every start: magic must sit in the measurements & \tierC & \cert{w33\_pass11153\_temporal\_magic\_budget.py}\\
 $4/\sqrt{15}$ optimum: spectra $(7,4,4)/15$, $(11,2,2)/15$; $N_{AB}=N_{AC}=2/\sqrt{15}$, $N_{BC}=1/15$ & \tierC & \cert{w33\_pass11154\_polygamy\_optimum\_structure.py}\\
-temporal CGLMP $d=6,7$: $3.453$, $3.517$ (spatial $3.050$, $3.078$); deficit from $4$ $\sim d^{-0.65}$ & \tierC & \cert{w33\_pass11155\_temporal\_cglmp\_trend.py}\\
+temporal CGLMP $d=6,7$: $3.455$, $3.521$ (corrected in Pass 11171; $3.453$, $3.517$ were local optima; spatial $3.050$, $3.078$); deficit $\approx3.4/d$ & \tierC & \cert{w33\_pass11155\_temporal\_cglmp\_trend.py}\\
 ninth roots explained: $B^3-3B+1=(B+1)(I+U+U^2)$, $U=(XZ^2)\otimes(XZ^2)$ & \tierC & \cert{w33\_pass11157\_ninth\_roots\_explained.py}\\
 general law $\sum_i\det S_{ij}=1$; perfect three-qutrit gates exist ($\approx3.1\%$ of $\Sp(6,3)$), columns $(1,1,-1)$ & \tierT\,\tierC & \cert{w33\_pass11158\_perfect\_three\_qutrit\_gates.py}\\
 $4/\sqrt{15}$ derived: $N(x)=\sqrt{(1+15x)(1-x)}/4$, max at $x=7/15$; explicit optimal state & \tierC & \cert{w33\_pass11159\_explicit\_polygamy\_state.py}\\
-temporal CGLMP $d=8,9,10$: $3.576,3.621,3.658$ (spatial $3.101,3.122,3.140$); deficit $\sim d^{-0.75}$ & \tierC & \cert{w33\_pass11160\_temporal\_cglmp\_high\_d.py}\\
+temporal CGLMP $d=8,9,10$: $3.576,3.621,3.658$ (spatial $3.101,3.122,3.140$); deficit $\approx3.4/d$ (Pass 11171; the $d^{-0.75}$ fit is superseded) & \tierC & \cert{w33\_pass11160\_temporal\_cglmp\_high\_d.py}\\
 $I_3=2-\operatorname{rank}S_{AA}-\operatorname{rank}S_{BA}\le0$ for every two-qutrit Clifford gate; perfect $=$ maximal scramblers; tick $+$ forgetting the partner $=$ Theorem~4.7 & \tierC & \cert{w33\_pass11161\_scrambling\_and\_arrow.py}\\
 $4/\sqrt{15}$ a certified local maximum: partial-transpose gap $2/15$, Hessian $32$ negative, $20$ flat $=$ local-unitary orbit; $96/96$ restarts reach it & \tierC & \cert{w33\_pass11162\_polygamy\_local\_maximum.py}\\
 exactly $286\,654\,464=2^{17}3^7$ perfect three-qutrit gates, $128/4095$ of $\Sp(6,3)$ (control: $13824$ for two) & \tierC & \cert{w33\_pass11163\_perfect\_three\_qutrit\_count.py}\\
-no $\F_3$ tetracode analogue for three qutrits; over $\F_9$, $12288$ perfect unitaries in $U(3,\F_9)$, e.g.\ $K=P^2+i\mathbf 1$ & \tierC & \cert{w33\_pass11164\_three\_qutrit\_tetracode.py}\\
+no $\F_3$ tetracode analogue for three qutrits; over $\F_9$, $12288$ perfect unitaries in $U(3,\F_9)$, e.g.\ $K=P^2+i\mathbf 1$ (Grassl--Gulliver's code, not new) & \tierC & \cert{w33\_pass11164\_three\_qutrit\_tetracode.py}\\
 perfect three-qutrit tick secret-shares each past ($0$ to every proper subset of futures, $2$ to all three); cf.\ \cite{Helwig2012} & \tierC & \cert{w33\_pass11165\_three\_qutrit\_arrow.py}\\
 spectral clock tick $=$ Clifford propagator $e^{-iq(p)}$; translation-invariant clocks never perfect (off-diagonal rank $\le1$) & \tierC & \cert{w33\_pass11166\_clock\_tick\_clifford.py}\\
+$4/\sqrt{15}$ exact on its symmetry class ($U\otimes\bar U\otimes\bar U$); rigorous global bound $25/18$; $3000/3000$ dual see-saws reach $4/\sqrt{15}$ & \tierT\,\tierC & \cert{w33\_pass11167\_polygamy\_global.py}\\
+clock $+$ potential kick $+$ Lorentz group: order $576$, no perfect tick; kick--tick--kick perfect for $108/729$ potentials, all with $\pi=$ light-cone reflection & \tierT\,\tierC & \cert{w33\_pass11168\_clock\_dual\_pair.py}\\
+perfect three-qutrit gates: six local orbits labelled by $\pi\in S_3$ (stabiliser $4$), one up to relabelling & \tierC & \cert{w33\_pass11169\_perfect\_gate\_local\_orbits.py}\\
+perfect qutrit ticks for $1,2,3,5$ qutrits, never $4$ ($\mathrm{AME}(8,3)$ excluded~\cite{HuberShadow2018}); explicit five-qutrit circulant over $\F_9$ & \tierC & \cert{w33\_pass11170\_perfect\_gate\_ladder.py}\\
+temporal CGLMP never reaches $4$ at finite $d$ (proof); $3.715,3.787,3.831,3.853$ at $d=12,16,20,24$; deficit $\approx3.4/d$; $d=6,7$ corrected to $3.455,3.521$ & \tierT\,\tierC & \cert{w33\_pass11171\_temporal\_cglmp\_large\_d.py}\\
 point/line firewall ($27/108/36$ coincidences, non-isomorphic) & \tierC & \cert{w33\_20260924\_history\_pointline\_cospectral\_firewall.py}\\
 \multicolumn{3}{@{}l}{\textit{Time (\S4)}}\\
 $40=1+12+27$; big cell of $Q(4,3)$ & \tierC & \cert{w33\_20260924\_history\_bigcell\_q43\_compactification.py}\\

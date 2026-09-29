@@ -15,3 +15,6 @@ Regression: `tests/test_w33_pass11160_temporal_cglmp_high_d.py`
 * The d = 8–10 values used 5 restarts each, so the temporal values are lower bounds.
 * This is consistent with the temporal optimum approaching the algebraic maximum 4, as Budroni–Emary found for
   Leggett–Garg. It is not a proof.
+
+**Correction (Pass 11171).** The d^−0.75 deficit fit (d ≤ 10) is superseded. Data to d = 24 give 4 − I_d ≈ 3.4/d
+(exponent 0.97 for d ≥ 6), and I_d < 4 is proved for every finite d. The d = 8, 9, 10 values here are reproduced.

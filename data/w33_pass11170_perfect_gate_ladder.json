@@ -1,0 +1,56 @@
+{
+ "ame_8_3": "No (Shadow): Huber et al. arXiv:1708.06298 (Huber-Wyderka table)",
+ "circulant_perfect": {
+  "3": 24,
+  "4": 0,
+  "5": 80
+ },
+ "f9_perfect_row_sets": {
+  "2": 32,
+  "3": 2048,
+  "4": 0
+ },
+ "f9_rows": {
+  "2": 16,
+  "3": 192,
+  "4": 1280
+ },
+ "five_qutrit_cut_entropies": [
+  5
+ ],
+ "five_qutrit_cuts": 252,
+ "five_qutrit_first_row": [
+  [
+   0,
+   1
+  ],
+  [
+   0,
+   1
+  ],
+  [
+   1,
+   2
+  ],
+  [
+   2,
+   0
+  ],
+  [
+   1,
+   2
+  ]
+ ],
+ "five_qutrit_symplectic": true,
+ "ladder": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": false,
+  "5": true
+ },
+ "pass_id": 11170,
+ "three_qutrit_control_cut_entropies": [
+  3
+ ]
+}

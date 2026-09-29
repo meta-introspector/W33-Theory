@@ -1,0 +1,53 @@
+{
+ "closed_form_check": true,
+ "family_value_at_2_15": 1.0327955589886444,
+ "four_over_sqrt15": 1.0327955589886444,
+ "global_bound": 1.3888888888888886,
+ "global_bound_argmax_spectrum": [
+  0.16666666666666666,
+  0.16666666666666666,
+  0.6666666666666666
+ ],
+ "pass_id": 11167,
+ "seesaw_above_target": 0,
+ "seesaw_at_target": 3000,
+ "seesaw_max": 1.0327955589885898,
+ "seesaw_starts": 3000,
+ "seesaw_top_values": [
+  1.032796
+ ],
+ "symmetry_class": {
+  "boundary_critical": [
+   "1/3"
+  ],
+  "boundary_max": 1.0,
+  "critical_points": [
+   [
+    "0",
+    "1/3",
+    "1",
+    1.0
+   ],
+   [
+    "2/15",
+    "2/15",
+    "4*sqrt(15)/15",
+    1.0327955589886444
+   ],
+   [
+    "2/9",
+    "1/18",
+    "sqrt(2*sqrt(43)/27 + 59/108)",
+    1.0158899956597809
+   ],
+   [
+    "1/3",
+    "0",
+    "1",
+    1.0
+   ]
+  ],
+  "grid_max": 1.0327951872825705,
+  "max_value": 1.0327955589886444
+ }
+}

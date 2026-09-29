@@ -609,6 +609,22 @@ is perfect. Conserved momentum caps scrambling at one trit per pair per tick, an
 erases at most one trit; the two-trit arrow needs an interaction that breaks translation invariance.
 \tierC\ (\cert{w33\_pass11165\_three\_qutrit\_arrow.py}, \cert{w33\_pass11166\_clock\_tick\_clifford.py})
 
+What does make a tick perfect? Nothing built from the clock's own symmetry. With its Fourier-dual potential kick
+$V=e^{-iq(x)}$ and the $48$ Lorentz transformations of the finite light cone, the clock generates a group of order $576$
+with no perfect element: however ticks and kicks alternate, the transverse qutrit never exchanges information with the
+light-cone pair. A perfect step needs a potential $N$ that breaks Lorentz invariance. Tick--kick--tick is never perfect
+(one block determinant cancels identically), but kick--tick--kick $V(N)\,K\,V(N)$ is perfect for exactly $108$ of the
+$729$ quadratic potentials, the simplest being $x_1(x_0+x_2)$. All $108$ share one orientation pattern: the past of each
+light-cone coordinate reappears time-reversed in the future of the \emph{other}, and the transverse coordinate's in its
+own. The pattern is forced --- the light-cone diagonal blocks have square determinants --- and it is the light-cone
+reflection $v_0\leftrightarrow v_2$, the only nontrivial coordinate symmetry of $q$. In time, one qudit's Bell value never reaches the algebraic maximum: $I_d=4$ would force two vectors of one basis to
+coincide, although a classical system with memory reaches $4$ --- the qudit's only memory between the two times is the
+post-measurement vector, too small to carry both the outcome and the setting. It comes close, though: with the optimal
+state fixed as the top eigenvector of one operator and only the four bases varied, the temporal CGLMP value is $3.715$,
+$3.787$, $3.831$, $3.853$ at $d=12,16,20,24$, the earlier $d=6,7$ values improve to $3.455$, $3.521$, and the deficit
+from $4$ falls like $3.4/d$ --- consistent with $4$ as a supremum that is never attained.
+\tierC\ (\cert{w33\_pass11168\_clock\_dual\_pair.py}, \cert{w33\_pass11171\_temporal\_cglmp\_large\_d.py})
+
 \begin{keyidea}
 Three layers of time, exactly separated: a finite present with a light cone ($27$
 events, $t^2-x^2-y^2$); an unbounded, oriented history (a free group, an $8$-regular tree,

@@ -17,6 +17,9 @@ Enumeration (analysis/w33_pass11164_scan_f9_unitary.py; frozen data/w33_pass1116
         K = P^2 + i * 1,     K^dagger K = (P - i 1)(P^2 + i 1) = I + 1^2 = I   (1^2 = 3 * 1 = 0 in characteristic 3),
     entries i and 1 + i, and all nine 2x2 minors nonzero, so its graph {(u, Ku)} is a [6,3,4]_9 MDS code; its Choi state has maximal entropy on every 3|3 cut (AME(6,3); its information pattern is
     checked by the stabilizer formula in Pass 11165).  The all-ones matrix is nilpotent exactly because the number of parties equals the characteristic.
+Prior art (Pass 11170 correction): with eta = 1 + i (norm -1), [I | eta K] generates a Hermitian self-dual [6,3,4]_9
+double-circulant code -- Grassl-Gulliver, Des. Codes Cryptogr. 52 (2009) 57-81, used for [[6,0,4]]_3 by Grassl-Roetteler
+arXiv:1502.05267.  The closed form is an instance of that construction, not new.
 """
 from __future__ import annotations
 

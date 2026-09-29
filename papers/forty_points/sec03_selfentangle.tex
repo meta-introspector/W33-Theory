@@ -286,8 +286,8 @@ unitaries is known \cite{Tan2026}; the complementarity law and the space/time/di
 Four refinements of Proposition~3.6. The Pauli-only Bell operator has characteristic polynomial
 $(x^3-6x-2)(x^3-3x+1)^2$ exactly, its remaining eigenvalues being $2\cos(2\pi k/9)$. In time the magic cannot sit in the
 start: with Pauli measurements a single qutrit gives exactly $2$ whatever its initial state, whereas in space a magic
-state already violates. The temporal optimum keeps climbing with dimension ($3.453$, $3.517$ at $d=6,7$, deficit from $4$
-falling like $d^{-0.65}$) while the spatial one barely moves ($3.050$, $3.078$). And the $4/\sqrt{15}$ optimum is carried
+state already violates. The temporal optimum keeps climbing with dimension ($3.455$, $3.521$ at $d=6,7$ after the re-optimisation of Section~4, deficit from $4$
+falling roughly like $1/d$) while the spatial one barely moves ($3.050$, $3.078$). And the $4/\sqrt{15}$ optimum is carried
 by a state whose invariants are all fifteenths: spectra $(7,4,4)/15$ and $(11,2,2)/15$, $N_{AB}=N_{AC}=2/\sqrt{15}$,
 $N_{BC}=1/15$. \tierC\ (\cert{w33\_pass11152\_pauli\_bell\_charpoly.py}, \cert{w33\_pass11153\_temporal\_magic\_budget.py},
 \cert{w33\_pass11154\_polygamy\_optimum\_structure.py}, \cert{w33\_pass11155\_temporal\_cglmp\_trend.py})
@@ -298,7 +298,7 @@ the neutral sector it gives $x^3-6x-2$. The determinant law is general: for $n$ 
 blocks satisfies $\sum_i\det S_{ij}=1$, and perfect three-qutrit gates exist (about $3.1\%$ of $\Sp(6,3)$), each column
 carrying determinants $(1,1,-1)$. The value $4/\sqrt{15}$ is derived: on the family
 $\sqrt x\,\ket{000}+\sqrt{(1-x)/4}\sum_{a=1,2}\ket a(\ket{0a}+\ket{a0})$ the negativity is $\sqrt{(1+15x)(1-x)}/4$, maximal
-at $x=7/15$. The temporal optimum keeps climbing: $3.576$, $3.621$, $3.658$ at $d=8,9,10$ against $3.101$, $3.122$, $3.140$ in space, its deficit from $4$ falling like $d^{-0.75}$. \tierC\ (\cert{w33\_pass11157\_ninth\_roots\_explained.py},
+at $x=7/15$. The temporal optimum keeps climbing: $3.576$, $3.621$, $3.658$ at $d=8,9,10$ against $3.101$, $3.122$, $3.140$ in space, its deficit from $4$ falling roughly like $3.4/d$ (Section~4; the earlier $d^{-0.75}$ fit to $d\le10$ is superseded). \tierC\ (\cert{w33\_pass11157\_ninth\_roots\_explained.py},
 \cert{w33\_pass11158\_perfect\_three\_qutrit\_gates.py}, \cert{w33\_pass11159\_explicit\_polygamy\_state.py},
 \cert{w33\_pass11160\_temporal\_cglmp\_high\_d.py})
 
@@ -312,8 +312,25 @@ all entries and all $2\times2$ minors nonzero --- but it has one over $\F_9=\F_3
 u,v\rangle$ is the symplectic form, so a unitary matrix over $\F_9$ is a symplectic matrix, perfect exactly when all its
 entries are nonzero: $12288$ of the $24192$ elements of $U(3,\F_9)$. The simplest is $K=P^2+i\mathbf 1$, a cyclic shift
 plus $i$ times the all-ones matrix, unitary because $\mathbf 1^2=3\cdot\mathbf 1=0$ --- the number of parties equals the
-characteristic. Finally, $4/\sqrt{15}$ is a certified local maximum: the partial transposes at the optimal state have no
+characteristic (up to the scalar $1+i$ it generates Grassl and Gulliver's double-circulant Hermitian self-dual
+$[6,3,4]_9$ code~\cite{GrasslGulliver2009,GrasslRoetteler2015}, so the construction itself is known). Finally,
+$4/\sqrt{15}$ is a certified local maximum: the partial transposes at the optimal state have no
 eigenvalue within $2/15$ of zero, and the Hessian has $32$ strictly negative directions and exactly $20$ flat ones, the
 local-unitary orbit; $96$ further random restarts reach $4/\sqrt{15}$ and nothing higher. Global optimality remains open.
 \tierC\ (\cert{w33\_pass11162\_polygamy\_local\_maximum.py}, \cert{w33\_pass11163\_perfect\_three\_qutrit\_count.py},
 \cert{w33\_pass11164\_three\_qutrit\_tetracode.py})
+
+Both can be pinned further. On the symmetry class of the optimal state --- the states $\alpha\ket{000}+\beta\sum_a\ket{aa0}
++\gamma\sum_a\ket{a0a}$ fixed by $U\otimes\bar U\otimes\bar U$, $U\in U(2)$ on $\operatorname{span}\{\ket1,\ket2\}$ --- the
+partial transposes split into $2\times2$ blocks and
+$N_{AB}+N_{AC}=\sqrt{\gamma^4+4\alpha^2\beta^2}+\sqrt{\beta^4+4\alpha^2\gamma^2}$, whose unique maximum is $4/\sqrt{15}$.
+Globally, Rana's bound on the number of negative eigenvalues of a partial transpose~\cite{Rana2013}, purity and
+monotonicity give the rigorous bound $N_{AB}+N_{AC}\le 25/18$, and a dual see-saw from $3000$ random starts never
+exceeds $4/\sqrt{15}$. The perfect three-qutrit gates fall into exactly six local orbits, labelled by a permutation
+$\pi\in S_3$ that says in which future each past reappears orientation-reversed ($\det S_{\pi(j)j}=-1$); relabelling the
+parties joins them, so the perfect three-qutrit gate is unique up to local operations and relabelling, as the
+two-qutrit one is. A perfect four-qutrit gate cannot exist at all --- its Choi state would be an $\mathrm{AME}(8,3)$
+state, which the shadow inequalities exclude~\cite{HuberShadow2018} --- while five qutrits admit one again (an explicit
+circulant over $\F_9$, cf.~\cite{GrasslRoetteler2015}): perfect ticks exist for registers of $1,2,3$ and $5$ qutrits,
+never $4$. \tierC\ (\cert{w33\_pass11167\_polygamy\_global.py}, \cert{w33\_pass11169\_perfect\_gate\_local\_orbits.py},
+\cert{w33\_pass11170\_perfect\_gate\_ladder.py})
