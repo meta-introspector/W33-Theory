@@ -588,6 +588,14 @@ arrow is information loss, and it is \emph{consistent} with the Connes--Rovelli 
 Section~3: a state can orient time, but only forgetting makes it flow one way. \tierB
 \end{physical}
 
+The two-trit record need not be put in by hand. For a two-qutrit Clifford gate the tripartite information of its Choi
+state is $I_3=2-\operatorname{rank}S_{AA}-\operatorname{rank}S_{BA}$, which the determinant law of Theorem~3.7 makes
+never positive: no gate concentrates information, and the perfect gates are the maximal scramblers ($I_3=-2$). Whenever
+$S_{BA}$ is invertible, a tick with a partner in a maximally mixed state, followed by forgetting the partner and its
+purification --- two trits --- is exactly the completely depolarising channel of Theorem~4.7. The arrow appears as soon
+as a maximally entangling tick is followed by discarding what it entangled with.
+\tierC\ (\cert{w33\_pass11161\_scrambling\_and\_arrow.py})
+
 \begin{keyidea}
 Three layers of time, exactly separated: a finite present with a light cone ($27$
 events, $t^2-x^2-y^2$); an unbounded, oriented history (a free group, an $8$-regular tree,

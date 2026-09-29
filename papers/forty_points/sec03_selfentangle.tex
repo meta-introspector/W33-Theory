@@ -291,3 +291,13 @@ falling like $d^{-0.65}$) while the spatial one barely moves ($3.050$, $3.078$).
 by a state whose invariants are all fifteenths: spectra $(7,4,4)/15$ and $(11,2,2)/15$, $N_{AB}=N_{AC}=2/\sqrt{15}$,
 $N_{BC}=1/15$. \tierC\ (\cert{w33\_pass11152\_pauli\_bell\_charpoly.py}, \cert{w33\_pass11153\_temporal\_magic\_budget.py},
 \cert{w33\_pass11154\_polygamy\_optimum\_structure.py}, \cert{w33\_pass11155\_temporal\_cglmp\_trend.py})
+
+The loose ends close. The ninth roots come from one identity: with $U=(XZ^2)\otimes(XZ^2)$, the joint relabelling of both
+outcomes, $B^3-3B+1=(B+1)(I+U+U^2)$, so on the charged sectors of $U$ the Bell operator trisects the angle $2\pi/3$ and on
+the neutral sector it gives $x^3-6x-2$. The determinant law is general: for $n$ qutrits every column and every row of
+blocks satisfies $\sum_i\det S_{ij}=1$, and perfect three-qutrit gates exist (about $3.1\%$ of $\Sp(6,3)$), each column
+carrying determinants $(1,1,-1)$. The value $4/\sqrt{15}$ is derived: on the family
+$\sqrt x\,\ket{000}+\sqrt{(1-x)/4}\sum_{a=1,2}\ket a(\ket{0a}+\ket{a0})$ the negativity is $\sqrt{(1+15x)(1-x)}/4$, maximal
+at $x=7/15$. The temporal optimum keeps climbing: $3.576$, $3.621$, $3.658$ at $d=8,9,10$ against $3.101$, $3.122$, $3.140$ in space, its deficit from $4$ falling like $d^{-0.75}$. \tierC\ (\cert{w33\_pass11157\_ninth\_roots\_explained.py},
+\cert{w33\_pass11158\_perfect\_three\_qutrit\_gates.py}, \cert{w33\_pass11159\_explicit\_polygamy\_state.py},
+\cert{w33\_pass11160\_temporal\_cglmp\_high\_d.py})

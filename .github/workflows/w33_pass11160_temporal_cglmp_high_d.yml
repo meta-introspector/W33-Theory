@@ -1,0 +1,24 @@
+name: W33 Pass 11160 temporal cglmp high d
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11160_*.py"
+      - "analysis/w33_so16_one_loop.py"
+      - "analysis/PASS11160_TEMPORAL_CGLMP_HIGH_D.md"
+      - "data/w33_pass11160_*.json"
+      - "data/w33_pass11147_*.json"
+      - "data/w33_pass11155_*.json"
+      - "tests/test_w33_pass11160_temporal_cglmp_high_d.py"
+      - ".github/workflows/w33_pass11160_temporal_cglmp_high_d.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest pycddlib networkx
+      - run: python -m pytest -q tests/test_w33_pass11160_temporal_cglmp_high_d.py

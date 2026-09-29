@@ -1,0 +1,62 @@
+{
+ "samples": 200000,
+ "symplectic_fraction": 1.0,
+ "column_law": 1.0,
+ "row_law": 1.0,
+ "single_blocks_invertible": 0.03108,
+ "perfect_fraction": 0.03108,
+ "perfect_count": 6216,
+ "perfect_column_det_patterns": {
+  "[(1, 1, 2), (1, 1, 2), (1, 1, 2)]": 5000
+ },
+ "example": [
+  [
+   1,
+   2,
+   0,
+   1,
+   1,
+   1
+  ],
+  [
+   2,
+   0,
+   2,
+   2,
+   2,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   1,
+   2,
+   2
+  ],
+  [
+   2,
+   0,
+   0,
+   1,
+   1,
+   2
+  ],
+  [
+   1,
+   2,
+   1,
+   0,
+   1,
+   2
+  ],
+  [
+   0,
+   1,
+   0,
+   2,
+   1,
+   0
+  ]
+ ]
+}

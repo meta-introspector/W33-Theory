@@ -1,0 +1,24 @@
+{
+ "closed_form_matches_symbolic": true,
+ "critical_point": [
+  "7/15"
+ ],
+ "explicit_state_NAB": 0.5163977794943222,
+ "explicit_state_NAC": 0.5163977794943222,
+ "explicit_state_NBC": 0.06666666666666654,
+ "max_value": "4*sqrt(15)/15",
+ "negativity_closed_form": "sqrt((1+15x)(1-x))/4",
+ "pass_id": 11159,
+ "spectra_times_15": {
+  "A": [
+   4.0,
+   4.0,
+   7.0
+  ],
+  "B": [
+   2.0,
+   2.0,
+   11.0
+  ]
+ }
+}

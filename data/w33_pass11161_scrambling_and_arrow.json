@@ -1,0 +1,13 @@
+{
+ "I3_census": {
+  "-1": 36864,
+  "-2": 13824,
+  "0": 1152
+ },
+ "I3_never_positive": true,
+ "depolarising_cases": 6,
+ "depolarising_max_dev": 7.217237104110997e-16,
+ "formulas_checked": true,
+ "n_checked": 14,
+ "pass_id": 11161
+}
