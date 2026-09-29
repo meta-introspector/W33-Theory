@@ -1,0 +1,59 @@
+{
+ "bijection_states_to_cliffords": true,
+ "clifford_symplectic_classes": 24,
+ "clifford_unitaries_mod_phase": 216,
+ "common_are_products": true,
+ "common_lines": 16,
+ "common_similitudes": 2304,
+ "gsp_spatial_order": 103680,
+ "n_points": 40,
+ "partial_transpose_lines_are_temporal": true,
+ "pass_id": 11143,
+ "pdm_all_supported_on_temporal_lines": true,
+ "pdm_negativity": [
+  0.999999999
+ ],
+ "pdm_spectra": [
+  [
+   -0.333333333,
+   0.333333333
+  ]
+ ],
+ "pt_states_equal_to_a_clifford_pdm": 216,
+ "schmidt_entangled": [
+  [
+   0.333333333,
+   0.333333333,
+   0.333333333
+  ]
+ ],
+ "schmidt_product": [
+  [
+   1.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "spatial_lines": 40,
+ "spatial_only_are_detminus1_graphs": true,
+ "spatial_srg": [
+  12,
+  [
+   2
+  ],
+  [
+   4
+  ]
+ ],
+ "temporal_lines": 40,
+ "temporal_only_are_SL23_graphs": true,
+ "temporal_srg": [
+  12,
+  [
+   2
+  ],
+  [
+   4
+  ]
+ ]
+}

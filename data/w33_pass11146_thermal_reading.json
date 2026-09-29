@@ -1,0 +1,38 @@
+{
+ "n_models": 21,
+ "no_tachyon_without_holonomy": true,
+ "pass_id": 11146,
+ "tachyonic_with_holonomy_at_small_radius": true,
+ "tfd": [
+  {
+   "beta": 0.0,
+   "formula": 0.9999999999999998,
+   "negativity": 1.0,
+   "pt_equals_jamiolkowski_half_evolution": 0.0
+  },
+  {
+   "beta": 0.3,
+   "formula": 0.9779547301508924,
+   "negativity": 0.9779547301508922,
+   "pt_equals_jamiolkowski_half_evolution": 0.0
+  },
+  {
+   "beta": 1.0,
+   "formula": 0.7966528278280933,
+   "negativity": 0.7966528278280935,
+   "pt_equals_jamiolkowski_half_evolution": 0.0
+  },
+  {
+   "beta": 3.0,
+   "formula": 0.2699187025836849,
+   "negativity": 0.2699187025836849,
+   "pt_equals_jamiolkowski_half_evolution": 0.0
+  },
+  {
+   "beta": 10.0,
+   "formula": 0.0067833448538070495,
+   "negativity": 0.0067833448538070495,
+   "pt_equals_jamiolkowski_half_evolution": 0.0
+  }
+ ]
+}

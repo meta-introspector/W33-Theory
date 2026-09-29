@@ -1,0 +1,13 @@
+{
+ "charged_leptons_anarchic": true,
+ "condensate_leaves_neutrino_texture": true,
+ "hypothesis_neutrino_anarchy": "refuted",
+ "models": [
+  "A8SM_20260942_36621_TF",
+  "A8SM_20260951_24165_TF",
+  "A8SM_20260971_40521_TF"
+ ],
+ "neutrino_dirac_tree_up_like": true,
+ "pass_id": 11145,
+ "seesaw_scale_GeV": 598580000000000.0
+}

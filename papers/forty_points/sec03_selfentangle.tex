@@ -185,3 +185,56 @@ state of a system can itself define a flow of time. It orients change; it does n
 itself make change irreversible. That distinction --- between an orientation of time and
 an arrow of time --- returns in Section~4.
 \end{plainwords}
+
+\subsection{Space and time on the same forty points}
+
+Section~2 built $\W$ from two qutrits, with commutation form $[a,a']+[b,b']$; Theorem~3.1 built it from one qutrit
+acting on itself, with form $[u,u']-[v,v']$. The two constructions live on the same forty projective points of
+$\F_3^4$, and they are not the same structure.
+
+\begin{result}{Theorem 3.4 (two quadrangles) \hfill \tierT\ \tierC}
+Both forms make the $40$ points a generalized quadrangle $GQ(3,3)$ with collinearity $\SRG(40,12,2,4)$. The two
+quadrangles share exactly $16$ lines --- the product planes $\ell_1\oplus\ell_2$ --- and each has $24$ lines of its
+own: the spatial ones are the graphs of the $24$ maps with determinant $-1$, carrying the $216$ maximally entangled
+two-qutrit stabilizer states; the temporal ones are the graphs of $SL(2,3)$, the qutrit Clifford group modulo Paulis.
+Partial transposition exchanges the two sets of own lines, and on states it is a bijection: the partial transpose of
+each of the $216$ maximally entangled stabilizer states \emph{is} the two-time pseudo-density operator of one qutrit
+passing through one of the $216$ Clifford gates (spectrum $(+\tfrac13)^6(-\tfrac13)^3$, temporal negativity $1$).
+Exactly $2304$ of the $103680$ similitudes of the spatial form also preserve the temporal one: the local operations
+and the exchange of the parties.
+\cert{w33\_pass11143\_space\_time\_two\_quadrangles.py}
+\end{result}
+
+\begin{physical}[What it means physically: one qutrit across time is a Bell pair across space]
+Space and time agree on everything classical --- the product lines --- and disagree on exactly the entangled lines. A
+maximally entangled pair of qutrits and a single qutrit persisting through a gate are the same line of points, read
+with the two forms. This is the $\W$ form of a general fact (``partial transpose as a space--time swap'',
+Fullwood and Li \cite{FullwoodLi}; Marcovitch and Reznik \cite{MarcovitchReznik}); the two-quadrangle structure, the
+$16/24$ split and the state--gate bijection are specific to $\W$.
+\end{physical}
+
+\begin{result}{Proposition 3.5 (the spookiness budget) \hfill \tierC}
+For the qutrit Bell inequality of Collins, Gisin, Linden, Massar and Popescu \cite{CGLMP} (local bound $2$):
+using only $\W$'s own resources --- stabilizer states, Pauli measurements, Clifford gates --- the maximum is exactly
+$2$, both for two qutrits in space and for one qutrit measured at two times. Along the path from the Pauli bases to the
+optimal bases the value is $2+\tfrac{\pi^2}{6}t^2+O(t^3)$: $\W$ sits exactly on the edge of the local polytope. One
+qutrit starting maximally mixed and measured twice gives exactly the Bell-pair value $2.8729$; optimised over starts and
+bases it reaches $3.1628$, above the best spatial value $2.9149$ \cite{ADGL} --- for qubits the two coincide
+\cite{Fritz2010}. A classical system with any memory reaches the algebraic $4$ in time.
+\cert{w33\_pass11144\_spookiness\_budget.py}
+\end{result}
+
+\begin{physical}[Spooky action at a distance, in these terms]
+The correlation geometry of a Bell pair is exactly that of one qutrit correlated with itself across time. The temporal
+version needs only persistence; its larger values measure how much a measurement disturbs, not nonlocality. The
+spatial version is ``spooky'' precisely because it cannot be used to signal, and it needs a resource outside $\W$ ---
+magic --- to exceed the local bound at all (the odd-dimensional discrete Wigner function of stabilizer states is
+non-negative, Gross \cite{Gross2006}, and its phase space is the point space of $\W$). Nothing here travels backwards in
+time: what the two readings share is the geometry of the correlations, not a mechanism.
+\end{physical}
+
+The same swap works in imaginary time. For a Gibbs state $\rho=e^{-\beta K}/Z$ of one qutrit, the partial transpose of
+the thermofield double $\sum_i\sqrt{p_i}\ket{ii}$ equals the Jamio{\l}kowski matrix of the Euclidean half-evolution
+$A\mapsto\rho^{1/2}A\rho^{1/2}$, with negativity $((\sum_i\sqrt{p_i})^2-1)/2$: the temporal Bell line at $\beta=0$, a
+product line as $\beta\to\infty$. The modular clock above is the flow whose Euclidean continuation prepares this
+entanglement. \tierC\ (\cert{w33\_pass11146\_thermal\_reading.py})

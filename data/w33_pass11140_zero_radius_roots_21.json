@@ -1,0 +1,1796 @@
+{
+ "A8SM_20260928_2233_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 80,
+   "not_closed": 0,
+   "comps": [
+    [
+     7,
+     56
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 80,
+   "not_closed": 0,
+   "comps": [
+    [
+     7,
+     56
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 80,
+   "not_closed": 0,
+   "comps": [
+    [
+     7,
+     56
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  }
+ },
+ "A8SM_20260928_533_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 78,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     5,
+     30
+    ],
+    [
+     2,
+     6
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 78,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     5,
+     30
+    ],
+    [
+     2,
+     6
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 78,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     5,
+     30
+    ],
+    [
+     2,
+     6
+    ]
+   ]
+  }
+ },
+ "A8SM_20260941_7061_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 90,
+   "not_closed": 0,
+   "comps": [
+    [
+     8,
+     72
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     2,
+     6
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 90,
+   "not_closed": 0,
+   "comps": [
+    [
+     8,
+     72
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     2,
+     6
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 90,
+   "not_closed": 0,
+   "comps": [
+    [
+     8,
+     72
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     2,
+     6
+    ]
+   ]
+  }
+ },
+ "A8SM_20260941_7243_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 80,
+   "not_closed": 0,
+   "comps": [
+    [
+     7,
+     56
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 80,
+   "not_closed": 0,
+   "comps": [
+    [
+     7,
+     56
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 80,
+   "not_closed": 0,
+   "comps": [
+    [
+     7,
+     56
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  }
+ },
+ "A8SM_20260942_36621_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 72,
+   "not_closed": 0,
+   "comps": [
+    [
+     5,
+     30
+    ],
+    [
+     5,
+     30
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 72,
+   "not_closed": 0,
+   "comps": [
+    [
+     5,
+     30
+    ],
+    [
+     5,
+     30
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 72,
+   "not_closed": 0,
+   "comps": [
+    [
+     5,
+     30
+    ],
+    [
+     5,
+     30
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  }
+ },
+ "A8SM_20260942_46043_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 74,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     4,
+     20
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 74,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     4,
+     20
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 74,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     4,
+     20
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  }
+ },
+ "A8SM_20260951_24165_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 74,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     4,
+     20
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 74,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     4,
+     20
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 74,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     4,
+     20
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  }
+ },
+ "A8SM_20260971_14027_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 90,
+   "not_closed": 0,
+   "comps": [
+    [
+     8,
+     72
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     2,
+     6
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 90,
+   "not_closed": 0,
+   "comps": [
+    [
+     8,
+     72
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     2,
+     6
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 90,
+   "not_closed": 0,
+   "comps": [
+    [
+     8,
+     72
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     2,
+     6
+    ]
+   ]
+  }
+ },
+ "A8SM_20260971_18172_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 78,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     5,
+     30
+    ],
+    [
+     2,
+     6
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 78,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     5,
+     30
+    ],
+    [
+     2,
+     6
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 78,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     5,
+     30
+    ],
+    [
+     2,
+     6
+    ]
+   ]
+  }
+ },
+ "A8SM_20260971_19247_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 110,
+   "not_closed": 0,
+   "comps": [
+    [
+     9,
+     90
+    ],
+    [
+     4,
+     20
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 110,
+   "not_closed": 0,
+   "comps": [
+    [
+     9,
+     90
+    ],
+    [
+     4,
+     20
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 110,
+   "not_closed": 0,
+   "comps": [
+    [
+     9,
+     90
+    ],
+    [
+     4,
+     20
+    ]
+   ]
+  }
+ },
+ "A8SM_20260971_3818_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 80,
+   "not_closed": 0,
+   "comps": [
+    [
+     7,
+     56
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 80,
+   "not_closed": 0,
+   "comps": [
+    [
+     7,
+     56
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 80,
+   "not_closed": 0,
+   "comps": [
+    [
+     7,
+     56
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  }
+ },
+ "A8SM_20260971_40521_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 74,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     4,
+     20
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 74,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     4,
+     20
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 74,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     4,
+     20
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  }
+ },
+ "A8SM_20260971_5285_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 74,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     4,
+     20
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 74,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     4,
+     20
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 74,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     4,
+     20
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  }
+ },
+ "A8SM_20260971_5904_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 74,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     4,
+     20
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 74,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     4,
+     20
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 74,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     4,
+     20
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  }
+ },
+ "A8SM_20260972_17224_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 72,
+   "not_closed": 0,
+   "comps": [
+    [
+     5,
+     30
+    ],
+    [
+     5,
+     30
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 72,
+   "not_closed": 0,
+   "comps": [
+    [
+     5,
+     30
+    ],
+    [
+     5,
+     30
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 72,
+   "not_closed": 0,
+   "comps": [
+    [
+     5,
+     30
+    ],
+    [
+     5,
+     30
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  }
+ },
+ "A8SM_20260972_19688_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 80,
+   "not_closed": 0,
+   "comps": [
+    [
+     7,
+     56
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 80,
+   "not_closed": 0,
+   "comps": [
+    [
+     7,
+     56
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 80,
+   "not_closed": 0,
+   "comps": [
+    [
+     7,
+     56
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  }
+ },
+ "A8SM_20260972_2080_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 74,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     4,
+     20
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 74,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     4,
+     20
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 74,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     4,
+     20
+    ],
+    [
+     3,
+     12
+    ]
+   ]
+  }
+ },
+ "A8SM_20260972_31386_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 104,
+   "not_closed": 0,
+   "comps": [
+    [
+     9,
+     90
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 104,
+   "not_closed": 0,
+   "comps": [
+    [
+     9,
+     90
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 104,
+   "not_closed": 0,
+   "comps": [
+    [
+     9,
+     90
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     1,
+     2
+    ]
+   ]
+  }
+ },
+ "A8SM_20260972_5273_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 86,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     6,
+     42
+    ],
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 86,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     6,
+     42
+    ],
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 86,
+   "not_closed": 0,
+   "comps": [
+    [
+     6,
+     42
+    ],
+    [
+     6,
+     42
+    ],
+    [
+     1,
+     2
+    ]
+   ]
+  }
+ },
+ "A8SM_20260982_1645_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 90,
+   "not_closed": 0,
+   "comps": [
+    [
+     8,
+     72
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     2,
+     6
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 90,
+   "not_closed": 0,
+   "comps": [
+    [
+     8,
+     72
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     2,
+     6
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 90,
+   "not_closed": 0,
+   "comps": [
+    [
+     8,
+     72
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     2,
+     6
+    ]
+   ]
+  }
+ },
+ "A8SM_20260982_47048_TF": {
+  "a: pi.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "a: pi.V0 in Z|offset_int=True": {
+   "n": 90,
+   "not_closed": 0,
+   "comps": [
+    [
+     8,
+     72
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     2,
+     6
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "b: pi.V0 + N W.V0/2 in Z|offset_int=True": {
+   "n": 90,
+   "not_closed": 0,
+   "comps": [
+    [
+     8,
+     72
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     2,
+     6
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=False": {
+   "n": 240,
+   "not_closed": 0,
+   "comps": [
+    [
+     15,
+     240
+    ]
+   ]
+  },
+  "c: l.V0 in Z|offset_int=True": {
+   "n": 90,
+   "not_closed": 0,
+   "comps": [
+    [
+     8,
+     72
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     2,
+     6
+    ]
+   ]
+  }
+ }
+}

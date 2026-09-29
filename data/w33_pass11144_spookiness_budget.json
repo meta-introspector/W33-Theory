@@ -1,0 +1,20 @@
+{
+ "classical_invasive_max_1state": 2.0,
+ "classical_invasive_max_2states": 4.0,
+ "lhv_max": 2.0,
+ "magic_path_curvature": 1.644932600353144,
+ "pass_id": 11144,
+ "pauli_point_value": 2.0000000000000027,
+ "pi2_over_6": 1.6449340668482264,
+ "spatial_omega_cglmp_bases": 2.8729340511723374,
+ "spatial_optimum_adgl": 2.914854215512677,
+ "spatial_stabilizer_max": 2.000000000000002,
+ "temporal_mixed_equals_spatial": 2.872934051172337,
+ "temporal_optimum": 3.1628065077657714,
+ "temporal_optimum_first_outcome_probs": [
+  0.7581848054273368,
+  0.12090763934843496,
+  0.12090755522422818
+ ],
+ "temporal_stabilizer_max": 2.000000000000003
+}

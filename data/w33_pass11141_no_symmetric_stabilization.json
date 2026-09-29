@@ -1,0 +1,22 @@
+{
+ "cusp0_diagonal_tachyon_free_at_0p2": [
+  "A8SM_20260942_46043_TF",
+  "A8SM_20260951_24165_TF",
+  "A8SM_20260971_40521_TF",
+  "A8SM_20260971_5285_TF",
+  "A8SM_20260971_5904_TF",
+  "A8SM_20260972_2080_TF"
+ ],
+ "cusp0_diagonal_tachyonic": 15,
+ "elliptic_Delta": -0.16666666666666663,
+ "elliptic_is_charged_disk_centre": true,
+ "elliptic_pR2": 0.6666666666666667,
+ "elliptic_point": [
+  0.5,
+  0.28867513459481287
+ ],
+ "fricke_only_approximate": true,
+ "golden_lower_root": 0.2205281794165358,
+ "group": "Gamma_0(3)",
+ "pass_id": 11141
+}
