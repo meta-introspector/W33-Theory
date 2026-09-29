@@ -1,0 +1,73 @@
+{
+ "control": true,
+ "down_models": [
+  "A8SM_20260951_24165_TF",
+  "A8SM_20260971_40521_TF",
+  "A8SM_20260971_5904_TF",
+  "A8SM_20260972_17224_TF"
+ ],
+ "lepton_all_six": true,
+ "lowered": 0,
+ "needs_T_coeffs": [
+  "-1",
+  "1"
+ ],
+ "needs_T_targets": 102,
+ "new_with_twisted_sm_field": 1854,
+ "newly_allowed": {
+  "A8SM_20260942_36621_TF": {
+   "down": 0,
+   "lepton": 27,
+   "mu_HuHd": 0,
+   "nu_dirac": 54,
+   "up": 0
+  },
+  "A8SM_20260942_46043_TF": {
+   "down": 0,
+   "lepton": 27,
+   "mu_HuHd": 0,
+   "nu_dirac": 54,
+   "up": 0
+  },
+  "A8SM_20260951_24165_TF": {
+   "down": 81,
+   "lepton": 81,
+   "mu_HuHd": 0,
+   "nu_dirac": 162,
+   "up": 0
+  },
+  "A8SM_20260971_40521_TF": {
+   "down": 81,
+   "lepton": 108,
+   "mu_HuHd": 0,
+   "nu_dirac": 324,
+   "up": 0
+  },
+  "A8SM_20260971_5904_TF": {
+   "down": 81,
+   "lepton": 81,
+   "mu_HuHd": 0,
+   "nu_dirac": 270,
+   "up": 0
+  },
+  "A8SM_20260972_17224_TF": {
+   "down": 81,
+   "lepton": 81,
+   "mu_HuHd": 0,
+   "nu_dirac": 270,
+   "up": 0
+  }
+ },
+ "orders": [
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "pass_id": 11124,
+ "qT_outside_singlet_span": true,
+ "separate_winding_total": 0,
+ "total_new": 1863,
+ "up_and_mu_untouched": true
+}

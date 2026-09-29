@@ -1,0 +1,236 @@
+{
+ "A8SM_20260942_36621_TF": {
+  "below_crit": {
+   "n": 4,
+   "family_torus_states": [
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "Im1": {
+   "n": 4,
+   "family_torus_states": [
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "torus1_only": {
+   "n": 4,
+   "family_torus_states": [
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "torus2_only": {
+   "n": 0,
+   "family_torus_states": []
+  }
+ },
+ "A8SM_20260942_46043_TF": {
+  "below_crit": {
+   "n": 4,
+   "family_torus_states": [
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "Im1": {
+   "n": 4,
+   "family_torus_states": [
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "torus1_only": {
+   "n": 0,
+   "family_torus_states": []
+  },
+  "torus2_only": {
+   "n": 4,
+   "family_torus_states": [
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  }
+ },
+ "A8SM_20260951_24165_TF": {
+  "below_crit": {
+   "n": 4,
+   "family_torus_states": [
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "Im1": {
+   "n": 4,
+   "family_torus_states": [
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "torus1_only": {
+   "n": 0,
+   "family_torus_states": []
+  },
+  "torus2_only": {
+   "n": 4,
+   "family_torus_states": [
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  }
+ },
+ "A8SM_20260971_40521_TF": {
+  "below_crit": {
+   "n": 4,
+   "family_torus_states": [
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "Im1": {
+   "n": 4,
+   "family_torus_states": [
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "torus1_only": {
+   "n": 4,
+   "family_torus_states": [
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "torus2_only": {
+   "n": 0,
+   "family_torus_states": []
+  }
+ },
+ "A8SM_20260971_5904_TF": {
+  "below_crit": {
+   "n": 4,
+   "family_torus_states": [
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "Im1": {
+   "n": 4,
+   "family_torus_states": [
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "torus1_only": {
+   "n": 4,
+   "family_torus_states": [
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "torus2_only": {
+   "n": 0,
+   "family_torus_states": []
+  }
+ },
+ "A8SM_20260972_17224_TF": {
+  "below_crit": {
+   "n": 4,
+   "family_torus_states": [
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "Im1": {
+   "n": 4,
+   "family_torus_states": [
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "torus1_only": {
+   "n": 4,
+   "family_torus_states": [
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "torus2_only": {
+   "n": 0,
+   "family_torus_states": []
+  }
+ }
+}

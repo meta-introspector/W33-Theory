@@ -1,0 +1,500 @@
+{
+ "A8SM_20260942_36621_TF": {
+  "y_c": 1.7320508075688774,
+  "states": [
+   [
+    2.0,
+    1.0
+   ],
+   [
+    2.0,
+    1.0
+   ],
+   [
+    2.0,
+    1.0
+   ],
+   [
+    2.0,
+    1.0
+   ]
+  ],
+  "pairs": [
+   {
+    "pair": [
+     0,
+     1
+    ],
+    "PL2": 0.0,
+    "pR2": 0.0,
+    "massless_vector": false,
+    "l_zero": true
+   },
+   {
+    "pair": [
+     0,
+     2
+    ],
+    "PL2": 3.0,
+    "pR2": 3.0,
+    "massless_vector": false,
+    "l_zero": true
+   },
+   {
+    "pair": [
+     0,
+     3
+    ],
+    "PL2": 5.0,
+    "pR2": 1.0,
+    "massless_vector": false,
+    "l_zero": false
+   },
+   {
+    "pair": [
+     1,
+     2
+    ],
+    "PL2": 5.0,
+    "pR2": 1.0,
+    "massless_vector": false,
+    "l_zero": false
+   },
+   {
+    "pair": [
+     1,
+     3
+    ],
+    "PL2": 3.0,
+    "pR2": 3.0,
+    "massless_vector": false,
+    "l_zero": true
+   },
+   {
+    "pair": [
+     2,
+     3
+    ],
+    "PL2": 3.0,
+    "pR2": 3.0,
+    "massless_vector": false,
+    "l_zero": true
+   }
+  ]
+ },
+ "A8SM_20260942_46043_TF": {
+  "y_c": 1.5115226281523415,
+  "states": [
+   [
+    2.0,
+    1.0
+   ],
+   [
+    2.0,
+    1.0
+   ],
+   [
+    2.0,
+    1.0
+   ],
+   [
+    2.0,
+    1.0
+   ]
+  ],
+  "pairs": [
+   {
+    "pair": [
+     0,
+     1
+    ],
+    "PL2": 2.618033989,
+    "pR2": 2.618033989,
+    "massless_vector": false,
+    "l_zero": true
+   },
+   {
+    "pair": [
+     0,
+     2
+    ],
+    "PL2": 5.381966011,
+    "pR2": 1.381966011,
+    "massless_vector": false,
+    "l_zero": false
+   },
+   {
+    "pair": [
+     0,
+     3
+    ],
+    "PL2": 0.0,
+    "pR2": 0.0,
+    "massless_vector": false,
+    "l_zero": true
+   },
+   {
+    "pair": [
+     1,
+     2
+    ],
+    "PL2": 2.618033989,
+    "pR2": 2.618033989,
+    "massless_vector": false,
+    "l_zero": true
+   },
+   {
+    "pair": [
+     1,
+     3
+    ],
+    "PL2": 5.381966011,
+    "pR2": 1.381966011,
+    "massless_vector": false,
+    "l_zero": false
+   },
+   {
+    "pair": [
+     2,
+     3
+    ],
+    "PL2": 2.618033989,
+    "pR2": 2.618033989,
+    "massless_vector": false,
+    "l_zero": true
+   }
+  ]
+ },
+ "A8SM_20260951_24165_TF": {
+  "y_c": 1.511522628152341,
+  "states": [
+   [
+    2.0,
+    1.0
+   ],
+   [
+    2.0,
+    1.0
+   ],
+   [
+    2.0,
+    1.0
+   ],
+   [
+    2.0,
+    1.0
+   ]
+  ],
+  "pairs": [
+   {
+    "pair": [
+     0,
+     1
+    ],
+    "PL2": 2.618033989,
+    "pR2": 2.618033989,
+    "massless_vector": false,
+    "l_zero": true
+   },
+   {
+    "pair": [
+     0,
+     2
+    ],
+    "PL2": 5.381966011,
+    "pR2": 1.381966011,
+    "massless_vector": false,
+    "l_zero": false
+   },
+   {
+    "pair": [
+     0,
+     3
+    ],
+    "PL2": 0.0,
+    "pR2": 0.0,
+    "massless_vector": false,
+    "l_zero": true
+   },
+   {
+    "pair": [
+     1,
+     2
+    ],
+    "PL2": 2.618033989,
+    "pR2": 2.618033989,
+    "massless_vector": false,
+    "l_zero": true
+   },
+   {
+    "pair": [
+     1,
+     3
+    ],
+    "PL2": 5.381966011,
+    "pR2": 1.381966011,
+    "massless_vector": false,
+    "l_zero": false
+   },
+   {
+    "pair": [
+     2,
+     3
+    ],
+    "PL2": 2.618033989,
+    "pR2": 2.618033989,
+    "massless_vector": false,
+    "l_zero": true
+   }
+  ]
+ },
+ "A8SM_20260971_40521_TF": {
+  "y_c": 1.5115226281523415,
+  "states": [
+   [
+    2.0,
+    1.0
+   ],
+   [
+    2.0,
+    1.0
+   ],
+   [
+    2.0,
+    1.0
+   ],
+   [
+    2.0,
+    1.0
+   ]
+  ],
+  "pairs": [
+   {
+    "pair": [
+     0,
+     1
+    ],
+    "PL2": 2.618033989,
+    "pR2": 2.618033989,
+    "massless_vector": false,
+    "l_zero": true
+   },
+   {
+    "pair": [
+     0,
+     2
+    ],
+    "PL2": 5.381966011,
+    "pR2": 1.381966011,
+    "massless_vector": false,
+    "l_zero": false
+   },
+   {
+    "pair": [
+     0,
+     3
+    ],
+    "PL2": 0.0,
+    "pR2": 0.0,
+    "massless_vector": false,
+    "l_zero": true
+   },
+   {
+    "pair": [
+     1,
+     2
+    ],
+    "PL2": 2.618033989,
+    "pR2": 2.618033989,
+    "massless_vector": false,
+    "l_zero": true
+   },
+   {
+    "pair": [
+     1,
+     3
+    ],
+    "PL2": 5.381966011,
+    "pR2": 1.381966011,
+    "massless_vector": false,
+    "l_zero": false
+   },
+   {
+    "pair": [
+     2,
+     3
+    ],
+    "PL2": 2.618033989,
+    "pR2": 2.618033989,
+    "massless_vector": false,
+    "l_zero": true
+   }
+  ]
+ },
+ "A8SM_20260971_5904_TF": {
+  "y_c": 1.511522628152347,
+  "states": [
+   [
+    2.0,
+    1.0
+   ],
+   [
+    2.0,
+    1.0
+   ],
+   [
+    2.0,
+    1.0
+   ],
+   [
+    2.0,
+    1.0
+   ]
+  ],
+  "pairs": [
+   {
+    "pair": [
+     0,
+     1
+    ],
+    "PL2": 2.618033989,
+    "pR2": 2.618033989,
+    "massless_vector": false,
+    "l_zero": true
+   },
+   {
+    "pair": [
+     0,
+     2
+    ],
+    "PL2": 5.381966011,
+    "pR2": 1.381966011,
+    "massless_vector": false,
+    "l_zero": false
+   },
+   {
+    "pair": [
+     0,
+     3
+    ],
+    "PL2": 0.0,
+    "pR2": 0.0,
+    "massless_vector": false,
+    "l_zero": true
+   },
+   {
+    "pair": [
+     1,
+     2
+    ],
+    "PL2": 2.618033989,
+    "pR2": 2.618033989,
+    "massless_vector": false,
+    "l_zero": true
+   },
+   {
+    "pair": [
+     1,
+     3
+    ],
+    "PL2": 5.381966011,
+    "pR2": 1.381966011,
+    "massless_vector": false,
+    "l_zero": false
+   },
+   {
+    "pair": [
+     2,
+     3
+    ],
+    "PL2": 2.618033989,
+    "pR2": 2.618033989,
+    "massless_vector": false,
+    "l_zero": true
+   }
+  ]
+ },
+ "A8SM_20260972_17224_TF": {
+  "y_c": 1.7320508075688679,
+  "states": [
+   [
+    2.0,
+    1.0
+   ],
+   [
+    2.0,
+    1.0
+   ],
+   [
+    2.0,
+    1.0
+   ],
+   [
+    2.0,
+    1.0
+   ]
+  ],
+  "pairs": [
+   {
+    "pair": [
+     0,
+     1
+    ],
+    "PL2": 0.0,
+    "pR2": 0.0,
+    "massless_vector": false,
+    "l_zero": true
+   },
+   {
+    "pair": [
+     0,
+     2
+    ],
+    "PL2": 3.0,
+    "pR2": 3.0,
+    "massless_vector": false,
+    "l_zero": true
+   },
+   {
+    "pair": [
+     0,
+     3
+    ],
+    "PL2": 5.0,
+    "pR2": 1.0,
+    "massless_vector": false,
+    "l_zero": false
+   },
+   {
+    "pair": [
+     1,
+     2
+    ],
+    "PL2": 5.0,
+    "pR2": 1.0,
+    "massless_vector": false,
+    "l_zero": false
+   },
+   {
+    "pair": [
+     1,
+     3
+    ],
+    "PL2": 3.0,
+    "pR2": 3.0,
+    "massless_vector": false,
+    "l_zero": true
+   },
+   {
+    "pair": [
+     2,
+     3
+    ],
+    "PL2": 3.0,
+    "pR2": 3.0,
+    "massless_vector": false,
+    "l_zero": true
+   }
+  ]
+ }
+}

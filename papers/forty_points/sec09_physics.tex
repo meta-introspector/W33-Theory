@@ -894,6 +894,28 @@ tachyon: the gauge cells give a sharp necessary condition, but the torus offsets
 \cert{w33\_pass11119\_neutral\_tori\_across\_491.py}, \cert{w33\_pass11120\_rho\_cell\_criterion.py},
 \cert{w33\_pass11121\_hesse\_gauge\_bridge.py})
 
+Following the six to the end of the opening. Along the zero-$B$ diagonal their one-loop potential falls monotonically
+to the neutral onset with no barrier; it is a volume law, $\Lambda_\beta\approx160\,y^2-(5\text{--}13)$ in units of
+$M^4$, identical across the six, so the drive is the large-volume Bose--Fermi term and the approach is steep
+($d\Lambda/dy\approx600$), not slow roll. The critical radii are exact: $y_c=\sqrt3$ in two models and
+$\varphi^2/\sqrt3$ ($\varphi$ the golden ratio) in four, where the neutral states have $P_L^2=2$, $p_R^2=1$; no pair of
+them makes a massless vector, so the onset is not an enhanced-symmetry point. Their tree-level four-point amplitude is a
+Kawai--Lewellen--Tye beta function whose low-energy limit is pure exchange, $4C\pi(1/t+1/u)+3C\pi s^2/(tu)$, with no
+contact quartic, and the tachyon mass falls as the radius shrinks ($dm^2/dy>0$): condensate and radius run together,
+into the winding-tachyon regime where the cycle pinches off (Adams--Liu--McGreevy--Saltman--Silverstein), outside
+perturbative control. A $B$-field does not change the order: charged tachyons need both $B\neq0$ and
+$\mathrm{Im}\,T\le1$, always at least $0.4$ below the neutral onset, and in the four golden models $B\ge0.4$ removes
+the neutral tachyon at $\mathrm{Im}\,T=1.4$. The condensate carries no quantum numbers on the family torus, so it cannot
+move $T^*$ from $\rho$ or touch $m_c=m_u$. What it does change is the selection rules: its charge lies outside the span
+of the singlet vacuum, and every Yukawa target in the new direction needs exactly one condensate insertion. With it,
+charged-lepton Yukawas forbidden at every order become allowed in all six, down-quark ones in four, and neutrino Dirac
+terms in all six (orders $2$--$6$, $1863$ entries, $1854$ with a twisted field), while up-type Yukawas and the
+$\mu$-term stay forbidden. A first encoding that treated the winding as an exactly conserved $\Z_3$ found nothing; that
+zero was an artefact, since winding modulo $(1-\theta)\Lambda$ is the fixed-point class. \tierC\
+(\cert{w33\_pass11122\_six\_potentials.py}, \cert{w33\_pass11123\_critical\_point\_amplitude.py},
+\cert{w33\_pass11124\_condensate\_unlocked\_couplings.py}, \cert{w33\_pass11125\_bfield\_charged\_onset.py},
+\cert{w33\_pass11126\_family\_modulus\_under\_condensation.py})
+
 The apparent opening was an artefact of an
 incomplete selection rule; it was caught by reading the literature on the rules themselves, not by
 the computation. \tierC\ (\cert{w33\_pass10974\_valid\_r\_rules\_close\_the\_rotation\_door.py};

@@ -1,0 +1,808 @@
+{
+ "A8SM_20260942_36621_TF": {
+  "info": {
+   "N": [
+    -2,
+    0
+   ],
+   "torus_index": 0,
+   "n_tachyon_states": 4
+  },
+  "control": [
+   null,
+   6,
+   1
+  ],
+  "results": {
+   "up": {
+    "combos": 81,
+    "newly_allowed": 0,
+    "order_lowered": 0,
+    "new_orders": {},
+    "new_with_theta_twisted_sm_field": 0,
+    "higgs_involved": 0,
+    "sm_fields_twisted": [
+     [
+      3,
+      3
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      9,
+      9
+     ]
+    ]
+   },
+   "down": {
+    "combos": 189,
+    "newly_allowed": 0,
+    "order_lowered": 0,
+    "new_orders": {},
+    "new_with_theta_twisted_sm_field": 0,
+    "higgs_involved": 0,
+    "sm_fields_twisted": [
+     [
+      3,
+      3
+     ],
+     [
+      3,
+      7
+     ],
+     [
+      9,
+      9
+     ]
+    ]
+   },
+   "lepton": {
+    "combos": 216,
+    "newly_allowed": 27,
+    "order_lowered": 0,
+    "new_orders": {
+     "6": 9,
+     "5": 9,
+     "2": 9
+    },
+    "new_with_theta_twisted_sm_field": 27,
+    "higgs_involved": 9,
+    "sm_fields_twisted": [
+     [
+      3,
+      8
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      9,
+      9
+     ]
+    ]
+   },
+   "nu_dirac": {
+    "combos": 864,
+    "newly_allowed": 54,
+    "order_lowered": 0,
+    "new_orders": {
+     "5": 9,
+     "6": 27,
+     "2": 18
+    },
+    "new_with_theta_twisted_sm_field": 54,
+    "higgs_involved": 9,
+    "sm_fields_twisted": [
+     [
+      3,
+      8
+     ],
+     [
+      12,
+      12
+     ],
+     [
+      9,
+      9
+     ]
+    ]
+   },
+   "mu_HuHd": {
+    "combos": 81,
+    "newly_allowed": 0,
+    "order_lowered": 0,
+    "new_orders": {},
+    "new_with_theta_twisted_sm_field": 0,
+    "higgs_involved": 0,
+    "sm_fields_twisted": [
+     [
+      9,
+      9
+     ],
+     [
+      9,
+      9
+     ]
+    ]
+   }
+  }
+ },
+ "A8SM_20260942_46043_TF": {
+  "info": {
+   "N": [
+    0,
+    -2
+   ],
+   "torus_index": 2,
+   "n_tachyon_states": 4
+  },
+  "control": [
+   null,
+   6,
+   1
+  ],
+  "results": {
+   "up": {
+    "combos": 81,
+    "newly_allowed": 0,
+    "order_lowered": 0,
+    "new_orders": {},
+    "new_with_theta_twisted_sm_field": 0,
+    "higgs_involved": 0,
+    "sm_fields_twisted": [
+     [
+      3,
+      3
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      9,
+      9
+     ]
+    ]
+   },
+   "down": {
+    "combos": 189,
+    "newly_allowed": 0,
+    "order_lowered": 0,
+    "new_orders": {},
+    "new_with_theta_twisted_sm_field": 0,
+    "higgs_involved": 0,
+    "sm_fields_twisted": [
+     [
+      3,
+      3
+     ],
+     [
+      3,
+      7
+     ],
+     [
+      9,
+      9
+     ]
+    ]
+   },
+   "lepton": {
+    "combos": 216,
+    "newly_allowed": 27,
+    "order_lowered": 0,
+    "new_orders": {
+     "6": 9,
+     "5": 9,
+     "2": 9
+    },
+    "new_with_theta_twisted_sm_field": 27,
+    "higgs_involved": 9,
+    "sm_fields_twisted": [
+     [
+      3,
+      8
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      9,
+      9
+     ]
+    ]
+   },
+   "nu_dirac": {
+    "combos": 864,
+    "newly_allowed": 54,
+    "order_lowered": 0,
+    "new_orders": {
+     "6": 27,
+     "2": 18,
+     "5": 9
+    },
+    "new_with_theta_twisted_sm_field": 54,
+    "higgs_involved": 9,
+    "sm_fields_twisted": [
+     [
+      3,
+      8
+     ],
+     [
+      12,
+      12
+     ],
+     [
+      9,
+      9
+     ]
+    ]
+   },
+   "mu_HuHd": {
+    "combos": 81,
+    "newly_allowed": 0,
+    "order_lowered": 0,
+    "new_orders": {},
+    "new_with_theta_twisted_sm_field": 0,
+    "higgs_involved": 0,
+    "sm_fields_twisted": [
+     [
+      9,
+      9
+     ],
+     [
+      9,
+      9
+     ]
+    ]
+   }
+  }
+ },
+ "A8SM_20260951_24165_TF": {
+  "info": {
+   "N": [
+    0,
+    -2
+   ],
+   "torus_index": 1,
+   "n_tachyon_states": 4
+  },
+  "control": [
+   null,
+   6,
+   1
+  ],
+  "results": {
+   "up": {
+    "combos": 81,
+    "newly_allowed": 0,
+    "order_lowered": 0,
+    "new_orders": {},
+    "new_with_theta_twisted_sm_field": 0,
+    "higgs_involved": 0,
+    "sm_fields_twisted": [
+     [
+      3,
+      3
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   },
+   "down": {
+    "combos": 189,
+    "newly_allowed": 81,
+    "order_lowered": 0,
+    "new_orders": {
+     "4": 27,
+     "2": 27,
+     "5": 27
+    },
+    "new_with_theta_twisted_sm_field": 81,
+    "higgs_involved": 9,
+    "sm_fields_twisted": [
+     [
+      3,
+      3
+     ],
+     [
+      6,
+      7
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   },
+   "lepton": {
+    "combos": 216,
+    "newly_allowed": 81,
+    "order_lowered": 0,
+    "new_orders": {
+     "4": 27,
+     "2": 27,
+     "5": 27
+    },
+    "new_with_theta_twisted_sm_field": 81,
+    "higgs_involved": 9,
+    "sm_fields_twisted": [
+     [
+      6,
+      8
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   },
+   "nu_dirac": {
+    "combos": 864,
+    "newly_allowed": 162,
+    "order_lowered": 0,
+    "new_orders": {
+     "3": 72,
+     "2": 36,
+     "4": 27,
+     "5": 27
+    },
+    "new_with_theta_twisted_sm_field": 162,
+    "higgs_involved": 9,
+    "sm_fields_twisted": [
+     [
+      6,
+      8
+     ],
+     [
+      9,
+      12
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   },
+   "mu_HuHd": {
+    "combos": 81,
+    "newly_allowed": 0,
+    "order_lowered": 0,
+    "new_orders": {},
+    "new_with_theta_twisted_sm_field": 0,
+    "higgs_involved": 0,
+    "sm_fields_twisted": [
+     [
+      6,
+      9
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   }
+  }
+ },
+ "A8SM_20260971_40521_TF": {
+  "info": {
+   "N": [
+    -2,
+    0
+   ],
+   "torus_index": 0,
+   "n_tachyon_states": 4
+  },
+  "control": [
+   null,
+   6,
+   1
+  ],
+  "results": {
+   "up": {
+    "combos": 81,
+    "newly_allowed": 0,
+    "order_lowered": 0,
+    "new_orders": {},
+    "new_with_theta_twisted_sm_field": 0,
+    "higgs_involved": 0,
+    "sm_fields_twisted": [
+     [
+      3,
+      3
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   },
+   "down": {
+    "combos": 189,
+    "newly_allowed": 81,
+    "order_lowered": 0,
+    "new_orders": {
+     "4": 27,
+     "2": 27,
+     "5": 27
+    },
+    "new_with_theta_twisted_sm_field": 81,
+    "higgs_involved": 9,
+    "sm_fields_twisted": [
+     [
+      3,
+      3
+     ],
+     [
+      6,
+      7
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   },
+   "lepton": {
+    "combos": 216,
+    "newly_allowed": 108,
+    "order_lowered": 0,
+    "new_orders": {
+     "5": 45,
+     "4": 36,
+     "2": 27
+    },
+    "new_with_theta_twisted_sm_field": 108,
+    "higgs_involved": 9,
+    "sm_fields_twisted": [
+     [
+      6,
+      8
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   },
+   "nu_dirac": {
+    "combos": 864,
+    "newly_allowed": 324,
+    "order_lowered": 0,
+    "new_orders": {
+     "4": 48,
+     "5": 93,
+     "3": 111,
+     "2": 72
+    },
+    "new_with_theta_twisted_sm_field": 315,
+    "higgs_involved": 9,
+    "sm_fields_twisted": [
+     [
+      6,
+      8
+     ],
+     [
+      9,
+      12
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   },
+   "mu_HuHd": {
+    "combos": 81,
+    "newly_allowed": 0,
+    "order_lowered": 0,
+    "new_orders": {},
+    "new_with_theta_twisted_sm_field": 0,
+    "higgs_involved": 0,
+    "sm_fields_twisted": [
+     [
+      6,
+      9
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   }
+  }
+ },
+ "A8SM_20260971_5904_TF": {
+  "info": {
+   "N": [
+    -2,
+    0
+   ],
+   "torus_index": 0,
+   "n_tachyon_states": 4
+  },
+  "control": [
+   null,
+   6,
+   1
+  ],
+  "results": {
+   "up": {
+    "combos": 81,
+    "newly_allowed": 0,
+    "order_lowered": 0,
+    "new_orders": {},
+    "new_with_theta_twisted_sm_field": 0,
+    "higgs_involved": 0,
+    "sm_fields_twisted": [
+     [
+      3,
+      3
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   },
+   "down": {
+    "combos": 189,
+    "newly_allowed": 81,
+    "order_lowered": 0,
+    "new_orders": {
+     "4": 27,
+     "2": 27,
+     "5": 27
+    },
+    "new_with_theta_twisted_sm_field": 81,
+    "higgs_involved": 9,
+    "sm_fields_twisted": [
+     [
+      3,
+      3
+     ],
+     [
+      6,
+      7
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   },
+   "lepton": {
+    "combos": 216,
+    "newly_allowed": 81,
+    "order_lowered": 0,
+    "new_orders": {
+     "4": 27,
+     "2": 27,
+     "5": 27
+    },
+    "new_with_theta_twisted_sm_field": 81,
+    "higgs_involved": 9,
+    "sm_fields_twisted": [
+     [
+      6,
+      8
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   },
+   "nu_dirac": {
+    "combos": 864,
+    "newly_allowed": 270,
+    "order_lowered": 0,
+    "new_orders": {
+     "3": 81,
+     "2": 72,
+     "5": 72,
+     "4": 45
+    },
+    "new_with_theta_twisted_sm_field": 270,
+    "higgs_involved": 9,
+    "sm_fields_twisted": [
+     [
+      6,
+      8
+     ],
+     [
+      9,
+      12
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   },
+   "mu_HuHd": {
+    "combos": 81,
+    "newly_allowed": 0,
+    "order_lowered": 0,
+    "new_orders": {},
+    "new_with_theta_twisted_sm_field": 0,
+    "higgs_involved": 0,
+    "sm_fields_twisted": [
+     [
+      6,
+      9
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   }
+  }
+ },
+ "A8SM_20260972_17224_TF": {
+  "info": {
+   "N": [
+    -1,
+    0
+   ],
+   "torus_index": 0,
+   "n_tachyon_states": 4
+  },
+  "control": [
+   null,
+   6,
+   1
+  ],
+  "results": {
+   "up": {
+    "combos": 81,
+    "newly_allowed": 0,
+    "order_lowered": 0,
+    "new_orders": {},
+    "new_with_theta_twisted_sm_field": 0,
+    "higgs_involved": 0,
+    "sm_fields_twisted": [
+     [
+      3,
+      3
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   },
+   "down": {
+    "combos": 162,
+    "newly_allowed": 81,
+    "order_lowered": 0,
+    "new_orders": {
+     "4": 27,
+     "2": 27,
+     "5": 27
+    },
+    "new_with_theta_twisted_sm_field": 81,
+    "higgs_involved": 9,
+    "sm_fields_twisted": [
+     [
+      3,
+      3
+     ],
+     [
+      6,
+      6
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   },
+   "lepton": {
+    "combos": 216,
+    "newly_allowed": 81,
+    "order_lowered": 0,
+    "new_orders": {
+     "4": 27,
+     "2": 27,
+     "5": 27
+    },
+    "new_with_theta_twisted_sm_field": 81,
+    "higgs_involved": 9,
+    "sm_fields_twisted": [
+     [
+      6,
+      8
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   },
+   "nu_dirac": {
+    "combos": 864,
+    "newly_allowed": 270,
+    "order_lowered": 0,
+    "new_orders": {
+     "3": 81,
+     "2": 72,
+     "5": 72,
+     "4": 45
+    },
+    "new_with_theta_twisted_sm_field": 270,
+    "higgs_involved": 9,
+    "sm_fields_twisted": [
+     [
+      6,
+      8
+     ],
+     [
+      9,
+      12
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   },
+   "mu_HuHd": {
+    "combos": 81,
+    "newly_allowed": 0,
+    "order_lowered": 0,
+    "new_orders": {},
+    "new_with_theta_twisted_sm_field": 0,
+    "higgs_involved": 0,
+    "sm_fields_twisted": [
+     [
+      6,
+      9
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   }
+  }
+ }
+}

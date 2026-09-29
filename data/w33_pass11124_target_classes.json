@@ -1,0 +1,358 @@
+{
+ "A8SM_20260942_36621_TF": {
+  "rank_S": 5,
+  "rank_ST": 6,
+  "nu1": 9,
+  "classes": {
+   "up": {
+    "distinct_targets": 3,
+    "in_S": 3,
+    "needs_T": 0,
+    "outside": 0
+   },
+   "down": {
+    "distinct_targets": 9,
+    "in_S": 6,
+    "needs_T": 0,
+    "outside": 3
+   },
+   "lepton": {
+    "distinct_targets": 11,
+    "in_S": 8,
+    "needs_T": 3,
+    "outside": 0,
+    "T_coeffs": [
+     "-1",
+     "-1",
+     "-1"
+    ]
+   },
+   "nu_dirac": {
+    "distinct_targets": 40,
+    "in_S": 13,
+    "needs_T": 5,
+    "outside": 22,
+    "T_coeffs": [
+     "-1",
+     "-1",
+     "-1",
+     "-1",
+     "-1"
+    ]
+   },
+   "mu_HuHd": {
+    "distinct_targets": 7,
+    "in_S": 7,
+    "needs_T": 0,
+    "outside": 0
+   }
+  }
+ },
+ "A8SM_20260942_46043_TF": {
+  "rank_S": 5,
+  "rank_ST": 6,
+  "nu1": 8,
+  "classes": {
+   "up": {
+    "distinct_targets": 3,
+    "in_S": 3,
+    "needs_T": 0,
+    "outside": 0
+   },
+   "down": {
+    "distinct_targets": 9,
+    "in_S": 6,
+    "needs_T": 0,
+    "outside": 3
+   },
+   "lepton": {
+    "distinct_targets": 11,
+    "in_S": 8,
+    "needs_T": 3,
+    "outside": 0,
+    "T_coeffs": [
+     "1",
+     "1",
+     "1"
+    ]
+   },
+   "nu_dirac": {
+    "distinct_targets": 40,
+    "in_S": 13,
+    "needs_T": 5,
+    "outside": 22,
+    "T_coeffs": [
+     "1",
+     "1",
+     "1",
+     "1",
+     "1"
+    ]
+   },
+   "mu_HuHd": {
+    "distinct_targets": 7,
+    "in_S": 7,
+    "needs_T": 0,
+    "outside": 0
+   }
+  }
+ },
+ "A8SM_20260951_24165_TF": {
+  "rank_S": 4,
+  "rank_ST": 5,
+  "nu1": 8,
+  "classes": {
+   "up": {
+    "distinct_targets": 3,
+    "in_S": 3,
+    "needs_T": 0,
+    "outside": 0
+   },
+   "down": {
+    "distinct_targets": 9,
+    "in_S": 3,
+    "needs_T": 3,
+    "outside": 3,
+    "T_coeffs": [
+     "-1",
+     "-1",
+     "-1"
+    ]
+   },
+   "lepton": {
+    "distinct_targets": 11,
+    "in_S": 5,
+    "needs_T": 3,
+    "outside": 3,
+    "T_coeffs": [
+     "-1",
+     "-1",
+     "-1"
+    ]
+   },
+   "nu_dirac": {
+    "distinct_targets": 62,
+    "in_S": 8,
+    "needs_T": 5,
+    "outside": 49,
+    "T_coeffs": [
+     "-1",
+     "-1",
+     "-1",
+     "-1",
+     "-1"
+    ]
+   },
+   "mu_HuHd": {
+    "distinct_targets": 7,
+    "in_S": 7,
+    "needs_T": 0,
+    "outside": 0
+   }
+  }
+ },
+ "A8SM_20260971_40521_TF": {
+  "rank_S": 5,
+  "rank_ST": 6,
+  "nu1": 8,
+  "classes": {
+   "up": {
+    "distinct_targets": 3,
+    "in_S": 3,
+    "needs_T": 0,
+    "outside": 0
+   },
+   "down": {
+    "distinct_targets": 9,
+    "in_S": 3,
+    "needs_T": 3,
+    "outside": 3,
+    "T_coeffs": [
+     "1",
+     "1",
+     "1"
+    ]
+   },
+   "lepton": {
+    "distinct_targets": 11,
+    "in_S": 5,
+    "needs_T": 6,
+    "outside": 0,
+    "T_coeffs": [
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1"
+    ]
+   },
+   "nu_dirac": {
+    "distinct_targets": 40,
+    "in_S": 13,
+    "needs_T": 16,
+    "outside": 11,
+    "T_coeffs": [
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1"
+    ]
+   },
+   "mu_HuHd": {
+    "distinct_targets": 7,
+    "in_S": 7,
+    "needs_T": 0,
+    "outside": 0
+   }
+  }
+ },
+ "A8SM_20260971_5904_TF": {
+  "rank_S": 4,
+  "rank_ST": 5,
+  "nu1": 8,
+  "classes": {
+   "up": {
+    "distinct_targets": 3,
+    "in_S": 3,
+    "needs_T": 0,
+    "outside": 0
+   },
+   "down": {
+    "distinct_targets": 9,
+    "in_S": 3,
+    "needs_T": 3,
+    "outside": 3,
+    "T_coeffs": [
+     "1",
+     "1",
+     "1"
+    ]
+   },
+   "lepton": {
+    "distinct_targets": 11,
+    "in_S": 5,
+    "needs_T": 3,
+    "outside": 3,
+    "T_coeffs": [
+     "1",
+     "1",
+     "1"
+    ]
+   },
+   "nu_dirac": {
+    "distinct_targets": 55,
+    "in_S": 11,
+    "needs_T": 19,
+    "outside": 25,
+    "T_coeffs": [
+     "-1",
+     "-1",
+     "-1",
+     "-1",
+     "-1",
+     "1",
+     "-1",
+     "1",
+     "-1",
+     "1",
+     "-1",
+     "-1",
+     "-1",
+     "-1",
+     "-1",
+     "1",
+     "-1",
+     "1",
+     "-1"
+    ]
+   },
+   "mu_HuHd": {
+    "distinct_targets": 7,
+    "in_S": 7,
+    "needs_T": 0,
+    "outside": 0
+   }
+  }
+ },
+ "A8SM_20260972_17224_TF": {
+  "rank_S": 4,
+  "rank_ST": 5,
+  "nu1": 8,
+  "classes": {
+   "up": {
+    "distinct_targets": 3,
+    "in_S": 3,
+    "needs_T": 0,
+    "outside": 0
+   },
+   "down": {
+    "distinct_targets": 6,
+    "in_S": 3,
+    "needs_T": 3,
+    "outside": 0,
+    "T_coeffs": [
+     "-1",
+     "-1",
+     "-1"
+    ]
+   },
+   "lepton": {
+    "distinct_targets": 11,
+    "in_S": 5,
+    "needs_T": 3,
+    "outside": 3,
+    "T_coeffs": [
+     "-1",
+     "-1",
+     "-1"
+    ]
+   },
+   "nu_dirac": {
+    "distinct_targets": 55,
+    "in_S": 11,
+    "needs_T": 19,
+    "outside": 25,
+    "T_coeffs": [
+     "1",
+     "-1",
+     "1",
+     "1",
+     "-1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "-1",
+     "1",
+     "1",
+     "-1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "-1"
+    ]
+   },
+   "mu_HuHd": {
+    "distinct_targets": 7,
+    "in_S": 7,
+    "needs_T": 0,
+    "outside": 0
+   }
+  }
+ }
+}
