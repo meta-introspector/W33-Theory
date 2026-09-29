@@ -1,0 +1,123 @@
+{
+ "U_cubed_minus_I": 4.661241996182142e-15,
+ "block_dets": [
+  [
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   1
+  ]
+ ],
+ "block_ranks": [
+  [
+   2,
+   0,
+   1
+  ],
+  [
+   0,
+   2,
+   0
+  ],
+  [
+   1,
+   0,
+   2
+  ]
+ ],
+ "column_law": [
+  1,
+  1,
+  1
+ ],
+ "infos_bruteforce": {
+  "in0|out(0, 1)": 1.0,
+  "in0|out(0, 1, 2)": 2.0,
+  "in0|out(0, 2)": 2.0,
+  "in0|out(0,)": 1.0,
+  "in0|out(1, 2)": -0.0,
+  "in0|out(1,)": -0.0,
+  "in0|out(2,)": -0.0,
+  "in1|out(0, 1)": 2.0,
+  "in1|out(0, 1, 2)": 2.0,
+  "in1|out(0, 2)": -0.0,
+  "in1|out(0,)": -0.0,
+  "in1|out(1, 2)": 2.0,
+  "in1|out(1,)": 2.0,
+  "in1|out(2,)": 0.0,
+  "in2|out(0, 1)": 0.0,
+  "in2|out(0, 1, 2)": 2.0,
+  "in2|out(0, 2)": 2.0,
+  "in2|out(0,)": 0.0,
+  "in2|out(1, 2)": 1.0,
+  "in2|out(1,)": -0.0,
+  "in2|out(2,)": 1.0
+ },
+ "infos_match_stabilizer_formula": true,
+ "is_clifford": true,
+ "pass_id": 11166,
+ "perfect": false,
+ "shifts_conserved": true,
+ "symplectic": [
+  [
+   1,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ]
+ ],
+ "symplectic_ok": true,
+ "translation_invariant_max_offdiag_rank": 1,
+ "translation_invariant_perfect": 0
+}

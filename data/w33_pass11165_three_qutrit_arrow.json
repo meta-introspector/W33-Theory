@@ -1,0 +1,34 @@
+{
+ "controls_with_leak": 12,
+ "n_controls": 12,
+ "n_perfect": 12,
+ "pass_id": 11165,
+ "perfect_full_info": [
+  2
+ ],
+ "perfect_max_info_in_proper_subsets": 0,
+ "tetracode3_infos": {
+  "in0|out(0, 1)": 0,
+  "in0|out(0, 1, 2)": 2,
+  "in0|out(0, 2)": 0,
+  "in0|out(0,)": 0,
+  "in0|out(1, 2)": 0,
+  "in0|out(1,)": 0,
+  "in0|out(2,)": 0,
+  "in1|out(0, 1)": 0,
+  "in1|out(0, 1, 2)": 2,
+  "in1|out(0, 2)": 0,
+  "in1|out(0,)": 0,
+  "in1|out(1, 2)": 0,
+  "in1|out(1,)": 0,
+  "in1|out(2,)": 0,
+  "in2|out(0, 1)": 0,
+  "in2|out(0, 1, 2)": 2,
+  "in2|out(0, 2)": 0,
+  "in2|out(0,)": 0,
+  "in2|out(1, 2)": 0,
+  "in2|out(1,)": 0,
+  "in2|out(2,)": 0
+ },
+ "tetracode3_symplectic": true
+}

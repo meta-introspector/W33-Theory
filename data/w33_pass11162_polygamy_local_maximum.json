@@ -1,0 +1,29 @@
+{
+ "f_at_psi": 1.0327955589886446,
+ "four_over_sqrt15": 1.0327955589886444,
+ "grad_max": 2.970956813896919e-09,
+ "hessian_least_negative": -0.7229568036137288,
+ "hessian_most_negative": -4.581988868368264,
+ "hessian_negative": 32,
+ "hessian_positive": 0,
+ "hessian_zero": 20,
+ "lu_orbit_dim": 20,
+ "pass_id": 11162,
+ "pt_gap_from_zero": 0.1333333333333333,
+ "pt_spectrum": [
+  -0.191532,
+  -0.191532,
+  -0.133333,
+  0.133333,
+  0.133333,
+  0.133333,
+  0.324866,
+  0.324866,
+  0.466667
+ ],
+ "restarts": 96,
+ "restarts_above_target": 0,
+ "restarts_at_target": 96,
+ "restarts_best": 1.0327955589886433,
+ "tangent_dim": 52
+}

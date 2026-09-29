@@ -1,0 +1,15 @@
+{
+ "K_column_norms": [
+  1,
+  1,
+  2
+ ],
+ "K_shift_plus_i_ones_unitary": true,
+ "K_superregular_graph_is_MDS_6_3_4_over_F9": true,
+ "U2_order": 96,
+ "U2_perfect": 64,
+ "U3_order": 24192,
+ "U3_perfect": 12288,
+ "embedding_symplectic": true,
+ "pass_id": 11164
+}

@@ -301,3 +301,19 @@ $\sqrt x\,\ket{000}+\sqrt{(1-x)/4}\sum_{a=1,2}\ket a(\ket{0a}+\ket{a0})$ the neg
 at $x=7/15$. The temporal optimum keeps climbing: $3.576$, $3.621$, $3.658$ at $d=8,9,10$ against $3.101$, $3.122$, $3.140$ in space, its deficit from $4$ falling like $d^{-0.75}$. \tierC\ (\cert{w33\_pass11157\_ninth\_roots\_explained.py},
 \cert{w33\_pass11158\_perfect\_three\_qutrit\_gates.py}, \cert{w33\_pass11159\_explicit\_polygamy\_state.py},
 \cert{w33\_pass11160\_temporal\_cglmp\_high\_d.py})
+
+Three qutrits can be counted exactly. A symplectic matrix is an ordered symplectic basis, the determinant of a block of
+a column pair is the local symplectic form, and Jacobi's complementary-minor identity shows that invertibility of the
+nine blocks already makes the Choi state absolutely maximally entangled. The enumeration gives
+$286\,654\,464=2^{17}3^7$ perfect three-qutrit gates, a fraction $128/4095$ of $\Sp(6,3)$ (the same method returns
+$13824$ for two qutrits; the single two-qutrit orbit agrees with Pahari's classification of Clifford dual-unitary gates
+over finite fields~\cite{Pahari2026}). The tetracode gate has no scalar analogue --- no $3\times3$ matrix over $\F_3$ has
+all entries and all $2\times2$ minors nonzero --- but it has one over $\F_9=\F_3[i]$. There $\operatorname{Im}\langle
+u,v\rangle$ is the symplectic form, so a unitary matrix over $\F_9$ is a symplectic matrix, perfect exactly when all its
+entries are nonzero: $12288$ of the $24192$ elements of $U(3,\F_9)$. The simplest is $K=P^2+i\mathbf 1$, a cyclic shift
+plus $i$ times the all-ones matrix, unitary because $\mathbf 1^2=3\cdot\mathbf 1=0$ --- the number of parties equals the
+characteristic. Finally, $4/\sqrt{15}$ is a certified local maximum: the partial transposes at the optimal state have no
+eigenvalue within $2/15$ of zero, and the Hessian has $32$ strictly negative directions and exactly $20$ flat ones, the
+local-unitary orbit; $96$ further random restarts reach $4/\sqrt{15}$ and nothing higher. Global optimality remains open.
+\tierC\ (\cert{w33\_pass11162\_polygamy\_local\_maximum.py}, \cert{w33\_pass11163\_perfect\_three\_qutrit\_count.py},
+\cert{w33\_pass11164\_three\_qutrit\_tetracode.py})

@@ -1873,6 +1873,36 @@
           upgrades a finite result into a physical one &mdash; that boundary is
           unchanged and is stated in <a href="#numbers">Core Numbers</a>.</p>
         <div class="card-grid">
+          <div class="card" id="pass11166-clock">
+            <div class="num">The spectral clock tick is the Clifford propagator e<sup>&minus;iq(p)</sup>; no translation-invariant clock is perfect</div>
+            <div class="label">Pass 11166: X<sub>a</sub> &rarr; X<sub>a</sub>, Z<sub>b</sub> &rarr; Z<sub>b</sub>X<sub>Mb</sub>, M = Gram matrix of the light-cone quadric</div>
+            <div class="detail">Off-diagonal blocks have rank &le; 1 for any translation-invariant Clifford: conserved momentum caps scrambling at one trit per pair per tick.
+              <a href="https://github.com/wilcompute/W33-Theory/blob/master/analysis/PASS11166_CLOCK_TICK_CLIFFORD.md">Report</a>.</div>
+          </div>
+          <div class="card" id="pass11165-share">
+            <div class="num">A perfect three-qutrit tick secret-shares every past: forgetting any one future erases it</div>
+            <div class="label">Pass 11165: I(A<sub>in</sub> : Y) = 0 for every proper subset of futures, 2 for all three</div>
+            <div class="detail">The known AME secret-sharing property (Helwig et al. 2012), read as the arrow of time; the erased record is still two trits.
+              <a href="https://github.com/wilcompute/W33-Theory/blob/master/analysis/PASS11165_THREE_QUTRIT_ARROW.md">Report</a>.</div>
+          </div>
+          <div class="card" id="pass11163-count">
+            <div class="num">286 654 464 = 2<sup>17</sup>3<sup>7</sup> perfect three-qutrit gates (128/4095 of Sp(6,3))</div>
+            <div class="label">Pass 11163: exact enumeration; the nine-block criterion proved by Jacobi&rsquo;s identity</div>
+            <div class="detail">Known-positive control: the same method gives 13824 for two qutrits.
+              <a href="https://github.com/wilcompute/W33-Theory/blob/master/analysis/PASS11163_PERFECT_THREE_QUTRIT_COUNT.md">Report</a>.</div>
+          </div>
+          <div class="card" id="pass11164-f9">
+            <div class="num">The three-qutrit tetracode gate lives over F<sub>9</sub>: K = P<sup>2</sup> + i&middot;1</div>
+            <div class="label">Pass 11164: 12288 perfect unitaries in U(3,F<sub>9</sub>)</div>
+            <div class="detail">Unitary because 1<sup>2</sup> = 3&middot;1 = 0: the number of parties equals the characteristic. No F<sub>3</sub> analogue exists.
+              <a href="https://github.com/wilcompute/W33-Theory/blob/master/analysis/PASS11164_THREE_QUTRIT_TETRACODE.md">Report</a>.</div>
+          </div>
+          <div class="card" id="pass11162-locmax">
+            <div class="num">4/&radic;15 is a certified local maximum of spatial polygamy</div>
+            <div class="label">Pass 11162: Hessian 32 negative, 20 flat = local-unitary orbit; 96/96 restarts reach it</div>
+            <div class="detail">Partial-transpose gap 2/15 makes the negativity smooth there. Global optimality remains open.
+              <a href="https://github.com/wilcompute/W33-Theory/blob/master/analysis/PASS11162_POLYGAMY_LOCAL_MAXIMUM.md">Report</a>.</div>
+          </div>
           <div class="card" id="pass11161-arrow">
             <div class="num">Perfect gates are the maximal scramblers, and forgetting the partner is the arrow of time</div>
             <div class="label">Pass 11161: I<sub>3</sub> = 2 &minus; rank S<sub>AA</sub> &minus; rank S<sub>BA</sub> &le; 0 for every two-qutrit Clifford gate</div>

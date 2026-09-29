@@ -596,6 +596,19 @@ purification --- two trits --- is exactly the completely depolarising channel of
 as a maximally entangling tick is followed by discarding what it entangled with.
 \tierC\ (\cert{w33\_pass11161\_scrambling\_and\_arrow.py})
 
+With three qutrits the record is shared rather than handed over. In a perfect three-qutrit tick each qutrit's past is
+invisible to every proper subset of the three futures and fully present --- two trits --- in all three together. This is
+the secret-sharing property of absolutely maximally entangled states~\cite{Helwig2012} (``exact local
+masking''~\cite{Pahari2026}). So forgetting \emph{any one} future erases the past completely, and the erased record is
+still two trits: the price of the arrow belongs to one qutrit, not to the number of partners. The spectral clock of
+Theorem~4.3 is not such a tick. Read on the three coordinates of $\F_3^3$, it is a Clifford gate, $X_a\mapsto X_a$ and
+$Z_b\mapsto Z_bX_{Mb}$ with $M$ the Gram matrix of $q$ --- the free propagator $e^{-iq(p)}$ of the Lorentzian form,
+coupling the two light-cone coordinates by one trit and acting locally on the transverse one. This is forced: a Clifford
+gate that commutes with all translations has off-diagonal blocks of rank at most one, so no translation-invariant clock
+is perfect. Conserved momentum caps scrambling at one trit per pair per tick, and forgetting a partner after a clock tick
+erases at most one trit; the two-trit arrow needs an interaction that breaks translation invariance.
+\tierC\ (\cert{w33\_pass11165\_three\_qutrit\_arrow.py}, \cert{w33\_pass11166\_clock\_tick\_clifford.py})
+
 \begin{keyidea}
 Three layers of time, exactly separated: a finite present with a light cone ($27$
 events, $t^2-x^2-y^2$); an unbounded, oriented history (a free group, an $8$-regular tree,

@@ -1,0 +1,22 @@
+name: W33 Pass 11162 polygamy local maximum
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11162_*.py"
+      - "analysis/w33_so16_one_loop.py"
+      - "analysis/PASS11162_POLYGAMY_LOCAL_MAXIMUM.md"
+      - "data/w33_pass11162_*.json"
+      - "tests/test_w33_pass11162_polygamy_local_maximum.py"
+      - ".github/workflows/w33_pass11162_polygamy_local_maximum.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest pycddlib networkx
+      - run: python -m pytest -q tests/test_w33_pass11162_polygamy_local_maximum.py

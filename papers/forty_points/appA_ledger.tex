@@ -42,6 +42,11 @@ general law $\sum_i\det S_{ij}=1$; perfect three-qutrit gates exist ($\approx3.1
 $4/\sqrt{15}$ derived: $N(x)=\sqrt{(1+15x)(1-x)}/4$, max at $x=7/15$; explicit optimal state & \tierC & \cert{w33\_pass11159\_explicit\_polygamy\_state.py}\\
 temporal CGLMP $d=8,9,10$: $3.576,3.621,3.658$ (spatial $3.101,3.122,3.140$); deficit $\sim d^{-0.75}$ & \tierC & \cert{w33\_pass11160\_temporal\_cglmp\_high\_d.py}\\
 $I_3=2-\operatorname{rank}S_{AA}-\operatorname{rank}S_{BA}\le0$ for every two-qutrit Clifford gate; perfect $=$ maximal scramblers; tick $+$ forgetting the partner $=$ Theorem~4.7 & \tierC & \cert{w33\_pass11161\_scrambling\_and\_arrow.py}\\
+$4/\sqrt{15}$ a certified local maximum: partial-transpose gap $2/15$, Hessian $32$ negative, $20$ flat $=$ local-unitary orbit; $96/96$ restarts reach it & \tierC & \cert{w33\_pass11162\_polygamy\_local\_maximum.py}\\
+exactly $286\,654\,464=2^{17}3^7$ perfect three-qutrit gates, $128/4095$ of $\Sp(6,3)$ (control: $13824$ for two) & \tierC & \cert{w33\_pass11163\_perfect\_three\_qutrit\_count.py}\\
+no $\F_3$ tetracode analogue for three qutrits; over $\F_9$, $12288$ perfect unitaries in $U(3,\F_9)$, e.g.\ $K=P^2+i\mathbf 1$ & \tierC & \cert{w33\_pass11164\_three\_qutrit\_tetracode.py}\\
+perfect three-qutrit tick secret-shares each past ($0$ to every proper subset of futures, $2$ to all three); cf.\ \cite{Helwig2012} & \tierC & \cert{w33\_pass11165\_three\_qutrit\_arrow.py}\\
+spectral clock tick $=$ Clifford propagator $e^{-iq(p)}$; translation-invariant clocks never perfect (off-diagonal rank $\le1$) & \tierC & \cert{w33\_pass11166\_clock\_tick\_clifford.py}\\
 point/line firewall ($27/108/36$ coincidences, non-isomorphic) & \tierC & \cert{w33\_20260924\_history\_pointline\_cospectral\_firewall.py}\\
 \multicolumn{3}{@{}l}{\textit{Time (\S4)}}\\
 $40=1+12+27$; big cell of $Q(4,3)$ & \tierC & \cert{w33\_20260924\_history\_bigcell\_q43\_compactification.py}\\

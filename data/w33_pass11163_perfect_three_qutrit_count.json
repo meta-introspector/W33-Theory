@@ -1,0 +1,13 @@
+{
+ "count_is_24_times": true,
+ "fraction": 0.03125763125763126,
+ "fraction_exact": "128/4095",
+ "good_first_pairs": 41472,
+ "good_first_two": 11943936,
+ "pass_id": 11163,
+ "perfect_count": 286654464,
+ "sp63": 9170703360,
+ "symplectic_pairs": 176904,
+ "two_qutrit_control": 13824,
+ "within_sample_estimate": true
+}
