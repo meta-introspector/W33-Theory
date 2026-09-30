@@ -1,0 +1,46 @@
+{
+ "pass_id": 11216,
+ "3-4": {
+  "size": 256,
+  "current_eigenvalues_over_i_sqrt3": [
+   24.0,
+   36.0
+  ],
+  "oriented_3_cycles_per_point": 7168,
+  "transitive_triangles_per_point": 2304,
+  "commute": true
+ },
+ "12-13": {
+  "size": 6912,
+  "current_eigenvalues_over_i_sqrt3": [
+   72.0,
+   324.0
+  ],
+  "oriented_3_cycles_per_point": 3462912,
+  "transitive_triangles_per_point": 2903040,
+  "commute": true
+ },
+ "7-9": {
+  "size": 2304,
+  "current_eigenvalues_over_i_sqrt3": [
+   185.903201
+  ],
+  "oriented_3_cycles_per_point": 193536,
+  "transitive_triangles_per_point": 55296,
+  "commute": false
+ },
+ "maslov_file_keys": [
+  "achiral_iff_tau_fixed",
+  "bargmann",
+  "chirality_by_size",
+  "complete_classification",
+  "orbit_sizes",
+  "orbitals",
+  "pass_id",
+  "reversal_pairs",
+  "rows",
+  "spectrum_constant_on_orbitals",
+  "tau_fixed",
+  "tau_swapped_pairs"
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "pass_id": 11214,
+ "ame6_harmonic_labellings_per_sample": [
+  120,
+  120,
+  120,
+  120,
+  120,
+  120,
+  120,
+  120,
+  120,
+  120,
+  120,
+  120
+ ],
+ "ame10_labellings_and_rule": {
+  "2 labellings, rule holds ((True, False), (False, True))": 44,
+  "2 labellings, rule holds ((False, True), (True, False))": 27
+ }
+}

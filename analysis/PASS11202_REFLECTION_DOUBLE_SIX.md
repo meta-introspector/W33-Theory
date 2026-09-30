@@ -21,3 +21,8 @@ line ∈ plane ⇔ split ∈ frame.
 **Reading.** Each E6 root is a time reversal that acts as a pure SWAP of the two qutrits in the 15 splits of the W(2)
 complementary to its double-six, and exports everything in every split. The line/plane geometry is classical
 (Schläfli; Coxeter). The time-reversal and swap reading on the qutrit substrate is the new content.
+
+**Cross-track (added with Passes 11213-11216).** The parallel session reached the same 36-reflection / 15-split
+statement independently (Pass 11210, merged), adds that the reflections are exactly the Kramers time reversals
+(theta^2 = -1, possible only for an even number of qutrits), and points to the classical prior art already in the
+repo: `analysis/PASS7217_7232_double_six_doily_spread_code.md` (the all-c_ij syntheme slice of a double-six).

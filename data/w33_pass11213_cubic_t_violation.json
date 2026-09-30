@@ -1,0 +1,90 @@
+{
+ "pass_id": 11213,
+ "clifford1_order_mod_phase": 216,
+ "all_cliffords_T_invertible": true,
+ "T_gate_alone_T_invertible": true,
+ "by_depth": {
+  "0": {
+   "samples": 200,
+   "violating": 0,
+   "fraction": 0.0,
+   "J_nonzero_among_violating": 0,
+   "J_nonzero_among_invertible": 145
+  },
+  "1": {
+   "samples": 3000,
+   "violating": 258,
+   "fraction": 0.086,
+   "J_nonzero_among_violating": 138,
+   "J_nonzero_among_invertible": 1030
+  },
+  "2": {
+   "samples": 3000,
+   "violating": 1194,
+   "fraction": 0.398,
+   "J_nonzero_among_violating": 801,
+   "J_nonzero_among_invertible": 1062
+  },
+  "3": {
+   "samples": 3000,
+   "violating": 1647,
+   "fraction": 0.549,
+   "J_nonzero_among_violating": 912,
+   "J_nonzero_among_invertible": 806
+  },
+  "4": {
+   "samples": 3000,
+   "violating": 2082,
+   "fraction": 0.694,
+   "J_nonzero_among_violating": 1562,
+   "J_nonzero_among_invertible": 592
+  },
+  "5": {
+   "samples": 3000,
+   "violating": 2339,
+   "fraction": 0.7796666666666666,
+   "J_nonzero_among_violating": 1775,
+   "J_nonzero_among_invertible": 440
+  },
+  "6": {
+   "samples": 3000,
+   "violating": 2513,
+   "fraction": 0.8376666666666667,
+   "J_nonzero_among_violating": 2055,
+   "J_nonzero_among_invertible": 361
+  },
+  "7": {
+   "samples": 3000,
+   "violating": 2690,
+   "fraction": 0.8966666666666666,
+   "J_nonzero_among_violating": 2363,
+   "J_nonzero_among_invertible": 224
+  },
+  "8": {
+   "samples": 3000,
+   "violating": 2760,
+   "fraction": 0.92,
+   "J_nonzero_among_violating": 2508,
+   "J_nonzero_among_invertible": 177
+  }
+ },
+ "shortest": {
+  "depth": 1,
+  "violating_words": 18,
+  "words": 216,
+  "examples": [
+   {
+    "depth": 1,
+    "J": 2.59807621
+   },
+   {
+    "depth": 1,
+    "J": 2.59807621
+   },
+   {
+    "depth": 1,
+    "J": 2.59807621
+   }
+  ]
+ }
+}

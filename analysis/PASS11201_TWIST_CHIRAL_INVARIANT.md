@@ -40,3 +40,10 @@ conjugates it.
 **Correction during the pass.** A first version of the exact evaluator had the 3-cycle orientation reversed, which
 gave the conjugate value. It was caught by the built-in comparison with direct contraction, which the real-valued
 calibration patterns could not detect. The sign relation is **+Q**, as checked.
+
+**Cross-track (added with Passes 11213-11216).** The parallel session's Pass 11209 (merged) gives a *label-free* chiral
+invariant, the Kashiwara-Maslov chirality chi (256 pair -54/+54, 6912 pair +18/-18), and the identity
+tr(P_{L1} P_{L2} P_{L3}) = |.| (-i)^{tau(L1,L2,L3)} between Bargmann phases and Maslov indices. The labelled third
+moment here is a Gauss sum of the same finite-field kind (not shown here to decompose into Bargmann triangles). Its
+relation to chi, reserved there as Pass 11212 ("chi = 54 Q on the 256 pair"), belongs to that pass and is not
+repeated here.
