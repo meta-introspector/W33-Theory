@@ -663,6 +663,21 @@ root reflections. Choosing subsystems by minimising what the dynamics does acros
 mereology~\cite{ZanardiMereology2024}; here the minimisation is exact and finite. \tierT\,\tierC
 (\cert{w33\_pass11188\_exact\_arrow\_by\_class.py}, \cert{w33\_pass11192\_time\_reversal\_mereology.py})
 
+Each such reflection moves exactly the twelve lines of one double-six, swaps the two qutrits in the $15$ splits built
+from the remaining lines --- a copy of the quadrangle $\mathrm{GQ}(2,2)$ --- and exports everything elsewhere. The
+Clifford dynamics has no T-violation: every tick is inverted by some time reversal, as Wonenburger's
+theorem~\cite{Wonenburger1966} implies; but for $77/162$ of two-qutrit and $84013/157464$ of three-qutrit ticks the
+reversal cannot be unitary --- exactly the ticks whose period is divisible by $3$ --- so Wigner's anti-unitarity is
+forced by the dynamics. Any CP violation must therefore come from the non-Clifford layer. Two further readings of
+the arrow. Arrow-free dynamics becomes rare as the register grows: $1$, $133/360$ and $55241/884520$ of all ticks
+for one, two and three qutrits, about $0.0058\pm0.0005$ for four and $0$ of $3000$ samples for five --- a
+second law by counting. And a walk that re-chooses the subsystem split along a time-oriented relation is a clock
+that runs one way: every directed relation between three-qutrit splits has non-real eigenvalues, its reverse the
+conjugates, with rotation frequencies in the Eisenstein field (for the smallest, $-14\pm18\sqrt3\,i$). The twist is a measurable phase: a third-moment local-unitary invariant of the gate's Choi state is purely imaginary on the smallest time-oriented relation, $\pm i\sqrt3/243$ --- a quadratic Gauss sum --- with sign $Q$ on all $256$ members, and it changes sign under time reversal; invariants whose three-cycles all turn the same way are real, and averaging over all relabellings of the registers erases the sign --- the arrow is locally measurable only on labelled registers. \tierC\
+(\cert{w33\_pass11202\_reflection\_double\_six.py}, \cert{w33\_pass11206\_t\_violation.py},
+\cert{w33\_pass11204\_second\_law\_counting.py}, \cert{w33\_pass11205\_one\_way\_clock.py},
+\cert{w33\_pass11201\_twist\_chiral\_invariant.py})
+
 \begin{keyidea}
 Three layers of time, exactly separated: a finite present with a light cone ($27$
 events, $t^2-x^2-y^2$); an unbounded, oriented history (a free group, an $8$-regular tree,

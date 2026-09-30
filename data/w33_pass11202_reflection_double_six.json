@@ -1,0 +1,13 @@
+{
+ "pass_id": 11202,
+ "outer_involutions": {
+  "12": 36,
+  "24": 540
+ },
+ "reflections": 36,
+ "double_six_each": true,
+ "distinct_double_sixes": 36,
+ "fixed_splits_are_planes_of_fixed_lines": true,
+ "fixed_geometry_is_GQ22": true,
+ "swaps_factors_in_all_15": true
+}

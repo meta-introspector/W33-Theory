@@ -1,0 +1,36 @@
+{
+ "pass_id": 11204,
+ "exact": {
+  "1": "1",
+  "2": "133/360",
+  "3": "55241/884520"
+ },
+ "estimates": {
+  "2": {
+   "samples": 20000,
+   "arrow_free": 7429,
+   "fraction": 0.37145,
+   "stderr": 0.0034166862418138423
+  },
+  "3": {
+   "samples": 20000,
+   "arrow_free": 1200,
+   "fraction": 0.06,
+   "stderr": 0.0016792855623746663
+  },
+  "4": {
+   "samples": 20000,
+   "arrow_free": 116,
+   "fraction": 0.0058,
+   "stderr": 0.0005369525118667385
+  },
+  "5": {
+   "samples": 3000,
+   "arrow_free": 0,
+   "fraction": 0.0,
+   "stderr": 1.8257418583505536e-08
+  }
+ },
+ "validation_n2": true,
+ "validation_n3": true
+}

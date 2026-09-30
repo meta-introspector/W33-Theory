@@ -1,0 +1,36 @@
+{
+ "pass_id": 11206,
+ "n2": {
+  "classes": 20,
+  "all_T_invertible": true,
+  "real_fraction": "85/162",
+  "only_antiunitary_fraction": "77/162",
+  "non_real_orders": [
+   3,
+   6,
+   9,
+   12
+  ]
+ },
+ "n3": {
+  "classes": 74,
+  "all_T_invertible": true,
+  "real_fraction": "73451/157464",
+  "only_antiunitary_fraction": "84013/157464",
+  "non_real_orders": [
+   3,
+   6,
+   9,
+   12,
+   15,
+   18,
+   24,
+   30,
+   36
+  ]
+ },
+ "python_check_n2": {
+  "every_class_inverted_by_an_anti_symplectic_map": true,
+  "anti_symplectic_projective": 25920
+ }
+}

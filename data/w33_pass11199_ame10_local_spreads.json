@@ -1,0 +1,15 @@
+{
+ "pass_id": 11199,
+ "graphs": 71,
+ "three_sets": 8520,
+ "counts": {
+  "spreads_1": 8520,
+  "regular_True": 8520,
+  "block_labellings_0": 8520,
+  "regulus_False|split_A1": 204480,
+  "regulus_False|block": 25560,
+  "regulus_False|split_A0": 25560,
+  "regulus_True|split_A1": 25560,
+  "regulus_True|block": 17040
+ }
+}
