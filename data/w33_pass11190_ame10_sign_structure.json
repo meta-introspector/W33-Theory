@@ -1,0 +1,51 @@
+{
+ "local": {
+  "classes": {
+   "7K1|realisable=False|rank=6|disc=1": 2,
+   "K33+K1|realisable=False|rank=6|disc=1": 140,
+   "K4+3K1|realisable=True|rank=6|disc=2": 70,
+   "prism+K1|realisable=True|rank=4|disc=2": 840
+  },
+  "labelled_graphs": 1052,
+  "realisable_classes": [
+   "K4+3K1",
+   "prism+K1"
+  ]
+ },
+ "pass_id": 11190,
+ "positive_control": {
+  "all_prism": true,
+  "dictionary_checked": 12600,
+  "dictionary_ok": true,
+  "duality": true,
+  "graphs": 71,
+  "pattern_counts": {
+   "C10": 5112,
+   "cross+perm": 12780
+  },
+  "steiner": true,
+  "zero_sum": true
+ },
+ "sat": {
+  "Q1_K4_3K1_somewhere": false,
+  "Q2_forbidden_pattern": false,
+  "base": true,
+  "clauses": 488580,
+  "control_C10": true,
+  "control_cross_perm": true,
+  "glucose_Q1": false,
+  "glucose_Q2": false,
+  "value_combinations": {
+   "C10": 1440,
+   "C4+C6": 600,
+   "all": 1,
+   "cross+perm": 600,
+   "double cross": 100,
+   "other": 158310
+  },
+  "variables": 56910
+ },
+ "seconds": 464.0,
+ "theorem_patterns": true,
+ "theorem_steiner": true
+}
