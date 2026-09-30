@@ -1076,3 +1076,18 @@ statement); a DRAT certificate for the Pass 11190 UNSAT instances.
   invariant planes = 1.  Paper insert: analysis/PASS11188_11200_PAPER_INSERT.tex (not merged).
 - Pass numbers 11199-11200 were reserved on the branch (this session cannot push to master) -- check for collisions
   with the Codex track before merging.
+
+### 2026-09-30 (cont.) - RECONCILIATION with master (parallel session collision)
+
+Master received the parallel (Windows) session's own Passes 11188-11192 (f1cc550f, 20:49 UTC) and a reservation of
+11199-11206 (c8910a99) while this branch held different work under 11188-11192 and branch-only reservations 11199-11201.
+Master is canonical.  Resolution (merge commit on claude/gallant-sagan-i33c7e):
+- master's 11188-11192 files taken verbatim;
+- branch work renumbered: 11207 arrow theorem A = n - c(S) (was 11188 n=4 part + 11191 + 11199), 11208 universality and
+  large-n law (was 11200), 11209 Maslov/Bargmann chirality (was 11189; master 11189 = holonomy + twist), 11210 Kramers
+  time reversal (was 11192; master 11192 = arrows of anti-unitaries), 11211 two-solver replication of master's 11190
+  (was 11190);
+- branch-only reservations 11199, 11200, 11201 released (superseded by master's 11199-11206);
+- 11207-11212 need a reservation on master before merge (this session cannot push to master).
+Overlaps with master's reserved items: "a second law from counting" is answered exactly by 11207/11208 (arrow-free
+fraction = P(c = n)); "the twist as a discrete Bargmann phase" should cite 11209's Maslov/Bargmann identity.

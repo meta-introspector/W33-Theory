@@ -1,0 +1,60 @@
+% Paper insert for papers/forty_points (Claude track, branch claude/gallant-sagan-i33c7e, Passes 11207--11210).
+% Not merged into the paper.  Both parts are written to FOLLOW the paragraphs that master's Passes 11188--11192 added:
+%  (A) after the sec03_selfentangle.tex paragraph ending "...exchanges exactly the two pairs no unoriented invariant
+%      separates." (master, Passes 11189/11190);
+%  (B) after the sec04_time.tex paragraph beginning "The three-qutrit values are now exact on every conjugacy class"
+%      (master, Passes 11188/11192).
+% Prior-art note: the rediscovery guard's "Steiner" hits (W33_FOR_EVERYONE.tex etc.) are Steiner trihedral pairs and
+% S(5,6,12), unrelated to the S(3,4,10) of master's Pass 11190.
+
+% ---------------------------------------------------------------------------------------------------------------------
+% (A) sec03_selfentangle.tex
+% ---------------------------------------------------------------------------------------------------------------------
+A second, uniform chiral invariant makes the orientation explicit. The Kashiwara--Maslov index of three product
+Lagrangians, two from one split and one from the other, is odd under $\tau$. Oriented by a gauge-invariant profile, its
+net chirality is $\mp54$ on the $256$ pair, $\pm18$ on the $6912$ pair and $0$ on every other relation. The index is
+the phase of the stabilizer Bargmann invariant, $\tr(P_{L_1}P_{L_2}P_{L_3})\propto(-i)^{\tau(L_1,L_2,L_3)}$ (checked on
+random triples). This is the finite-field form of the classical link between the Maslov index and the Weil
+representation. The direction of time between two subsystem descriptions is thus carried by a Pancharatnam--Berry
+phase. \tierC\ (\cert{w33\_pass11209\_maslov\_chirality.py})
+
+% ---------------------------------------------------------------------------------------------------------------------
+% (B) sec04_time.tex
+% ---------------------------------------------------------------------------------------------------------------------
+\begin{result}{Theorem 4.8 (the intrinsic arrow for every number of qutrits) \hfill \tierT}
+Let $c(S)$ be the largest number of mutually orthogonal $S$-invariant nondegenerate planes: the qutrits a tick can keep
+to themselves. For every $n$ and every Clifford tick $S\in\Sp(2n,3)$,
+\[
+A(S)\;=\;n-c(S),
+\qquad
+c(S)=\sum_{\lambda=\pm1}\bigl(m_1(\lambda)/2+m_2(\lambda)\bigr)+m_1^{\F_9}(x^2+1),
+\]
+with $m_s$ the number of Jordan blocks of size $s$. So $A\le n$, $A=n$ exactly when no qutrit is dynamically protected,
+and $A\ne1$.
+\end{result}
+
+\begin{proof}[Sketch]
+In any split, $a\le c$ planes are invariant and the rest meet their image at most in a line, so $E\ge n-a\ge n-c$.
+Conversely, split off a maximal invariant family and decompose the rest orthogonally by the characteristic polynomial
+and the unipotent and unitary Jordan structure. In each indecomposable piece, a Lagrangian for both $\omega$ and
+$\omega(\cdot,(S+S^{-1})\cdot)$ that is transverse to its image, or meets it in one eigenvector, yields a split in which
+every qutrit meets its own image. Such a Lagrangian comes from a Taussky--Zassenhaus graph, a Cayley-transform parity
+subspace, an eigenvector reduction, or a Hermitian real form.
+\end{proof}
+
+In every optimal split, each protected qutrit exports nothing and each unprotected one exports \emph{exactly one} of its
+two trits. Theorem~4.7 prices a forgotten record at two trits. The best choice of subsystems halves that price: one
+trit, or $k_BT\ln3$ by Landauer, per unprotected qutrit per tick. \tierB
+
+The theorem is checked on every conjugacy class for $n\le5$ ($20$, $74$, $278$ and $940$ classes). For large $n$ a random
+tick protects $0.7255\ldots$ qutrits on average (exactly $0.725322$, $0.725518$, $0.725535$ for $n=3,4,5$). It has the
+maximal arrow with probability about $0.45$, and is arrow-free with probability $P(c=n)$, which is $0.0002$ already at
+$n=5$. The same law holds class by class for qubits through $n=5$ and for $5$- and $7$-dits. It is a law of Clifford
+dynamics, not a special property of qutrits. The proof covers every odd local dimension; for qubits the law is a
+verified conjecture. \tierC\ (\cert{w33\_pass11207\_arrow\_theorem.py}, \cert{w33\_pass11207\_arrow\_by\_planes.py},
+\cert{w33\_pass11208\_arrow\_universality.py})
+
+The reflections that carry the maximal time-reversal arrow are also the only \emph{Kramers} time reversals. An
+anti-symplectic $\theta$ with $\theta^2=-1$ exists only for an even number of qutrits and is local only by exchanging
+them; for two qutrits these are exactly the $36$ reflections of $W(E_6)$. Those with $\theta^2=+1$ are always complex
+conjugation in suitable subsystems. \tierT\,\tierC\ (\cert{w33\_pass11210\_kramers\_time\_reversal.py})

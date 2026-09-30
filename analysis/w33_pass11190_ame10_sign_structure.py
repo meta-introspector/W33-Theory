@@ -1,39 +1,32 @@
-#!/usr/bin/env python3
 """Pass 11190: the sign structure of AME(10,3) stabilizer states, and a proof of the five-qutrit pattern conjecture.
 
-Pass 11186 conjectured that a perfect five-qutrit Clifford gate has orientation pattern 'C10' or 'cross+perm' only
-('C4+C6', 'double cross', 'all' never occur).  Its Choi state is an AME(10,3) stabilizer state: a Lagrangian L in
-W_1 + ... + W_10 (W_p the symplectic plane of party p) with L cap W_T = 0 for every 5-set T.
+Pass 11186 found that the 17 892 perfect five-qutrit Clifford gates coming from 71 AME(10,3) graph states realise only
+two of the five determinant patterns admitted by the determinant law (10-cycle and cross+permutation) and conjectured
+that C4+C6, double cross and all-(-1) never occur.  This pass proves it, by exposing a rigid combinatorial structure
+that every AME(10,3) stabilizer state carries.
 
-SIGNS.  For a 4-set K, V_K = L cap W_{K^c} is 2-dimensional and every projection pi_p : V_K -> W_p (p outside K) is an
-isomorphism.  With a basis (a, b) of V_K, s_p = omega_p(a_p, b_p) = det pi_p = +-1; the partition of the 6-set U = K^c
-into {s = +1}, {s = -1} is basis-free.  Isotropy of L gives sum_p s_p = 0 mod 3, so U is UNIFORM (6 + 0) or split 3 + 3.
-DICTIONARY (from the Choi Lagrangian {(u, S T u)}, T = (x, z) -> (x, -z) on inputs):
-        det S[o, i] = -1   <=>   i and o lie in the same sign class of the 6-set {i} + O          (checked 6300/6300)
-so the pattern of the gate with inputs I is read off the six-sets {i} + O.
-THE KLEIN QUADRIC.  For a 3-set A, V_A = L cap W_{A^c} is 4-dimensional; beta_r = pi_r^* omega_r (r outside A) are 7
-rank-2 alternating forms on V_A -- points of the Klein quadric Q+(5,3) in Lambda^2 V_A^* -- with radicals V_{A+r}
-pairwise transverse (AME), so beta_r ^ beta_r' != 0, and sum_r beta_r = 0 (isotropy).  With G_rr' = beta_r ^ beta_r'
-(a volume form fixes G up to a global sign):
-        sigma_{A^c - r'}(r, r'') = G_rr' G_r''r'          and every row of G sums to 0 mod 3,
-so the SIGN GRAPH Gamma_A (edges where G = -1, up to complement) has all degrees in {0, 3, 6}: 1052 labelled graphs in
-four classes up to complement -- 7K1, K4+3K1, prism+K1, K33+K1.  Realisability as a Gram matrix in the 6-dimensional
-hyperbolic Klein space kills 7K1 and K33+K1 (both give a nondegenerate form of elliptic type); prism+K1 (rank 4) and
-K4+3K1 survive locally.
-DUALITY (isotropy between V_K and V_K' for disjoint 4-sets K, K' leaving {i, j}):  sigma_{K^c}(i, j) = sigma_{K'^c}(i, j).
-THE SAT PROOF.  Variables: the sign partition of each of the 210 six-sets (11 values).  Constraints: every 7-set carries
-a Klein-realisable sign graph, and duality (1575 pairs).  CaDiCaL (confirmed by Glucose4):
-  * Q1  a K4+3K1 sign graph on {0..6}                                   UNSAT
-    => every Gamma_A is prism+K1, whose unique isolated vertex is the only uniform 4-set through A:
-       THE UNIFORM 4-SETS OF EVERY AME(10,3) STABILIZER STATE FORM A STEINER SYSTEM S(3,4,10).
-  * Q2  a pattern other than C10 / cross+perm at inputs {0..4}           UNSAT  (controls: C10 SAT, cross+perm SAT)
-    => THEOREM: every perfect five-qutrit Clifford gate has pattern C10 or cross+perm (the Pass 11186 conjecture).
-Since cross+perm <=> some I - {i} is uniform <=> I contains a block, and a 5-set holds at most one block, every AME(10,3)
-state gives cross+perm for exactly the 180 input sets containing a block and C10 for the other 72: the 2 : 5 ratio of
-the F9 census (6 291 456 : 15 728 640) and of the 71 tabu graphs (5112 : 12780) is forced.
-Positive control: the 71 AME(10,3) graphs of Pass 11186 satisfy every constraint (zero-sum, prism+K1 on all 120
-seven-sets, duality on all 1575 pairs, S(3,4,10)).
+1. Signs.  For a 4-set K of parties, the stabilisers trivial on K form a 2-dim space W_K, and restriction to each of
+   the six remaining parties is an isomorphism (anything also trivial there has weight <= 5).  Pulling back each
+   party's symplectic form gives signs c_p = +-1 with sum_p c_p = 0 (mod 3) by isotropy, so every 6-set of parties is
+   uniform (6|0) or split 3|3.  The det of a gate block is d_ij = -c_i c_j computed in U = outputs + {j}.
+2. Local graphs.  For a 3-set A, W_A is 4-dim; the kernels of the seven restrictions are pairwise skew lines whose
+   Pluecker points l_p satisfy sum lambda_p l_p = 0 on the Klein quadric, and G_pq = lambda_p lambda_q B(l_p, l_q)
+   is a symmetric +-1 matrix whose row d is the split of the 6-set A^c - {d}.  Its (-1)-graph has all degrees in
+   {0,3,6}: up to complement it is empty, K4+3K1, K33+K1 or prism+K1 (exhaustive over 2^21 graphs).  Empty and
+   K33+K1 have rank 6 with the Gram matrix of an ELLIPTIC O-(6,3) space, impossible inside the hyperbolic Klein
+   quadric O+(6,3); K4+3K1 is O+, prism+K1 has rank 4.
+3. Duality.  For disjoint 4-sets K1, K2 with K1 u K2 = complement of {i,j}, isotropy between W_K1 and W_K2 forces
+   det phi^K1_{j<-i} = det phi^K2_{j<-i}.
+4. CP-SAT over all 210 six-set states (11 states each) with the 120 local-graph tables and the 1575 duality
+   equalities: 'some local graph is K4+3K1' is INFEASIBLE, 'prism+K1 everywhere' is feasible.  So every local graph
+   is prism+K1: each 3-set has exactly one uniform extension, i.e. the 30 uniform 4-sets form a Steiner system
+   S(3,4,10) (the inversive plane of order 3).
+5. Consequences.  A 5-set contains at most one block of an S(3,4,10), so a gate has at most one all-(-1) column:
+   double cross and all-(-1) are impossible.  In a prism two columns with two (-1)s never share both, so no 4-cycle:
+   C4+C6 is impossible.  Hence: cross+permutation iff the input set contains a block (180 of 252 splits), 10-cycle
+   otherwise (72) -- exactly the 12 780 / 5 112 census of Pass 11186.
 """
+
 from __future__ import annotations
 
 import itertools
@@ -43,74 +36,22 @@ import time
 from collections import Counter
 from pathlib import Path
 
-import networkx as nx
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "analysis"))
-import w33_pass11175_scan_five_qutrit as SC  # noqa: E402
+import w33_pass11175_scan_five_qutrit as F  # noqa: E402
 
-TABU = ROOT / "data" / "w33_pass11186_ame10_tabu.json"
 OUT = ROOT / "data" / "w33_pass11190_ame10_sign_structure.json"
+TABU = ROOT / "data" / "w33_pass11186_ame10_tabu.json"
 NQ = 10
 SIX = list(itertools.combinations(range(NQ), 6))
-SEVEN = list(itertools.combinations(range(NQ), 7))
+SIXI = {U: i for i, U in enumerate(SIX)}
+TRI = list(itertools.combinations(range(NQ), 3))
 
 
-# ---------------- linear algebra mod 3 ----------------
-def nullspace_mod3(A):
-    A = A.copy() % 3
-    m, n = A.shape
-    piv, r = [], 0
-    for c in range(n):
-        p = next((i for i in range(r, m) if A[i, c]), None)
-        if p is None:
-            continue
-        A[[r, p]] = A[[p, r]]
-        A[r] = (A[r] * pow(int(A[r, c]), -1, 3)) % 3
-        for i in range(m):
-            if i != r and A[i, c]:
-                A[i] = (A[i] - A[i, c] * A[r]) % 3
-        piv.append(c)
-        r += 1
-    basis = []
-    for f in (c for c in range(n) if c not in piv):
-        v = np.zeros(n, np.int64)
-        v[f] = 1
-        for i, c in enumerate(piv):
-            v[c] = (-A[i, f]) % 3
-        basis.append(v)
-    return np.array(basis)
-
-
-def form_rank_disc(A):
-    """rank and discriminant (of the nondegenerate part) of a symmetric form mod 3"""
-    A = np.array(A, np.int64) % 3
-    d, r, disc = len(A), 0, 1
-    for k in range(d):
-        idx = list(range(k, d))
-        if not any(A[i, i] for i in idx):
-            pq = next(((p, q) for p in idx for q in idx if p < q and A[p, q]), None)
-            if pq is None:
-                break
-            p, q = pq
-            A[p] = (A[p] + A[q]) % 3
-            A[:, p] = (A[:, p] + A[:, q]) % 3
-        j = next(i for i in idx if A[i, i])
-        A[[k, j]] = A[[j, k]]
-        A[:, [k, j]] = A[:, [j, k]]
-        piv = int(A[k, k])
-        for i in range(k + 1, d):
-            f = (A[i, k] * pow(piv, -1, 3)) % 3
-            A[i] = (A[i] - f * A[k]) % 3
-            A[:, i] = (A[:, i] - f * A[:, k]) % 3
-        r += 1
-        disc = (disc * piv) % 3
-    return r, disc
-
-
-# ---------------- signs of a concrete AME(10,3) graph state ----------------
-def stab_matrix(G):
+# ------------------------------------------------------------------ signs of real codes
+def stabiliser(G):
     L = np.zeros((NQ, 2 * NQ), np.int64)
     for v in range(NQ):
         L[v, 2 * v] = 1
@@ -119,240 +60,303 @@ def stab_matrix(G):
     return L
 
 
-def signs(G):
-    """U -> tuple of +-1 (relative to U[0]) for the 210 six-sets"""
-    L = stab_matrix(G)
-    out = {}
-    for U in SIX:
-        K = [p for p in range(NQ) if p not in U]
-        N = nullspace_mod3(L[:, [2 * p + t for p in K for t in range(2)]].T)
-        assert len(N) == 2
-        a, b = (N[0] @ L) % 3, (N[1] @ L) % 3
-        s = [int((a[2 * p] * b[2 * p + 1] - a[2 * p + 1] * b[2 * p]) % 3) for p in U]
-        assert all(s)
-        out[U] = tuple(1 if x == s[0] else -1 for x in s)
-    return out
+def _cols(parties):
+    return [2 * q + t for q in parties for t in range(2)]
 
 
-def to_value(U, s):
-    """the sign structure as one of 11 values: None (uniform) or the 3-class containing U[0]"""
-    if len(set(s)) == 1:
-        return None
-    return frozenset(u for u, x in zip(U, s) if x == s[0])
+def signs(L, K):
+    """c_q (q outside the 4-set K): symplectic determinant of restricting W_K to party q (basis fixed by one party)"""
+    U = [q for q in range(NQ) if q not in K]
+    LR = L[:, _cols(list(K) + [U[0]])]
+    Ri = F.inv_mod3(LR)
+    assert Ri is not None and np.array_equal((LR @ Ri) % 3, np.eye(10, dtype=np.int64))
+    W = Ri[-2:, :] @ L % 3
+    assert not (W[:, _cols(K)] % 3).any()
+    c = {}
+    for q in U:
+        x1, z1, x2, z2 = W[0, 2 * q], W[0, 2 * q + 1], W[1, 2 * q], W[1, 2 * q + 1]
+        c[q] = int((x1 * z2 - z1 * x2) % 3)
+    return c
 
 
-# ---------------- local classification of sign graphs ----------------
-def sign_graphs():
-    """labelled graphs on 7 vertices with all degrees in {0,3,6}, with their class and Klein realisability"""
-    out = []
-    for bits in itertools.product([0, 1], repeat=21):
-        E = [e for e, b in zip(itertools.combinations(range(7), 2), bits) if b]
-        deg = [0] * 7
-        for a, b in E:
-            deg[a] += 1
-            deg[b] += 1
-        if not all(x in (0, 3, 6) for x in deg):
-            continue
-        G = np.ones((7, 7), np.int64) - np.eye(7, dtype=np.int64)
-        for a, b in E:
-            G[a, b] = G[b, a] = 2
-        r, disc = form_rank_disc(G[:6, :6])          # the Gram form on F_3^7 / <1>
-        realisable = (6 - r) >= 1 or disc == 2        # t = 0 needs hyperbolic type: -disc a square
-        g = nx.Graph()
-        g.add_nodes_from(range(7))
-        g.add_edges_from(E)
-        h = g if len(E) <= 10 else nx.complement(g)
-        comps = sorted(len(c) for c in nx.connected_components(h))
-        name = {0: '7K1', 6: 'K4+3K1'}.get(h.number_of_edges())
-        if name is None:
-            six = h.subgraph(max(nx.connected_components(h), key=len))
-            name = 'prism+K1' if nx.is_isomorphic(six, nx.circular_ladder_graph(3)) else 'K33+K1'
-        out.append(dict(E=E, graph=g, name=name, rank=r, disc=disc, realisable=realisable, comps=comps))
-    return out
+def split_state(U, c):
+    """0 = uniform, else 1 + index of the pair that joins min(U) in its sign class"""
+    if len({c[q] for q in U}) == 1:
+        return 0
+    m = U[0]
+    rest = tuple(q for q in U[1:] if c[q] == c[m])
+    return 1 + list(itertools.combinations(U[1:], 2)).index(rest)
 
 
-def induced_tuple(g, Y):
-    out = []
-    for rpos, r in enumerate(Y):
-        U = tuple(y for y in Y if y != r)
-        nb = {Y[q] for q in g.neighbors(rpos)}
-        cls = {u for u in U if u in nb}
-        if len(cls) in (0, 6):
-            out.append((U, None))
-        else:
-            out.append((U, frozenset(cls if U[0] in cls else set(U) - cls)))
-    return tuple(out)
+def same_class(U, state, i, j):
+    if state == 0:
+        return True
+    cls = {U[0], *list(itertools.combinations(U[1:], 2))[state - 1]}
+    return (i in cls) == (j in cls)
 
 
-def part_values(U):
-    return [None] + [frozenset((U[0],) + c) for c in itertools.combinations(U[1:], 2)]
+def local_graph(states, A):
+    P7 = [q for q in range(NQ) if q not in A]
+    row = {}
+    for d in P7:
+        U = tuple(q for q in P7 if q != d)
+        st = states[U]
+        row[d] = {p: (1 if same_class(U, st, p, U[0]) else -1) for p in U}
+    mu = {P7[0]: 1}
+    for d in P7[1:]:
+        mu[d] = row[P7[0]][d] * row[d][P7[0]]
+    G = np.zeros((7, 7), np.int64)
+    for a, p in enumerate(P7):
+        for b, d in enumerate(P7):
+            if p != d:
+                G[a, b] = mu[d] * row[d][p]
+    return G
 
 
-def same(val, i, j):
-    return True if val is None else (i in val) == (j in val)
+def graph_type(G):
+    E = (G == -1).astype(int)
+    if E.sum() // 2 > 10:
+        E = (G == 1).astype(int)
+    ne, tri = int(E.sum() // 2), int(np.trace(E @ E @ E) // 6)
+    return {(0, 0): "empty", (6, 4): "K4+3K1", (9, 0): "K33+K1", (9, 2): "prism+K1"}[(ne, tri)]
 
 
-def duality_pairs():
+def analyse_code(G):
+    L = stabiliser(G)
+    C = {K: signs(L, K) for K in itertools.combinations(range(NQ), 4)}
+    ok_sum = all(all(v != 0 for v in c.values()) and sum(c.values()) % 3 == 0 for c in C.values())
+    states = {tuple(q for q in range(NQ) if q not in K): split_state(tuple(q for q in range(NQ) if q not in K), c)
+              for K, c in C.items()}
+    types, sym = Counter(), True
+    for A in TRI:
+        Gm = local_graph(states, A)
+        sym &= bool(np.array_equal(Gm, Gm.T))
+        types[graph_type(Gm)] += 1
+    blocks = [K for K in itertools.combinations(range(NQ), 4) if states[tuple(q for q in range(NQ) if q not in K)] == 0]
+    steiner = all(sum(set(T) <= set(B) for B in blocks) == 1 for T in TRI)
+    dual_bad = 0
     for i, j in itertools.combinations(range(NQ), 2):
-        rest = [p for p in range(NQ) if p not in (i, j)]
-        for K in itertools.combinations(rest, 4):
-            if rest[0] in K:
-                Kp = tuple(p for p in rest if p not in K)
-                yield tuple(sorted(Kp + (i, j))), tuple(sorted(K + (i, j))), i, j
+        rest = [q for q in range(NQ) if q not in (i, j)]
+        for K1 in itertools.combinations(rest, 4):
+            if rest[0] in K1:
+                K2 = tuple(q for q in rest if q not in K1)
+                dual_bad += (C[K1][i] * C[K1][j] - C[K2][i] * C[K2][j]) % 3 != 0
+    # gate patterns from the signs vs the direct gate computation
+    agree, pats = True, Counter()
+    for J in itertools.combinations(range(NQ), 5):
+        O = [q for q in range(NQ) if q not in J]
+        S = F.gate_from_graph(G, list(J))
+        Bk = S.reshape(5, 2, 5, 2).transpose(0, 2, 1, 3)
+        det = (Bk[..., 0, 0] * Bk[..., 1, 1] - Bk[..., 0, 1] * Bk[..., 1, 0]) % 3
+        pred = np.zeros((5, 5), np.int64)
+        for b, j in enumerate(J):
+            K = tuple(q for q in J if q != j)
+            for a, i in enumerate(O):
+                pred[a, b] = (-C[K][i] * C[K][j]) % 3
+        agree &= bool(np.array_equal(pred, det))
+        has_block = any(set(B) <= set(J) for B in blocks)
+        pats[("cross+perm" if has_block else "no-block", F.canon((det == 2).astype(int)))] += 1
+    return dict(sign_sums_ok=ok_sum, local_graphs_symmetric=sym, local_graph_types=dict(types),
+                uniform_six_sets=len(blocks), uniform_four_sets_are_S3_4_10=steiner, duality_violations=int(dual_bad),
+                signs_predict_gate_dets=agree, patterns={f"{k[0]}|{k[1]}": v for k, v in pats.items()})
 
 
-# ---------------- gate patterns ----------------
-def shape(P):
-    r, c = P.sum(1), P.sum(0)
-    if (r == 5).all() and (c == 5).all():
-        return 'all'
-    fr, fc = int((r == 5).sum()), int((c == 5).sum())
-    if fr == 0 and fc == 0 and (r == 2).all() and (c == 2).all():
-        g = nx.Graph([(('o', a), ('i', b)) for a in range(5) for b in range(5) if P[a, b]])
-        cyc = sorted(len(x) for x in nx.connected_components(g))
-        return 'C10' if cyc == [10] else ('C4+C6' if cyc == [4, 6] else 'other')
-    if fr == 1 and fc == 1:
-        Q = np.delete(np.delete(P, int(np.argmax(r == 5)), 0), int(np.argmax(c == 5)), 1)
-        if (Q.sum(0) == 1).all() and (Q.sum(1) == 1).all():
-            return 'cross+perm'
-    if fr == 2 and fc == 2 and (r[r < 5] == 2).all() and (c[c < 5] == 2).all():
-        return 'double cross'
-    return 'other'
+# ------------------------------------------------------------------ the local lemma
+def degree_lemma():
+    import networkx as nx
+    E7 = list(itertools.combinations(range(7), 2))
+    bits = np.arange(1 << 21, dtype=np.int64)
+    deg = np.zeros((1 << 21, 7), np.int64)
+    for k, (a, b) in enumerate(E7):
+        e = (bits >> k) & 1
+        deg[:, a] += e
+        deg[:, b] += e
+    cands = bits[np.isin(deg, [0, 3, 6]).all(1)]
+    reps = []
+    for m in cands:
+        G = nx.Graph()
+        G.add_nodes_from(range(7))
+        G.add_edges_from(e for k, e in enumerate(E7) if (m >> k) & 1)
+        if not any(nx.is_isomorphic(R, G) or nx.is_isomorphic(R, nx.complement(G)) for R in reps):
+            reps.append(G)
+    return len(cands), sorted((R.number_of_edges(), int(sum(nx.triangles(R).values()) // 3)) for R in reps)
 
 
-def pattern_from_values(I, vals):
-    O = [p for p in range(NQ) if p not in I]
-    P = np.zeros((5, 5), np.int64)
-    for ci, i in enumerate(I):
-        for ro, o in enumerate(O):
-            P[ro, ci] = same(vals[ci], i, o)
-    return P
+BASE = {
+    "empty": [],
+    "K4+3K1": list(itertools.combinations(range(4), 2)),
+    "K33+K1": [(a, b) for a in range(3) for b in range(3, 6)],
+    "prism+K1": [(0, 1), (1, 2), (0, 2), (3, 4), (4, 5), (3, 5), (0, 3), (1, 4), (2, 5)],
+}
 
 
-# ---------------- SAT model ----------------
-def build_cnf(graphs, kinds):
-    var = {}
+def quadric_types():
+    """rank of G over F3 and, when 6, the O+- type of the 6-dim span: O+ iff (-1)^3 det is a square (det = 2)"""
+    from sympy import GF
+    from sympy.polys.matrices import DomainMatrix
+    out = {}
+    for name, edges in BASE.items():
+        G = np.ones((7, 7), np.int64) - np.eye(7, dtype=np.int64)
+        for a, b in edges:
+            G[a, b] = G[b, a] = -1
+        r = DomainMatrix.from_list((G % 3).tolist(), GF(3)).rank()
+        dets = {int(DomainMatrix.from_list((G[np.ix_(idx, idx)] % 3).tolist(), GF(3)).det()) % 3
+                for idx in ([i for i in range(7) if i != d] for d in range(7))}
+        kind = "O+" if dets == {2} else "O-" if dets == {1} else "degenerate"
+        out[name] = dict(rank=int(r), det6=sorted(dets), span_type=kind,
+                         allowed=(kind == "O+" or r < 6))
+    assert not out["empty"]["allowed"] and not out["K33+K1"]["allowed"]
+    return out
 
-    def v(key):
-        if key not in var:
-            var[key] = len(var) + 1
-        return var[key]
-    cls = []
+
+# ------------------------------------------------------------------ the CP-SAT relaxation
+def _tables(kinds):
+    import networkx as nx
+    lab = {}
+    for kind in kinds:
+        base = nx.Graph(BASE[kind])
+        base.add_nodes_from(range(7))
+        seen = set()
+        for perm in itertools.permutations(range(7)):
+            E = frozenset(frozenset((perm[a], perm[b])) for a, b in base.edges())
+            if E not in seen:
+                seen.add(E)
+        lab[kind] = seen
+    return lab
+
+
+def build_model(kinds, need=None, fix_pattern=None, fix_blocks=None, force_at=None):
+    from ortools.sat.python import cp_model
+    lab = _tables(kinds)
+    m = cp_model.CpModel()
+    s = [m.NewIntVar(0, 10, f"s{i}") for i in range(len(SIX))]
+    ind = {}
+    for A in TRI:
+        P7 = [q for q in range(NQ) if q not in A]
+        vs = [s[SIXI[tuple(q for q in P7 if q != d)]] for d in P7]
+        rows = set()
+        for k, kind in enumerate(kinds):
+            for E in lab[kind]:
+                adj = {v: {w for e in E if v in e for w in e if w != v} for v in range(7)}
+                tup = []
+                for d in range(7):
+                    U = tuple(P7[v] for v in range(7) if v != d)
+                    if len(adj[d]) in (0, 6):
+                        tup.append(0)
+                    else:
+                        c = {q: (1 if P7.index(q) in adj[d] else 2) for q in U}
+                        tup.append(split_state(U, c))
+                rows.add(tuple(tup) + (k,))
+        b = m.NewIntVar(0, len(kinds) - 1, "")
+        ind[A] = b
+        m.AddAllowedAssignments(vs + [b], sorted(rows))
+    same = {}
     for U in SIX:
-        lits = [v(('x', U, val)) for val in part_values(U)]
-        cls.append(lits)
-        cls += [[-a, -b] for a, b in itertools.combinations(lits, 2)]
-    ykind = {}
-    for Y in SEVEN:
-        ys, seen = [], set()
-        for gd in graphs:
-            if gd['name'] not in kinds:
-                continue
-            t = induced_tuple(gd['graph'], Y)
-            if t in seen:
-                continue
-            seen.add(t)
-            y = v(('y', Y, len(ys)))
-            ys.append(y)
-            ykind[y] = gd['name']
-            cls += [[-y, v(('x', U, val))] for U, val in t]
-        cls.append(ys)
-    for U, Up, i, j in duality_pairs():
-        for a in part_values(U):
-            for b in part_values(Up):
-                if same(a, i, j) != same(b, i, j):
-                    cls.append([-v(('x', U, a)), -v(('x', Up, b))])
-    return var, cls, ykind
+        for i, j in itertools.combinations(U, 2):
+            v = m.NewBoolVar("")
+            m.AddAllowedAssignments([s[SIXI[U]], v], [(x, int(same_class(U, x, i, j))) for x in range(11)])
+            same[U, i, j] = v
+    for i, j in itertools.combinations(range(NQ), 2):
+        rest = [q for q in range(NQ) if q not in (i, j)]
+        for K1 in itertools.combinations(rest, 4):
+            if rest[0] in K1:
+                K2 = tuple(q for q in rest if q not in K1)
+                m.Add(same[tuple(sorted(K2 + (i, j))), i, j] == same[tuple(sorted(K1 + (i, j))), i, j])
+    if need is not None:
+        m.Add(sum(ind.values()) >= 1)
+    if force_at is not None:
+        m.Add(ind[force_at] == need)
+    if fix_pattern is not None:              # inputs 0..4, outputs 5..9, pattern[a][b] = 1 where d_{5+a, b} = -1
+        J, O = list(range(5)), list(range(5, 10))
+        for b, j in enumerate(J):
+            U = tuple(sorted(O + [j]))
+            for a, i in enumerate(O):
+                m.Add(same[U, min(i, j), max(i, j)] == int(fix_pattern[a][b]))
+    if fix_blocks is not None:
+        for U in SIX:
+            K = tuple(q for q in range(NQ) if q not in U)
+            if K in fix_blocks:
+                m.Add(s[SIXI[U]] == 0)
+            else:
+                m.Add(s[SIXI[U]] != 0)
+    return m, s
 
 
-def solve(cls, extra=(), solver='cadical'):
-    from pysat.solvers import Cadical153, Glucose4
-    S = {'cadical': Cadical153, 'glucose': Glucose4}[solver]
-    with S(bootstrap_with=list(cls) + list(extra)) as s:
-        return bool(s.solve())
+def solve(m, workers=8, enumerate_all=False, s=None):
+    from ortools.sat.python import cp_model
+    sol = cp_model.CpSolver()
+    sol.parameters.max_time_in_seconds = 7200
+    if enumerate_all:
+        sol.parameters.num_workers = 1               # enumeration needs ONE worker
+        sol.parameters.enumerate_all_solutions = True
+
+        class Cb(cp_model.CpSolverSolutionCallback):
+            def __init__(self):
+                super().__init__()
+                self.n = 0
+
+            def on_solution_callback(self):
+                self.n += 1
+        cb = Cb()
+        st = sol.Solve(m, cb)
+        return sol.StatusName(st), cb.n
+    sol.parameters.num_workers = workers
+    st = sol.Solve(m)
+    return sol.StatusName(st), None
 
 
-def exists_clauses(var, Us, combos):
-    """clauses asserting that the six-sets Us take one of the value tuples in combos"""
-    extra, zs, nxt = [], [], len(var) + 1
-    for vals in combos:
-        zs.append(nxt)
-        extra += [[-nxt, var[('x', U, val)]] for U, val in zip(Us, vals)]
-        nxt += 1
-    extra.append(zs)
-    return extra
+PATTERNS = {   # labelled representatives; rows = outputs, cols = inputs, 1 = det -1
+    "C10": [[1, 1, 0, 0, 0], [0, 1, 1, 0, 0], [0, 0, 1, 1, 0], [0, 0, 0, 1, 1], [1, 0, 0, 0, 1]],
+    "cross+perm": [[1, 1, 1, 1, 1], [1, 1, 0, 0, 0], [1, 0, 1, 0, 0], [1, 0, 0, 1, 0], [1, 0, 0, 0, 1]],
+    "C4+C6": [[1, 1, 0, 0, 0], [1, 1, 0, 0, 0], [0, 0, 1, 1, 0], [0, 0, 0, 1, 1], [0, 0, 1, 0, 1]],
+    "double-cross": [[1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 0, 0, 0], [1, 1, 0, 0, 0], [1, 1, 0, 0, 0]],
+    "all": [[1] * 5 for _ in range(5)],
+}
 
 
-def positive_control(graphs_local, max_graphs=None, dictionary_graphs=2):
-    data = json.loads(TABU.read_text())['graphs']
-    realisable = {induced_tuple(gd['graph'], tuple(range(7))): gd['name'] for gd in graphs_local}
-    res = dict(graphs=0, zero_sum=True, all_prism=True, duality=True, steiner=True, dictionary_checked=0,
-               dictionary_ok=True, pattern_counts=Counter())
-    for gi, w in enumerate(data[:max_graphs]):
-        G = SC.to_mat(np.array(w))
-        sg = signs(G)
-        vals = {U: to_value(U, s) for U, s in sg.items()}
-        res['graphs'] += 1
-        res['zero_sum'] &= all(sum(s) % 3 == 0 for s in sg.values())
-        for Y in SEVEN:
-            relabel = {y: k for k, y in enumerate(Y)}
-            key = tuple((tuple(relabel[u] for u in U),
-                         None if vals[U] is None else frozenset(relabel[u] for u in vals[U]))
-                        for U in (tuple(y for y in Y if y != r) for r in Y))
-            res['all_prism'] &= realisable.get(key) == 'prism+K1'
-        res['duality'] &= all(same(vals[U], i, j) == same(vals[Up], i, j) for U, Up, i, j in duality_pairs())
-        blocks = [tuple(p for p in range(NQ) if p not in U) for U in SIX if vals[U] is None]
-        cover = Counter(t for B in blocks for t in itertools.combinations(B, 3))
-        res['steiner'] &= len(blocks) == 30 and len(cover) == 120 and set(cover.values()) == {1}
-        for I in itertools.combinations(range(NQ), 5):
-            O = [p for p in range(NQ) if p not in I]
-            P = pattern_from_values(I, [vals[tuple(sorted([i] + O))] for i in I])
-            res['pattern_counts'][shape(P)] += 1
-            if gi < dictionary_graphs:
-                S = SC.gate_from_graph(G, list(I))
-                B = S.reshape(5, 2, 5, 2).transpose(0, 2, 1, 3)
-                det = (B[..., 0, 0] * B[..., 1, 1] - B[..., 0, 1] * B[..., 1, 0]) % 3
-                res['dictionary_ok'] &= bool(((det == 2) == (P == 1)).all())
-                res['dictionary_checked'] += 25
-    res['pattern_counts'] = dict(res['pattern_counts'])
-    return res
-
-
-def summarize(max_graphs=None):
+def run():
     t0 = time.time()
-    graphs = sign_graphs()
-    classes = Counter((g['name'], g['realisable'], g['rank'], g['disc']) for g in graphs)
-    local = dict(labelled_graphs=len(graphs),
-                 classes={f"{n}|realisable={r}|rank={k}|disc={d}": c for (n, r, k, d), c in sorted(classes.items())},
-                 realisable_classes=sorted({g['name'] for g in graphs if g['realisable']}))
-    control = positive_control(graphs, max_graphs)
-    var, cls, ykind = build_cnf(graphs, ('prism+K1', 'K4+3K1'))
-    Y0 = tuple(range(7))
-    k4 = [i for k, i in var.items() if k[0] == 'y' and k[1] == Y0 and ykind[i] == 'K4+3K1']
-    I0 = (0, 1, 2, 3, 4)
-    O0 = tuple(p for p in range(NQ) if p not in I0)
-    Us = [tuple(sorted((i,) + O0)) for i in I0]
-    combos = {}
-    for vals in itertools.product(*[part_values(U) for U in Us]):
-        combos.setdefault(shape(pattern_from_values(I0, vals)), []).append(vals)
-    bad = [v for k, vs in combos.items() if k not in ('C10', 'cross+perm') for v in vs]
-    sat = dict(variables=len(var), clauses=len(cls),
-               base=solve(cls),
-               Q1_K4_3K1_somewhere=solve(cls, [k4]),
-               Q2_forbidden_pattern=solve(cls, exists_clauses(var, Us, bad)),
-               control_C10=solve(cls, exists_clauses(var, Us, combos['C10'])),
-               control_cross_perm=solve(cls, exists_clauses(var, Us, combos['cross+perm'])),
-               glucose_Q1=solve(cls, [k4], 'glucose'),
-               glucose_Q2=solve(cls, exists_clauses(var, Us, bad), 'glucose'),
-               value_combinations={k: len(v) for k, v in combos.items()})
-    res = dict(pass_id=11190, local=local, positive_control=control, sat=sat,
-               theorem_steiner=not sat['Q1_K4_3K1_somewhere'] and not sat['glucose_Q1'],
-               theorem_patterns=(not sat['Q2_forbidden_pattern'] and not sat['glucose_Q2'] and sat['control_C10']
-                                 and sat['control_cross_perm']),
-               seconds=round(time.time() - t0, 1))
-    OUT.write_text(json.dumps(res, indent=1, sort_keys=True))
+    D = json.load(open(TABU))
+    graphs = [F.to_mat(np.array(w)) for w in D["graphs"]]
+    codes = [analyse_code(G) for G in graphs]
+    agg = Counter()
+    for c in codes:
+        agg.update(c["patterns"])
+    res = dict(pass_id=11190, n_graphs=len(graphs),
+               all_sign_sums_zero=all(c["sign_sums_ok"] for c in codes),
+               all_local_graphs_symmetric=all(c["local_graphs_symmetric"] for c in codes),
+               local_graph_types=dict(sum((Counter(c["local_graph_types"]) for c in codes), Counter())),
+               uniform_six_sets={int(k): v for k, v in Counter(c["uniform_six_sets"] for c in codes).items()},
+               all_S3_4_10=all(c["uniform_four_sets_are_S3_4_10"] for c in codes),
+               duality_violations=sum(c["duality_violations"] for c in codes),
+               signs_predict_all_gate_dets=all(c["signs_predict_gate_dets"] for c in codes),
+               pattern_census=dict(agg))
+    n, classes = degree_lemma()
+    res["degree_lemma"] = dict(graphs_with_degrees_0_3_6=int(n), classes_up_to_complement=classes)
+    res["quadric_types"] = quadric_types()
+    kinds = ["prism+K1", "K4+3K1"]
+    res["csp_some_K4"] = solve(build_model(kinds, need=1)[0])[0]
+    res["csp_K4_at_012_one_worker"] = solve(build_model(kinds, need=1, force_at=(0, 1, 2))[0], workers=1)[0]
+    res["csp_prism_only_control"] = solve(build_model(["prism+K1"])[0])[0]
+    res["csp_patterns"] = {name: solve(build_model(["prism+K1"], fix_pattern=P)[0])[0] for name, P in PATTERNS.items()}
+    blocks0 = set()
+    L0 = stabiliser(graphs[0])
+    for K in itertools.combinations(range(NQ), 4):
+        c = signs(L0, K)
+        if len(set(c.values())) == 1:
+            blocks0.add(K)
+    m, s = build_model(["prism+K1"], fix_blocks=blocks0)
+    res["structures_with_fixed_steiner_system"] = solve(m, enumerate_all=True, s=s)
+    res["seconds"] = round(time.time() - t0)
     return res
+
+
+def main():
+    res = run()
+    json.dump(res, open(OUT, "w"), indent=1, default=str)
+    for k, v in res.items():
+        print(k, ":", v)
 
 
 if __name__ == "__main__":
-    print(json.dumps(summarize(), indent=1))
+    main()

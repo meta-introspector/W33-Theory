@@ -1,0 +1,21 @@
+name: W33 Pass 11192 time reversal mereology
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11192_*.py"
+      - "analysis/PASS11192_TIME_REVERSAL_MEREOLOGY.md"
+      - "data/w33_pass11192_*.json"
+      - "tests/test_w33_pass11192_time_reversal_mereology.py"
+      - ".github/workflows/w33_pass11192_time_reversal_mereology.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest networkx ortools
+      - run: python -m pytest -q tests/test_w33_pass11192_time_reversal_mereology.py

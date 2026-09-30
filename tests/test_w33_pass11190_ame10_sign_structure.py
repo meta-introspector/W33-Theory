@@ -1,53 +1,44 @@
-"""Regression for Pass 11190: sign structure of AME(10,3) states.  Frozen SAT verdicts and positive control; live checks
-of the local Klein classification and of the sign/pattern dictionary on one AME(10,3) graph."""
+"""Regression for Pass 11190: sign structure of AME(10,3) stabilizer states (one graph recomputed; the CP-SAT proof and
+automorphism group from the frozen certificate)."""
 import itertools
 import json
 import sys
-from collections import Counter
 from pathlib import Path
 
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "analysis"))
-import w33_pass11190_ame10_sign_structure as A  # noqa: E402
-
-D = json.loads((ROOT / "data" / "w33_pass11190_ame10_sign_structure.json").read_text())
 
 
-def test_frozen():
-    assert D['local']['labelled_graphs'] == 1052 and D['local']['realisable_classes'] == ['K4+3K1', 'prism+K1']
-    pc = D['positive_control']
-    assert pc['graphs'] == 71 and pc['zero_sum'] and pc['all_prism'] and pc['duality'] and pc['steiner']
-    assert pc['dictionary_ok'] and pc['pattern_counts'] == {'C10': 5112, 'cross+perm': 12780}
-    s = D['sat']
-    assert s['base'] and not s['Q1_K4_3K1_somewhere'] and not s['Q2_forbidden_pattern']
-    assert s['control_C10'] and s['control_cross_perm']
-    assert not s['glucose_Q1'] and not s['glucose_Q2']
-    assert D['theorem_steiner'] and D['theorem_patterns']
+def test_one_graph_recomputed():
+    import w33_pass11175_scan_five_qutrit as F
+    import w33_pass11190_ame10_sign_structure as P
+    w = json.loads(P.TABU.read_text())["graphs"][0]
+    r = P.analyse_code(F.to_mat(np.array(w)))
+    assert r["sign_sums_ok"] and r["local_graphs_symmetric"] and r["local_graph_types"] == {"prism+K1": 120}
+    assert r["uniform_six_sets"] == 30 and r["uniform_four_sets_are_S3_4_10"] and r["duality_violations"] == 0
+    assert r["signs_predict_gate_dets"]
+    assert sum(v for k, v in r["patterns"].items() if k.startswith("cross+perm")) == 180
 
 
-def test_live_local_classification():
-    g = A.sign_graphs()
-    assert len(g) == 1052
-    c = Counter((x['name'], x['realisable']) for x in g)
-    assert c == {('prism+K1', True): 840, ('K4+3K1', True): 70, ('K33+K1', False): 140, ('7K1', False): 2}
+def test_frozen_proof():
+    d = json.loads((ROOT / "data" / "w33_pass11190_ame10_sign_structure.json").read_text())
+    assert d["local_graph_types"] == {"prism+K1": 8520} and d["all_S3_4_10"] and d["signs_predict_all_gate_dets"]
+    assert d["degree_lemma"]["graphs_with_degrees_0_3_6"] == 1052
+    q = d["quadric_types"]
+    assert q["empty"]["span_type"] == "O-" and q["K33+K1"]["span_type"] == "O-"
+    assert d["csp_some_K4"] == "INFEASIBLE" and d["csp_K4_at_012_one_worker"] == "INFEASIBLE"
+    assert d["csp_prism_only_control"] in ("OPTIMAL", "FEASIBLE")
+    p = d["csp_patterns"]
+    assert p["C4+C6"] == p["double-cross"] == p["all"] == "INFEASIBLE"
+    assert p["C10"] in ("OPTIMAL", "FEASIBLE") and p["cross+perm"] in ("OPTIMAL", "FEASIBLE")
+    assert d["structures_with_fixed_steiner_system"][1] == 2
 
 
-def test_live_signs_one_graph():
-    G = A.SC.to_mat(np.array(json.loads(A.TABU.read_text())['graphs'][5]))
-    sg = A.signs(G)
-    vals = {U: A.to_value(U, s) for U, s in sg.items()}
-    assert all(sum(s) % 3 == 0 for s in sg.values())
-    blocks = [tuple(p for p in range(10) if p not in U) for U in A.SIX if vals[U] is None]
-    cover = Counter(t for B in blocks for t in itertools.combinations(B, 3))
-    assert len(blocks) == 30 and set(cover.values()) == {1} and len(cover) == 120
-    assert all(A.same(vals[U], i, j) == A.same(vals[Up], i, j) for U, Up, i, j in A.duality_pairs())
-    for I in list(itertools.combinations(range(10), 5))[::21]:
-        O = [p for p in range(10) if p not in I]
-        P = A.pattern_from_values(I, [vals[tuple(sorted([i] + O))] for i in I])
-        S = A.SC.gate_from_graph(G, list(I))
-        B = S.reshape(5, 2, 5, 2).transpose(0, 2, 1, 3)
-        det = (B[..., 0, 0] * B[..., 1, 1] - B[..., 0, 1] * B[..., 1, 0]) % 3
-        assert ((det == 2) == (P == 1)).all()
-        assert A.shape(P) == ('cross+perm' if any(tuple(sorted(set(I) - {i})) in blocks for i in I) else 'C10')
+def test_block_containment_counts():
+    blocks_max = 1
+    # two 4-subsets of a 5-set share 3 points, so a Steiner S(3,4,10) puts at most one block in any 5-set
+    for a, b in itertools.combinations(itertools.combinations(range(5), 4), 2):
+        assert len(set(a) & set(b)) == 3
+    assert 30 * 6 == 180 and 252 - 180 == 72 and blocks_max == 1

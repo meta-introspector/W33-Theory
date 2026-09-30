@@ -1,36 +1,39 @@
-"""Regression for Pass 11188: exact intrinsic arrow per conjugacy class (frozen data; live check of the plane formula on
-the n = 2 classes and a few n = 3 classes against direct enumeration)."""
+"""Regression for Pass 11188: the exact intrinsic arrow on every conjugacy class (two qutrits recomputed, three
+qutrits from the frozen certificate; the full three-qutrit scan needs the 110565 factorisations, ~5 minutes)."""
 import json
 import sys
+from fractions import Fraction
 from pathlib import Path
-
-import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "analysis"))
-import w33_pass11188_exact_arrow_by_class as P  # noqa: E402
 
 
-def test_frozen():
-    d = json.loads((ROOT / "data" / "w33_pass11188_exact_arrow_by_class.json").read_text())
-    for n, vals in ((2, [0, 2]), (3, [0, 2, 3]), (4, [0, 2, 3, 4])):
-        s = d[f"n{n}"]
-        assert s['total_ok'] and s['all_checks'] and s['plane_formula_matches'] and s['planes_ok']
-        assert s['A_values'] == vals and s['A_max'] == n
-        assert s['A_below_n_iff_invariant_plane']
-    assert d['n2']['A_distribution_psp'] == {'0': 9576, '2': 16344}
-    assert d['n3']['A_fractions'] == {'0': '55241/884520', '2': '581/1080', '3': '8836/22113'}
-    assert d['n3']['classes'] == 74 and d['n4']['classes'] == 278
+def test_two_qutrit_exact_recomputed():
+    import numpy as np
+    import w33_pass11180_mereology as M
+    import w33_pass11183_intrinsic_arrow as AR
+    import w33_pass11188_exact_arrow_by_class as E
+    cls = E.parse_classes()
+    assert len(cls[2]) == 20 and len(cls[3]) == 74
+    Bs = np.array(M.factorisations(2))
+    J = M.form(2)
+    dist = {}
+    for c in cls[2]:
+        S = c["S"]
+        assert np.array_equal((S.T @ J @ S) % 3, J % 3)
+        assert M.profile(S, Bs, 2)["local"] == c["fixed"]
+        A = int(AR.exports(S, Bs, 2).sum(1).min())
+        dist[A] = dist.get(A, 0) + c["size"]
+    assert dist == {0: 9576, 2: 16344} and Fraction(16344, 25920) == Fraction(227, 360)
 
 
-def test_live_two_qutrits():
-    cls = P.load_classes(2)
-    Bs = np.array(P.M.factorisations(2))
-    Pl = P.planes_from_splits(Bs)
-    assert len(Pl) == 90 and len(cls) == 20
-    for c in cls:
-        E = P.A.exports(c['S'], Bs, 2).sum(1)
-        a, inv, _ = P.arrow_by_planes(c['S'], Pl, 2)
-        assert a == int(E.min())
-        assert (a < 2) == (inv > 0)
-        assert P.is_symplectic(c['S'], 2) and P.M.porder(c['S'], 2) == c['order']
+def test_three_qutrit_frozen():
+    d = json.loads((ROOT / "data" / "w33_pass11188_exact_arrow_by_class.json").read_text())["3"]
+    dist = {int(k): v["elements"] for k, v in d["A_distribution"].items()}
+    assert dist == {0: 286369344, 2: 2466749376, 3: 1832232960} and sum(dist.values()) == 4585351680
+    for r in d["classes"]:
+        if r["order"] % 7 == 0 or r["order"] % 13 == 0:
+            assert r["A"] == 3
+        if r["order"] % 5 == 0:
+            assert r["A"] == 2
