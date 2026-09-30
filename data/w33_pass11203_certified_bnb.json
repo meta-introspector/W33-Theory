@@ -1,0 +1,13 @@
+{
+ "pass_id": 11203,
+ "A_up_encloses": true,
+ "negative_control_rejected": true,
+ "optimum_neighbourhood_accepted": true,
+ "target_below_4_over_sqrt15": true,
+ "complete": true,
+ "processed": 9219253,
+ "closed_by_bound": 4384961,
+ "closed_by_concavity": 224627,
+ "empty": 39,
+ "seconds": 1406.1
+}

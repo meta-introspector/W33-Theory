@@ -1,0 +1,110 @@
+{
+ "pass_id": 11201,
+ "exact_matches_contraction": true,
+ "same_orientation_patterns_real": true,
+ "chiral_pattern": [
+  "012",
+  "021",
+  "201",
+  "210",
+  "120",
+  "102"
+ ],
+ "chiral_values": {
+  "3": {
+   "value": [
+    -0.0,
+    -0.007127781101
+   ],
+   "imag_times_243_over_sqrt3": -1.0,
+   "twist": 2
+  },
+  "4": {
+   "value": [
+    0.0,
+    0.007127781101
+   ],
+   "imag_times_243_over_sqrt3": 1.0,
+   "twist": 1
+  },
+  "7": {
+   "value": [
+    0.004115226337,
+    0.0
+   ],
+   "imag_times_243_over_sqrt3": 0.0,
+   "twist": null
+  },
+  "9": {
+   "value": [
+    0.004115226337,
+    0.0
+   ],
+   "imag_times_243_over_sqrt3": 0.0,
+   "twist": null
+  },
+  "12": {
+   "value": [
+    0.004115226337,
+    0.0
+   ],
+   "imag_times_243_over_sqrt3": 0.0,
+   "twist": null
+  },
+  "13": {
+   "value": [
+    0.004115226337,
+    0.0
+   ],
+   "imag_times_243_over_sqrt3": 0.0,
+   "twist": null
+  }
+ },
+ "imag_equals_Q_sqrt3_over_243": true,
+ "all_members_imag_in_units_i_sqrt3_over_243": {
+  "3": {
+   "-1.0": 256
+  },
+  "4": {
+   "1.0": 256
+  }
+ },
+ "relabellings_of_pattern_on_orbital_3": {
+  "-1.0": 6,
+  "0.0": 24,
+  "1.0": 6
+ },
+ "symmetrised": {
+  "3": [
+   0.002743484225,
+   0.0
+  ],
+  "4": [
+   0.002743484225,
+   0.0
+  ]
+ },
+ "symmetrised_flips": false,
+ "pair_6912": {
+  "pattern": [
+   "021",
+   "102",
+   "120",
+   "201",
+   "210",
+   "012"
+  ],
+  "value_12": [
+   -0.0,
+   -0.002375927034
+  ],
+  "value_13": [
+   0.0,
+   0.002375927034
+  ],
+  "flips": true
+ },
+ "paper_sentence": "The twist is a measurable phase: a third-moment local-unitary invariant of the gate's Choi state is purely imaginary on the smallest time-oriented relation, $\\pm i\\sqrt3/243$ --- a quadratic Gauss sum --- with sign $Q$ on all $256$ members, and it changes sign under time reversal; invariants whose three-cycles all turn the same way are real, and averaging over all relabellings of the registers erases the sign --- the arrow is locally measurable only on labelled registers.",
+ "card_sentence": "The twist is a measurable chiral phase: a third-moment invariant of the gate's Choi state equals Q&middot;i&radic;3/243 and flips under time reversal.",
+ "symmetrised_imag_nonzero": false
+}
