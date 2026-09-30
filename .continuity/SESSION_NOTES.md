@@ -1063,3 +1063,16 @@ Blocker noted: Continuity MCP failed to connect and the `continuity` CLI is not 
 decisions were not logged to decisions.jsonl; this note is the record.
 Open: polygamy global maximum (4/sqrt15 vs rigorous 25/18); A <= n for all n (reduced to a bi-Lagrangian existence
 statement); a DRAT certificate for the Pass 11190 UNSAT instances.
+
+### 2026-09-30 (cont.) - Passes 11199-11200 (Claude track; reserved on branch claude/gallant-sagan-i33c7e)
+
+- **11199** THEOREM (all n): intrinsic arrow A(S) = n - c(S), c = max number of orthogonal invariant qutrit planes;
+  closed form c = sum_{+-1}(m1/2 + m2) + m1^{F9}(x^2+1) from Jordan data.  Proof: lower bound elementary; upper bound
+  via orthogonal decomposition + bi-Lagrangian/radical lemma (Taussky-Zassenhaus, Cayley parity, eigenvector
+  reduction, Hermitian real form).  Every optimal split: c invariant planes + (n-c) planes exporting exactly one trit
+  ('half the record': k_BT ln3 per unprotected qutrit per tick).
+- **11200** universality: law exact on every class of Sp(2n,2) n<=5 (qubits; char 2 unproved, obstruction located:
+  V(4), W(2) only alternating), PSp(4,5), PSp(4,7), all 940 classes of PSp(10,3); E[c] -> 0.7255...; Burnside mean
+  invariant planes = 1.  Paper insert: analysis/PASS11188_11200_PAPER_INSERT.tex (not merged).
+- Pass numbers 11199-11200 were reserved on the branch (this session cannot push to master) -- check for collisions
+  with the Codex track before merging.
