@@ -73,3 +73,5 @@ mutually orthogonal such planes, in seeded random order with restarts, gives:
 * Open: ticks whose S + S⁻¹ is not semisimple (for example, regular unipotents), for n ≥ 5. The lemma reduces it to the
   existence of a bi-Lagrangian of the pencil (ω, ω_T) transverse to its S-image, a pure linear-algebra question about
   self-adjoint operators with nilpotent part.
+
+**Status (Pass 11199).** The open case is closed. A(S) = n − c(S) holds for every tick and every n, including the non-semisimple ones: W(k) blocks via an eigenvector reduction, unitary Jordan blocks via a real form (`analysis/PASS11199_ARROW_THEOREM.md`).

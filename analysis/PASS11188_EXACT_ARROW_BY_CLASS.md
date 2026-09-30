@@ -46,3 +46,5 @@ this is equivalent to: every tick with no invariant nondegenerate plane has a ha
 
 **Scope.** This is exact for n ≤ 4. The GAP class lists are complete: class sizes sum to |PSp(2n, 3)|. The plane counts
 are 90, 7371 and 597 780. The branch and bound is exact, not a heuristic.
+
+**Status (Pass 11199).** The conjecture is proved for every n: A(S) = n − c(S), where c(S) is the largest number of mutually orthogonal invariant nondegenerate planes (`analysis/PASS11199_ARROW_THEOREM.md`).
