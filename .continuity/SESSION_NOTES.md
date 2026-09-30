@@ -1091,3 +1091,25 @@ Master is canonical.  Resolution (merge commit on claude/gallant-sagan-i33c7e):
 - 11207-11212 need a reservation on master before merge (this session cannot push to master).
 Overlaps with master's reserved items: "a second law from counting" is answered exactly by 11207/11208 (arrow-free
 fraction = P(c = n)); "the twist as a discrete Bargmann phase" should cite 11209's Maslov/Bargmann identity.
+
+### 2026-09-30 - Passes 11194-11198 five exact TOE frontier audits (Codex track)
+
+- Read and reconciled the complete newly merged Pass 11199-11211 packet, then the locally staged parallel Pass
+  11213-11216 packet before publication. Pass 11213 supplies the minimal gate-level T-violating mechanism: cubic
+  phase plus nonzero cyclic shift; it does not derive CKM/PMNS observables.
+- **11194:** the E6 5+40 perfect-gate quotient is reversible only at equal per-tritangent weights. The stationary
+  1:8 sector mass ratio is the 5:40 census, not a Yukawa hierarchy.
+- **11195:** joined the optimal perfect-gate normal form to the exact transvection phase/displacement ABI. The stored
+  SUM normal form expands to 19 transvections, its canonical word has depth 2, and the two 9x9 unitaries agree with
+  scalar ratio 1 and residual below 1.5e-15.
+- **11196:** for canonical cubic signs, B_signed=D B and D^2=I, so B_signed^T B_signed=B^T B. Rank 21 and centered
+  spectrum 6^20+0^7 are sign-blind; flavor must use a nonlinear cubic gradient/Hessian/Jacobian rather than a linear
+  incidence Gram ansatz. Corrected the prose sign convention: current artifact is +22/-23; overall cubic sign gives
+  the equivalent +23/-22 convention.
+- **11197:** the degree-normalized W(3,q) spectral measure converges to delta_1 and the normalized heat trace to
+  exp(-t); every graph has diameter two. This sharpens, without reclaiming, the prior three-eigenvalue/no-Weyl result.
+- **11198:** Tr(P^n)=1+[20+24(-1)^n]/4^n. Tr(P)=0 is isolated; no commuting Z2 grading cancels every power because
+  the Perron eigenspace is one-dimensional. This is distinct from the Hodge indices and positive string vacuum energy.
+- Producer and focused regression pass (5 tests, 151.93 s). Rediscovery guard is clean after reading/citing prior
+  ownership. RESULTS_INDEX was regenerated. Publication remains scoped GitKraken staging/commit/push after the
+  parallel staged Pass 11213-11216 packet clears.

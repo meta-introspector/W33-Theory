@@ -23,7 +23,9 @@ With this cocycle convention:
 
 - A consistent sign gauge **does** exist (the linear system is consistent).
 - There is **no gauge** in which all 45 coefficients are `+1` (the “all-plus” system is inconsistent).
-- The induced sign split in the saved solution is `23` positive and `22` negative tritangent-plane coefficients.
+- The induced sign split in the current saved solution is `22` positive and `23` negative tritangent-plane
+  coefficients. Multiplying the entire cubic by `-1` gives the equivalent `23` positive and `22` negative convention;
+  the invariant statement is the `23/22` imbalance and the absence of an all-plus gauge.
 
 This is a precise, testable “phase obstruction” result: **support-only** data is not enough; the cubic invariant carries genuine sign/phase structure.
 
