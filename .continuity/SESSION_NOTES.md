@@ -1041,3 +1041,25 @@ GitKraken pushed 876b4a445 and result-index refresh 96c4ab83d; master is synchro
 - Derived exact depolarizing transfer q(p)=4p(3p^2-7p+6)/((p+1)(5p^2-10p+9)); q(p)>p on (0,1), so the factory is conversion after Strange distillation, not distillation.
 - Proved a cyclotomic firewall: stabilizer processing stays in Q(zeta12), degree 4, while exact T needs zeta9, degree 6; no finite stabilizer-only Strange-to-T conversion exists.
 - Report, TeX insert/tail, newest docs card, focused regression, and CI are integrated. Physical dark-ray preparation, distillation threshold, and laboratory implementation remain open.
+
+### 2026-09-30 - Passes 11188-11192 (Claude track, cloud session; reserved in 4065cb3b)
+
+Rebuilt from scratch in a fresh container: the previous Windows session's scratch work for these passes was never
+committed.  Branch `claude/gallant-sagan-i33c7e`.
+
+- **11188** exact intrinsic arrow on every class of PSp(4,3)/PSp(6,3)/PSp(8,3) (GAP reps; plane formula
+  A = 2n - max sum dim(P cap SP)); A <= n with equality iff no invariant nondegenerate plane, exact for n <= 4; A != 1 always.
+- **11189** time reversal (tau = complex conjugation) swaps exactly the two tied reversal pairs of three-qutrit split
+  relations (enantiomers); a profile-oriented Kashiwara-Maslov spectrum (= Bargmann/Berry phase, checked) separates them
+  (chi = -+54, +-18); with Pass 11184 invariants the 20 relations are classified.
+- **11190** AME(10,3) sign structure: Klein-quadric realisability + duality + SAT (CaDiCaL, Glucose4) => S(3,4,10) forced
+  and Pass 11186 pattern conjecture PROVED (only C10 / cross+perm).
+- **11191** re-scoped from 'polygamy beyond torus class' (a cross-paired one-cut bound only reached 1.3827 vs 25/18;
+  a joint relaxation is needed): arrow bound at n = 5, 6 via half-moving splits; bi-Lagrangian criterion.
+- **11192** anti-symplectic time reversals: theta^2=+1 always local conjugation; theta^2=-1 only for even n and only via
+  pairing; the 36 E6 reflections are exactly the Kramers class for two qutrits.
+
+Blocker noted: Continuity MCP failed to connect and the `continuity` CLI is not installed in this container, so these
+decisions were not logged to decisions.jsonl; this note is the record.
+Open: polygamy global maximum (4/sqrt15 vs rigorous 25/18); A <= n for all n (reduced to a bi-Lagrangian existence
+statement); a DRAT certificate for the Pass 11190 UNSAT instances.
