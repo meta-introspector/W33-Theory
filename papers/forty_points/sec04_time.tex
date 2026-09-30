@@ -651,6 +651,18 @@ splits); the perfect interacting tick costs at least $2$ trits in every split, a
 that survives every change of subsystems exists exactly for these ticks, and comes in units of at least one full qutrit
 record. \tierC\ (\cert{w33\_pass11183\_intrinsic\_arrow.py})
 
+The three-qutrit values are now exact on every conjugacy class of $\mathrm{PSp}(6,3)$ (GAP representatives, each
+cross-checked against its fixed splits): the arrow is $0$, $2$ or $3$ trits for fractions $55241/884520$, $581/1080$
+and $8836/22113$, never $1$ and never more than one trit per qutrit. Every tick whose period involves $7$ or $13$ ---
+the primes of $3^3\pm1$ --- carries the maximal arrow, as does the cyclic relabelling of the three qutrits, which in
+characteristic $3$ is unipotent; the two-qutrit swap has none. Time reversal itself is anti-unitary: it is the
+anti-symplectic half of $W(E_6)=\mathrm{PSp}(4,3).2$~\cite{Appleby2005,Planat2011}. Measured the same way, its
+elements have arrow $0$, $2$ or $4$, and $4$ --- everything exported in every one of the $45$ splits --- occurs for
+exactly one class, of size $36$: the reflections of $E_6$. The time reversals no choice of subsystems can tame are the
+root reflections. Choosing subsystems by minimising what the dynamics does across them is the idea of operational
+mereology~\cite{ZanardiMereology2024}; here the minimisation is exact and finite. \tierT\,\tierC
+(\cert{w33\_pass11188\_exact\_arrow\_by\_class.py}, \cert{w33\_pass11192\_time\_reversal\_mereology.py})
+
 \begin{keyidea}
 Three layers of time, exactly separated: a finite present with a light cone ($27$
 events, $t^2-x^2-y^2$); an unbounded, oriented history (a free group, an $8$-regular tree,

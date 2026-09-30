@@ -339,7 +339,12 @@ The polygamy region is now mapped. For every weight $\lambda$, the maximum of $N
 equals its maximum on the same closed-form family (a dual see-saw from $150$ starts per weight agrees to $10^{-12}$), and
 for $\lambda\le\lambda_c=0.9214$ it is simply $1$, attained by a maximally entangled pair with the third qutrit idle.
 Spatial polygamy is a thin bulge beyond the monogamous line $N_{AB}+N_{AC}=1$ --- at most $0.0328$, and only for nearly
-balanced sharing --- against $2$ in time. The perfect gates also have a geometric home. A tensor factorisation of two
+balanced sharing --- against $2$ in time. The bulge is not a qutrit feature: normalised so that a maximally entangled
+pair has $N=1$, three qubits exceed the line by more ($(8\sqrt2-4)/7=1.0448$) and the excess shrinks with the local
+dimension ($1.0259$ for $D=4$, $1.0159$ for $D=7$). The optimising family and the conjecture that it traces the whole
+negativity region are due to Allen and Meyer~\cite{AllenMeyer2017}; linear monogamy of negativity fails numerically
+already in~\cite{HeVidal2015}. What is new here is the value $4/\sqrt{15}$, its certification and the partial-class
+proofs (\cert{w33\_pass11191\_polygamy\_across\_dimension.py}). The perfect gates also have a geometric home. A tensor factorisation of two
 qutrits is an octet of W(3,3); the $45$ octets are the tritangent planes of the cubic surface and the $27$ complete
 factorisation frames are its lines. A two-qutrit Clifford gate is perfect exactly when it moves the factorisation to a
 \emph{collinear} one --- a tritangent plane sharing a line with the original --- while the gates with $I_3=-1$ move it
@@ -386,3 +391,19 @@ determinant law of every order, $\sum_{|I|=k}\det S[I,J]=1$ for every set $J$ of
 $\det S[I,J]=\det S[I^c,J^c]$.
 \tierC\ (\cert{w33\_pass11187\_torus\_class\_bnb.py}, \cert{w33\_pass11185\_e6\_yukawa\_sectors.py},
 \cert{w33\_pass11184\_merged\_orbitals.py}, \cert{w33\_pass11186\_five\_qutrit\_beyond\_f9.py})
+
+The five-qutrit pattern question is now settled, by a structure every ten-qutrit absolutely maximally entangled
+stabilizer state carries. For any four parties, the stabilisers trivial on them restrict isomorphically to each of
+the other six, and the six symplectic signs sum to zero mod $3$: every six parties split $3|3$ or not at all. For any
+three parties these splits assemble into a graph on the other seven whose degrees lie in $\{0,3,6\}$; the Klein
+quadric forbids two of the four such graphs (their Gram matrices are elliptic), and an exact constraint solve with
+the isotropy duality between complementary parties forbids a third. What remains is always a prism plus an isolated
+vertex, so the $30$ uniform four-sets form a Steiner system $S(3,4,10)$ --- the inversive plane of order $3$ --- and
+the sign structure is unique, with automorphism group $\mathrm{PGL}(2,9)$: the ten parties behave as the projective
+line over $\F_9$. Consequently a perfect five-qutrit gate is a cross-plus-permutation exactly when its inputs contain
+a block ($180$ of $252$ choices) and a ten-cycle otherwise; the other three patterns never occur. The ties of the
+three-qutrit relations fall to oriented data: the $\mathrm{SL}(2,3)$ class of a loop holonomy distinguishes $N$ from
+$-N$, and for the one pair whose holonomies all vanish a symplectic twist $Q=\pm1$ does. Holonomy and twist classify
+all $20$ relations including their direction in time, and the anti-unitary time reversal $(x,z)\mapsto(x,-z)$
+exchanges exactly the two pairs no unoriented invariant separates.
+\tierT\,\tierC\ (\cert{w33\_pass11190\_ame10\_sign\_structure.py}, \cert{w33\_pass11189\_oriented\_holonomy.py})

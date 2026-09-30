@@ -1,0 +1,89 @@
+{
+ "pass_id": 11190,
+ "n_graphs": 71,
+ "all_sign_sums_zero": true,
+ "all_local_graphs_symmetric": true,
+ "local_graph_types": {
+  "prism+K1": 8520
+ },
+ "uniform_six_sets": {
+  "30": 71
+ },
+ "all_S3_4_10": true,
+ "duality_violations": 0,
+ "signs_predict_all_gate_dets": true,
+ "pattern_census": {
+  "no-block|0001100101010101010011000": 5112,
+  "cross+perm|0001100101010011000111111": 12780
+ },
+ "degree_lemma": {
+  "graphs_with_degrees_0_3_6": 1052,
+  "classes_up_to_complement": [
+   [
+    0,
+    0
+   ],
+   [
+    6,
+    4
+   ],
+   [
+    9,
+    0
+   ],
+   [
+    9,
+    2
+   ]
+  ]
+ },
+ "quadric_types": {
+  "empty": {
+   "rank": 6,
+   "det6": [
+    1
+   ],
+   "span_type": "O-",
+   "allowed": false
+  },
+  "K4+3K1": {
+   "rank": 6,
+   "det6": [
+    2
+   ],
+   "span_type": "O+",
+   "allowed": true
+  },
+  "K33+K1": {
+   "rank": 6,
+   "det6": [
+    1
+   ],
+   "span_type": "O-",
+   "allowed": false
+  },
+  "prism+K1": {
+   "rank": 4,
+   "det6": [
+    0
+   ],
+   "span_type": "degenerate",
+   "allowed": true
+  }
+ },
+ "csp_some_K4": "INFEASIBLE",
+ "csp_K4_at_012_one_worker": "INFEASIBLE",
+ "csp_prism_only_control": "OPTIMAL",
+ "csp_patterns": {
+  "C10": "OPTIMAL",
+  "cross+perm": "OPTIMAL",
+  "C4+C6": "INFEASIBLE",
+  "double-cross": "INFEASIBLE",
+  "all": "INFEASIBLE"
+ },
+ "structures_with_fixed_steiner_system": [
+  "OPTIMAL",
+  2
+ ],
+ "seconds": 159
+}

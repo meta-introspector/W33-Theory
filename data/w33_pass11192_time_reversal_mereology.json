@@ -1,0 +1,35 @@
+{
+ "pass_id": 11192,
+ "outer_coset_projective_elements": 25920,
+ "arrow_distribution": {
+  "0": 9180,
+  "2": 16704,
+  "4": 36
+ },
+ "never_local": 10944,
+ "profile": {
+  "order2|local7|A0": 540,
+  "order2|local15|A4": 36,
+  "order4|local3|A0": 2160,
+  "order6|local0|A2": 1440,
+  "order6|local1|A2": 4320,
+  "order6|local3|A2": 1440,
+  "order8|local1|A0": 6480,
+  "order10|local0|A2": 5184,
+  "order12|local0|A2": 4320
+ },
+ "involution_classes": [
+  {
+   "size": 540,
+   "order": 2,
+   "local": 7,
+   "A": 0
+  },
+  {
+   "size": 36,
+   "order": 2,
+   "local": 15,
+   "A": 4
+  }
+ ]
+}
