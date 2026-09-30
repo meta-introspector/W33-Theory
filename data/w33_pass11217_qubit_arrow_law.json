@@ -1,0 +1,249 @@
+{
+ "V2k": [
+  {
+   "all_split": true,
+   "forms": 4,
+   "k": 3
+  },
+  {
+   "all_split": true,
+   "forms": 8,
+   "k": 4
+  },
+  {
+   "all_split": true,
+   "forms": 16,
+   "k": 5
+  },
+  {
+   "all_split": true,
+   "forms": 32,
+   "k": 6
+  },
+  {
+   "all_split": true,
+   "forms": 64,
+   "k": 7
+  }
+ ],
+ "W_containments_fail": true,
+ "Wk": [
+  {
+   "Pperp_contains_unit": true,
+   "Pperp_not_in_t2": true,
+   "Q_not_in_P": true,
+   "construction_split": true,
+   "k": 4
+  },
+  {
+   "Pperp_contains_unit": false,
+   "Pperp_not_in_t2": true,
+   "Q_not_in_P": true,
+   "construction_split": true,
+   "k": 5
+  },
+  {
+   "Pperp_contains_unit": true,
+   "Pperp_not_in_t2": true,
+   "Q_not_in_P": true,
+   "construction_split": true,
+   "k": 6
+  },
+  {
+   "Pperp_contains_unit": false,
+   "Pperp_not_in_t2": true,
+   "Q_not_in_P": true,
+   "construction_split": true,
+   "k": 7
+  },
+  {
+   "Pperp_contains_unit": true,
+   "Pperp_not_in_t2": true,
+   "Q_not_in_P": true,
+   "construction_split": true,
+   "k": 8
+  },
+  {
+   "Pperp_contains_unit": false,
+   "Pperp_not_in_t2": true,
+   "Q_not_in_P": true,
+   "construction_split": true,
+   "k": 9
+  },
+  {
+   "Pperp_contains_unit": true,
+   "Pperp_not_in_t2": true,
+   "Q_not_in_P": true,
+   "construction_split": true,
+   "k": 10
+  },
+  {
+   "Pperp_contains_unit": false,
+   "Pperp_not_in_t2": true,
+   "Q_not_in_P": true,
+   "construction_split": true,
+   "k": 11
+  },
+  {
+   "Pperp_contains_unit": true,
+   "Pperp_not_in_t2": true,
+   "Q_not_in_P": true,
+   "construction_split": true,
+   "k": 12
+  }
+ ],
+ "all_constructions_split": true,
+ "classes": {
+  "2": {
+   "c0_classes": 5,
+   "c_formula_exact": true,
+   "classes": 11,
+   "criterion_on_every_c0_class": true,
+   "law": true,
+   "split_built_on_every_c0_class": true
+  },
+  "3": {
+   "c0_classes": 7,
+   "c_formula_exact": true,
+   "classes": 30,
+   "criterion_on_every_c0_class": true,
+   "law": true,
+   "split_built_on_every_c0_class": true
+  },
+  "4": {
+   "c0_classes": 22,
+   "c_formula_exact": true,
+   "classes": 81,
+   "criterion_on_every_c0_class": true,
+   "law": true,
+   "split_built_on_every_c0_class": true
+  },
+  "5": {
+   "c_formula_exact": true,
+   "classes": 198
+  }
+ },
+ "exceptions": [
+  {
+   "criterion_lagrangians": 2,
+   "lagrangians": 15,
+   "piece": "V(4)",
+   "split": true
+  },
+  {
+   "criterion_lagrangians": 1,
+   "lagrangians": 15,
+   "piece": "W(2)",
+   "split": true
+  },
+  {
+   "criterion_lagrangians": 8,
+   "lagrangians": 135,
+   "piece": "W(3)",
+   "split": true
+  }
+ ],
+ "hyperbolic_f_ne_fstar": [
+  {
+   "bi": true,
+   "dim": 6,
+   "f": "1011",
+   "m": 1,
+   "q": true,
+   "split": true,
+   "transverse": true
+  },
+  {
+   "bi": true,
+   "dim": 12,
+   "f": "1011",
+   "m": 2,
+   "q": true,
+   "split": true,
+   "transverse": true
+  },
+  {
+   "bi": true,
+   "dim": 8,
+   "f": "10011",
+   "m": 1,
+   "q": true,
+   "split": true,
+   "transverse": true
+  },
+  {
+   "bi": true,
+   "dim": 10,
+   "f": "100101",
+   "m": 1,
+   "q": true,
+   "split": true,
+   "transverse": true
+  },
+  {
+   "bi": true,
+   "dim": 16,
+   "f": "11001",
+   "m": 2,
+   "q": true,
+   "split": true,
+   "transverse": true
+  }
+ ],
+ "pass_id": 11217,
+ "seconds": 138.7,
+ "selfdual_f_eq_fstar": [
+  {
+   "dim": 4,
+   "f": "111",
+   "m": 2,
+   "q": true,
+   "split": true,
+   "transverse": true
+  },
+  {
+   "dim": 6,
+   "f": "111",
+   "m": 3,
+   "q": true,
+   "split": true,
+   "transverse": true
+  },
+  {
+   "dim": 4,
+   "f": "11111",
+   "m": 1,
+   "q": true,
+   "split": true,
+   "transverse": true
+  },
+  {
+   "dim": 8,
+   "f": "11111",
+   "m": 2,
+   "q": true,
+   "split": true,
+   "transverse": true
+  },
+  {
+   "dim": 6,
+   "f": "1001001",
+   "m": 1,
+   "q": true,
+   "split": true,
+   "transverse": true
+  },
+  {
+   "dim": 8,
+   "f": "111",
+   "m": 4,
+   "q": true,
+   "split": true,
+   "transverse": true
+  }
+ ],
+ "verifier_control": {
+  "accepted": 0,
+  "trials": 200
+ }
+}

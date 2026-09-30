@@ -722,12 +722,28 @@ by counting into exact numbers: the arrow-free fraction is $P(c=n)$, which is $4
 four qutrits and $\approx0.00020$ for five. A random tick protects $0.7255\ldots$ qutrits on average (exactly $0.725322$,
 $0.725518$, $0.725535$ for $n=3,4,5$), so $E[A]=n-0.7255\ldots$ and the maximal arrow has probability about $0.45$. The
 same law holds class by class for qubits through $n=5$ and for $5$- and $7$-dits. It is a law of Clifford dynamics, not
-a special property of qutrits. The proof covers every odd local dimension; for qubits the law is a verified conjecture.
+a special property of qutrits. The proof above covers every odd local dimension; qubits need a separate argument.
 Among the time reversals, the $36$ reflections are also the only \emph{Kramers} ones: an anti-symplectic $\theta$ with
 $\theta^2=-1$ exists only for an even number of qutrits and is local only by exchanging them. Those with $\theta^2=+1$
 are complex conjugation in suitable subsystems. \tierT\,\tierC\ (\cert{w33\_pass11207\_arrow\_theorem.py},
 \cert{w33\_pass11207\_arrow\_by\_planes.py}, \cert{w33\_pass11208\_arrow\_universality.py},
 \cert{w33\_pass11210\_kramers\_time\_reversal.py})
+
+For qubits the diagonalisation step fails. In characteristic two, $q(x)=\omega(x,Sx)$ can vanish on every Lagrangian
+of that kind, as it does on the four-dimensional pieces $V(4)$ and $W(2)$. The law survives. A split in which every
+qubit meets its image exists exactly when some Lagrangian for $\omega$ and $\omega(\cdot,(S+S^{-1})\cdot)$ meets its
+image only in fixed vectors and either carries $q\ne0$ or is fixed pointwise. Every indecomposable piece has such a
+Lagrangian:
+\begin{itemize}
+\item an $\F_2[s]$-lattice, $s=t^2/(1+t)$, in the $t$-adic model of the unipotent blocks $V(2k)$ and
+  $W(k)$~\cite{Hesselink1980};
+\item a graph or a real form for the other pieces;
+\item for three small pieces, one found by search.
+\end{itemize}
+So $A(S)=n-c(S)$ for every number of qubits, with $c=m_1(1)/2+\chi_2\,m_2(1)+m_1(x^2+x+1)$, where $\chi_2$ is
+Hesselink's index at two (exact on all $320$ classes with $n\le5$). The unavoidable record is one bit, $k_BT\ln2$, per
+unprotected qubit per tick. A random qubit tick protects about $0.665$ of a qubit, fewer than a qutrit tick.
+\tierT\,\tierC\ (\cert{w33\_pass11217\_qubit\_arrow\_law.py})
 
 \begin{keyidea}
 Three layers of time, exactly separated: a finite present with a light cone ($27$
