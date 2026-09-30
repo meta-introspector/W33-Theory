@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import json
 import sys
+import tempfile
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -34,7 +35,7 @@ import w33_pass11180_mereology as M  # noqa: E402
 import w33_pass11165_three_qutrit_arrow as A3  # noqa: E402
 
 OUT = ROOT / "data" / "w33_pass11182_paper_ticks_mereology.json"
-CACHE = Path(r"C:/Users/wiljd/AppData/Local/Temp/facs3.npy")
+CACHE = Path(tempfile.gettempdir()) / "facs3.npy"
 
 
 def load_facs():
