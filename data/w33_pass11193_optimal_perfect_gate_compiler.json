@@ -1,0 +1,404 @@
+{
+  "E6_yukawa_sector_walk": {
+    "closed_form": {
+      "start_1.10.10__probability_1.10.10_after_k": "1/9 + (8/9)(1/4)^k",
+      "start_16.16.10__probability_1.10.10_after_k": "1/9 - (1/9)(1/4)^k"
+    },
+    "eigenvalues": [
+      "1",
+      "1/4"
+    ],
+    "full_45_state_walk_eigenvalues": {
+      "-1/4": 24,
+      "1": 1,
+      "1/4": 20
+    },
+    "perfect_neighbour_quotient": [
+      [
+        4,
+        8
+      ],
+      [
+        1,
+        11
+      ]
+    ],
+    "scope": "This is an exact walk on cubic monomial labels induced by uniformly random local dressing of p. It supplies no Yukawa amplitudes, masses, Hamiltonian, or physical probability law.",
+    "sector_sizes": {
+      "1.10.10": 5,
+      "16.16.10": 40
+    },
+    "source": "Pass 11185 E6 Yukawa-sector dictionary",
+    "stationary_distribution": [
+      "1/9",
+      "8/9"
+    ],
+    "transition_matrix": [
+      [
+        "1/3",
+        "2/3"
+      ],
+      [
+        "1/12",
+        "11/12"
+      ]
+    ]
+  },
+  "SUM_compilation": {
+    "L": [
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0
+      ]
+    ],
+    "L_local_ABI": {
+      "A": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "B": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "expression": "diag(A,B) SWAP",
+      "swap": true
+    },
+    "R": [
+      [
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0
+      ]
+    ],
+    "R_local_ABI": {
+      "A": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "B": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "expression": "diag(A,B) SWAP",
+      "swap": true
+    },
+    "h_star": [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0
+      ]
+    ],
+    "h_star_local_ABI": {
+      "A": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "B": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "expression": "diag(A,B) SWAP",
+      "swap": true
+    },
+    "optimal_perfect_gate_depth": 2,
+    "product_verified": true,
+    "target_matrix": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1
+      ]
+    ],
+    "word": "L p h_* p R"
+  },
+  "external_checks": [
+    "Ian Tan, arXiv:2601.19677: LU uniqueness and local symmetries of AME(4,3)",
+    "Roy, van de Wetering, Yeh, arXiv:2307.10095: odd-prime |0>-controlled-X plus Fourier universality"
+  ],
+  "fixed_gate": {
+    "four_qutrit_Choi_type": "AME(4,3) perfect tensor",
+    "matrix": [
+      [
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        2
+      ],
+      [
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        1
+      ]
+    ],
+    "name": "p = tetracode similitude times local time reversal",
+    "order": 4,
+    "relation": "perfect"
+  },
+  "group": {
+    "H_elements_using_SWAP": 576,
+    "H_structure": "(SL(2,3) x SL(2,3)) : C2",
+    "local_factorisation_stabiliser_H_order": 1152,
+    "name": "Sp(4,3) two-qutrit Clifford symplectic quotient",
+    "one_qutrit_SL23_factors": 24,
+    "order": 51840,
+    "projective_order": 25920
+  },
+  "hecke_fusion": {
+    "graph": {
+      "diameter": 2,
+      "factorisations": 45,
+      "identity": "A^2 = 12 I + 3 A + 3 (J-I-A)",
+      "relations": {
+        "identity": 1,
+        "partial": 32,
+        "perfect": 12
+      },
+      "spectrum": {
+        "-3": 24,
+        "12": 1,
+        "3": 20
+      },
+      "two_perfect_paths_per_target": {
+        "identity_target": 12,
+        "partial_target": 3,
+        "perfect_target": 3
+      },
+      "uniform_two_step_probabilities": {
+        "local": "1/12",
+        "partial": "2/3",
+        "perfect": "1/4"
+      }
+    },
+    "p_H_p_middle_factor_counts": {
+      "local": 96,
+      "partial": 768,
+      "perfect": 288
+    },
+    "p_H_p_middle_factor_fractions": {
+      "local": "1/12",
+      "partial": "2/3",
+      "perfect": "1/4"
+    }
+  },
+  "normal_form": {
+    "all_group_elements_reconstructed": 51840,
+    "depth_table_sha256": "7664460005c6324e4e5263d117b68ac87e9cf94f5343d7d84389786d3acf37df",
+    "h_star": [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0
+      ]
+    ],
+    "h_star_local_ABI": {
+      "A": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "B": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "expression": "diag(A,B) SWAP",
+      "swap": true
+    },
+    "maximum_perfect_gate_depth": 2,
+    "mean_perfect_gate_depth": "76/45",
+    "minimality": "Depth zero is exactly H; depth at most one is exactly H union HpH. The partial double coset is disjoint from both and therefore requires exactly two p gates.",
+    "optimal_depth_counts": {
+      "0": 1152,
+      "1": 13824,
+      "2": 36864
+    },
+    "optimal_projective_depth_counts": {
+      "0": 576,
+      "1": 6912,
+      "2": 18432
+    },
+    "p_h_star_p_relation": "partial",
+    "theorem": "Sp(4,3) = H disjoint_union H p H disjoint_union H p h_* p H"
+  },
+  "repo_prior_art": [
+    "analysis/w33_pass11156_perfect_spacetime_gates.py",
+    "analysis/PASS11177_PERFECT_GATES_TRITANGENT.md",
+    "analysis/w33_pass11180_mereology.py",
+    "analysis/PASS11185_E6_YUKAWA_SECTORS.md",
+    "analysis/PASS10944_RESERVATION.md",
+    "analysis/PASS10946_CLOCK_CODE_CONE_OBJECTWISE.md",
+    "analysis/PASS10954_REGULAR_C8_CLOCK_COMPLETION.md",
+    "analysis/PASS10955_D4_HALFSPIN_CLOCK_BRIDGE.md",
+    "analysis/PASS10970_PROJECTIVE_CLOCK_CODE_LATTICE_TOWER.md",
+    "analysis/PASS11091_ONE_GLOBAL_ORIENTATION_BIT.md",
+    "analysis/PASS11035_CUBIC_COCYCLE_WEYL_W33_DESCENT.md",
+    "analysis/PASS11164_THREE_QUTRIT_TETRACODE.md",
+    "analysis/BT927_e8_lift_artifact_reconciliation.md",
+    "analysis/PASS9173_9196_RESERVATION.md"
+  ],
+  "schema": "w33.pass11193.optimal_perfect_gate_compiler.v1",
+  "status": "PASS_OPTIMAL_W33_PERFECT_GATE_DEPTH_TWO_COMPILER",
+  "universal_computation_boundary": {
+    "Clifford_result": "H and the single fixed perfect gate p generate every two-qutrit Clifford, with optimal p-depth <= 2.",
+    "boundary": "The perfect gate alone remains Clifford and is not computationally universal. No physical Hamiltonian, error rate, or device implementation is inferred.",
+    "literature_theorem": "Roy, van de Wetering and Yeh (2023): |0>-controlled X plus Hadamard/Fourier is approximately universal in every odd prime dimension",
+    "non_Clifford_resource": "Pass 10944 E6_CUBIC_TICK / exact |0>-controlled qutrit X",
+    "status_with_existing_E6_cubic_and_Fourier": "APPROXIMATELY_UNIVERSAL_WITH_EXISTING_QUTRIT_FOURIER_GATE"
+  }
+}

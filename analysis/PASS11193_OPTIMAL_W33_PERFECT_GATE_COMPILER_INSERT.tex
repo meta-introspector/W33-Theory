@@ -1,0 +1,38 @@
+\subsection*{One fixed W33 perfect gate compiles every two-qutrit Clifford}
+
+Let $H=(\mathrm{SL}(2,3)\times\mathrm{SL}(2,3)){:}C_2$ be the order-$1152$
+stabilizer of one of the $45$ W33 tensor factorizations, and let $p$ be the
+order-four symplectic tetracode perfect gate. Exact double-coset enumeration
+and objectwise word replay give
+\[
+ \Sp(4,3)=H\;\sqcup\;HpH\;\sqcup\;Hp h_*pH
+\]
+for one fixed $h_*\in H$. The three pieces have sizes
+$1152,13824,36864$ and optimal $p$-depths $0,1,2$ respectively. In
+particular, every two-qutrit Clifford uses at most two copies of the same
+perfect interaction, and the standard qutrit SUM gate has a frozen exact word
+$Lph_*pR$ of minimal depth two.
+
+On the $45$ factorizations, if $A$ is the perfect-relation adjacency matrix,
+\[
+ A^2=12I+3A+3(J-I-A),\qquad
+ \operatorname{Spec}(A)=\{12^1,3^{20},(-3)^{24}\}.
+\]
+This rank-three Hecke identity is the compiler algebra: graph diameter two is
+the depth bound. The fixed gate remains Clifford. Approximate universality
+uses the separate signed-$E_6$ cubic zero-controlled-$X$ resource already
+certified in Pass 10944; no physical implementation is claimed.
+
+The same walk is exactly lumpable on the Pass 11185 decomposition of the
+$45$ cubic monomials into $5$ terms of type $1\cdot10\cdot10$ and $40$ of
+type $16\cdot16\cdot10$.  Its neighbour quotient and stochastic form are
+\[
+ \begin{pmatrix}4&8\\1&11\end{pmatrix},\qquad
+ P=\begin{pmatrix}1/3&2/3\\1/12&11/12\end{pmatrix}.
+\]
+The stationary weights are $(1/9,8/9)$ and the transient mode decays by
+$1/4$ per perfect step.  This is an exact dynamics on Yukawa-term labels,
+not a computation of Yukawa amplitudes, masses or mixing angles.
+The tetracode carrier itself is prior (Passes 10946, 10954--10955, 10970,
+11035 and 11164); the increment here is the optimal two-qutrit word theorem
+and its exact $E_6$ sector quotient.

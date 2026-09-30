@@ -1873,6 +1873,17 @@
           upgrades a finite result into a physical one &mdash; that boundary is
           unchanged and is stated in <a href="#numbers">Core Numbers</a>.</p>
         <div class="card-grid">
+          <div class="card" id="pass11193-perfect-gate-compiler">
+            <div class="num">One fixed W33 perfect gate compiles every two-qutrit Clifford in optimal depth at most two</div>
+            <div class="label">Pass 11193: Sp(4,3) = H &sqcup; HpH &sqcup; Hph<sub>*</sub>pH, with depth counts 1152, 13824, 36864</div>
+            <div class="detail">All 51,840 matrices replay exactly. The rank-three Hecke law is
+              <code>A&sup2; = 12I + 3A + 3(J&minus;I&minus;A)</code>, and qutrit SUM has an explicit minimal two-perfect-gate word.
+              On the E<sub>6</sub> cubic's <code>5+40</code> Yukawa-sector split, the induced perfect-gate walk has
+              quotient <code>[[4,8],[1,11]]</code>, stationary weights <code>1:8</code>, and transient eigenvalue <code>1/4</code>;
+              this evolves coupling labels, not coupling amplitudes.
+              This closes the Clifford compiler; the existing signed-E<sub>6</sub> cubic supplies the separate non-Clifford resource.
+              <a href="https://github.com/wilcompute/W33-Theory/blob/master/analysis/PASS11193_RESERVATION.md">Report</a>.</div>
+          </div>
           <div class="card" id="pass11183-arrow">
             <div class="num">An arrow of time no choice of subsystems removes &mdash; quantised in units of two trits</div>
             <div class="label">Pass 11183: two qutrits 0 or exactly 2 trits (227/360 of ticks); three qutrits 0, 2, 3 &mdash; never 1</div>

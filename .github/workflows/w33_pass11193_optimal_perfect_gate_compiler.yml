@@ -1,0 +1,26 @@
+name: Pass 11193 optimal W33 perfect-gate compiler
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11193_optimal_perfect_gate_compiler.py"
+      - "data/w33_pass11193_optimal_perfect_gate_compiler.json"
+      - "tests/test_w33_pass11193_optimal_perfect_gate_compiler.py"
+      - ".github/workflows/w33_pass11193_optimal_perfect_gate_compiler.yml"
+  pull_request:
+    paths:
+      - "analysis/w33_pass11193_optimal_perfect_gate_compiler.py"
+      - "data/w33_pass11193_optimal_perfect_gate_compiler.json"
+      - "tests/test_w33_pass11193_optimal_perfect_gate_compiler.py"
+
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pytest
+      - run: python analysis/w33_pass11193_optimal_perfect_gate_compiler.py
+      - run: python -m pytest -q tests/test_w33_pass11193_optimal_perfect_gate_compiler.py
