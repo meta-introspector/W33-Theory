@@ -15,8 +15,9 @@ on the 20 orbitals:
   mirror image of the relation. The two members of each pair are enantiomers.
 * The third reversal pair (2304) is τ-fixed. That is why the signature already separates it.
 * Consequence: any invariant blind to the sign of ω cannot separate the tied pairs. This rules out ranks, image and
-  kernel points, incidences, block determinants and loop-holonomy classes. Reversing a loop acts on unipotent
-  holonomies the same way τ does.
+  kernel points, incidences and block determinants. It also rules out the multiset of SL(2,3)-classes of loop
+  holonomies (the invertible blocks of the tied orbitals have det 1). Reversing a loop inverts its holonomy, and on
+  SL(2,3) conjugation by τ maps every element into the class of its inverse (checked on all 24 elements).
 
 **2. The chiral invariant.** The Kashiwara–Maslov index τ(L₁, L₂, L₃) of three Lagrangians is the Witt class in
 W(F₃) = ℤ/4 of Q = ω(x₁,x₂) + ω(x₂,x₃) + ω(x₃,x₁) on L₁ ⊕ L₂ ⊕ L₃, computed as rank − 2[disc = 2] mod 4. It is cyclic,
