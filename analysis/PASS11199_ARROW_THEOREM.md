@@ -28,6 +28,11 @@ Consequences:
 * **The arrow counts the qutrits that are not dynamically protected**: each qutrit the tick can keep invariant saves one
   trit, and each one it cannot costs exactly one trit.
 
+**Reading: half the record.** In an optimal split, each protected qutrit exports nothing. Each unprotected qutrit exports
+**exactly one** of its two trits, since its plane meets its own image in exactly a line. Theorem 4.7 of the paper prices
+a forgotten record at two trits. The intrinsic price is half that: one trit, which by Landauer's principle is
+k_BT ln 3, per unprotected qutrit per tick. (Bridge reading; the mathematics is the theorem.)
+
 ## Proof
 
 **Lower bound.** In any split, let a be the number of planes that are invariant (d = 2), so a ≤ c; the rest have
