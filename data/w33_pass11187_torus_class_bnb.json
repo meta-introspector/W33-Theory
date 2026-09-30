@@ -1,0 +1,16 @@
+{
+ "closed_by_bound": 131374,
+ "closed_by_concavity": 1450,
+ "closed_form_checked": true,
+ "complete": true,
+ "empty": 39,
+ "hessian_fd_max_error": 3.87824783837365e-06,
+ "margin": 1e-09,
+ "negative_control_not_concave": true,
+ "negative_control_rejected": true,
+ "optimum_neighbourhood_accepted": true,
+ "pass_id": 11187,
+ "processed": 265725,
+ "seconds": 13.1,
+ "target": 1.0327955589886444
+}

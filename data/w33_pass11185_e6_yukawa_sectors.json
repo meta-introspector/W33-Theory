@@ -1,0 +1,54 @@
+{
+ "decomposition": [
+  1,
+  10,
+  16
+ ],
+ "factorisations": 45,
+ "factorisations_are_frame_triangles": true,
+ "frame_graph_degree": [
+  10
+ ],
+ "frame_stabiliser_order": 1920,
+ "frame_stabiliser_profile": {
+  "fixed0|F0:collinear": 768,
+  "fixed13|F0:equal": 10,
+  "fixed1|F0:collinear": 288,
+  "fixed1|F0:equal": 72,
+  "fixed2|F0:collinear": 96,
+  "fixed2|F0:equal": 64,
+  "fixed45|F0:equal": 2,
+  "fixed4|F0:collinear": 192,
+  "fixed4|F0:equal": 128,
+  "fixed5|F0:collinear": 96,
+  "fixed5|F0:equal": 44,
+  "fixed6|F0:collinear": 96,
+  "fixed6|F0:equal": 64
+ },
+ "frames": 27,
+ "frames_per_factorisation": [
+  3
+ ],
+ "gate_level_from_S1": {
+  "collinear->S1": 4608,
+  "collinear->S16": 9216,
+  "equal->S1": 1152,
+  "noncollinear->S16": 36864
+ },
+ "pass_id": 11185,
+ "sector_rule_holds": true,
+ "sectors": {
+  "S1": 5,
+  "S16": 40
+ },
+ "transitions_per_split": {
+  "S1->S16|collinear": 8,
+  "S1->S16|noncollinear": 32,
+  "S1->S1|collinear": 4,
+  "S16->S16|collinear": 11,
+  "S16->S16|noncollinear": 28,
+  "S16->S1|collinear": 1,
+  "S16->S1|noncollinear": 4
+ },
+ "triangles": 45
+}

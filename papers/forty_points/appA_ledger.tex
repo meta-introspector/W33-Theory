@@ -63,6 +63,11 @@ four-qutrit near miss: best stabilizer registers fail exactly $2$ of $35$ balanc
 quantum mereology (two qutrits): intrinsically entangling (local in no split) $\Leftrightarrow$ order $5$ or $9$: $19/45$; unique split $19/48$; some ticks local in $6$ splits, perfect in $27$ & \tierT\,\tierC & \cert{w33\_pass11180\_mereology.py}\\
 split stabilisers are $\{2,3\}$-groups: every tick of period with a prime $\ge5$ is intrinsically entangling; three qutrits $7922/12285$, unique split $7/48$ (GAP, all classes) & \tierT\,\tierC & \cert{w33\_pass11181\_intrinsic\_entanglement.py}\\
 the clock is local in $108$ of $110565$ splits (none light-cone; $4$ are the orthogonal frames of $q$); the perfect interacting tick in none & \tierC & \cert{w33\_pass11182\_paper\_ticks\_mereology.py}\\
+intrinsic arrow $A=\min_F\sum_q\operatorname{rank}S_F[\text{others},q]$: two qutrits $0$ or $2$ trits ($227/360$ have $2$); three qutrits $\{0,2,3\}$, never $1$; clock $0$, perfect tick $2$, $\F_9$ gate $3$ & \tierT\,\tierC & \cert{w33\_pass11183\_intrinsic\_arrow.py}\\
+three-qutrit relations: $20$ orbits recomputed independently; image/kernel incidences separate all but two pairs, which are exactly time-reversal pairs (gate vs inverse) & \tierC & \cert{w33\_pass11184\_merged\_orbitals.py}\\
+$E_6$ sectors: $45=5+40$ ($1\cdot10\cdot10$, $16\cdot16\cdot10$); partial ticks never keep a singlet-sector split; $W(D_5)$ (order $1920$) acts locally or perfectly & \tierC & \cert{w33\_pass11185\_e6\_yukawa\_sectors.py}\\
+five qutrits beyond $\F_9$: $71$ AME$(10,3)$ graph states (tabu), $17\,892$ perfect gates, same two patterns; determinant law of every order $\sum_{|I|=k}\det S[I,J]=1$, $\det S[I,J]=\det S[I^c,J^c]$ & \tierT\,\tierC & \cert{w33\_pass11186\_five\_qutrit\_beyond\_f9.py}\\
+$4/\sqrt{15}$ is the maximum on the torus-symmetric class: certified branch and bound terminates ($265725$ boxes) & \tierT\,\tierC & \cert{w33\_pass11187\_torus\_class\_bnb.py}\\
 point/line firewall ($27/108/36$ coincidences, non-isomorphic) & \tierC & \cert{w33\_20260924\_history\_pointline\_cospectral\_firewall.py}\\
 \multicolumn{3}{@{}l}{\textit{Time (\S4)}}\\
 $40=1+12+27$; big cell of $Q(4,3)$ & \tierC & \cert{w33\_20260924\_history\_bigcell\_q43\_compactification.py}\\

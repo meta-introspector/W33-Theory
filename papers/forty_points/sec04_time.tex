@@ -641,6 +641,16 @@ negativity yet still reaches $3.061>2$. In time, a violation witnesses the setti
 measurement, not entanglement. \tierC\ (\cert{w33\_pass11173\_temporal\_cglmp\_to\_four.py},
 \cert{w33\_pass11174\_lightcone\_reflection\_time\_reversal.py}, \cert{w33\_pass11176\_temporal\_echo.py})
 
+The arrow of Theorem~4.7 needs a partner to forget, and which qutrit is the partner depends on the subsystem split. For
+every tick and split, forgetting everything but qutrit $q$ destroys $\operatorname{rank}S_F[\text{others},q]$ trits; the
+\emph{intrinsic arrow} of a tick is the minimum of the total over all splits --- the loss no choice of subsystems avoids.
+It is quantised: for two qutrits it is $0$ or exactly $2$ trits (never $1$, since symplecticity makes the two exports
+equal), and $2$ for $227/360$ of all ticks; for three qutrits it takes only the values $0$, $2$, $3$, because information
+never leaks out of a single subsystem alone. The paper's clock has no intrinsic arrow (it is arrow-free in its $108$
+splits); the perfect interacting tick costs at least $2$ trits in every split, and the $\F_9$ gate $3$. An arrow of time
+that survives every change of subsystems exists exactly for these ticks, and comes in units of at least one full qutrit
+record. \tierC\ (\cert{w33\_pass11183\_intrinsic\_arrow.py})
+
 \begin{keyidea}
 Three layers of time, exactly separated: a finite present with a light cone ($27$
 events, $t^2-x^2-y^2$); an unbounded, oriented history (a free group, an $8$-regular tree,

@@ -1,0 +1,18 @@
+{
+ "all_five_realised": false,
+ "best_distribution": {
+  "0": 71,
+  "8": 229
+ },
+ "determinant_law_every_order": true,
+ "gates_all_perfect_symplectic": true,
+ "graphs_found": 71,
+ "jacobi_complement_symmetry": true,
+ "new_beyond_f9": [],
+ "pass_id": 11186,
+ "patterns": {
+  "C10": 5112,
+  "cross+perm": 12780
+ },
+ "restarts": 300
+}
