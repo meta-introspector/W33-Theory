@@ -1,0 +1,21 @@
+name: W33 Pass 11211 AME10 SAT replication
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11211_*.py"
+      - "analysis/PASS11211_AME10_SAT_REPLICATION.md"
+      - "data/w33_pass11211_*.json"
+      - "tests/test_w33_pass11211_ame10_sat_replication.py"
+      - ".github/workflows/w33_pass11211_ame10_sat_replication.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest networkx ortools python-sat
+      - run: python -m pytest -q tests/test_w33_pass11211_ame10_sat_replication.py

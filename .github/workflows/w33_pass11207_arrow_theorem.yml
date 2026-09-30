@@ -1,0 +1,23 @@
+name: W33 Pass 11207 arrow theorem
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11207_*.py"
+      - "analysis/PASS11207_ARROW_THEOREM.md"
+      - "data/w33_pass11207_*.json"
+      - "tests/test_w33_pass11207_arrow_theorem.py"
+      - "tests/test_w33_pass11207_arrow_by_planes.py"
+      - "tests/test_w33_pass11207_half_moving_splits.py"
+      - ".github/workflows/w33_pass11207_arrow_theorem.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest networkx ortools python-sat
+      - run: python -m pytest -q tests/test_w33_pass11207_arrow_theorem.py tests/test_w33_pass11207_arrow_by_planes.py tests/test_w33_pass11207_half_moving_splits.py

@@ -127,7 +127,7 @@ polynomial-time closed form.
 **Scope and prior art.**
 * The structure theory used is classical: orthogonal decomposition of isometries of symplectic spaces by characteristic
   polynomial, and unipotent classes of Sp and U in odd characteristic (Wall, *J. Austral. Math. Soc.* 3 (1963); Milnor,
-  *Topology* 8 (1969); Springer–Steinberg).
+  *Invent. Math.* 8 (1969) 83–97; Springer–Steinberg).
 * Taussky–Zassenhaus (*Pacific J. Math.* 9 (1959)): every square matrix is similar to its transpose via a symmetric matrix.
 * The arrow A is Pass 11183; exact n = 2, 3 is master's Pass 11188; c(S), the plane formula and the all-n theorem are this pass. The operational-mereology idea of minimising scrambling over subsystem structures is Zanardi, Dallas, Andreadakis & Lloyd, Quantum 8, 1406 (2024), cited in Pass 11188.
 * The proof is written for F₃. Every step uses only odd characteristic, so it extends verbatim to qudits of any odd prime

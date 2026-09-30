@@ -678,11 +678,51 @@ conjugates, with rotation frequencies in the Eisenstein field (for the smallest,
 \cert{w33\_pass11204\_second\_law\_counting.py}, \cert{w33\_pass11205\_one\_way\_clock.py},
 \cert{w33\_pass11201\_twist\_chiral\_invariant.py})
 
+All of this is one law.
+
+\begin{result}{Theorem 4.8 (the intrinsic arrow for every number of qutrits) \hfill \tierT}
+Let $c(S)$ be the largest number of mutually orthogonal $S$-invariant nondegenerate planes: the qutrits a tick can
+keep to themselves. For every $n$ and every Clifford tick $S\in\Sp(2n,3)$,
+\[
+A(S)\;=\;n-c(S),
+\qquad
+c(S)=\sum_{\lambda=\pm1}\bigl(m_1(\lambda)/2+m_2(\lambda)\bigr)+m_1^{\F_9}(x^2+1),
+\]
+with $m_s$ the number of Jordan blocks of size $s$. So $A\le n$, $A=n$ exactly when no qutrit is dynamically protected,
+and $A\ne1$.
+\end{result}
+
+\begin{proof}[Sketch]
+In any split, $a\le c$ planes are invariant and the rest meet their image at most in a line, so $E\ge n-a\ge n-c$.
+Conversely, split off a maximal invariant family and decompose the rest orthogonally by the characteristic polynomial
+and the unipotent and unitary Jordan structure. In each indecomposable piece, a Lagrangian for both $\omega$ and
+$\omega(\cdot,(S+S^{-1})\cdot)$ that is transverse to its image, or meets it in one eigenvector, yields a split in which
+every qutrit meets its own image. Such a Lagrangian comes from a Taussky--Zassenhaus graph~\cite{TausskyZassenhaus1959},
+a Cayley-transform parity subspace, an eigenvector reduction, or a Hermitian real form
+(structure theory of~\cite{Wall1963,Milnor1969}).
+\end{proof}
+
+In every optimal split each protected qutrit exports nothing and each unprotected one exports \emph{exactly one} of its
+two trits. Theorem~4.7 prices a forgotten record at two trits. The best choice of subsystems halves that price: one
+trit, or $k_BT\ln3$ by Landauer, per unprotected qutrit per tick. \tierB
+
+The theorem is checked on every conjugacy class for $n\le5$ ($20$, $74$, $278$ and $940$ classes). It turns the second law
+by counting into exact numbers: the arrow-free fraction is $P(c=n)$, which is $43815911/8703676800\approx0.00503$ for
+four qutrits and $\approx0.00020$ for five. A random tick protects $0.7255\ldots$ qutrits on average (exactly $0.725322$,
+$0.725518$, $0.725535$ for $n=3,4,5$), so $E[A]=n-0.7255\ldots$ and the maximal arrow has probability about $0.45$. The
+same law holds class by class for qubits through $n=5$ and for $5$- and $7$-dits. It is a law of Clifford dynamics, not
+a special property of qutrits. The proof covers every odd local dimension; for qubits the law is a verified conjecture.
+Among the time reversals, the $36$ reflections are also the only \emph{Kramers} ones: an anti-symplectic $\theta$ with
+$\theta^2=-1$ exists only for an even number of qutrits and is local only by exchanging them. Those with $\theta^2=+1$
+are complex conjugation in suitable subsystems. \tierT\,\tierC\ (\cert{w33\_pass11207\_arrow\_theorem.py},
+\cert{w33\_pass11207\_arrow\_by\_planes.py}, \cert{w33\_pass11208\_arrow\_universality.py},
+\cert{w33\_pass11210\_kramers\_time\_reversal.py})
+
 \begin{keyidea}
 Three layers of time, exactly separated: a finite present with a light cone ($27$
 events, $t^2-x^2-y^2$); an unbounded, oriented history (a free group, an $8$-regular tree,
 a winding the present cannot see); and an arrow that costs exactly two trits of forgotten
-record per tick.
+record per tick, of which one trit per unprotected qutrit no choice of subsystems avoids (Theorem~4.8).
 \end{keyidea}
 
 \begin{boundary}

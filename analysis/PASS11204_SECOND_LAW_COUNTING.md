@@ -31,3 +31,16 @@ The fraction falls by factors of about 2.7, 5.9, 11 and then more than 6, faster
 arrow-free is a vanishing corner once there are a few qutrits: a second law obtained by counting, not by coarse-graining
 or a low-entropy initial state. The counting is over Clifford ticks with the uniform measure. No claim is made about
 thermodynamic entropy or physical initial conditions.
+
+**Cross-track note (added with Passes 11207–11208).** Arrow-free is A = 0, and by Theorem A = n − c(S) (Pass 11207)
+that holds exactly when c = n, i.e. the tick preserves n mutually orthogonal nondegenerate planes. Summing over the
+conjugacy classes turns the sampled rows into exact fractions:
+
+| n | exact arrow-free fraction | source | sample above |
+|---|---|---|---|
+| 4 | 43 815 911 / 8 703 676 800 = 0.005034 | all 278 classes of PSp(8,3), `data/w33_pass11208_arrow_universality.json` | 0.0058 ± 0.0005 (1.5 σ) |
+| 5 | 36 659 605 018 759 / 180 638 872 346 275 200 = 0.000203 | all 940 classes of PSp(10,3), same file | 0 / 3000 |
+
+The successive ratios are 2.71, 5.91, 12.4 and 24.8, so the decay is super-exponential and the ratio roughly doubles
+with each qutrit, as the counting here predicted. The mean number of protected qutrits converges instead: E[c] =
+133/180, 106927/147420, 142080247/195832728 for n = 2, 3, 4, which tends to 0.7255… (Pass 11208).
