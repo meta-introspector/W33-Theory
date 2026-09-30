@@ -1,0 +1,432 @@
+{
+ "extra_in_sample": 0,
+ "max_sigma_deviation": 2.6023733972759437,
+ "merged": [
+  [
+   6912,
+   6912
+  ],
+  [
+   256,
+   256,
+   2304,
+   6912,
+   6912
+  ]
+ ],
+ "orbitals": 20,
+ "pass_id": 11178,
+ "perfect": [
+  {
+   "expected_fraction": 0.03125763125763126,
+   "orbitals": [
+    3456
+   ],
+   "sampled_fraction": 0.03128,
+   "signature": [
+    [
+     2,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     2
+    ],
+    [
+     3,
+     2,
+     2
+    ]
+   ],
+   "total": 3456
+  }
+ ],
+ "sample_size": 300000,
+ "signature_classes": 15,
+ "table": [
+  {
+   "expected_fraction": 9.044453488897933e-06,
+   "orbitals": [
+    1
+   ],
+   "sampled_fraction": 2.3333333333333332e-05,
+   "signature": [
+    [
+     0,
+     0,
+     2
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     2,
+     0,
+     0
+    ]
+   ],
+   "total": 1
+  },
+  {
+   "expected_fraction": 0.0003256003256003256,
+   "orbitals": [
+    36
+   ],
+   "sampled_fraction": 0.00034666666666666667,
+   "signature": [
+    [
+     0,
+     0,
+     2
+    ],
+    [
+     3,
+     3,
+     0
+    ],
+    [
+     3,
+     3,
+     0
+    ]
+   ],
+   "total": 36
+  },
+  {
+   "expected_fraction": 0.0008682675349342016,
+   "orbitals": [
+    96
+   ],
+   "sampled_fraction": 0.0008566666666666667,
+   "signature": [
+    [
+     0,
+     0,
+     2
+    ],
+    [
+     1,
+     2,
+     0
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ],
+   "total": 96
+  },
+  {
+   "expected_fraction": 0.006946140279473613,
+   "orbitals": [
+    768
+   ],
+   "sampled_fraction": 0.0068,
+   "signature": [
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     1,
+     2,
+     1
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ],
+   "total": 768
+  },
+  {
+   "expected_fraction": 0.007814407814407814,
+   "orbitals": [
+    864
+   ],
+   "sampled_fraction": 0.00748,
+   "signature": [
+    [
+     0,
+     3,
+     3
+    ],
+    [
+     3,
+     2,
+     2
+    ],
+    [
+     3,
+     2,
+     2
+    ]
+   ],
+   "total": 864
+  },
+  {
+   "expected_fraction": 0.02083842083842084,
+   "orbitals": [
+    2304
+   ],
+   "sampled_fraction": 0.020903333333333333,
+   "signature": [
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     3,
+     1
+    ],
+    [
+     3,
+     3,
+     1
+    ]
+   ],
+   "total": 2304
+  },
+  {
+   "expected_fraction": 0.02083842083842084,
+   "orbitals": [
+    2304
+   ],
+   "sampled_fraction": 0.021283333333333335,
+   "signature": [
+    [
+     0,
+     3,
+     3
+    ],
+    [
+     1,
+     3,
+     3
+    ],
+    [
+     2,
+     1,
+     1
+    ]
+   ],
+   "total": 2304
+  },
+  {
+   "expected_fraction": 0.03125763125763126,
+   "orbitals": [
+    3456
+   ],
+   "sampled_fraction": 0.03128,
+   "signature": [
+    [
+     2,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     2
+    ],
+    [
+     3,
+     2,
+     2
+    ]
+   ],
+   "total": 3456
+  },
+  {
+   "expected_fraction": 0.04167684167684168,
+   "orbitals": [
+    4608
+   ],
+   "sampled_fraction": 0.04089,
+   "signature": [
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     1,
+     2,
+     1
+    ],
+    [
+     2,
+     1,
+     1
+    ]
+   ],
+   "total": 4608
+  },
+  {
+   "expected_fraction": 0.06251526251526252,
+   "orbitals": [
+    6912
+   ],
+   "sampled_fraction": 0.06279,
+   "signature": [
+    [
+     1,
+     3,
+     3
+    ],
+    [
+     3,
+     2,
+     2
+    ],
+    [
+     3,
+     2,
+     2
+    ]
+   ],
+   "total": 6912
+  },
+  {
+   "expected_fraction": 0.06251526251526252,
+   "orbitals": [
+    6912
+   ],
+   "sampled_fraction": 0.06250666666666667,
+   "signature": [
+    [
+     1,
+     3,
+     3
+    ],
+    [
+     3,
+     1,
+     3
+    ],
+    [
+     3,
+     3,
+     1
+    ]
+   ],
+   "total": 6912
+  },
+  {
+   "expected_fraction": 0.09377289377289377,
+   "orbitals": [
+    10368
+   ],
+   "sampled_fraction": 0.09341666666666666,
+   "signature": [
+    [
+     1,
+     1,
+     2
+    ],
+    [
+     1,
+     1,
+     2
+    ],
+    [
+     2,
+     2,
+     3
+    ]
+   ],
+   "total": 10368
+  },
+  {
+   "expected_fraction": 0.12503052503052503,
+   "orbitals": [
+    6912,
+    6912
+   ],
+   "sampled_fraction": 0.12507333333333334,
+   "signature": [
+    [
+     1,
+     1,
+     2
+    ],
+    [
+     3,
+     3,
+     1
+    ],
+    [
+     3,
+     3,
+     1
+    ]
+   ],
+   "total": 13824
+  },
+  {
+   "expected_fraction": 0.1504997060552616,
+   "orbitals": [
+    256,
+    256,
+    2304,
+    6912,
+    6912
+   ],
+   "sampled_fraction": 0.15087333333333333,
+   "signature": [
+    [
+     1,
+     1,
+     2
+    ],
+    [
+     1,
+     2,
+     1
+    ],
+    [
+     2,
+     1,
+     1
+    ]
+   ],
+   "total": 16640
+  },
+  {
+   "expected_fraction": 0.3750915750915751,
+   "orbitals": [
+    41472
+   ],
+   "sampled_fraction": 0.3754766666666667,
+   "signature": [
+    [
+     1,
+     1,
+     2
+    ],
+    [
+     1,
+     3,
+     3
+    ],
+    [
+     2,
+     3,
+     2
+    ]
+   ],
+   "total": 41472
+  }
+ ],
+ "total": 110565,
+ "unseen_in_sample": 0
+}

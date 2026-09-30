@@ -625,6 +625,22 @@ $3.787$, $3.831$, $3.853$ at $d=12,16,20,24$, the earlier $d=6,7$ values improve
 from $4$ falls like $3.4/d$ --- consistent with $4$ as a supremum that is never attained.
 \tierC\ (\cert{w33\_pass11168\_clock\_dual\_pair.py}, \cert{w33\_pass11171\_temporal\_cglmp\_large\_d.py})
 
+The approach to $4$ can be written down. With $d$ outcomes every CGLMP term is one linear ramp in the cyclic lag $\delta$
+of the second outcome from its target, so $I_d=4-\tfrac{2}{d-1}L$ with $L$ the total expected lag (a local model has
+$L\ge d-1$). A strategy read off the optimisers --- a rest vector shared by the first basis and both later bases, and a
+shift register on its complement, spread by one Householder reflection --- has exactly
+$L=3+2(\sqrt d-2)/(\sqrt d(\sqrt d-1))$, so $I_d\ge 4-6/(d-1)-O(d^{-3/2})$: with the no-go above, $\sup_d I_d=4$, never
+attained. The post-measurement vector carries the setting (rest vector or register) as well as the outcome, at a cost
+$O(1/d)$. Three further facts tie this to the clock. The orientation pattern forced on every perfect interacting tick is
+the symmetric-square image of the swap in $GL(2,3)$, an element of determinant $-1$ --- the coset that the tetracode
+clock group marks as time-reversing --- and a single oblique Hesse clock, squared, is already a perfect potential.
+Entanglement between a qutrit and its own past through a Clifford tick is all-or-nothing: it survives in full exactly
+when the tick acts locally on that qutrit, and a perfect tick erases it until an echo (for the tick above, at the ninth
+tick). And a temporal Bell violation does not need it: through one clock tick a light-cone qutrit has no temporal
+negativity yet still reaches $3.061>2$. In time, a violation witnesses the setting-dependent memory of the first
+measurement, not entanglement. \tierC\ (\cert{w33\_pass11173\_temporal\_cglmp\_to\_four.py},
+\cert{w33\_pass11174\_lightcone\_reflection\_time\_reversal.py}, \cert{w33\_pass11176\_temporal\_echo.py})
+
 \begin{keyidea}
 Three layers of time, exactly separated: a finite present with a light cone ($27$
 events, $t^2-x^2-y^2$); an unbounded, oriented history (a free group, an $8$-regular tree,

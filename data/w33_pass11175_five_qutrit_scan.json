@@ -1,0 +1,22 @@
+{
+ "f9": {
+  "rows": 11264,
+  "row_sets": 22020096,
+  "unitary_matrices": 2642411520,
+  "degree_mean": 305.45454545454544,
+  "patterns": {
+   "0001100101010011000111111": 15728640,
+   "0001100101010101010011000": 6291456
+  },
+  "patterns_integral": true
+ },
+ "graphs": [],
+ "graph_gate_patterns": {},
+ "graph_gates_all_perfect_symplectic": true,
+ "circulant_stabiliser": {
+  "stabiliser": 4,
+  "local_orbit": 15850845241344,
+  "sp10": "152915585868239728626892800",
+  "orbit_fraction": 1.0365748626174666e-13
+ }
+}

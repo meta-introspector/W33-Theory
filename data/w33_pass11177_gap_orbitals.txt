@@ -1,0 +1,6 @@
+n=2 |G|=51840 factorisations=45 rank=3
+subdegrees=[ 1, 12, 32 ]
+point stabiliser order=576 structure=((C2 x C2 x C2) : (C2 x C2)) : (C3 x S3)
+n=3 |G|=9170703360 factorisations=110565 rank=20
+subdegrees=[ 1, 36, 96, 256, 256, 768, 864, 2304, 2304, 2304, 3456, 4608, 
+  6912, 6912, 6912, 6912, 6912, 6912, 10368, 41472 ]

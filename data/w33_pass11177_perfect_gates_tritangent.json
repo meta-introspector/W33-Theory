@@ -1,0 +1,35 @@
+{
+ "H_orbit_on_collinear": 12,
+ "H_order": 1152,
+ "H_stabiliser_of_neighbour": 96,
+ "census": {
+  "02|equal": 576,
+  "12|noncollinear": 18432,
+  "20|equal": 576,
+  "21|noncollinear": 18432,
+  "22|collinear": 13824
+ },
+ "degree": [
+  12
+ ],
+ "disjoint_pairs": 270,
+ "factorisations": 45,
+ "frames": 27,
+ "frames_partition_40": true,
+ "frames_per_factorisation": [
+  3
+ ],
+ "gap_rank20_110565": true,
+ "gap_rank3_45": true,
+ "nondegenerate_planes": 90,
+ "pairs_per_frame_count": {
+  "1": 270
+ },
+ "pass_id": 11177,
+ "srg_lambda": [
+  3
+ ],
+ "srg_mu": [
+  3
+ ]
+}

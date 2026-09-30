@@ -1,0 +1,51 @@
+{
+ "all_rank_two": true,
+ "all_single_blocks_invertible": true,
+ "all_third_pairing_maximal": true,
+ "all_three_uniform": true,
+ "all_ticks_symplectic": true,
+ "checked": 20,
+ "count_distribution": {
+  "2": 120
+ },
+ "count_minimum": 2,
+ "deficit_distribution": {
+  "4": 36
+ },
+ "deficit_minimum": 4,
+ "example": {
+  "deficient_ranks": [
+   2,
+   2
+  ],
+  "pairs": [
+   [
+    0,
+    5
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    4,
+    7
+   ],
+   [
+    1,
+    6
+   ]
+  ],
+  "single_blocks_invertible": true,
+  "third_pairing_rank": 4,
+  "three_uniform": true,
+  "tick_symplectic": true,
+  "two_party_ranks": {
+   "out[2, 3]|in[0, 5]": 2,
+   "out[2, 3]|in[1, 6]": 2,
+   "out[4, 7]|in[0, 5]": 2,
+   "out[4, 7]|in[1, 6]": 2
+  }
+ },
+ "pass_id": 11179
+}

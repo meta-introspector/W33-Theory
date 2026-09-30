@@ -1,0 +1,46 @@
+{
+ "admissible_classes": 5,
+ "admissible_counts": {
+  "C10": 1440,
+  "C4+C6": 600,
+  "all": 1,
+  "cross+perm": 600,
+  "double cross": 100
+ },
+ "admissible_names": [
+  "C10",
+  "C4+C6",
+  "all",
+  "cross+perm",
+  "double cross"
+ ],
+ "circulant_stabiliser": {
+  "local_orbit": 15850845241344,
+  "orbit_fraction": 1.0365748626174666e-13,
+  "sp10": "152915585868239728626892800",
+  "stabiliser": 4
+ },
+ "f9_patterns": {
+  "C10": 6291456,
+  "cross+perm": 15728640
+ },
+ "f9_row_sets": 22020096,
+ "f9_rows": 11264,
+ "f9_unitaries": 2642411520,
+ "graph_gate_patterns": {},
+ "graph_gates_all_perfect": true,
+ "graphs_found": 0,
+ "not_realised": [
+  "C4+C6",
+  "all",
+  "double cross"
+ ],
+ "pass_id": 11175,
+ "realised": [
+  "C10",
+  "cross+perm"
+ ],
+ "sp10_fraction_upper_95": 4.2857142857142857e-07,
+ "sp10_perfect": 0,
+ "sp10_samples": 7000000
+}

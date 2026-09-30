@@ -1,0 +1,146 @@
+{
+ "coordinate_permutations": [
+  {
+   "L": [
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ],
+   "det_g": 2,
+   "g": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ]
+  },
+  {
+   "L": [
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ],
+   "det_g": 2,
+   "g": [
+    [
+     0,
+     2
+    ],
+    [
+     2,
+     0
+    ]
+   ]
+  },
+  {
+   "L": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ],
+   "det_g": 1,
+   "g": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "L": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ],
+   "det_g": 1,
+   "g": [
+    [
+     2,
+     0
+    ],
+    [
+     0,
+     2
+    ]
+   ]
+  }
+ ],
+ "det_pairs": {
+  "(1, 1)": 24,
+  "(2, 2)": 24
+ },
+ "four_clock_perfect": 36,
+ "four_clock_rule_exact": true,
+ "lightcone_reflection_is_sym2_swap": true,
+ "lorentz_images": 24,
+ "pass_id": 11174,
+ "single_lightcone_clock_perfect": [
+  false,
+  false
+ ],
+ "single_oblique_clock_perfect": [
+  true,
+  true
+ ],
+ "vkv_pi": [
+  2,
+  1,
+  0
+ ]
+}

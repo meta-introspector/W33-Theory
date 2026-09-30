@@ -334,3 +334,24 @@ state, which the shadow inequalities exclude~\cite{HuberShadow2018} --- while fi
 circulant over $\F_9$, cf.~\cite{GrasslRoetteler2015}): perfect ticks exist for registers of $1,2,3$ and $5$ qutrits,
 never $4$. \tierC\ (\cert{w33\_pass11167\_polygamy\_global.py}, \cert{w33\_pass11169\_perfect\_gate\_local\_orbits.py},
 \cert{w33\_pass11170\_perfect\_gate\_ladder.py})
+
+The polygamy region is now mapped. For every weight $\lambda$, the maximum of $N_{AB}+\lambda N_{AC}$ over all states
+equals its maximum on the same closed-form family (a dual see-saw from $150$ starts per weight agrees to $10^{-12}$), and
+for $\lambda\le\lambda_c=0.9214$ it is simply $1$, attained by a maximally entangled pair with the third qutrit idle.
+Spatial polygamy is a thin bulge beyond the monogamous line $N_{AB}+N_{AC}=1$ --- at most $0.0328$, and only for nearly
+balanced sharing --- against $2$ in time. The perfect gates also have a geometric home. A tensor factorisation of two
+qutrits is an octet of W(3,3); the $45$ octets are the tritangent planes of the cubic surface and the $27$ complete
+factorisation frames are its lines. A two-qutrit Clifford gate is perfect exactly when it moves the factorisation to a
+\emph{collinear} one --- a tritangent plane sharing a line with the original --- while the gates with $I_3=-1$ move it
+to a non-collinear one and the local gates fix it: the three classes of the determinant law are the three relations of
+$\mathrm{GQ}(4,2)$, and the perfect gates form a single double coset of the factorisation stabiliser. For three qutrits
+the $110565$ factorisations carry a rank-$20$ geometry (computed in GAP); the Choi-entanglement signature of a gate
+distinguishes $15$ of its $20$ relations, and the perfect relation is a single one, of size $3456$. Five qutrits admit perfect ticks but they are sparse: none turns up in $7\times10^6$ samples of $\Sp(10,3)$, one local
+orbit fills only $10^{-13}$ of the group, and the exact count of $\F_9$-linear ones is $2\,642\,411\,520$, which realise
+only two of the five orientation patterns the determinant law allows. Four qutrits, which can never scramble perfectly, come close in a rigid way: the best eight-qutrit stabilizer states
+found miss exactly two of the $35$ balanced cuts, each by two trits, and are otherwise $3$-uniform. The register pairs
+itself up, and read as a tick the only defect is that aligned input pairs reach aligned output pairs with rank $2$
+instead of $4$.
+\tierC\ (\cert{w33\_pass11172\_polygamy\_frontier.py}, \cert{w33\_pass11177\_perfect\_gates\_tritangent.py},
+\cert{w33\_pass11178\_three\_qutrit\_orbitals.py}, \cert{w33\_pass11175\_five\_qutrit\_patterns.py},
+\cert{w33\_pass11179\_four\_qutrit\_near\_miss.py})

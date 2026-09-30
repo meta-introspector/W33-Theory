@@ -1,0 +1,22 @@
+name: W33 Pass 11173 temporal cglmp to four
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11173_*.py"
+      - "analysis/w33_so16_one_loop.py"
+      - "analysis/PASS11173_TEMPORAL_CGLMP_TO_FOUR.md"
+      - "data/w33_pass11173_*.json"
+      - "tests/test_w33_pass11173_temporal_cglmp_to_four.py"
+      - ".github/workflows/w33_pass11173_temporal_cglmp_to_four.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest pycddlib networkx
+      - run: python -m pytest -q tests/test_w33_pass11173_temporal_cglmp_to_four.py
