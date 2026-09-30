@@ -355,3 +355,18 @@ instead of $4$.
 \tierC\ (\cert{w33\_pass11172\_polygamy\_frontier.py}, \cert{w33\_pass11177\_perfect\_gates\_tritangent.py},
 \cert{w33\_pass11178\_three\_qutrit\_orbitals.py}, \cert{w33\_pass11175\_five\_qutrit\_patterns.py},
 \cert{w33\_pass11179\_four\_qutrit\_near\_miss.py})
+
+Who decides what the subsystems are? A theory of everything is not handed a tensor-product structure; it has to
+produce one, and a tick is non-entangling only relative to the splits it preserves (quantum mereology~\cite{CarrollSingh2021}).
+On W(3,3) the candidate splits are finite --- the $45$ tritangent planes for two qutrits, $110565$ factorisations for
+three --- so the question has an exact answer. A tick is local in a split exactly when it lies in that split's
+stabiliser, and the stabiliser is a $\{2,3\}$-group; hence every tick whose period involves a prime $\ge5$ entangles in
+\emph{every} split, and for two qutrits so does every tick of period $9$. Such intrinsically entangling ticks are
+$19/45$ of all two-qutrit Clifford ticks and $7922/12285\approx64.5\%$ of three-qutrit ones, while ticks that single out a
+unique split fall from $19/48$ to $7/48$. Perfection is relative: some two-qutrit ticks are product gates for $6$ splits
+and maximal scramblers for $27$. The paper's clock is a product of three independent qutrit clocks in exactly $108$
+splits --- none of them the light-cone coordinates in which it is written; $4$ are the orthogonal frames of the
+Lorentzian form and $104$ mix positions with momenta --- while the perfect interacting tick is local in none: the
+interaction that makes it scramble maximally removes every split in which it could look local. \tierC\
+(\cert{w33\_pass11180\_mereology.py}, \cert{w33\_pass11181\_intrinsic\_entanglement.py},
+\cert{w33\_pass11182\_paper\_ticks\_mereology.py})

@@ -1,0 +1,133 @@
+{
+ "factorisations": 45,
+ "gap_classes": "n=2 |PSp|=25920 factorisations=45 classes=20\nCLASS order=1 size=1 fixed=45\nCLASS order=5 size=5184 fixed=0\nCLASS order=3 size=40 fixed=9\nCLASS order=3 size=40 fixed=9\nCLASS order=9 size=2880 fixed=0\nCLASS order=9 size=2880 fixed=0\nCLASS order=2 size=270 fixed=5\nCLASS order=4 size=3240 fixed=1\nCLASS order=2 size=45 fixed=13\nCLASS order=4 size=540 fixed=1\nCLASS order=6 size=360 fixed=1\nCLASS order=6 size=360 fixed=1\nCLASS order=12 size=2160 fixed=1\nCLASS order=12 size=2160 fixed=1\nCLASS order=3 size=480 fixed=3\nCLASS order=6 size=1440 fixed=1\nCLASS order=3 size=240 fixed=6\nCLASS order=6 size=720 fixed=4\nCLASS order=6 size=720 fixed=4\nCLASS order=6 size=2160 fixed=2\nn=2 fixed-point-free (intrinsically entangling) elements=10944 fraction=19/45\nn=3 |PSp|=4585351680 factorisations=110565 classes=74\nCLASS order=1 size=1 fixed=110565\nCLASS order=3 size=4717440 fixed=27\nCLASS order=3 size=364 fixed=3645\nCLASS order=3 size=364 fixed=3645\nCLASS order=9 size=9434880 fixed=0\nCLASS order=9 size=9434880 fixed=0\nCLASS order=2 size=7371 fixed=1125\nCLASS order=6 size=29484 fixed=45\nCLASS order=6 size=29484 fixed=45\nCLASS order=3 size=21840 fixed=486\nCLASS order=6 size=1179360 fixed=36\nCLASS order=6 size=1179360 fixed=36\nCLASS order=6 size=294840 fixed=117\nCLASS order=6 size=294840 fixed=117\nCLASS order=9 size=9434880 fixed=0\nCLASS order=9 size=9434880 fixed=0\nCLASS order=18 size=84913920 fixed=0\nCLASS order=18 size=84913920 fixed=0\nCLASS order=9 size=2358720 fixed=0\nCLASS order=9 size=2358720 fixed=0\nCLASS order=4 size=44226 fixed=45\nCLASS order=4 size=3980340 fixed=5\nCLASS order=12 size=15921360 fixed=5\nCLASS order=12 size=15921360 fixed=5\nCLASS order=8 size=47764080 fixed=1\nCLASS order=24 size=191056320 fixed=1\nCLASS order=24 size=191056320 fixed=1\nCLASS order=4 size=1990170 fixed=13\nCLASS order=12 size=15921360 fixed=1\nCLASS order=12 size=15921360 fixed=1\nCLASS order=3 size=262080 fixed=108\nCLASS order=3 size=262080 fixed=108\nCLASS order=6 size=14152320 fixed=12\nCLASS order=6 size=14152320 fixed=12\nCLASS order=8 size=143292240 fixed=1\nCLASS order=2 size=189540 fixed=189\nCLASS order=6 size=10614240 fixed=18\nCLASS order=6 size=1769040 fixed=6\nCLASS order=12 size=31842720 fixed=4\nCLASS order=12 size=31842720 fixed=4\nCLASS order=3 size=43680 fixed=243\nCLASS order=6 size=3538080 fixed=3\nCLASS order=12 size=21228480 fixed=3\nCLASS order=6 size=7076160 fixed=24\nCLASS order=6 size=7076160 fixed=24\nCLASS order=12 size=127370880 fixed=2\nCLASS order=12 size=127370880 fixed=2\nCLASS order=18 size=84913920 fixed=0\nCLASS order=18 size=84913920 fixed=0\nCLASS order=18 size=21228480 fixed=0\nCLASS order=18 size=21228480 fixed=0\nCLASS order=6 size=1179360 fixed=9\nCLASS order=6 size=1179360 fixed=9\nCLASS order=12 size=63685440 fixed=1\nCLASS order=12 size=1769040 fixed=9\nCLASS order=12 size=1769040 fixed=9\nCLASS order=36 size=127370880 fixed=0\nCLASS order=36 size=127370880 fixed=0\nCLASS order=7 size=327525120 fixed=0\nCLASS order=14 size=327525120 fixed=0\nCLASS order=5 size=38211264 fixed=0\nCLASS order=10 size=38211264 fixed=0\nCLASS order=20 size=229267584 fixed=0\nCLASS order=6 size=127370880 fixed=3\nCLASS order=9 size=169827840 fixed=3\nCLASS order=9 size=169827840 fixed=3\nCLASS order=12 size=10614240 fixed=6\nCLASS order=13 size=352719360 fixed=0\nCLASS order=13 size=352719360 fixed=0\nCLASS order=15 size=152845056 fixed=0\nCLASS order=15 size=152845056 fixed=0\nCLASS order=12 size=31842720 fixed=2\nCLASS order=30 size=152845056 fixed=0\nCLASS order=30 size=152845056 fixed=0\nn=3 fixed-point-free (intrinsically entangling) elements=2956870656 fraction=\n7922/12285\n",
+ "intrinsically_entangling": 21888,
+ "intrinsically_entangling_orders": [
+  "5",
+  "9"
+ ],
+ "max_perfect": 27,
+ "pass_id": 11180,
+ "rows": [
+  {
+   "count": 11520,
+   "local": 0,
+   "orders": {
+    "9": 11520
+   },
+   "partial": 36,
+   "perfect": 9
+  },
+  {
+   "count": 10368,
+   "local": 0,
+   "orders": {
+    "5": 10368
+   },
+   "partial": 30,
+   "perfect": 15
+  },
+  {
+   "count": 1440,
+   "local": 1,
+   "orders": {
+    "6": 1440
+   },
+   "partial": 44,
+   "perfect": 0
+  },
+  {
+   "count": 16200,
+   "local": 1,
+   "orders": {
+    "12": 8640,
+    "4": 7560
+   },
+   "partial": 32,
+   "perfect": 12
+  },
+  {
+   "count": 2880,
+   "local": 1,
+   "orders": {
+    "6": 2880
+   },
+   "partial": 26,
+   "perfect": 18
+  },
+  {
+   "count": 4320,
+   "local": 2,
+   "orders": {
+    "6": 4320
+   },
+   "partial": 28,
+   "perfect": 15
+  },
+  {
+   "count": 960,
+   "local": 3,
+   "orders": {
+    "3": 960
+   },
+   "partial": 42,
+   "perfect": 0
+  },
+  {
+   "count": 2880,
+   "local": 4,
+   "orders": {
+    "6": 2880
+   },
+   "partial": 32,
+   "perfect": 9
+  },
+  {
+   "count": 540,
+   "local": 5,
+   "orders": {
+    "2": 540
+   },
+   "partial": 16,
+   "perfect": 24
+  },
+  {
+   "count": 480,
+   "local": 6,
+   "orders": {
+    "3": 480
+   },
+   "partial": 12,
+   "perfect": 27
+  },
+  {
+   "count": 160,
+   "local": 9,
+   "orders": {
+    "3": 160
+   },
+   "partial": 36,
+   "perfect": 0
+  },
+  {
+   "count": 90,
+   "local": 13,
+   "orders": {
+    "2": 90
+   },
+   "partial": 32,
+   "perfect": 0
+  },
+  {
+   "count": 2,
+   "local": 45,
+   "orders": {
+    "1": 2
+   },
+   "partial": 0,
+   "perfect": 0
+  }
+ ],
+ "total": 51840,
+ "unique_subsystems": 20520
+}

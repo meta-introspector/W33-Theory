@@ -1,0 +1,73 @@
+{
+ "n2": {
+  "at_least_two": "131/720",
+  "burnside_average_fixed": "1",
+  "classes": 20,
+  "factorisations": 45,
+  "intrinsically_entangling": "19/45",
+  "local_orders_are_2_3_numbers": true,
+  "orders_fixed_point_free": [
+   5,
+   9
+  ],
+  "orders_with_local_splits": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   12
+  ],
+  "prime_rule_holds": true,
+  "psp_order": 25920,
+  "stabiliser_has_order_9": false,
+  "stabiliser_order": 576,
+  "stabiliser_primes": [
+   2,
+   3
+  ],
+  "unique_split": "19/48"
+ },
+ "n3": {
+  "at_least_two": "41143/196560",
+  "burnside_average_fixed": "1",
+  "classes": 74,
+  "factorisations": 110565,
+  "intrinsically_entangling": "7922/12285",
+  "local_orders_are_2_3_numbers": true,
+  "orders_fixed_point_free": [
+   5,
+   7,
+   9,
+   10,
+   13,
+   14,
+   15,
+   18,
+   20,
+   30,
+   36
+  ],
+  "orders_with_local_splits": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   8,
+   9,
+   12,
+   24
+  ],
+  "prime_rule_holds": true,
+  "psp_order": 4585351680,
+  "stabiliser_has_order_9": true,
+  "stabiliser_order": 41472,
+  "stabiliser_primes": [
+   2,
+   3
+  ],
+  "unique_split": "7/48"
+ },
+ "pass_id": 11181
+}
