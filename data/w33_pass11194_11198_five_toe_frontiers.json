@@ -1,0 +1,386 @@
+{
+  "checks": {
+    "all_five_pass": true,
+    "cosmological_constant_remains_open": true,
+    "full_CKM_PMNS_CP_observables_remain_open_after_pass11213": true,
+    "hardware_universality_remains_open": true,
+    "mass_and_mixing_remain_open": true,
+    "metric_spacetime_remains_open": true
+  },
+  "passes": {
+    "11194": {
+      "boundary": "No mass, coupling, Higgs vacuum, or physical stochastic law is derived.",
+      "checks": {
+        "detailed_balance_forces_equal_vertex_weights": true,
+        "forty_cross_edges": true,
+        "quotient_4_8_1_11": true,
+        "stationary_mass_is_sector_census": true
+      },
+      "cross_edges": 40,
+      "partition": [
+        5,
+        40
+      ],
+      "pass_id": 11194,
+      "perfect_neighbour_quotient": [
+        [
+          4,
+          8
+        ],
+        [
+          1,
+          11
+        ]
+      ],
+      "reversible_sector_constant_weight_equation": "a/12 = b/12",
+      "solution": "a=b",
+      "stationary_per_vertex_weight": "1/45",
+      "stationary_sector_masses": [
+        "1/9",
+        "8/9"
+      ],
+      "theorem": "The unique reversible probability measure for the connected symmetric 45-state perfect-gate walk is uniform. The 1:8 sector mass ratio is only the 5:40 orbit census, not a Yukawa-amplitude hierarchy."
+    },
+    "11195": {
+      "SUM_canonical_transvection_length": 2,
+      "SUM_normal_form_transvection_length_before_cancellation": 19,
+      "SUM_optimal_perfect_gate_normal_form": "L p h_* p R",
+      "SUM_phase_ratio_normal_over_canonical": [
+        0.999999999999996,
+        -1.287715278818731e-14
+      ],
+      "SUM_phase_ratio_residual": 1.4695783071015675e-15,
+      "all_80_primitive_unitaries_verified": true,
+      "boundary": "This is an algebraic compiler certificate; hardware calibration and fault-tolerant magic injection remain open.",
+      "canonical_maximum_transvection_depth": 5,
+      "canonical_transvection_depth_distribution": {
+        "0": 1,
+        "1": 80,
+        "2": 1980,
+        "3": 16650,
+        "4": 33128,
+        "5": 1
+      },
+      "checks": {
+        "SUM_global_phase_exactly_aligned": true,
+        "SUM_normal_form_matrix_exact": true,
+        "all_51840_have_canonical_words": true,
+        "all_representative_matrices_reconstructed": true,
+        "nonclifford_resource_kept_typed_separately": true
+      },
+      "pass_id": 11195,
+      "representative_words": {
+        "L": {
+          "depth": 4,
+          "word": [
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              33,
+              2
+            ],
+            [
+              37,
+              2
+            ]
+          ]
+        },
+        "R": {
+          "depth": 3,
+          "word": [
+            [
+              3,
+              2
+            ],
+            [
+              30,
+              1
+            ],
+            [
+              31,
+              2
+            ]
+          ]
+        },
+        "SUM": {
+          "depth": 2,
+          "word": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        "h_star": {
+          "depth": 4,
+          "word": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              26,
+              1
+            ],
+            [
+              38,
+              2
+            ]
+          ]
+        },
+        "p": {
+          "depth": 4,
+          "word": [
+            [
+              5,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              25,
+              1
+            ],
+            [
+              27,
+              1
+            ]
+          ]
+        }
+      },
+      "theorem": "The Pass 11193 perfect-gate normal form now lands in the exact phase/displacement ABI.  For the stored SUM witness, its 19-transvection expanded normal form and the canonical depth-2 word are the same 9x9 unitary, not merely the same symplectic matrix.",
+      "universal_extension": "Adjoin the separately certified Pass 10944 |0>-controlled-X cubic resource and qutrit Fourier gate; the Clifford compiler itself remains non-universal.  Pass 11213 independently shows that a qutrit cubic phase combined with a nonzero cyclic shift is the minimal one-qutrit mechanism that escapes every substrate anti-unitary Clifford time reversal.",
+      "weyl_cocycle_tracked": true
+    },
+    "11196": {
+      "boundary": "This rules out a linear signed-incidence derivation; it does not rule out nonlinear E6 Yukawa dynamics.",
+      "canonical_sign_profile": {
+        "minus": 23,
+        "plus": 22
+      },
+      "centered_gram_spectrum": {
+        "0": 7,
+        "6": 20
+      },
+      "checks": {
+        "canonical_45_signs_loaded": true,
+        "centered_singular_spectrum_6x20_0x7_preserved": true,
+        "nonlinear_layer_can_see_signs": true,
+        "rank_21_is_prior_art_and_preserved": true,
+        "signed_and_unsigned_gram_identical": true
+      },
+      "global_sign_invariant_profile": "23 versus 22; an overall cubic sign swaps the labels",
+      "identity": "B_signed = D B with D^2=I, hence B_signed^T B_signed = B^T B",
+      "nonlinear_cubic_jacobian_ranks": {
+        "linear": 54,
+        "quadratic": 78,
+        "root0": 20,
+        "uniform": 54
+      },
+      "pass_id": 11196,
+      "signed_rank": 21,
+      "theorem": "The canonical E6 cubic signs are completely invisible to every mass or mixing ansatz that uses only the linear 45-to-27 incidence singular data.  A sign-sensitive construction must retain products of different triads, such as the cubic gradient, Hessian, or Jacobian.",
+      "unsigned_rank": 21
+    },
+    "11197": {
+      "boundary": "No external K3 refinement or other metric seed is proved to converge to spacetime here.",
+      "checks": {
+        "diameter_is_two_for_every_q": true,
+        "heat_trace_converges_monotonically_at_t1_on_tested_tower": true,
+        "normalized_bands_both_tend_to_one": true,
+        "two_nonzero_bands_exact": true
+      },
+      "effective_spectral_dimension_limit": "d_s(t)=-2 d log H/d log t -> 2t, with no dimension plateau",
+      "exact_normalized_heat_trace": "H_q(t)=[1+q(q+1)^2 exp(-(q^2+1)t/(q(q+1)))/2+q(q^2+1) exp(-(q+1)t/q)/2]/[(q+1)(q^2+1)]",
+      "limit": "H_q(t) -> exp(-t) for every fixed t>0",
+      "pass_id": 11197,
+      "prior_art_boundary": "analysis/w33_two_continua_symplectic_metric.py already proved the three-eigenvalue/no-Weyl-law obstruction; this pass adds the exact normalized heat-kernel and spectral-measure limit.",
+      "rows": [
+        {
+          "combinatorial_laplacian": {
+            "0": 1,
+            "10": 24,
+            "16": 15
+          },
+          "diameter": 2,
+          "error_from_exp_minus_1": 0.016728410726202125,
+          "normalized_heat_trace_per_vertex_at_t1": 0.38460785189764446,
+          "normalized_nonzero_eigenvalues": [
+            "5/6",
+            "4/3"
+          ],
+          "normalized_spectral_masses": [
+            "1/40",
+            "3/5",
+            "3/8"
+          ],
+          "q": 3,
+          "vertices": 40
+        },
+        {
+          "combinatorial_laplacian": {
+            "0": 1,
+            "100": 369,
+            "82": 450
+          },
+          "diameter": 2,
+          "error_from_exp_minus_1": 0.0021290502616315155,
+          "normalized_heat_trace_per_vertex_at_t1": 0.37000849143307385,
+          "normalized_nonzero_eigenvalues": [
+            "41/45",
+            "10/9"
+          ],
+          "normalized_spectral_masses": [
+            "1/820",
+            "45/82",
+            "9/20"
+          ],
+          "q": 9,
+          "vertices": 820
+        },
+        {
+          "combinatorial_laplacian": {
+            "0": 1,
+            "730": 10584,
+            "784": 9855
+          },
+          "diameter": 2,
+          "error_from_exp_minus_1": 0.0002470496918465237,
+          "normalized_heat_trace_per_vertex_at_t1": 0.36812649086328886,
+          "normalized_nonzero_eigenvalues": [
+            "365/378",
+            "28/27"
+          ],
+          "normalized_spectral_masses": [
+            "1/20440",
+            "189/365",
+            "27/56"
+          ],
+          "q": 27,
+          "vertices": 20440
+        },
+        {
+          "combinatorial_laplacian": {
+            "0": 1,
+            "6562": 272322,
+            "6724": 265761
+          },
+          "diameter": 2,
+          "error_from_exp_minus_1": 2.7840236394294227e-05,
+          "normalized_heat_trace_per_vertex_at_t1": 0.36790728140783663,
+          "normalized_nonzero_eigenvalues": [
+            "3281/3321",
+            "82/81"
+          ],
+          "normalized_spectral_masses": [
+            "1/538084",
+            "3321/6562",
+            "81/164"
+          ],
+          "q": 81,
+          "vertices": 538084
+        },
+        {
+          "combinatorial_laplacian": {
+            "0": 1,
+            "59050": 7233624,
+            "59536": 7174575
+          },
+          "diameter": 2,
+          "error_from_exp_minus_1": 3.1078116090044183e-06,
+          "normalized_heat_trace_per_vertex_at_t1": 0.36788254898305134,
+          "normalized_nonzero_eigenvalues": [
+            "29525/29646",
+            "244/243"
+          ],
+          "normalized_spectral_masses": [
+            "1/14408200",
+            "14823/29525",
+            "243/488"
+          ],
+          "q": 243,
+          "vertices": 14408200
+        },
+        {
+          "combinatorial_laplacian": {
+            "0": 1,
+            "531442": 194242050,
+            "532900": 193710609
+          },
+          "diameter": 2,
+          "error_from_exp_minus_1": 3.4584751418265114e-07,
+          "normalized_heat_trace_per_vertex_at_t1": 0.3678797870189565,
+          "normalized_nonzero_eigenvalues": [
+            "265721/266085",
+            "730/729"
+          ],
+          "normalized_spectral_masses": [
+            "1/387952660",
+            "266085/531442",
+            "729/1460"
+          ],
+          "q": 729,
+          "vertices": 387952660
+        }
+      ],
+      "spectral_measure_limit": "delta_1",
+      "theorem": "After the natural degree normalization, both nonzero Laplacian bands collapse to one.  The arithmetic W(3,q) tower has a one-point limiting spectral measure and heat trace exp(-t), while every graph has diameter two. It therefore supplies no manifold-like low-frequency ladder or fixed spectral dimension."
+    },
+    "11198": {
+      "P_spectrum": {
+        "-1/4": 24,
+        "1": 1,
+        "1/4": 20
+      },
+      "all_power_supertrace_no_go": "For any Z2 grading Gamma commuting with P, Str(P^n)=g1+g+/4^n+g-(-1/4)^n. Vanishing for all n forces g1=g+=g-=0, impossible because the Perron eigenspace has dimension one.",
+      "boundary": "Finite Markov traces cannot be promoted to a cosmological constant without a physical grading and Hamiltonian.",
+      "checks": {
+        "Hodge_index_kept_distinct": true,
+        "perron_multiplicity_blocks_all_power_supertrace": true,
+        "string_vacuum_energy_kept_distinct": true,
+        "trace_P_zero": true,
+        "traces_P2_through_P8_nonzero": true
+      },
+      "distinct_existing_indices": {
+        "SO16xSO16_Lambda10_over_M10": 362.98358817740365,
+        "SO16xSO16_sign": "positive",
+        "full_clique_Euler_supertrace": -80,
+        "truncated_Hodge_McKean_Singer": -40
+      },
+      "first_moment_cancellation": true,
+      "higher_moment_cancellation": false,
+      "pass_id": 11198,
+      "theorem": "The Hecke walk's Tr(P)=0 is an isolated algebraic cancellation, not supersymmetric vacuum cancellation. It neither reproduces the Hodge index nor cancels the independently computed positive string vacuum energy.",
+      "trace_formula": "Tr(P^n)=1+[20+24(-1)^n]/4^n",
+      "traces_n0_to_n8": {
+        "0": "45",
+        "1": "0",
+        "2": "15/4",
+        "3": "15/16",
+        "4": "75/64",
+        "5": "255/256",
+        "6": "1035/1024",
+        "7": "4095/4096",
+        "8": "16395/16384"
+      }
+    }
+  },
+  "schema": "w33.pass11194_11198.five_toe_frontiers.v1",
+  "status": "PASS_FIVE_EXACT_FRONTIER_AUDITS_WITH_THREE_NO_GOS_ONE_COMPILER_JOIN_AND_ONE_HEAT_LIMIT"
+}
