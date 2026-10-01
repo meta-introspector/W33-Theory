@@ -1,0 +1,156 @@
+{
+  "boundary": "This is an exact finite-group/orbit explanation of the integer 54 in this Maslov chirality. It does not make 54 a universal physical constant, a time rate, a coupling, or a continuum prediction.",
+  "correction_firewall": {
+    "correct_identification": "Gamma/{+/-I} is isomorphic to N_PSp(U81)=U81:C2.",
+    "factor2_not_deck_bit": "The chirality defect already exists on U81; the Borel C2 only fuses pairs of U81 orbits.",
+    "false_order324_identification": "Gamma is not N_PGSp(U81): their centers, derived groups and order censuses differ.",
+    "size27_not_center_quotient": "Its stabilizer is a noncentral C3, not Z(U81)."
+  },
+  "effective_stabilizer_isomorphism": {
+    "bijective": true,
+    "domain_projective_order": 162,
+    "gap_smallgroup_projective": [
+      162,
+      10
+    ],
+    "gap_smallgroup_raw": [
+      324,
+      68
+    ],
+    "gap_structure_projective": "((C3 x C3 x C3) : C3) : C2",
+    "gap_structure_raw": "C2 x (((C3 x C3 x C3) : C3) : C2)",
+    "image_order": 162
+  },
+  "gap_independent_audit": {
+    "projective_borel_idgroup": [
+      162,
+      10
+    ],
+    "projective_idgroup": [
+      162,
+      10
+    ],
+    "raw_direct_product": true,
+    "raw_idgroup": [
+      324,
+      68
+    ]
+  },
+  "headline": "The unexplained factor two in the 256-pair Maslov chirality is resolved. The raw order-324 relation stabilizer has an ineffective scalar +/-I; its projective quotient is the W33 flag Borel U81:C2. Restricting the odd Maslov triples to U81 leaves exactly one unmatched 27-orbit and one oppositely signed unmatched free 81-orbit. Hence chi=+/- (81-27)=+/-54. The 27-orbit stabilizer is a noncentral C3. The residual Borel C2 only fuses U81 orbits and is not the source of chirality.",
+  "parents": [
+    "data/w33_pass11222_why_54.json",
+    "data/w33_pass11212_one_chirality.json",
+    "data/w33_pass11084_pgsp_u81_four_sheet_cover.json",
+    "data/w33_pass11070_dual_parabolic_flag_diamond.json"
+  ],
+  "relations": {
+    "6": {
+      "B_census": {
+        "162:1": 101,
+        "162:3": 102,
+        "27:1": 3,
+        "27:3": 2,
+        "54:1": 10,
+        "54:3": 10,
+        "81:1": 31,
+        "81:3": 30
+      },
+      "B_imbalance": {
+        "162": -1,
+        "27": 1,
+        "81": 1
+      },
+      "B_to_U_splitting": {
+        "(162, 1, 2, (81, 81))": 101,
+        "(162, 3, 2, (81, 81))": 102,
+        "(27, 1, 1, (27,))": 3,
+        "(27, 3, 1, (27,))": 2,
+        "(54, 1, 2, (27, 27))": 10,
+        "(54, 3, 2, (27, 27))": 10,
+        "(81, 1, 1, (81,))": 31,
+        "(81, 3, 1, (81,))": 30
+      },
+      "U_census": {
+        "27:1": 23,
+        "27:3": 22,
+        "81:1": 233,
+        "81:3": 234
+      },
+      "U_imbalance": {
+        "27": 1,
+        "81": -1
+      },
+      "chi_from_U_orbits": -54,
+      "effective_projective_order": 162,
+      "factor54_identity": "|U81|-|U81/C3_noncentral| = 81-27 = 54",
+      "prior_chi": -54,
+      "raw_stabilizer_order": 324,
+      "scalar_kernel": [
+        "+I",
+        "-I"
+      ],
+      "size27_stabilizer_types": {
+        "(1, 'noncentral')": 23,
+        "(3, 'noncentral')": 22
+      },
+      "sylow3_center_order": 3,
+      "sylow3_order": 81,
+      "twist": 2
+    },
+    "7": {
+      "B_census": {
+        "162:1": 102,
+        "162:3": 101,
+        "27:1": 2,
+        "27:3": 3,
+        "54:1": 10,
+        "54:3": 10,
+        "81:1": 30,
+        "81:3": 31
+      },
+      "B_imbalance": {
+        "162": 1,
+        "27": -1,
+        "81": -1
+      },
+      "B_to_U_splitting": {
+        "(162, 1, 2, (81, 81))": 102,
+        "(162, 3, 2, (81, 81))": 101,
+        "(27, 1, 1, (27,))": 2,
+        "(27, 3, 1, (27,))": 3,
+        "(54, 1, 2, (27, 27))": 10,
+        "(54, 3, 2, (27, 27))": 10,
+        "(81, 1, 1, (81,))": 30,
+        "(81, 3, 1, (81,))": 31
+      },
+      "U_census": {
+        "27:1": 22,
+        "27:3": 23,
+        "81:1": 234,
+        "81:3": 233
+      },
+      "U_imbalance": {
+        "27": -1,
+        "81": 1
+      },
+      "chi_from_U_orbits": 54,
+      "effective_projective_order": 162,
+      "factor54_identity": "|U81|-|U81/C3_noncentral| = 81-27 = 54",
+      "prior_chi": 54,
+      "raw_stabilizer_order": 324,
+      "scalar_kernel": [
+        "+I",
+        "-I"
+      ],
+      "size27_stabilizer_types": {
+        "(1, 'noncentral')": 22,
+        "(3, 'noncentral')": 23
+      },
+      "sylow3_center_order": 3,
+      "sylow3_order": 81,
+      "twist": 1
+    }
+  },
+  "schema": "w33.20261001.maslov-borel-factor54.v1",
+  "status": "PASS_MASLOV_54_IS_THE_U81_FREE_VERSUS_C3_STABILIZED_ORBIT_DEFECT"
+}
