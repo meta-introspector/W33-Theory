@@ -1244,3 +1244,9 @@ fraction = P(c = n)); "the twist as a discrete Bargmann phase" should cite 11209
 - Explicit self-adjoint 162-dimensional Dirac block joins the named mass operator to the positive finite heat factor, retaining separate EFT and heat cutoffs.
 - Reviewed the newly fetched 8be6191b5 formula-universe refresh; it only updates its frozen inventory artifact, and does not supersede the mass/gravity certificates.
 - Second publication packet is ready; unrelated parallel half-spin and fidelity work remains preserved.
+
+### Publication complete
+
+- Pushed physical packet `74b52332e` to W33 master through GitKraken; remote tracking comparison shows no unpushed commits. Previous global-selector/resource packet `c2926e291` is also published.
+- Eight first-packet and three second-packet focused regressions pass; full forty-points PDF built for the first packet. Final result index and release intake audit succeeded.
+- Next independent physical targets: covariants for remaining null modes; algebraic D-flat/mirror-spectrum certification; complete loop stability; genuine discrete curved refinement; dynamics connecting radial, EFT and gravitational scales. No solved-TOE claim.

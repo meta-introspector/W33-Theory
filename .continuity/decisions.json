@@ -196,7 +196,8 @@
         "458dc626-cd39-4a19-b4ff-0bdadf8bd5d1",
         "f464b060-1868-4323-9a34-c36c8a8b80a1",
         "97267639-be93-4463-92dd-7a1b9a8fcdf8",
-        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660"
+        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660",
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
       ],
       "causedBy": []
     },
@@ -450,7 +451,8 @@
         "866ed129-a0f5-444a-ad00-a3eb53029715",
         "458dc626-cd39-4a19-b4ff-0bdadf8bd5d1",
         "f464b060-1868-4323-9a34-c36c8a8b80a1",
-        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660"
+        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660",
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
       ],
       "causedBy": [
         "manual-20260507-pin-e8-manifest-z3-output-check"
@@ -635,7 +637,8 @@
         "3f24726f-bb1a-45a0-bfcf-b22d3997401f",
         "458dc626-cd39-4a19-b4ff-0bdadf8bd5d1",
         "bf1714a6-ad45-483f-994b-6e7a253b758d",
-        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660"
+        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660",
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
       ],
       "causedBy": [
         "manual-20260507-fix-e8-orchestrator-dataclass-loader"
@@ -837,7 +840,8 @@
         "458dc626-cd39-4a19-b4ff-0bdadf8bd5d1",
         "96f7155e-4288-4f62-a51f-242113ba5d32",
         "594ddf03-ae70-4bf4-a738-e8183aec46d6",
-        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660"
+        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660",
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
       ],
       "causedBy": []
     },
@@ -1053,7 +1057,8 @@
         "458dc626-cd39-4a19-b4ff-0bdadf8bd5d1",
         "96f7155e-4288-4f62-a51f-242113ba5d32",
         "594ddf03-ae70-4bf4-a738-e8183aec46d6",
-        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660"
+        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660",
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
       ],
       "causedBy": []
     },
@@ -169879,7 +169884,8 @@
       "relatedTo": [
         "340d6c38-e34f-42ee-8b0a-0b58b37561e9",
         "215f7ccf-bacc-4cca-931f-cc490a00cdcd",
-        "96f7155e-4288-4f62-a51f-242113ba5d32"
+        "96f7155e-4288-4f62-a51f-242113ba5d32",
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
       ],
       "causes": [],
       "causedBy": [
@@ -181061,7 +181067,9 @@
     "priority": "medium",
     "relationships": {
       "supersedes": [],
-      "supersededBy": [],
+      "supersededBy": [
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
+      ],
       "relatedTo": [],
       "causes": [],
       "causedBy": []
@@ -197616,7 +197624,8 @@
         "e6af5112-13da-4298-bebd-bdd4cf37baad"
       ],
       "supersededBy": [
-        "bf1714a6-ad45-483f-994b-6e7a253b758d"
+        "bf1714a6-ad45-483f-994b-6e7a253b758d",
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
       ],
       "relatedTo": [
         "10ac4055-9636-47d5-8ae5-4bb27313f385",
@@ -197689,7 +197698,8 @@
       ],
       "supersededBy": [
         "ae414dff-0fa4-4bab-bef8-94e3968a3b8b",
-        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660"
+        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660",
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
       ],
       "relatedTo": [
         "84023286-224e-45a6-b8d7-4e15960d53a9",
@@ -197754,7 +197764,8 @@
       ],
       "supersededBy": [
         "f464b060-1868-4323-9a34-c36c8a8b80a1",
-        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660"
+        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660",
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
       ],
       "relatedTo": [
         "98b9572e-c92c-43f4-8d74-b3f2ea615e41",
@@ -197767,7 +197778,8 @@
         "5a332041-6ba8-4636-b2cc-d2a72f0dd769",
         "637706a3-e213-4a62-b9c6-64a40dc1a580",
         "556f5fa1-95e7-4fb7-af91-f76009c97760",
-        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660"
+        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660",
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
       ],
       "causes": [],
       "causedBy": [
@@ -197822,7 +197834,8 @@
         "7ec67c02-20da-4959-99f5-4f515f5af7df",
         "8ffd70b6-ed78-4c49-8832-48193f39e83f",
         "6248f7c0-5b5d-48cd-a103-d852dda37062",
-        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660"
+        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660",
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
       ],
       "relatedTo": [
         "2a3fd2fb-84cb-49f5-a23d-98f5e2d39eb3",
@@ -197991,7 +198004,8 @@
         "0ba6b742-d581-40c7-88a8-2882fce7305c",
         "ff1813af-4c09-49de-9f8b-677cc6f4921e",
         "11bf18e3-13b6-49c5-b682-175c226c8d18",
-        "658369a5-cf1a-41b2-b401-11c6d0424a37"
+        "658369a5-cf1a-41b2-b401-11c6d0424a37",
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
       ],
       "causes": [],
       "causedBy": [
@@ -198061,7 +198075,8 @@
         "bc9e6d51-bc0c-46bd-8999-915824b0d11b",
         "e6af5112-13da-4298-bebd-bdd4cf37baad",
         "85c1fdda-055a-406d-9fac-fcb4c2bd057d",
-        "8f95c049-821b-465b-b13c-4b68f897f734"
+        "8f95c049-821b-465b-b13c-4b68f897f734",
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
       ],
       "causes": [],
       "causedBy": [
@@ -198189,7 +198204,8 @@
       ],
       "supersededBy": [
         "f464b060-1868-4323-9a34-c36c8a8b80a1",
-        "97267639-be93-4463-92dd-7a1b9a8fcdf8"
+        "97267639-be93-4463-92dd-7a1b9a8fcdf8",
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
       ],
       "relatedTo": [
         "84023286-224e-45a6-b8d7-4e15960d53a9",
@@ -198260,7 +198276,9 @@
         "aa5aac11-934f-441a-b55c-6fd7a5cf41b2",
         "e61254d0-61b7-4ba4-ad12-846fae7b813d"
       ],
-      "supersededBy": [],
+      "supersededBy": [
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
+      ],
       "relatedTo": [
         "00d8809f-46f7-4ec5-89d0-2bfe802b5086",
         "517c83cf-5499-4187-8299-f63f1321ed40",
@@ -198344,7 +198362,8 @@
         "ac14f512-46dc-432b-bcc3-0fee4ff38ba1",
         "0ba6b742-d581-40c7-88a8-2882fce7305c",
         "ff1813af-4c09-49de-9f8b-677cc6f4921e",
-        "11bf18e3-13b6-49c5-b682-175c226c8d18"
+        "11bf18e3-13b6-49c5-b682-175c226c8d18",
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
       ],
       "causes": [],
       "causedBy": [
@@ -198717,10 +198736,12 @@
       "supersededBy": [
         "8ffd70b6-ed78-4c49-8832-48193f39e83f",
         "6248f7c0-5b5d-48cd-a103-d852dda37062",
-        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660"
+        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660",
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
       ],
       "relatedTo": [
-        "8ffd70b6-ed78-4c49-8832-48193f39e83f"
+        "8ffd70b6-ed78-4c49-8832-48193f39e83f",
+        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660"
       ],
       "causes": [],
       "causedBy": []
@@ -198921,7 +198942,8 @@
         "ba35fc87-00f6-49de-b7ff-0eb4e68a7103"
       ],
       "supersededBy": [
-        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660"
+        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660",
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
       ],
       "relatedTo": [
         "e2d1a1da-aa27-4ef2-ba59-dedba551dc4d",
@@ -198990,7 +199012,9 @@
         "7a12b5e0-4734-4942-9780-bd51ecaaca77",
         "8ffd70b6-ed78-4c49-8832-48193f39e83f"
       ],
-      "supersededBy": [],
+      "supersededBy": [
+        "f17a3aff-89b0-442c-9900-6400d05818fa"
+      ],
       "relatedTo": [
         "8d757ee1-dd52-4b6f-bdda-0d9d604d7a61",
         "9da207a9-f9dd-4208-9456-27582d75a396",
@@ -198998,7 +199022,8 @@
         "6248f7c0-5b5d-48cd-a103-d852dda37062",
         "aa469427-b999-4751-82e5-d7a6b37da8a8",
         "f715d1f8-404f-4925-9653-dd417b3c37b3",
-        "4f435858-f3e1-4dc5-8955-3a432cdd3f2b"
+        "4f435858-f3e1-4dc5-8955-3a432cdd3f2b",
+        "6986c473-1468-4788-ba67-9bf34f3ce846"
       ],
       "causes": [],
       "causedBy": [
@@ -199019,5 +199044,102 @@
       "status": "active"
     },
     "commitHashes": []
+  },
+  {
+    "id": "f17a3aff-89b0-442c-9900-6400d05818fa",
+    "question": "What was committed in 74b52332e?",
+    "answer": "74b52332e commits the validated D-flat field normalization, named mass interface, dimension-five light mass, interval mirror-loop saddle and curved Dirac gravity benchmark with scoped certificates and tests. Fifteen owned files only; parallel scratch and half-spin changes preserved.",
+    "timestamp": "2026-10-01T20:03:09.759Z",
+    "tags": [
+      "gravity",
+      "masses",
+      "publication",
+      "toe"
+    ],
+    "files": [],
+    "status": "active",
+    "priority": "medium",
+    "relationships": {
+      "supersedes": [
+        "f715d1f8-404f-4925-9653-dd417b3c37b3",
+        "6986c473-1468-4788-ba67-9bf34f3ce846",
+        "6248f7c0-5b5d-48cd-a103-d852dda37062",
+        "2c2ee938-f1fd-4f80-a688-7c42d1bfc660",
+        "a84e58b6-3145-4936-b4c6-bd9e67c2d340",
+        "7d4f4a58-fae6-4fd4-a2ab-1ed668bff8c5",
+        "aa469427-b999-4751-82e5-d7a6b37da8a8",
+        "4f435858-f3e1-4dc5-8955-3a432cdd3f2b",
+        "d304bc4f-dff6-4622-836c-3c8290a399a0",
+        "f464b060-1868-4323-9a34-c36c8a8b80a1"
+      ],
+      "supersededBy": [],
+      "relatedTo": [
+        "96f7155e-4288-4f62-a51f-242113ba5d32",
+        "1a15ca1a-686d-4794-8f26-1eb7a39e1cb7",
+        "e8fb9cd0-a7d2-4524-b52d-1b3ff3346074",
+        "bf1714a6-ad45-483f-994b-6e7a253b758d",
+        "f715d1f8-404f-4925-9653-dd417b3c37b3"
+      ],
+      "causes": [],
+      "causedBy": [
+        "1777318403162-biaewx",
+        "1777318403161-4mgrce",
+        "1777318403161-vfxeky",
+        "1777318403161-wwusgh",
+        "1777318403161-8dkkdk"
+      ]
+    },
+    "metadata": {
+      "source": "cli",
+      "status": "active"
+    },
+    "entities": {
+      "technologies": [],
+      "patterns": [],
+      "concepts": [
+        "normalization"
+      ]
+    },
+    "commitHashes": []
+  },
+  {
+    "id": "4f9c288b-b845-4569-8254-6448884f3581",
+    "question": "What is the publication outcome for 74b52332e?",
+    "answer": "74b52332e was pushed to W33 master via GitKraken, with no unpushed commits in the remote tracking comparison. SESSION_NOTES records both published packets, eleven distinct focused regressions, the rebuilt PDF and independent mass/gravity follow-ups.",
+    "timestamp": "2026-10-01T20:03:38.577Z",
+    "tags": [
+      "continuity",
+      "publication",
+      "toe"
+    ],
+    "files": [],
+    "status": "active",
+    "priority": "medium",
+    "relationships": {
+      "supersedes": [],
+      "supersededBy": [],
+      "relatedTo": [],
+      "causes": [],
+      "causedBy": []
+    },
+    "metadata": {
+      "source": "cli",
+      "status": "active"
+    },
+    "commitHashes": [],
+    "history": [
+      {
+        "timestamp": "2026-10-01T20:03:38.577Z",
+        "action": "created"
+      }
+    ],
+    "provenance": {
+      "author": {
+        "name": "Wil",
+        "email": "wiljd4@gmail.com"
+      },
+      "source": "cli",
+      "timestamp": "2026-10-01T20:03:38.573Z"
+    }
   }
 ]
