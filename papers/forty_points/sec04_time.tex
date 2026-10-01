@@ -689,9 +689,11 @@ current spectra $\pm24\sqrt3\,i,\pm36\sqrt3\,i$ and $\pm72\sqrt3\,i,\pm324\sqrt3
 (\cert{w33\_pass11213\_cubic\_t\_violation.py}, \cert{w33\_pass11215\_protected\_qutrit\_limit.py},
 \cert{w33\_pass11216\_clock\_circulation.py})
 
-With two qutrits the entangler can do the mixing: $(T\otimes T)\,\mathrm{SUM}$ has no substrate time reversal, while
-one cubic phase with an entangler, or two on the same qutrit, always does (exact search over the anti-unitary two-qutrit
-Clifford group) --- T-violation needs the phase in both sectors, the way CP violation needs both quark sectors. Every
+With two qutrits the entangler can do the mixing: $(T\otimes T)\,\mathrm{SUM}$ has no substrate time reversal, while a
+single cubic phase with an entangler always has one (exact search over the anti-unitary two-qutrit Clifford group).
+Exhaustively over all short words, phases on the control qutrit alone never break T, phases on the target alone need at
+least three cubic gates, and phases on both break it with two --- the cheapest T-violation uses both sectors, as CP
+violation uses both quark sectors (an analogy, not a derivation). Every
 minimal violating tick, on one qutrit or two, has the same best time-reversal fidelity $(1+2\cos\frac{2\pi}{9})/3$ ---
 the phase $2\pi/9$ of $\zeta_9^{x^3}$ --- and with at most two cubic gates no violation is milder; with three or more the
 fidelity spectrum widens in both directions (up to $0.939$ and down to $0.567$ on two qutrits), while violation becomes
@@ -699,6 +701,19 @@ generic ($8\%$, $65\%$, $93\%$, $98\%$ of random two-qutrit words with $1$--$4$ 
 detect it (it is identically real); time-reversal interferometry does. \tierC\
 (\cert{w33\_pass11227\_two\_qutrit\_cp\_mixing.py}, \cert{w33\_pass11228\_t\_witness.py},
 \cert{w33\_pass11235\_two\_qutrit\_t\_spectrum.py})
+
+The fidelity levels are algebraic: the minimal one has $F^2$ a root of $81x^3-81x^2+18x-1$, a second level lies in the
+same cubic field $\mathbb Q(\cos\frac{2\pi}{9})$, and the stronger level $0.712386$ reached by single-sector violators is
+the square of the minimal one to machine precision ($2\times10^{-16}$) --- two $2\pi/9$ quanta composed, with
+the exact proof and mechanism open. As a residual flavour symmetry the cubic gate
+adds no complete mixing pattern: its eigenbasis is a stabilizer basis, and even the non-stabilizer eigenbases of
+one-cubic-gate words give no PMNS or Cabibbo pattern, so the finite-symmetry no-go (\cert{w33\_pass11225\_flavour\_from\_symmetry.py}) extends to
+the magic layer at that depth; the cubic resource supplies CP-odd phases, not angles. On three qutrits, exact product
+reversals give fidelity at least 0.8440 for the embedded minimal violator and for its product with a cubic
+phase on the third qutrit, and certify the embedded one-gate tick reversible; random-plus-greedy search over three-qutrit
+Cliffords reaches only 0.46 on that product case, so it says nothing about genuinely three-qutrit circuits, and no
+exhaustive three-qutrit statement is made. \tierC\ (\cert{w33\_pass11236\_cubic\_flavour.py}, \cert{w33\_pass11237\_fidelity\_levels.py},
+\cert{w33\_pass11238\_one\_sector\_law.py}, \cert{w33\_pass11239\_three\_qutrit\_t.py})
 
 All of this is one law.
 

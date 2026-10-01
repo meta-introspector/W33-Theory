@@ -1,0 +1,56 @@
+{
+ "pass_id": 11239,
+ "random_cliffords": 3000,
+ "two_qutrit_optimum": 0.8440296287459852,
+ "candidates": {
+  "(T(x)T)SUM (x) I": {
+   "lower_bound": 0.8440296287459851,
+   "structured": 0.8440296287459851,
+   "random": 0.50749383322931,
+   "hill_climb": 0.6012749030899753,
+   "certified_reversible": false
+  },
+  "(T(x)T(x)T) SUM12 SUM23": {
+   "lower_bound": 0.23746200473369541,
+   "structured": 0.0,
+   "random": 0.23746200473369541,
+   "hill_climb": 0.2279148639547532,
+   "certified_reversible": false
+  },
+  "(T(x)T(x)T) SUM12": {
+   "lower_bound": 0.8440296287459849,
+   "structured": 0.0,
+   "random": 0.3615315090858586,
+   "hill_climb": 0.45759396821694454,
+   "certified_reversible": false
+  },
+  "(I(x)I(x)T) SUM23 (x) control": {
+   "lower_bound": 0.9999999999999998,
+   "structured": 0.0,
+   "random": 0.4112962570659218,
+   "hill_climb": 0.41129625706592216,
+   "certified_reversible": true
+  },
+  "(T(x)I(x)T) SUM12 SUM23": {
+   "lower_bound": 0.20042496769665857,
+   "structured": 0.0,
+   "random": 0.2004249676966585,
+   "hill_climb": 0.20042496769665857,
+   "certified_reversible": false
+  }
+ },
+ "quantum": 0.8440296287459853,
+ "factorised": {
+  "(T(x)T(x)T) SUM12": {
+   "factorisation": "[(T(x)T)SUM] (x) T",
+   "two_qutrit_factor": 0.8440296287459852,
+   "product_bound": 0.8440296287459849
+  },
+  "(I(x)I(x)T) SUM23 (x) control": {
+   "factorisation": "I (x) [(I(x)T)SUM]",
+   "two_qutrit_factor": 0.9999999999999998,
+   "product_bound": 0.9999999999999998,
+   "certified_reversible": true
+  }
+ }
+}

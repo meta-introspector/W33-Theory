@@ -1,0 +1,47 @@
+{
+ "pass_id": 11238,
+ "max_length": 5,
+ "target_sector": {
+  "distinct_words": 66,
+  "verdicts": {
+   "reversible": 54,
+   "violating": 12
+  },
+  "violator_fidelities": {
+   "0.712386014": 12
+  },
+  "violating_examples": [
+   "I(x)T I(x)T SUM I(x)T",
+   "I(x)T I(x)T SUM^dag I(x)T",
+   "I(x)T SUM I(x)T I(x)T",
+   "I(x)T SUM^dag I(x)T I(x)T",
+   "I(x)T I(x)T SUM I(x)T SUM"
+  ]
+ },
+ "control_sector": {
+  "distinct_words": 13,
+  "verdicts": {
+   "reversible": 13
+  },
+  "violator_fidelities": {},
+  "violating_examples": []
+ },
+ "both_sectors": {
+  "distinct_words": 70,
+  "verdicts": {
+   "reversible": 50,
+   "violating": 20
+  },
+  "violator_fidelities": {
+   "0.844029629": 16,
+   "0.712386014": 4
+  },
+  "violating_examples": [
+   "T(x)I I(x)T SUM",
+   "T(x)I I(x)T SUM^dag",
+   "T(x)I SUM I(x)T",
+   "T(x)I SUM^dag I(x)T",
+   "T(x)I T(x)I I(x)T SUM"
+  ]
+ }
+}

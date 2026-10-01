@@ -1,0 +1,107 @@
+{
+ "pass_id": 11236,
+ "n_neutrino_symmetries": 182,
+ "n_charged_symmetries": 216,
+ "distinct_patterns": 59,
+ "pmns_complete_hits": [],
+ "n_pmns_complete_hits": 0,
+ "cabibbo_hits": [],
+ "n_cabibbo_hits": 0,
+ "distinct_modulus_patterns": [
+  [
+   0.0,
+   0.1057,
+   0.1057,
+   0.2113,
+   0.3943,
+   0.3943,
+   0.5,
+   0.5,
+   0.7887
+  ],
+  [
+   0.3333,
+   0.3333,
+   0.3333,
+   0.3333,
+   0.3333,
+   0.3333,
+   0.3333,
+   0.3333,
+   0.3333
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   0.0859,
+   0.0859,
+   0.0859,
+   0.2017,
+   0.2017,
+   0.2017,
+   0.7124,
+   0.7124,
+   0.7124
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   1.0
+  ],
+  [
+   0.0,
+   0.1667,
+   0.1667,
+   0.3333,
+   0.3333,
+   0.3333,
+   0.5,
+   0.5,
+   0.6667
+  ]
+ ],
+ "n_distinct_modulus_patterns": 6,
+ "depth1_finite_order_bases": 148,
+ "depth1_orders": {
+  "3": 72,
+  "6": 72,
+  "9": 4
+ },
+ "clifford_bases": 91,
+ "magic_e_x_clifford_nu": {
+  "pmns_hits": 0,
+  "examples": [],
+  "cabibbo_hits": 0,
+  "cab_examples": [],
+  "modulus_patterns": 44
+ },
+ "clifford_e_x_magic_nu": {
+  "pmns_hits": 0,
+  "examples": [],
+  "cabibbo_hits": 0,
+  "cab_examples": [],
+  "modulus_patterns": 44
+ },
+ "magic_e_x_magic_nu": {
+  "pmns_hits": 0,
+  "examples": [],
+  "cabibbo_hits": 0,
+  "cab_examples": [],
+  "modulus_patterns": 41
+ }
+}
