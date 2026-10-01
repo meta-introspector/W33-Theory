@@ -753,7 +753,15 @@ Lagrangian:
 \end{itemize}
 So $A(S)=n-c(S)$ for every number of qubits, with $c=m_1(1)/2+\chi_2\,m_2(1)+m_1(x^2+x+1)$, where $\chi_2$ is
 Hesselink's index at two (exact on all $320$ classes with $n\le5$). The unavoidable record is one bit, $k_BT\ln2$, per
-unprotected qubit per tick. A random qubit tick protects about $0.665$ of a qubit, fewer than a qutrit tick.
+unprotected qubit per tick. A random qubit tick protects about $0.665$ of a qubit, fewer than a qutrit tick. The
+characteristic-two cycle index gives this exactly up to two identities that hold on every unipotent class of
+$\mathrm{Sp}(2m,2)$, $m\le6$:
+\begin{itemize}
+\item the Jordan types are weighted as in odd characteristic;
+\item a block pattern with an even number $m_2$ of size-two blocks has Hesselink index zero with probability $2^{-m_2}$.
+\end{itemize}
+They give $\lim E_n[c]=0.66516065\ldots$. The unitary part is $0.27261186563783750\ldots$. The means are not monotone,
+$E_7<E_6$. \tierC\ (\cert{w33\_pass11233\_qubit\_limit\_cycle\_index.py}, \cert{w33\_pass11244\_hesselink\_qubit\_limit.py})
 \tierT\,\tierC\ (\cert{w33\_pass11217\_qubit\_arrow\_law.py})
 
 The same law governs the continuum. Every step of the odd proof works over any field of characteristic $\neq2$, so
