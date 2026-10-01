@@ -209,7 +209,8 @@
         "8b77008c-567a-4503-bb35-9a3a1286b010",
         "bcf12ad1-c381-4141-a222-73d852b2e027",
         "19e0a652-09d3-49e1-a86c-289082171b14",
-        "1790896028300-axdzwf"
+        "1790896028300-axdzwf",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "causedBy": []
     },
@@ -480,7 +481,8 @@
         "8b77008c-567a-4503-bb35-9a3a1286b010",
         "884be7d5-c234-4e0e-8b14-d54d5a5a7427",
         "f87c93d1-72c7-48ac-9937-5444b65a1586",
-        "1790896028300-axdzwf"
+        "1790896028300-axdzwf",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "causedBy": [
         "manual-20260507-pin-e8-manifest-z3-output-check"
@@ -676,7 +678,8 @@
         "beaacdf4-c659-4757-bde7-2c01ced725f6",
         "1eb8b1a0-b12c-4c32-82ca-a16b238b1e64",
         "8b77008c-567a-4503-bb35-9a3a1286b010",
-        "1790896028300-axdzwf"
+        "1790896028300-axdzwf",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "causedBy": [
         "manual-20260507-fix-e8-orchestrator-dataclass-loader"
@@ -888,7 +891,8 @@
         "beaacdf4-c659-4757-bde7-2c01ced725f6",
         "1eb8b1a0-b12c-4c32-82ca-a16b238b1e64",
         "8b77008c-567a-4503-bb35-9a3a1286b010",
-        "1790896028300-axdzwf"
+        "1790896028300-axdzwf",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "causedBy": []
     },
@@ -1116,7 +1120,8 @@
         "beaacdf4-c659-4757-bde7-2c01ced725f6",
         "1eb8b1a0-b12c-4c32-82ca-a16b238b1e64",
         "8b77008c-567a-4503-bb35-9a3a1286b010",
-        "1790896028300-axdzwf"
+        "1790896028300-axdzwf",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "causedBy": []
     },
@@ -5708,7 +5713,8 @@
         "6579d520-39b7-4669-9c99-c830309e5c4d",
         "49c0c1e5-07af-4034-802d-5b623111e3ab",
         "9661d0c1-8137-46fc-af58-cadf703e60bb",
-        "0650f0c1-4ab0-486f-a66c-ad560c3f39bf"
+        "0650f0c1-4ab0-486f-a66c-ad560c3f39bf",
+        "921af750-569e-40bd-9a64-c4610eae4706"
       ],
       "relatedTo": [
         "2362c33c-7a0f-4bcc-b8a2-9e47ed903f3b",
@@ -6575,7 +6581,8 @@
         "4d08b5d9-0217-4018-9360-b5da0bc4ed8c",
         "68dfcff3-372d-414c-af4c-144b318d49d6",
         "165be176-a183-45c5-ba48-2377b20210d3",
-        "7155b4ad-3427-497f-afb1-936e25672f96"
+        "7155b4ad-3427-497f-afb1-936e25672f96",
+        "921af750-569e-40bd-9a64-c4610eae4706"
       ],
       "relatedTo": [
         "06a9b8bc-9fe0-4d18-8e92-351dcfb1fe0f"
@@ -6694,7 +6701,8 @@
         "4d08b5d9-0217-4018-9360-b5da0bc4ed8c",
         "68dfcff3-372d-414c-af4c-144b318d49d6",
         "165be176-a183-45c5-ba48-2377b20210d3",
-        "7155b4ad-3427-497f-afb1-936e25672f96"
+        "7155b4ad-3427-497f-afb1-936e25672f96",
+        "921af750-569e-40bd-9a64-c4610eae4706"
       ]
     },
     "metadata": {
@@ -6936,7 +6944,8 @@
         "2d40daf8-cfed-4bed-bd36-4d161358e656",
         "e06bc3cf-ffac-418a-a5cd-ba0e789fe4d5",
         "7155b4ad-3427-497f-afb1-936e25672f96",
-        "9b4c6961-3479-40b1-a83f-a4df87084d76"
+        "9b4c6961-3479-40b1-a83f-a4df87084d76",
+        "921af750-569e-40bd-9a64-c4610eae4706"
       ]
     },
     "metadata": {
@@ -7005,7 +7014,8 @@
         "53866f6d-d5a6-49d6-add3-1356e9103181",
         "1fd5b728-e2f6-4a50-a37c-93265713d109",
         "9661d0c1-8137-46fc-af58-cadf703e60bb",
-        "2ea8a6e1-789a-4d51-96ad-3ee867deba3d"
+        "2ea8a6e1-789a-4d51-96ad-3ee867deba3d",
+        "921af750-569e-40bd-9a64-c4610eae4706"
       ]
     },
     "metadata": {
@@ -42646,7 +42656,8 @@
         "5653b932-ee48-4ec5-b6ee-70ccd5a13b6a",
         "39df9716-0ee1-40cf-913f-7e02244aa8d6",
         "1468c7e0-ea14-454c-b297-669ce93943f0",
-        "7ec67c02-20da-4959-99f5-4f515f5af7df"
+        "7ec67c02-20da-4959-99f5-4f515f5af7df",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "supersededBy": [
         "6deeccb2-551d-4073-8401-bcf5eccb7885"
@@ -128245,7 +128256,8 @@
         "7d311c8c-3b79-4647-bbea-5899d24186bf",
         "458dc626-cd39-4a19-b4ff-0bdadf8bd5d1",
         "bf1714a6-ad45-483f-994b-6e7a253b758d",
-        "921af750-569e-40bd-9a64-c4610eae4706"
+        "921af750-569e-40bd-9a64-c4610eae4706",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ]
     },
     "metadata": {
@@ -178765,7 +178777,8 @@
         "7ec67c02-20da-4959-99f5-4f515f5af7df",
         "8ffd70b6-ed78-4c49-8832-48193f39e83f",
         "165be176-a183-45c5-ba48-2377b20210d3",
-        "921af750-569e-40bd-9a64-c4610eae4706"
+        "921af750-569e-40bd-9a64-c4610eae4706",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "relatedTo": [
         "030531f9-7d2d-4ff3-a623-f6c4e4bb5018",
@@ -178796,7 +178809,8 @@
         "4f435858-f3e1-4dc5-8955-3a432cdd3f2b",
         "7ec67c02-20da-4959-99f5-4f515f5af7df",
         "8ffd70b6-ed78-4c49-8832-48193f39e83f",
-        "921af750-569e-40bd-9a64-c4610eae4706"
+        "921af750-569e-40bd-9a64-c4610eae4706",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "causes": [],
       "causedBy": []
@@ -179073,7 +179087,8 @@
         "8a63dcbc-638d-455e-829e-41bd0c7449b1",
         "06a9b8bc-9fe0-4d18-8e92-351dcfb1fe0f",
         "3f24726f-bb1a-45a0-bfcf-b22d3997401f",
-        "921af750-569e-40bd-9a64-c4610eae4706"
+        "921af750-569e-40bd-9a64-c4610eae4706",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "relatedTo": [
         "030531f9-7d2d-4ff3-a623-f6c4e4bb5018",
@@ -179099,7 +179114,8 @@
         "6248f7c0-5b5d-48cd-a103-d852dda37062",
         "5dca2bcd-daeb-47d7-8ee4-a37157fdd0dc",
         "986cd927-e676-4ba2-8887-d26b4086e3f0",
-        "921af750-569e-40bd-9a64-c4610eae4706"
+        "921af750-569e-40bd-9a64-c4610eae4706",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "causes": [],
       "causedBy": []
@@ -181002,7 +181018,8 @@
         "7155b4ad-3427-497f-afb1-936e25672f96",
         "eba5eb0b-0fba-4740-8330-f34bbc8f5f08",
         "affeb4eb-c018-4069-8d1a-c428c73782a2",
-        "921af750-569e-40bd-9a64-c4610eae4706"
+        "921af750-569e-40bd-9a64-c4610eae4706",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "relatedTo": [
         "58b5988b-64bd-4d87-a090-3422933710e6",
@@ -181027,7 +181044,8 @@
         "228fe4b6-dbea-4d1e-88e1-d73218315e64",
         "beaacdf4-c659-4757-bde7-2c01ced725f6",
         "165be176-a183-45c5-ba48-2377b20210d3",
-        "7155b4ad-3427-497f-afb1-936e25672f96"
+        "7155b4ad-3427-497f-afb1-936e25672f96",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "causes": [],
       "causedBy": []
@@ -181910,7 +181928,8 @@
         "95eff664-c41a-474f-8ed7-8ee62e44b118",
         "5bb44e64-4281-4ce7-87d9-643668e384b7",
         "01043ddb-ac4b-4231-a415-8c38a00e3e94",
-        "9b4c6961-3479-40b1-a83f-a4df87084d76"
+        "9b4c6961-3479-40b1-a83f-a4df87084d76",
+        "921af750-569e-40bd-9a64-c4610eae4706"
       ],
       "relatedTo": [
         "4cbd2391-28c5-4b77-be18-2d47b386aaf7",
@@ -181918,7 +181937,8 @@
         "7ae5b5bd-bfe3-497d-9e50-d6d823ff638c",
         "f715d1f8-404f-4925-9653-dd417b3c37b3",
         "5bb44e64-4281-4ce7-87d9-643668e384b7",
-        "9b4c6961-3479-40b1-a83f-a4df87084d76"
+        "9b4c6961-3479-40b1-a83f-a4df87084d76",
+        "921af750-569e-40bd-9a64-c4610eae4706"
       ],
       "causes": [],
       "causedBy": []
@@ -182047,7 +182067,8 @@
         "547f0d13-510b-4f4f-95d6-0779ddcd8c4b",
         "bf1714a6-ad45-483f-994b-6e7a253b758d",
         "95eff664-c41a-474f-8ed7-8ee62e44b118",
-        "4d08b5d9-0217-4018-9360-b5da0bc4ed8c"
+        "4d08b5d9-0217-4018-9360-b5da0bc4ed8c",
+        "921af750-569e-40bd-9a64-c4610eae4706"
       ],
       "relatedTo": [
         "030531f9-7d2d-4ff3-a623-f6c4e4bb5018",
@@ -182058,7 +182079,8 @@
         "048b271b-d275-4ff9-acc9-cdd548f5766d",
         "547f0d13-510b-4f4f-95d6-0779ddcd8c4b",
         "bf1714a6-ad45-483f-994b-6e7a253b758d",
-        "884be7d5-c234-4e0e-8b14-d54d5a5a7427"
+        "884be7d5-c234-4e0e-8b14-d54d5a5a7427",
+        "921af750-569e-40bd-9a64-c4610eae4706"
       ],
       "causes": [],
       "causedBy": []
@@ -182618,7 +182640,9 @@
         "165be176-a183-45c5-ba48-2377b20210d3",
         "19e0a652-09d3-49e1-a86c-289082171b14",
         "7155b4ad-3427-497f-afb1-936e25672f96",
-        "eba5eb0b-0fba-4740-8330-f34bbc8f5f08"
+        "eba5eb0b-0fba-4740-8330-f34bbc8f5f08",
+        "921af750-569e-40bd-9a64-c4610eae4706",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "relatedTo": [
         "1dff670b-8dcf-46bc-bf8c-2e2b1908cdeb",
@@ -182640,7 +182664,8 @@
         "228fe4b6-dbea-4d1e-88e1-d73218315e64",
         "beaacdf4-c659-4757-bde7-2c01ced725f6",
         "165be176-a183-45c5-ba48-2377b20210d3",
-        "7155b4ad-3427-497f-afb1-936e25672f96"
+        "7155b4ad-3427-497f-afb1-936e25672f96",
+        "921af750-569e-40bd-9a64-c4610eae4706"
       ],
       "causes": [],
       "causedBy": []
@@ -182748,14 +182773,16 @@
         "95eff664-c41a-474f-8ed7-8ee62e44b118",
         "5bb44e64-4281-4ce7-87d9-643668e384b7",
         "01043ddb-ac4b-4231-a415-8c38a00e3e94",
-        "9b4c6961-3479-40b1-a83f-a4df87084d76"
+        "9b4c6961-3479-40b1-a83f-a4df87084d76",
+        "921af750-569e-40bd-9a64-c4610eae4706"
       ],
       "relatedTo": [
         "58abc535-030b-4be0-a65c-af5337853e39",
         "7ae5b5bd-bfe3-497d-9e50-d6d823ff638c",
         "f715d1f8-404f-4925-9653-dd417b3c37b3",
         "5bb44e64-4281-4ce7-87d9-643668e384b7",
-        "9b4c6961-3479-40b1-a83f-a4df87084d76"
+        "9b4c6961-3479-40b1-a83f-a4df87084d76",
+        "921af750-569e-40bd-9a64-c4610eae4706"
       ],
       "causes": [],
       "causedBy": []
@@ -183175,7 +183202,9 @@
         "165be176-a183-45c5-ba48-2377b20210d3",
         "19e0a652-09d3-49e1-a86c-289082171b14",
         "7155b4ad-3427-497f-afb1-936e25672f96",
-        "eba5eb0b-0fba-4740-8330-f34bbc8f5f08"
+        "eba5eb0b-0fba-4740-8330-f34bbc8f5f08",
+        "921af750-569e-40bd-9a64-c4610eae4706",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "relatedTo": [
         "1dff670b-8dcf-46bc-bf8c-2e2b1908cdeb",
@@ -183191,7 +183220,8 @@
         "2c2ee938-f1fd-4f80-a688-7c42d1bfc660",
         "1fd5b728-e2f6-4a50-a37c-93265713d109",
         "228fe4b6-dbea-4d1e-88e1-d73218315e64",
-        "beaacdf4-c659-4757-bde7-2c01ced725f6"
+        "beaacdf4-c659-4757-bde7-2c01ced725f6",
+        "921af750-569e-40bd-9a64-c4610eae4706"
       ],
       "causes": [],
       "causedBy": []
@@ -206810,7 +206840,12 @@
         "85c1fdda-055a-406d-9fac-fcb4c2bd057d",
         "b74e1797-ca45-4689-b370-1bc6e835202b",
         "98b9572e-c92c-43f4-8d74-b3f2ea615e41",
-        "8d757ee1-dd52-4b6f-bdda-0d9d604d7a61"
+        "8d757ee1-dd52-4b6f-bdda-0d9d604d7a61",
+        "d9617cf3-0e5b-48eb-b98c-cc1bd79b112c",
+        "e763e750-aeec-4f3f-8d9f-364ed8217b49",
+        "9da207a9-f9dd-4208-9456-27582d75a396",
+        "756360d8-cd79-403a-8d93-a1bc015fbe15",
+        "016c3cca-ee7e-4249-8f72-e26f2012db3c"
       ],
       "supersededBy": [],
       "relatedTo": [
@@ -206818,7 +206853,12 @@
         "2a3fd2fb-84cb-49f5-a23d-98f5e2d39eb3",
         "85c1fdda-055a-406d-9fac-fcb4c2bd057d",
         "b74e1797-ca45-4689-b370-1bc6e835202b",
-        "98b9572e-c92c-43f4-8d74-b3f2ea615e41"
+        "98b9572e-c92c-43f4-8d74-b3f2ea615e41",
+        "d9617cf3-0e5b-48eb-b98c-cc1bd79b112c",
+        "e763e750-aeec-4f3f-8d9f-364ed8217b49",
+        "9da207a9-f9dd-4208-9456-27582d75a396",
+        "756360d8-cd79-403a-8d93-a1bc015fbe15",
+        "016c3cca-ee7e-4249-8f72-e26f2012db3c"
       ],
       "causes": [],
       "causedBy": [
@@ -206826,7 +206866,58 @@
         "f21b1505-b7be-4fcf-a7a7-ebbf13a1595f",
         "5d8b4de3-598f-44c5-be88-0173201018e7",
         "87cdc04e-a688-4d3d-ac93-0fd8348f11e2",
-        "22d114af-2853-414b-aba7-1162b32af8c0"
+        "22d114af-2853-414b-aba7-1162b32af8c0",
+        "b9962803-45b6-407e-bfe8-c6b8ce5b5952",
+        "7c91c615-7718-4889-beb7-cdb92a02a5f5",
+        "b4a92cd5-1576-498b-9b2d-ff900c33fdfd",
+        "c0d74788-3b23-4eab-8706-6ace4d3f9873",
+        "ac550d2f-be4b-4f53-b3dc-f74d668cc424"
+      ]
+    },
+    "metadata": {
+      "source": "cli",
+      "status": "active"
+    },
+    "commitHashes": []
+  },
+  {
+    "id": "853ac911-9a0c-475b-871d-a6407a84d0b4",
+    "question": "What was published in c133893a2 and how was c133893a2 verified?",
+    "answer": "GitKraken committed and pushed24 owned files in c133893a2 to W33 master. Remote comparison origin-https/master..HEAD is empty. Seven certificates, six focused checks, compiled PDF, result index and clean eight-file intake verified. Session notes record publication and the stopped optional handoff refresh after durable decision921af750. The exact positive condensate Hessian covers only six canonical Cartan directions; full moduli, Kahler corrections, physical assignments and vacuum energy remain open.",
+    "timestamp": "2026-10-01T23:55:37.109Z",
+    "tags": [
+      "audit",
+      "github",
+      "how",
+      "testing",
+      "w33"
+    ],
+    "files": [],
+    "status": "active",
+    "priority": "medium",
+    "relationships": {
+      "supersedes": [
+        "2a3fd2fb-84cb-49f5-a23d-98f5e2d39eb3",
+        "85c1fdda-055a-406d-9fac-fcb4c2bd057d",
+        "8d757ee1-dd52-4b6f-bdda-0d9d604d7a61",
+        "9da207a9-f9dd-4208-9456-27582d75a396",
+        "016c3cca-ee7e-4249-8f72-e26f2012db3c"
+      ],
+      "supersededBy": [],
+      "relatedTo": [
+        "d51722b8-4d77-46f7-b403-0ecc3db8f24a",
+        "e6af5112-13da-4298-bebd-bdd4cf37baad",
+        "2a3fd2fb-84cb-49f5-a23d-98f5e2d39eb3",
+        "85c1fdda-055a-406d-9fac-fcb4c2bd057d",
+        "8d757ee1-dd52-4b6f-bdda-0d9d604d7a61"
+      ],
+      "causes": [],
+      "causedBy": [
+        "1777318403162-biaewx",
+        "1777318403161-4mgrce",
+        "1777318403161-vfxeky",
+        "1777318403161-wwusgh",
+        "1777318403161-8dkkdk"
       ]
     },
     "metadata": {
