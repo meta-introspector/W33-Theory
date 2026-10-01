@@ -52,6 +52,12 @@ This is a genuine role for $G_{26}$, but it does not undo `data/w33_extended_cli
 
 The corpus search also checked the earlier Shephard–Todd tower in `PASS1020_E8_TRANSITIVE_51840.md`, `analysis/w33_pass1020_e8_transitive_51840.g`, `analysis/w33_pass1039b_gaussian_base.g`, `analysis/w33_eisenstein_forcing.py`, `analysis/w33_eisenstein_grand_synthesis.py`, and `analysis/w33_pass1047_eisenstein_parabolic_ladder.g`, plus the Clifford and rank-four polytope treatments in `analysis/w33_pass8909_8924_the_centraliser_is_the_clifford_group.py` and `exploration/WITTING_W33_S12_SYNTHESIS.py`.  Those results concern the rank-four G32 action, its rank-three G25 parabolic, or Clifford centralizers.  None constructs the G26 Cartan slice in this signed 81-coordinate bracket.
 
+## Connection to the current flavour and time-asymmetry frontier
+
+Passes 11225 and 11236 exhaust the finite residual symmetries and their one-cubic-gate extension and find no complete lepton or quark mixing pattern.  Their conclusion is that the missing angles require vacuum dynamics.  The present result supplies an exact domain for that dynamics: after quotienting the generic signed cubic orbit, a vacuum potential has three algebraically independent coordinates of degrees $6,12,18$, rather than 81 unconstrained matter coordinates.
+
+This separates two jobs that the incoming results show cannot be done by one finite symmetry.  A critical orbit of a $G_{26}$-invariant potential can select eigenvectors and Hessian ratios; the entangled cubic circuits of Passes 11227 and 11235 can supply a CP-odd phase.  The statement is a construction target, not yet a flavour derivation: the invariant generators, potential coefficients, critical orbit, and a rephasing-invariant mixing observable still have to be built.
+
 ## Boundary
 
 The theorem supplies the generic vacuum quotient and an explicit Cartan slice.  It does not select a vacuum, prove stability or positivity, determine a potential's coefficients, or derive a mass or mixing observable.  The next constructive calculation is the most general low-degree $G_{26}$-invariant potential in the degree-$6,12,18$ generators and its exact Hessian on the certified slice.
