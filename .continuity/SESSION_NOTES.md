@@ -1225,3 +1225,22 @@ fraction = P(c = n)); "the twist as a discrete Bargmann phase" should cite 11209
 
 - Final checks: eight focused regressions pass (seven prior-packet tests plus exact global-selector replay); full forty-points PDF rebuilt successfully (typesetting warnings only). Both index builds completed. Local seven-producer intake audit is clean. Global-selector rediscovery guard warns about alpha@22/32/200: reviewed contexts concern fine-structure/null-window/independence numbers, not this polynomial potential or its free coefficient. Existing invariant-potential and T-orbit owners are directly cited.
 - Gravity/mass branch: read `w33_connes_lott_sm_action.py` in entirety. It is an arithmetic/proxy table, not a constructed action: its 384 check actually gives 336, and its Higgs proxy is about 57.24 rather than 125. Do not promote its QED wording; use the newer audited spectral-action and Yukawa operators as the next research baseline.
+
+## Physical gravity/mass branch — same session
+
+- Main packet c2926e291 is pushed to master (36 files), including exact global Cartan selection and framed magic interface.
+- Added canonical 27x3 field audit: T column Gram [[10,0,0],[0,13,5],[0,5,7]], SU3 moment squared68, color purity92/225 under the explicit amplitude interpretation. Partial SL3 balancing reduces norm30 to26.119763; target extraction is a specified resource-dependent measurement (p=0.265449).
+- Built full E6×SL3 numerical Newton normalization. It balances all Cartan basis/cross moments, preserves the signed cubic, and matches canonical Gram c diag(2^(2/3),2^(4/3),1), c≈11.5553820672. This repairs kinetic compatibility numerically, not algebraically.
+- Named two-species Yukawa map M(Phi)=signed d_E6 tensor epsilon_SL3. Mirror spectrum matches five tested complex directions; it is not a one-field scalar Hessian. Exact SIC/MUB design identities give mirror-model mass moments20r² and8r⁴.
+- Outward60-digit interval Rayleigh signs establish T as a saddle of the shared mirror Coleman–Weinberg function for either overall sign; angular subtraction/scale terms are radial constants. The natural simplest loop does not reproduce the handcrafted tree selector.
+- Documented inherited rank≤78 for every single-cubic background via the prior semisimple kernel/image and dominant orbit-Cartan map; moving Phi alone cannot lift all3 null modes. No observed-family assignment.
+- Gravity: explicit isovolume conformal torus Dirac operator. Exact Gaussian coefficients yield epsilon² heat response -pi²/t+pi²t/140-pi²t²/1260+... . Curvature replay ratio0.999995548 at t=.025; independent matrix check≈5e-8; cutoff comparison≈9e-12. Smooth geometry is supplied. Finite mass-volume coefficients are distinct from EH curvature response.
+- New focused tests and index/intake checks are running before second publication. Prior R-rule reconciliation question is still unanswered; old raw-charge census preserved. Unrelated parallel half-spin edits and scratch remain untouched.
+
+### Final physical packet validation
+
+- All three new focused regression functions passed after the dimension-five and finite Dirac-block additions; five-file intake audit clean. RESULTS_INDEX rebuilt over 10917 files.
+- Exact conditional EFT operator B5=conj(Phi)conj(Phi)^T lifts one null mode to |c5|r^2/Lambda, preserving all 78 heavy singular masses; two null modes remain. No measured particle/scale assignment.
+- Explicit self-adjoint 162-dimensional Dirac block joins the named mass operator to the positive finite heat factor, retaining separate EFT and heat cutoffs.
+- Reviewed the newly fetched 8be6191b5 formula-universe refresh; it only updates its frozen inventory artifact, and does not supersede the mass/gravity certificates.
+- Second publication packet is ready; unrelated parallel half-spin and fidelity work remains preserved.

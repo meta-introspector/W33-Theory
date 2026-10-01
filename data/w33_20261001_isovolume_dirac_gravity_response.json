@@ -1,0 +1,120 @@
+{
+  "analytic": {
+    "Gaussian_integral_coefficients": [
+      "24",
+      "-1/2",
+      "0",
+      "1/140",
+      "-1/1260",
+      "1/18480",
+      "-1/360360"
+    ],
+    "a0_response": 0,
+    "a4_response": 0,
+    "coefficient": "[epsilon^2] Tr exp(-t Dtilde^2) = -pi^2/t + pi^2*t/140 - pi^2*t^2/1260 + O(t^3), plus exponentially small Poisson images",
+    "interpretation": "negative R coefficient is the standard Euclidean Einstein-Hilbert convention with positive inverse Newton coupling",
+    "no_mass_volume_conflation": "C2(g)=N*A2(g)-F2*A0(g). The -F2*A0 term multiplies volume, not scalar curvature. Exact isovolume deformations remove it from the curvature response."
+  },
+  "boundary": [
+    "A numerical curved-continuum response benchmark with an analytic perturbative coefficient, not interval-certified lattice-sum error bounds.",
+    "The smooth four-manifold and metric family are supplied, not emergent from W33.",
+    "No discrete curved refinement convergence theorem, Lorentzian dynamics or observed Newton constant is proved.",
+    "Finite spectra are model inputs, not measured particle masses; the 40 and 480 carriers are not conflated.",
+    "The Euclidean conformal-factor instability and quantum gravitational measure are not resolved."
+  ],
+  "checks": {
+    "analytic_curvature_coefficient": true,
+    "distinct_finite_carriers": true,
+    "exact_isovolume_family": true,
+    "independent_block_control": true,
+    "two_cutoff_control": true
+  },
+  "external_sources": [
+    "https://arxiv.org/abs/hep-th/9606001",
+    "https://arxiv.org/abs/1409.4983"
+  ],
+  "finite_product": {
+    "formula": "Theta_product(t,g)=Theta_M(t,g)*sum_j multiplicity_j*exp(-t*m_j^2)",
+    "physical_scale": "dimensionless mass-squared fixtures; conversion to measured units is an additional input",
+    "positivity": "each positive-multiplicity Hermitian mass spectrum gives a strictly positive finite heat factor; it cannot reverse the conventional EH sign",
+    "spectra_are_distinct_declared_fixtures": {
+      "W33_vertex_Laplacian": {
+        "0": 1,
+        "10": 24,
+        "16": 15
+      },
+      "separate_legacy_480_mode_fixture": {
+        "0": 82,
+        "4": 320,
+        "10": 48,
+        "16": 30
+      }
+    }
+  },
+  "geometry": {
+    "Dirac_on_flat_L2": "Dtilde=exp(-sigma/2) D0 exp(-sigma/2)",
+    "Fourier_matrix": "D_nm=a_(n-m)[gamma1*(n+m)/2 + gamma_perp dot p_perp], a=exp(-sigma)",
+    "input": "external four-torus of periods 2*pi, periodic spin structure",
+    "integrated_scalar_curvature": "3*(2*pi)^4*epsilon^2 + O(epsilon^4)",
+    "metric": "g_epsilon=exp(2 sigma) g_flat",
+    "sigma": "epsilon*cos(x1) - (1/4)*log(I0(4*epsilon))",
+    "volume": "exactly (2*pi)^4 for every epsilon"
+  },
+  "independent_finite_epsilon_control": {
+    "Richardson_response": -12.0542752079326,
+    "absolute_error": 4.965104416498889e-08,
+    "finite_Galerkin_modes": 29,
+    "finite_epsilon": 0.001,
+    "heat_time": 0.2,
+    "perturbation_response": -12.054275158281555,
+    "transverse_squared_momentum": 4.0
+  },
+  "numerical_curvature_replay": [
+    {
+      "cutoff_42_46_difference": 1.1368683772161603e-13,
+      "epsilon_squared_heat_response": -49.334231662265324,
+      "finite_factors": {
+        "W33_vertex_Laplacian": 4.859479857354198,
+        "separate_legacy_480_mode_fixture": 233.5042282322193
+      },
+      "normalized_curvature_coefficient": 0.999720549221204,
+      "t": 0.2
+    },
+    {
+      "cutoff_42_46_difference": 2.2737367544323206e-13,
+      "epsilon_squared_heat_response": -98.68907209231531,
+      "finite_factors": {
+        "W33_vertex_Laplacian": 12.857554358034447,
+        "separate_legacy_480_mode_fixture": 320.2175234474735
+      },
+      "normalized_curvature_coefficient": 0.9999293596957393,
+      "t": 0.1
+    },
+    {
+      "cutoff_42_46_difference": 4.547473508864641e-13,
+      "epsilon_squared_heat_response": -197.3885826790306,
+      "finite_factors": {
+        "W33_vertex_Laplacian": 22.296670294861528,
+        "separate_legacy_480_mode_fixture": 386.5871815746773
+      },
+      "normalized_curvature_coefficient": 0.9999822417261418,
+      "t": 0.05
+    },
+    {
+      "cutoff_42_46_difference": 9.094947017729282e-12,
+      "epsilon_squared_heat_response": -394.78241850152517,
+      "finite_factors": {
+        "W33_vertex_Laplacian": 29.746019484248308,
+        "separate_legacy_480_mode_fixture": 429.04001274000365
+      },
+      "normalized_curvature_coefficient": 0.9999955480939821,
+      "t": 0.025
+    }
+  ],
+  "prior_owners": [
+    "analysis/BT1130_ricci_flat_seed_paradox_resolution.md",
+    "analysis/BT1033_spectral_action_term_by_term_geometric.md"
+  ],
+  "schema": "w33.20261001.isovolume-dirac-gravity-response.v1",
+  "status": "PASS_CURVED_DIRAC_RESPONSE_WITH_SEPARATE_FINITE_MASS_FACTOR"
+}

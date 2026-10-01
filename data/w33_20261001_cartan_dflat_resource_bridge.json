@@ -1,0 +1,154 @@
+{
+  "SL3_balancing": {
+    "Gram_error": 3.552713678800501e-15,
+    "balanced_column_Gram": "660^(1/3) I3",
+    "cubic_operator_congruence_error": 8.881784197001252e-16,
+    "cubic_operator_rank_before_after": [
+      78,
+      78
+    ],
+    "det_h": 0.9999999999999996,
+    "map": "V -> V h, h=det(G)^(1/6) G^(-1/2)",
+    "norm_reduction": 3.8802369264791707,
+    "norm_squared_after": 26.11976307352083,
+    "scope": "noncompact SL3 balancing only; the E6 moment map and full vacuum equations are not solved"
+  },
+  "assumption": "canonical positive kinetic norm Tr(V^dag V) on the 27x3 field",
+  "checks": {
+    "SL3_balancing_control": true,
+    "exact_SL3_obstruction": true,
+    "exact_mixed_color_marginal": true,
+    "operator_covariance_control": true,
+    "target_extraction_control": true
+  },
+  "exact": {
+    "Gram_determinant": 660,
+    "Gram_eigenvalues": [
+      "10",
+      "10-sqrt(34)",
+      "10+sqrt(34)"
+    ],
+    "SL3_moment_norm_squared": 68,
+    "T_column_Gram": [
+      [
+        "10",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "13",
+        "5"
+      ],
+      [
+        "0",
+        "5",
+        "7"
+      ]
+    ],
+    "T_norm_squared": 30,
+    "ambient_Cartan_Gram": [
+      [
+        "59",
+        "2",
+        "0"
+      ],
+      [
+        "2",
+        "98",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "30"
+      ]
+    ],
+    "color_Schmidt_rank": 3,
+    "grade_pair_Gram_relation": "the companion reconstructed grade-pair Gram equals 10 times this exact ambient Gram",
+    "normalized_SL3_moment_norm_squared": "17/225",
+    "normalized_color_purity": "92/225"
+  },
+  "interpretation": [
+    "The abstract Cartan qutrit coordinate and the literal external color qutrit are different objects.",
+    "Interpreting normalized V as a 27 tensor 3 quantum amplitude gives the displayed mixed color marginal, not a pure T state.",
+    "Canonical SU3 D-flatness forces V^dag V proportional to I3 and hence a maximally mixed color marginal under that quantum interpretation.",
+    "A classical scalar field configuration is not automatically a quantum resource state.",
+    "The global Cartan selector remains exact in its declared unitary metric; its compatibility with full-field kinetics and D-flatness is separate.",
+    "No physical mass, compact E6 vacuum, magic distillation protocol or state-preparation probability is predicted."
+  ],
+  "one_sided_T_extraction": {
+    "balanced_Dflat_probability": "1/3 for any target with an arbitrary chosen rank-one measurement",
+    "exact_denominator": "T^dag G^(-1) T = 1/30 + 10/99 - (5/99)*cos(4*pi/9)",
+    "formula": "p_max=1/(Tr(G) * T^dag G^(-1) T)",
+    "measurement_vector_imag": [
+      0.0,
+      0.0,
+      -0.38082502539869484,
+      0.0,
+      -0.09520625634967374,
+      0.0,
+      0.0,
+      0.09520625634967374,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.5712375380980422,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.09520625634967371
+    ],
+    "measurement_vector_real": [
+      0.0,
+      0.1629261056163046,
+      0.07564159869477931,
+      0.0,
+      0.22692479608433794,
+      0.0,
+      0.0,
+      -0.22692479608433794,
+      0.0,
+      -0.1629261056163046,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3258522112326092,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.30256639477911723,
+      0.0,
+      0.0,
+      -0.3258522112326092,
+      0.0,
+      -0.18910399673694828
+    ],
+    "probability": 0.2654491589129524,
+    "resource_boundary": "the measurement contains target-dependent ninth-root phases; its implementation/Clifford cost is not supplied or assumed free"
+  },
+  "prior_owners": [
+    "analysis/w33_pass11260_exact_semisimple_cartan.py",
+    "analysis/w33_pass11261_g26_cartan_coordinate_map.py",
+    "analysis/w33_20261001_g26_global_polynomial_vacuum.py",
+    "analysis/w33_20261001_tmagic_orbit_factory_contract.py",
+    "analysis/PASS10962_HIDDEN_SECTOR_DFLAT_TIERS.md"
+  ],
+  "schema": "w33.20261001.cartan-dflat-resource-bridge.v1",
+  "status": "PASS_EXACT_SL3_D_OBSTRUCTION_AND_EXPLICIT_BALANCING_EXTRACTION_MAPS"
+}
