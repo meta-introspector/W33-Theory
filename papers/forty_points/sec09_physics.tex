@@ -273,7 +273,7 @@ Parity from rotations & Appeared in one model under the old per-plane rule; with
 rules (Bizet et al.) it closes: $0$ of $128$. & \tierC\ (excluded)\\
 The $\mu$ term & Arises at order $3$ or $4$ in every model; none is $\mu$-free through order
 five. Must come from a vacuum symmetry. In the $\Z_6$-I class no continuous vacuum symmetry can forbid it ($0/23$,
-exact); in $\Z_6$-II an unbroken $U(1)'$ does so in $54$ models, cleanly in one (Section~\ref{sec:mu}). & \tierO\\
+exact); in $\Z_6$-II an unbroken $U(1)'$ does so in $54$ models, never with all exotics massive (Section~\ref{sec:mu}). & \tierO\\
 Neutrino masses & In the splitting-solving models, one to two orders of magnitude too light. & \tierO\\
 \bottomrule
 \end{tabularx}
@@ -363,14 +363,11 @@ vertices in the other three.
 \item \textbf{$\Z_6$-II:} such a $U(1)'$ exists in $429$ vacua of $54$ models. In all but one, the same $U(1)'$ also
   keeps a second Higgs pair or a vector-like exotic massless. This is the continuous counterpart of the $R$-symmetry
   that, in the one model whose FI-cancelling vacua keep a matter parity, keeps exotics massless.
-\item \textbf{The exception:} one vacuum of one model ($\Z_6$-II$_{06}$, model $1204$). There the $U(1)'$ charges are
-  $H_u:-7$, top quark doublet $+6$, $u^c:+1$, so the top Yukawa is allowed, while $H_u l_j$ has charge $-10$, $-5$ or
-  $-15$ for every $l_j$. Every other Higgs pair and every vector-like exotic is massive at the level of $U(1)$
-  selection rules.
+\item A first, rational-span test left one vacuum with every exotic massive. Integer powers of the vacuum fields (the
+  discrete remnants of the broken $U(1)$s) already keep four vector-like doublet pairs massless there, and with the
+  space-group and $R$ rules quarks and Higgs pairs stay light too (Pass 11240). No clean vacuum remains.
 \end{itemize}
-In that vacuum $\mu$ is zero until $U(1)'$ breaks and arises as $\lambda\langle s'\rangle$, the $U(1)'$ solution of
-the $\mu$ problem. The discrete selection rules, $F$-flatness and the matter-parity obstruction of
-Theorem~9.6 are not addressed by this test. \tierC\ (\cert{w33\_pass11232\_mu\_vacuum\_symmetry.py})
+The $R$-symmetry that makes such a vacuum $F$-flat is the one that keeps the exotics massless, as in Pass 10968. \tierC\ (\cert{w33\_pass11232\_mu\_vacuum\_symmetry.py})
 
 \subsection{The Fayet--Iliopoulos term forces a right-handed sneutrino}
 \label{sec:sneutrino}
@@ -1139,6 +1136,22 @@ $\mathrm{diag}(1,-1,-1)P_{23}$, i.e.\ pointing along $(0,1,-1)$.
 \end{itemize}
 This is the known vacuum-alignment problem of flavour symmetry, here for the line stabiliser's $S_4$. Solving it needs
 structure the geometry does not supply here. \tierC\ (\cert{w33\_pass11230\_tm1\_alignment.py})
+
+In the geometry the required alignment is an incidence statement. The stabiliser of a line of $\W$ acts on the line's
+four points as the full $S_4$ (with kernel $3^3$ times the centre). Relative to the charged-lepton $\Z_3$, which fixes
+one point $X$ of the line, the three classes of neutrino involution give:
+\begin{itemize}
+\item TM$_1$ exactly when the involution swaps $X$ with a second point $Q$ of the same line;
+\item $\theta_{13}=0$ when it fixes $X$;
+\item TM$_2$ for the double transpositions.
+\end{itemize}
+In the triplet $\mathbf3'$ the two flavons point along the point itself, $d_X$, and along the chord $d_X-d_Q$. The
+chord's stabiliser is exactly $\langle(XQ)\rangle$. Generic potentials miss this pair because it is fixed only by
+$(RS)\times(-1,-1)$, so TM$_1$ is a critical point only on a codimension-two set of couplings. In the sequestered
+limit TM$_1$ ties $48:48$ with the excluded $\theta_{13}=0$ orientation. The only orientation-sensitive quartic
+invariant that tells them apart is $(\varphi\cdot\chi)^2$, equal to $16$ against $0$, so a single sign,
+$\varepsilon<0$, selects TM$_1$ up to $O(\varepsilon)$ corrections. \tierC\
+(\cert{w33\_pass11243\_tm1\_line\_geometry.py})
 
 \paragraph{An area law.}
 Perfect tensors are the building blocks of holographic codes, in which the entropy of a boundary region equals a

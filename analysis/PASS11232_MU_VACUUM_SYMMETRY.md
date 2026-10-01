@@ -1,5 +1,11 @@
 # Pass 11232: can a vacuum symmetry forbid the μ term? An exact U(1) test on all 215 models
 
+> **Correction (Pass 11240).** The single "clean" vacuum (Z6II_06_1204) is **withdrawn**. The clean test used rational
+> spans. Integer powers of the vacuum fields leave discrete remnants of the broken U(1)s, and these already keep 4
+> v/v̄ pairs massless; the space-group and R rules then keep q/q̄, d/d̄ and extra Higgs pairs massless too. The
+> "forbidden" verdicts below (μ protected in 429 vacua of 54 Z6-II models; none in Z6-I) stand. Pass 11242 proves
+> why protection costs light colored states.
+
 Producer: `analysis/w33_pass11232_mu_vacuum_symmetry.py`
 Input: Pass 10960's exact-rational ledger, `data/w33_pass10960_heterotic_left_chiral_ledger.json.gz`
 (sha256 dd7a2c8b…; its D-flat machinery is reused).

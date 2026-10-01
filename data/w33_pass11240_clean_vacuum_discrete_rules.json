@@ -1,0 +1,49 @@
+{
+ "pass_id": 11240,
+ "model": "Z6-II|Z6II_06__SM_20260917_1204",
+ "support_types": [
+  "n_13",
+  "n_2",
+  "n_41",
+  "n_55",
+  "n_64"
+ ],
+ "fields_per_type": [
+  1,
+  1,
+  1,
+  2,
+  2
+ ],
+ "choices": 4,
+ "by_ruleset": {
+  "U(1) lattice only": {
+   "protected": 4,
+   "clean": 0,
+   "clean_F_flat": 0,
+   "light": {
+    "v": 4
+   }
+  },
+  "+ space group": {
+   "protected": 4,
+   "clean": 0,
+   "clean_F_flat": 0,
+   "light": {
+    "v": 4
+   }
+  },
+  "+ space group + R": {
+   "protected": 4,
+   "clean": 0,
+   "clean_F_flat": 0,
+   "light": {
+    "q": 4,
+    "d": 4,
+    "v": 4,
+    "extra Higgs": 4
+   }
+  }
+ },
+ "clean_examples": {}
+}

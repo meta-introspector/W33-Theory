@@ -1,0 +1,22 @@
+name: W33 Pass 11243 TM1 line geometry
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11243_*.py"
+      - "analysis/w33_pass11230_tm1_alignment.py"
+      - "analysis/PASS11243_*.md"
+      - "data/w33_pass11243_*.json"
+      - "tests/test_w33_pass11243_tm1_line_geometry.py"
+      - ".github/workflows/w33_pass11243_tm1_line_geometry.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest networkx mpmath 
+      - run: python -m pytest -q tests/test_w33_pass11243_tm1_line_geometry.py
