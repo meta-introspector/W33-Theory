@@ -1099,6 +1099,21 @@ $\sin^2\theta_{23}=7/13$, $\sin^2\theta_{13}=2/91$. What survives fixes a single
 These last columns sit $2$--$3\sigma$ from the fit. The symmetry hosts the classic flavour groups and their partial
 patterns. It cannot fix the mixing matrix: that needs dynamics. \tierC\ (\cert{w33\_pass11225\_flavour\_from\_symmetry.py})
 
+TM$_1$ makes a sharp prediction. Fixing the first column fixes $\cos\delta$ as a function of $\theta_{23}$:
+$\cos\delta=0$ exactly at maximal $\theta_{23}$, for every $\theta_{13}$, and the sign of $\cos\delta$ is the octant.
+Over the current range, $|\delta-90^\circ|<26^\circ$ (or the mirror value near $270^\circ$). The Clifford column
+fits only at the upper edge, $\sin^2\theta_{23}\in[0.586,0.596]$, with $\delta\approx\pi$. Whether dynamics selects
+TM$_1$ is a separate question. TM$_1$ needs a neutrino flavon fixed by exactly one involution,
+$\mathrm{diag}(1,-1,-1)P_{23}$, i.e.\ pointing along $(0,1,-1)$.
+\begin{itemize}
+\item One flavon with the most general renormalisable $S_4$-invariant potential: never.
+\item One flavon with sextic terms: sometimes ($37/150$).
+\item Two flavons with every allowed cross-coupling: in $0$ of $1500$ random vacua, because the cross-couplings align
+  the two vacuum directions.
+\end{itemize}
+This is the known vacuum-alignment problem of flavour symmetry, here for the line stabiliser's $S_4$. Solving it needs
+structure the geometry does not supply here. \tierC\ (\cert{w33\_pass11230\_tm1\_alignment.py})
+
 \paragraph{An area law.}
 Perfect tensors are the building blocks of holographic codes, in which the entropy of a boundary region equals a
 minimal cut through the network: a discrete Ryu--Takayanagi law. A network built only from the geometry's perfect
