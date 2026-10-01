@@ -16,9 +16,10 @@ perfect gate of Pass 11193; the AME(10,3) Glynn state of Pass 11224) and checks 
 Results: RT holds exactly for every contiguous boundary interval on a HaPPY {5,4} patch of AME(6,3) tensors (bulk legs
 in a product state), on a flat {4,4} patch of the same tensors, and on a {4,5} patch built ONLY from the substrate's own
 perfect two-qutrit tick p (Pass 11193; its Choi state is AME(4,3)), which has no bulk legs.
-What this does NOT show: small patches satisfy RT whatever the curvature, so the sign of the cosmological constant is
-not decided here (a first plan to contrast {5,4} with {4,4} was dropped when both satisfied RT); and a discrete area
-law is not Einstein's equations -- those follow from the entanglement first law only for holographic CFTs.
+What this does NOT show: flat grids of the same perfect tick (2x2 ... 5x5, no interior boundary legs) satisfy RT on
+every interval too, so the area law does not select negative curvature and the sign of the cosmological constant is not
+decided here (a first plan to contrast {5,4} with {4,4} was dropped when both satisfied RT); and a discrete area law is
+not Einstein's equations -- those follow from the entanglement first law only for holographic CFTs.
 """
 from __future__ import annotations
 
@@ -332,6 +333,32 @@ def hyperbolic_square_order(legs):
     return sorted(legs, key=key)
 
 
+def flat_grid(nr, nc):
+    """flat {4,4} grid of 4-leg tensors with no boundary legs in the interior: legs (W, N, E, S)"""
+    T, bonds, net = {}, [], []
+    for i in range(nr):
+        for j in range(nc):
+            T[f"G{i}_{j}"] = [f"G{i}_{j}_W", f"G{i}_{j}_N", f"G{i}_{j}_E", f"G{i}_{j}_S"]
+    for i in range(nr):
+        for j in range(nc):
+            if j < nc - 1:
+                bonds.append((f"G{i}_{j}_E", f"G{i}_{j + 1}_W"))
+                net.append((f"G{i}_{j}", f"G{i}_{j + 1}"))
+            if i < nr - 1:
+                bonds.append((f"G{i}_{j}_S", f"G{i + 1}_{j}_N"))
+                net.append((f"G{i}_{j}", f"G{i + 1}_{j}"))
+    return T, bonds, net
+
+
+def grid_order(nr, nc):
+    def order(legs):
+        out = ["G0_0_W"] + [f"G0_{j}_N" for j in range(nc)] + [f"G{i}_{nc - 1}_E" for i in range(nr)] + \
+              [f"G{nr - 1}_{j}_S" for j in reversed(range(nc))] + [f"G{i}_0_W" for i in reversed(range(1, nr))]
+        assert sorted(out) == sorted(legs)
+        return out
+    return order
+
+
 def run():
     G6 = find_ame6()
     L6 = graph_lagrangian(G6)
@@ -348,6 +375,11 @@ def run():
     Ls = choi_lagrangian(SUM)
     res["control_SUM_choi_is_AME43"] = is_perfect(Ls, 4)
     res["control_SUM_{4,5}"] = rt_check(T, bonds, net, Ls, hyperbolic_square_order)
+    res["perfect_tick_flat_grids"] = {}
+    for nr in (2, 3, 4, 5):
+        T, bonds, net = flat_grid(nr, nr)
+        res["perfect_tick_flat_grids"][f"{nr}x{nr}"] = rt_check(T, bonds, net, Lp, grid_order(nr, nr))
+    res["flat_grids_rt_exact"] = all(v["rt_exact"] == v["intervals"] for v in res["perfect_tick_flat_grids"].values())
     res["rt_exact_everywhere"] = all(res[k]["rt_exact"] == res[k]["intervals"]
                                      for k in ("pentagon_{5,4}", "square_{4,4}", "perfect_tick_{4,5}"))
     return res

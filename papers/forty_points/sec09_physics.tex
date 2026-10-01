@@ -40,6 +40,8 @@ removes. The forty points host the Standard Model; this route does not make it o
   \entry{8}{A realistic vacuum of the heterotic orbifold route}{rose}{CLOSED}
   \entry{9}{Masses, mixing angles, coupling constants}{slate}{OPEN}
   \entry{10}{Gravity, a dynamical space-time, the cosmological constant}{slate}{OPEN}
+  \entry{11}{Lepton mixing from the finite symmetry alone (residual symmetries)}{rose}{NO-GO}
+  \entry{12}{An entanglement area law for networks of the perfect tick}{sky}{HOSTED}
 \end{tikzpicture}
 \caption{Scorecard. \textsf{EXACT}: a theorem or exact computation in this paper.
 \textsf{HOSTED}: realised in an explicit construction built on the geometry, not forced by
@@ -1072,6 +1074,39 @@ further labels. Its cubic ``tick'' orientation is again $\mu$. Its chamber-sheet
 elements with $\mu=+1$, so it is defined only relative to a chosen flag. So however the geometry is
 probed, it has exactly one global sign to fix: which chirality goes with which direction of time.
 \tierT\ \tierC\ (\cert{w33\_pass11091\_one\_global\_orientation\_bit.py})
+
+\subsection{What the finite symmetry alone gives: flavour and area}
+
+\paragraph{Mixing angles from residual symmetry.}
+The principled way for a finite symmetry to fix flavour is the residual-symmetry method. If the three generations
+carry a three-dimensional representation and the charged-lepton and neutrino mass terms each keep a subgroup, the mixing
+matrix is fixed by group theory alone. We applied this to every three-dimensional irreducible representation of every
+subgroup of $W(E_6)=\mathrm{Aut}(\W)$ and of $\Sp(4,3)$. That is $606$ representations with $34$ distinct images in
+$U(3)$, among them $A_4$, $S_4$, $A_5$, $\Delta(27)$, $\Delta(54)$ and the single-qutrit Clifford group
+$\Sigma(216\times3)$. We compared every pattern with the current global fit, allowing any assignment of generations.
+
+No pair of residual symmetries fixes all three lepton angles inside their $3\sigma$ ranges, for Majorana or Dirac
+neutrinos. None gives the Cabibbo angle, and none reproduces the older manuscripts' $\sin^2\theta_{12}=4/13$,
+$\sin^2\theta_{23}=7/13$, $\sin^2\theta_{13}=2/91$. What survives fixes a single column:
+\begin{itemize}
+\item the trimaximal TM$_1$ column $(2/3,1/6,1/6)$, from the $S_4$ by which the stabiliser of a line of $\W$ (a
+  measurement context) acts. It predicts $\sin^2\theta_{12}=0.317$--$0.320$, within $1\sigma$, and
+  $\cos\delta\in[-0.33,0.45]$;
+\item the qutrit Clifford group's column $\bigl(\tfrac23\sin^2\tfrac{4\pi}9,\tfrac23\sin^2\tfrac{\pi}9,
+  \tfrac23\sin^2\tfrac{2\pi}9\bigr)$, which forces $\delta\approx\pi$;
+\item two golden-ratio columns from $A_5$, and TM$_2$ from $A_4$.
+\end{itemize}
+These last columns sit $2$--$3\sigma$ from the fit. The symmetry hosts the classic flavour groups and their partial
+patterns. It cannot fix the mixing matrix: that needs dynamics. \tierC\ (\cert{w33\_pass11225\_flavour\_from\_symmetry.py})
+
+\paragraph{An area law.}
+Perfect tensors are the building blocks of holographic codes, in which the entropy of a boundary region equals a
+minimal cut through the network: a discrete Ryu--Takayanagi law. A network built only from the geometry's perfect
+two-qutrit tick $p$, whose Choi state is AME$(4,3)$, satisfies it exactly on every boundary interval of a hyperbolic
+$\{4,5\}$ patch, and so does a $\{5,4\}$ code of AME$(6,3)$ tensors. The same network built from the non-perfect SUM
+gate fails on more than half the intervals. Flat grids of $p$ up to $5\times5$ satisfy the law too, so the area law
+does not select negative curvature, and it does not fix the sign of the cosmological constant. Gravity is hosted here
+as an exact area law, not derived. \tierC\ (\cert{w33\_pass11226\_holographic\_area\_law.py})
 
 \subsection{What we do not count as evidence}
 

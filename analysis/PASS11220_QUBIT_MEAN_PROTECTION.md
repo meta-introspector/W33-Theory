@@ -29,7 +29,10 @@ Regression: `tests/test_w33_pass11220_qubit_mean_protection.py`
   * the maximal arrow (c = 0) has probability 0.4927;
   * an arrow-free tick (c = 6) has probability 7.7·10⁻⁶;
   * c = 5 never occurs, as A ≠ 1 requires.
-* **Cross-check.** The n = 6 closed form is compared with brute-force c over all 1 397 760 nondegenerate planes of F₂¹²
-  (`--brute`). The outcome is recorded in the certificate when the run completes.
+* **Cross-check, and its limit.**
+  * The n = 6 value uses the closed form, which brute force confirms on all 320 classes with n ≤ 5.
+  * A brute-force check at n = 6, over all 1 397 760 nondegenerate planes of F₂¹² (`--brute`), was started and stopped.
+    Classes with many invariant planes but c < 6 make the exhaustive orthogonal-family search explode. The n = 6
+    number is therefore exact given the closed form, not independently verified.
 * **Open.** An exact qubit limit needs Fulman's cycle index refined by Hesselink's index (Fulman–Neumann–Praeger treat
   even characteristic).

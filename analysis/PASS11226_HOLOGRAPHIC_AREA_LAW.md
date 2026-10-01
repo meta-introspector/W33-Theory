@@ -32,6 +32,7 @@ Regression: `tests/test_w33_pass11226_holographic_area_law.py`
 | flat {4,4} patch | AME(6,3), bulk legs fixed | 21 | 210 | **210** |
 | {4,5} patch | **the perfect tick p alone** (AME(4,3)) | 20 | 200 | **200** |
 | {4,5} patch, control | SUM (not perfect) | 20 | 200 | 96 (104 below the cut) |
+| flat {4,4} grids, 2×2 to 5×5, no interior boundary legs | the perfect tick p | 8, 12, 16, 20 | 32, 72, 128, 200 | **all** |
 
 * The network built only from the substrate's own perfect two-qutrit tick satisfies the discrete area law exactly on
   every interval.
@@ -44,10 +45,12 @@ Regression: `tests/test_w33_pass11226_holographic_area_law.py`
   * An exact entanglement = area law holds in networks of the geometry's tick.
   * Einstein's equations follow from the entanglement first law only for holographic conformal field theories. Toy
     perfect-tensor codes do not supply that dynamics, so no Einstein equation is claimed.
-* **Cosmological constant: not decided.**
+* **Cosmological constant: not decided by this route.**
   * The plan was to contrast a hyperbolic {5,4} patch with a flat {4,4} patch, to see whether the area law forces
-    negative curvature (Λ < 0). Both patches satisfy RT exactly, so small patches do not decide the sign. That claim is
-    withdrawn.
+    negative curvature (Λ < 0). Both patches satisfy RT exactly. That claim is withdrawn.
+  * A sharper test uses flat square grids built only from p, up to 5×5, with no interior boundary legs. They satisfy RT
+    on every interval as well.
+  * So the exact area law of the tick does not select negative curvature, and cannot by itself fix the sign of Λ.
   * Perfect-tensor holography is built on anti-de Sitter-like tilings, while the observed Λ is positive. Nothing here
     addresses that.
 * **Dynamical space-time: OPEN.** These are static networks.

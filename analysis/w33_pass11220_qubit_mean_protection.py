@@ -14,8 +14,9 @@ Results (exact fractions in the certificate):
     n = 6  180847576047477961/271885345530839040 = 0.665161
 Successive differences -0.0575, -0.00356, +0.00113, +0.0000713: the last ratio is ~1/16, so the limit is
 0.665166 +- 0.00001 (geometric extrapolation; not a proof).  Qubits protect fewer than qutrits (0.72554).
-The n = 6 closed form is cross-checked against brute-force c over all 1 397 760 nondegenerate planes of F_2^12 when
-`--brute` is given (slow; recorded in the certificate).
+The n = 6 value uses the closed form (brute-force-verified on all 320 classes with n <= 5).  `--brute` checks it at
+n = 6 over all 1 397 760 nondegenerate planes of F_2^12, but the exhaustive search explodes on classes with many
+invariant planes and c < 6; it was not completed in this session.
 """
 from __future__ import annotations
 

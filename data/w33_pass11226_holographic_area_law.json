@@ -257,5 +257,156 @@
    ]
   }
  },
+ "perfect_tick_flat_grids": {
+  "2x2": {
+   "boundary_legs": 8,
+   "intervals": 32,
+   "rt_exact": 32,
+   "entropy_below_cut": 0,
+   "entropy_above_cut": 0,
+   "by_length": {
+    "1": [
+     8,
+     8
+    ],
+    "2": [
+     8,
+     8
+    ],
+    "3": [
+     8,
+     8
+    ],
+    "4": [
+     8,
+     8
+    ]
+   }
+  },
+  "3x3": {
+   "boundary_legs": 12,
+   "intervals": 72,
+   "rt_exact": 72,
+   "entropy_below_cut": 0,
+   "entropy_above_cut": 0,
+   "by_length": {
+    "1": [
+     12,
+     12
+    ],
+    "2": [
+     12,
+     12
+    ],
+    "3": [
+     12,
+     12
+    ],
+    "4": [
+     12,
+     12
+    ],
+    "5": [
+     12,
+     12
+    ],
+    "6": [
+     12,
+     12
+    ]
+   }
+  },
+  "4x4": {
+   "boundary_legs": 16,
+   "intervals": 128,
+   "rt_exact": 128,
+   "entropy_below_cut": 0,
+   "entropy_above_cut": 0,
+   "by_length": {
+    "1": [
+     16,
+     16
+    ],
+    "2": [
+     16,
+     16
+    ],
+    "3": [
+     16,
+     16
+    ],
+    "4": [
+     16,
+     16
+    ],
+    "5": [
+     16,
+     16
+    ],
+    "6": [
+     16,
+     16
+    ],
+    "7": [
+     16,
+     16
+    ],
+    "8": [
+     16,
+     16
+    ]
+   }
+  },
+  "5x5": {
+   "boundary_legs": 20,
+   "intervals": 200,
+   "rt_exact": 200,
+   "entropy_below_cut": 0,
+   "entropy_above_cut": 0,
+   "by_length": {
+    "1": [
+     20,
+     20
+    ],
+    "2": [
+     20,
+     20
+    ],
+    "3": [
+     20,
+     20
+    ],
+    "4": [
+     20,
+     20
+    ],
+    "5": [
+     20,
+     20
+    ],
+    "6": [
+     20,
+     20
+    ],
+    "7": [
+     20,
+     20
+    ],
+    "8": [
+     20,
+     20
+    ],
+    "9": [
+     20,
+     20
+    ],
+    "10": [
+     20,
+     20
+    ]
+   }
+  }
+ },
+ "flat_grids_rt_exact": true,
  "rt_exact_everywhere": true
 }
