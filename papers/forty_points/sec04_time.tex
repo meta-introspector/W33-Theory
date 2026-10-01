@@ -692,10 +692,13 @@ current spectra $\pm24\sqrt3\,i,\pm36\sqrt3\,i$ and $\pm72\sqrt3\,i,\pm324\sqrt3
 With two qutrits the entangler can do the mixing: $(T\otimes T)\,\mathrm{SUM}$ has no substrate time reversal, while
 one cubic phase with an entangler, or two on the same qutrit, always does (exact search over the anti-unitary two-qutrit
 Clifford group) --- T-violation needs the phase in both sectors, the way CP violation needs both quark sectors. Every
-violating tick found, on one qutrit or two, has the same best time-reversal fidelity $(1+2\cos\frac{2\pi}{9})/3$: the
-irreducible quantum of T-violation is the phase $2\pi/9$ of $\zeta_9^{x^3}$. The natural cubic Pauli invariant cannot
+minimal violating tick, on one qutrit or two, has the same best time-reversal fidelity $(1+2\cos\frac{2\pi}{9})/3$ ---
+the phase $2\pi/9$ of $\zeta_9^{x^3}$ --- and with at most two cubic gates no violation is milder; with three or more the
+fidelity spectrum widens in both directions (up to $0.939$ and down to $0.567$ on two qutrits), while violation becomes
+generic ($8\%$, $65\%$, $93\%$, $98\%$ of random two-qutrit words with $1$--$4$ cubic gates). The natural cubic Pauli invariant cannot
 detect it (it is identically real); time-reversal interferometry does. \tierC\
-(\cert{w33\_pass11227\_two\_qutrit\_cp\_mixing.py}, \cert{w33\_pass11228\_t\_witness.py})
+(\cert{w33\_pass11227\_two\_qutrit\_cp\_mixing.py}, \cert{w33\_pass11228\_t\_witness.py},
+\cert{w33\_pass11235\_two\_qutrit\_t\_spectrum.py})
 
 All of this is one law.
 

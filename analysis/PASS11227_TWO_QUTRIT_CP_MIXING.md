@@ -27,7 +27,7 @@ H, S and SUM. The best time-reversal fidelity is F_T(U) = max_V |tr(V U* V† U)
 
 * **Entanglement replaces the explicit shift, but only when both qutrits carry a cubic phase.** One cubic phase with an
   entangler, in any placement tried, is reversible. So are two cubic phases on the same qutrit.
-* **The violation is quantised and universal.** Every violating circuit tested has the same best time-reversal fidelity,
+* **The violation is quantised on every circuit tested here.** (Scope: Pass 11235 shows that with three or more cubic gates the spectrum widens, including milder violations, F_T = 0.939.) Every violating circuit tested has the same best time-reversal fidelity,
   F_T = (1 + 2cos 2π/9)/3 = 0.8440296287…. That is the same value as the one-qutrit minimal violators. The circuits
   tested are (T⊗T)·SUM, (T⊗T†)·SUM, (T†⊗T)·SUM, (T²⊗T)·SUM, SUM·(T⊗T), (T⊗T)·SUM†, the doubled circuit and T·X⊗I.
   * Opposite phases on the two qutrits do **not** cancel.
