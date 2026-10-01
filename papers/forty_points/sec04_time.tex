@@ -704,16 +704,25 @@ detect it (it is identically real); time-reversal interferometry does. \tierC\
 
 The fidelity levels are algebraic: the minimal one has $F^2$ a root of $81x^3-81x^2+18x-1$, a second level lies in the
 same cubic field $\mathbb Q(\cos\frac{2\pi}{9})$, and the stronger level $0.712386$ reached by single-sector violators is
-the square of the minimal one to machine precision ($2\times10^{-16}$) --- two $2\pi/9$ quanta composed, with
-the exact proof and mechanism open. As a residual flavour symmetry the cubic gate
+exactly the square of the minimal one: the optimal reversal leaves nine residual phases forming the sumset
+$\{-1,0,1\}+\{-1,0,1\}$ (units of $2\pi/9$), so its trace is $(1+\zeta+\zeta^{-1})^2$, two minimal quanta multiplied
+(exact arithmetic in $\mathbb Z[\zeta_9]$, with a Galois-conjugate gap closing the float search). As a residual flavour symmetry the cubic gate
 adds no complete mixing pattern: its eigenbasis is a stabilizer basis, and even the non-stabilizer eigenbases of
 one-cubic-gate words give no PMNS or Cabibbo pattern, so the finite-symmetry no-go (\cert{w33\_pass11225\_flavour\_from\_symmetry.py}) extends to
-the magic layer at that depth; the cubic resource supplies CP-odd phases, not angles. On three qutrits, exact product
-reversals give fidelity at least 0.8440 for the embedded minimal violator and for its product with a cubic
-phase on the third qutrit, and certify the embedded one-gate tick reversible; random-plus-greedy search over three-qutrit
-Cliffords reaches only 0.46 on that product case, so it says nothing about genuinely three-qutrit circuits, and no
-exhaustive three-qutrit statement is made. \tierC\ (\cert{w33\_pass11236\_cubic\_flavour.py}, \cert{w33\_pass11237\_fidelity\_levels.py},
-\cert{w33\_pass11238\_one\_sector\_law.py}, \cert{w33\_pass11239\_three\_qutrit\_t.py})
+the magic layer at that depth; the cubic resource supplies CP-odd phases, not angles. Generic search over the three-qutrit
+Clifford group is blind (it reaches $0.20$ on a tick that is reversible), but reversibility is decidable exactly: in
+the symmetric Weyl basis $U=3^{-n}\sum_p c(p)W(p)$ the Weil representation acts without phases, so $U$ has a
+substrate time reversal if and only if $c(Lp)=\mu\,\omega^{\langle b,Lp\rangle}c(p)$ for some anti-symplectic $L$,
+$b\in\F_3^{2n}$ and $|\mu|=1$. A backtracking search pruned by this condition agrees with the exhaustive two-qutrit
+search on every word tested and decides three qutrits in seconds: $(T\otimes T\otimes T)\,\mathrm{SUM}_{23}\mathrm{SUM}_{12}$
+violates, $(T\otimes1\otimes T)\,\mathrm{SUM}_{23}\mathrm{SUM}_{12}$ is reversible, and random three-qutrit ticks with
+$1,2,3,4$ cubic gates violate in 10/100, 94/100, 100/100, 100/100 cases. Finally, for any number of qutrits every best reversal
+fidelity has $F^2$ in the cubic field $\mathbb Q(\cos\frac{2\pi}{9})$ (traces lie in $\mathbb Q(\zeta_9)$, and
+$|t|^2$ is real); $148$ levels are identified exactly, e.g.\ $F=(5+c)/9$ and $F=(-4+2c+4c^2)/9$ with
+$c=2\cos\frac{2\pi}{9}$, and $F$ itself lies outside the field in five of them. \tierC\ (\cert{w33\_pass11236\_cubic\_flavour.py}, \cert{w33\_pass11237\_fidelity\_levels.py},
+\cert{w33\_pass11238\_one\_sector\_law.py}, \cert{w33\_pass11239\_three\_qutrit\_t.py},
+\cert{w33\_pass11251\_exact\_reversal.py}, \cert{w33\_pass11252\_exact\_reversibility.py},
+\cert{w33\_pass11253\_cubic\_field\_levels.py})
 
 All of this is one law.
 
@@ -769,14 +778,18 @@ Lagrangian:
 So $A(S)=n-c(S)$ for every number of qubits, with $c=m_1(1)/2+\chi_2\,m_2(1)+m_1(x^2+x+1)$, where $\chi_2$ is
 Hesselink's index at two (exact on all $320$ classes with $n\le5$). The unavoidable record is one bit, $k_BT\ln2$, per
 unprotected qubit per tick. A random qubit tick protects about $0.665$ of a qubit, fewer than a qutrit tick. The
-characteristic-two cycle index gives this exactly up to two identities that hold on every unipotent class of
-$\mathrm{Sp}(2m,2)$, $m\le6$:
+characteristic-two cycle index gives this exactly through two identities, checked on every unipotent class of
+$\mathrm{Sp}(2m,2)$, $m\le6$, and on all of $\mathrm{Sp}(4,4)$, and both theorems: Lusztig's unipotent pieces of
+$\mathrm{Sp}_{2n}$ in characteristic two are the Jordan strata, with point counts given by characteristic-free
+polynomials~\cite{Lusztig2005,Xue2012}, and in Lusztig's parametrisation the form on the size-two blocks ranges
+uniformly over the nondegenerate symmetric forms:
 \begin{itemize}
 \item the Jordan types are weighted as in odd characteristic;
 \item a block pattern with an even number $m_2$ of size-two blocks has Hesselink index zero with probability $2^{-m_2}$.
 \end{itemize}
-They give $\lim E_n[c]=0.66516065\ldots$. The unitary part is $0.27261186563783750\ldots$. The means are not monotone,
-$E_7<E_6$. \tierC\ (\cert{w33\_pass11233\_qubit\_limit\_cycle\_index.py}, \cert{w33\_pass11244\_hesselink\_qubit\_limit.py})
+They give $\lim E_n[c]=0.66516065\ldots$, unconditionally. The unitary part is $0.27261186563783750\ldots$. The means are not monotone,
+$E_7<E_6$. \tierC\ (\cert{w33\_pass11233\_qubit\_limit\_cycle\_index.py}, \cert{w33\_pass11244\_hesselink\_qubit\_limit.py},
+\cert{w33\_pass11250\_qubit\_identities\_proved.py})
 \tierT\,\tierC\ (\cert{w33\_pass11217\_qubit\_arrow\_law.py})
 
 The same law governs the continuum. Every step of the odd proof works over any field of characteristic $\neq2$, so

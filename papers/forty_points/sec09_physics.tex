@@ -1159,6 +1159,14 @@ $\varepsilon<0$, selects TM$_1$ up to $O(\varepsilon)$ corrections. \tierC\
 An explicit sequestered model, with sextic-to-octic terms for the chord, confirms this: $\varepsilon<0$ selects
 TM$_1$, $\varepsilon>0$ the $\theta_{13}=0$ orientation, and the vacua tilt by $O(\varepsilon)$
 (\cert{w33\_pass11248\_sequestered\_tm1.py}).
+Adding equivariant Yukawa couplings fixes what this does and does not predict. At $\varepsilon=0$ the first column is
+exactly TM$_1$ for every coupling, while $\theta_{23}$ and $\delta$ range freely ($\sin^2\theta_{23}\in[0.29,0.71]$,
+$\cos\delta\in[-1,1]$ over fits to $\theta_{13}$ and the mass splittings); the neutrino mass matrix needs the unique
+equivariant cubic, without which an accidental reflection freezes the whole mixing matrix. The TM$_1$ relation
+$|U_{e1}|^2=2/3$ breaks linearly in the vacuum tilts, about $13$ and $17$ per radian on the neutrino and charged-lepton
+sides, so keeping $\sin^2\theta_{12}$ inside the $3\sigma$ window needs both vacua aligned to about $0.1^\circ$, i.e.
+$|\varepsilon|\lesssim10^{-3}$ in this potential: the sign of $\varepsilon$ selects TM$_1$, its size is a tuning.
+\tierC\ (\cert{w33\_pass11254\_tm1\_yukawa\_breaking.py})
 
 \paragraph{An area law.}
 Perfect tensors are the building blocks of holographic codes, in which the entropy of a boundary region equals a

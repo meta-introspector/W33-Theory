@@ -1,0 +1,42 @@
+{
+ "pass_id": 11251,
+ "tick": "(I(x)T) SUM (I(x)T^2)",
+ "float_max": 0.7123860142010856,
+ "F_min_squared": 0.7123860142010857,
+ "float_minus_Fmin2": -1.1102230246251565e-16,
+ "n_maximisers": 243,
+ "n_product_maximisers": 81,
+ "maximiser_r": 0,
+ "exact_trace_coeffs": [
+  3,
+  1,
+  -1,
+  0,
+  -1,
+  -2
+ ],
+ "exact_t_conj_t": [
+  15,
+  6,
+  -6,
+  0,
+  -9,
+  -15
+ ],
+ "F_T_squared_equals_F_min_fourth_exactly": true,
+ "minpoly_of_t_conj_t": [
+  "1",
+  "-45",
+  "162",
+  "-81"
+ ],
+ "galois_gap_in_Y": 5.807643281354693e-09,
+ "galois_gap_in_F": 6.21275911319462e-13,
+ "float_error_bound_used": 1e-13,
+ "min_nonzero_clifford_modulus": 0.3333333333333326,
+ "second_level": 0.666666667,
+ "proved_F_T_equals_F_min_squared": true,
+ "levels_near_top": [
+  0.712386014
+ ]
+}

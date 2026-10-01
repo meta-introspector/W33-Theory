@@ -1,0 +1,105 @@
+{
+ "pass_id": 11252,
+ "two_qutrit_validation": {
+  "agree": 204,
+  "disagree": 0,
+  "by_depth_and_verdict": {
+   "depth0:reversible=True": 50,
+   "depth1:reversible=True": 50,
+   "depth2:reversible=True": 18,
+   "depth2:reversible=False": 32,
+   "depth3:reversible=False": 44,
+   "depth3:reversible=True": 6
+  },
+  "named": {
+   "(T(x)T)SUM": {
+    "exhaustive_reversible": false,
+    "decided_reversible": false,
+    "n_maps_examined": 0
+   },
+   "(I(x)T)SUM": {
+    "exhaustive_reversible": true,
+    "decided_reversible": true,
+    "n_maps_examined": 1
+   },
+   "(I(x)T)SUM(I(x)T^2)": {
+    "exhaustive_reversible": false,
+    "decided_reversible": false,
+    "n_maps_examined": 0
+   },
+   "(I(x)T)SUM(I(x)T)": {
+    "exhaustive_reversible": true,
+    "decided_reversible": true,
+    "n_maps_examined": 1
+   }
+  }
+ },
+ "three_qutrit_candidates": {
+  "(T(x)T)SUM (x) I": {
+   "reversible": false,
+   "n_maps_examined": 0,
+   "twirl_fidelity_of_found_reversal": null
+  },
+  "(T(x)T(x)T) SUM12": {
+   "reversible": false,
+   "n_maps_examined": 0,
+   "twirl_fidelity_of_found_reversal": null
+  },
+  "(I(x)I(x)T) SUM23": {
+   "reversible": true,
+   "n_maps_examined": 1,
+   "twirl_fidelity_of_found_reversal": 0.9999999999999994
+  },
+  "(T(x)T(x)T) SUM23 SUM12": {
+   "reversible": false,
+   "n_maps_examined": 0,
+   "twirl_fidelity_of_found_reversal": null
+  },
+  "(T(x)I(x)T) SUM23 SUM12": {
+   "reversible": true,
+   "n_maps_examined": 1,
+   "twirl_fidelity_of_found_reversal": 0.9999999999999993
+  },
+  "(I(x)I(x)T) SUM23 SUM12": {
+   "reversible": true,
+   "n_maps_examined": 1,
+   "twirl_fidelity_of_found_reversal": 0.9999999999999998
+  },
+  "(T(x)I(x)I) SUM12 SUM23": {
+   "reversible": true,
+   "n_maps_examined": 1,
+   "twirl_fidelity_of_found_reversal": 0.9999999999999999
+  }
+ },
+ "three_qutrit_conjugated_control_reversible": "6/6",
+ "three_qutrit_census": {
+  "1": {
+   "words": 100,
+   "violating": 10,
+   "reversible": 90,
+   "undecided": 0,
+   "max_maps_examined": 1
+  },
+  "2": {
+   "words": 100,
+   "violating": 94,
+   "reversible": 6,
+   "undecided": 0,
+   "max_maps_examined": 1
+  },
+  "3": {
+   "words": 100,
+   "violating": 100,
+   "reversible": 0,
+   "undecided": 0,
+   "max_maps_examined": 0
+  },
+  "4": {
+   "words": 100,
+   "violating": 100,
+   "reversible": 0,
+   "undecided": 0,
+   "max_maps_examined": 0
+  }
+ }
+}

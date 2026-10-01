@@ -1,0 +1,66 @@
+{
+ "pass_id": 11250,
+ "sp44_order_enumerated": 979200,
+ "sp44_order_formula": 979200,
+ "unipotents": 65536,
+ "steinberg_q8": 65536,
+ "identity1_q4": {
+  "1,1,1,1": {
+   "count": 1,
+   "predicted": "1",
+   "equal": true
+  },
+  "2,1,1": {
+   "count": 255,
+   "predicted": "255",
+   "equal": true
+  },
+  "2,2": {
+   "count": 4080,
+   "predicted": "4080",
+   "equal": true
+  },
+  "4": {
+   "count": 61200,
+   "predicted": "61200",
+   "equal": true
+  }
+ },
+ "identity2_q4": {
+  "2,1,1": {
+   "chi0": 0,
+   "total": 255,
+   "fraction": "0",
+   "predicted": "0",
+   "equal": true
+  },
+  "2,2": {
+   "chi0": 255,
+   "total": 4080,
+   "fraction": "1/16",
+   "predicted": "1/16",
+   "equal": true
+  }
+ },
+ "identity1_all": true,
+ "identity2_all": true,
+ "alt_over_sym_q2": {
+  "1": "0",
+  "2": "1/4",
+  "3": "0",
+  "4": "1/16",
+  "5": "0",
+  "6": "1/64",
+  "7": "0",
+  "8": "1/256"
+ },
+ "alt_over_sym_q4": {
+  "1": "0",
+  "2": "1/16",
+  "3": "0",
+  "4": "1/256",
+  "5": "0",
+  "6": "1/4096"
+ },
+ "qubit_limit": "0.66516065 (Pass 11244), now resting on Lusztig 2005 section 3 and Xue 2.7 instead of verification"
+}
