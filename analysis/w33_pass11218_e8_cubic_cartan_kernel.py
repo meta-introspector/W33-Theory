@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pass 11218: an explicit Cartan kernel for the E8 -> E6+A2 cubic.
+"""Pass 11218 corrected: a regular abelian centralizer for the E8 cubic.
 
 The repository's grade-one bracket is
 
@@ -12,10 +12,11 @@ principal minor is retained as a compact rank witness.
 
 The generic conclusion uses the classical Vinberg theta-group classification:
 the order-three E8 grading with fixed algebra E6+A2 has rank three, little Weyl
-group G26, and invariant degrees 6, 12, 18.  The local computation realizes
-that abstract Cartan-subspace theorem inside the repository's signed tensor.
+group G26, and invariant degrees 6, 12, 18.  Pass 11255 subsequently proved
+that the displayed centralizer contains a nonzero ad-nilpotent vector, so this
+particular kernel does not realize the abstract Cartan subspace.
 
-This G26 is the little Weyl action on the Cartan slice.  It is not the extended
+This G26 is the little Weyl action on a genuine Cartan subspace.  It is not the extended
 qutrit Clifford group, whose proposed identification with G26 was already
 refuted by ``w33_extended_clifford_g26_no_go.py``.
 """
@@ -140,15 +141,17 @@ def main(write: bool = True):
 
     out = {
         "schema": "w33.pass11218.e8-cubic-cartan-kernel.v1",
-        "status": "PASS_GENERIC_CUBIC_JACOBIAN_RANK78_WITH_EXPLICIT_THREE_DIMENSIONAL_CARTAN_KERNEL",
+        "status": "PASS_GENERIC_CUBIC_JACOBIAN_RANK78_WITH_EXPLICIT_ABELIAN_CENTRALIZER_CARTAN_LABEL_RETRACTED",
         "headline": (
             "The recurring 78+3 split is structural.  In the canonical signed 3 tensor 27 bracket, "
             "one sparse nine-coordinate background has exact Jacobian rank 78 and an exact "
             "three-dimensional kernel.  The kernel is pairwise bracket-commuting and contains the "
-            "background, so it is an explicit Cartan slice in the repository gauge.  Vinberg's "
+            "background, so it is an exact abelian centralizer in the repository gauge.  Pass 11255 "
+            "proves that it contains a nonzero nilpotent element and therefore is not a Cartan slice.  Vinberg's "
             "classification identifies this E8 order-three E6+A2 grading as rank three with little "
             "Weyl group G26 and invariant degrees 6,12,18.  Thus rank 78 is the generic rank, and "
-            "the generic vacuum quotient has three algebraically independent invariant coordinates."
+            "the abstract generic quotient has three algebraically independent invariant coordinates, but "
+            "those coordinates have not yet been embedded in this signed tensor gauge."
         ),
         "coordinate_gauge": {
             "dimension": 81,
@@ -164,12 +167,14 @@ def main(write: bool = True):
             "kernel_dimension": 3,
             "coordinates_in_stored_kernel_basis": [0, 1, 0],
         },
-        "cartan_kernel": {
+        "abelian_centralizer": {
             "dimension": 3,
             "basis": [sparse_coordinates(z) for z in kernel],
             "basis_pairwise_brackets_zero": True,
             "background_in_kernel": True,
             "centralizer_equals_displayed_kernel": True,
+            "is_cartan_subspace": False,
+            "correction_certificate": "data/w33_pass11255_restricted_pfaffian_cartan_audit.json",
             "kernel_projection_pivot_coordinates": [
                 {"flat_index": i, "e6id": i // 3, "phase": i % 3}
                 for i in kernel_pivot_rows
@@ -201,7 +206,7 @@ def main(write: bool = True):
             ),
         },
         "g26_firewall": {
-            "genuine_action": "little Weyl action on the three-dimensional Cartan subspace",
+            "genuine_action": "little Weyl action on an as-yet unembedded three-dimensional Cartan subspace",
             "excluded_action": "the full retained-phase extended qutrit Clifford group",
             "prior_certificate": "data/w33_extended_clifford_g26_no_go.json",
             "compatible_with_prior_no_go": True,
@@ -220,11 +225,16 @@ def main(write: bool = True):
             "exploration/WITTING_W33_S12_SYNTHESIS.py",
         ],
         "physics_boundary": (
-            "The degrees 6,12,18 give three invariant coordinates on the generic algebraic vacuum "
-            "quotient.  This does not choose a vacuum, define a positive stable potential, identify "
-            "the invariants with measured couplings, or derive masses or mixing angles.  Those tasks "
-            "require an explicit potential and its Hessian on this certified Cartan slice."
+            "The degrees 6,12,18 give three invariant coordinates on the abstract generic algebraic "
+            "quotient.  This does not identify them with the displayed kernel, choose a vacuum, define "
+            "a positive stable physical potential, or derive masses or mixing angles.  Those tasks "
+            "require an explicit semisimple Cartan embedding and a kinetic metric."
         ),
+        "pass11255_correction": {
+            "retained": "exact rank 78, kernel dimension three, commuting centralizer, and rank witness",
+            "withdrawn": "the displayed kernel is a Cartan subspace carrying the G26 quotient coordinates",
+            "reason": "the first stored kernel vector has ad-nilpotency index five",
+        },
         "checks": {
             "canonical_signed_tensor_loaded": True,
             "sparse_background_support9": True,

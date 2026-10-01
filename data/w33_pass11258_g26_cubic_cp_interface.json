@@ -1,0 +1,92 @@
+{
+  "schema": "w33.pass11258.g26-cubic-cp-interface.v1",
+  "status": "PASS_CONDITIONAL_CUBIC_PHASE_CP_INTERFACE",
+  "control": {
+    "standard_g26_point": [
+      1,
+      2,
+      3
+    ],
+    "normalized_as_qutrit_state": true,
+    "two_qutrit_gate": "(T tensor T) SUM, T=diag(1,zeta9,zeta9^-1)",
+    "reduction": "K_v=<v|U|v>, followed by polar unitary W"
+  },
+  "result": {
+    "kraus_singular_values": [
+      0.8157249946542247,
+      0.8104017388853709,
+      0.42171288183778854
+    ],
+    "polar_unitary_absolute_squares": [
+      [
+        0.0483060318204854,
+        0.8837953193774518,
+        0.0678986488020624
+      ],
+      [
+        0.0678986488020625,
+        0.04830603182048568,
+        0.8837953193774518
+      ],
+      [
+        0.8837953193774518,
+        0.06789864880206234,
+        0.04830603182048584
+      ]
+    ],
+    "jarlskog": 0.009527657134670056,
+    "symmetric_point_jarlskog": -5.204170427930421e-18,
+    "conjugate_jarlskog": -0.009527657134670056,
+    "maximum_32_trial_row_column_rephasing_error": 5.204170427930421e-18,
+    "conjugation_sign_flip_error": 0.0
+  },
+  "gate_controls": {
+    "SUM_only": {
+      "jarlskog": -0.0,
+      "singular_values": [
+        0.9999999999999998,
+        0.5000000000000001,
+        0.5
+      ]
+    },
+    "control_T_only": {
+      "jarlskog": 0.009527657134670055,
+      "singular_values": [
+        0.8157249946542245,
+        0.8104017388853708,
+        0.42171288183778843
+      ]
+    },
+    "target_T_only": {
+      "jarlskog": 2.6020852139652106e-18,
+      "singular_values": [
+        1.0,
+        0.49999999999999994,
+        0.4999999999999999
+      ]
+    },
+    "both_T": {
+      "jarlskog": 0.009527657134670056,
+      "singular_values": [
+        0.8157249946542247,
+        0.8104017388853709,
+        0.42171288183778854
+      ]
+    }
+  },
+  "interpretation": {
+    "mechanism": "A real asymmetric control amplitude and a cubic phase produce an effective target CP phase after conditioning.",
+    "why_control_T_can_survive": "Control postselection converts a phase that would be locally removable before conditioning into relative coefficients of the target Kraus operator.",
+    "physical_ckm_claim": false,
+    "missing_map": "No certified semisimple map from these standard G26 coordinates into the W33 3 tensor 27 matter carrier exists yet."
+  },
+  "checks": {
+    "full_rank_kraus": true,
+    "cp_nonzero": true,
+    "symmetric_control_cp_zero": true,
+    "rephasing_invariant": true,
+    "complex_conjugation_flips_sign": true,
+    "sum_only_cp_zero": true,
+    "target_only_cp_zero": true
+  }
+}

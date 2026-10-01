@@ -1,0 +1,149 @@
+{
+  "schema": "w33.pass11256.g26-invariant-potential.v1",
+  "status": "PASS_CONTROLLED_G26_ORBIT_POTENTIAL_CONSTRUCTED",
+  "basic_invariants": {
+    "degrees": [
+      6,
+      12,
+      18
+    ],
+    "formulas": [
+      "x**6 - 10*x**3*y**3 - 10*x**3*z**3 + y**6 - 10*y**3*z**3 + z**6",
+      "x**12 - 110*x**9*y**3 - 110*x**9*z**3 + 462*x**6*y**6 + 462*x**6*z**6 - 110*x**3*y**9 - 110*x**3*z**9 + y**12 - 110*y**9*z**3 + 462*y**6*z**6 - 110*y**3*z**9 + z**12",
+      "x**12*y**6 - 2*x**12*y**3*z**3 + x**12*z**6 - 2*x**9*y**9 + 2*x**9*y**6*z**3 + 2*x**9*y**3*z**6 - 2*x**9*z**9 + x**6*y**12 + 2*x**6*y**9*z**3 - 6*x**6*y**6*z**6 + 2*x**6*y**3*z**9 + x**6*z**12 - 2*x**3*y**12*z**3 + 2*x**3*y**9*z**6 + 2*x**3*y**6*z**9 - 2*x**3*y**3*z**12 + y**12*z**6 - 2*y**9*z**9 + y**6*z**12"
+    ],
+    "target_point": [
+      1,
+      2,
+      3
+    ],
+    "target_values": [
+      -1716,
+      1389996,
+      11957764
+    ]
+  },
+  "reflection_jacobian": {
+    "degree": 33,
+    "factorization": "19440*x**2*y**2*z**2*(x - y)*(x - z)*(y - z)*(x + y + z)**2*(x**2 + x*y + y**2)*(x**2 + x*z + z**2)*(y**2 + y*z + z**2)*(x**2 - x*y - x*z + y**2 - y*z + z**2)**2*(x**2 - x*y - x*z + y**2 + 2*y*z + z**2)**2*(x**2 - x*y + 2*x*z + y**2 - y*z + z**2)**2*(x**2 + 2*x*y - x*z + y**2 - y*z + z**2)**2",
+    "factor_degrees_and_multiplicities": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "weighted_degree_check": 33,
+    "complex_reflection_hyperplanes_counted_with_distinct_linear_factors": 21,
+    "value_at_target": -4033247385424158720
+  },
+  "potential": {
+    "formula": "V=sum_i (u_i/u_i(p)-1)^2",
+    "scope": "A dimensionless invariant orbit-distance potential, not a fitted physical scalar potential.",
+    "normalized_jacobian": [
+      [
+        "87/143",
+        "24/13",
+        "81/143"
+      ],
+      [
+        "-125022/38611",
+        "880536/38611",
+        "-390906/38611"
+      ],
+      [
+        "-99/91",
+        "288/133",
+        "1215/247"
+      ]
+    ],
+    "hessian": [
+      [
+        "2766564930464604/114907110034717",
+        "-387420003599947632/2580186925325009",
+        "225233803416142260/4054579454082157"
+      ],
+      [
+        "-387420003599947632/2580186925325009",
+        "4707862430128111872/4456686507379561",
+        "-3070112733475050960/7003364511596453"
+      ],
+      [
+        "225233803416142260/4054579454082157",
+        "-3070112733475050960/7003364511596453",
+        "215055808153813980/846560545357813"
+      ]
+    ],
+    "hessian_characteristic_polynomial": "(91134782389404642889*lambda**3 - 121616691426827591390136*lambda**2 + 7481805394144123868739840*lambda - 14578815708146139925708800)/91134782389404642889",
+    "hessian_trace": "719625393058151428344/539259067392926881",
+    "hessian_determinant": "297526851186655916851200/1859893518151115161",
+    "hessian_eigenvalues": [
+      2.014431329840083,
+      62.53283236633929,
+      1269.9233768017436
+    ]
+  },
+  "checks": {
+    "degrees_are_6_12_18": true,
+    "jacobian_degree_is_33": true,
+    "target_is_regular": true,
+    "hessian_is_positive_definite": true,
+    "hessian_identity": true
+  },
+  "firewall": {
+    "pass11218_coordinates_used": false,
+    "physical_mass_claim": false,
+    "required_next_map": "An explicit semisimple Cartan embedding into 3 tensor 27 with a kinetic metric."
+  }
+}

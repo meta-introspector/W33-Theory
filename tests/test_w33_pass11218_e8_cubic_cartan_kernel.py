@@ -14,12 +14,14 @@ def load_module():
     return module
 
 
-def test_pass11218_exact_cartan_kernel_and_generic_rank():
+def test_pass11218_exact_abelian_centralizer_and_generic_rank():
     out = load_module().main(write=False)
     assert out["status"].startswith("PASS_GENERIC_CUBIC_JACOBIAN_RANK78")
     assert out["explicit_regular_background"]["exact_rank"] == 78
-    assert out["cartan_kernel"]["dimension"] == 3
-    assert out["cartan_kernel"]["basis_pairwise_brackets_zero"] is True
+    assert out["abelian_centralizer"]["dimension"] == 3
+    assert out["abelian_centralizer"]["basis_pairwise_brackets_zero"] is True
+    assert out["abelian_centralizer"]["is_cartan_subspace"] is False
+    assert out["pass11255_correction"]["reason"] == "the first stored kernel vector has ad-nilpotency index five"
     assert out["rank_witness"]["principal_minor_size"] == 78
     assert out["rank_witness"]["determinant_factorization"] == {
         "2": 76,

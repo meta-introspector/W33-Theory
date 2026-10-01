@@ -1,0 +1,228 @@
+{
+  "schema": "w33.pass11259.g26-discriminant-supertrace.v1",
+  "status": "PASS_DISCRIMINANT_ZERO_MODES_PROVED_SUPERTRACE_CANCELLATION_ABSENT",
+  "strata": [
+    {
+      "point": [
+        1,
+        2,
+        3
+      ],
+      "invariants": [
+        -1716,
+        1389996,
+        11957764
+      ],
+      "reflection_jacobian": -4033247385424158720,
+      "jacobian_rank": 3,
+      "orbit_distance_hessian_rank": 3,
+      "orbit_distance_hessian_eigenvalues": [
+        6189538.493257515,
+        2444551775256101.0,
+        8600866591633788.0
+      ],
+      "orbit_distance_hessian_trace": "11045418373079424",
+      "conditional_cp_jarlskog": 0.009527657134670056
+    },
+    {
+      "point": [
+        1,
+        1,
+        0
+      ],
+      "invariants": [
+        -8,
+        244,
+        0
+      ],
+      "reflection_jacobian": 0,
+      "jacobian_rank": 1,
+      "orbit_distance_hessian_rank": 1,
+      "orbit_distance_hessian_eigenvalues": [
+        0.0,
+        0.0,
+        8575488.0
+      ],
+      "orbit_distance_hessian_trace": "8575488",
+      "conditional_cp_jarlskog": -9.020562075079397e-17
+    },
+    {
+      "point": [
+        1,
+        0,
+        0
+      ],
+      "invariants": [
+        1,
+        1,
+        0
+      ],
+      "reflection_jacobian": 0,
+      "jacobian_rank": 1,
+      "orbit_distance_hessian_rank": 1,
+      "orbit_distance_hessian_eigenvalues": [
+        0.0,
+        0.0,
+        360.0
+      ],
+      "orbit_distance_hessian_trace": "360",
+      "conditional_cp_jarlskog": 0.0
+    },
+    {
+      "point": [
+        1,
+        1,
+        1
+      ],
+      "invariants": [
+        -27,
+        729,
+        0
+      ],
+      "reflection_jacobian": 0,
+      "jacobian_rank": 1,
+      "orbit_distance_hessian_rank": 1,
+      "orbit_distance_hessian_eigenvalues": [
+        -2.688496695783109e-10,
+        2.688496695783109e-10,
+        51035832.0
+      ],
+      "orbit_distance_hessian_trace": "51035832",
+      "conditional_cp_jarlskog": -5.204170427930421e-18
+    },
+    {
+      "point": [
+        1,
+        -1,
+        0
+      ],
+      "invariants": [
+        12,
+        684,
+        4
+      ],
+      "reflection_jacobian": 0,
+      "jacobian_rank": 1,
+      "orbit_distance_hessian_rank": 1,
+      "orbit_distance_hessian_eigenvalues": [
+        0.0,
+        0.0,
+        67381632.0
+      ],
+      "orbit_distance_hessian_trace": "67381632",
+      "conditional_cp_jarlskog": -9.020562075079397e-17
+    },
+    {
+      "point": [
+        1,
+        1,
+        2
+      ],
+      "invariants": [
+        -104,
+        -50924,
+        0
+      ],
+      "reflection_jacobian": 0,
+      "jacobian_rank": 2,
+      "orbit_distance_hessian_rank": 2,
+      "orbit_distance_hessian_eigenvalues": [
+        2.9736617230824436e-06,
+        279417.57649887126,
+        189172658822.42343
+      ],
+      "orbit_distance_hessian_trace": "189172938240",
+      "conditional_cp_jarlskog": 0.0016255675109965702
+    }
+  ],
+  "theorems": {
+    "ramification_zero_modes": "For V_p=sum_i(u_i-u_i(p))^2, Hess_p(V_p)=2 J(p)^T J(p); hence Hessian nullity equals quotient-map ramification nullity.",
+    "cp_is_not_the_discriminant": "The reflection point (1,1,2) has det(J)=0 but a nonzero conditional CP quartet.",
+    "supertrace_result": "No nontrivial +/- grading of the three controlled normalized modes cancels any tested moment 1 through 6."
+  },
+  "normalized_regular_modes": [
+    2.014431329840083,
+    62.53283236633929,
+    1269.9233768017436
+  ],
+  "exhaustive_nontrivial_signings": 6,
+  "minimum_supertrace_moments": [
+    {
+      "power": 1,
+      "minimum_absolute_supertrace": 1205.3761131055642,
+      "signs": [
+        -1,
+        -1,
+        1
+      ]
+    },
+    {
+      "power": 2,
+      "minimum_absolute_supertrace": 1608790.969890204,
+      "signs": [
+        -1,
+        -1,
+        1
+      ]
+    },
+    {
+      "power": 3,
+      "minimum_absolute_supertrace": 2047767731.943218,
+      "signs": [
+        -1,
+        -1,
+        1
+      ]
+    },
+    {
+      "power": 4,
+      "minimum_absolute_supertrace": 2600803361294.322,
+      "signs": [
+        -1,
+        -1,
+        1
+      ]
+    },
+    {
+      "power": 5,
+      "minimum_absolute_supertrace": 3302839449053629.0,
+      "signs": [
+        -1,
+        -1,
+        1
+      ]
+    },
+    {
+      "power": 6,
+      "minimum_absolute_supertrace": 4.1943541806611743e+18,
+      "signs": [
+        -1,
+        -1,
+        1
+      ]
+    }
+  ],
+  "vacuum_proxy": {
+    "formula": "abs((1/2) sum_i sign_i sqrt(lambda_i))",
+    "minimum": 13.154453640418957,
+    "signs": [
+      -1,
+      -1,
+      1
+    ]
+  },
+  "scope": {
+    "physical_statistics_assigned": false,
+    "physical_complete_spectrum": false,
+    "cosmological_constant_claim": false,
+    "meaning": "The controlled three-mode G26 Hessian supplies no internal Hecke-like supertrace cancellation."
+  },
+  "checks": {
+    "generic_target_regular": true,
+    "listed_reflection_strata_singular": true,
+    "singular_strata_have_zero_modes": true,
+    "reflection_cp_counterexample_nonzero": true,
+    "all_six_supertraces_nonzero": true,
+    "vacuum_proxy_nonzero": true
+  }
+}

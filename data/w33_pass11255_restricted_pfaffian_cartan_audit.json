@@ -1,0 +1,74 @@
+{
+  "schema": "w33.pass11255.restricted-pfaffian-cartan-audit.v1",
+  "status": "PASS_PFAFFIAN_FACTORED_AND_PASS11218_CARTAN_LABEL_RETRACTED",
+  "restricted_pfaffian": {
+    "coordinates": "x,y,z multiply the three stored Pass11218 kernel vectors",
+    "degree": 39,
+    "formula": "-(5112848641047920640/5)*H6(y,z)^3*Q2(y,z)^10*(96x+5y-120z)",
+    "H6": "y^6+18y^5z-4320y^3z^3-77760y^2z^4-653184yz^5-2239488z^6",
+    "Q2": "y^2+24yz+72z^2",
+    "factor_degrees_with_multiplicity": [
+      [
+        6,
+        3
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "exact_unisolvent_grid_points": 820,
+    "largest_evaluated_integer_digits": 83
+  },
+  "semisimplicity_audit": {
+    "tested_vector": "first stored kernel basis vector",
+    "scaled_adjoint": "N=18 ad(v), an exact integer 248x248 matrix",
+    "scaled_adjoint_nonzero_entries": 469,
+    "scaled_adjoint_rank": 114,
+    "powers": [
+      {
+        "power": 1,
+        "nonzero_entries": 469,
+        "max_abs_entry": 3024
+      },
+      {
+        "power": 2,
+        "nonzero_entries": 171,
+        "max_abs_entry": 3048192
+      },
+      {
+        "power": 3,
+        "nonzero_entries": 16,
+        "max_abs_entry": 100776960
+      },
+      {
+        "power": 4,
+        "nonzero_entries": 1,
+        "max_abs_entry": 4353564672
+      },
+      {
+        "power": 5,
+        "nonzero_entries": 0,
+        "max_abs_entry": 0
+      }
+    ],
+    "nilpotency_index": 5,
+    "decisive_fact": "N^4 is nonzero and N^5 is zero, so v is nonzero nilpotent and not semisimple."
+  },
+  "correction": {
+    "retained": "The exact Jacobian rank 78, three-dimensional abelian centralizer, determinant witness, and generic-rank conclusion remain valid.",
+    "withdrawn": "The displayed centralizer is a Vinberg Cartan subspace and therefore carries the little-Weyl G26 action.",
+    "reason": "A Cartan subspace consists of commuting semisimple elements; this centralizer contains the certified nonzero nilpotent vector.",
+    "consequence": "Its degree-39 Pfaffian cannot be used as the G26 reflection Jacobian or as physical vacuum coordinates."
+  },
+  "checks": {
+    "degree39_factorization_exact": true,
+    "ad_fourth_power_nonzero": true,
+    "ad_fifth_power_zero": true,
+    "old_rank78_witness_retained": true
+  }
+}

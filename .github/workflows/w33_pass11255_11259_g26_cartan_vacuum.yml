@@ -1,0 +1,32 @@
+name: W33 Passes 11255-11259 G26 Cartan vacuum audit
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11255_*.py"
+      - "analysis/w33_pass11256_*.py"
+      - "analysis/w33_pass11257_*.py"
+      - "analysis/w33_pass11258_*.py"
+      - "analysis/w33_pass11259_*.py"
+      - "analysis/PASS11218_E8_CUBIC_CARTAN_KERNEL.md"
+      - "analysis/PASS11255_11259_G26_CARTAN_VACUUM_PACKET.md"
+      - "data/w33_pass11218_*.json"
+      - "data/w33_pass11255_*.json"
+      - "data/w33_pass11256_*.json"
+      - "data/w33_pass11257_*.json"
+      - "data/w33_pass11258_*.json"
+      - "data/w33_pass11259_*.json"
+      - "tests/test_w33_pass11218_e8_cubic_cartan_kernel.py"
+      - "tests/test_w33_pass11255_11259_g26_cartan_vacuum.py"
+      - ".github/workflows/w33_pass11255_11259_g26_cartan_vacuum.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest networkx numba
+      - run: python -m pytest -q tests/test_w33_pass11218_e8_cubic_cartan_kernel.py tests/test_w33_pass11255_11259_g26_cartan_vacuum.py
