@@ -1,0 +1,21 @@
+name: W33 Pass 11221 Gaussian Choi entropy
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11221_*.py"
+      - "analysis/PASS11221_GAUSSIAN_CHOI_ENTROPY.md"
+      - "data/w33_pass11221_*.json"
+      - "tests/test_w33_pass11221_gaussian_choi_entropy.py"
+      - ".github/workflows/w33_pass11221_gaussian_choi_entropy.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest networkx ortools python-sat
+      - run: python -m pytest -q tests/test_w33_pass11221_gaussian_choi_entropy.py

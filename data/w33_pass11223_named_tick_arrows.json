@@ -1,0 +1,90 @@
+{
+ "pass_id": 11223,
+ "group_order": 51840,
+ "by_relation": {
+  "local": {
+   "total": 1152,
+   "A0": 816,
+   "A2": 336,
+   "p_arrow_free": "17/24"
+  },
+  "perfect": {
+   "total": 13824,
+   "A0": 4896,
+   "A2": 8928,
+   "p_arrow_free": "17/48"
+  },
+  "partial": {
+   "total": 36864,
+   "A0": 13440,
+   "A2": 23424,
+   "p_arrow_free": "35/96"
+  }
+ },
+ "local_swap_vs_arrow": {
+  "swap=False,A=0": 576,
+  "swap=True,A=0": 240,
+  "swap=True,A=2": 336
+ },
+ "arrow_free_total": "133/360",
+ "named_two_qutrit": {
+  "p": {
+   "relation": "perfect",
+   "A": 0,
+   "order": 4
+  },
+  "p^2": {
+   "relation": "local",
+   "A": 0,
+   "order": 2
+  },
+  "h_star": {
+   "relation": "local",
+   "A": 2,
+   "order": 12
+  },
+  "SUM": {
+   "relation": "partial",
+   "A": 0,
+   "order": 3
+  },
+  "p h_star p": {
+   "relation": "partial",
+   "A": 2,
+   "order": 12
+  }
+ },
+ "transvections": {
+  "count": 80,
+  "A": {
+   "0": 80
+  }
+ },
+ "named_three_qutrit": {
+  "clock_K": {
+   "A": 0,
+   "c": 3,
+   "order": 3
+  },
+  "clock_K2": {
+   "A": 0,
+   "c": 3,
+   "order": 3
+  },
+  "dual_kick_V": {
+   "A": 0,
+   "c": 3,
+   "order": 3
+  },
+  "perfect_tick_VKV": {
+   "A": 2,
+   "c": 1,
+   "order": 9
+  },
+  "f9_gate": {
+   "A": 3,
+   "c": 0,
+   "order": 3
+  }
+ }
+}
