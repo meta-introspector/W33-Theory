@@ -1,0 +1,21 @@
+name: W33 Pass 11244 hesselink_qubit_limit
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11244_*.py"
+      - "analysis/PASS11244_*.md"
+      - "data/w33_pass11244_*.json"
+      - "tests/test_w33_pass11244_hesselink_qubit_limit.py"
+      - ".github/workflows/w33_pass11244_hesselink_qubit_limit.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest networkx mpmath 
+      - run: python -m pytest -q tests/test_w33_pass11244_hesselink_qubit_limit.py

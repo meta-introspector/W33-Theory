@@ -1,0 +1,84 @@
+{
+ "pass_id": 11248,
+ "couplings": {
+  "b": 0.3,
+  "k": 2.0,
+  "h": 3.0,
+  "lam": 0.2
+ },
+ "eps0_misalignment_deg": [
+  0.0,
+  0.02418738417672475
+ ],
+ "scan": [
+  {
+   "eps": -0.08,
+   "symmetric_class": "TM1",
+   "phi_misalign_deg": 6.676055314884944,
+   "chi_misalign_deg": 2.186314184543236,
+   "energy": -0.8126323136890498
+  },
+  {
+   "eps": -0.04,
+   "symmetric_class": "TM1",
+   "phi_misalign_deg": 3.3604589956126745,
+   "chi_misalign_deg": 1.2277071617595994,
+   "energy": -0.7929769719665731
+  },
+  {
+   "eps": -0.02,
+   "symmetric_class": "TM1",
+   "phi_misalign_deg": 1.6850159523810737,
+   "chi_misalign_deg": 0.6431089300378833,
+   "energy": -0.7841034036424634
+  },
+  {
+   "eps": -0.01,
+   "symmetric_class": "TM1",
+   "phi_misalign_deg": 0.8434083769212813,
+   "chi_misalign_deg": 0.3281476839032715,
+   "energy": -0.7799040239071883
+  },
+  {
+   "eps": -0.005,
+   "symmetric_class": "TM1",
+   "phi_misalign_deg": 0.42188129050272744,
+   "chi_misalign_deg": 0.16562108497423006,
+   "energy": -0.7778634210625132
+  },
+  {
+   "eps": 0.005,
+   "symmetric_class": "theta13 = 0 column",
+   "phi_misalign_deg": 0.0,
+   "chi_misalign_deg": 9.093791555693113e-05,
+   "energy": -0.7758620689655121
+  },
+  {
+   "eps": 0.01,
+   "symmetric_class": "theta13 = 0 column",
+   "phi_misalign_deg": 8.537736462515939e-07,
+   "chi_misalign_deg": 9.096596611872362e-05,
+   "energy": -0.7758620689655075
+  },
+  {
+   "eps": 0.02,
+   "symmetric_class": "theta13 = 0 column",
+   "phi_misalign_deg": 8.537736462515939e-07,
+   "chi_misalign_deg": 2.722721505217398e-05,
+   "energy": -0.7758620689655152
+  },
+  {
+   "eps": 0.04,
+   "symmetric_class": "theta13 = 0 column",
+   "phi_misalign_deg": 3.91248236030638e-06,
+   "chi_misalign_deg": 2.4027320194202514e-05,
+   "energy": -0.7758620689655145
+  }
+ ],
+ "eps_negative_selects_TM1": true,
+ "eps_positive_selects_theta13_0": true,
+ "misalignment_slope_deg_per_unit_eps": {
+  "phi": 84.32263113724242,
+  "chi": 32.69814396235577
+ }
+}
