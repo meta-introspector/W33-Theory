@@ -1269,3 +1269,9 @@ fraction = P(c = n)); "the twist as a discrete Bargmann phase" should cite 11209
 - The global covariants supply the three-mode mass completion directly. Five final regression functions pass, including the actual global differential mass operator. Replaces the earlier global-compiler-open boundary; observed family assignments and full EFT quantum stability remain open.
 - The full81-field positive invariant/radial/moment-square classical potential is named. The72 Cartan rays are gauge-related representatives, not72 physical vacua/prepared magic states. Common phase remains flat.
 - Report, site and paper updated; final paper/ledger compile and six-file release intake/index are in progress before push.
+
+### Five-frontier publication complete
+
+- GitKraken pushed scientific packet c944a5060 to master; the remote tracking comparison contains no unpushed commits. All twenty owned files are published; unrelated parallel edits remain untouched.
+- Final validation: five focused regression functions passed, full paper and ledger compiled, final result index rebuilt, six-file intake clean after semantic review of alpha@64 lexical collisions.
+- Supersedes the earlier compiler-open note: explicit global degree6/degree12 invariant circuits and covectors now exist. Global phase/degree18, observable particle assignments, full EFT radiative stability, dynamical spacetime and UV scale/cosmological-constant mechanisms remain open.
