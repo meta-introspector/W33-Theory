@@ -753,6 +753,18 @@ normal modes are the subsystems it keeps to itself. The arrow appears only with 
 for each loxodromic quartet, and with Jordan defects. It switches on exactly at a Krein collision of modes of
 opposite signature, which is Krein's stability theorem read as a statement about time. \tierT\,\tierC\
 (\cert{w33\_pass11219\_gaussian\_arrow.py})
+The Gaussian arrow is also an entanglement rate. On the Choi state of the evolution, made with squeezing $r$, each
+mode's entanglement with the rest grows as $2r$ nats per channel. So $A$ is half the least total operator-entanglement
+rate over all choices of modes. \tierC\ (\cert{w33\_pass11221\_gaussian\_choi\_entropy.py})
+
+Being maximally entangling is a property of a gate in a given factorisation; the arrow is what remains when the
+factorisation is chosen freely. Among two-qutrit gates that are perfect in the standard factorisation, $17/48$ have no
+arrow: they are products in another one. The geometry's own perfect tick $p$ is one of them. Exchanges carry arrows
+instead. The local gates with $A=2$ all swap the two qutrits, and of the three-qutrit ticks the largest arrow, $A=3$,
+belongs to the $\F_9$ gate, which cycles the qutrits where it acts locally. The perfect interacting tick has $A=2$:
+one qutrit stays dynamically protected. For qubits the mean number of protected qubits is now exact through six,
+$E_6[c]=0.665161$, tending to about $0.66517$. \tierC\ (\cert{w33\_pass11223\_named\_tick\_arrows.py},
+\cert{w33\_pass11220\_qubit\_mean\_protection.py})
 
 \begin{keyidea}
 Three layers of time, exactly separated: a finite present with a light cone ($27$
