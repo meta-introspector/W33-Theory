@@ -1,0 +1,21 @@
+name: W33 Pass 11245 symmetric_form_lemma
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11245_*.py"
+      - "analysis/PASS11245_*.md"
+      - "data/w33_pass11245_*.json"
+      - "tests/test_w33_pass11245_symmetric_form_lemma.py"
+      - ".github/workflows/w33_pass11245_symmetric_form_lemma.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest networkx mpmath 
+      - run: python -m pytest -q tests/test_w33_pass11245_symmetric_form_lemma.py

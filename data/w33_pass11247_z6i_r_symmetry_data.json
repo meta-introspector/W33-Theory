@@ -1,0 +1,25 @@
+{
+ "pass_id": 11247,
+ "z6i_models": 87,
+ "z6i_with_R": 0,
+ "z6i_nonR_orders": [
+  [
+   6
+  ]
+ ],
+ "z6ii_models": 128,
+ "z6ii_with_R": 128,
+ "z6ii_R": [
+  [
+   "6:-1/1",
+   "3:-1/1",
+   "2:-1/1"
+  ]
+ ],
+ "required": [
+  "q_sh per field per twisted sector",
+  "oscillator numbers N^i, Nbar^i",
+  "Z6-I plane-rotation orders (6, 6, 3)"
+ ],
+ "status": "BLOCKED: Z6-I R charges are not in the repository; Pass 11241's Z6-I verdict covers U(1)s, their discrete remnants and the point-group Z6 only"
+}
