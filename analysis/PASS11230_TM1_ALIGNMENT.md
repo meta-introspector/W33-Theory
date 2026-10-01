@@ -76,3 +76,8 @@ Why the two-flavon case fails:
 
 **Scope.** These are random samples, not a proof over the whole coupling space; "0/1500" bounds the measure of the
 TM₁ region and does not exclude it. Real triplet flavons only. The residual-symmetry identification follows Pass 11225.
+
+**Rediscovery guard.** The guard's Clifford+PMNS hits are `W33_FOR_EVERYONE.tex`,
+`analysis/2026-09-23_execute_all5_plus3_physics_frontier.md` and `analysis/BT1250_zenodo_deposit_manifest.md`. They
+are the same hits Pass 11225 read, and they mention PMNS phases only as open targets. None of them states a δ–θ₂₃ sum
+rule or makes a flavon-potential computation.
