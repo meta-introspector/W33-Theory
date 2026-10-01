@@ -1,0 +1,51 @@
+{
+ "pass_id": 11227,
+ "symplectic_classes": 51840,
+ "circuits": {
+  "T(x)T (control: diagonal cubic only)": "reversible",
+  "T X (x) I (known one-qutrit violator)": "T-VIOLATING",
+  "SUM (Clifford control)": "reversible",
+  "(I(x)T) SUM": "reversible",
+  "(T(x)I) SUM": "reversible",
+  "(T(x)T) SUM": "T-VIOLATING",
+  "SUM (I(x)T) SUM^dag": "reversible",
+  "SUM (I(x)T) SUM": "reversible",
+  "(I(x)T) SUM (I(x)T)": "reversible",
+  "(T(x)T) SUM (T(x)T) SUM": "T-VIOLATING"
+ },
+ "fidelities": {
+  "(T(x)T) SUM": {
+   "fidelity": 0.844029628746,
+   "verdict": "T-VIOLATING"
+  },
+  "(T(x)T^dag) SUM": {
+   "fidelity": 0.844029628746,
+   "verdict": "T-VIOLATING"
+  },
+  "(T^dag(x)T) SUM": {
+   "fidelity": 0.844029628746,
+   "verdict": "T-VIOLATING"
+  },
+  "(T^2(x)T) SUM": {
+   "fidelity": 0.844029628746,
+   "verdict": "T-VIOLATING"
+  },
+  "SUM (T(x)T)": {
+   "fidelity": 0.844029628746,
+   "verdict": "T-VIOLATING"
+  },
+  "(T(x)T) SUM^dag": {
+   "fidelity": 0.844029628746,
+   "verdict": "T-VIOLATING"
+  },
+  "(T(x)T) SUM (T(x)T) SUM": {
+   "fidelity": 0.844029628746,
+   "verdict": "T-VIOLATING"
+  },
+  "T X (x) I": {
+   "fidelity": 0.844029628746,
+   "verdict": "T-VIOLATING"
+  }
+ },
+ "minimal_quantum": "(1 + 2 cos(2 pi / 9)) / 3 = 0.8440296287459853"
+}
