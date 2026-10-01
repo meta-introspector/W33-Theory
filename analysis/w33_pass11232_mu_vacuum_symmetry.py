@@ -218,6 +218,35 @@ def analyse(name, model, max_types_exact=44, vertex_samples=3000):
     return rec
 
 
+def clean_detail(model, support_names):
+    """the unbroken U(1)s of a vacuum: exact null space of the support charges; U(1)' = the part that charges mu"""
+    import sympy as sp
+    left = fields(model)
+    by = {f["name"]: f for f in left}
+    Qs = sp.Matrix([[sp.Rational(x.numerator, x.denominator) for x in by[n]["q"]] for n in support_names])
+    null = Qs.nullspace()
+    lab = [f for f in left if f["base"] in P.SMY]
+    y = P.solve_affine([f["q"] for f in lab], [P.SMY[f["base"]] for f in lab])[0]
+    ch = lambda t, f: sum((sp.Rational(a.numerator, a.denominator) * b for a, b in zip(f["q"], t)), sp.Integer(0))
+    gens = []
+    for t in null:
+        t = list(t)
+        gens.append(dict(t=[str(v) for v in t],
+                         is_hypercharge_multiple=all(ch(t, f) * P.SMY[lab[0]["base"]] == ch(t, lab[0]) * P.SMY[f["base"]]
+                                                     for f in lab)))
+    # a U(1)' orthogonal-in-charge-space choice: the null vector giving bl_1 + l_j nonzero charge
+    out = dict(unbroken_dim=len(null), generators=gens)
+    tp = None
+    for t in null:
+        if any(ch(list(t), by["bl_1"]) + ch(list(t), f) != 0 for f in left if f["base"] == "l"):
+            tp = list(t)
+            break
+    if tp is not None:
+        out["U1prime_charges"] = {f["name"]: str(ch(tp, f)) for f in left
+                                  if f["base"] in ("bl", "l", "q", "bu", "bd", "be") or f["name"] in support_names}
+    return out
+
+
 def main():
     ledger, sha = P.load_ledger()
     names = sorted(ledger)
@@ -236,7 +265,15 @@ def main():
                    models_with_clean_protected_vacuum=sorted(k for k in dflat if res[k]["mu_protected_clean"]),
                    models_with_any_mu_forbidden=sum(1 for k in dflat if res[k]["any_mu_forbidden"]),
                    ledger_sha256=sha, seconds=round(time.time() - t0, 1))
-    OUT.write_text(json.dumps(dict(pass_id=11232, summary=summary, models=res), indent=1, default=str))
+    details = {}
+    if len(sys.argv) == 1:
+        for k in summary["models_with_clean_protected_vacuum"]:
+            for ex in res[k]["examples"]:
+                if ex["vectorlike_all_massive"]:
+                    details[k] = dict(support=ex["support"], **clean_detail(ledger[k], ex["support"]))
+                    break
+    OUT.write_text(json.dumps(dict(pass_id=11232, summary=summary, clean_vacua=details, models=res), indent=1,
+                              default=str))
     print(json.dumps(summary, indent=1))
 
 
