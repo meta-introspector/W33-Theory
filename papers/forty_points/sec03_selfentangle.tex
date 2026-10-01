@@ -427,6 +427,18 @@ when they are harmonic to one pair of it whose pairing avoids one Galois class o
 its conjugate) --- the structure is chiral, which is why its symmetry is $\mathrm{PGL}(2,9)$ and not
 $\mathrm{P\Gamma L}(2,9)$. \tierC\ (\cert{w33\_pass11214\_projective\_line\_rule.py})
 
+The ten-qutrit state itself is a classical object, though not the expected one. Every ten-qutrit stabilizer state in
+the census becomes $\F_9$-linear after local Cliffords, with an essentially unique $\F_9$ structure. As a $[10,5,6]_9$
+code it is not Reed--Solomon: its Schur square has dimension $10$, not $9$. By Glynn's classification of ten-arcs in
+$\mathrm{PG}(4,9)$~\cite{Glynn1986} it is therefore Glynn's non-classical arc. No Reed--Solomon code of this length is
+Hermitian self-dual, so no other $\F_9$-linear candidate exists. In particular, the Hermitian self-dual code behind
+the known AME(10,3) state~\cite{GrasslGulliver2009,GrasslRoetteler2015} is necessarily Glynn's. The state's local-Clifford automorphism group has order
+$2880$ and permutes the qutrits as $\mathrm{PGL}(2,9)$, the sign structure's group. Together with the exhaustive $\F_9$
+count this makes the state unique up to local Cliffords and relabelling: there are $24^{10}\cdot10!/2880 =
+79\,888\,260\,016\,373\,760$ perfect five-qutrit Clifford gates of this type, all in one orbit. Whether a stabilizer
+state that is not $\F_9$-linear exists is open; none appeared in $300$ searches. Algebraically, every AME(10,3) state with a ten-cycle symmetry, with the cycle's local twist of order $1$, $2$ or $4$, is $\F_9$-linear. Of the $1600$ codes invariant under the plain shift, $48$ are AME and all $48$ are $\F_9$-linear (\cert{w33\_pass11249\_ame10\_cyclic\_search.py}). \tierT\,\tierC\
+(\cert{w33\_pass11224\_ame10\_f9\_structure.py})
+
 The orientation of a time-directed relation also has a uniform expression. The Kashiwara--Maslov index of three
 product Lagrangians, two from one split and one from the other, lives in the Witt group $W(\F_3)=\mathbb{Z}/4$ and is
 odd under time reversal. Oriented by a gauge-invariant profile, its net chirality is $\mp54$ on the $256$ pair,
@@ -434,6 +446,13 @@ $\pm18$ on the $6912$ pair and $0$ on the other $16$ relations. The index is the
 invariant, $\tr(P_{L_1}P_{L_2}P_{L_3})\propto(-i)^{\tau(L_1,L_2,L_3)}$: the finite-field form of the link between the
 Maslov index and the Weil representation~\cite{LionVergne1980}, checked here on random triples. Together with the
 third-moment Gauss sum $\pm i\sqrt3/243$ above, the direction of time between two subsystem descriptions is carried by
-an imaginary Gauss-sum --- Pancharatnam--Berry --- phase, and by nothing time-symmetric. An independent CNF encoding
+an imaginary Gauss-sum --- Pancharatnam--Berry --- phase, and by nothing time-symmetric. The two are one chirality:
+on all $512$ members of the $256$ pair the Maslov count is exactly $54Q$. Twenty-seven divides it because the relation's symmetry group (order
+$324$) moves every odd-index triple in an orbit of size divisible by $27$. The remaining factor $2$ is the net of three
+unbalanced orbits, and is not explained. The Choi-state phase needs labelled
+registers. On the $6912$ pair it vanishes on most labellings and has the relation's sign on the rest. Sorting the
+$36$ relabellings by block type removes the labels: the resulting multiset is chiral on exactly the four
+time-directed relations and separates all $20$. \tierC\ (\cert{w33\_pass11212\_one\_chirality.py},
+\cert{w33\_pass11222\_why\_54.py}) An independent CNF encoding
 solved with two further SAT solvers (CaDiCaL, Glucose) reproduces the two infeasibility results behind the $S(3,4,10)$
 theorem. \tierC\ (\cert{w33\_pass11209\_maslov\_chirality.py}, \cert{w33\_pass11211\_ame10\_sat\_replication.py})

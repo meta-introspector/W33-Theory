@@ -34,3 +34,9 @@ qutrits are cross-ratio geometry over F9 with a handedness.
 
 **Correction during the pass.** A first exploration encoded F9 with index 1 = i instead of 1. The rule it suggested was
 structured but mislabelled. The producer uses a checked field class with ONE = 1.
+
+**Cross-track (added with Passes 11227-11228).** The parallel session's Pass 11224 identifies the ten-qutrit AME state
+as Glynn's non-classical 10-arc of PG(4,9), unique up to local Cliffords. That explains why a generalized Reed-Solomon
+(classical-arc) derivation of the rule here fails: a test of the GRS-type sign chi(prod_{y in U \ x}(x - y)) disagrees on
+every labelling tried (40 of 40). The cross-ratio rule above is a property of the Glynn arc. A derivation from its
+explicit coordinates is the natural proof route, and remains open.

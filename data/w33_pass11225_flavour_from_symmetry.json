@@ -1,0 +1,7034 @@
+{
+ "pass_id": 11225,
+ "representations": 606,
+ "distinct_images": 34,
+ "images": [
+  {
+   "order": 12,
+   "nondegenerate_elements": 4,
+   "klein_bases": 1,
+   "involutions": 3,
+   "majorana_full_patterns": 2,
+   "dirac_full_patterns": 3,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": true,
+     "residual": 9.114734394298503e-15,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.3402401360960536,
+       0.0203,
+       0.43,
+       0.8179480877246941
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    },
+    {
+     "row": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": false,
+     "residual": 0.006291279539713793,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.596,
+       3.141633833477963
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "A4",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "77",
+     "order": "12",
+     "struct": "A4",
+     "irr": "4",
+     "image_struct": "A4"
+    },
+    {
+     "family": "WE6",
+     "sub": "78",
+     "order": "12",
+     "struct": "A4",
+     "irr": "4",
+     "image_struct": "A4"
+    },
+    {
+     "family": "WE6",
+     "sub": "149",
+     "order": "24",
+     "struct": "SL(2,3)",
+     "irr": "7",
+     "image_struct": "A4"
+    },
+    {
+     "family": "WE6",
+     "sub": "151",
+     "order": "24",
+     "struct": "C2xA4",
+     "irr": "8",
+     "image_struct": "A4"
+    },
+    {
+     "family": "WE6",
+     "sub": "153",
+     "order": "24",
+     "struct": "SL(2,3)",
+     "irr": "7",
+     "image_struct": "A4"
+    },
+    {
+     "family": "WE6",
+     "sub": "154",
+     "order": "24",
+     "struct": "SL(2,3)",
+     "irr": "7",
+     "image_struct": "A4"
+    }
+   ],
+   "n_sources": 68
+  },
+  {
+   "order": 24,
+   "nondegenerate_elements": 7,
+   "klein_bases": 4,
+   "involutions": 9,
+   "majorana_full_patterns": 5,
+   "dirac_full_patterns": 8,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    },
+    {
+     "column": [
+      0.166667,
+      0.166667,
+      0.666667
+     ],
+     "viable": true,
+     "residual": 8.944650983496242e-14,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.666666666667,
+       0.166666666667,
+       0.166666666667
+      ],
+      "angles": [
+       0.3195197430936111,
+       0.0203,
+       0.43,
+       1.9021319376974057
+      ]
+     }
+    },
+    {
+     "column": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": true,
+     "residual": 9.114734394298503e-15,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.3402401360960536,
+       0.0203,
+       0.43,
+       0.8179480877246941
+      ]
+     }
+    },
+    {
+     "column": [
+      0.25,
+      0.25,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0005096632335000413,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.25,
+       0.25,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5837088625712866,
+       0.30628190982509446
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    },
+    {
+     "row": [
+      0.25,
+      0.25,
+      0.5
+     ],
+     "viable": false,
+     "residual": 1.4172136578578762e-07,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.25,
+       0.25,
+       0.5
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.5122882483539445,
+       6.282940607406254
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    },
+    {
+     "row": [
+      0.166667,
+      0.166667,
+      0.666667
+     ],
+     "viable": false,
+     "residual": 0.010275183708835024,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.166666666667,
+       0.166666666667,
+       0.666666666667
+      ],
+      "angles": [
+       0.33197844880230876,
+       0.0203,
+       0.596,
+       0.0
+      ]
+     }
+    },
+    {
+     "row": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": false,
+     "residual": 0.006291279539713793,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.596,
+       3.141633833477963
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "S4",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "150",
+     "order": "24",
+     "struct": "S4",
+     "irr": "4",
+     "image_struct": "S4"
+    },
+    {
+     "family": "WE6",
+     "sub": "152",
+     "order": "24",
+     "struct": "S4",
+     "irr": "4",
+     "image_struct": "S4"
+    },
+    {
+     "family": "WE6",
+     "sub": "156",
+     "order": "24",
+     "struct": "S4",
+     "irr": "4",
+     "image_struct": "S4"
+    },
+    {
+     "family": "WE6",
+     "sub": "158",
+     "order": "24",
+     "struct": "S4",
+     "irr": "4",
+     "image_struct": "S4"
+    },
+    {
+     "family": "WE6",
+     "sub": "159",
+     "order": "24",
+     "struct": "S4",
+     "irr": "4",
+     "image_struct": "S4"
+    },
+    {
+     "family": "WE6",
+     "sub": "161",
+     "order": "24",
+     "struct": "S4",
+     "irr": "4",
+     "image_struct": "S4"
+    }
+   ],
+   "n_sources": 68
+  },
+  {
+   "order": 24,
+   "nondegenerate_elements": 7,
+   "klein_bases": 4,
+   "involutions": 9,
+   "majorana_full_patterns": 5,
+   "dirac_full_patterns": 8,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    },
+    {
+     "column": [
+      0.25,
+      0.25,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0005096632335000413,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.25,
+       0.25,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5837088625712866,
+       0.30628190982509446
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    },
+    {
+     "column": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": true,
+     "residual": 9.114734394298503e-15,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.3402401360960536,
+       0.0203,
+       0.43,
+       0.8179480877246941
+      ]
+     }
+    },
+    {
+     "column": [
+      0.166667,
+      0.166667,
+      0.666667
+     ],
+     "viable": true,
+     "residual": 8.944650983496242e-14,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.666666666667,
+       0.166666666667,
+       0.166666666667
+      ],
+      "angles": [
+       0.3195197430936111,
+       0.0203,
+       0.43,
+       1.9021319376974057
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    },
+    {
+     "row": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": false,
+     "residual": 0.006291279539713793,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.596,
+       3.141633833477963
+      ]
+     }
+    },
+    {
+     "row": [
+      0.25,
+      0.25,
+      0.5
+     ],
+     "viable": false,
+     "residual": 1.4172136578578762e-07,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.25,
+       0.25,
+       0.5
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.5122882483539445,
+       6.282940607406254
+      ]
+     }
+    },
+    {
+     "row": [
+      0.166667,
+      0.166667,
+      0.666667
+     ],
+     "viable": false,
+     "residual": 0.010275183708835024,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.166666666667,
+       0.166666666667,
+       0.666666666667
+      ],
+      "angles": [
+       0.33197844880230876,
+       0.0203,
+       0.596,
+       0.0
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "S4",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "150",
+     "order": "24",
+     "struct": "S4",
+     "irr": "5",
+     "image_struct": "S4"
+    },
+    {
+     "family": "WE6",
+     "sub": "152",
+     "order": "24",
+     "struct": "S4",
+     "irr": "5",
+     "image_struct": "S4"
+    },
+    {
+     "family": "WE6",
+     "sub": "156",
+     "order": "24",
+     "struct": "S4",
+     "irr": "5",
+     "image_struct": "S4"
+    },
+    {
+     "family": "WE6",
+     "sub": "158",
+     "order": "24",
+     "struct": "S4",
+     "irr": "5",
+     "image_struct": "S4"
+    },
+    {
+     "family": "WE6",
+     "sub": "159",
+     "order": "24",
+     "struct": "S4",
+     "irr": "5",
+     "image_struct": "S4"
+    },
+    {
+     "family": "WE6",
+     "sub": "161",
+     "order": "24",
+     "struct": "S4",
+     "irr": "5",
+     "image_struct": "S4"
+    }
+   ],
+   "n_sources": 68
+  },
+  {
+   "order": 24,
+   "nondegenerate_elements": 4,
+   "klein_bases": 1,
+   "involutions": 6,
+   "majorana_full_patterns": 2,
+   "dirac_full_patterns": 3,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": true,
+     "residual": 9.114734394298503e-15,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.3402401360960536,
+       0.0203,
+       0.43,
+       0.8179480877246941
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    },
+    {
+     "row": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": false,
+     "residual": 0.006291279539713793,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.596,
+       3.141633833477963
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "C2xA4",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "151",
+     "order": "24",
+     "struct": "C2xA4",
+     "irr": "7",
+     "image_struct": "C2xA4"
+    },
+    {
+     "family": "WE6",
+     "sub": "157",
+     "order": "24",
+     "struct": "C2xA4",
+     "irr": "7",
+     "image_struct": "C2xA4"
+    },
+    {
+     "family": "WE6",
+     "sub": "160",
+     "order": "24",
+     "struct": "C2xA4",
+     "irr": "7",
+     "image_struct": "C2xA4"
+    },
+    {
+     "family": "WE6",
+     "sub": "162",
+     "order": "24",
+     "struct": "C2xA4",
+     "irr": "7",
+     "image_struct": "C2xA4"
+    },
+    {
+     "family": "WE6",
+     "sub": "163",
+     "order": "24",
+     "struct": "C2xA4",
+     "irr": "7",
+     "image_struct": "C2xA4"
+    },
+    {
+     "family": "WE6",
+     "sub": "166",
+     "order": "24",
+     "struct": "C2xA4",
+     "irr": "7",
+     "image_struct": "C2xA4"
+    }
+   ],
+   "n_sources": 42
+  },
+  {
+   "order": 27,
+   "nondegenerate_elements": 4,
+   "klein_bases": 0,
+   "involutions": 0,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 2,
+   "full_viable": [],
+   "columns": [],
+   "rows": [],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "(C3xC3):C3",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "177",
+     "order": "27",
+     "struct": "(C3xC3):C3",
+     "irr": "10",
+     "image_struct": "(C3xC3):C3"
+    },
+    {
+     "family": "WE6",
+     "sub": "177",
+     "order": "27",
+     "struct": "(C3xC3):C3",
+     "irr": "11",
+     "image_struct": "(C3xC3):C3"
+    },
+    {
+     "family": "WE6",
+     "sub": "266",
+     "order": "81",
+     "struct": "(C3xC3xC3):C3",
+     "irr": "10",
+     "image_struct": "(C3xC3):C3"
+    },
+    {
+     "family": "WE6",
+     "sub": "266",
+     "order": "81",
+     "struct": "(C3xC3xC3):C3",
+     "irr": "11",
+     "image_struct": "(C3xC3):C3"
+    },
+    {
+     "family": "Sp43",
+     "sub": "74",
+     "order": "27",
+     "struct": "(C3xC3):C3",
+     "irr": "10",
+     "image_struct": "(C3xC3):C3"
+    },
+    {
+     "family": "Sp43",
+     "sub": "74",
+     "order": "27",
+     "struct": "(C3xC3):C3",
+     "irr": "11",
+     "image_struct": "(C3xC3):C3"
+    }
+   ],
+   "n_sources": 12
+  },
+  {
+   "order": 27,
+   "nondegenerate_elements": 4,
+   "klein_bases": 0,
+   "involutions": 0,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 2,
+   "full_viable": [],
+   "columns": [],
+   "rows": [],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "C9:C3",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "179",
+     "order": "27",
+     "struct": "C9:C3",
+     "irr": "10",
+     "image_struct": "C9:C3"
+    },
+    {
+     "family": "WE6",
+     "sub": "179",
+     "order": "27",
+     "struct": "C9:C3",
+     "irr": "11",
+     "image_struct": "C9:C3"
+    },
+    {
+     "family": "Sp43",
+     "sub": "75",
+     "order": "27",
+     "struct": "C9:C3",
+     "irr": "10",
+     "image_struct": "C9:C3"
+    },
+    {
+     "family": "Sp43",
+     "sub": "75",
+     "order": "27",
+     "struct": "C9:C3",
+     "irr": "11",
+     "image_struct": "C9:C3"
+    },
+    {
+     "family": "Sp43",
+     "sub": "105",
+     "order": "54",
+     "struct": "C2x(C9:C3)",
+     "irr": "21",
+     "image_struct": "C9:C3"
+    },
+    {
+     "family": "Sp43",
+     "sub": "105",
+     "order": "54",
+     "struct": "C2x(C9:C3)",
+     "irr": "22",
+     "image_struct": "C9:C3"
+    }
+   ],
+   "n_sources": 6
+  },
+  {
+   "order": 36,
+   "nondegenerate_elements": 4,
+   "klein_bases": 1,
+   "involutions": 3,
+   "majorana_full_patterns": 2,
+   "dirac_full_patterns": 3,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": true,
+     "residual": 9.114734394298503e-15,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.3402401360960536,
+       0.0203,
+       0.43,
+       0.8179480877246941
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    },
+    {
+     "row": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": false,
+     "residual": 0.006291279539713793,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.596,
+       3.141633833477963
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "C3xA4",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "258",
+     "order": "72",
+     "struct": "C3xSL(2,3)",
+     "irr": "20",
+     "image_struct": "C3xA4"
+    },
+    {
+     "family": "WE6",
+     "sub": "258",
+     "order": "72",
+     "struct": "C3xSL(2,3)",
+     "irr": "21",
+     "image_struct": "C3xA4"
+    },
+    {
+     "family": "WE6",
+     "sub": "324",
+     "order": "288",
+     "struct": "((C2xC2xC2):(C2xC2)):(C3xC3)",
+     "irr": "12",
+     "image_struct": "C3xA4"
+    },
+    {
+     "family": "WE6",
+     "sub": "324",
+     "order": "288",
+     "struct": "((C2xC2xC2):(C2xC2)):(C3xC3)",
+     "irr": "13",
+     "image_struct": "C3xA4"
+    },
+    {
+     "family": "WE6",
+     "sub": "324",
+     "order": "288",
+     "struct": "((C2xC2xC2):(C2xC2)):(C3xC3)",
+     "irr": "14",
+     "image_struct": "C3xA4"
+    },
+    {
+     "family": "WE6",
+     "sub": "324",
+     "order": "288",
+     "struct": "((C2xC2xC2):(C2xC2)):(C3xC3)",
+     "irr": "15",
+     "image_struct": "C3xA4"
+    }
+   ],
+   "n_sources": 14
+  },
+  {
+   "order": 48,
+   "nondegenerate_elements": 7,
+   "klein_bases": 4,
+   "involutions": 18,
+   "majorana_full_patterns": 5,
+   "dirac_full_patterns": 8,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    },
+    {
+     "column": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": true,
+     "residual": 9.114734394298503e-15,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.3402401360960536,
+       0.0203,
+       0.43,
+       0.8179480877246941
+      ]
+     }
+    },
+    {
+     "column": [
+      0.166667,
+      0.166667,
+      0.666667
+     ],
+     "viable": true,
+     "residual": 8.944650983496242e-14,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.666666666667,
+       0.166666666667,
+       0.166666666667
+      ],
+      "angles": [
+       0.3195197430936111,
+       0.0203,
+       0.43,
+       1.9021319376974057
+      ]
+     }
+    },
+    {
+     "column": [
+      0.25,
+      0.25,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0005096632335000413,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.25,
+       0.25,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5837088625712866,
+       0.30628190982509446
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    },
+    {
+     "row": [
+      0.25,
+      0.25,
+      0.5
+     ],
+     "viable": false,
+     "residual": 1.4172136578578762e-07,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.25,
+       0.25,
+       0.5
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.5122882483539445,
+       6.282940607406254
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    },
+    {
+     "row": [
+      0.166667,
+      0.166667,
+      0.666667
+     ],
+     "viable": false,
+     "residual": 0.010275183708835024,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.166666666667,
+       0.166666666667,
+       0.666666666667
+      ],
+      "angles": [
+       0.33197844880230876,
+       0.0203,
+       0.596,
+       0.0
+      ]
+     }
+    },
+    {
+     "row": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": false,
+     "residual": 0.006291279539713793,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.596,
+       3.141633833477963
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "C2xS4",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "215",
+     "order": "48",
+     "struct": "C2xS4",
+     "irr": "7",
+     "image_struct": "C2xS4"
+    },
+    {
+     "family": "WE6",
+     "sub": "215",
+     "order": "48",
+     "struct": "C2xS4",
+     "irr": "10",
+     "image_struct": "C2xS4"
+    },
+    {
+     "family": "WE6",
+     "sub": "220",
+     "order": "48",
+     "struct": "C2xS4",
+     "irr": "8",
+     "image_struct": "C2xS4"
+    },
+    {
+     "family": "WE6",
+     "sub": "220",
+     "order": "48",
+     "struct": "C2xS4",
+     "irr": "10",
+     "image_struct": "C2xS4"
+    },
+    {
+     "family": "WE6",
+     "sub": "222",
+     "order": "48",
+     "struct": "C2xS4",
+     "irr": "8",
+     "image_struct": "C2xS4"
+    },
+    {
+     "family": "WE6",
+     "sub": "222",
+     "order": "48",
+     "struct": "C2xS4",
+     "irr": "10",
+     "image_struct": "C2xS4"
+    }
+   ],
+   "n_sources": 74
+  },
+  {
+   "order": 48,
+   "nondegenerate_elements": 4,
+   "klein_bases": 1,
+   "involutions": 6,
+   "majorana_full_patterns": 2,
+   "dirac_full_patterns": 3,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": true,
+     "residual": 9.114734394298503e-15,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.3402401360960536,
+       0.0203,
+       0.43,
+       0.8179480877246941
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    },
+    {
+     "row": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": false,
+     "residual": 0.006291279539713793,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.596,
+       3.141633833477963
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "C4xA4",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "216",
+     "order": "48",
+     "struct": "C4xA4",
+     "irr": "15",
+     "image_struct": "C4xA4"
+    },
+    {
+     "family": "WE6",
+     "sub": "216",
+     "order": "48",
+     "struct": "C4xA4",
+     "irr": "16",
+     "image_struct": "C4xA4"
+    },
+    {
+     "family": "Sp43",
+     "sub": "118",
+     "order": "96",
+     "struct": "C4xSL(2,3)",
+     "irr": "27",
+     "image_struct": "C4xA4"
+    },
+    {
+     "family": "Sp43",
+     "sub": "118",
+     "order": "96",
+     "struct": "C4xSL(2,3)",
+     "irr": "28",
+     "image_struct": "C4xA4"
+    }
+   ],
+   "n_sources": 4
+  },
+  {
+   "order": 48,
+   "nondegenerate_elements": 7,
+   "klein_bases": 1,
+   "involutions": 6,
+   "majorana_full_patterns": 3,
+   "dirac_full_patterns": 6,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": true,
+     "residual": 9.114734394298503e-15,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.3402401360960536,
+       0.0203,
+       0.43,
+       0.8179480877246941
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    },
+    {
+     "row": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": false,
+     "residual": 0.006291279539713793,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.596,
+       3.141633833477963
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "A4:C4",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "221",
+     "order": "48",
+     "struct": "A4:C4",
+     "irr": "9",
+     "image_struct": "A4:C4"
+    },
+    {
+     "family": "WE6",
+     "sub": "221",
+     "order": "48",
+     "struct": "A4:C4",
+     "irr": "10",
+     "image_struct": "A4:C4"
+    },
+    {
+     "family": "WE6",
+     "sub": "273",
+     "order": "96",
+     "struct": "SL(2,3):C4",
+     "irr": "13",
+     "image_struct": "A4:C4"
+    },
+    {
+     "family": "WE6",
+     "sub": "273",
+     "order": "96",
+     "struct": "SL(2,3):C4",
+     "irr": "14",
+     "image_struct": "A4:C4"
+    },
+    {
+     "family": "Sp43",
+     "sub": "116",
+     "order": "96",
+     "struct": "SL(2,3):C4",
+     "irr": "13",
+     "image_struct": "A4:C4"
+    },
+    {
+     "family": "Sp43",
+     "sub": "116",
+     "order": "96",
+     "struct": "SL(2,3):C4",
+     "irr": "14",
+     "image_struct": "A4:C4"
+    }
+   ],
+   "n_sources": 6
+  },
+  {
+   "order": 54,
+   "nondegenerate_elements": 4,
+   "klein_bases": 0,
+   "involutions": 9,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 2,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "((C3xC3):C3):C2",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "239",
+     "order": "54",
+     "struct": "((C3xC3):C3):C2",
+     "irr": "7",
+     "image_struct": "((C3xC3):C3):C2"
+    },
+    {
+     "family": "WE6",
+     "sub": "239",
+     "order": "54",
+     "struct": "((C3xC3):C3):C2",
+     "irr": "8",
+     "image_struct": "((C3xC3):C3):C2"
+    },
+    {
+     "family": "WE6",
+     "sub": "303",
+     "order": "162",
+     "struct": "((C3xC3xC3):C3):C2",
+     "irr": "7",
+     "image_struct": "((C3xC3):C3):C2"
+    },
+    {
+     "family": "WE6",
+     "sub": "303",
+     "order": "162",
+     "struct": "((C3xC3xC3):C3):C2",
+     "irr": "8",
+     "image_struct": "((C3xC3):C3):C2"
+    },
+    {
+     "family": "Sp43",
+     "sub": "101",
+     "order": "54",
+     "struct": "((C3xC3):C3):C2",
+     "irr": "7",
+     "image_struct": "((C3xC3):C3):C2"
+    },
+    {
+     "family": "Sp43",
+     "sub": "101",
+     "order": "54",
+     "struct": "((C3xC3):C3):C2",
+     "irr": "8",
+     "image_struct": "((C3xC3):C3):C2"
+    }
+   ],
+   "n_sources": 10
+  },
+  {
+   "order": 54,
+   "nondegenerate_elements": 4,
+   "klein_bases": 0,
+   "involutions": 9,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 2,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "((C3xC3):C3):C2",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "239",
+     "order": "54",
+     "struct": "((C3xC3):C3):C2",
+     "irr": "9",
+     "image_struct": "((C3xC3):C3):C2"
+    },
+    {
+     "family": "WE6",
+     "sub": "239",
+     "order": "54",
+     "struct": "((C3xC3):C3):C2",
+     "irr": "10",
+     "image_struct": "((C3xC3):C3):C2"
+    },
+    {
+     "family": "WE6",
+     "sub": "303",
+     "order": "162",
+     "struct": "((C3xC3xC3):C3):C2",
+     "irr": "9",
+     "image_struct": "((C3xC3):C3):C2"
+    },
+    {
+     "family": "WE6",
+     "sub": "303",
+     "order": "162",
+     "struct": "((C3xC3xC3):C3):C2",
+     "irr": "10",
+     "image_struct": "((C3xC3):C3):C2"
+    },
+    {
+     "family": "Sp43",
+     "sub": "101",
+     "order": "54",
+     "struct": "((C3xC3):C3):C2",
+     "irr": "9",
+     "image_struct": "((C3xC3):C3):C2"
+    },
+    {
+     "family": "Sp43",
+     "sub": "101",
+     "order": "54",
+     "struct": "((C3xC3):C3):C2",
+     "irr": "10",
+     "image_struct": "((C3xC3):C3):C2"
+    }
+   ],
+   "n_sources": 10
+  },
+  {
+   "order": 54,
+   "nondegenerate_elements": 4,
+   "klein_bases": 0,
+   "involutions": 0,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 2,
+   "full_viable": [],
+   "columns": [],
+   "rows": [],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "C2x((C3xC3):C3)",
+   "sources": [
+    {
+     "family": "Sp43",
+     "sub": "103",
+     "order": "54",
+     "struct": "C2x((C3xC3):C3)",
+     "irr": "19",
+     "image_struct": "C2x((C3xC3):C3)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "103",
+     "order": "54",
+     "struct": "C2x((C3xC3):C3)",
+     "irr": "20",
+     "image_struct": "C2x((C3xC3):C3)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "134",
+     "order": "162",
+     "struct": "C2x((C3xC3xC3):C3)",
+     "irr": "31",
+     "image_struct": "C2x((C3xC3):C3)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "134",
+     "order": "162",
+     "struct": "C2x((C3xC3xC3):C3)",
+     "irr": "32",
+     "image_struct": "C2x((C3xC3):C3)"
+    }
+   ],
+   "n_sources": 4
+  },
+  {
+   "order": 54,
+   "nondegenerate_elements": 4,
+   "klein_bases": 0,
+   "involutions": 0,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 2,
+   "full_viable": [],
+   "columns": [],
+   "rows": [],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "C2x(C9:C3)",
+   "sources": [
+    {
+     "family": "Sp43",
+     "sub": "105",
+     "order": "54",
+     "struct": "C2x(C9:C3)",
+     "irr": "19",
+     "image_struct": "C2x(C9:C3)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "105",
+     "order": "54",
+     "struct": "C2x(C9:C3)",
+     "irr": "20",
+     "image_struct": "C2x(C9:C3)"
+    }
+   ],
+   "n_sources": 2
+  },
+  {
+   "order": 60,
+   "nondegenerate_elements": 16,
+   "klein_bases": 5,
+   "involutions": 15,
+   "majorana_full_patterns": 5,
+   "dirac_full_patterns": 12,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    },
+    {
+     "column": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": true,
+     "residual": 9.114734394298503e-15,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.3402401360960536,
+       0.0203,
+       0.43,
+       0.8179480877246941
+      ]
+     }
+    },
+    {
+     "column": [
+      0.127322,
+      0.436339,
+      0.436339
+     ],
+     "viable": false,
+     "residual": 0.01569989843962485,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.436338998125,
+       0.12732200375,
+       0.436338998125
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.596,
+       0.0
+      ]
+     }
+    },
+    {
+     "column": [
+      0.063661,
+      0.063661,
+      0.872678
+     ],
+     "viable": false,
+     "residual": 0.03955844580413935,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.87267799625,
+       0.063661001875,
+       0.063661001875
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.5959996952146318,
+       5.124124182315282
+      ]
+     }
+    },
+    {
+     "column": [
+      0.276393,
+      0.361803,
+      0.361803
+     ],
+     "viable": true,
+     "residual": 3.048444406528434e-14,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.27639320225,
+       0.361803398875,
+       0.361803398875
+      ],
+      "angles": [
+       0.2831547965989905,
+       0.02388,
+       0.5571138912383852,
+       4.085835906417992
+      ]
+     }
+    },
+    {
+     "column": [
+      0.138197,
+      0.138197,
+      0.723607
+     ],
+     "viable": false,
+     "residual": 0.0002663053688328552,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.72360679775,
+       0.138196601125,
+       0.138196601125
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642084451845562
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    },
+    {
+     "column": [
+      0.095492,
+      0.25,
+      0.654508
+     ],
+     "viable": true,
+     "residual": 9.789580503377324e-16,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.654508497187,
+       0.25,
+       0.095491502813
+      ],
+      "angles": [
+       0.32985879295635095,
+       0.02332744822744399,
+       0.4300201360819932,
+       0.6805059531200693
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    },
+    {
+     "row": [
+      0.095492,
+      0.25,
+      0.654508
+     ],
+     "viable": false,
+     "residual": 0.007478085624080602,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.095491502813,
+       0.25,
+       0.654508497187
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.596,
+       4.888253058813119
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    },
+    {
+     "row": [
+      0.276393,
+      0.361803,
+      0.361803
+     ],
+     "viable": false,
+     "residual": 0.0015891640231992304,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.27639320225,
+       0.361803398875,
+       0.361803398875
+      ],
+      "angles": [
+       0.3286112255304184,
+       0.02388,
+       0.596,
+       2.517085711507239
+      ]
+     }
+    },
+    {
+     "row": [
+      0.138197,
+      0.138197,
+      0.723607
+     ],
+     "viable": false,
+     "residual": 0.02927648106403564,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.138196601125,
+       0.138196601125,
+       0.72360679775
+      ],
+      "angles": [
+       0.3319784493690955,
+       0.0203,
+       0.596,
+       0.0
+      ]
+     }
+    },
+    {
+     "row": [
+      0.063661,
+      0.063661,
+      0.872678
+     ],
+     "viable": false,
+     "residual": 0.0705882102065507,
+     "fit": {
+      "row": 0,
+      "target": [
+       0.87267799625,
+       0.063661001875,
+       0.063661001875
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    },
+    {
+     "row": [
+      0.127322,
+      0.436339,
+      0.436339
+     ],
+     "viable": true,
+     "residual": 6.9345087472275075e-15,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.12732200375,
+       0.436338998125,
+       0.436338998125
+      ],
+      "angles": [
+       0.2751560547941703,
+       0.020380382176769907,
+       0.5545832063404431,
+       1.0441393124843128
+      ]
+     }
+    },
+    {
+     "row": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": false,
+     "residual": 0.006291279539713793,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.596,
+       3.141633833477963
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "A5",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "247",
+     "order": "60",
+     "struct": "A5",
+     "irr": "2",
+     "image_struct": "A5"
+    },
+    {
+     "family": "WE6",
+     "sub": "247",
+     "order": "60",
+     "struct": "A5",
+     "irr": "3",
+     "image_struct": "A5"
+    },
+    {
+     "family": "WE6",
+     "sub": "248",
+     "order": "60",
+     "struct": "A5",
+     "irr": "2",
+     "image_struct": "A5"
+    },
+    {
+     "family": "WE6",
+     "sub": "248",
+     "order": "60",
+     "struct": "A5",
+     "irr": "3",
+     "image_struct": "A5"
+    },
+    {
+     "family": "WE6",
+     "sub": "292",
+     "order": "120",
+     "struct": "C2xA5",
+     "irr": "3",
+     "image_struct": "A5"
+    },
+    {
+     "family": "WE6",
+     "sub": "292",
+     "order": "120",
+     "struct": "C2xA5",
+     "irr": "4",
+     "image_struct": "A5"
+    }
+   ],
+   "n_sources": 16
+  },
+  {
+   "order": 72,
+   "nondegenerate_elements": 4,
+   "klein_bases": 1,
+   "involutions": 6,
+   "majorana_full_patterns": 2,
+   "dirac_full_patterns": 3,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": true,
+     "residual": 9.114734394298503e-15,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.3402401360960536,
+       0.0203,
+       0.43,
+       0.8179480877246941
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    },
+    {
+     "row": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": false,
+     "residual": 0.006291279539713793,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.596,
+       3.141633833477963
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "C6xA4",
+   "sources": [
+    {
+     "family": "Sp43",
+     "sub": "129",
+     "order": "144",
+     "struct": "C6xSL(2,3)",
+     "irr": "39",
+     "image_struct": "C6xA4"
+    },
+    {
+     "family": "Sp43",
+     "sub": "129",
+     "order": "144",
+     "struct": "C6xSL(2,3)",
+     "irr": "40",
+     "image_struct": "C6xA4"
+    }
+   ],
+   "n_sources": 2
+  },
+  {
+   "order": 81,
+   "nondegenerate_elements": 10,
+   "klein_bases": 0,
+   "involutions": 0,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 3,
+   "full_viable": [],
+   "columns": [],
+   "rows": [],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "(C3xC3xC3):C3",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "266",
+     "order": "81",
+     "struct": "(C3xC3xC3):C3",
+     "irr": "12",
+     "image_struct": "(C3xC3xC3):C3"
+    },
+    {
+     "family": "WE6",
+     "sub": "266",
+     "order": "81",
+     "struct": "(C3xC3xC3):C3",
+     "irr": "13",
+     "image_struct": "(C3xC3xC3):C3"
+    },
+    {
+     "family": "WE6",
+     "sub": "266",
+     "order": "81",
+     "struct": "(C3xC3xC3):C3",
+     "irr": "14",
+     "image_struct": "(C3xC3xC3):C3"
+    },
+    {
+     "family": "WE6",
+     "sub": "266",
+     "order": "81",
+     "struct": "(C3xC3xC3):C3",
+     "irr": "15",
+     "image_struct": "(C3xC3xC3):C3"
+    },
+    {
+     "family": "WE6",
+     "sub": "266",
+     "order": "81",
+     "struct": "(C3xC3xC3):C3",
+     "irr": "16",
+     "image_struct": "(C3xC3xC3):C3"
+    },
+    {
+     "family": "WE6",
+     "sub": "266",
+     "order": "81",
+     "struct": "(C3xC3xC3):C3",
+     "irr": "17",
+     "image_struct": "(C3xC3xC3):C3"
+    }
+   ],
+   "n_sources": 18
+  },
+  {
+   "order": 96,
+   "nondegenerate_elements": 7,
+   "klein_bases": 4,
+   "involutions": 18,
+   "majorana_full_patterns": 5,
+   "dirac_full_patterns": 8,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    },
+    {
+     "column": [
+      0.25,
+      0.25,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0005096632335000413,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.25,
+       0.25,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5837088625712866,
+       0.30628190982509446
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    },
+    {
+     "column": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": true,
+     "residual": 9.114734394298503e-15,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.3402401360960536,
+       0.0203,
+       0.43,
+       0.8179480877246941
+      ]
+     }
+    },
+    {
+     "column": [
+      0.166667,
+      0.166667,
+      0.666667
+     ],
+     "viable": true,
+     "residual": 8.944650983496242e-14,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.666666666667,
+       0.166666666667,
+       0.166666666667
+      ],
+      "angles": [
+       0.3195197430936111,
+       0.0203,
+       0.43,
+       1.9021319376974057
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    },
+    {
+     "row": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": false,
+     "residual": 0.006291279539713793,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.596,
+       3.141633833477963
+      ]
+     }
+    },
+    {
+     "row": [
+      0.25,
+      0.25,
+      0.5
+     ],
+     "viable": false,
+     "residual": 1.4172136578578762e-07,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.25,
+       0.25,
+       0.5
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.5122882483539445,
+       6.282940607406254
+      ]
+     }
+    },
+    {
+     "row": [
+      0.166667,
+      0.166667,
+      0.666667
+     ],
+     "viable": false,
+     "residual": 0.010275183708835024,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.166666666667,
+       0.166666666667,
+       0.666666666667
+      ],
+      "angles": [
+       0.33197844880230876,
+       0.0203,
+       0.596,
+       0.0
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "C4xS4",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "272",
+     "order": "96",
+     "struct": "C4xS4",
+     "irr": "17",
+     "image_struct": "C4xS4"
+    },
+    {
+     "family": "WE6",
+     "sub": "272",
+     "order": "96",
+     "struct": "C4xS4",
+     "irr": "18",
+     "image_struct": "C4xS4"
+    },
+    {
+     "family": "WE6",
+     "sub": "272",
+     "order": "96",
+     "struct": "C4xS4",
+     "irr": "19",
+     "image_struct": "C4xS4"
+    },
+    {
+     "family": "WE6",
+     "sub": "272",
+     "order": "96",
+     "struct": "C4xS4",
+     "irr": "20",
+     "image_struct": "C4xS4"
+    }
+   ],
+   "n_sources": 4
+  },
+  {
+   "order": 108,
+   "nondegenerate_elements": 13,
+   "klein_bases": 0,
+   "involutions": 9,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 5,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    },
+    {
+     "column": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 0.0034347566092906554,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.591506350946,
+       0.158493649054,
+       0.25
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.5160535073641338,
+       4.128655084786147
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    },
+    {
+     "row": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 8.675748137849677e-05,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.158493649054,
+       0.25,
+       0.591506350946
+      ],
+      "angles": [
+       0.32908610445445263,
+       0.0203,
+       0.596,
+       1.2417949687945165
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "((C3xC3):C3):C4",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "283",
+     "order": "108",
+     "struct": "((C3xC3):C3):C4",
+     "irr": "5",
+     "image_struct": "((C3xC3):C3):C4"
+    },
+    {
+     "family": "WE6",
+     "sub": "283",
+     "order": "108",
+     "struct": "((C3xC3):C3):C4",
+     "irr": "6",
+     "image_struct": "((C3xC3):C3):C4"
+    },
+    {
+     "family": "Sp43",
+     "sub": "122",
+     "order": "108",
+     "struct": "((C3xC3):C3):C4",
+     "irr": "5",
+     "image_struct": "((C3xC3):C3):C4"
+    },
+    {
+     "family": "Sp43",
+     "sub": "122",
+     "order": "108",
+     "struct": "((C3xC3):C3):C4",
+     "irr": "6",
+     "image_struct": "((C3xC3):C3):C4"
+    },
+    {
+     "family": "Sp43",
+     "sub": "123",
+     "order": "108",
+     "struct": "((C3xC3):C3):C4",
+     "irr": "5",
+     "image_struct": "((C3xC3):C3):C4"
+    },
+    {
+     "family": "Sp43",
+     "sub": "123",
+     "order": "108",
+     "struct": "((C3xC3):C3):C4",
+     "irr": "6",
+     "image_struct": "((C3xC3):C3):C4"
+    }
+   ],
+   "n_sources": 8
+  },
+  {
+   "order": 108,
+   "nondegenerate_elements": 13,
+   "klein_bases": 0,
+   "involutions": 9,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 5,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 0.0034347566092906554,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.591506350946,
+       0.158493649054,
+       0.25
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.5160535073641338,
+       4.128655084786147
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 8.675748137849677e-05,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.158493649054,
+       0.25,
+       0.591506350946
+      ],
+      "angles": [
+       0.32908610445445263,
+       0.0203,
+       0.596,
+       1.2417949687945165
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "((C3xC3):C3):C4",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "283",
+     "order": "108",
+     "struct": "((C3xC3):C3):C4",
+     "irr": "7",
+     "image_struct": "((C3xC3):C3):C4"
+    },
+    {
+     "family": "WE6",
+     "sub": "283",
+     "order": "108",
+     "struct": "((C3xC3):C3):C4",
+     "irr": "8",
+     "image_struct": "((C3xC3):C3):C4"
+    },
+    {
+     "family": "Sp43",
+     "sub": "122",
+     "order": "108",
+     "struct": "((C3xC3):C3):C4",
+     "irr": "7",
+     "image_struct": "((C3xC3):C3):C4"
+    },
+    {
+     "family": "Sp43",
+     "sub": "122",
+     "order": "108",
+     "struct": "((C3xC3):C3):C4",
+     "irr": "8",
+     "image_struct": "((C3xC3):C3):C4"
+    },
+    {
+     "family": "Sp43",
+     "sub": "123",
+     "order": "108",
+     "struct": "((C3xC3):C3):C4",
+     "irr": "7",
+     "image_struct": "((C3xC3):C3):C4"
+    },
+    {
+     "family": "Sp43",
+     "sub": "123",
+     "order": "108",
+     "struct": "((C3xC3):C3):C4",
+     "irr": "8",
+     "image_struct": "((C3xC3):C3):C4"
+    }
+   ],
+   "n_sources": 8
+  },
+  {
+   "order": 108,
+   "nondegenerate_elements": 13,
+   "klein_bases": 0,
+   "involutions": 9,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 5,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    },
+    {
+     "column": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 0.0034347566092906554,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.591506350946,
+       0.158493649054,
+       0.25
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.5160535073641338,
+       4.128655084786147
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    },
+    {
+     "row": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 8.675748137849677e-05,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.158493649054,
+       0.25,
+       0.591506350946
+      ],
+      "angles": [
+       0.32908610445445263,
+       0.0203,
+       0.596,
+       1.2417949687945165
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "((C3xC3):C3):C4",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "283",
+     "order": "108",
+     "struct": "((C3xC3):C3):C4",
+     "irr": "9",
+     "image_struct": "((C3xC3):C3):C4"
+    },
+    {
+     "family": "WE6",
+     "sub": "283",
+     "order": "108",
+     "struct": "((C3xC3):C3):C4",
+     "irr": "10",
+     "image_struct": "((C3xC3):C3):C4"
+    },
+    {
+     "family": "WE6",
+     "sub": "283",
+     "order": "108",
+     "struct": "((C3xC3):C3):C4",
+     "irr": "11",
+     "image_struct": "((C3xC3):C3):C4"
+    },
+    {
+     "family": "WE6",
+     "sub": "283",
+     "order": "108",
+     "struct": "((C3xC3):C3):C4",
+     "irr": "12",
+     "image_struct": "((C3xC3):C3):C4"
+    },
+    {
+     "family": "Sp43",
+     "sub": "122",
+     "order": "108",
+     "struct": "((C3xC3):C3):C4",
+     "irr": "9",
+     "image_struct": "((C3xC3):C3):C4"
+    },
+    {
+     "family": "Sp43",
+     "sub": "122",
+     "order": "108",
+     "struct": "((C3xC3):C3):C4",
+     "irr": "10",
+     "image_struct": "((C3xC3):C3):C4"
+    }
+   ],
+   "n_sources": 16
+  },
+  {
+   "order": 108,
+   "nondegenerate_elements": 4,
+   "klein_bases": 0,
+   "involutions": 18,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 2,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "C2x(((C3xC3):C3):C2)",
+   "sources": [
+    {
+     "family": "Sp43",
+     "sub": "121",
+     "order": "108",
+     "struct": "C2x(((C3xC3):C3):C2)",
+     "irr": "15",
+     "image_struct": "C2x(((C3xC3):C3):C2)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "121",
+     "order": "108",
+     "struct": "C2x(((C3xC3):C3):C2)",
+     "irr": "16",
+     "image_struct": "C2x(((C3xC3):C3):C2)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "121",
+     "order": "108",
+     "struct": "C2x(((C3xC3):C3):C2)",
+     "irr": "17",
+     "image_struct": "C2x(((C3xC3):C3):C2)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "121",
+     "order": "108",
+     "struct": "C2x(((C3xC3):C3):C2)",
+     "irr": "18",
+     "image_struct": "C2x(((C3xC3):C3):C2)"
+    }
+   ],
+   "n_sources": 4
+  },
+  {
+   "order": 120,
+   "nondegenerate_elements": 16,
+   "klein_bases": 5,
+   "involutions": 30,
+   "majorana_full_patterns": 5,
+   "dirac_full_patterns": 12,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    },
+    {
+     "column": [
+      0.276393,
+      0.361803,
+      0.361803
+     ],
+     "viable": true,
+     "residual": 3.048444406528434e-14,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.27639320225,
+       0.361803398875,
+       0.361803398875
+      ],
+      "angles": [
+       0.2831547965989905,
+       0.02388,
+       0.5571138912383852,
+       4.085835906417992
+      ]
+     }
+    },
+    {
+     "column": [
+      0.138197,
+      0.138197,
+      0.723607
+     ],
+     "viable": false,
+     "residual": 0.0002663053688328552,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.72360679775,
+       0.138196601125,
+       0.138196601125
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642084451845562
+      ]
+     }
+    },
+    {
+     "column": [
+      0.127322,
+      0.436339,
+      0.436339
+     ],
+     "viable": false,
+     "residual": 0.01569989843962485,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.436338998125,
+       0.12732200375,
+       0.436338998125
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.596,
+       0.0
+      ]
+     }
+    },
+    {
+     "column": [
+      0.063661,
+      0.063661,
+      0.872678
+     ],
+     "viable": false,
+     "residual": 0.03955844580413935,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.87267799625,
+       0.063661001875,
+       0.063661001875
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.5959996952146318,
+       5.124124182315282
+      ]
+     }
+    },
+    {
+     "column": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": true,
+     "residual": 9.114734394298503e-15,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.3402401360960536,
+       0.0203,
+       0.43,
+       0.8179480877246941
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    },
+    {
+     "column": [
+      0.095492,
+      0.25,
+      0.654508
+     ],
+     "viable": true,
+     "residual": 9.789580503377324e-16,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.654508497187,
+       0.25,
+       0.095491502813
+      ],
+      "angles": [
+       0.32985879295635095,
+       0.02332744822744399,
+       0.4300201360819932,
+       0.6805059531200693
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    },
+    {
+     "row": [
+      0.095492,
+      0.25,
+      0.654508
+     ],
+     "viable": false,
+     "residual": 0.007478085624080602,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.095491502813,
+       0.25,
+       0.654508497187
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.596,
+       4.888253058813119
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    },
+    {
+     "row": [
+      0.127322,
+      0.436339,
+      0.436339
+     ],
+     "viable": true,
+     "residual": 6.9345087472275075e-15,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.12732200375,
+       0.436338998125,
+       0.436338998125
+      ],
+      "angles": [
+       0.2751560547941703,
+       0.020380382176769907,
+       0.5545832063404431,
+       1.0441393124843128
+      ]
+     }
+    },
+    {
+     "row": [
+      0.276393,
+      0.361803,
+      0.361803
+     ],
+     "viable": false,
+     "residual": 0.0015891640231992304,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.27639320225,
+       0.361803398875,
+       0.361803398875
+      ],
+      "angles": [
+       0.3286112255304184,
+       0.02388,
+       0.596,
+       2.517085711507239
+      ]
+     }
+    },
+    {
+     "row": [
+      0.138197,
+      0.138197,
+      0.723607
+     ],
+     "viable": false,
+     "residual": 0.02927648106403564,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.138196601125,
+       0.138196601125,
+       0.72360679775
+      ],
+      "angles": [
+       0.3319784493690955,
+       0.0203,
+       0.596,
+       0.0
+      ]
+     }
+    },
+    {
+     "row": [
+      0.063661,
+      0.063661,
+      0.872678
+     ],
+     "viable": false,
+     "residual": 0.0705882102065507,
+     "fit": {
+      "row": 0,
+      "target": [
+       0.87267799625,
+       0.063661001875,
+       0.063661001875
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    },
+    {
+     "row": [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     "viable": false,
+     "residual": 0.006291279539713793,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.333333333333,
+       0.333333333333,
+       0.333333333333
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.596,
+       3.141633833477963
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "C2xA5",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "292",
+     "order": "120",
+     "struct": "C2xA5",
+     "irr": "5",
+     "image_struct": "C2xA5"
+    },
+    {
+     "family": "WE6",
+     "sub": "292",
+     "order": "120",
+     "struct": "C2xA5",
+     "irr": "6",
+     "image_struct": "C2xA5"
+    },
+    {
+     "family": "WE6",
+     "sub": "293",
+     "order": "120",
+     "struct": "C2xA5",
+     "irr": "5",
+     "image_struct": "C2xA5"
+    },
+    {
+     "family": "WE6",
+     "sub": "293",
+     "order": "120",
+     "struct": "C2xA5",
+     "irr": "6",
+     "image_struct": "C2xA5"
+    }
+   ],
+   "n_sources": 4
+  },
+  {
+   "order": 162,
+   "nondegenerate_elements": 19,
+   "klein_bases": 0,
+   "involutions": 9,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 10,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.0,
+      0.25,
+      0.75
+     ],
+     "viable": false,
+     "residual": 0.00480397348244394,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.75,
+       0.0,
+       0.25
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.596,
+       3.1415422019063755
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    },
+    {
+     "column": [
+      0.25,
+      0.25,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0005096632335000413,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.25,
+       0.25,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5837088625712866,
+       0.30628190982509446
+      ]
+     }
+    },
+    {
+     "column": [
+      0.077985,
+      0.275451,
+      0.646564
+     ],
+     "viable": true,
+     "residual": 2.6810876908462923e-16,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.646564206929,
+       0.077985185627,
+       0.275450607444
+      ],
+      "angles": [
+       0.339039618393392,
+       0.021780685394639312,
+       0.596,
+       2.970892297307295
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.25,
+      0.75
+     ],
+     "viable": false,
+     "residual": 0.0023666091125000154,
+     "fit": {
+      "row": 0,
+      "target": [
+       0.75,
+       0.25,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.5877,
+       5.969026041820607
+      ]
+     }
+    },
+    {
+     "row": [
+      0.077985,
+      0.275451,
+      0.646564
+     ],
+     "viable": false,
+     "residual": 0.004391056667716223,
+     "fit": {
+      "row": 0,
+      "target": [
+       0.646564206929,
+       0.275450607444,
+       0.077985185627
+      ],
+      "angles": [
+       0.3099039495062752,
+       0.02388,
+       0.5877,
+       5.969026041812546
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    },
+    {
+     "row": [
+      0.25,
+      0.25,
+      0.5
+     ],
+     "viable": false,
+     "residual": 1.4172136578578762e-07,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.25,
+       0.25,
+       0.5
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.5122882483539445,
+       6.282940607406254
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "((C3xC3xC3):C3):C2",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "302",
+     "order": "162",
+     "struct": "((C3xC3xC3):C3):C2",
+     "irr": "10",
+     "image_struct": "((C3xC3xC3):C3):C2"
+    },
+    {
+     "family": "WE6",
+     "sub": "302",
+     "order": "162",
+     "struct": "((C3xC3xC3):C3):C2",
+     "irr": "11",
+     "image_struct": "((C3xC3xC3):C3):C2"
+    },
+    {
+     "family": "WE6",
+     "sub": "302",
+     "order": "162",
+     "struct": "((C3xC3xC3):C3):C2",
+     "irr": "12",
+     "image_struct": "((C3xC3xC3):C3):C2"
+    },
+    {
+     "family": "WE6",
+     "sub": "302",
+     "order": "162",
+     "struct": "((C3xC3xC3):C3):C2",
+     "irr": "13",
+     "image_struct": "((C3xC3xC3):C3):C2"
+    },
+    {
+     "family": "WE6",
+     "sub": "302",
+     "order": "162",
+     "struct": "((C3xC3xC3):C3):C2",
+     "irr": "14",
+     "image_struct": "((C3xC3xC3):C3):C2"
+    },
+    {
+     "family": "WE6",
+     "sub": "302",
+     "order": "162",
+     "struct": "((C3xC3xC3):C3):C2",
+     "irr": "15",
+     "image_struct": "((C3xC3xC3):C3):C2"
+    }
+   ],
+   "n_sources": 24
+  },
+  {
+   "order": 162,
+   "nondegenerate_elements": 19,
+   "klein_bases": 0,
+   "involutions": 9,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 10,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.25,
+      0.25,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0005096632335000413,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.25,
+       0.25,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5837088625712866,
+       0.30628190982509446
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.25,
+      0.75
+     ],
+     "viable": false,
+     "residual": 0.00480397348244394,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.75,
+       0.0,
+       0.25
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.596,
+       3.1415422019063755
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    },
+    {
+     "column": [
+      0.077985,
+      0.275451,
+      0.646564
+     ],
+     "viable": true,
+     "residual": 2.6810876908462923e-16,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.646564206929,
+       0.077985185627,
+       0.275450607444
+      ],
+      "angles": [
+       0.339039618393392,
+       0.021780685394639312,
+       0.596,
+       2.970892297307295
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.25,
+      0.25,
+      0.5
+     ],
+     "viable": false,
+     "residual": 1.4172136578578762e-07,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.25,
+       0.25,
+       0.5
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.5122882483539445,
+       6.282940607406254
+      ]
+     }
+    },
+    {
+     "row": [
+      0.077985,
+      0.275451,
+      0.646564
+     ],
+     "viable": false,
+     "residual": 0.004391056667716223,
+     "fit": {
+      "row": 0,
+      "target": [
+       0.646564206929,
+       0.275450607444,
+       0.077985185627
+      ],
+      "angles": [
+       0.3099039495062752,
+       0.02388,
+       0.5877,
+       5.969026041812546
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.25,
+      0.75
+     ],
+     "viable": false,
+     "residual": 0.0023666091125000154,
+     "fit": {
+      "row": 0,
+      "target": [
+       0.75,
+       0.25,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.5877,
+       5.969026041820607
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "((C3xC3xC3):C3):C2",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "302",
+     "order": "162",
+     "struct": "((C3xC3xC3):C3):C2",
+     "irr": "16",
+     "image_struct": "((C3xC3xC3):C3):C2"
+    },
+    {
+     "family": "WE6",
+     "sub": "302",
+     "order": "162",
+     "struct": "((C3xC3xC3):C3):C2",
+     "irr": "17",
+     "image_struct": "((C3xC3xC3):C3):C2"
+    },
+    {
+     "family": "WE6",
+     "sub": "302",
+     "order": "162",
+     "struct": "((C3xC3xC3):C3):C2",
+     "irr": "18",
+     "image_struct": "((C3xC3xC3):C3):C2"
+    },
+    {
+     "family": "WE6",
+     "sub": "302",
+     "order": "162",
+     "struct": "((C3xC3xC3):C3):C2",
+     "irr": "19",
+     "image_struct": "((C3xC3xC3):C3):C2"
+    },
+    {
+     "family": "WE6",
+     "sub": "302",
+     "order": "162",
+     "struct": "((C3xC3xC3):C3):C2",
+     "irr": "20",
+     "image_struct": "((C3xC3xC3):C3):C2"
+    },
+    {
+     "family": "WE6",
+     "sub": "302",
+     "order": "162",
+     "struct": "((C3xC3xC3):C3):C2",
+     "irr": "21",
+     "image_struct": "((C3xC3xC3):C3):C2"
+    }
+   ],
+   "n_sources": 24
+  },
+  {
+   "order": 162,
+   "nondegenerate_elements": 10,
+   "klein_bases": 0,
+   "involutions": 0,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 3,
+   "full_viable": [],
+   "columns": [],
+   "rows": [],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "C2x((C3xC3xC3):C3)",
+   "sources": [
+    {
+     "family": "Sp43",
+     "sub": "134",
+     "order": "162",
+     "struct": "C2x((C3xC3xC3):C3)",
+     "irr": "19",
+     "image_struct": "C2x((C3xC3xC3):C3)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "134",
+     "order": "162",
+     "struct": "C2x((C3xC3xC3):C3)",
+     "irr": "20",
+     "image_struct": "C2x((C3xC3xC3):C3)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "134",
+     "order": "162",
+     "struct": "C2x((C3xC3xC3):C3)",
+     "irr": "23",
+     "image_struct": "C2x((C3xC3xC3):C3)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "134",
+     "order": "162",
+     "struct": "C2x((C3xC3xC3):C3)",
+     "irr": "24",
+     "image_struct": "C2x((C3xC3xC3):C3)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "134",
+     "order": "162",
+     "struct": "C2x((C3xC3xC3):C3)",
+     "irr": "27",
+     "image_struct": "C2x((C3xC3xC3):C3)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "134",
+     "order": "162",
+     "struct": "C2x((C3xC3xC3):C3)",
+     "irr": "28",
+     "image_struct": "C2x((C3xC3xC3):C3)"
+    }
+   ],
+   "n_sources": 6
+  },
+  {
+   "order": 216,
+   "nondegenerate_elements": 31,
+   "klein_bases": 0,
+   "involutions": 9,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 7,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 0.0034347566092906554,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.591506350946,
+       0.158493649054,
+       0.25
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.5160535073641338,
+       4.128655084786147
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 8.675748137849677e-05,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.158493649054,
+       0.25,
+       0.591506350946
+      ],
+      "angles": [
+       0.32908610445445263,
+       0.0203,
+       0.596,
+       1.2417949687945165
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "((C3xC3):C3):Q8",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "313",
+     "order": "216",
+     "struct": "((C3xC3):C3):Q8",
+     "irr": "6",
+     "image_struct": "((C3xC3):C3):Q8"
+    },
+    {
+     "family": "WE6",
+     "sub": "313",
+     "order": "216",
+     "struct": "((C3xC3):C3):Q8",
+     "irr": "7",
+     "image_struct": "((C3xC3):C3):Q8"
+    },
+    {
+     "family": "WE6",
+     "sub": "313",
+     "order": "216",
+     "struct": "((C3xC3):C3):Q8",
+     "irr": "8",
+     "image_struct": "((C3xC3):C3):Q8"
+    },
+    {
+     "family": "WE6",
+     "sub": "313",
+     "order": "216",
+     "struct": "((C3xC3):C3):Q8",
+     "irr": "9",
+     "image_struct": "((C3xC3):C3):Q8"
+    },
+    {
+     "family": "WE6",
+     "sub": "313",
+     "order": "216",
+     "struct": "((C3xC3):C3):Q8",
+     "irr": "10",
+     "image_struct": "((C3xC3):C3):Q8"
+    },
+    {
+     "family": "WE6",
+     "sub": "313",
+     "order": "216",
+     "struct": "((C3xC3):C3):Q8",
+     "irr": "11",
+     "image_struct": "((C3xC3):C3):Q8"
+    }
+   ],
+   "n_sources": 24
+  },
+  {
+   "order": 216,
+   "nondegenerate_elements": 31,
+   "klein_bases": 0,
+   "involutions": 9,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 7,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 0.0034347566092906554,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.591506350946,
+       0.158493649054,
+       0.25
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.5160535073641338,
+       4.128655084786147
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 8.675748137849677e-05,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.158493649054,
+       0.25,
+       0.591506350946
+      ],
+      "angles": [
+       0.32908610445445263,
+       0.0203,
+       0.596,
+       1.2417949687945165
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "((C3xC3):C3):Q8",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "313",
+     "order": "216",
+     "struct": "((C3xC3):C3):Q8",
+     "irr": "12",
+     "image_struct": "((C3xC3):C3):Q8"
+    },
+    {
+     "family": "WE6",
+     "sub": "313",
+     "order": "216",
+     "struct": "((C3xC3):C3):Q8",
+     "irr": "13",
+     "image_struct": "((C3xC3):C3):Q8"
+    },
+    {
+     "family": "Sp43",
+     "sub": "139",
+     "order": "216",
+     "struct": "((C3xC3):C3):Q8",
+     "irr": "12",
+     "image_struct": "((C3xC3):C3):Q8"
+    },
+    {
+     "family": "Sp43",
+     "sub": "139",
+     "order": "216",
+     "struct": "((C3xC3):C3):Q8",
+     "irr": "13",
+     "image_struct": "((C3xC3):C3):Q8"
+    },
+    {
+     "family": "Sp43",
+     "sub": "144",
+     "order": "216",
+     "struct": "((C3xC3):C3):Q8",
+     "irr": "12",
+     "image_struct": "((C3xC3):C3):Q8"
+    },
+    {
+     "family": "Sp43",
+     "sub": "144",
+     "order": "216",
+     "struct": "((C3xC3):C3):Q8",
+     "irr": "13",
+     "image_struct": "((C3xC3):C3):Q8"
+    }
+   ],
+   "n_sources": 8
+  },
+  {
+   "order": 216,
+   "nondegenerate_elements": 13,
+   "klein_bases": 0,
+   "involutions": 18,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 5,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    },
+    {
+     "column": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 0.0034347566092906554,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.591506350946,
+       0.158493649054,
+       0.25
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.5160535073641338,
+       4.128655084786147
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    },
+    {
+     "row": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 8.675748137849677e-05,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.158493649054,
+       0.25,
+       0.591506350946
+      ],
+      "angles": [
+       0.32908610445445263,
+       0.0203,
+       0.596,
+       1.2417949687945165
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "C2x(((C3xC3):C3):C4)",
+   "sources": [
+    {
+     "family": "Sp43",
+     "sub": "143",
+     "order": "216",
+     "struct": "C2x(((C3xC3):C3):C4)",
+     "irr": "13",
+     "image_struct": "C2x(((C3xC3):C3):C4)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "143",
+     "order": "216",
+     "struct": "C2x(((C3xC3):C3):C4)",
+     "irr": "14",
+     "image_struct": "C2x(((C3xC3):C3):C4)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "143",
+     "order": "216",
+     "struct": "C2x(((C3xC3):C3):C4)",
+     "irr": "15",
+     "image_struct": "C2x(((C3xC3):C3):C4)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "143",
+     "order": "216",
+     "struct": "C2x(((C3xC3):C3):C4)",
+     "irr": "16",
+     "image_struct": "C2x(((C3xC3):C3):C4)"
+    }
+   ],
+   "n_sources": 4
+  },
+  {
+   "order": 216,
+   "nondegenerate_elements": 13,
+   "klein_bases": 0,
+   "involutions": 18,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 5,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    },
+    {
+     "column": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 0.0034347566092906554,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.591506350946,
+       0.158493649054,
+       0.25
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.5160535073641338,
+       4.128655084786147
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    },
+    {
+     "row": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 8.675748137849677e-05,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.158493649054,
+       0.25,
+       0.591506350946
+      ],
+      "angles": [
+       0.32908610445445263,
+       0.0203,
+       0.596,
+       1.2417949687945165
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "C2x(((C3xC3):C3):C4)",
+   "sources": [
+    {
+     "family": "Sp43",
+     "sub": "143",
+     "order": "216",
+     "struct": "C2x(((C3xC3):C3):C4)",
+     "irr": "17",
+     "image_struct": "C2x(((C3xC3):C3):C4)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "143",
+     "order": "216",
+     "struct": "C2x(((C3xC3):C3):C4)",
+     "irr": "18",
+     "image_struct": "C2x(((C3xC3):C3):C4)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "143",
+     "order": "216",
+     "struct": "C2x(((C3xC3):C3):C4)",
+     "irr": "19",
+     "image_struct": "C2x(((C3xC3):C3):C4)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "143",
+     "order": "216",
+     "struct": "C2x(((C3xC3):C3):C4)",
+     "irr": "20",
+     "image_struct": "C2x(((C3xC3):C3):C4)"
+    }
+   ],
+   "n_sources": 4
+  },
+  {
+   "order": 324,
+   "nondegenerate_elements": 19,
+   "klein_bases": 0,
+   "involutions": 18,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 10,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.0,
+      0.25,
+      0.75
+     ],
+     "viable": false,
+     "residual": 0.00480397348244394,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.75,
+       0.0,
+       0.25
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.596,
+       3.1415422019063755
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    },
+    {
+     "column": [
+      0.25,
+      0.25,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0005096632335000413,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.25,
+       0.25,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5837088625712866,
+       0.30628190982509446
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    },
+    {
+     "column": [
+      0.077985,
+      0.275451,
+      0.646564
+     ],
+     "viable": true,
+     "residual": 2.6810876908462923e-16,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.646564206929,
+       0.077985185627,
+       0.275450607444
+      ],
+      "angles": [
+       0.339039618393392,
+       0.021780685394639312,
+       0.596,
+       2.970892297307295
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.0,
+      0.25,
+      0.75
+     ],
+     "viable": false,
+     "residual": 0.0023666091125000154,
+     "fit": {
+      "row": 0,
+      "target": [
+       0.75,
+       0.25,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.5877,
+       5.969026041820607
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    },
+    {
+     "row": [
+      0.25,
+      0.25,
+      0.5
+     ],
+     "viable": false,
+     "residual": 1.4172136578578762e-07,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.25,
+       0.25,
+       0.5
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.5122882483539445,
+       6.282940607406254
+      ]
+     }
+    },
+    {
+     "row": [
+      0.077985,
+      0.275451,
+      0.646564
+     ],
+     "viable": false,
+     "residual": 0.004391056667716223,
+     "fit": {
+      "row": 0,
+      "target": [
+       0.646564206929,
+       0.275450607444,
+       0.077985185627
+      ],
+      "angles": [
+       0.3099039495062752,
+       0.02388,
+       0.5877,
+       5.969026041812546
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "C2x(((C3xC3xC3):C3):C2)",
+   "sources": [
+    {
+     "family": "Sp43",
+     "sub": "148",
+     "order": "324",
+     "struct": "C2x(((C3xC3xC3):C3):C2)",
+     "irr": "21",
+     "image_struct": "C2x(((C3xC3xC3):C3):C2)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "148",
+     "order": "324",
+     "struct": "C2x(((C3xC3xC3):C3):C2)",
+     "irr": "22",
+     "image_struct": "C2x(((C3xC3xC3):C3):C2)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "148",
+     "order": "324",
+     "struct": "C2x(((C3xC3xC3):C3):C2)",
+     "irr": "23",
+     "image_struct": "C2x(((C3xC3xC3):C3):C2)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "148",
+     "order": "324",
+     "struct": "C2x(((C3xC3xC3):C3):C2)",
+     "irr": "24",
+     "image_struct": "C2x(((C3xC3xC3):C3):C2)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "148",
+     "order": "324",
+     "struct": "C2x(((C3xC3xC3):C3):C2)",
+     "irr": "29",
+     "image_struct": "C2x(((C3xC3xC3):C3):C2)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "148",
+     "order": "324",
+     "struct": "C2x(((C3xC3xC3):C3):C2)",
+     "irr": "30",
+     "image_struct": "C2x(((C3xC3xC3):C3):C2)"
+    }
+   ],
+   "n_sources": 12
+  },
+  {
+   "order": 432,
+   "nondegenerate_elements": 31,
+   "klein_bases": 0,
+   "involutions": 18,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 7,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 0.0034347566092906554,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.591506350946,
+       0.158493649054,
+       0.25
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.5160535073641338,
+       4.128655084786147
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 8.675748137849677e-05,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.158493649054,
+       0.25,
+       0.591506350946
+      ],
+      "angles": [
+       0.32908610445445263,
+       0.0203,
+       0.596,
+       1.2417949687945165
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "C2x(((C3xC3):C3):Q8)",
+   "sources": [
+    {
+     "family": "Sp43",
+     "sub": "151",
+     "order": "432",
+     "struct": "C2x(((C3xC3):C3):Q8)",
+     "irr": "19",
+     "image_struct": "C2x(((C3xC3):C3):Q8)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "151",
+     "order": "432",
+     "struct": "C2x(((C3xC3):C3):Q8)",
+     "irr": "20",
+     "image_struct": "C2x(((C3xC3):C3):Q8)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "151",
+     "order": "432",
+     "struct": "C2x(((C3xC3):C3):Q8)",
+     "irr": "21",
+     "image_struct": "C2x(((C3xC3):C3):Q8)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "151",
+     "order": "432",
+     "struct": "C2x(((C3xC3):C3):Q8)",
+     "irr": "22",
+     "image_struct": "C2x(((C3xC3):C3):Q8)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "151",
+     "order": "432",
+     "struct": "C2x(((C3xC3):C3):Q8)",
+     "irr": "23",
+     "image_struct": "C2x(((C3xC3):C3):Q8)"
+    },
+    {
+     "family": "Sp43",
+     "sub": "151",
+     "order": "432",
+     "struct": "C2x(((C3xC3):C3):Q8)",
+     "irr": "24",
+     "image_struct": "C2x(((C3xC3):C3):Q8)"
+    }
+   ],
+   "n_sources": 8
+  },
+  {
+   "order": 648,
+   "nondegenerate_elements": 91,
+   "klein_bases": 0,
+   "involutions": 9,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 34,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.077985,
+      0.275451,
+      0.646564
+     ],
+     "viable": true,
+     "residual": 2.6810876908462923e-16,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.646564206929,
+       0.077985185627,
+       0.275450607444
+      ],
+      "angles": [
+       0.339039618393392,
+       0.021780685394639312,
+       0.596,
+       2.970892297307295
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    },
+    {
+     "column": [
+      0.25,
+      0.25,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0005096632335000413,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.25,
+       0.25,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5837088625712866,
+       0.30628190982509446
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.25,
+      0.75
+     ],
+     "viable": false,
+     "residual": 0.00480397348244394,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.75,
+       0.0,
+       0.25
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.596,
+       3.1415422019063755
+      ]
+     }
+    },
+    {
+     "column": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 0.0034347566092906554,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.591506350946,
+       0.158493649054,
+       0.25
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.5160535073641338,
+       4.128655084786147
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.077985,
+      0.275451,
+      0.646564
+     ],
+     "viable": false,
+     "residual": 0.004391056667716223,
+     "fit": {
+      "row": 0,
+      "target": [
+       0.646564206929,
+       0.275450607444,
+       0.077985185627
+      ],
+      "angles": [
+       0.3099039495062752,
+       0.02388,
+       0.5877,
+       5.969026041812546
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    },
+    {
+     "row": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 8.675748137849677e-05,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.158493649054,
+       0.25,
+       0.591506350946
+      ],
+      "angles": [
+       0.32908610445445263,
+       0.0203,
+       0.596,
+       1.2417949687945165
+      ]
+     }
+    },
+    {
+     "row": [
+      0.25,
+      0.25,
+      0.5
+     ],
+     "viable": false,
+     "residual": 1.4172136578578762e-07,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.25,
+       0.25,
+       0.5
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.5122882483539445,
+       6.282940607406254
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.25,
+      0.75
+     ],
+     "viable": false,
+     "residual": 0.0023666091125000154,
+     "fit": {
+      "row": 0,
+      "target": [
+       0.75,
+       0.25,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.5877,
+       5.969026041820607
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "((C3xC3):C3):SL(2,3)",
+   "sources": [
+    {
+     "family": "WE6",
+     "sub": "339",
+     "order": "648",
+     "struct": "((C3xC3):C3):SL(2,3)",
+     "irr": "8",
+     "image_struct": "((C3xC3):C3):SL(2,3)"
+    },
+    {
+     "family": "WE6",
+     "sub": "339",
+     "order": "648",
+     "struct": "((C3xC3):C3):SL(2,3)",
+     "irr": "9",
+     "image_struct": "((C3xC3):C3):SL(2,3)"
+    },
+    {
+     "family": "WE6",
+     "sub": "339",
+     "order": "648",
+     "struct": "((C3xC3):C3):SL(2,3)",
+     "irr": "10",
+     "image_struct": "((C3xC3):C3):SL(2,3)"
+    },
+    {
+     "family": "WE6",
+     "sub": "339",
+     "order": "648",
+     "struct": "((C3xC3):C3):SL(2,3)",
+     "irr": "11",
+     "image_struct": "((C3xC3):C3):SL(2,3)"
+    },
+    {
+     "family": "WE6",
+     "sub": "339",
+     "order": "648",
+     "struct": "((C3xC3):C3):SL(2,3)",
+     "irr": "12",
+     "image_struct": "((C3xC3):C3):SL(2,3)"
+    },
+    {
+     "family": "WE6",
+     "sub": "339",
+     "order": "648",
+     "struct": "((C3xC3):C3):SL(2,3)",
+     "irr": "13",
+     "image_struct": "((C3xC3):C3):SL(2,3)"
+    }
+   ],
+   "n_sources": 18
+  },
+  {
+   "order": 1296,
+   "nondegenerate_elements": 91,
+   "klein_bases": 0,
+   "involutions": 18,
+   "majorana_full_patterns": 0,
+   "dirac_full_patterns": 34,
+   "full_viable": [],
+   "columns": [
+    {
+     "column": [
+      0.25,
+      0.25,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0005096632335000413,
+     "fit": {
+      "column": 1,
+      "target": [
+       0.25,
+       0.25,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5837088625712866,
+       0.30628190982509446
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.25,
+      0.75
+     ],
+     "viable": false,
+     "residual": 0.00480397348244394,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.75,
+       0.0,
+       0.25
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.596,
+       3.1415422019063755
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.12590434471007977,
+     "fit": {
+      "column": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43,
+       1.8642190369198424
+      ]
+     }
+    },
+    {
+     "column": [
+      0.077985,
+      0.275451,
+      0.646564
+     ],
+     "viable": true,
+     "residual": 2.6810876908462923e-16,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.646564206929,
+       0.077985185627,
+       0.275450607444
+      ],
+      "angles": [
+       0.339039618393392,
+       0.021780685394639312,
+       0.596,
+       2.970892297307295
+      ]
+     }
+    },
+    {
+     "column": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 0.0034347566092906554,
+     "fit": {
+      "column": 0,
+      "target": [
+       0.591506350946,
+       0.158493649054,
+       0.25
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.5160535073641338,
+       4.128655084786147
+      ]
+     }
+    },
+    {
+     "column": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.0006181350000000484,
+     "fit": {
+      "column": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.34149999999999997,
+       0.0203,
+       0.4999999949130484,
+       5.969026041795384
+      ]
+     }
+    }
+   ],
+   "rows": [
+    {
+     "row": [
+      0.25,
+      0.25,
+      0.5
+     ],
+     "viable": false,
+     "residual": 1.4172136578578762e-07,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.25,
+       0.25,
+       0.5
+      ],
+      "angles": [
+       0.345,
+       0.02388,
+       0.5122882483539445,
+       6.282940607406254
+      ]
+     }
+    },
+    {
+     "row": [
+      0.077985,
+      0.275451,
+      0.646564
+     ],
+     "viable": false,
+     "residual": 0.004391056667716223,
+     "fit": {
+      "row": 0,
+      "target": [
+       0.646564206929,
+       0.275450607444,
+       0.077985185627
+      ],
+      "angles": [
+       0.3099039495062752,
+       0.02388,
+       0.5877,
+       5.969026041812546
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "viable": false,
+     "residual": 0.15693410911250014,
+     "fit": {
+      "row": 0,
+      "target": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.43829999999999997,
+       0.3141592653589793
+      ]
+     }
+    },
+    {
+     "row": [
+      0.158494,
+      0.25,
+      0.591506
+     ],
+     "viable": false,
+     "residual": 8.675748137849677e-05,
+     "fit": {
+      "row": 1,
+      "target": [
+       0.158493649054,
+       0.25,
+       0.591506350946
+      ],
+      "angles": [
+       0.32908610445445263,
+       0.0203,
+       0.596,
+       1.2417949687945165
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.25,
+      0.75
+     ],
+     "viable": false,
+     "residual": 0.0023666091125000154,
+     "fit": {
+      "row": 0,
+      "target": [
+       0.75,
+       0.25,
+       0.0
+      ],
+      "angles": [
+       0.275,
+       0.0203,
+       0.5877,
+       5.969026041820607
+      ]
+     }
+    },
+    {
+     "row": [
+      0.0,
+      0.5,
+      0.5
+     ],
+     "viable": false,
+     "residual": 0.01019963079787427,
+     "fit": {
+      "row": 2,
+      "target": [
+       0.0,
+       0.5,
+       0.5
+      ],
+      "angles": [
+       0.275,
+       0.02388,
+       0.5097381925053438,
+       6.283185307179586
+      ]
+     }
+    }
+   ],
+   "cabibbo_patterns": [],
+   "cabibbo_any": false,
+   "legacy_pattern_found": false,
+   "image_struct": "C2x(((C3xC3):C3):SL(2,3))",
+   "sources": [
+    {
+     "family": "Sp43",
+     "sub": "158",
+     "order": "1296",
+     "struct": "C2x(((C3xC3):C3):SL(2,3))",
+     "irr": "21",
+     "image_struct": "C2x(((C3xC3):C3):SL(2,3))"
+    },
+    {
+     "family": "Sp43",
+     "sub": "158",
+     "order": "1296",
+     "struct": "C2x(((C3xC3):C3):SL(2,3))",
+     "irr": "22",
+     "image_struct": "C2x(((C3xC3):C3):SL(2,3))"
+    },
+    {
+     "family": "Sp43",
+     "sub": "158",
+     "order": "1296",
+     "struct": "C2x(((C3xC3):C3):SL(2,3))",
+     "irr": "23",
+     "image_struct": "C2x(((C3xC3):C3):SL(2,3))"
+    },
+    {
+     "family": "Sp43",
+     "sub": "158",
+     "order": "1296",
+     "struct": "C2x(((C3xC3):C3):SL(2,3))",
+     "irr": "24",
+     "image_struct": "C2x(((C3xC3):C3):SL(2,3))"
+    },
+    {
+     "family": "Sp43",
+     "sub": "158",
+     "order": "1296",
+     "struct": "C2x(((C3xC3):C3):SL(2,3))",
+     "irr": "25",
+     "image_struct": "C2x(((C3xC3):C3):SL(2,3))"
+    },
+    {
+     "family": "Sp43",
+     "sub": "158",
+     "order": "1296",
+     "struct": "C2x(((C3xC3):C3):SL(2,3))",
+     "irr": "26",
+     "image_struct": "C2x(((C3xC3):C3):SL(2,3))"
+    }
+   ],
+   "n_sources": 6
+  }
+ ],
+ "any_full_viable": false,
+ "viable_columns": [
+  [
+   0.077985,
+   0.275451,
+   0.646564
+  ],
+  [
+   0.095492,
+   0.25,
+   0.654508
+  ],
+  [
+   0.166667,
+   0.166667,
+   0.666667
+  ],
+  [
+   0.276393,
+   0.361803,
+   0.361803
+  ],
+  [
+   0.333333,
+   0.333333,
+   0.333333
+  ]
+ ],
+ "viable_rows": [
+  [
+   0.127322,
+   0.436339,
+   0.436339
+  ]
+ ],
+ "any_cabibbo": false,
+ "legacy_numerology_realised": false,
+ "column_predictions": [
+  {
+   "column": [
+    0.077985,
+    0.275451,
+    0.646564
+   ],
+   "index": 1,
+   "assignment": {
+    "e": 0.646564,
+    "mu": 0.077985,
+    "tau": 0.275451
+   },
+   "sin2_th12": [
+    0.33761832561570293,
+    0.34003878738389304
+   ],
+   "cos_delta": [
+    -1.0,
+    -0.9462266043987146
+   ]
+  },
+  {
+   "column": [
+    0.095492,
+    0.25,
+    0.654508
+   ],
+   "index": 1,
+   "assignment": {
+    "e": 0.654508,
+    "mu": 0.095492,
+    "tau": 0.25
+   },
+   "sin2_th12": [
+    0.32947998196942996,
+    0.33193018270899255
+   ],
+   "cos_delta": [
+    -1.0,
+    -0.6609845046837974
+   ]
+  },
+  {
+   "column": [
+    0.095492,
+    0.25,
+    0.654508
+   ],
+   "index": 1,
+   "assignment": {
+    "e": 0.654508,
+    "mu": 0.25,
+    "tau": 0.095492
+   },
+   "sin2_th12": [
+    0.32947998196942996,
+    0.33193018270899255
+   ],
+   "cos_delta": [
+    0.7688418320734595,
+    1.0
+   ]
+  },
+  {
+   "column": [
+    0.166667,
+    0.166667,
+    0.666667
+   ],
+   "index": 1,
+   "assignment": {
+    "e": 0.666667,
+    "mu": 0.166667,
+    "tau": 0.166667
+   },
+   "sin2_th12": [
+    0.31702352169815184,
+    0.31951924058385217
+   ],
+   "cos_delta": [
+    -0.32556815445715664,
+    0.45009844103743507
+   ]
+  },
+  {
+   "column": [
+    0.276393,
+    0.361803,
+    0.361803
+   ],
+   "index": 2,
+   "assignment": {
+    "e": 0.276393,
+    "mu": 0.361803,
+    "tau": 0.361803
+   },
+   "sin2_th12": [
+    0.2821200367459426,
+    0.28315473507355654
+   ],
+   "cos_delta": [
+    -1.0,
+    0.785316930880745
+   ]
+  },
+  {
+   "column": [
+    0.333333,
+    0.333333,
+    0.333333
+   ],
+   "index": 2,
+   "assignment": {
+    "e": 0.333333,
+    "mu": 0.333333,
+    "tau": 0.333333
+   },
+   "sin2_th12": [
+    0.3402398693477595,
+    0.34148772691882145
+   ],
+   "cos_delta": [
+    -0.9462266043987146,
+    0.6835923020228714
+   ]
+  }
+ ]
+}

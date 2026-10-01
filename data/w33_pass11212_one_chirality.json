@@ -1,0 +1,930 @@
+{
+ "chi_equals_54Q": true,
+ "imag_equals_Q": true,
+ "orbit_sizes": [
+  1,
+  36,
+  96,
+  256,
+  256,
+  768,
+  864,
+  2304,
+  2304,
+  2304,
+  3456,
+  4608,
+  6912,
+  6912,
+  6912,
+  6912,
+  6912,
+  6912,
+  10368,
+  41472
+ ],
+ "orbitals": 20,
+ "pair_256": [
+  {
+   "Q": -1,
+   "chi": -54,
+   "imag_units_i_sqrt3_over_243": -1.0,
+   "members": 256,
+   "orbital": 6,
+   "real_times_729": -0.0
+  },
+  {
+   "Q": 1,
+   "chi": 54,
+   "imag_units_i_sqrt3_over_243": 1.0,
+   "members": 256,
+   "orbital": 7,
+   "real_times_729": 0.0
+  }
+ ],
+ "pair_256_members_checked": 512,
+ "pass_id": 11212,
+ "pattern_6912_by_member": {
+  "10": {
+   "chi": [
+    -18
+   ],
+   "imag_values_units_i_sqrt3_over_729": {
+    "0.0": 42,
+    "1.0": 22
+   },
+   "members": 64,
+   "tau_fixed": false
+  },
+  "12": {
+   "chi": [
+    0
+   ],
+   "imag_values_units_i_sqrt3_over_729": {
+    "-1.0": 13,
+    "0.0": 42,
+    "1.0": 9
+   },
+   "members": 64,
+   "tau_fixed": true
+  },
+  "16": {
+   "chi": [
+    0
+   ],
+   "imag_values_units_i_sqrt3_over_729": {
+    "-1.0": 22,
+    "0.0": 24,
+    "1.0": 18
+   },
+   "members": 64,
+   "tau_fixed": true
+  },
+  "17": {
+   "chi": [
+    0
+   ],
+   "imag_values_units_i_sqrt3_over_729": {
+    "-1.0": 34,
+    "1.0": 30
+   },
+   "members": 64,
+   "tau_fixed": true
+  },
+  "18": {
+   "chi": [
+    0
+   ],
+   "imag_values_units_i_sqrt3_over_729": {
+    "0.0": 64
+   },
+   "members": 64,
+   "tau_fixed": true
+  },
+  "9": {
+   "chi": [
+    18
+   ],
+   "imag_values_units_i_sqrt3_over_729": {
+    "-1.0": 14,
+    "0.0": 50
+   },
+   "members": 64,
+   "tau_fixed": false
+  }
+ },
+ "pattern_6912_constant_on_orbitals": false,
+ "pattern_6912_nonzero_on_achiral_orbital": true,
+ "representatives": {
+  "10": {
+   "B": [
+    [
+     0,
+     0,
+     0,
+     2,
+     0,
+     2
+    ],
+    [
+     0,
+     2,
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     2,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     1,
+     2,
+     2,
+     2
+    ]
+   ],
+   "size": 6912,
+   "tau_image": 9
+  },
+  "12": {
+   "B": [
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     2,
+     1,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0,
+     2,
+     0,
+     1
+    ],
+    [
+     0,
+     2,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     1,
+     1,
+     2,
+     1
+    ]
+   ],
+   "size": 6912,
+   "tau_image": 12
+  },
+  "16": {
+   "B": [
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     2,
+     1,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     1,
+     0,
+     2,
+     2
+    ],
+    [
+     0,
+     2,
+     0,
+     2,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     0,
+     1,
+     0,
+     1
+    ]
+   ],
+   "size": 6912,
+   "tau_image": 16
+  },
+  "17": {
+   "B": [
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     1,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     2,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     1,
+     0,
+     2,
+     1
+    ],
+    [
+     0,
+     1,
+     0,
+     1,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     2,
+     1,
+     1,
+     0
+    ]
+   ],
+   "size": 6912,
+   "tau_image": 17
+  },
+  "18": {
+   "B": [
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     1,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     1,
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     2,
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "size": 6912,
+   "tau_image": 18
+  },
+  "6": {
+   "B": [
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     2
+    ],
+    [
+     0,
+     2,
+     0,
+     2,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     2,
+     0,
+     0
+    ],
+    [
+     0,
+     2,
+     1,
+     0,
+     0,
+     2
+    ],
+    [
+     0,
+     2,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     2,
+     0,
+     2
+    ]
+   ],
+   "size": 256,
+   "tau_image": 7
+  },
+  "7": {
+   "B": [
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     2
+    ],
+    [
+     0,
+     2,
+     0,
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     2,
+     0,
+     0
+    ],
+    [
+     0,
+     2,
+     1,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     2,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     2,
+     0,
+     2
+    ]
+   ],
+   "size": 256,
+   "tau_image": 6
+  },
+  "9": {
+   "B": [
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     2
+    ],
+    [
+     0,
+     2,
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     2,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     1,
+     1,
+     1,
+     2
+    ]
+   ],
+   "size": 6912,
+   "tau_image": 10
+  }
+ },
+ "seconds": 2759.3,
+ "tagged": [
+  {
+   "CHIRAL": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "PAT_6912": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "members": 1,
+   "orbital": 0,
+   "size": 1,
+   "tau_fixed": true
+  },
+  {
+   "CHIRAL": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "PAT_6912": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "members": 4,
+   "orbital": 1,
+   "size": 96,
+   "tau_fixed": true
+  },
+  {
+   "CHIRAL": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "PAT_6912": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "members": 4,
+   "orbital": 2,
+   "size": 36,
+   "tau_fixed": true
+  },
+  {
+   "CHIRAL": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "PAT_6912": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "members": 4,
+   "orbital": 3,
+   "size": 768,
+   "tau_fixed": true
+  },
+  {
+   "CHIRAL": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "PAT_6912": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "members": 4,
+   "orbital": 4,
+   "size": 4608,
+   "tau_fixed": true
+  },
+  {
+   "CHIRAL": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "PAT_6912": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "members": 4,
+   "orbital": 5,
+   "size": 2304,
+   "tau_fixed": true
+  },
+  {
+   "CHIRAL": {
+    "chiral": true,
+    "constant": true,
+    "imaginary_entries": 12
+   },
+   "PAT_6912": {
+    "chiral": true,
+    "constant": true,
+    "imaginary_entries": 12
+   },
+   "members": 4,
+   "orbital": 6,
+   "size": 256,
+   "tau_fixed": false
+  },
+  {
+   "CHIRAL": {
+    "chiral": true,
+    "constant": true,
+    "imaginary_entries": 12
+   },
+   "PAT_6912": {
+    "chiral": true,
+    "constant": true,
+    "imaginary_entries": 12
+   },
+   "members": 4,
+   "orbital": 7,
+   "size": 256,
+   "tau_fixed": false
+  },
+  {
+   "CHIRAL": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "PAT_6912": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "members": 4,
+   "orbital": 8,
+   "size": 2304,
+   "tau_fixed": true
+  },
+  {
+   "CHIRAL": {
+    "chiral": true,
+    "constant": true,
+    "imaginary_entries": 8
+   },
+   "PAT_6912": {
+    "chiral": true,
+    "constant": true,
+    "imaginary_entries": 8
+   },
+   "members": 4,
+   "orbital": 9,
+   "size": 6912,
+   "tau_fixed": false
+  },
+  {
+   "CHIRAL": {
+    "chiral": true,
+    "constant": true,
+    "imaginary_entries": 8
+   },
+   "PAT_6912": {
+    "chiral": true,
+    "constant": true,
+    "imaginary_entries": 8
+   },
+   "members": 4,
+   "orbital": 10,
+   "size": 6912,
+   "tau_fixed": false
+  },
+  {
+   "CHIRAL": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "PAT_6912": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "members": 4,
+   "orbital": 11,
+   "size": 2304,
+   "tau_fixed": true
+  },
+  {
+   "CHIRAL": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 20
+   },
+   "PAT_6912": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 20
+   },
+   "members": 4,
+   "orbital": 12,
+   "size": 6912,
+   "tau_fixed": true
+  },
+  {
+   "CHIRAL": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "PAT_6912": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "members": 4,
+   "orbital": 13,
+   "size": 864,
+   "tau_fixed": true
+  },
+  {
+   "CHIRAL": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "PAT_6912": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "members": 4,
+   "orbital": 14,
+   "size": 10368,
+   "tau_fixed": true
+  },
+  {
+   "CHIRAL": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "PAT_6912": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "members": 4,
+   "orbital": 15,
+   "size": 41472,
+   "tau_fixed": true
+  },
+  {
+   "CHIRAL": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 16
+   },
+   "PAT_6912": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 16
+   },
+   "members": 4,
+   "orbital": 16,
+   "size": 6912,
+   "tau_fixed": true
+  },
+  {
+   "CHIRAL": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 36
+   },
+   "PAT_6912": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 36
+   },
+   "members": 4,
+   "orbital": 17,
+   "size": 6912,
+   "tau_fixed": true
+  },
+  {
+   "CHIRAL": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "PAT_6912": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "members": 4,
+   "orbital": 18,
+   "size": 6912,
+   "tau_fixed": true
+  },
+  {
+   "CHIRAL": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "PAT_6912": {
+    "chiral": false,
+    "constant": true,
+    "imaginary_entries": 0
+   },
+   "members": 4,
+   "orbital": 19,
+   "size": 3456,
+   "tau_fixed": true
+  }
+ ],
+ "tagged_both_classify": 20,
+ "tagged_chiral_iff_tau_swapped": {
+  "CHIRAL": true,
+  "PAT_6912": true
+ },
+ "tagged_chiral_on": {
+  "CHIRAL": [
+   256,
+   256,
+   6912,
+   6912
+  ],
+  "PAT_6912": [
+   256,
+   256,
+   6912,
+   6912
+  ]
+ },
+ "tagged_classifies": {
+  "CHIRAL": 20,
+  "PAT_6912": 20
+ },
+ "tagged_constant_on_orbitals": true,
+ "tagged_separates_pairs": {
+  "CHIRAL": {
+   "256:6-7": {
+    "separated": true
+   },
+   "6912:9-10": {
+    "separated": true
+   }
+  },
+  "PAT_6912": {
+   "256:6-7": {
+    "separated": true
+   },
+   "6912:9-10": {
+    "separated": true
+   }
+  }
+ },
+ "tau_swapped_equals_reversal": true,
+ "tau_swapped_pairs": [
+  [
+   256,
+   6,
+   7
+  ],
+  [
+   6912,
+   9,
+   10
+  ]
+ ]
+}

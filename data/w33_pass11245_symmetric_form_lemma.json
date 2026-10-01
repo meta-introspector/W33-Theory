@@ -1,0 +1,122 @@
+{
+ "pass_id": 11245,
+ "closed_forms": [
+  {
+   "k": 1,
+   "nondeg_symmetric": 1,
+   "nondeg_alternating": 0,
+   "ratio": "0",
+   "equals_2_to_minus_k": true
+  },
+  {
+   "k": 2,
+   "nondeg_symmetric": 4,
+   "nondeg_alternating": 1,
+   "ratio": "1/4",
+   "equals_2_to_minus_k": true
+  },
+  {
+   "k": 3,
+   "nondeg_symmetric": 28,
+   "nondeg_alternating": 0,
+   "ratio": "0",
+   "equals_2_to_minus_k": true
+  },
+  {
+   "k": 4,
+   "nondeg_symmetric": 448,
+   "nondeg_alternating": 28,
+   "ratio": "1/16",
+   "equals_2_to_minus_k": true
+  },
+  {
+   "k": 5,
+   "nondeg_symmetric": 13888,
+   "nondeg_alternating": 0,
+   "ratio": "0",
+   "equals_2_to_minus_k": true
+  },
+  {
+   "k": 6,
+   "nondeg_symmetric": 888832,
+   "nondeg_alternating": 13888,
+   "ratio": "1/64",
+   "equals_2_to_minus_k": true
+  },
+  {
+   "k": 7,
+   "nondeg_symmetric": 112881664,
+   "nondeg_alternating": 0,
+   "ratio": "0",
+   "equals_2_to_minus_k": true
+  },
+  {
+   "k": 8,
+   "nondeg_symmetric": 28897705984,
+   "nondeg_alternating": 112881664,
+   "ratio": "1/256",
+   "equals_2_to_minus_k": true
+  },
+  {
+   "k": 9,
+   "nondeg_symmetric": 14766727757824,
+   "nondeg_alternating": 0,
+   "ratio": "0",
+   "equals_2_to_minus_k": true
+  },
+  {
+   "k": 10,
+   "nondeg_symmetric": 15121129224011776,
+   "nondeg_alternating": 14766727757824,
+   "ratio": "1/1024",
+   "equals_2_to_minus_k": true
+  },
+  {
+   "k": 11,
+   "nondeg_symmetric": 30952951521552105472,
+   "nondeg_alternating": 0,
+   "ratio": "0",
+   "equals_2_to_minus_k": true
+  },
+  {
+   "k": 12,
+   "nondeg_symmetric": 126783289432277424013312,
+   "nondeg_alternating": 30952951521552105472,
+   "ratio": "1/4096",
+   "equals_2_to_minus_k": true
+  }
+ ],
+ "all_k_le_12": true,
+ "brute": [
+  {
+   "k": 1,
+   "symmetric": 1,
+   "alternating": 0,
+   "matches_formula": true
+  },
+  {
+   "k": 2,
+   "symmetric": 4,
+   "alternating": 1,
+   "matches_formula": true
+  },
+  {
+   "k": 3,
+   "symmetric": 28,
+   "alternating": 0,
+   "matches_formula": true
+  },
+  {
+   "k": 4,
+   "symmetric": 448,
+   "alternating": 28,
+   "matches_formula": true
+  },
+  {
+   "k": 5,
+   "symmetric": 13888,
+   "alternating": 0,
+   "matches_formula": true
+  }
+ ]
+}

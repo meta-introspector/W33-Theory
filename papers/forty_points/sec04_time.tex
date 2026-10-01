@@ -689,6 +689,32 @@ current spectra $\pm24\sqrt3\,i,\pm36\sqrt3\,i$ and $\pm72\sqrt3\,i,\pm324\sqrt3
 (\cert{w33\_pass11213\_cubic\_t\_violation.py}, \cert{w33\_pass11215\_protected\_qutrit\_limit.py},
 \cert{w33\_pass11216\_clock\_circulation.py})
 
+With two qutrits the entangler can do the mixing: $(T\otimes T)\,\mathrm{SUM}$ has no substrate time reversal, while a
+single cubic phase with an entangler always has one (exact search over the anti-unitary two-qutrit Clifford group).
+Exhaustively over all short words, phases on the control qutrit alone never break T, phases on the target alone need at
+least three cubic gates, and phases on both break it with two --- the cheapest T-violation uses both sectors, as CP
+violation uses both quark sectors (an analogy, not a derivation). Every
+minimal violating tick, on one qutrit or two, has the same best time-reversal fidelity $(1+2\cos\frac{2\pi}{9})/3$ ---
+the phase $2\pi/9$ of $\zeta_9^{x^3}$ --- and with at most two cubic gates no violation is milder; with three or more the
+fidelity spectrum widens in both directions (up to $0.939$ and down to $0.567$ on two qutrits), while violation becomes
+generic ($8\%$, $65\%$, $93\%$, $98\%$ of random two-qutrit words with $1$--$4$ cubic gates). The natural cubic Pauli invariant cannot
+detect it (it is identically real); time-reversal interferometry does. \tierC\
+(\cert{w33\_pass11227\_two\_qutrit\_cp\_mixing.py}, \cert{w33\_pass11228\_t\_witness.py},
+\cert{w33\_pass11235\_two\_qutrit\_t\_spectrum.py})
+
+The fidelity levels are algebraic: the minimal one has $F^2$ a root of $81x^3-81x^2+18x-1$, a second level lies in the
+same cubic field $\mathbb Q(\cos\frac{2\pi}{9})$, and the stronger level $0.712386$ reached by single-sector violators is
+the square of the minimal one to machine precision ($2\times10^{-16}$) --- two $2\pi/9$ quanta composed, with
+the exact proof and mechanism open. As a residual flavour symmetry the cubic gate
+adds no complete mixing pattern: its eigenbasis is a stabilizer basis, and even the non-stabilizer eigenbases of
+one-cubic-gate words give no PMNS or Cabibbo pattern, so the finite-symmetry no-go (\cert{w33\_pass11225\_flavour\_from\_symmetry.py}) extends to
+the magic layer at that depth; the cubic resource supplies CP-odd phases, not angles. On three qutrits, exact product
+reversals give fidelity at least 0.8440 for the embedded minimal violator and for its product with a cubic
+phase on the third qutrit, and certify the embedded one-gate tick reversible; random-plus-greedy search over three-qutrit
+Cliffords reaches only 0.46 on that product case, so it says nothing about genuinely three-qutrit circuits, and no
+exhaustive three-qutrit statement is made. \tierC\ (\cert{w33\_pass11236\_cubic\_flavour.py}, \cert{w33\_pass11237\_fidelity\_levels.py},
+\cert{w33\_pass11238\_one\_sector\_law.py}, \cert{w33\_pass11239\_three\_qutrit\_t.py})
+
 All of this is one law.
 
 \begin{result}{Theorem 4.8 (the intrinsic arrow for every number of qutrits) \hfill \tierT}
@@ -722,12 +748,57 @@ by counting into exact numbers: the arrow-free fraction is $P(c=n)$, which is $4
 four qutrits and $\approx0.00020$ for five. A random tick protects $0.7255\ldots$ qutrits on average (exactly $0.725322$,
 $0.725518$, $0.725535$ for $n=3,4,5$), so $E[A]=n-0.7255\ldots$ and the maximal arrow has probability about $0.45$. The
 same law holds class by class for qubits through $n=5$ and for $5$- and $7$-dits. It is a law of Clifford dynamics, not
-a special property of qutrits. The proof covers every odd local dimension; for qubits the law is a verified conjecture.
+a special property of qutrits. The proof above covers every odd local dimension; qubits need a separate argument.
 Among the time reversals, the $36$ reflections are also the only \emph{Kramers} ones: an anti-symplectic $\theta$ with
 $\theta^2=-1$ exists only for an even number of qutrits and is local only by exchanging them. Those with $\theta^2=+1$
 are complex conjugation in suitable subsystems. \tierT\,\tierC\ (\cert{w33\_pass11207\_arrow\_theorem.py},
 \cert{w33\_pass11207\_arrow\_by\_planes.py}, \cert{w33\_pass11208\_arrow\_universality.py},
 \cert{w33\_pass11210\_kramers\_time\_reversal.py})
+
+For qubits the diagonalisation step fails. In characteristic two, $q(x)=\omega(x,Sx)$ can vanish on every Lagrangian
+of that kind, as it does on the four-dimensional pieces $V(4)$ and $W(2)$. The law survives. A split in which every
+qubit meets its image exists exactly when some Lagrangian for $\omega$ and $\omega(\cdot,(S+S^{-1})\cdot)$ meets its
+image only in fixed vectors and either carries $q\ne0$ or is fixed pointwise. Every indecomposable piece has such a
+Lagrangian:
+\begin{itemize}
+\item an $\F_2[s]$-lattice, $s=t^2/(1+t)$, in the $t$-adic model of the unipotent blocks $V(2k)$ and
+  $W(k)$~\cite{Hesselink1980};
+\item a graph or a real form for the other pieces;
+\item for three small pieces, one found by search.
+\end{itemize}
+So $A(S)=n-c(S)$ for every number of qubits, with $c=m_1(1)/2+\chi_2\,m_2(1)+m_1(x^2+x+1)$, where $\chi_2$ is
+Hesselink's index at two (exact on all $320$ classes with $n\le5$). The unavoidable record is one bit, $k_BT\ln2$, per
+unprotected qubit per tick. A random qubit tick protects about $0.665$ of a qubit, fewer than a qutrit tick. The
+characteristic-two cycle index gives this exactly up to two identities that hold on every unipotent class of
+$\mathrm{Sp}(2m,2)$, $m\le6$:
+\begin{itemize}
+\item the Jordan types are weighted as in odd characteristic;
+\item a block pattern with an even number $m_2$ of size-two blocks has Hesselink index zero with probability $2^{-m_2}$.
+\end{itemize}
+They give $\lim E_n[c]=0.66516065\ldots$. The unitary part is $0.27261186563783750\ldots$. The means are not monotone,
+$E_7<E_6$. \tierC\ (\cert{w33\_pass11233\_qubit\_limit\_cycle\_index.py}, \cert{w33\_pass11244\_hesselink\_qubit\_limit.py})
+\tierT\,\tierC\ (\cert{w33\_pass11217\_qubit\_arrow\_law.py})
+
+The same law governs the continuum. Every step of the odd proof works over any field of characteristic $\neq2$, so
+$A(S)=n-c(S)$ holds for the real symplectic matrices of Gaussian (free bosonic) dynamics. There $A$ is the least
+number of quadrature channels through which the modes must leak into each other per tick, and $c$ counts the
+normal modes, elliptic and hyperbolic. Stable free dynamics, and even pure squeezing, has no intrinsic arrow: its
+normal modes are the subsystems it keeps to itself. The arrow appears only with complex instability, two channels
+for each loxodromic quartet, and with Jordan defects. It switches on exactly at a Krein collision of modes of
+opposite signature, which is Krein's stability theorem read as a statement about time. \tierT\,\tierC\
+(\cert{w33\_pass11219\_gaussian\_arrow.py})
+The Gaussian arrow is also an entanglement rate. On the Choi state of the evolution, made with squeezing $r$, each
+mode's entanglement with the rest grows as $2r$ nats per channel. So $A$ is half the least total operator-entanglement
+rate over all choices of modes. \tierC\ (\cert{w33\_pass11221\_gaussian\_choi\_entropy.py})
+
+Being maximally entangling is a property of a gate in a given factorisation; the arrow is what remains when the
+factorisation is chosen freely. Among two-qutrit gates that are perfect in the standard factorisation, $17/48$ have no
+arrow: they are products in another one. The geometry's own perfect tick $p$ is one of them. Exchanges carry arrows
+instead. The local gates with $A=2$ all swap the two qutrits, and of the three-qutrit ticks the largest arrow, $A=3$,
+belongs to the $\F_9$ gate, which cycles the qutrits where it acts locally. The perfect interacting tick has $A=2$:
+one qutrit stays dynamically protected. For qubits the mean number of protected qubits is now exact through six,
+$E_6[c]=0.665161$, tending to about $0.66517$. \tierC\ (\cert{w33\_pass11223\_named\_tick\_arrows.py},
+\cert{w33\_pass11220\_qubit\_mean\_protection.py})
 
 \begin{keyidea}
 Three layers of time, exactly separated: a finite present with a light cone ($27$

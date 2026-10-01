@@ -148,7 +148,6 @@ literal escape sequences (doubled-backslash input, literal backslash-n) from the
 6c1a93023, halting LaTeX at line 115 with "Missing $ inserted".  Rewritten as three ordinary
 \input lines; their three physical-FI inserts are now actually included and the paper compiles.
 
-<<<<<<< ours
 ### 2026-08-17 — Steiner carrier reconciliation (Passes 4870, 4874, 4941--4947)
 
 - Corrected the owner producers so replay emits the Pass4949 carrier theorem
@@ -189,7 +188,6 @@ literal escape sequences (doubled-backslash input, literal backslash-n) from the
   registered. Tightening to kill the noise also kills the signal, because prose does not use
   field names.
 - **Open**: alpha(W(3,9)) MILP running at 820 vertices (Hoffman 82) -- the third deficit point.
-=======
 - Fetched and reconciled the remote Passes 1330-1334 packet through GitKraken,
   reserved Pass 1335, and audited the modular algebra, selected cycles,
   AtlasRep execution, manuscript integration, README, and live site against
@@ -229,7 +227,6 @@ literal escape sequences (doubled-backslash input, literal backslash-n) from the
   explicitly widening both modulo-12 addition operands; also sized the formal
   kernel literals. Tool versions, SAT outcomes, and synthesis cell counts were
   captured directly in `hardware_logs/` during the session.
->>>>>>> theirs
 
 
 ## 2026-09-06 - Authenticated counter VM continuation
@@ -1120,3 +1117,69 @@ fraction = P(c = n)); "the twist as a discrete Bargmann phase" should cite 11209
 - Pass 11218 constructs an exact sparse rank-78 background for the signed E8/E6+A2 cubic. Its three-dimensional rational kernel is pairwise bracket-commuting, contains the background, and has complementary 78x78 principal determinant `2^76*3^24*5^2*7^2`.
 - Reeder-Levy-Yu-Gross Table 21, E8 row 3b identifies the rank-three theta group as G26 with invariant degrees 6,12,18. This is the little Weyl action on the Cartan slice, not the extended qutrit Clifford group ruled out by the prior G26 no-go.
 - Focused Pass 11218 pytest passes. Next target: factor the degree-39 slice Pfaffian and build the most general low-degree G26-invariant potential/Hessian without fitting measured parameters.
+
+### 2026-10-01 - Passes 11212, 11217, 11219 (Claude track; all on master)
+
+- **Integration (c8fe5fc3):** Theorem 4.8 (A = n - c), the Maslov/Bargmann paragraph, the Kramers paragraph and the
+  references went into papers/forty_points. Also added: ledger rows for 11207-11211, docs cards, workflows, and exact
+  arrow-free fractions for PASS11204 (n = 4, 5 from the 11208 census; the n = 4 sample is 1.5 sigma off). main.pdf is
+  rebuilt with xelatex.
+- **11212, one chirality:**
+  - the Maslov count chi = 54 Q on all 512 members of the 256 pair;
+  - 11201's 6912 pattern vanishes on most labellings and equals -sign(chi) on the rest, and takes both signs on achiral
+    orbitals (scope refinement of 11201);
+  - the Choi phase sorted by block type is label-free, chiral exactly on the four time-directed relations, and
+    separates all 20.
+  - Bug caught in the pass: the code matrix was first read as [input, output] instead of [output, input].
+- **11217, qubit arrow law (proof):**
+  - an exact characteristic-2 criterion (bi-Lagrangian with fixed radical and q != 0, or L = radical), additive over
+    orthogonal sums;
+  - F[s]-lattice constructions for V(2k) (k >= 3) and W(k) (k >= 4);
+  - graphs and real forms for the f != x+1 pieces; V(4), W(2), W(3) by search;
+  - the closed form c = m1/2 + chi2 m2 + m1(x^2+x+1) is exact on 320 classes (n <= 5);
+  - qubit E[c] is about 0.665 (exact for n <= 5).
+- **11219, Gaussian arrow law:**
+  - the odd proof is field-general, so the law holds on Sp(2n, R);
+  - A = minimal inter-mode coupling rank, = 2 x #loxodromic quartets in the semisimple case;
+  - stable and squeezing dynamics have A = 0;
+  - the arrow switches on exactly at opposite-signature Krein collisions.
+  - The vacuum-entanglement reading was tested and dropped (over-read).
+- Pitfall again: `pkill -f <pattern>` kills its own shell when the pattern appears in the command line. Use the
+  `[x]` bracket trick.
+- Open: exact qubit E[c] limit (Fulman + Hesselink); entropic and operator-entanglement version of the Gaussian law;
+  why 54 = chi/Q; LC classification of AME(10,3); RESULTS_INDEX regeneration on the Windows workstation.
+
+### 2026-10-01 (cont.) - Passes 11220-11226 (Claude track; all on master)
+
+- **11220.** Qubit E_n[c] is exact through n = 6 (GAP Sp(12,2), 477 classes), giving 0.665161, with an extrapolated
+  limit of 0.665166. The n = 6 brute-force cross-check was not completed.
+- **11221.** Gaussian arrow = ½ × the minimal operator-entanglement rate of the Choi state, at 2r nats per channel.
+- **11222.** 27 | χ, from the orbits of the relation's group (order 324). The factor 2 is not explained.
+- **11223.** 17/48 of perfect two-qutrit gates are arrow-free, and the perfect tick p is one of them. Exchanges carry
+  arrows. VKV has A = 2; the F9 gate has A = 3.
+- **11224.** AME(10,3) is Glynn's arc. No Hermitian self-dual GRS code exists. |Aut_LC| = 2880, acting as PGL(2,9).
+  One orbit of 79 888 260 016 373 760 gates. Grassl–Gulliver's code (cited via master's 11170) is therefore Glynn's.
+- **11225.** Lepton mixing from the finite symmetry alone is a NO-GO: no complete pattern and no Cabibbo pattern. Five
+  columns survive, with TM1 from the line stabiliser at 1σ.
+  - Bug caught: GAP Dixon representations are non-unitary. Images are now unitarised.
+- **11226.** Exact RT for networks of the perfect tick. Flat grids satisfy it too, so the sign of Λ is not selected.
+- **Paper.** Scorecard rows 11 (NO-GO) and 12 (HOSTED) added.
+- **Pitfalls.**
+  - pgrep/pkill -f matching their own shell, again. Use `ps | awk` on argv fields.
+  - Never give GAP `-o 24g` on a 15 GB container; it caused a worker restart.
+- **Open.**
+  - Non-F9-linear AME(10,3) states.
+  - The μ-term and neutrino masses (string track).
+  - Why χ/Q = 54 exactly (the factor 2).
+  - The exact qubit E[c] limit.
+
+## 2026-10-01 (Claude track) — Passes 11229–11249
+- μ: in Z6-I no available vacuum symmetry protects μ (0/6 695 116 vacua, exhaustive; R charges absent, 11247). In
+  Z6-II protection exists (104 models), but an anomaly theorem (11242: 812/812) plus a discrete check (11246: 0
+  escapes in 16 326) show it always leaves a colored state light. The 11232 "clean" vacuum was withdrawn (11240).
+- Flavour: TM1 = charged-lepton point X with neutrino chord X–Q on a W33 line (11243). cos δ = 0 at maximal θ23
+  (11230). A sequestered model selects TM1 iff ε(φ·χ)² < 0 (11248).
+- Qubit limit 0.66516065, conditional on two identities verified for m ≤ 6 (11244, 11245); 11220's extrapolation
+  corrected (11233).
+- AME(10,3): 138 new states, all Glynn (11229). Every state with a twisted 10-cycle symmetry is F9-linear (11249).
+- Dynamical area law is approximate only (11231).

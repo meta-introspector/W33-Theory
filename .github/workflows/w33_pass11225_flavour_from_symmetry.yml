@@ -1,0 +1,21 @@
+name: W33 Pass 11225 flavour from symmetry
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11225_*.py"
+      - "analysis/PASS11225_FLAVOUR_FROM_SYMMETRY.md"
+      - "data/w33_pass11225_*.json"
+      - "tests/test_w33_pass11225_flavour_from_symmetry.py"
+      - ".github/workflows/w33_pass11225_flavour_from_symmetry.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest networkx ortools python-sat
+      - run: python -m pytest -q tests/test_w33_pass11225_flavour_from_symmetry.py

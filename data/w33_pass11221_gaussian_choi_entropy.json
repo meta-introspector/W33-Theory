@@ -1,0 +1,605 @@
+{
+ "pass_id": 11221,
+ "cases": [
+  {
+   "e": 2,
+   "h": 0,
+   "l": 0,
+   "n": 2,
+   "A": 0,
+   "optimal_ranks": [
+    0,
+    0
+   ],
+   "optimal_slopes": [
+    0.0,
+    0.0
+   ],
+   "optimal_ok": true,
+   "optimal_total_over_2": 0.0,
+   "random_slopes": [
+    [
+     4.0,
+     4.0
+    ],
+    [
+     4.0,
+     4.0
+    ]
+   ],
+   "random_ok": true
+  },
+  {
+   "e": 2,
+   "h": 0,
+   "l": 0,
+   "n": 2,
+   "A": 0,
+   "optimal_ranks": [
+    0,
+    0
+   ],
+   "optimal_slopes": [
+    0.0,
+    0.0
+   ],
+   "optimal_ok": true,
+   "optimal_total_over_2": 0.0,
+   "random_slopes": [
+    [
+     4.0,
+     4.0
+    ],
+    [
+     4.0,
+     4.0
+    ]
+   ],
+   "random_ok": true
+  },
+  {
+   "e": 0,
+   "h": 2,
+   "l": 0,
+   "n": 2,
+   "A": 0,
+   "optimal_ranks": [
+    0,
+    0
+   ],
+   "optimal_slopes": [
+    0.0,
+    0.0
+   ],
+   "optimal_ok": true,
+   "optimal_total_over_2": 0.0,
+   "random_slopes": [
+    [
+     4.0,
+     4.0
+    ],
+    [
+     4.0,
+     4.0
+    ]
+   ],
+   "random_ok": true
+  },
+  {
+   "e": 0,
+   "h": 2,
+   "l": 0,
+   "n": 2,
+   "A": 0,
+   "optimal_ranks": [
+    0,
+    0
+   ],
+   "optimal_slopes": [
+    0.0,
+    0.0
+   ],
+   "optimal_ok": true,
+   "optimal_total_over_2": 0.0,
+   "random_slopes": [
+    [
+     4.0,
+     4.0
+    ],
+    [
+     4.0,
+     4.0
+    ]
+   ],
+   "random_ok": true
+  },
+  {
+   "e": 1,
+   "h": 1,
+   "l": 0,
+   "n": 2,
+   "A": 0,
+   "optimal_ranks": [
+    0,
+    0
+   ],
+   "optimal_slopes": [
+    0.0,
+    0.0
+   ],
+   "optimal_ok": true,
+   "optimal_total_over_2": 0.0,
+   "random_slopes": [
+    [
+     4.0,
+     4.0
+    ],
+    [
+     4.0,
+     4.0
+    ]
+   ],
+   "random_ok": true
+  },
+  {
+   "e": 1,
+   "h": 1,
+   "l": 0,
+   "n": 2,
+   "A": 0,
+   "optimal_ranks": [
+    0,
+    0
+   ],
+   "optimal_slopes": [
+    0.0,
+    -0.0
+   ],
+   "optimal_ok": true,
+   "optimal_total_over_2": 0.0,
+   "random_slopes": [
+    [
+     3.995,
+     3.995
+    ],
+    [
+     4.0,
+     4.0
+    ]
+   ],
+   "random_ok": true
+  },
+  {
+   "e": 0,
+   "h": 0,
+   "l": 1,
+   "n": 2,
+   "A": 2,
+   "optimal_ranks": [
+    1,
+    1
+   ],
+   "optimal_slopes": [
+    2.0,
+    2.0
+   ],
+   "optimal_ok": true,
+   "optimal_total_over_2": 2.0,
+   "random_slopes": [
+    [
+     4.0,
+     4.0
+    ],
+    [
+     4.0,
+     4.0
+    ]
+   ],
+   "random_ok": true
+  },
+  {
+   "e": 0,
+   "h": 0,
+   "l": 1,
+   "n": 2,
+   "A": 2,
+   "optimal_ranks": [
+    1,
+    1
+   ],
+   "optimal_slopes": [
+    2.0,
+    2.0
+   ],
+   "optimal_ok": true,
+   "optimal_total_over_2": 2.0,
+   "random_slopes": [
+    [
+     4.0,
+     4.0
+    ],
+    [
+     4.0,
+     4.0
+    ]
+   ],
+   "random_ok": true
+  },
+  {
+   "e": 1,
+   "h": 0,
+   "l": 1,
+   "n": 3,
+   "A": 2,
+   "optimal_ranks": [
+    0,
+    1,
+    1
+   ],
+   "optimal_slopes": [
+    0.0,
+    2.0,
+    2.0
+   ],
+   "optimal_ok": true,
+   "optimal_total_over_2": 2.0,
+   "random_slopes": [
+    [
+     4.0,
+     4.0,
+     4.0
+    ],
+    [
+     4.0,
+     4.0,
+     4.0
+    ]
+   ],
+   "random_ok": true
+  },
+  {
+   "e": 1,
+   "h": 0,
+   "l": 1,
+   "n": 3,
+   "A": 2,
+   "optimal_ranks": [
+    0,
+    1,
+    1
+   ],
+   "optimal_slopes": [
+    -0.0,
+    2.0,
+    2.0
+   ],
+   "optimal_ok": true,
+   "optimal_total_over_2": 2.0,
+   "random_slopes": [
+    [
+     4.0,
+     4.0,
+     4.0
+    ],
+    [
+     4.0,
+     4.0,
+     4.0
+    ]
+   ],
+   "random_ok": true
+  },
+  {
+   "e": 0,
+   "h": 1,
+   "l": 1,
+   "n": 3,
+   "A": 2,
+   "optimal_ranks": [
+    0,
+    1,
+    1
+   ],
+   "optimal_slopes": [
+    0.0,
+    2.0,
+    2.0
+   ],
+   "optimal_ok": true,
+   "optimal_total_over_2": 2.0,
+   "random_slopes": [
+    [
+     4.0,
+     4.0,
+     4.0
+    ],
+    [
+     4.0,
+     4.0,
+     4.0
+    ]
+   ],
+   "random_ok": true
+  },
+  {
+   "e": 0,
+   "h": 1,
+   "l": 1,
+   "n": 3,
+   "A": 2,
+   "optimal_ranks": [
+    0,
+    1,
+    1
+   ],
+   "optimal_slopes": [
+    0.0,
+    2.0,
+    2.0
+   ],
+   "optimal_ok": true,
+   "optimal_total_over_2": 2.0,
+   "random_slopes": [
+    [
+     4.0,
+     4.0,
+     4.0
+    ],
+    [
+     4.0,
+     4.0,
+     4.0
+    ]
+   ],
+   "random_ok": true
+  },
+  {
+   "e": 0,
+   "h": 0,
+   "l": 2,
+   "n": 4,
+   "A": 4,
+   "optimal_ranks": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "optimal_slopes": [
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "optimal_ok": true,
+   "optimal_total_over_2": 4.0,
+   "random_slopes": [
+    [
+     4.0,
+     4.0,
+     4.0,
+     4.0
+    ],
+    [
+     4.0,
+     4.0,
+     4.0,
+     4.0
+    ]
+   ],
+   "random_ok": true
+  },
+  {
+   "e": 0,
+   "h": 0,
+   "l": 2,
+   "n": 4,
+   "A": 4,
+   "optimal_ranks": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "optimal_slopes": [
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "optimal_ok": true,
+   "optimal_total_over_2": 4.0,
+   "random_slopes": [
+    [
+     4.0,
+     4.0,
+     4.0,
+     4.0
+    ],
+    [
+     4.0,
+     4.0,
+     4.0,
+     4.0
+    ]
+   ],
+   "random_ok": true
+  },
+  {
+   "e": 1,
+   "h": 1,
+   "l": 1,
+   "n": 4,
+   "A": 2,
+   "optimal_ranks": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "optimal_slopes": [
+    0.0,
+    0.0,
+    2.0,
+    2.0
+   ],
+   "optimal_ok": true,
+   "optimal_total_over_2": 2.0,
+   "random_slopes": [
+    [
+     4.0,
+     4.0,
+     4.0,
+     4.0
+    ],
+    [
+     4.0,
+     4.0,
+     4.0,
+     4.0
+    ]
+   ],
+   "random_ok": true
+  },
+  {
+   "e": 1,
+   "h": 1,
+   "l": 1,
+   "n": 4,
+   "A": 2,
+   "optimal_ranks": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "optimal_slopes": [
+    -0.0,
+    0.0,
+    2.0,
+    2.0
+   ],
+   "optimal_ok": true,
+   "optimal_total_over_2": 2.0,
+   "random_slopes": [
+    [
+     4.0,
+     4.0,
+     4.0,
+     4.0
+    ],
+    [
+     4.0,
+     4.0,
+     4.0,
+     4.0
+    ]
+   ],
+   "random_ok": true
+  },
+  {
+   "e": 0,
+   "h": 0,
+   "l": 3,
+   "n": 6,
+   "A": 6,
+   "optimal_ranks": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "optimal_slopes": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "optimal_ok": true,
+   "optimal_total_over_2": 6.0,
+   "random_slopes": [
+    [
+     4.0,
+     4.0,
+     4.0,
+     4.0,
+     4.0,
+     4.0
+    ],
+    [
+     4.0,
+     4.0,
+     4.0,
+     4.0,
+     4.0,
+     4.0
+    ]
+   ],
+   "random_ok": true
+  },
+  {
+   "e": 0,
+   "h": 0,
+   "l": 3,
+   "n": 6,
+   "A": 6,
+   "optimal_ranks": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "optimal_slopes": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "optimal_ok": true,
+   "optimal_total_over_2": 6.0,
+   "random_slopes": [
+    [
+     4.0,
+     4.0,
+     4.0,
+     4.0,
+     4.0,
+     4.0
+    ],
+    [
+     4.0,
+     4.0,
+     4.0,
+     4.0,
+     4.0,
+     4.0
+    ]
+   ],
+   "random_ok": true
+  }
+ ],
+ "nonsemisimple": [
+  {
+   "case": "elliptic Jordan pair (Krein collision)",
+   "ranks": [
+    1,
+    1
+   ],
+   "slopes": [
+    2.0,
+    2.0
+   ],
+   "ok": true
+  }
+ ],
+ "slope_equals_twice_rank": true,
+ "optimal_half_total_equals_A": true
+}

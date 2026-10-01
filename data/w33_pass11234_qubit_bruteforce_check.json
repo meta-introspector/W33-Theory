@@ -1,0 +1,28 @@
+{
+ "pass_id": 11234,
+ "n2": {
+  "order": 720,
+  "c_distribution": {
+   "0": 459,
+   "2": 261
+  },
+  "E_c": "29/40",
+  "matches_pass11220": true,
+  "factorisations": 10,
+  "arrow_law_checked": 720,
+  "arrow_law_violations": 0
+ },
+ "n3": {
+  "order": 1451520,
+  "c_distribution": {
+   "0": 686160,
+   "1": 663579,
+   "3": 101781
+  },
+  "E_c": "5981/8960",
+  "matches_pass11220": true,
+  "factorisations": 1120,
+  "arrow_law_checked": 1500,
+  "arrow_law_violations": 0
+ }
+}

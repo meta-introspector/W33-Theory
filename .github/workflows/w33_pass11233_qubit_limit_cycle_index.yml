@@ -1,0 +1,21 @@
+name: W33 Pass 11233 qubit limit cycle index
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11233_*.py"
+      - "analysis/PASS11233_*.md"
+      - "data/w33_pass11233_*.json"
+      - "tests/test_w33_pass11233_qubit_limit_cycle_index.py"
+      - ".github/workflows/w33_pass11233_qubit_limit_cycle_index.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest networkx mpmath 
+      - run: python -m pytest -q tests/test_w33_pass11233_qubit_limit_cycle_index.py

@@ -1,0 +1,21 @@
+name: W33 Pass 11220 qubit mean protection
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11220_*.py"
+      - "analysis/PASS11220_QUBIT_MEAN_PROTECTION.md"
+      - "data/w33_pass11220_*.json"
+      - "tests/test_w33_pass11220_qubit_mean_protection.py"
+      - ".github/workflows/w33_pass11220_qubit_mean_protection.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest networkx ortools python-sat
+      - run: python -m pytest -q tests/test_w33_pass11220_qubit_mean_protection.py

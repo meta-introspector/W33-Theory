@@ -1,0 +1,21 @@
+name: W33 Pass 11217 qubit arrow law
+
+on:
+  push:
+    paths:
+      - "analysis/w33_pass11217_*.py"
+      - "analysis/PASS11217_QUBIT_ARROW_LAW.md"
+      - "data/w33_pass11217_*.json"
+      - "tests/test_w33_pass11217_qubit_arrow_law.py"
+      - ".github/workflows/w33_pass11217_qubit_arrow_law.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy sympy pytest networkx ortools python-sat
+      - run: python -m pytest -q tests/test_w33_pass11217_qubit_arrow_law.py
