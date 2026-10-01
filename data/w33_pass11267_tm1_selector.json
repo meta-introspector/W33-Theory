@@ -1,0 +1,223 @@
+{
+ "pass_id": 11267,
+ "phi_dot_chi_on_vacuum_manifold": {
+  "TM1": [
+   -4,
+   4
+  ],
+  "theta13 = 0 column": [
+   0
+  ]
+ },
+ "kappa_scan": [
+  {
+   "kappa": -0.02,
+   "eps": 0.0,
+   "symmetric_class": "TM1",
+   "phi_tilt_deg": 1.2997766535670716,
+   "chi_tilt_deg": 0.5005738219739108,
+   "phi_dot_chi_sign": 1
+  },
+  {
+   "kappa": -0.02,
+   "eps": 0.0005,
+   "symmetric_class": "TM1",
+   "phi_tilt_deg": 1.2588808649894132,
+   "chi_tilt_deg": 0.48527799469032773,
+   "phi_dot_chi_sign": 1
+  },
+  {
+   "kappa": -0.005,
+   "eps": 0.0,
+   "symmetric_class": "TM1",
+   "phi_tilt_deg": 0.3325051089283599,
+   "chi_tilt_deg": 0.130775385060009,
+   "phi_dot_chi_sign": 1
+  },
+  {
+   "kappa": -0.005,
+   "eps": 0.0005,
+   "symmetric_class": "TM1",
+   "phi_tilt_deg": 0.2906440728718954,
+   "chi_tilt_deg": 0.11440866994402477,
+   "phi_dot_chi_sign": 1
+  },
+  {
+   "kappa": -0.001,
+   "eps": 0.0,
+   "symmetric_class": "TM1",
+   "phi_tilt_deg": 0.06692662622760097,
+   "chi_tilt_deg": 0.026463755036621923,
+   "phi_dot_chi_sign": 1
+  },
+  {
+   "kappa": -0.001,
+   "eps": 0.0005,
+   "symmetric_class": "TM1",
+   "phi_tilt_deg": 0.02479195066227553,
+   "chi_tilt_deg": 0.009820890982540319,
+   "phi_dot_chi_sign": 1
+  },
+  {
+   "kappa": 0.001,
+   "eps": 0.0,
+   "symmetric_class": "TM1",
+   "phi_tilt_deg": 0.06692599711132693,
+   "chi_tilt_deg": 0.0264646053750895,
+   "phi_dot_chi_sign": -1
+  },
+  {
+   "kappa": 0.001,
+   "eps": 0.0005,
+   "symmetric_class": "TM1",
+   "phi_tilt_deg": 0.024793147788905196,
+   "chi_tilt_deg": 0.009830238770449843,
+   "phi_dot_chi_sign": -1
+  },
+  {
+   "kappa": 0.005,
+   "eps": 0.0,
+   "symmetric_class": "TM1",
+   "phi_tilt_deg": 0.33250345921847996,
+   "chi_tilt_deg": 0.13077506932556285,
+   "phi_dot_chi_sign": -1
+  },
+  {
+   "kappa": 0.005,
+   "eps": 0.0005,
+   "symmetric_class": "TM1",
+   "phi_tilt_deg": 0.29064363780293884,
+   "chi_tilt_deg": 0.11440996183206757,
+   "phi_dot_chi_sign": -1
+  },
+  {
+   "kappa": 0.02,
+   "eps": 0.0,
+   "symmetric_class": "TM1",
+   "phi_tilt_deg": 1.2997772494480866,
+   "chi_tilt_deg": 0.5005748243175085,
+   "phi_dot_chi_sign": -1
+  },
+  {
+   "kappa": 0.02,
+   "eps": 0.0005,
+   "symmetric_class": "TM1",
+   "phi_tilt_deg": 1.2588805564262453,
+   "chi_tilt_deg": 0.485278732177156,
+   "phi_dot_chi_sign": -1
+  }
+ ],
+ "kappa_selects_TM1_both_signs": true,
+ "kappa_beats_wrong_sign_eps_5e-4": true,
+ "tilt_deg_per_unit_kappa": {
+  "phi": 66.71358424207398,
+  "chi": 26.309612822206443
+ },
+ "vev_norms": [
+  0.8304550331615906,
+  0.9284768239715004
+ ],
+ "loop": {
+  "cos2_TM1": 0.6666666666666667,
+  "rows": [
+   {
+    "g": 0.1,
+    "Lambda_over_m": 10.0,
+    "statistics": "boson",
+    "dV_TM1_minus_theta13": -5.6859458708410915e-05,
+    "eps_eff": -0.00014345629213576984,
+    "selects": "TM1"
+   },
+   {
+    "g": 0.1,
+    "Lambda_over_m": 10.0,
+    "statistics": "fermion",
+    "dV_TM1_minus_theta13": 5.6859458708410915e-05,
+    "eps_eff": 0.00014345629213576984,
+    "selects": "theta13 = 0"
+   },
+   {
+    "g": 0.1,
+    "Lambda_over_m": 100.0,
+    "statistics": "boson",
+    "dV_TM1_minus_theta13": -0.00011465296984786849,
+    "eps_eff": -0.0002892691965478809,
+    "selects": "TM1"
+   },
+   {
+    "g": 0.1,
+    "Lambda_over_m": 100.0,
+    "statistics": "fermion",
+    "dV_TM1_minus_theta13": 0.00011465296984786849,
+    "eps_eff": 0.0002892691965478809,
+    "selects": "theta13 = 0"
+   },
+   {
+    "g": 0.3,
+    "Lambda_over_m": 10.0,
+    "statistics": "boson",
+    "dV_TM1_minus_theta13": -0.0004967371907265913,
+    "eps_eff": -0.0012532668647623685,
+    "selects": "TM1"
+   },
+   {
+    "g": 0.3,
+    "Lambda_over_m": 10.0,
+    "statistics": "fermion",
+    "dV_TM1_minus_theta13": 0.0004967371907265913,
+    "eps_eff": 0.0012532668647623685,
+    "selects": "theta13 = 0"
+   },
+   {
+    "g": 0.3,
+    "Lambda_over_m": 100.0,
+    "statistics": "boson",
+    "dV_TM1_minus_theta13": -0.0010168787909816818,
+    "eps_eff": -0.0025655830044712977,
+    "selects": "TM1"
+   },
+   {
+    "g": 0.3,
+    "Lambda_over_m": 100.0,
+    "statistics": "fermion",
+    "dV_TM1_minus_theta13": 0.0010168787909816818,
+    "eps_eff": 0.0025655830044712977,
+    "selects": "theta13 = 0"
+   },
+   {
+    "g": 1.0,
+    "Lambda_over_m": 10.0,
+    "statistics": "boson",
+    "dV_TM1_minus_theta13": -0.005072641996450175,
+    "eps_eff": -0.012798264856420202,
+    "selects": "TM1"
+   },
+   {
+    "g": 1.0,
+    "Lambda_over_m": 10.0,
+    "statistics": "fermion",
+    "dV_TM1_minus_theta13": 0.005072641996450175,
+    "eps_eff": 0.012798264856420202,
+    "selects": "theta13 = 0"
+   },
+   {
+    "g": 1.0,
+    "Lambda_over_m": 100.0,
+    "statistics": "boson",
+    "dV_TM1_minus_theta13": -0.010851993110395378,
+    "eps_eff": -0.027379555297629903,
+    "selects": "TM1"
+   },
+   {
+    "g": 1.0,
+    "Lambda_over_m": 100.0,
+    "statistics": "fermion",
+    "dV_TM1_minus_theta13": 0.010851993110395378,
+    "eps_eff": 0.027379555297629903,
+    "selects": "theta13 = 0"
+   }
+  ]
+ },
+ "boson_loops_select_TM1": true,
+ "fermion_loops_select_theta13_0": true
+}

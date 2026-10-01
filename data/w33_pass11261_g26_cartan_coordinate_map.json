@@ -1,0 +1,69 @@
+{
+  "schema": "w33.pass11261.g26-cartan-coordinate-map.v1",
+  "status": "PASS_EXACT_G26_COORDINATE_MAP_AND_QUTRIT_MIRROR_DIVISOR",
+  "cartan_basis_source": "data/w33_pass11260_exact_semisimple_cartan.json",
+  "kernel_pivot_rows": [
+    3,
+    4,
+    6
+  ],
+  "restricted_pfaffian": {
+    "formula": "2^17*C3*N9*S9^3",
+    "degree": 39,
+    "factor_degrees_and_multiplicities": [
+      [
+        3,
+        1
+      ],
+      [
+        9,
+        1
+      ],
+      [
+        9,
+        3
+      ]
+    ],
+    "C3": "2*x**3 - 6*x*y*z + 4*y**3 + z**3",
+    "N9": "8*x**9 - 72*x**7*y*z + 48*x**6*y**3 - 96*x**6*z**3 - 432*x**5*y**2*z**2 - 1584*x**4*y**4*z - 396*x**4*y*z**4 - 768*x**3*y**6 - 1464*x**3*y**3*z**3 + 6*x**3*z**6 - 864*x**2*y**5*z**2 - 216*x**2*y**2*z**5 - 288*x*y**7*z - 792*x*y**4*z**4 - 18*x*y*z**7 + 64*y**9 + 48*y**6*z**3 - 96*y**3*z**6 + z**9",
+    "S9": "8*x**9 + 144*x**7*y*z - 384*x**6*y**3 + 12*x**6*z**3 + 216*x**5*y**2*z**2 - 720*x**4*y**4*z - 180*x**4*y*z**4 + 96*x**3*y**6 + 480*x**3*y**3*z**3 - 48*x**3*z**6 + 432*x**2*y**5*z**2 + 108*x**2*y**2*z**5 + 576*x*y**7*z - 360*x*y**4*z**4 + 36*x*y*z**7 + 64*y**9 - 384*y**6*z**3 + 12*y**3*z**6 + z**9",
+    "unisolvent_grid_points": 820,
+    "largest_value_digits": 75
+  },
+  "number_field": {
+    "a": "a^3=2",
+    "t": "Phi_18(t)=t^6-t^3+1=0",
+    "omega": "t^6"
+  },
+  "linear_map_standard_from_cartan": {
+    "X": "a**2*y + a*x + z",
+    "Y": "t**8*(a**2*t**6*y + a*x + t**12*z)",
+    "Z": "-t*(a**2*t**12*y + a*x + t**6*z)"
+  },
+  "exact_map_identities": {
+    "XYZ": "C3",
+    "standard_u9": "3*(omega-omega^2)*S9",
+    "product_12_stabilizer_mirrors": "-27*C3*N9"
+  },
+  "mirror_divisor": {
+    "12_qutrit_stabilizer_mirrors": {
+      "multiplicity": 1,
+      "rational_norm": "C3*N9"
+    },
+    "9_qutrit_SIC_mirrors": {
+      "multiplicity": 3,
+      "rational_norm": "S9^3"
+    },
+    "connection": "Pass 11269's standard-coordinate Jacobian has SIC multiplicity one and stabilizer multiplicity two. The E8 restricted Pfaffian has the same 21 hyperplanes with multiplicities three and one. They are distinct relative divisors on one arrangement."
+  },
+  "basic_invariants": {
+    "degrees": [
+      6,
+      12,
+      18
+    ],
+    "pullback_rule": "substitute the displayed X,Y,Z into Pass 11256's u6,u12,u9^2",
+    "algebraic_independence": "follows from the invertible displayed linear map"
+  },
+  "boundary": "The map is defined over Q(cuberoot(2),zeta_18), not over the rational Cartan basis. Mirror and invariant identities are exact; no Hermitian kinetic metric is selected."
+}

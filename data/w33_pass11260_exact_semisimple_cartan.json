@@ -1,0 +1,486 @@
+{
+  "schema": "w33.pass11260.exact-semisimple-cartan.v1",
+  "status": "PASS_EXACT_SEMISIMPLE_CARTAN_THREE_PLANE_EMBEDDED_IN_SIGNED_3x27",
+  "background": {
+    "support": [
+      {
+        "flat_index": 3,
+        "e6id": 1,
+        "phase": 0,
+        "value": -1
+      },
+      {
+        "flat_index": 7,
+        "e6id": 2,
+        "phase": 1,
+        "value": -2
+      },
+      {
+        "flat_index": 13,
+        "e6id": 4,
+        "phase": 1,
+        "value": -2
+      },
+      {
+        "flat_index": 14,
+        "e6id": 4,
+        "phase": 2,
+        "value": -1
+      },
+      {
+        "flat_index": 22,
+        "e6id": 7,
+        "phase": 1,
+        "value": 2
+      },
+      {
+        "flat_index": 23,
+        "e6id": 7,
+        "phase": 2,
+        "value": 1
+      },
+      {
+        "flat_index": 27,
+        "e6id": 9,
+        "phase": 0,
+        "value": 1
+      },
+      {
+        "flat_index": 42,
+        "e6id": 14,
+        "phase": 0,
+        "value": -2
+      },
+      {
+        "flat_index": 65,
+        "e6id": 21,
+        "phase": 2,
+        "value": 2
+      },
+      {
+        "flat_index": 72,
+        "e6id": 24,
+        "phase": 0,
+        "value": 2
+      },
+      {
+        "flat_index": 79,
+        "e6id": 26,
+        "phase": 1,
+        "value": 1
+      },
+      {
+        "flat_index": 80,
+        "e6id": 26,
+        "phase": 2,
+        "value": 1
+      }
+    ],
+    "cubic_jacobian_rank": 78
+  },
+  "cartan_basis": [
+    [
+      {
+        "flat_index": 4,
+        "e6id": 1,
+        "phase": 1,
+        "value": 1
+      },
+      {
+        "flat_index": 5,
+        "e6id": 1,
+        "phase": 2,
+        "value": 1
+      },
+      {
+        "flat_index": 9,
+        "e6id": 3,
+        "phase": 0,
+        "value": -2
+      },
+      {
+        "flat_index": 24,
+        "e6id": 8,
+        "phase": 0,
+        "value": 4
+      },
+      {
+        "flat_index": 28,
+        "e6id": 9,
+        "phase": 1,
+        "value": 2
+      },
+      {
+        "flat_index": 29,
+        "e6id": 9,
+        "phase": 2,
+        "value": 1
+      },
+      {
+        "flat_index": 30,
+        "e6id": 10,
+        "phase": 0,
+        "value": -1
+      },
+      {
+        "flat_index": 39,
+        "e6id": 13,
+        "phase": 0,
+        "value": 1
+      },
+      {
+        "flat_index": 43,
+        "e6id": 14,
+        "phase": 1,
+        "value": -4
+      },
+      {
+        "flat_index": 44,
+        "e6id": 14,
+        "phase": 2,
+        "value": -2
+      },
+      {
+        "flat_index": 54,
+        "e6id": 18,
+        "phase": 0,
+        "value": -2
+      },
+      {
+        "flat_index": 56,
+        "e6id": 18,
+        "phase": 2,
+        "value": 1
+      },
+      {
+        "flat_index": 62,
+        "e6id": 20,
+        "phase": 2,
+        "value": 1
+      },
+      {
+        "flat_index": 73,
+        "e6id": 24,
+        "phase": 1,
+        "value": -2
+      }
+    ],
+    [
+      {
+        "flat_index": 6,
+        "e6id": 2,
+        "phase": 0,
+        "value": 4
+      },
+      {
+        "flat_index": 8,
+        "e6id": 2,
+        "phase": 2,
+        "value": 2
+      },
+      {
+        "flat_index": 10,
+        "e6id": 3,
+        "phase": 1,
+        "value": -2
+      },
+      {
+        "flat_index": 11,
+        "e6id": 3,
+        "phase": 2,
+        "value": -2
+      },
+      {
+        "flat_index": 12,
+        "e6id": 4,
+        "phase": 0,
+        "value": -2
+      },
+      {
+        "flat_index": 17,
+        "e6id": 5,
+        "phase": 2,
+        "value": -2
+      },
+      {
+        "flat_index": 21,
+        "e6id": 7,
+        "phase": 0,
+        "value": 2
+      },
+      {
+        "flat_index": 25,
+        "e6id": 8,
+        "phase": 1,
+        "value": 4
+      },
+      {
+        "flat_index": 26,
+        "e6id": 8,
+        "phase": 2,
+        "value": 4
+      },
+      {
+        "flat_index": 31,
+        "e6id": 10,
+        "phase": 1,
+        "value": -1
+      },
+      {
+        "flat_index": 40,
+        "e6id": 13,
+        "phase": 1,
+        "value": 1
+      },
+      {
+        "flat_index": 55,
+        "e6id": 18,
+        "phase": 1,
+        "value": 4
+      },
+      {
+        "flat_index": 56,
+        "e6id": 18,
+        "phase": 2,
+        "value": 2
+      },
+      {
+        "flat_index": 78,
+        "e6id": 26,
+        "phase": 0,
+        "value": -2
+      }
+    ],
+    [
+      {
+        "flat_index": 3,
+        "e6id": 1,
+        "phase": 0,
+        "value": 1
+      },
+      {
+        "flat_index": 7,
+        "e6id": 2,
+        "phase": 1,
+        "value": 2
+      },
+      {
+        "flat_index": 13,
+        "e6id": 4,
+        "phase": 1,
+        "value": 2
+      },
+      {
+        "flat_index": 14,
+        "e6id": 4,
+        "phase": 2,
+        "value": 1
+      },
+      {
+        "flat_index": 22,
+        "e6id": 7,
+        "phase": 1,
+        "value": -2
+      },
+      {
+        "flat_index": 23,
+        "e6id": 7,
+        "phase": 2,
+        "value": -1
+      },
+      {
+        "flat_index": 27,
+        "e6id": 9,
+        "phase": 0,
+        "value": -1
+      },
+      {
+        "flat_index": 42,
+        "e6id": 14,
+        "phase": 0,
+        "value": 2
+      },
+      {
+        "flat_index": 65,
+        "e6id": 21,
+        "phase": 2,
+        "value": -2
+      },
+      {
+        "flat_index": 72,
+        "e6id": 24,
+        "phase": 0,
+        "value": -2
+      },
+      {
+        "flat_index": 79,
+        "e6id": 26,
+        "phase": 1,
+        "value": -1
+      },
+      {
+        "flat_index": 80,
+        "e6id": 26,
+        "phase": 2,
+        "value": -1
+      }
+    ]
+  ],
+  "cartan_checks": {
+    "dimension": 3,
+    "pairwise_brackets_zero": true,
+    "background_equals_minus_basis_2": true,
+    "pivot_rows": [
+      3,
+      4,
+      6
+    ],
+    "coordinate_minor": 4
+  },
+  "scaled_adjoint": {
+    "definition": "N=18 ad(v)",
+    "integral": true,
+    "rounding_residual": 1.0658141036401503e-14,
+    "rank_N": 234,
+    "rank_N_cubed": 234,
+    "kernel_dimension": 14,
+    "N_cubed_respects_Z3_blocks": true
+  },
+  "N_cubed_blocks": {
+    "g0": {
+      "dimension": 86,
+      "rank": 78,
+      "characteristic_factors": [
+        {
+          "polynomial": "x",
+          "degree": 1,
+          "multiplicity": 8
+        },
+        {
+          "polynomial": "x**3 - 396718580736",
+          "degree": 3,
+          "multiplicity": 1
+        },
+        {
+          "polynomial": "x**3 + 396718580736",
+          "degree": 3,
+          "multiplicity": 1
+        },
+        {
+          "polynomial": "x**9 - 1234235584512*x**6 - 34326907456637308502016*x**3 - 3172169114198268924301601144832",
+          "degree": 9,
+          "multiplicity": 3
+        },
+        {
+          "polynomial": "x**9 + 1234235584512*x**6 - 34326907456637308502016*x**3 + 3172169114198268924301601144832",
+          "degree": 9,
+          "multiplicity": 3
+        },
+        {
+          "polynomial": "x**18 + 146386125332581029352833024*x**12 + 250556556265049251809547325105197290584587370496*x**6 + 198063275547632324892732342401376875852639602111883769352386772992",
+          "degree": 18,
+          "multiplicity": 1
+        }
+      ]
+    },
+    "g1": {
+      "dimension": 81,
+      "rank": 78,
+      "characteristic_factors": [
+        {
+          "polynomial": "x",
+          "degree": 1,
+          "multiplicity": 3
+        },
+        {
+          "polynomial": "x**3 - 396718580736",
+          "degree": 3,
+          "multiplicity": 1
+        },
+        {
+          "polynomial": "x**3 + 396718580736",
+          "degree": 3,
+          "multiplicity": 1
+        },
+        {
+          "polynomial": "x**9 - 1234235584512*x**6 - 34326907456637308502016*x**3 - 3172169114198268924301601144832",
+          "degree": 9,
+          "multiplicity": 3
+        },
+        {
+          "polynomial": "x**9 + 1234235584512*x**6 - 34326907456637308502016*x**3 + 3172169114198268924301601144832",
+          "degree": 9,
+          "multiplicity": 3
+        },
+        {
+          "polynomial": "x**18 + 146386125332581029352833024*x**12 + 250556556265049251809547325105197290584587370496*x**6 + 198063275547632324892732342401376875852639602111883769352386772992",
+          "degree": 18,
+          "multiplicity": 1
+        }
+      ]
+    },
+    "g2": {
+      "dimension": 81,
+      "rank": 78,
+      "characteristic_factors": [
+        {
+          "polynomial": "x",
+          "degree": 1,
+          "multiplicity": 3
+        },
+        {
+          "polynomial": "x**3 - 396718580736",
+          "degree": 3,
+          "multiplicity": 1
+        },
+        {
+          "polynomial": "x**3 + 396718580736",
+          "degree": 3,
+          "multiplicity": 1
+        },
+        {
+          "polynomial": "x**9 - 1234235584512*x**6 - 34326907456637308502016*x**3 - 3172169114198268924301601144832",
+          "degree": 9,
+          "multiplicity": 3
+        },
+        {
+          "polynomial": "x**9 + 1234235584512*x**6 - 34326907456637308502016*x**3 + 3172169114198268924301601144832",
+          "degree": 9,
+          "multiplicity": 3
+        },
+        {
+          "polynomial": "x**18 + 146386125332581029352833024*x**12 + 250556556265049251809547325105197290584587370496*x**6 + 198063275547632324892732342401376875852639602111883769352386772992",
+          "degree": 18,
+          "multiplicity": 1
+        }
+      ]
+    }
+  },
+  "repeated_degree9_factor_nullities": {
+    "g0": {
+      "f_minus_nullity": 27,
+      "f_plus_nullity": 27
+    },
+    "g1": {
+      "f_minus_nullity": 27,
+      "f_plus_nullity": 27
+    },
+    "g2": {
+      "f_minus_nullity": 27,
+      "f_plus_nullity": 27
+    }
+  },
+  "semisimplicity_proof": "Each N^3 block has square-free minimal polynomial: the only repeated characteristic factors are the two square-free degree-9 factors, and each has its full 27-dimensional eigenspace in every block. Hence N^3 is diagonalizable. rank(N)=rank(N^3)=234 rules out a nontrivial zero Jordan block; for nonzero eigenvalues the derivative of t^3 is nonzero. Therefore N is diagonalizable. Its g1 centralizer is the displayed commuting three-plane, the minimal dimension equal to the Vinberg rank, so it is a Cartan subspace.",
+  "classification_input": {
+    "grading": "E8 = (E6+A2) + (27,3) + (27*,3*)",
+    "theta_rank": 3,
+    "little_Weyl_group": "G26",
+    "degrees": [
+      6,
+      12,
+      18
+    ],
+    "source": "Reeder-Levy-Yu-Gross, Table 21, E8 row 3b"
+  },
+  "boundary": "This certifies the missing semisimple Cartan embedding. It does not by itself choose a physical vacuum, kinetic metric, Yukawa tensor, or statistics assignment."
+}

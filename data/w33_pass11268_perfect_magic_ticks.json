@@ -1,0 +1,92 @@
+{
+ "pass_id": 11268,
+ "perfect_magic": {
+  "2": {
+   "circulant": [
+    4,
+    5
+   ],
+   "dressings": 6561,
+   "exhaustive": true,
+   "violating": 3456,
+   "reversible": 3105,
+   "undecided": 0,
+   "violating_by_magic_legs": {
+    "0": [
+     0,
+     81
+    ],
+    "1": [
+     0,
+     648
+    ],
+    "2": [
+     216,
+     1944
+    ],
+    "3": [
+     2592,
+     2592
+    ],
+    "4": [
+     648,
+     1296
+    ]
+   },
+   "perfectness_rechecked_on": 20
+  },
+  "3": {
+   "circulant": [
+    1,
+    1,
+    4
+   ],
+   "dressings": 1500,
+   "exhaustive": false,
+   "violating": 1305,
+   "reversible": 195,
+   "undecided": 0,
+   "violating_by_magic_legs": {
+    "0": [
+     0,
+     1
+    ],
+    "1": [
+     0,
+     18
+    ],
+    "2": [
+     69,
+     120
+    ],
+    "3": [
+     311,
+     326
+    ],
+    "4": [
+     435,
+     499
+    ],
+    "5": [
+     404,
+     404
+    ],
+    "6": [
+     86,
+     132
+    ]
+   },
+   "perfectness_rechecked_on": 20,
+   "exhaustive_edges": {
+    "one_magic_leg": [
+     0,
+     8748
+    ],
+    "five_magic_legs": [
+     139968,
+     139968
+    ]
+   }
+  }
+ }
+}

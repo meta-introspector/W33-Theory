@@ -1,0 +1,33 @@
+{
+ "pass_id": 11266,
+ "one_qutrit_k1": {
+  "violating": 18,
+  "total": 216,
+  "probability": "1/12",
+  "rule_holds": true
+ },
+ "one_qutrit_k2": {
+  "violating": 18954,
+  "total": 46656,
+  "probability": 0.40625
+ },
+ "one_qutrit_k3": {
+  "violating": 5524362,
+  "total": 10077696,
+  "probability": 0.5481770833333334
+ },
+ "two_qutrit_k1": {
+  "violating": 18248,
+  "samples": 200000,
+  "probability": 0.09124,
+  "stderr": 0.0006438760066969417,
+  "sampling": "exactly uniform over the 51840 x 81 Clifford cosets",
+  "exhaustive_count": "not run: ~37 CPU-hours at ~32 ms per decision"
+ },
+ "n3_k1_sampled": {
+  "violating": 190,
+  "samples": 2000,
+  "probability": 0.095,
+  "stderr": 0.006556485338960197
+ }
+}

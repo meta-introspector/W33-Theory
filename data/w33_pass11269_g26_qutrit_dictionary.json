@@ -1,0 +1,42 @@
+{
+ "pass_id": 11269,
+ "jacobian_equals_19440_SIC_x_stab2_exact": true,
+ "jacobian_symbolic_identity": "Q[w]/(w^2+w+1)[x,y,z]",
+ "jacobian_nonzero_monomials": 42,
+ "reflection_group": {
+  "order": 1296,
+  "collineation_order": 216,
+  "all_reflections_clifford": true,
+  "all_elements_clifford": true,
+  "sic_overlaps": [
+   0.25,
+   1.0
+  ],
+  "stab_overlaps": [
+   0.0,
+   0.333333333,
+   1.0
+  ]
+ },
+ "invariants": {
+  "u6_is_sixth_SIC_power_sum": true,
+  "u12_is_twelfth_SIC_power_sum": true,
+  "u9_vs_SIC_product": "1"
+ },
+ "codex_control_point": {
+  "point": [
+   1,
+   2,
+   3
+  ],
+  "min_SIC_overlap": 1.0,
+  "min_stab_overlap": 1.0,
+  "regular": true
+ },
+ "degree_check": {
+  "SIC_mirrors": 9,
+  "stab_mirrors": 12,
+  "jacobian_degree": 33,
+  "sum_degrees_minus_3": 33
+ }
+}

@@ -1,0 +1,467 @@
+{
+  "schema": "w33.pass11262.g26-mub-s4-yukawa-bridge.v1",
+  "status": "PASS_S4_IS_ANTIUNITARY_COMPLETION_OF_G26_A4_MUB_ACTION_AND_YUKAWA_SCOPE_AUDITED",
+  "mub_action": {
+    "components": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        8,
+        10
+      ],
+      [
+        4,
+        6,
+        11
+      ],
+      [
+        5,
+        7,
+        9
+      ]
+    ],
+    "complex_linear_image_order": 12,
+    "complex_linear_image": "A4",
+    "all_linear_permutations_even": true,
+    "complex_conjugation_permutation": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "conjugation_is_odd": true,
+    "completed_image_order": 24,
+    "completed_image": "S4"
+  },
+  "flavon_dictionary": {
+    "four_phi_axes": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        1
+      ]
+    ],
+    "four_MUB_components": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        8,
+        10
+      ],
+      [
+        4,
+        6,
+        11
+      ],
+      [
+        5,
+        7,
+        9
+      ]
+    ],
+    "twelve_oriented_chords": [
+      {
+        "mub_pair": [
+          0,
+          1
+        ],
+        "orientation": 1,
+        "chi": [
+          0,
+          2,
+          2
+        ],
+        "endpoint_dots": [
+          4,
+          -4,
+          0,
+          0
+        ]
+      },
+      {
+        "mub_pair": [
+          0,
+          1
+        ],
+        "orientation": -1,
+        "chi": [
+          0,
+          -2,
+          -2
+        ],
+        "endpoint_dots": [
+          -4,
+          4,
+          0,
+          0
+        ]
+      },
+      {
+        "mub_pair": [
+          0,
+          2
+        ],
+        "orientation": 1,
+        "chi": [
+          2,
+          0,
+          2
+        ],
+        "endpoint_dots": [
+          4,
+          0,
+          -4,
+          0
+        ]
+      },
+      {
+        "mub_pair": [
+          0,
+          2
+        ],
+        "orientation": -1,
+        "chi": [
+          -2,
+          0,
+          -2
+        ],
+        "endpoint_dots": [
+          -4,
+          0,
+          4,
+          0
+        ]
+      },
+      {
+        "mub_pair": [
+          0,
+          3
+        ],
+        "orientation": 1,
+        "chi": [
+          2,
+          2,
+          0
+        ],
+        "endpoint_dots": [
+          4,
+          0,
+          0,
+          -4
+        ]
+      },
+      {
+        "mub_pair": [
+          0,
+          3
+        ],
+        "orientation": -1,
+        "chi": [
+          -2,
+          -2,
+          0
+        ],
+        "endpoint_dots": [
+          -4,
+          0,
+          0,
+          4
+        ]
+      },
+      {
+        "mub_pair": [
+          1,
+          2
+        ],
+        "orientation": 1,
+        "chi": [
+          2,
+          -2,
+          0
+        ],
+        "endpoint_dots": [
+          0,
+          4,
+          -4,
+          0
+        ]
+      },
+      {
+        "mub_pair": [
+          1,
+          2
+        ],
+        "orientation": -1,
+        "chi": [
+          -2,
+          2,
+          0
+        ],
+        "endpoint_dots": [
+          0,
+          -4,
+          4,
+          0
+        ]
+      },
+      {
+        "mub_pair": [
+          1,
+          3
+        ],
+        "orientation": 1,
+        "chi": [
+          2,
+          0,
+          -2
+        ],
+        "endpoint_dots": [
+          0,
+          4,
+          0,
+          -4
+        ]
+      },
+      {
+        "mub_pair": [
+          1,
+          3
+        ],
+        "orientation": -1,
+        "chi": [
+          -2,
+          0,
+          2
+        ],
+        "endpoint_dots": [
+          0,
+          -4,
+          0,
+          4
+        ]
+      },
+      {
+        "mub_pair": [
+          2,
+          3
+        ],
+        "orientation": 1,
+        "chi": [
+          0,
+          2,
+          -2
+        ],
+        "endpoint_dots": [
+          0,
+          0,
+          4,
+          -4
+        ]
+      },
+      {
+        "mub_pair": [
+          2,
+          3
+        ],
+        "orientation": -1,
+        "chi": [
+          0,
+          -2,
+          2
+        ],
+        "endpoint_dots": [
+          0,
+          0,
+          -4,
+          4
+        ]
+      }
+    ],
+    "rule": "phi axis i labels MUB i; \u00b1(d_i-d_j) labels an oriented pair of MUBs"
+  },
+  "yukawa_audit": {
+    "epsilon_does_not_determine_angles": true,
+    "evidence_at_epsilon_zero": {
+      "sin2_theta23_range_over_60_TM1_fits": [
+        0.29295318951678634,
+        0.7070495851049782
+      ],
+      "cos_delta_range_over_60_TM1_fits": [
+        -0.9999695212511494,
+        0.9999856952507894
+      ]
+    },
+    "three_fixed_model_curves": [
+      {
+        "epsilon": -0.0005,
+        "sin2_theta13_three_fixed_models": [
+          0.022607102895600247,
+          0.013146647701226765,
+          0.0370556394743176
+        ],
+        "cos_delta_three_fixed_models": [
+          -0.9824968915462686,
+          0.6251884861655087,
+          0.9987559093337232
+        ],
+        "TM1_column_breaking_dUe1": [
+          0.001930280700592757,
+          0.028866746012520816,
+          -0.04069326221403158
+        ]
+      },
+      {
+        "epsilon": -0.001,
+        "sin2_theta13_three_fixed_models": [
+          0.02325106414365723,
+          0.007995125838826812,
+          0.05473764582995242
+        ],
+        "cos_delta_three_fixed_models": [
+          -0.9861420185773978,
+          0.37082794007854103,
+          0.9990778890455639
+        ],
+        "TM1_column_breaking_dUe1": [
+          0.0036813943478897215,
+          0.05270377123078107,
+          -0.08163110441484056
+        ]
+      },
+      {
+        "epsilon": -0.0025,
+        "sin2_theta13_three_fixed_models": [
+          0.025051005300423933,
+          0.007698158806355512,
+          0.11347228789169002
+        ],
+        "cos_delta_three_fixed_models": [
+          -0.9943552272131804,
+          -0.7005164787327542,
+          0.9994760241691288
+        ],
+        "TM1_column_breaking_dUe1": [
+          0.007905485243760668,
+          0.09806295961575406,
+          -0.19434834336486445
+        ]
+      },
+      {
+        "epsilon": -0.005,
+        "sin2_theta13_three_fixed_models": [
+          0.027661967551264648,
+          0.026526484175751062,
+          0.1975008014431794
+        ],
+        "cos_delta_three_fixed_models": [
+          -0.9999332015914315,
+          -0.9819311635192044,
+          0.999673531660268
+        ],
+        "TM1_column_breaking_dUe1": [
+          0.012056809631575738,
+          0.12113730418252167,
+          -0.32744348581411087
+        ]
+      },
+      {
+        "epsilon": -0.01,
+        "sin2_theta13_three_fixed_models": [
+          0.03172043615116439,
+          0.060501635218453226,
+          0.29120078450044384
+        ],
+        "cos_delta_three_fixed_models": [
+          -0.9878087395034579,
+          -0.9982418586000901,
+          0.9997961659076772
+        ],
+        "TM1_column_breaking_dUe1": [
+          0.012626089006143704,
+          0.10884541411611537,
+          -0.4592523551509261
+        ]
+      },
+      {
+        "epsilon": -0.02,
+        "sin2_theta13_three_fixed_models": [
+          0.036788203060831554,
+          0.08934291414876429,
+          0.36276967585409875
+        ],
+        "cos_delta_three_fixed_models": [
+          -0.9171859625997795,
+          -0.9800143032562546,
+          0.9999058877756043
+        ],
+        "TM1_column_breaking_dUe1": [
+          -0.0012203621642622453,
+          0.0562819918227524,
+          -0.5600360056365439
+        ]
+      },
+      {
+        "epsilon": -0.04,
+        "sin2_theta13_three_fixed_models": [
+          0.04100581898837896,
+          0.10062724481874155,
+          0.412775963570649
+        ],
+        "cos_delta_three_fixed_models": [
+          -0.7729785152296506,
+          -0.9583422970542516,
+          0.9999989615424104
+        ],
+        "TM1_column_breaking_dUe1": [
+          -0.034019786596419466,
+          -0.03801887490737066,
+          -0.630679416998193
+        ]
+      }
+    ],
+    "TM1_alignment_window": "|epsilon| approximately <= 1e-3",
+    "bosonic_loop_rows_inside_window": [
+      {
+        "g": 0.1,
+        "Lambda_over_m": 10.0,
+        "statistics": "boson",
+        "dV_TM1_minus_theta13": -5.6859458708410915e-05,
+        "eps_eff": -0.00014345629213576984,
+        "selects": "TM1"
+      },
+      {
+        "g": 0.1,
+        "Lambda_over_m": 100.0,
+        "statistics": "boson",
+        "dV_TM1_minus_theta13": -0.00011465296984786849,
+        "eps_eff": -0.0002892691965478809,
+        "selects": "TM1"
+      }
+    ],
+    "interpretation": "epsilon controls departure from the fixed TM1 column. theta13 and delta additionally depend on Yukawa coefficients. Odd MUB permutations require the antiunitary completion, so the CP phase cannot be assigned by the complex-linear G26 vacuum coordinate alone."
+  },
+  "boundary": "The four-MUB/tetrahedron dictionary is canonical up to relabeling. It identifies the symmetry objects and the role of antiunitarity; it does not identify arbitrary Cartan amplitudes with real flavon expectation values or remove the independent Yukawa coefficients."
+}

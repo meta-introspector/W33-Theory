@@ -1,0 +1,423 @@
+{
+ "pass_id": 11265,
+ "formula_max_deviation_vs_twirl": 1.6653345369377348e-15,
+ "two_qutrit_bb_validation": [
+  {
+   "word": "(T(x)T)SUM",
+   "exhaustive": 0.8440296287459852,
+   "branch_and_bound": 0.8440296287459844,
+   "nodes": 88,
+   "seconds": 0.17,
+   "agree": true,
+   "search_exhausted": true,
+   "numerical_pruning_tolerance": 1e-12
+  },
+  {
+   "word": "(I(x)T)SUM(I(x)T^2)",
+   "exhaustive": 0.7123860142010856,
+   "branch_and_bound": 0.7123860142010849,
+   "nodes": 1996,
+   "seconds": 2.34,
+   "agree": true,
+   "search_exhausted": true,
+   "numerical_pruning_tolerance": 1e-12
+  },
+  {
+   "word": "random d=1 #0",
+   "exhaustive": 1.0000000000000056,
+   "branch_and_bound": 1.0000000000000038,
+   "nodes": 6,
+   "seconds": 0.04,
+   "agree": true,
+   "search_exhausted": true,
+   "numerical_pruning_tolerance": 1e-12
+  },
+  {
+   "word": "random d=2 #1",
+   "exhaustive": 0.8100954854868485,
+   "branch_and_bound": 0.8100954854868478,
+   "nodes": 2440,
+   "seconds": 3.11,
+   "agree": true,
+   "search_exhausted": true,
+   "numerical_pruning_tolerance": 1e-12
+  },
+  {
+   "word": "random d=3 #2",
+   "exhaustive": 0.5860351205785077,
+   "branch_and_bound": 0.5860351205785073,
+   "nodes": 19281,
+   "seconds": 33.48,
+   "agree": true,
+   "search_exhausted": true,
+   "numerical_pruning_tolerance": 1e-12
+  },
+  {
+   "word": "random d=4 #3",
+   "exhaustive": 0.7123860142010963,
+   "branch_and_bound": 0.712386014201096,
+   "nodes": 19521,
+   "seconds": 33.07,
+   "agree": true,
+   "search_exhausted": true,
+   "numerical_pruning_tolerance": 1e-12
+  },
+  {
+   "word": "random d=1 #4",
+   "exhaustive": 1.0000000000000078,
+   "branch_and_bound": 1.0000000000000067,
+   "nodes": 11,
+   "seconds": 0.02,
+   "agree": true,
+   "search_exhausted": true,
+   "numerical_pruning_tolerance": 1e-12
+  },
+  {
+   "word": "random d=2 #5",
+   "exhaustive": 0.810095485486849,
+   "branch_and_bound": 0.8100954854868486,
+   "nodes": 3205,
+   "seconds": 4.46,
+   "agree": true,
+   "search_exhausted": true,
+   "numerical_pruning_tolerance": 1e-12
+  },
+  {
+   "word": "random d=3 #6",
+   "exhaustive": 1.0000000000000109,
+   "branch_and_bound": 1.0000000000000098,
+   "nodes": 5,
+   "seconds": 0.04,
+   "agree": true,
+   "search_exhausted": true,
+   "numerical_pruning_tolerance": 1e-12
+  },
+  {
+   "word": "random d=4 #7",
+   "exhaustive": 0.6123734907578711,
+   "branch_and_bound": 0.6123734907578706,
+   "nodes": 19281,
+   "seconds": 32.17,
+   "agree": true,
+   "search_exhausted": true,
+   "numerical_pruning_tolerance": 1e-12
+  },
+  {
+   "word": "random d=1 #8",
+   "exhaustive": 0.8440296287459891,
+   "branch_and_bound": 0.8440296287459885,
+   "nodes": 1165,
+   "seconds": 1.79,
+   "agree": true,
+   "search_exhausted": true,
+   "numerical_pruning_tolerance": 1e-12
+  },
+  {
+   "word": "random d=2 #9",
+   "exhaustive": 0.8100954854868498,
+   "branch_and_bound": 0.810095485486849,
+   "nodes": 275,
+   "seconds": 0.39,
+   "agree": true,
+   "search_exhausted": true,
+   "numerical_pruning_tolerance": 1e-12
+  },
+  {
+   "word": "random d=3 #10",
+   "exhaustive": 0.6666666666666734,
+   "branch_and_bound": 0.6666666666666724,
+   "nodes": 18385,
+   "seconds": 31.07,
+   "agree": true,
+   "search_exhausted": true,
+   "numerical_pruning_tolerance": 1e-12
+  },
+  {
+   "word": "random d=4 #11",
+   "exhaustive": 0.5866478348072159,
+   "branch_and_bound": 0.5866478348072152,
+   "nodes": 19521,
+   "seconds": 33.47,
+   "agree": true,
+   "search_exhausted": true,
+   "numerical_pruning_tolerance": 1e-12
+  }
+ ],
+ "bb_agrees_all": true,
+ "three_qutrit": {
+  "(T(x)T)SUM (x) I": {
+   "F_T_lower": 0.8440296287459845,
+   "F_T_upper": 0.8440296287459845,
+   "nodes": 811,
+   "seconds": 18.1,
+   "search_exhausted": true,
+   "numerical_pruning_tolerance": 1e-12
+  },
+  "(T(x)T(x)T) SUM12": {
+   "F_T_lower": 0.844029628745984,
+   "F_T_upper": 0.844029628745984,
+   "nodes": 830,
+   "seconds": 18.4,
+   "search_exhausted": true,
+   "numerical_pruning_tolerance": 1e-12
+  },
+  "(T(x)T(x)T) SUM23 SUM12": {
+   "F_T_lower": 0.23746200373369541,
+   "F_T_upper": 0.9630077992203022,
+   "nodes": 20001,
+   "seconds": 244.6,
+   "search_exhausted": false,
+   "numerical_pruning_tolerance": 1e-12
+  }
+ },
+ "residual_spectra_two_qutrit": {
+  "0.844029629": {
+   "maximisers_checked": 9,
+   "quantised_residual_exists": 9,
+   "sumset_residual": false
+  },
+  "0.712386014": {
+   "maximisers_checked": 5,
+   "quantised_residual_exists": 9,
+   "sumset_residual": true
+  },
+  "0.810095485": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.764376138": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.808257343": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.727625797": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.77961592": {
+   "maximisers_checked": 2,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.601274903": {
+   "maximisers_checked": 9,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.594859043": {
+   "maximisers_checked": 4,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.639863387": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.823497125": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.756267219": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.681906449": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.666666667": {
+   "maximisers_checked": 6,
+   "quantised_residual_exists": 9,
+   "sumset_residual": false
+  },
+  "0.668504809": {
+   "maximisers_checked": 3,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.939262577": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.625236319": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.566940839": {
+   "maximisers_checked": 3,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.767365807": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.623684872": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.569317794": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.612373491": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.638924654": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.606354831": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.588412075": {
+   "maximisers_checked": 3,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.641014913": {
+   "maximisers_checked": 2,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.662486149": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.586647835": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.619217659": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.758357478": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.611064818": {
+   "maximisers_checked": 2,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.842917425": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.669656335": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.694769277": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.59943676": {
+   "maximisers_checked": 3,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.777525662": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.744955838": {
+   "maximisers_checked": 2,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.573785007": {
+   "maximisers_checked": 2,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.768304539": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.87339699": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.599510663": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.838736908": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.716314416": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.760447737": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  },
+  "0.571408052": {
+   "maximisers_checked": 1,
+   "quantised_residual_exists": null,
+   "sumset_residual": false
+  }
+ },
+ "levels_with_a_quantised_optimal_residual": [
+  0.666666667,
+  0.712386014,
+  0.844029629
+ ],
+ "levels_total": 45,
+ "fmin2_words": {
+  "(I(x)T)SUM(I(x)T^2)": {
+   "F_T": 0.7123860142010856,
+   "is_Fmin2": true,
+   "sumset_residual": true
+  },
+  "(I(x)T^2)SUM(I(x)T)": {
+   "F_T": 0.7123860142010855,
+   "is_Fmin2": true,
+   "sumset_residual": true
+  },
+  "(I(x)T)SUM^2(I(x)T^2)": {
+   "F_T": 0.7123860142010856,
+   "is_Fmin2": true,
+   "sumset_residual": true
+  }
+ }
+}
