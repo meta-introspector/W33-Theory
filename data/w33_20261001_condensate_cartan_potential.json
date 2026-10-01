@@ -1,0 +1,84 @@
+{
+  "angular_covariant_mixing": "Real gradI6/gradI12 directions have block(162/49)*[[2,1],[1,2]]; imaginary directions have the opposite offdiagonal sign. Equal-weight eigenvectors are slice scalar modes, not CKM/PMNS mixing.",
+  "angular_mass_squared_ratio": 3,
+  "declared_superpotential": "W=Lambda^9*(-729*I18)^(-1/3) on the branch W(T)>0",
+  "exact_proof": "Exact cyclotomic restriction with sqrt3/i tangent coefficients and holomorphic derivatives through third order; all six canonical real gradients vanish and the full six-direction Hessian has positive exact eigenvalues and nonzero angular mixing blocks.",
+  "exact_slice_Hessian_eigenvalues_over_m_squared": [
+    "162/49",
+    "162/49",
+    "486/49",
+    "486/49",
+    "648/7",
+    "486/7"
+  ],
+  "exact_slice_Hessian_matrix_over_m_squared": [
+    [
+      "324/49",
+      "0",
+      "162/49",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "324/49",
+      "0",
+      "-162/49",
+      "0",
+      "0"
+    ],
+    [
+      "162/49",
+      "0",
+      "324/49",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "-162/49",
+      "0",
+      "324/49",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "648/7",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "486/7"
+    ]
+  ],
+  "homogeneity": "W degree-6 in q; phase transforms W->exp(-6i theta)W",
+  "phase_mass_squared_over_m_squared": "486/7",
+  "physical_boundary": [
+    "Conditional condensate denominator/normalization and canonical slice K\u00e4hler metric.",
+    "Six real Cartan directions only; remaining global-flavor moduli, full K\u00e4hler corrections and gauge dynamics are not certified.",
+    "AMSB mass m and strong scale Lambda are inputs. Validity of published dynamics concerns small AMSB relative to Lambda, not a proved nonsupersymmetric continuation.",
+    "This is not the previous vectorlike EFT and its loop obstruction is not retracted.",
+    "The regular T vacuum still cannot retain the Standard Model gauge algebra, and the nonzero vacuum energy still needs a gravitational treatment."
+  ],
+  "potential": "V_F=sum|dW/dq_i|^2; V_AMSB=m*(sum q_i dW/dq_i-3W)+h.c.=-18m ReW",
+  "primary_source": "https://arxiv.org/html/2505.07931v1",
+  "prior_owners": [
+    "analysis/w33_20261001_degree18_phase_completion.py",
+    "analysis/w33_20261001_chiral_decuplet_and_condensate_bridge.py"
+  ],
+  "radial_mass_squared": "648*m**2/7",
+  "radial_potential": "36*L**18/r**14 - 18*L**9*m/r**6",
+  "stationary_radius": "r^8=14*Lambda^9/(3m)",
+  "status": "PASS_EXACT_CONDITIONAL_CONDENSATE_SIX_DIRECTION_MINIMUM",
+  "vacuum_energy": "-(72/7)*m*Lambda^9/r^6, before an independent gravitational counterterm"
+}

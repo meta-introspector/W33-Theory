@@ -1,0 +1,28 @@
+{
+  "exact": {
+    "I18": "(19683*T-48384*I6^3/5+13824*I6*I12/5)/1492992",
+    "canonical_restriction": "I18(Qq/sqrt3)=u18(q)",
+    "classical_T_coefficient_terms": 103,
+    "construction": "T=dS_F[H_F], H_F is the coefficient tensor of det Hessian(Fabc a_a a_b a_c)",
+    "raw_T_on_Q": "48384*u6^3/5-13824*u6*u12/5+1492992*u18"
+  },
+  "external_source": "https://people.dimai.unifi.it/ottaviani/tesi/tesidr_maurizio.pdf",
+  "numerical_controls": {
+    "complex_derivative_error": 9.536496753550513e-11,
+    "gauge_invariance_error": 3.1646225226420963e-16,
+    "gradient_transport_error": 4.5193032509710784e-15
+  },
+  "phase_selector": {
+    "CP_boundary": "T and its conjugate have the same real invariant triple (0,0,-r0^18/729); the prior finite G26 quotient identifies their gauge orbits. This real phase selector does not establish physical spontaneous CP violation.",
+    "canonical_phase_mass_squared": "324*gamma*r0^34/729^2 (kinetic phase coordinate sqrt2*r0*theta)",
+    "inputs": "tau is an imposed dimensionful EFT coefficient, not a W33-selected clock or measured CP phase.",
+    "term": "gamma*|I18(Phi)-tau|^2, tau=-r0^18/729 real, gamma>0",
+    "vacua": "At the prior norm/I6/I12/moment-zero minima, exp(18i theta)=1. All resulting representatives share the invariant triple and lie in one G26, hence compact gauge, orbit; no eighteen physical vacua are claimed."
+  },
+  "prior_owners": [
+    "analysis/w33_20261001_global_e6_cartan_covariants.py",
+    "analysis/w33_20261001_balanced_g26_tmagic_vacuum.py",
+    "analysis/w33_pass11255_11259_g26_common.py"
+  ],
+  "status": "PASS_GLOBAL_I18_AND_PHASE_LIFT"
+}

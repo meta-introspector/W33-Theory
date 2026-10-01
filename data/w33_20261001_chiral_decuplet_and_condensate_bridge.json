@@ -1,0 +1,156 @@
+{
+  "anomaly_repair": {
+    "A10": 27,
+    "E6_anomaly": "E6 has no adjoint cubic Casimir, so the chiral27 is perturbatively anomaly free.",
+    "T10": "15/2",
+    "boundary": "A distinct anomaly-free chiral candidate, not the earlier paired model. The spectator is Standard-Model neutral under a chosen E6 embedding, but its mass and family gauge breaking require new operators. This candidate does not repair the regular T vacuum's insufficient unbroken gauge algebra.",
+    "chiral_completion": "one Weyl(27,3) plus one Weyl(1,10bar); one complex scalar(27,3)",
+    "decuplet_weights": [
+      [
+        3,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        -1,
+        3
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        -3
+      ],
+      [
+        -3,
+        3
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        -3
+      ],
+      [
+        0,
+        -6
+      ]
+    ],
+    "fundamental_weights": [
+      [
+        1,
+        1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -2
+      ]
+    ],
+    "mass_interface_boundary": "The old antisymmetric cubic matrix requires two distinct Weyl species; a single species bilinear would vanish by spinor symmetry. The single81 chiral candidate therefore does not inherit that matrix. Two species plus two10bar spectators give six27 generations and bE6=29,bSU3=-43/2, not three observed families.",
+    "one_loop_b0": {
+      "E6": "35",
+      "SU3_family": "-15/2"
+    },
+    "perturbative_family_anomaly": "27*A3+A10bar=27-27=0",
+    "total_Weyl_components": 91
+  },
+  "condensate_bridge": {
+    "MUB_only_control": "q=(0,1,2) has a coordinate MUB mirror but u18!=0 and E6 stabilizer remains8",
+    "T_class_connection": "I6=I12=0,I18!=0 is the class with zero degree6 singlet and zero degree12 Aronhold invariant, but nonzero degree18 Aronhold/Hessian invariant. It corresponds algebraically to the published fully broken global-family class after normalization, not to an observed Standard Model vacuum.",
+    "boundary": "No normalization of the published effective superpotential, K\u00e4hler metric, AMSB soft terms, quantum minimum, mass ratios or cosmological constant is asserted here.",
+    "denominator_identification": "Conditional on the cited condensate denominator being a degree18 E6xSL3 invariant that vanishes on enhanced E6 loci: the9 SIC walls form one G26 orbit with order2 reflections. Invariance forces even vanishing order on each wall. Degree18 then forces a scalar multiple of their squared product u18, hence of the compiled global I18.",
+    "exact_points": [
+      {
+        "q": [
+          1,
+          2,
+          3
+        ],
+        "u6_u12_u18": [
+          "-1716",
+          "1389996",
+          "11957764"
+        ],
+        "unbroken_E6_dimension": 8
+      },
+      {
+        "q": [
+          0,
+          1,
+          2
+        ],
+        "u6_u12_u18": [
+          "-15",
+          "-23535",
+          "3136"
+        ],
+        "unbroken_E6_dimension": 8
+      },
+      {
+        "q": [
+          1,
+          1,
+          2
+        ],
+        "u6_u12_u18": [
+          "-104",
+          "-50924",
+          "0"
+        ],
+        "unbroken_E6_dimension": 14
+      },
+      {
+        "q": [
+          1,
+          0,
+          0
+        ],
+        "u6_u12_u18": [
+          "1",
+          "1",
+          "0"
+        ],
+        "unbroken_E6_dimension": 28
+      },
+      {
+        "q": [
+          1,
+          1,
+          1
+        ],
+        "u6_u12_u18": [
+          "-27",
+          "729",
+          "0"
+        ],
+        "unbroken_E6_dimension": 28
+      }
+    ],
+    "generic_SIC_wall": "q=(1,1,z) over Q(z); exact E6 stabilizer dimension14",
+    "nonperturbative_interface": "W=k*(Lambda^27/I18)^(1/3) on a chosen nonzero-I18 branch; degree3, homogeneous degree-6 in fields. k and branch normalization must be matched to the published tensor conventions.",
+    "regime": "Published theory: E6 gauge, family SU3 global, supersymmetric chiral multiplets plus small AMSB. Weakly gauging family SU3 with an anomaly spectator changes the dynamics and is not proved equivalent."
+  },
+  "primary_source": "https://arxiv.org/html/2505.07931v1",
+  "prior_owners": [
+    "analysis/w33_anomaly_cancellation.py",
+    "analysis/w33_e6_27_standard_model.py",
+    "analysis/w33_pass11269_g26_qutrit_dictionary.py",
+    "analysis/w33_20261001_degree18_phase_completion.py"
+  ],
+  "status": "PASS_CHIRAL_DECUplet_ANOMALY_AND_EXACT_E6_SIC_ENHANCEMENT"
+}

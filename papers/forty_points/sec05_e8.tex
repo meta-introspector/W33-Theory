@@ -368,6 +368,65 @@ is a saddle of $F$. A zero prefactor leaves angular flatness. Higher EFT
 operators, additional sectors and stable quantum alignment remain open.
 \tierC\ (\cert{w33\_20261001\_complete\_gauge\_scalar\_fermion\_loop.py})
 
+
+The invariant compiler now also supplies the global degree-eighteen coordinate.
+If $\mathcal T=dS_F[\operatorname{Hess}(F)]$ is the classical Hessian
+polarization of the ternary cubic's Aronhold scalar, exact restriction gives
+\[
+ I_{18}=\frac{19683\mathcal T-(48384/5)I_6^3+(13824/5)I_6I_{12}}{1492992},
+ \qquad I_{18}(Qq/\sqrt3)=u_{18}(q).
+\]
+Its analytic differential is executable on all $81$ fields. The real term
+$\gamma|I_{18}+r_0^{18}/729|^2$ lifts the common phase, but all selected
+representatives share one gauge orbit and do not choose physical CP.
+\tierC\ (\cert{w33\_20261001\_degree18\_phase\_completion.py})
+
+Actual charges impose a stronger physical boundary. Eight exact stabilizer
+generators annihilate the entire $Q$ plane, so the three completed light
+modes are singlets of the connected unbroken gauge group. Its dimension eight
+cannot contain an unbroken Standard Model algebra of dimension twelve.
+The declared conjugate-paired matter has zero chiral index under every
+subgroup restriction. Standard $27$ branching does not identify these normal
+modes as charged families.
+\tierC\ (\cert{w33\_20261001\_chiral\_mass\_assignment\_audit.py})
+Including the scalar selector and all three lifts in the full declared
+one-loop determinant yields $83$ positive real scalar modes and $81$ massive
+fermion singular pairs at $T$. The tested finite-step quantum curvature is
+negative and infrared-sensitive because of vanishing Goldstone masses; no
+smooth quantum stability theorem follows.
+\tierC\ (\cert{w33\_20261001\_completed\_eft\_one\_loop.py})
+The same inventory gives standard one-loop $b_{E_6}=17$ and
+$b_{SU(3)}=-59/2$, so equal standard couplings drift and family $SU(3)$ has a
+Landau pole. Neither transmutation nor a finite vacuum counterterm is fixed.
+\tierC\ (\cert{w33\_20261001\_uv\_running\_scale\_audit.py})
+
+There is a distinct conditional nonperturbative model. The $E_6$-only
+stabilizer has dimension fourteen on the generic SIC wall $(1,1,z)$ over
+$\Q(z)$, but remains eight at the MUB-only control $(0,1,2)$.
+A degree-eighteen invariant condensate denominator vanishing on the SIC
+orbit is therefore proportional to $u_{18}$, using its order-two mirror
+multiplicities. This provides a normalization interface to the near-SUSY
+three-$27$ condensate studied at \url{https://arxiv.org/abs/2505.07931}; it
+does not import that theory's dynamics into the preceding paired EFT.
+For the declared canonical Cartan action
+\[
+ W=\Lambda^9(-729I_{18})^{-1/3},\qquad
+ V=\sum_i|\partial_iW|^2-18m\operatorname{Re}W,
+\]
+the chosen branch has a stationary radius $r^8=14\Lambda^9/(3m)$.
+All six real slice gradients vanish exactly, and the canonical Hessian
+has eigenvalues
+\[
+ m^2\left(\frac{162}{49},\frac{162}{49},\frac{486}{49},
+ \frac{486}{49},\frac{648}{7},\frac{486}{7}\right).
+\]
+The invariant-gradient angular basis has nonzero two-by-two mixing blocks;
+these are scalar modes, not CKM or PMNS angles. This result is conditional
+on the denominator and canonical slice K\"ahler metric. Full eleven-modulus
+stability, quantum K\"ahler corrections, the AMSB/strong scales, Standard Model
+charges and nonzero vacuum energy remain separate questions.
+\tierC\ (\cert{w33\_20261001\_condensate\_cartan\_potential.py})
+
 The computational interface needs an additional classical datum: a Clifford
 frame for the selected ray. The $72$ rays split into eight nine-ray Pauli
 orbits, two per MUB axis. Uniformly forgetting the displacement within even

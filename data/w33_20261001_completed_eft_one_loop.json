@@ -1,0 +1,435 @@
+{
+  "Hessian_step_difference_norm": 0.012919566773940242,
+  "Richardson_loop_Hessian": [
+    [
+      -0.6516507232411558,
+      1.6443732949363483e-12,
+      0.014348893801205034,
+      -6.685913396993944e-13
+    ],
+    [
+      1.6443732949363483e-12,
+      -0.6523528629681583,
+      3.2526065174565133e-12,
+      -0.01440830857998409
+    ],
+    [
+      0.014348893801205034,
+      3.2526065174565133e-12,
+      -0.050750590527224214,
+      -2.349104707051926e-13
+    ],
+    [
+      -6.685913396993944e-13,
+      -0.01440830857998409,
+      -2.349104707051926e-13,
+      -0.05072197025888722
+    ]
+  ],
+  "boundary": [
+    "Specified coefficients/cutoff/renormalization condition; numerical local curvature, not directed proof or global quantum minimum.",
+    "A positive curvature at T is not stationarity: the computed loop gradient must be included when solving for the shifted vacuum.",
+    "Off-shell negative scalar eigenvalues use log absolute value, i.e. real part of the determinant; imaginary instability contributions are not discarded as a stability proof.",
+    "The common phase is flat here; the new I18 selector is not added to this determinant.",
+    "All higher-dimensional counterterms consistent with the symmetry are available. This fixed EFT loop test does not determine their finite matching coefficients or establish UV completion."
+  ],
+  "counts_at_T": {
+    "massive_singular_fermion_pairs": 81,
+    "massive_vectors": 78,
+    "positive_real_scalars": 83,
+    "remaining_scalar_zeros": 79
+  },
+  "field_determinant": "3*Tr mV^4(log(mV^2/mu^2)-5/6)+Tr mS^4(log|mS^2/mu^2|-3/2)-8*Tr mF^4(log(mF^2/mu^2)-3/2), divided64pi^2",
+  "finite_step_positive_curvature": false,
+  "finite_step_tree_plus_one_loop_angular_eigenvalues": [
+    -0.3329776809906351,
+    -0.33227177180440315,
+    -0.00012954196397689036,
+    -9.715223641039317e-05
+  ],
+  "infrared_boundary": "Goldstone masses vanish at T and become negative linearly along nearby angular directions. The real unresummed determinant is infrared sensitive; the finite-step positive curvature is not a twice-differentiable vacuum-stability certificate. A Goldstone-resummed or physical quotient calculation is needed.",
+  "local_rows": [
+    {
+      "V1_at_T": -0.0012467021394539236,
+      "angular_Hessian": [
+        [
+          -0.6354793694041128,
+          2.710505431213761e-13,
+          0.014649430557349147,
+          2.710505431213761e-13
+        ],
+        [
+          2.710505431213761e-13,
+          -0.6351274248095514,
+          -1.951563910473908e-12,
+          -0.014513253711128347
+        ],
+        [
+          0.014649430557349147,
+          -1.951563910473908e-12,
+          -0.05044084088346584,
+          -1.6263032587282567e-13
+        ],
+        [
+          2.710505431213761e-13,
+          -0.014513253711128347,
+          -1.6263032587282567e-13,
+          -0.050416962984242
+        ]
+      ],
+      "angular_gradient": [
+        -9.798307824826491e-08,
+        3.2526065174565133e-16,
+        -8.093178904822196e-11,
+        -2.710505431213761e-15
+      ],
+      "off_shell_scalar_diagnostics": [
+        {
+          "minimum_scalar_mass_squared": -0.0006523711206395867,
+          "negative_scalar_modes": 48
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0005309879614414415,
+          "negative_scalar_modes": 42
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0006213142066043495,
+          "negative_scalar_modes": 56
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0006213142066043982,
+          "negative_scalar_modes": 56
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0008460423295040306,
+          "negative_scalar_modes": 48
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0009143602503756143,
+          "negative_scalar_modes": 50
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0009143602503756167,
+          "negative_scalar_modes": 50
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0008460423295040328,
+          "negative_scalar_modes": 48
+        },
+        {
+          "minimum_scalar_mass_squared": -6.568245471507824e-05,
+          "negative_scalar_modes": 42
+        },
+        {
+          "minimum_scalar_mass_squared": -0.00010142749023660832,
+          "negative_scalar_modes": 36
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0007192500011461295,
+          "negative_scalar_modes": 52
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0005219000192079866,
+          "negative_scalar_modes": 48
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0005456458704427445,
+          "negative_scalar_modes": 42
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0005839642430746127,
+          "negative_scalar_modes": 48
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0005707002409595615,
+          "negative_scalar_modes": 46
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0006736559573445113,
+          "negative_scalar_modes": 48
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0005707002409596122,
+          "negative_scalar_modes": 46
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0006736559573445166,
+          "negative_scalar_modes": 48
+        },
+        {
+          "minimum_scalar_mass_squared": -8.979566177190781e-05,
+          "negative_scalar_modes": 40
+        },
+        {
+          "minimum_scalar_mass_squared": -8.979566177200918e-05,
+          "negative_scalar_modes": 40
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0006549711197723865,
+          "negative_scalar_modes": 48
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0005961997868180421,
+          "negative_scalar_modes": 42
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0005961997868179329,
+          "negative_scalar_modes": 42
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0006549711197723385,
+          "negative_scalar_modes": 48
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0005789847813476649,
+          "negative_scalar_modes": 56
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0005789847813476672,
+          "negative_scalar_modes": 56
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0006657742779306765,
+          "negative_scalar_modes": 56
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0006657742779306842,
+          "negative_scalar_modes": 56
+        },
+        {
+          "minimum_scalar_mass_squared": -0.00013931668397324735,
+          "negative_scalar_modes": 36
+        },
+        {
+          "minimum_scalar_mass_squared": -0.00010889263012214878,
+          "negative_scalar_modes": 42
+        },
+        {
+          "minimum_scalar_mass_squared": -0.00010889263012214671,
+          "negative_scalar_modes": 42
+        },
+        {
+          "minimum_scalar_mass_squared": -0.00013931668397325147,
+          "negative_scalar_modes": 36
+        }
+      ],
+      "step": 0.001
+    },
+    {
+      "V1_at_T": -0.0012467021394539236,
+      "angular_Hessian": [
+        [
+          -0.647607884781895,
+          1.3010426069826053e-12,
+          0.014424027990241062,
+          -4.3368086899420177e-13
+        ],
+        [
+          1.3010426069826053e-12,
+          -0.6480465034285066,
+          1.951563910473908e-12,
+          -0.014434544862770154
+        ],
+        [
+          0.014424027990241062,
+          1.951563910473908e-12,
+          -0.05067315311628462,
+          -2.1684043449710089e-13
+        ],
+        [
+          -4.3368086899420177e-13,
+          -0.014434544862770154,
+          -2.1684043449710089e-13,
+          -0.05064571844022592
+        ]
+      ],
+      "angular_gradient": [
+        8.046490604894652e-07,
+        8.673617379884035e-16,
+        2.9791403718948395e-10,
+        6.505213034913027e-16
+      ],
+      "off_shell_scalar_diagnostics": [
+        {
+          "minimum_scalar_mass_squared": -0.0003259749090912855,
+          "negative_scalar_modes": 36
+        },
+        {
+          "minimum_scalar_mass_squared": -0.000235640459079932,
+          "negative_scalar_modes": 42
+        },
+        {
+          "minimum_scalar_mass_squared": -0.000302990529808602,
+          "negative_scalar_modes": 50
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0003029905298085999,
+          "negative_scalar_modes": 50
+        },
+        {
+          "minimum_scalar_mass_squared": -0.000400594757647359,
+          "negative_scalar_modes": 42
+        },
+        {
+          "minimum_scalar_mass_squared": -0.00045431187989153165,
+          "negative_scalar_modes": 42
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0004543118798915266,
+          "negative_scalar_modes": 42
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0004005947576473647,
+          "negative_scalar_modes": 42
+        },
+        {
+          "minimum_scalar_mass_squared": -3.3032348312467375e-05,
+          "negative_scalar_modes": 42
+        },
+        {
+          "minimum_scalar_mass_squared": -5.0807283506196583e-05,
+          "negative_scalar_modes": 36
+        },
+        {
+          "minimum_scalar_mass_squared": -0.00035930675787427017,
+          "negative_scalar_modes": 36
+        },
+        {
+          "minimum_scalar_mass_squared": -0.00023724729644128287,
+          "negative_scalar_modes": 42
+        },
+        {
+          "minimum_scalar_mass_squared": -0.00023605253967083802,
+          "negative_scalar_modes": 42
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0002922614185723195,
+          "negative_scalar_modes": 48
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0002799469296813112,
+          "negative_scalar_modes": 38
+        },
+        {
+          "minimum_scalar_mass_squared": -0.00032686605186525903,
+          "negative_scalar_modes": 48
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0002799469296813239,
+          "negative_scalar_modes": 38
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0003268660518652131,
+          "negative_scalar_modes": 48
+        },
+        {
+          "minimum_scalar_mass_squared": -4.452507331211489e-05,
+          "negative_scalar_modes": 40
+        },
+        {
+          "minimum_scalar_mass_squared": -4.4525073312062426e-05,
+          "negative_scalar_modes": 40
+        },
+        {
+          "minimum_scalar_mass_squared": -0.00032688186793712533,
+          "negative_scalar_modes": 36
+        },
+        {
+          "minimum_scalar_mass_squared": -0.00026880012768284344,
+          "negative_scalar_modes": 42
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0002688001276828456,
+          "negative_scalar_modes": 42
+        },
+        {
+          "minimum_scalar_mass_squared": -0.00032688186793712777,
+          "negative_scalar_modes": 36
+        },
+        {
+          "minimum_scalar_mass_squared": -0.00027948748015460507,
+          "negative_scalar_modes": 50
+        },
+        {
+          "minimum_scalar_mass_squared": -0.00027948748015460274,
+          "negative_scalar_modes": 50
+        },
+        {
+          "minimum_scalar_mass_squared": -0.00032715711745955186,
+          "negative_scalar_modes": 50
+        },
+        {
+          "minimum_scalar_mass_squared": -0.0003271571174595544,
+          "negative_scalar_modes": 50
+        },
+        {
+          "minimum_scalar_mass_squared": -6.962155344415922e-05,
+          "negative_scalar_modes": 36
+        },
+        {
+          "minimum_scalar_mass_squared": -5.283718625370493e-05,
+          "negative_scalar_modes": 42
+        },
+        {
+          "minimum_scalar_mass_squared": -5.283718625366475e-05,
+          "negative_scalar_modes": 42
+        },
+        {
+          "minimum_scalar_mass_squared": -6.962155344416332e-05,
+          "negative_scalar_modes": 36
+        }
+      ],
+      "step": 0.0005
+    }
+  ],
+  "parameters": {
+    "alpha12": 0.0005,
+    "alpha6": 0.02,
+    "c12": 3e-05,
+    "c5": 0.001,
+    "c6": 0.000125,
+    "cutoff": 1.0,
+    "g_trace": 0.2,
+    "lambda": 0.1,
+    "mu": 1.0,
+    "y": 0.15
+  },
+  "primary_sources": [
+    "https://arxiv.org/abs/hep-ph/0111209",
+    "https://arxiv.org/abs/1406.2355"
+  ],
+  "prior_owners": [
+    "analysis/w33_20261001_global_e6_cartan_covariants.py",
+    "analysis/w33_20261001_complete_gauge_scalar_fermion_loop.py",
+    "analysis/w33_20261001_exact_cartan_mirror_completion.py"
+  ],
+  "scalar_Hessian_step_replay_error": 2.220446049250313e-16,
+  "scalar_method": "All162 canonical real fields, inverse-trace-Gram gauge generators; analytic potential Hessian chain rule using central differences of analytic holomorphic gradients. Backgrounds remain on the normalized exact D-flat plane.",
+  "status": "PASS_DECLARED_COMPLETED_EFT_FULL_ONE_LOOP_LOCAL_CONTROL",
+  "tree_angular_Hessian": [
+    [
+      0.32,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.32,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.05,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.05
+    ]
+  ]
+}

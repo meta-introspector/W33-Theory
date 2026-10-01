@@ -1,0 +1,42 @@
+{
+  "anomalous_potential_RG": {
+    "explicit_scale_derivative": "mu*dV/dmu=-2B*d^4",
+    "required_quartic_running": "dL/dlogmu=2B at this order; a beta coefficient does not fix its integration constant.",
+    "scale_boundary": "The E6 strong scale mu0*exp[-8pi^2/(17g0^2)] is a candidate threshold, not a computed condensate or spectator/dilaton coupling. Absolute scale still requires a boundary datum.",
+    "vacuum_counterterm": "Adding rho_vac leaves nongravitational stationary equations unchanged but changes the gravitational vacuum energy. Its finite renormalized value is independent input."
+  },
+  "conventions": "beta(g)=-b0*g^3/(16pi^2); long roots squared2; T27(E6)=3,T3(SU3)=1/2",
+  "coupling_bridge": "g_E6_trace=sqrt3*g_E6_standard; g_SU3_trace=g_SU3_standard/sqrt2. The prior mirror-matched ratio is equality of the standard couplings at one scale.",
+  "field_indices": {
+    "E6_Weyl_sum": "36",
+    "E6_complex_scalar_sum": "9",
+    "SU3_Weyl_sum": "54",
+    "SU3_complex_scalar_sum": "27/2"
+  },
+  "inventory_obstruction": {
+    "n_Weyl81": "bE6=41-6n; bSU3=13/2-9n",
+    "simultaneous_asymptotic_freedom": "requires n=0; even one Weyl81 makes the gauged family SU3 infrared free. Singlet spectators cannot change either one-loop gauge coefficient."
+  },
+  "matching_boundary": "Equal standard couplings do not remain equal: the matched mirror gauge spectrum is a boundary condition at one scale, not an RG invariant relation. Yukawa beta functions and broken-phase thresholds are not computed here.",
+  "one_loop_b0": {
+    "E6": "17",
+    "SU3_family": "-59/2"
+  },
+  "primary_sources": [
+    "https://arxiv.org/abs/1809.06797",
+    "https://arxiv.org/abs/1012.5797",
+    "https://doi.org/10.1016/j.nuclphysb.2023.116266"
+  ],
+  "prior_owners": [
+    "analysis/w33_20261001_complete_gauge_scalar_fermion_loop.py",
+    "analysis/w33_20261001_anomalous_scale_completion.py"
+  ],
+  "running_from_equal_g0": {
+    "E6_strong_log_mu_over_mu0": "-8*pi**2/(17*g**2)",
+    "SU3_Landau_log_mu_over_mu0": "16*pi**2/(59*g**2)",
+    "inverse_difference": "-93*t/(16*pi**2)",
+    "inverse_gE6_squared": "17*t/(8*pi**2) + g**(-2)",
+    "inverse_gSU3_squared": "-59*t/(16*pi**2) + g**(-2)"
+  },
+  "status": "PASS_EXACT_DECLARED_UV_BETA_AND_SCALE_BOUNDARY"
+}
