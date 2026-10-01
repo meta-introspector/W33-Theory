@@ -1113,3 +1113,34 @@ fraction = P(c = n)); "the twist as a discrete Bargmann phase" should cite 11209
 - Producer and focused regression pass (5 tests, 151.93 s). Rediscovery guard is clean after reading/citing prior
   ownership. RESULTS_INDEX was regenerated. Publication remains scoped GitKraken staging/commit/push after the
   parallel staged Pass 11213-11216 packet clears.
+
+### 2026-10-01 - Passes 11212, 11217, 11219 (Claude track; all on master)
+
+- **Integration (c8fe5fc3):** Theorem 4.8 (A = n - c), the Maslov/Bargmann paragraph, the Kramers paragraph and the
+  references went into papers/forty_points. Also added: ledger rows for 11207-11211, docs cards, workflows, and exact
+  arrow-free fractions for PASS11204 (n = 4, 5 from the 11208 census; the n = 4 sample is 1.5 sigma off). main.pdf is
+  rebuilt with xelatex.
+- **11212, one chirality:**
+  - the Maslov count chi = 54 Q on all 512 members of the 256 pair;
+  - 11201's 6912 pattern vanishes on most labellings and equals -sign(chi) on the rest, and takes both signs on achiral
+    orbitals (scope refinement of 11201);
+  - the Choi phase sorted by block type is label-free, chiral exactly on the four time-directed relations, and
+    separates all 20.
+  - Bug caught in the pass: the code matrix was first read as [input, output] instead of [output, input].
+- **11217, qubit arrow law (proof):**
+  - an exact characteristic-2 criterion (bi-Lagrangian with fixed radical and q != 0, or L = radical), additive over
+    orthogonal sums;
+  - F[s]-lattice constructions for V(2k) (k >= 3) and W(k) (k >= 4);
+  - graphs and real forms for the f != x+1 pieces; V(4), W(2), W(3) by search;
+  - the closed form c = m1/2 + chi2 m2 + m1(x^2+x+1) is exact on 320 classes (n <= 5);
+  - qubit E[c] is about 0.665 (exact for n <= 5).
+- **11219, Gaussian arrow law:**
+  - the odd proof is field-general, so the law holds on Sp(2n, R);
+  - A = minimal inter-mode coupling rank, = 2 x #loxodromic quartets in the semisimple case;
+  - stable and squeezing dynamics have A = 0;
+  - the arrow switches on exactly at opposite-signature Krein collisions.
+  - The vacuum-entanglement reading was tested and dropped (over-read).
+- Pitfall again: `pkill -f <pattern>` kills its own shell when the pattern appears in the command line. Use the
+  `[x]` bracket trick.
+- Open: exact qubit E[c] limit (Fulman + Hesselink); entropic and operator-entanglement version of the Gaussian law;
+  why 54 = chi/Q; LC classification of AME(10,3); RESULTS_INDEX regeneration on the Windows workstation.
