@@ -1183,3 +1183,11 @@ fraction = P(c = n)); "the twist as a discrete Bargmann phase" should cite 11209
   corrected (11233).
 - AME(10,3): 138 new states, all Glynn (11229). Every state with a twisted 10-cycle symmetry is F9-linear (11249).
 - Dynamical area law is approximate only (11231).
+
+## 2026-10-01 - Pass 11218 completed and published
+
+- Execution commit `e850f5aee`, merge commit `61e40a51f`, and frontier integration commit `a638f6dde` are on `master`.
+- The signed $E_8$ cubic has an explicit sparse background with exact Jacobian rank 78. Its exact three-dimensional kernel is pairwise bracket-commuting and contains the background; the complementary principal determinant is $2^{76}3^{24}5^2 7^2$.
+- The order-three $E_8/(E_6+A_2)$ grading identifies this as a rank-three Cartan slice with little Weyl group $G_{26}$ and invariant degrees 6, 12, 18. The prior extended-Clifford/$G_{26}$ no-go remains intact because it concerns a different group action.
+- Read against Passes 11225, 11227, 11235, 11236, 11242, and 11246: finite residual symmetry does not fix complete mixing; entangled cubic dynamics supplies a separate CP-odd layer; the new quotient gives vacuum alignment an exact three-coordinate domain.
+- Producer replayed successfully; focused regression passed (`1 passed in 172.01s`); the rediscovery guard is clean after direct ownership citations. The next exact target is the degree-39 restricted Pfaffian and its possible degree-6 times degree-33 $G_{26}$ factorization.
