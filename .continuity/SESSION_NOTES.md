@@ -1191,3 +1191,37 @@ fraction = P(c = n)); "the twist as a discrete Bargmann phase" should cite 11209
 - The order-three $E_8/(E_6+A_2)$ grading identifies this as a rank-three Cartan slice with little Weyl group $G_{26}$ and invariant degrees 6, 12, 18. The prior extended-Clifford/$G_{26}$ no-go remains intact because it concerns a different group action.
 - Read against Passes 11225, 11227, 11235, 11236, 11242, and 11246: finite residual symmetry does not fix complete mixing; entangled cubic dynamics supplies a separate CP-odd layer; the new quotient gives vacuum alignment an exact three-coordinate domain.
 - Producer replayed successfully; focused regression passed (`1 passed in 172.01s`); the rediscovery guard is clean after direct ownership citations. The next exact target is the degree-39 restricted Pfaffian and its possible degree-6 times degree-33 $G_{26}$ factorization.
+
+## 2026-10-01 - Passes 11255-11259 G26 Cartan-vacuum correction packet
+
+- Reserved and pushed Passes 11255-11259 in `ee34af651` after fetching and fast-forwarding `master`.
+- Pass 11255 corrects Pass 11218: the displayed 3D kernel is an exact abelian centralizer, but its first basis vector has integral adjoint `N=18 ad(v)` with `N^4 != 0` and `N^5 = 0`. It is not semisimple and therefore not a Vinberg Cartan subspace.
+- The old restricted 78x78 Pfaffian factors exactly as `-(5112848641047920640/5) H6(y,z)^3 Q2(y,z)^10 (96x+5y-120z)`. The identity passed the complete 820-point unisolvent grid for total degree at most 39. Its high-multiplicity factor pattern is not the G26 reflection Jacobian.
+- Retained from Pass 11218: exact rank 78, kernel dimension 3, pairwise commutativity, the determinant/Pfaffian rank witness, and the abstract rank-three G26 classification. Withdrawn: identifying this displayed kernel with the semisimple Cartan or its quotient coordinates.
+- Pass 11256 implements the standard G26 invariants of degrees 6,12,18, factors their degree-33 Jacobian into 21 complex reflection hyperplanes, and builds a controlled positive orbit-distance Hessian at `(1,2,3)` with eigenvalues about `2.01443, 62.5328, 1269.923`.
+- Pass 11257 computes a diagnostic minimum-norm 81D lift through the invalidated old kernel. All 27 Schlaefli `1+10+16` references have distinct block-trace profiles, so it cannot support reference-independent masses.
+- Pass 11258 gives a conditional postselected cubic-phase interface with rephasing-invariant `J=0.00952765713467`; symmetry/phase-free controls vanish and conjugation reverses the sign. This is not a CKM prediction without the semisimple embedding.
+- Pass 11259 proves the orbit-centred Hessian identity `2 J^T J`, separates discriminant ramification from CP, and finds no supertrace cancellation for any nontrivial signing of the three controlled modes through moments 1-6. No cosmological-constant claim is made.
+- All six focused test functions pass by direct invocation in 12.65 s; producer replay, `py_compile`, rediscovery guard, and docs assertions pass. Normal local pytest collection is unusually slow because the repository collection hook scans all test files before honoring the explicit file list; CI on a native Linux filesystem remains configured normally.
+
+## 2026-10-01 — framed magic resource and new-packet audit
+
+- Reviewed the new exact Cartan/G26, magic/time-reversal, U81 and restored Z6-I charge packets against current master, certificates, paper and site. The historical three-day inventory is 178 commits/959 paths; this turn is a targeted claim audit, not a claim to have sequentially read every line of the 110 MB patch.
+- Balanced G26 mirror barrier: exact T-magic local Hessian (30,30,54,54), known 72-ray Clifford orbit, one-MUB signature. Regenerated stale certificate; replay passes.
+- New resource connection: eight Pauli orbits of nine; retaining a Clifford representative yields all 648 existing T-injection branches; uniformly forgetting the displacement gives I/3 and an entanglement-breaking dephasing channel. Exact symbolic twirl; finite numerical orbit/operator controls.
+- Four prior rank-54 U81 transducers are cocycle-blind and survive both orientations; antiunitary swaps orientations, but energetic sign selection and hardware remain open.
+- Grade-pair kinetic Gram is integer reconstruction from numerical brackets, not independently certified exact trace arithmetic. Local polynomial Hessian is exact conditional on the displayed Gram.
+- Z6-I audit: all 69 stored examples lose mu protection if only the third-plane R charge is retained; no-R control also 0/69. Physical gamma/Wilson-corrected census remains open; prior raw-lattice counts preserved. User conflict-reconciliation question pending.
+- Focused suite: original six other tests passed, regenerated balanced replay passed; updated metric regression passed. Paper compile fixed undefined rank notation. Rediscovery guard run; inverted-index rebuild in progress.
+- Publication packet excludes unrelated half-spin edits, unreconciled fidelity scratch and research scratch.
+
+### Global-selector extension (same session)
+
+- Constructed V=lambda(norm^2-r0^2)^2+alpha|u6|^2+beta|u12|^2 on the exact standard G26 Cartan coordinates. For all positive coefficients, exact global minima are the 72 T-orbit rays at fixed radius with an unfixed common phase.
+- Exact Groebner basis: linear B and square-free degree-eight A eliminant; coordinate-zero/infinity exclusions; nine unramified lifts each. No numerical global search is used.
+- Exact unit-T invariant-gradient Gram diag(16,100). Real Hessian: phase zero, radial 8 lambda r0^2, two doublets 32 alpha r0^10 and 200 beta r0^22. These are model curvatures with external couplings, not observed masses.
+- Explicit 81-component invariant extension, radiative stability, physical radial scale, CP selector and quantum preparation remain open. This is an EFT candidate, not a solved TOE or cosmological constant.
+- Report, paper, ledger and visible site updated; final index rebuild and full PDF build are running.
+
+- Final checks: eight focused regressions pass (seven prior-packet tests plus exact global-selector replay); full forty-points PDF rebuilt successfully (typesetting warnings only). Both index builds completed. Local seven-producer intake audit is clean. Global-selector rediscovery guard warns about alpha@22/32/200: reviewed contexts concern fine-structure/null-window/independence numbers, not this polynomial potential or its free coefficient. Existing invariant-potential and T-orbit owners are directly cited.
+- Gravity/mass branch: read `w33_connes_lott_sm_action.py` in entirety. It is an arithmetic/proxy table, not a constructed action: its 384 check actually gives 336, and its Higgs proxy is about 57.24 rather than 125. Do not promote its QED wording; use the newer audited spectral-action and Yukawa operators as the next research baseline.

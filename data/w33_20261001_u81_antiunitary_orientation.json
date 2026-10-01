@@ -1,0 +1,33 @@
+{
+  "boundary": "This identifies the conjugation action on the finite chamber law. It does not derive an energy splitting between s=+1 and s=-1, choose which orientation occurs, or prove that the finite antiunitary is Standard-Model CP.",
+  "checks": {
+    "central_tick_reverses": true,
+    "cocycle_tau_invariant": true,
+    "h27_automorphism": true,
+    "u81_s_to_minus_s": true
+  },
+  "h27_antiunitary": {
+    "automorphism_pairs_checked": 729,
+    "cocycle_invariant": "kappa(tau(h),tau(h'))=kappa(h,h')",
+    "map": "tau(a,b,c)=(-a,b,-c)",
+    "schrodinger_reason": "rho(a,b,c)=omega^c Z^a X^b, so rho(h)^*=rho(tau(h)) because X is real and Z^*=Z^-1"
+  },
+  "interpretation": "The two nonzero chamber cocycle orientations are exactly antiunitary-conjugate when the common H27 quotient is read in its qutrit Schrodinger representation. A state selecting one sign would therefore break this discrete conjugation.",
+  "parents": [
+    "data/w33_pass11067_explicit_h27_central_cocycle_weld.json",
+    "data/w33_pass11068_ternary_cocycle_deformation.json",
+    "data/w33_pass11069_nested_commutator_cubic_tick.json"
+  ],
+  "schema": "w33.20261001.u81-antiunitary-orientation.v1",
+  "status": "PASS_QUTRIT_CONJUGATION_EXCHANGES_THE_TWO_ORIENTED_U81_COCYCLE_LAWS",
+  "u81_extension": {
+    "central_tick": "Pass 11069 gives [e0,[e0,e1]]=(0,0,0,-s), hence the class-three tick reverses with s",
+    "element_pair_checks": 13122,
+    "law": "Psi(x star_s y)=Psi(x) star_{-s} Psi(y)",
+    "map": "Psi(h,d)=(tau(h),-d)",
+    "oriented_laws": [
+      1,
+      2
+    ]
+  }
+}

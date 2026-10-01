@@ -45,7 +45,7 @@ three-family Standard Models, and the same geometry specifies a quantum computer
      $\bullet$ which chirality, and why\\
      $\bullet$ a stable universe beyond\\ \phantom{$\bullet$} heterotic orbifolds\\
      $\bullet$ masses, mixings, couplings\\
-     $\bullet$ the $54$ chamber transducer\\
+     $\bullet$ a physical $54$ chamber gate\\
      $\bullet$ magic-state injection\\
      $\bullet$ a built device};
 \end{tikzpicture}
@@ -113,20 +113,22 @@ representations pair up.
       dynamical curvature?
 \item \textbf{Chirality from outside.} Corollary~9.7 shows that reversing time's orientation,
       acting antiunitarily and exchanging chirality are one coset, so fixing an arrow makes
-      chirality conserved but does not choose it. What physical datum correlates the two ---
-      which chirality goes with which direction of time --- and can it come from a vacuum? (There is
-      exactly one such global sign to fix: the symplectic multiplier is the only nontrivial character of
-      $\PGSp(4,3)$; Holotrade 98cafff, P11091.)
-\item \textbf{The $54$ chamber transducer.} The literal $H_{27}$-equivariant
-      $54\times54$ intertwiner is impossible: the exact character ceiling is rank $36$.
-      Exact elimination instead gives a symmetry-changing $36+18$ quotient complement,
-      and individual $27$-triangle foliations can already be transverse rank-$54$
-      retyping maps. \cert{w33\_pass10944\_five\_front\_computational\_closure.py}
-      \cert{w33\_pass11062\_single\_foliation\_finite54\_transducer.py}
-      The remaining question is sharper: can such a sparse transducer be
-      embedded into the nonsplit class-three $U_{81}$ chamber update law without losing
-      its certified $S_2\oplus L$ transversality, and can that embedding be realised by a
-      physical finite gate or Hamiltonian?
+      chirality conserved but does not choose it. The chamber law now supplies an exact candidate
+      order parameter: the two nonsplit cocycle orientations $s=\pm1$ are exchanged by qutrit
+      complex conjugation, $\Psi(x\star_s y)=\Psi(x)\star_{-s}\Psi(y)$, and their class-three
+      central tick reverses sign. \cert{w33\_20261001\_u81\_antiunitary\_orientation.py}
+      The remaining problem is dynamical rather than combinatorial: what selects one sign, and does
+      that selected finite orientation couple to the unique global chirality character of
+      $\PGSp(4,3)$ (Holotrade 98cafff, P11091) in a physical vacuum?
+\item \textbf{A physical $54$ chamber gate.} The literal $H_{27}$-equivariant
+      $54\times54$ intertwiner is impossible (rank ceiling $36$), but the symmetry-changing
+      replacement is now explicit. Four single-foliation $27$-triangle factors transport through
+      both nonzero $K_{81}\to U_{81}$ cocycle orientations and remain rank $54$, with
+      $S_2\oplus L$ projection ranks $27+27$ at both split primes. Thus the algebraic
+      class-three transducer exists. \cert{w33\_20261001\_u81\_54d\_cocycle\_transducer.py}
+      What remains is physical: derive a local Hamiltonian or optical circuit whose finite
+      evolution realises one of these transported weighted factors, with an error model and
+      measurable calibration protocol.
 \item \textbf{Numbers.} The up-type Yukawa couplings of the $\Z_6$-I class have a $2+1$
       block structure qualitatively like the observed quark mixing. Can any mass ratio or
       mixing angle be computed, with an error, from a vacuum of the class?

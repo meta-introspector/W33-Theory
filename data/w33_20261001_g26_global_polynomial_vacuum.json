@@ -1,0 +1,73 @@
+{
+  "checks": {
+    "T_regular_exact": true,
+    "T_zero_exact": true,
+    "all_9_lifts_unramified": true,
+    "coprime": true,
+    "eight_simple_cube_solutions": true,
+    "global_sum_of_squares": true
+  },
+  "exact_complete_intersection": {
+    "all_reduced": true,
+    "angular_jacobian_minor_at_T": "87480*r**5 - 87480*r**2",
+    "chart": "z=1; A=x^3, B=y^3",
+    "cube_lifts_per_solution": 9,
+    "cube_ratio_solutions": 8,
+    "eliminant_discriminant": "-101322429897271084682481212383107",
+    "eliminant_factorization": "(A**2 + A + 1)*(A**3 - 3*A**2 - 24*A - 1)*(A**3 + 24*A**2 + 3*A - 1)",
+    "full_invariant_jacobian_at_T": "85030560*r**3 + 42515280",
+    "groebner_basis": [
+      "220*A**7 + 4774*A**6 - 17046*A**5 - 139748*A**4 - 128918*A**3 - 108018*A**2 + 16003*A + 1539*B + 619",
+      "A**8 + 22*A**7 - 71*A**6 - 659*A**5 - 773*A**4 - 659*A**3 - 71*A**2 + 22*A + 1"
+    ],
+    "no_coordinate_zero": true,
+    "no_points_at_infinity": true,
+    "no_u9_zero": true,
+    "projective_solutions": 72,
+    "u18_at_T_raw": "-27"
+  },
+  "orbit_identification": {
+    "argument": "The prior standard G26 invariant ring is C[u6,u12,u18]. Every nonzero common zero has nonzero u18 and can be scaled to the T value. Fibers of a finite-group invariant quotient are single group orbits. Therefore these 72 rays are the projective G26/Clifford T orbit, independently of numerical orbit counting.",
+    "prior_numeric_crosscheck": "data/w33_20261001_balanced_g26_tmagic_vacuum.json"
+  },
+  "physical_boundary": [
+    "A constructed scalar effective potential, not an action uniquely derived from W33.",
+    "Degree-12 and degree-24 interactions are nonrenormalizable in four dimensions; a cutoff or UV mechanism is required.",
+    "Positive coefficients and radius are external inputs; angular vacuum location is independent of their values, masses are not.",
+    "The U(1) phase is flat unless gauged or lifted; no CP/time orientation is selected.",
+    "A classical scalar vacuum is not a prepared qutrit state or a fault-tolerant magic factory.",
+    "The chosen zero of V is not a prediction for the cosmological constant; additive vacuum energy and quantum corrections are unconstrained."
+  ],
+  "potential": {
+    "Hessian_scope": "Euclidean real kinetic coordinates of the standard unitary representation; coefficients are not physical predictions",
+    "angular_coefficient_independence": true,
+    "degrees": [
+      4,
+      12,
+      24
+    ],
+    "formula": "V(v)=lambda*(v^dag v-r0^2)^2 + alpha*|u6(v)|^2 + beta*|u12(v)|^2",
+    "global_minimum_value": 0,
+    "minimizers": "72 projective rays at norm r0; each retains a common U(1) phase",
+    "parameters": "lambda,alpha,beta,r0 > 0 (appropriate powers of a cutoff for dimensionful fields)",
+    "proof": "All summands are nonnegative and T has u6=u12=0. The reduced complete intersection consists of 72 rays. Radial square fixes the norm. The angular Hessian is 2 Re(J^dag diag(alpha,beta) J), positive on the projective tangent; no global numerical optimization is used.",
+    "real_Hessian_spectrum": "0, 8*lambda*r0^2, 32*alpha*r0^10 (twice), 200*beta*r0^22 (twice)",
+    "unit_T_angular_gradient_Gram": [
+      [
+        16,
+        0
+      ],
+      [
+        0,
+        100
+      ]
+    ]
+  },
+  "prior_owners": [
+    "analysis/w33_pass11256_g26_invariant_potential.py",
+    "analysis/w33_pass11269_g26_qutrit_dictionary.py",
+    "analysis/w33_20261001_balanced_g26_tmagic_vacuum.py"
+  ],
+  "schema": "w33.20261001.g26-global-polynomial-vacuum.v1",
+  "status": "PASS_EXACT_72_REDUCED_GLOBAL_POLYNOMIAL_VACUUM_RAYS"
+}

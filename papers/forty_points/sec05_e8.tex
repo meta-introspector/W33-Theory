@@ -225,7 +225,7 @@ There is an integral signed-cubic background $v$ whose cubic Jacobian has rank $
 whose grade-one centraliser is a three-dimensional commuting plane $\mathfrak c$. For
 $N=18\,\mathrm{ad}(v)$,
 \[
- \rank N=\rank N^3=234.
+ \operatorname{rank} N=\operatorname{rank} N^3=234.
 \]
 The three diagonal blocks of $N^3$ have rank $78$ and the same nonzero characteristic
 polynomial. The only repeated factors have degree nine and each has its full
@@ -263,6 +263,75 @@ isolate the SIC and stabilizer wall arrangements separately. The index five is
 only the determinant of this divisor lattice; it is not a physical $\Z_5$,
 particle count or coupling. \tierC\ (\cert{w33\_20261001\_g26\_e8\_mirror\_separation.py})
 
+The same exact Cartan plane admits a reconstructed positive grade-pair form from
+the numerical $E_8$ bracket coordinates. In the committed basis,
+\[
+G_{ij}=\mathrm{Tr}\!\left(\mathrm{ad}(q_i\in\mathfrak g_1)\,
+                              \mathrm{ad}(q_j\in\mathfrak g_2)\right)
+ =\begin{pmatrix}590&20&0\\20&980&0\\0&0&300\end{pmatrix},
+\]
+whose principal minors are $590$, $577800$ and $173340000$. Thus, after the natural
+$\mathfrak g_1\leftrightarrow\mathfrak g_2$ grade-exchange identification, the semisimple slice has an
+positive kinetic candidate for this declared identification. This choice is
+additional structure and is not identified with the unitary $G_{26}$ metric.
+Using it without fitted coefficients gives a useful failure mode. If
+$F=C_3N_9S_9$ is the product of all $21$ mirror forms, the projective functional
+$|F|^2/(q^\dagger Gq)^{21}$ has an exact strict local maximum at $[0{:}0{:}1]$:
+both real and imaginary tangent Hessians of its logarithm are negative definite
+conditional on the displayed reconstructed Gram matrix.
+That ray maps to the qutrit $[1,\zeta_9,\zeta_9^{-1}]$ and its cubic postselection
+interface has zero Jarlskog invariant. Equal mirror repulsion therefore does
+\emph{not} generate CP; an additional oriented datum is required.
+\tierC\ (\cert{w33\_20261001\_cartan\_kinetic\_wall\_vacuum.py})
+
+The qutrit ray just displayed is exactly the standard qutrit $T$-magic ray
+$|T_3\rangle=(1,\zeta_9,\zeta_9^{-1})/\sqrt3$. For the coefficient-free
+equal-wall logarithmic barrier in the standard unitary $G_{26}$ metric it is an
+exact stationary point whose real projective Hessian has spectrum
+$30,30,54,54$. Its projective Clifford orbit has $72$ rays, stabiliser $C_3$,
+and every ray singles out exactly one of the four stabilizer MUBs by the purity
+pattern $(1/3,5/9,5/9,5/9)$, with $18$ rays per MUB. Through the dictionary
+below this selects one tetrahedral $\phi$ axis; the residual $C_3$ cycles the
+other three axes, so one further ternary selector chooses an incident oriented
+chord, all of which lie in the TM$_1$ class of Pass~11267. Complex conjugation
+stays inside the same $72$-ray orbit and leaves
+$(u_6,u_{12},u_{18})=(0,0,-1/729)$ unchanged, so no scalar $G_{26}$-invariant
+Cartan potential can choose the CP/time orientation.
+\tierC\ (\cert{w33\_20261001\_balanced\_g26\_tmagic\_vacuum.py})
+
+There is also a regular polynomial selector with an exact global statement.
+For $\lambda,\alpha,\beta,r_0>0$,
+\[
+ V(v)=\lambda(v^\dagger v-r_0^2)^2+\alpha|u_6(v)|^2+\beta|u_{12}(v)|^2
+\]
+has precisely the $72$ projective $T$-orbit rays as global minima at radius
+$r_0$, with a common phase still free. In the chart $z=1$, the cube ratios
+$A=x^3$, $B=y^3$ have eight simple solutions; the exact eliminant factors as
+$(A^2+A+1)(A^3-3A^2-24A-1)(A^3+24A^2+3A-1)$.
+All coordinates are nonzero and there are no points at infinity, so the nine
+cube-root lifts give $72$ reduced rays. The invariant quotient identifies
+these with the $T$ orbit. Their location is independent of positive angular
+coefficients. In standard real kinetic coordinates the Hessian spectrum is
+$0$, $8\lambda r_0^2$, $32\alpha r_0^{10}$ (twice) and
+$200\beta r_0^{22}$ (twice). This is a constructed scalar effective potential;
+its higher-degree interactions, radius, couplings and phase require physical
+input. Neither these curvatures nor its chosen zero energy predict masses or
+the cosmological constant.
+\tierC\ (\cert{w33\_20261001\_g26\_global\_polynomial\_vacuum.py})
+
+The computational interface needs an additional classical datum: a Clifford
+frame for the selected ray. The $72$ rays split into eight nine-ray Pauli
+orbits, two per MUB axis. Uniformly forgetting the displacement within even
+one such orbit gives $I/3$, by the symbolic Pauli-twirl identity. Retaining a
+representative $C$ permits $C^\dagger$ followed by \textsc{sum} with a fresh
+$|0\rangle$ to prepare $(I\otimes T)|\Phi_3\rangle$. All $72\times9=648$
+ray/Bell branches replay the existing injection identity
+$C_{ab}K_{ab}=T/3$. If the frame is uniformly forgotten, the same protocol
+instead gives the entanglement-breaking channel $\rho\mapsto\operatorname{diag}\rho$.
+Thus orbit selection and frame retention are separate resources; a
+state-preparation Hamiltonian and its noise model remain open.
+\tierC\ (\cert{w33\_20261001\_tmagic\_orbit\_factory\_contract.py})
+
 The twelve stabilizer mirrors form the four qutrit mutually unbiased bases. Complex-linear
 $G_{26}$ reflections induce $A_4$ on those four bases; complex conjugation supplies an odd
 transposition and completes the image to $S_4$. This identifies the line-stabiliser
@@ -286,12 +355,12 @@ gives an \emph{integer} grading. On the committed Chevalley basis:
 \begin{result}{Theorem 5.5 (Hesse clocks grade $E_8$) \hfill \tierC}
 \begin{enumerate}[label=(\roman*),leftmargin=1.5em]
 \item A single Hesse line (a ``tick'') induces the \emph{contact grading}
-      \[ E_8=\g_{-2}\oplus\g_{-1}\oplus\g_0\oplus\g_1\oplus\g_2,\qquad 1+56+134+56+1, \]
-      with $\g_0=E_7\oplus\C$.
+      \[ E_8=\mathfrak g_{-2}\oplus\mathfrak g_{-1}\oplus\mathfrak g_0\oplus\mathfrak g_1\oplus\mathfrak g_2,\qquad 1+56+134+56+1, \]
+      with $\mathfrak g_0=E_7\oplus\C$.
 \item An oriented striation (three parallel ticks) induces the \emph{$|3|$-grading}
       \[ 2+27+54+82+54+27+2, \]
-      with Levi $\g_0=E_6\oplus A_1\oplus\C$, $\g_{\pm1}=\mathbf{27}\otimes\mathbf2$,
-      $\g_{\pm2}=\mathbf{27}$, $\g_{\pm3}=\mathbf2$.
+      with Levi $\mathfrak g_0=E_6\oplus A_1\oplus\C$, $\mathfrak g_{\pm1}=\mathbf{27}\otimes\mathbf2$,
+      $\mathfrak g_{\pm2}=\mathbf{27}$, $\mathfrak g_{\pm3}=\mathbf2$.
 \item The repository's frozen $\Z_3$-grading $86+81+81$ is exactly this integer grading
       reduced modulo three; all $8\,347$ nonzero committed structure constants obey the
       integer degree law.
@@ -338,14 +407,14 @@ the identification with the Hesse clocks and the committed structure constants.
 \subsection{The cubic ladder: three steps to the top}
 
 In the $|3|$-grading, positive degrees form a nilpotent algebra
-$\g_+=\g_1\oplus\g_2\oplus\g_3$ of dimension $54+27+2=83$. It is generated by $\g_1$, and
+$\mathfrak g_+=\mathfrak g_1\oplus\mathfrak g_2\oplus\mathfrak g_3$ of dimension $54+27+2=83$. It is generated by $\mathfrak g_1$, and
 the way it fills up is governed by the $E_6$ cubic.
 
 \begin{result}{Theorem 5.6 (the bracket ladder) \hfill \tierC}
 On the committed Chevalley bracket:
 \begin{enumerate}[label=(\roman*),leftmargin=1.5em]
-\item $[\g_1,\g_1]=\g_2$: $270$ nonzero pairs hit all $27$ grade-two roots, each ten times;
-\item $[\g_1,\g_2]=\g_3$: $54$ nonzero pairs hit both top roots, each $27$ times;
+\item $[\mathfrak g_1,\mathfrak g_1]=\mathfrak g_2$: $270$ nonzero pairs hit all $27$ grade-two roots, each ten times;
+\item $[\mathfrak g_1,\mathfrak g_2]=\mathfrak g_3$: $54$ nonzero pairs hit both top roots, each $27$ times;
 \item the nonzero nested triple brackets exhibit exactly the $45$ triads of the cubic,
       each $12$ times, and for every signed triad $d_{ijk}$,
       $[[e_{(i,0)},e_{(j,1)}],e_{(k,a)}]=-d_{ijk}\,T_a$ for $a\in\{0,1\}$.
@@ -359,11 +428,11 @@ which three first-order moves reach the two-dimensional top.
 \centering
 \begin{tikzpicture}[>={Stealth[length=2.3mm]},
    blk/.style={draw=#1,fill=#1!12,rounded corners=3pt,align=center,font=\sffamily\scriptsize,minimum height=9mm}]
-  \node[blk=teal,minimum width=36mm] (g1) at (0,0) {$\g_1=\mathbf{27}\otimes\mathbf2$\\$54$ first-order moves};
-  \node[blk=rose,minimum width=26mm] (g2) at (4.6,0) {$\g_2=\mathbf{27}$\\$27$ histories};
-  \node[blk=ink,minimum width=18mm] (g3) at (8.3,0) {$\g_3=\mathbf2$\\top doublet};
-  \draw[->,line width=1pt] (g1) -- node[above,font=\scriptsize]{$[\g_1,\g_1]$} node[below,font=\tiny,text=slate]{$270$ pairs, $\times10$} (g2);
-  \draw[->,line width=1pt] (g2) -- node[above,font=\scriptsize]{$[\g_1,\cdot\,]$} node[below,font=\tiny,text=slate]{$54$ pairs, $\times27$} (g3);
+  \node[blk=teal,minimum width=36mm] (g1) at (0,0) {$\mathfrak g_1=\mathbf{27}\otimes\mathbf2$\\$54$ first-order moves};
+  \node[blk=rose,minimum width=26mm] (g2) at (4.6,0) {$\mathfrak g_2=\mathbf{27}$\\$27$ histories};
+  \node[blk=ink,minimum width=18mm] (g3) at (8.3,0) {$\mathfrak g_3=\mathbf2$\\top doublet};
+  \draw[->,line width=1pt] (g1) -- node[above,font=\scriptsize]{$[\mathfrak g_1,\mathfrak g_1]$} node[below,font=\tiny,text=slate]{$270$ pairs, $\times10$} (g2);
+  \draw[->,line width=1pt] (g2) -- node[above,font=\scriptsize]{$[\mathfrak g_1,\cdot\,]$} node[below,font=\tiny,text=slate]{$54$ pairs, $\times27$} (g3);
   \node[font=\sffamily\scriptsize,text=slate] at (0,-1.1) {cumulative $54$};
   \node[font=\sffamily\scriptsize,text=slate] at (4.6,-1.1) {cumulative $81$};
   \node[font=\sffamily\scriptsize,text=slate] at (8.3,-1.1) {cumulative $83$};

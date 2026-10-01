@@ -1,0 +1,143 @@
+{
+  "boundary": "This closes the algebraic embedding of the certified sparse 54D factors into U81. It does not derive a laboratory Hamiltonian, pulse duration, fault-tolerance threshold, or a dynamical choice of cocycle orientation.",
+  "checks": {
+    "all_four_perfect_factors_blind": true,
+    "blind_factors_6_to_9": true,
+    "rank54_all_replays": true,
+    "twisted_right_actions_identical": true
+  },
+  "cocycle": "kappa((a,b,c),(A,B,C))=A^2*b-2*A*c mod 3",
+  "criterion": "right generators with A=0 are cocycle-blind for every carrier label",
+  "finite_gate_consequence": "The same one-parameter Cayley gate C_t(F) from Pass11062 remains a sparse finite retyping gate in the nonsplit chamber law for every nonzero real t; no cocycle-dependent retuning is needed.",
+  "nontriviality": "Only factors 6-9 are cocycle-blind; the other six weld directions genuinely feel the class-three twist.",
+  "orientations": {
+    "minus": {
+      "cocycle_blind_factors": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "perfect_survivors": [
+        {
+          "factor": 6,
+          "generator": [
+            0,
+            2,
+            2,
+            1
+          ],
+          "ranks": [
+            {
+              "L": 27,
+              "S2": 27,
+              "prime": 103,
+              "quotient": 54,
+              "raw": 54
+            },
+            {
+              "L": 27,
+              "S2": 27,
+              "prime": 109,
+              "quotient": 54,
+              "raw": 54
+            }
+          ]
+        },
+        {
+          "factor": 9,
+          "generator": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "ranks": [
+            {
+              "L": 27,
+              "S2": 27,
+              "prime": 103,
+              "quotient": 54,
+              "raw": 54
+            },
+            {
+              "L": 27,
+              "S2": 27,
+              "prime": 109,
+              "quotient": 54,
+              "raw": 54
+            }
+          ]
+        }
+      ]
+    },
+    "plus": {
+      "cocycle_blind_factors": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "perfect_survivors": [
+        {
+          "factor": 7,
+          "generator": [
+            0,
+            2,
+            2,
+            2
+          ],
+          "ranks": [
+            {
+              "L": 27,
+              "S2": 27,
+              "prime": 103,
+              "quotient": 54,
+              "raw": 54
+            },
+            {
+              "L": 27,
+              "S2": 27,
+              "prime": 109,
+              "quotient": 54,
+              "raw": 54
+            }
+          ]
+        },
+        {
+          "factor": 8,
+          "generator": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "ranks": [
+            {
+              "L": 27,
+              "S2": 27,
+              "prime": 103,
+              "quotient": 54,
+              "raw": 54
+            },
+            {
+              "L": 27,
+              "S2": 27,
+              "prime": 109,
+              "quotient": 54,
+              "raw": 54
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "parents": [
+    "data/w33_pass11062_single_foliation_finite54_transducer.json",
+    "data/w33_pass11067_explicit_h27_central_cocycle_weld.json",
+    "data/w33_pass11068_ternary_cocycle_deformation.json"
+  ],
+  "schema": "w33.20261001.u81-cocycle-blind-54-transducer.v1",
+  "status": "PASS_PERFECT_54D_TRIANGLE_TRANSDUCERS_SURVIVE_THE_NONSPLIT_U81_COCYCLE_UNCHANGED",
+  "theorem": "All four Pass11062 perfect single-foliation generators have first H27 coordinate A=0. Hence kappa(h,g)=0 identically, so right multiplication by g is literally the same for s=0,+1,-1. Their weighted 27-triangle matrices therefore embed unchanged as U81 Cayley factors and retain raw rank 54 and quotient ranks S2=27, L=27 over both split primes."
+}

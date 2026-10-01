@@ -1,0 +1,186 @@
+{
+  "boundary": "The local minimum and Hessian are exact; the 72-ray orbit/MUB census is finite numerical group enumeration. Global optimality of the log barrier is not proved. A physical radial scale, chord-selector dynamics and chirality-breaking interface remain separate requirements.",
+  "canonical_vacuum": "|T3>=(1,zeta9,zeta9^-1)/sqrt(3)",
+  "checks": {
+    "exact_stationary": true,
+    "hessian_positive": [
+      30,
+      30,
+      54,
+      54
+    ],
+    "kinetic_pullback_exact": true,
+    "one_MUB_axis_per_ray": true,
+    "orbit72": true,
+    "quotient_coordinates_exact": true
+  },
+  "chirality_firewall": {
+    "consequence": "no scalar G26-invariant Cartan potential can choose the CP/time orientation inside this orbit",
+    "parity_map": "swap computational basis states 1 and 2 sends |T3> to its complex conjugate and is Clifford",
+    "quotient_coordinates": "u6=u12=0, u18=-1/729 are therefore identical for both conjugates"
+  },
+  "exact_local": {
+    "hessian_characteristic_polynomial": "lambda**4 - 168*lambda**3 + 10296*lambda**2 - 272160*lambda + 2624400",
+    "hessian_eigenvalues": [
+      30,
+      30,
+      54,
+      54
+    ],
+    "hessian_orbit_split": {
+      "MUB_12": [
+        [
+          "24",
+          "0",
+          "24",
+          "0"
+        ],
+        [
+          "0",
+          "24",
+          "0",
+          "-24"
+        ],
+        [
+          "24",
+          "0",
+          "24",
+          "0"
+        ],
+        [
+          "0",
+          "-24",
+          "0",
+          "24"
+        ]
+      ],
+      "MUB_eigenvalues": [
+        0,
+        0,
+        48,
+        48
+      ],
+      "SIC_9": [
+        [
+          "18",
+          "0",
+          "-36",
+          "0"
+        ],
+        [
+          "0",
+          "18",
+          "0",
+          "36"
+        ],
+        [
+          "-36",
+          "0",
+          "18",
+          "0"
+        ],
+        [
+          "0",
+          "36",
+          "0",
+          "18"
+        ]
+      ],
+      "SIC_eigenvalues": [
+        -18,
+        -18,
+        54,
+        54
+      ],
+      "complementarity": "the MUB sector adds +48 exactly on the two SIC-unstable modes, while the SIC sector supplies +54 on the two MUB-flat modes"
+    },
+    "raw_basic_invariants": [
+      "0",
+      "0",
+      "-27"
+    ],
+    "real_projective_hessian": [
+      [
+        "42",
+        "0",
+        "-12",
+        "0"
+      ],
+      [
+        "0",
+        "42",
+        "0",
+        "12"
+      ],
+      [
+        "-12",
+        "0",
+        "42",
+        "0"
+      ],
+      [
+        "0",
+        "12",
+        "0",
+        "42"
+      ]
+    ],
+    "stationary_equation": "sum_n n<n|m>/|<n|m>|^2 = 7 m",
+    "unit_basic_invariants": [
+      "0",
+      "0",
+      "-1/729"
+    ]
+  },
+  "finite_orbit": {
+    "MUB_axis_counts": [
+      18,
+      18,
+      18,
+      18
+    ],
+    "MUB_purity_pattern": [
+      "1/3",
+      "5/9",
+      "5/9",
+      "5/9"
+    ],
+    "TM1_reading": "one MUB/tetrahedral phi axis is selected; the residual C3 cycles the other three axes",
+    "T_state_orbit_size": 72,
+    "T_state_stabilizer_order": 3,
+    "projective_clifford_order": 216
+  },
+  "kinetic_metric": {
+    "rescaled_coordinates": "q=(a*x,a^2*y,z) gives 3*I",
+    "standard_hermitian_pullback": "3*diag(a^2,a^4,1), a^3=2",
+    "unique_up_to_overall_scale": "G26 standard reflection representation is irreducible and unitary"
+  },
+  "parents": [
+    "data/w33_20261001_g26_e8_mirror_separation.json",
+    "data/w33_pass11262_g26_mub_s4_yukawa_bridge.json",
+    "data/w33_pass416_qutrit_distillation_search.json"
+  ],
+  "potential": {
+    "balanced_projective_barrier": "V=-sum_9SIC log|<phi|v>|^2-sum_12MUB log|<s|v>|^2, ||v||=1",
+    "divisor_origin": "(A*B)^5 is proportional to P*J^2, so all 21 mirrors receive equal logarithmic weight",
+    "polynomial_wall_no_go": "V24=lambdaS*||v||^6*|A|^2+lambdaM*|B|^2 has zero-energy SIC-intersection-MUB lines for lambdaS,lambdaM>=0; it cannot select a regular vacuum."
+  },
+  "repo_crosscheck": {
+    "Pass416": "the same 72-ray T-state Clifford orbit was already exhausted as the input/output correction family in the five-qutrit distillation search",
+    "increment": "new here is dynamical selection of that known resource orbit by the G26 mirror chamber plus its one-MUB/tetrahedral-axis signature",
+    "port_boundary": "the port injects a separate T-Choi resource; selecting T_PLUS does not by itself prepare that entangled Choi pair",
+    "qutrit_T_port": "analysis/w33_qutrit_t_teleportation_port.py uses exactly this T_PLUS ray as its Hesse-SIC factory audit reference"
+  },
+  "schema": "w33.20261001.balanced-g26-tmagic-vacuum.v1",
+  "status": "PASS_BALANCED_21_MIRROR_BARRIER_HAS_EXACT_T_MAGIC_LOCAL_MINIMUM_AND_SELECTS_ONE_MUB_AXIS",
+  "time_reversal_weld": {
+    "claim": "shared algebraic level, not by itself a dynamical identity",
+    "largest_probability": "((1+2*cos(2*pi/9))/3)^2 = 0.712386014201...",
+    "meaning": "the same cyclotomic level appears as the exact two-qutrit reversal fidelity level in Pass11265"
+  },
+  "tm1_bridge": {
+    "next_selector": "one ternary choice among the remaining three axes gives an ordered MUB pair and hence an incident oriented chord; Pass11267 classifies every such incident chord as TM1",
+    "residual": "C3 vertex stabilizer cycles the remaining three MUBs",
+    "selected_object": "exactly one of four MUBs, hence one tetrahedral phi axis"
+  }
+}

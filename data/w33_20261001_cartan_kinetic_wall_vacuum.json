@@ -1,0 +1,128 @@
+{
+  "boundary": "The local maximum is exact but global maximality is not proved. The positive form uses the grade-exchange real identification and is a kinetic candidate conditional on this identification, not a measured normalization. No Standard-Model mass or mixing angle is fitted.",
+  "cartan_grade_pair_metric": {
+    "definition": "G_ij=Tr(ad(q_i in g1) ad(q_j in g2)) with the frozen E8 bracket",
+    "eigenvalues_exact": [
+      "300",
+      "785-5*sqrt(1537)",
+      "785+5*sqrt(1537)"
+    ],
+    "matrix": [
+      [
+        590,
+        20,
+        0
+      ],
+      [
+        20,
+        980,
+        0
+      ],
+      [
+        0,
+        0,
+        300
+      ]
+    ],
+    "max_integral_rounding_residual": 2.1316282072803006e-14,
+    "physical_scope": "positive after the natural g1<->g2 grade-exchange identification",
+    "positive_definite": true,
+    "principal_minors": [
+      590,
+      577800,
+      173340000
+    ],
+    "verification_scope": "adjoints reconstructed by rounding numerical bracket coordinates; exact E8 trace identity not independently certified"
+  },
+  "checks": {
+    "cp_interface_zero": true,
+    "imag_tangent_negative": true,
+    "metric_integer_reconstruction": true,
+    "metric_positive": true,
+    "ray_stationary_projectively": true,
+    "real_tangent_negative": true
+  },
+  "parents": [
+    "data/w33_pass11260_exact_semisimple_cartan.json",
+    "data/w33_pass11261_g26_cartan_coordinate_map.json",
+    "data/w33_20261001_g26_e8_mirror_separation.json",
+    "data/w33_pass11258_g26_cubic_cp_interface.json"
+  ],
+  "result": "Integer reconstruction from numerical bracket coordinates supplies the displayed positive Cartan grade-pair Gram form. The coefficient-free equal-mirror-spacing functional has an exact strict local maximum at [0:0:1], but its qutrit image [1,zeta9,zeta9^-1] gives a CP-conserving postselected interface. Thus mirror repulsion alone does not select the observed orientation; an additional odd/oriented datum is required.",
+  "schema": "w33.20261001.cartan-kinetic-wall-vacuum.v1",
+  "status": "PASS_RECONSTRUCTED_E8_CARTAN_GRADE_PAIR_METRIC_AND_CP_SYMMETRIC_EQUAL_MIRROR_LOCAL_VACUUM",
+  "zero_fit_wall_vacuum": {
+    "F_gradient_at_ray": [
+      0,
+      0,
+      21
+    ],
+    "F_tangent_hessian": [
+      [
+        0,
+        12
+      ],
+      [
+        12,
+        0
+      ]
+    ],
+    "candidate_cartan_ray": [
+      0,
+      0,
+      1
+    ],
+    "candidate_standard_qutrit": "[1,zeta9,zeta9^-1] up to global phase",
+    "cp_interface_jarlskog": -6.765421556309548e-17,
+    "cp_zero_tolerance": true,
+    "imag_hessian_det": "265362/25",
+    "imag_hessian_trace": "-1099/5",
+    "log_Phi_imag_tangent_hessian": [
+      [
+        "-413/5",
+        "-134/5"
+      ],
+      [
+        "-134/5",
+        "-686/5"
+      ]
+    ],
+    "log_Phi_real_tangent_hessian": [
+      [
+        "-413/5",
+        "106/5"
+      ],
+      [
+        "106/5",
+        "-686/5"
+      ]
+    ],
+    "polar_abs2": [
+      [
+        0.111111111111108,
+        0.444444444444446,
+        0.444444444444445
+      ],
+      [
+        0.444444444444445,
+        0.111111111111113,
+        0.444444444444442
+      ],
+      [
+        0.444444444444446,
+        0.444444444444441,
+        0.111111111111112
+      ]
+    ],
+    "projective_functional": "Phi=|F|^2/(q^dag G q)^21",
+    "real_hessian_det": "272082/25",
+    "real_hessian_trace": "-1099/5",
+    "singular_values": [
+      0.8440296287459853,
+      0.44909878511128654,
+      0.2931284138572726
+    ],
+    "strict_local_projective_maximum": true,
+    "wall_product": "F=C3*N9*S9 = product of all 21 mirror forms up to a nonzero scalar"
+  }
+}

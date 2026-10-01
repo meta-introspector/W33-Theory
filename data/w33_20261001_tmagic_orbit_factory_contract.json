@@ -1,0 +1,433 @@
+{
+  "boundary": "This connects a conditional prepared ray to the prior ideal injection protocol. The barrier supplies an exact local stationary orbit, not a demonstrated state factory, cooling dynamics, noise threshold, or laboratory reference frame. The 72-ray census is numerical; the universal Pauli-twirl identity is symbolic.",
+  "checks": {
+    "all648_branch_operator_maps": true,
+    "eight_orbits_of_nine": true,
+    "frame_loss_dephases_input": true,
+    "pauli_twirl_symbolic": true,
+    "two_pauli_orbits_per_axis": true
+  },
+  "exact_theorem": "1/9 sum_(a,b) X^a Z^b rho Z^-b X^-a = Tr(rho) I/3",
+  "frame_loss": {
+    "axis_only_average": "I/3",
+    "choi_resource": "1/3 sum_j |jj><jj|",
+    "each_pauli_orbit_average": "I/3",
+    "entanglement_breaking": true,
+    "even_pauli_orbit_label_without_displacement": "I/3",
+    "implemented_channel": "rho -> diag(rho)",
+    "meaning": "A selected MUB axis or scalar invariant value does not specify usable magic. The relative Pauli displacement must be retained or fixed by a physical reference."
+  },
+  "numerical_controls": {
+    "dephasing_channel_operator_error": 6.661338147750939e-16,
+    "maximum_pauli_orbit_twirl_error": 2.2204498291284754e-16
+  },
+  "orbit": {
+    "frame_records": [
+      {
+        "MUB_axis": 0,
+        "projective_clifford_index": 0,
+        "ray": 0
+      },
+      {
+        "MUB_axis": 0,
+        "projective_clifford_index": 1,
+        "ray": 1
+      },
+      {
+        "MUB_axis": 0,
+        "projective_clifford_index": 2,
+        "ray": 2
+      },
+      {
+        "MUB_axis": 0,
+        "projective_clifford_index": 3,
+        "ray": 3
+      },
+      {
+        "MUB_axis": 0,
+        "projective_clifford_index": 4,
+        "ray": 4
+      },
+      {
+        "MUB_axis": 0,
+        "projective_clifford_index": 5,
+        "ray": 5
+      },
+      {
+        "MUB_axis": 0,
+        "projective_clifford_index": 6,
+        "ray": 6
+      },
+      {
+        "MUB_axis": 0,
+        "projective_clifford_index": 7,
+        "ray": 7
+      },
+      {
+        "MUB_axis": 0,
+        "projective_clifford_index": 8,
+        "ray": 8
+      },
+      {
+        "MUB_axis": 0,
+        "projective_clifford_index": 9,
+        "ray": 9
+      },
+      {
+        "MUB_axis": 0,
+        "projective_clifford_index": 10,
+        "ray": 10
+      },
+      {
+        "MUB_axis": 0,
+        "projective_clifford_index": 11,
+        "ray": 11
+      },
+      {
+        "MUB_axis": 0,
+        "projective_clifford_index": 12,
+        "ray": 12
+      },
+      {
+        "MUB_axis": 3,
+        "projective_clifford_index": 13,
+        "ray": 13
+      },
+      {
+        "MUB_axis": 2,
+        "projective_clifford_index": 14,
+        "ray": 14
+      },
+      {
+        "MUB_axis": 1,
+        "projective_clifford_index": 15,
+        "ray": 15
+      },
+      {
+        "MUB_axis": 2,
+        "projective_clifford_index": 16,
+        "ray": 16
+      },
+      {
+        "MUB_axis": 1,
+        "projective_clifford_index": 17,
+        "ray": 17
+      },
+      {
+        "MUB_axis": 3,
+        "projective_clifford_index": 18,
+        "ray": 18
+      },
+      {
+        "MUB_axis": 1,
+        "projective_clifford_index": 19,
+        "ray": 19
+      },
+      {
+        "MUB_axis": 3,
+        "projective_clifford_index": 20,
+        "ray": 20
+      },
+      {
+        "MUB_axis": 2,
+        "projective_clifford_index": 21,
+        "ray": 21
+      },
+      {
+        "MUB_axis": 0,
+        "projective_clifford_index": 22,
+        "ray": 22
+      },
+      {
+        "MUB_axis": 0,
+        "projective_clifford_index": 23,
+        "ray": 23
+      },
+      {
+        "MUB_axis": 0,
+        "projective_clifford_index": 27,
+        "ray": 24
+      },
+      {
+        "MUB_axis": 0,
+        "projective_clifford_index": 28,
+        "ray": 25
+      },
+      {
+        "MUB_axis": 0,
+        "projective_clifford_index": 29,
+        "ray": 26
+      },
+      {
+        "MUB_axis": 3,
+        "projective_clifford_index": 33,
+        "ray": 27
+      },
+      {
+        "MUB_axis": 2,
+        "projective_clifford_index": 34,
+        "ray": 28
+      },
+      {
+        "MUB_axis": 1,
+        "projective_clifford_index": 35,
+        "ray": 29
+      },
+      {
+        "MUB_axis": 2,
+        "projective_clifford_index": 36,
+        "ray": 30
+      },
+      {
+        "MUB_axis": 1,
+        "projective_clifford_index": 37,
+        "ray": 31
+      },
+      {
+        "MUB_axis": 3,
+        "projective_clifford_index": 38,
+        "ray": 32
+      },
+      {
+        "MUB_axis": 1,
+        "projective_clifford_index": 39,
+        "ray": 33
+      },
+      {
+        "MUB_axis": 3,
+        "projective_clifford_index": 40,
+        "ray": 34
+      },
+      {
+        "MUB_axis": 2,
+        "projective_clifford_index": 41,
+        "ray": 35
+      },
+      {
+        "MUB_axis": 3,
+        "projective_clifford_index": 42,
+        "ray": 36
+      },
+      {
+        "MUB_axis": 2,
+        "projective_clifford_index": 43,
+        "ray": 37
+      },
+      {
+        "MUB_axis": 1,
+        "projective_clifford_index": 44,
+        "ray": 38
+      },
+      {
+        "MUB_axis": 2,
+        "projective_clifford_index": 45,
+        "ray": 39
+      },
+      {
+        "MUB_axis": 1,
+        "projective_clifford_index": 46,
+        "ray": 40
+      },
+      {
+        "MUB_axis": 3,
+        "projective_clifford_index": 47,
+        "ray": 41
+      },
+      {
+        "MUB_axis": 1,
+        "projective_clifford_index": 48,
+        "ray": 42
+      },
+      {
+        "MUB_axis": 3,
+        "projective_clifford_index": 49,
+        "ray": 43
+      },
+      {
+        "MUB_axis": 2,
+        "projective_clifford_index": 50,
+        "ray": 44
+      },
+      {
+        "MUB_axis": 3,
+        "projective_clifford_index": 51,
+        "ray": 45
+      },
+      {
+        "MUB_axis": 2,
+        "projective_clifford_index": 52,
+        "ray": 46
+      },
+      {
+        "MUB_axis": 1,
+        "projective_clifford_index": 53,
+        "ray": 47
+      },
+      {
+        "MUB_axis": 2,
+        "projective_clifford_index": 54,
+        "ray": 48
+      },
+      {
+        "MUB_axis": 1,
+        "projective_clifford_index": 55,
+        "ray": 49
+      },
+      {
+        "MUB_axis": 3,
+        "projective_clifford_index": 56,
+        "ray": 50
+      },
+      {
+        "MUB_axis": 1,
+        "projective_clifford_index": 57,
+        "ray": 51
+      },
+      {
+        "MUB_axis": 3,
+        "projective_clifford_index": 58,
+        "ray": 52
+      },
+      {
+        "MUB_axis": 2,
+        "projective_clifford_index": 59,
+        "ray": 53
+      },
+      {
+        "MUB_axis": 3,
+        "projective_clifford_index": 69,
+        "ray": 54
+      },
+      {
+        "MUB_axis": 1,
+        "projective_clifford_index": 71,
+        "ray": 55
+      },
+      {
+        "MUB_axis": 1,
+        "projective_clifford_index": 73,
+        "ray": 56
+      },
+      {
+        "MUB_axis": 3,
+        "projective_clifford_index": 74,
+        "ray": 57
+      },
+      {
+        "MUB_axis": 1,
+        "projective_clifford_index": 75,
+        "ray": 58
+      },
+      {
+        "MUB_axis": 3,
+        "projective_clifford_index": 76,
+        "ray": 59
+      },
+      {
+        "MUB_axis": 3,
+        "projective_clifford_index": 78,
+        "ray": 60
+      },
+      {
+        "MUB_axis": 2,
+        "projective_clifford_index": 79,
+        "ray": 61
+      },
+      {
+        "MUB_axis": 2,
+        "projective_clifford_index": 81,
+        "ray": 62
+      },
+      {
+        "MUB_axis": 3,
+        "projective_clifford_index": 83,
+        "ray": 63
+      },
+      {
+        "MUB_axis": 3,
+        "projective_clifford_index": 85,
+        "ray": 64
+      },
+      {
+        "MUB_axis": 2,
+        "projective_clifford_index": 86,
+        "ray": 65
+      },
+      {
+        "MUB_axis": 2,
+        "projective_clifford_index": 88,
+        "ray": 66
+      },
+      {
+        "MUB_axis": 1,
+        "projective_clifford_index": 89,
+        "ray": 67
+      },
+      {
+        "MUB_axis": 2,
+        "projective_clifford_index": 90,
+        "ray": 68
+      },
+      {
+        "MUB_axis": 1,
+        "projective_clifford_index": 91,
+        "ray": 69
+      },
+      {
+        "MUB_axis": 1,
+        "projective_clifford_index": 93,
+        "ray": 70
+      },
+      {
+        "MUB_axis": 2,
+        "projective_clifford_index": 95,
+        "ray": 71
+      }
+    ],
+    "pauli_orbit_axes": [
+      0,
+      0,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+    ],
+    "pauli_orbit_sizes": [
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9
+    ],
+    "pauli_orbits": 8,
+    "pauli_orbits_per_MUB_axis": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "rays": 72
+  },
+  "prior_owners": [
+    "analysis/w33_20261001_balanced_g26_tmagic_vacuum.py",
+    "analysis/w33_qutrit_t_teleportation_port.py",
+    "analysis/w33_pass411_qutrit_magic_injection.py"
+  ],
+  "retained_frame": {
+    "bell_branches_checked": 648,
+    "choi_preparation_error": 6.661338147750939e-16,
+    "corrected_operator": "T/3 for every ray and Bell branch",
+    "gate": "T=diag(1,zeta9,zeta9^-1)",
+    "operation": "apply the stored Clifford inverse to the selected ray, then SUM(state tensor |0>)",
+    "operator_error": 4.440892098500626e-16,
+    "probability_per_branch": "1/9",
+    "resource": "(I tensor T)|Phi3>"
+  },
+  "schema": "w33.20261001.tmagic-orbit-factory-contract.v1",
+  "status": "PASS_G26_T_MAGIC_RESOURCE_REQUIRES_PAULI_FRAME_AND_ALL_72_FRAMES_FEED_EXISTING_T_PORT"
+}

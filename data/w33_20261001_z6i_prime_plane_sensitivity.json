@@ -1,0 +1,1892 @@
+[
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_06__SM_20260917_2",
+    "support": [
+      "n_5",
+      "n_7",
+      "n_12",
+      "n_16",
+      "n_25"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_06__SM_20260917_2",
+    "support": [
+      "n_5",
+      "n_7",
+      "n_12",
+      "n_16",
+      "n_43"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_06__SM_20260917_2",
+    "support": [
+      "n_5",
+      "n_7",
+      "n_12",
+      "n_16",
+      "n_61"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_17__SM_20260917_35",
+    "support": [
+      "n_5",
+      "n_7",
+      "n_12",
+      "n_14",
+      "n_29"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_17__SM_20260917_35",
+    "support": [
+      "n_5",
+      "n_7",
+      "n_12",
+      "n_14",
+      "n_47"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_17__SM_20260917_35",
+    "support": [
+      "n_5",
+      "n_7",
+      "n_12",
+      "n_14",
+      "n_65"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_17__SM_20260917_42",
+    "support": [
+      "n_2",
+      "n_5",
+      "n_7",
+      "n_15",
+      "n_17"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_17__SM_20260917_42",
+    "support": [
+      "n_2",
+      "n_5",
+      "n_7",
+      "n_15",
+      "n_35"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_17__SM_20260917_42",
+    "support": [
+      "n_2",
+      "n_5",
+      "n_7",
+      "n_15",
+      "n_53"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_17__SM_20260917_66",
+    "support": [
+      "n_3",
+      "n_5",
+      "n_7",
+      "n_12",
+      "n_13",
+      "n_14",
+      "n_40"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_17__SM_20260917_66",
+    "support": [
+      "n_3",
+      "n_5",
+      "n_7",
+      "n_12",
+      "n_13",
+      "n_14",
+      "n_61"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_17__SM_20260917_66",
+    "support": [
+      "n_3",
+      "n_5",
+      "n_7",
+      "n_12",
+      "n_13",
+      "n_14",
+      "n_82"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_19__SM_20260917_2182",
+    "support": [
+      "n_5",
+      "n_7",
+      "n_11",
+      "n_16",
+      "n_19"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_19__SM_20260917_2182",
+    "support": [
+      "n_5",
+      "n_7",
+      "n_11",
+      "n_16",
+      "n_37"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_19__SM_20260917_2182",
+    "support": [
+      "n_5",
+      "n_7",
+      "n_11",
+      "n_16",
+      "n_55"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_19__SM_20260917_465",
+    "support": [
+      "n_2",
+      "n_5",
+      "n_13",
+      "n_15",
+      "n_17"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_19__SM_20260917_465",
+    "support": [
+      "n_2",
+      "n_5",
+      "n_13",
+      "n_15",
+      "n_35"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_19__SM_20260917_465",
+    "support": [
+      "n_2",
+      "n_5",
+      "n_13",
+      "n_15",
+      "n_53"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_21__SM_20260917_399",
+    "support": [
+      "n_2",
+      "n_3",
+      "n_4",
+      "n_13",
+      "n_16",
+      "n_37",
+      "n_38"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_21__SM_20260917_399",
+    "support": [
+      "n_2",
+      "n_3",
+      "n_4",
+      "n_13",
+      "n_16",
+      "n_37",
+      "n_59"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_21__SM_20260917_399",
+    "support": [
+      "n_2",
+      "n_3",
+      "n_4",
+      "n_13",
+      "n_16",
+      "n_37",
+      "n_80"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_21__SM_20260917_518",
+    "support": [
+      "n_3",
+      "n_5",
+      "n_7",
+      "n_11",
+      "n_15",
+      "n_19",
+      "n_40"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_21__SM_20260917_518",
+    "support": [
+      "n_3",
+      "n_5",
+      "n_7",
+      "n_11",
+      "n_15",
+      "n_19",
+      "n_61"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_21__SM_20260917_518",
+    "support": [
+      "n_3",
+      "n_5",
+      "n_7",
+      "n_11",
+      "n_15",
+      "n_19",
+      "n_82"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_27__SM_20260917_1078",
+    "support": [
+      "n_2",
+      "n_3",
+      "n_7",
+      "n_15",
+      "n_30"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_27__SM_20260917_1078",
+    "support": [
+      "n_2",
+      "n_3",
+      "n_7",
+      "n_15",
+      "n_48"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_27__SM_20260917_1078",
+    "support": [
+      "n_2",
+      "n_3",
+      "n_7",
+      "n_15",
+      "n_66"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_27__SM_20260917_241",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_9",
+      "n_12",
+      "n_23"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_27__SM_20260917_241",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_9",
+      "n_12",
+      "n_41"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_27__SM_20260917_241",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_9",
+      "n_12",
+      "n_59"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_27__SM_20260917_669",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_9",
+      "n_11",
+      "n_13",
+      "n_23"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_27__SM_20260917_669",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_9",
+      "n_11",
+      "n_13",
+      "n_41"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_27__SM_20260917_669",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_9",
+      "n_11",
+      "n_13",
+      "n_59"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_32__SM_20260917_1105",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_9",
+      "n_14",
+      "n_29"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_32__SM_20260917_1105",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_9",
+      "n_14",
+      "n_47"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_32__SM_20260917_1105",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_9",
+      "n_14",
+      "n_65"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_32__SM_20260917_2225",
+    "support": [
+      "n_1",
+      "n_5",
+      "n_7",
+      "n_10",
+      "n_11",
+      "n_19",
+      "n_38"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_32__SM_20260917_2225",
+    "support": [
+      "n_1",
+      "n_5",
+      "n_7",
+      "n_10",
+      "n_11",
+      "n_19",
+      "n_59"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_32__SM_20260917_2225",
+    "support": [
+      "n_1",
+      "n_5",
+      "n_7",
+      "n_10",
+      "n_11",
+      "n_19",
+      "n_80"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_32__SM_20260917_359",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_8",
+      "n_11",
+      "n_20"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_32__SM_20260917_359",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_8",
+      "n_11",
+      "n_38"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_32__SM_20260917_359",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_8",
+      "n_11",
+      "n_56"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_32__SM_20260917_407",
+    "support": [
+      "n_1",
+      "n_3",
+      "n_5",
+      "n_9",
+      "n_10",
+      "n_18",
+      "n_37"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_32__SM_20260917_407",
+    "support": [
+      "n_1",
+      "n_3",
+      "n_5",
+      "n_9",
+      "n_10",
+      "n_18",
+      "n_58"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_32__SM_20260917_407",
+    "support": [
+      "n_1",
+      "n_3",
+      "n_5",
+      "n_9",
+      "n_10",
+      "n_18",
+      "n_79"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_34__SM_20260917_75",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_9",
+      "n_12",
+      "n_14",
+      "n_17"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_34__SM_20260917_75",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_9",
+      "n_12",
+      "n_14",
+      "n_35"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_34__SM_20260917_75",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_9",
+      "n_12",
+      "n_14",
+      "n_53"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_40__SM_20260917_1938",
+    "support": [
+      "n_2",
+      "n_5",
+      "n_11",
+      "n_15",
+      "n_26"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_40__SM_20260917_1938",
+    "support": [
+      "n_2",
+      "n_5",
+      "n_11",
+      "n_15",
+      "n_44"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_40__SM_20260917_1938",
+    "support": [
+      "n_2",
+      "n_5",
+      "n_11",
+      "n_15",
+      "n_62"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_40__SM_20260917_1940",
+    "support": [
+      "n_1",
+      "n_7",
+      "n_10",
+      "n_12",
+      "n_19"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_40__SM_20260917_1940",
+    "support": [
+      "n_1",
+      "n_7",
+      "n_10",
+      "n_12",
+      "n_37"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_40__SM_20260917_1940",
+    "support": [
+      "n_1",
+      "n_7",
+      "n_10",
+      "n_12",
+      "n_55"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_40__SM_20260917_493",
+    "support": [
+      "n_2",
+      "n_4",
+      "n_10",
+      "n_11",
+      "n_15",
+      "n_26"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_40__SM_20260917_493",
+    "support": [
+      "n_2",
+      "n_4",
+      "n_10",
+      "n_11",
+      "n_15",
+      "n_44"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_40__SM_20260917_493",
+    "support": [
+      "n_2",
+      "n_4",
+      "n_10",
+      "n_11",
+      "n_15",
+      "n_62"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_46__SM_20260917_561",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_8",
+      "n_11",
+      "n_15",
+      "n_20"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_46__SM_20260917_561",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_8",
+      "n_11",
+      "n_15",
+      "n_38"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_46__SM_20260917_561",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_8",
+      "n_11",
+      "n_15",
+      "n_56"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_55__SM_20260917_179",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_12",
+      "n_15",
+      "n_25"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_55__SM_20260917_179",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_12",
+      "n_15",
+      "n_43"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_55__SM_20260917_179",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_12",
+      "n_15",
+      "n_61"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_55__SM_20260917_91",
+    "support": [
+      "n_3",
+      "n_5",
+      "n_9",
+      "n_13",
+      "n_15",
+      "n_25"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_55__SM_20260917_91",
+    "support": [
+      "n_3",
+      "n_5",
+      "n_9",
+      "n_13",
+      "n_15",
+      "n_43"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_55__SM_20260917_91",
+    "support": [
+      "n_3",
+      "n_5",
+      "n_9",
+      "n_13",
+      "n_15",
+      "n_61"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_56__SM_20260917_215",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_12",
+      "n_14",
+      "n_15",
+      "n_16"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_56__SM_20260917_215",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_12",
+      "n_14",
+      "n_15",
+      "n_34"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "third_plane_only",
+    "model": "Z6-I|Z6I_56__SM_20260917_215",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_12",
+      "n_14",
+      "n_15",
+      "n_52"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_06__SM_20260917_2",
+    "support": [
+      "n_5",
+      "n_7",
+      "n_12",
+      "n_16",
+      "n_25"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_06__SM_20260917_2",
+    "support": [
+      "n_5",
+      "n_7",
+      "n_12",
+      "n_16",
+      "n_43"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_06__SM_20260917_2",
+    "support": [
+      "n_5",
+      "n_7",
+      "n_12",
+      "n_16",
+      "n_61"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_17__SM_20260917_35",
+    "support": [
+      "n_5",
+      "n_7",
+      "n_12",
+      "n_14",
+      "n_29"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_17__SM_20260917_35",
+    "support": [
+      "n_5",
+      "n_7",
+      "n_12",
+      "n_14",
+      "n_47"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_17__SM_20260917_35",
+    "support": [
+      "n_5",
+      "n_7",
+      "n_12",
+      "n_14",
+      "n_65"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_17__SM_20260917_42",
+    "support": [
+      "n_2",
+      "n_5",
+      "n_7",
+      "n_15",
+      "n_17"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_17__SM_20260917_42",
+    "support": [
+      "n_2",
+      "n_5",
+      "n_7",
+      "n_15",
+      "n_35"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_17__SM_20260917_42",
+    "support": [
+      "n_2",
+      "n_5",
+      "n_7",
+      "n_15",
+      "n_53"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_17__SM_20260917_66",
+    "support": [
+      "n_3",
+      "n_5",
+      "n_7",
+      "n_12",
+      "n_13",
+      "n_14",
+      "n_40"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_17__SM_20260917_66",
+    "support": [
+      "n_3",
+      "n_5",
+      "n_7",
+      "n_12",
+      "n_13",
+      "n_14",
+      "n_61"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_17__SM_20260917_66",
+    "support": [
+      "n_3",
+      "n_5",
+      "n_7",
+      "n_12",
+      "n_13",
+      "n_14",
+      "n_82"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_19__SM_20260917_2182",
+    "support": [
+      "n_5",
+      "n_7",
+      "n_11",
+      "n_16",
+      "n_19"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_19__SM_20260917_2182",
+    "support": [
+      "n_5",
+      "n_7",
+      "n_11",
+      "n_16",
+      "n_37"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_19__SM_20260917_2182",
+    "support": [
+      "n_5",
+      "n_7",
+      "n_11",
+      "n_16",
+      "n_55"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_19__SM_20260917_465",
+    "support": [
+      "n_2",
+      "n_5",
+      "n_13",
+      "n_15",
+      "n_17"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_19__SM_20260917_465",
+    "support": [
+      "n_2",
+      "n_5",
+      "n_13",
+      "n_15",
+      "n_35"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_19__SM_20260917_465",
+    "support": [
+      "n_2",
+      "n_5",
+      "n_13",
+      "n_15",
+      "n_53"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_21__SM_20260917_399",
+    "support": [
+      "n_2",
+      "n_3",
+      "n_4",
+      "n_13",
+      "n_16",
+      "n_37",
+      "n_38"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_21__SM_20260917_399",
+    "support": [
+      "n_2",
+      "n_3",
+      "n_4",
+      "n_13",
+      "n_16",
+      "n_37",
+      "n_59"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_21__SM_20260917_399",
+    "support": [
+      "n_2",
+      "n_3",
+      "n_4",
+      "n_13",
+      "n_16",
+      "n_37",
+      "n_80"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_21__SM_20260917_518",
+    "support": [
+      "n_3",
+      "n_5",
+      "n_7",
+      "n_11",
+      "n_15",
+      "n_19",
+      "n_40"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_21__SM_20260917_518",
+    "support": [
+      "n_3",
+      "n_5",
+      "n_7",
+      "n_11",
+      "n_15",
+      "n_19",
+      "n_61"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_21__SM_20260917_518",
+    "support": [
+      "n_3",
+      "n_5",
+      "n_7",
+      "n_11",
+      "n_15",
+      "n_19",
+      "n_82"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_27__SM_20260917_1078",
+    "support": [
+      "n_2",
+      "n_3",
+      "n_7",
+      "n_15",
+      "n_30"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_27__SM_20260917_1078",
+    "support": [
+      "n_2",
+      "n_3",
+      "n_7",
+      "n_15",
+      "n_48"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_27__SM_20260917_1078",
+    "support": [
+      "n_2",
+      "n_3",
+      "n_7",
+      "n_15",
+      "n_66"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_27__SM_20260917_241",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_9",
+      "n_12",
+      "n_23"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_27__SM_20260917_241",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_9",
+      "n_12",
+      "n_41"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_27__SM_20260917_241",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_9",
+      "n_12",
+      "n_59"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_27__SM_20260917_669",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_9",
+      "n_11",
+      "n_13",
+      "n_23"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_27__SM_20260917_669",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_9",
+      "n_11",
+      "n_13",
+      "n_41"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_27__SM_20260917_669",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_9",
+      "n_11",
+      "n_13",
+      "n_59"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_32__SM_20260917_1105",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_9",
+      "n_14",
+      "n_29"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_32__SM_20260917_1105",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_9",
+      "n_14",
+      "n_47"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_32__SM_20260917_1105",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_9",
+      "n_14",
+      "n_65"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_32__SM_20260917_2225",
+    "support": [
+      "n_1",
+      "n_5",
+      "n_7",
+      "n_10",
+      "n_11",
+      "n_19",
+      "n_38"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_32__SM_20260917_2225",
+    "support": [
+      "n_1",
+      "n_5",
+      "n_7",
+      "n_10",
+      "n_11",
+      "n_19",
+      "n_59"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_32__SM_20260917_2225",
+    "support": [
+      "n_1",
+      "n_5",
+      "n_7",
+      "n_10",
+      "n_11",
+      "n_19",
+      "n_80"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_32__SM_20260917_359",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_8",
+      "n_11",
+      "n_20"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_32__SM_20260917_359",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_8",
+      "n_11",
+      "n_38"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_32__SM_20260917_359",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_8",
+      "n_11",
+      "n_56"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_32__SM_20260917_407",
+    "support": [
+      "n_1",
+      "n_3",
+      "n_5",
+      "n_9",
+      "n_10",
+      "n_18",
+      "n_37"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_32__SM_20260917_407",
+    "support": [
+      "n_1",
+      "n_3",
+      "n_5",
+      "n_9",
+      "n_10",
+      "n_18",
+      "n_58"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_32__SM_20260917_407",
+    "support": [
+      "n_1",
+      "n_3",
+      "n_5",
+      "n_9",
+      "n_10",
+      "n_18",
+      "n_79"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_34__SM_20260917_75",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_9",
+      "n_12",
+      "n_14",
+      "n_17"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_34__SM_20260917_75",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_9",
+      "n_12",
+      "n_14",
+      "n_35"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_34__SM_20260917_75",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_9",
+      "n_12",
+      "n_14",
+      "n_53"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_40__SM_20260917_1938",
+    "support": [
+      "n_2",
+      "n_5",
+      "n_11",
+      "n_15",
+      "n_26"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_40__SM_20260917_1938",
+    "support": [
+      "n_2",
+      "n_5",
+      "n_11",
+      "n_15",
+      "n_44"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_40__SM_20260917_1938",
+    "support": [
+      "n_2",
+      "n_5",
+      "n_11",
+      "n_15",
+      "n_62"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_40__SM_20260917_1940",
+    "support": [
+      "n_1",
+      "n_7",
+      "n_10",
+      "n_12",
+      "n_19"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_40__SM_20260917_1940",
+    "support": [
+      "n_1",
+      "n_7",
+      "n_10",
+      "n_12",
+      "n_37"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_40__SM_20260917_1940",
+    "support": [
+      "n_1",
+      "n_7",
+      "n_10",
+      "n_12",
+      "n_55"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_40__SM_20260917_493",
+    "support": [
+      "n_2",
+      "n_4",
+      "n_10",
+      "n_11",
+      "n_15",
+      "n_26"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_40__SM_20260917_493",
+    "support": [
+      "n_2",
+      "n_4",
+      "n_10",
+      "n_11",
+      "n_15",
+      "n_44"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_40__SM_20260917_493",
+    "support": [
+      "n_2",
+      "n_4",
+      "n_10",
+      "n_11",
+      "n_15",
+      "n_62"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_46__SM_20260917_561",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_8",
+      "n_11",
+      "n_15",
+      "n_20"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_46__SM_20260917_561",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_8",
+      "n_11",
+      "n_15",
+      "n_38"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_46__SM_20260917_561",
+    "support": [
+      "n_3",
+      "n_7",
+      "n_8",
+      "n_11",
+      "n_15",
+      "n_56"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_55__SM_20260917_179",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_12",
+      "n_15",
+      "n_25"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_55__SM_20260917_179",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_12",
+      "n_15",
+      "n_43"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_55__SM_20260917_179",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_12",
+      "n_15",
+      "n_61"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_55__SM_20260917_91",
+    "support": [
+      "n_3",
+      "n_5",
+      "n_9",
+      "n_13",
+      "n_15",
+      "n_25"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_55__SM_20260917_91",
+    "support": [
+      "n_3",
+      "n_5",
+      "n_9",
+      "n_13",
+      "n_15",
+      "n_43"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_55__SM_20260917_91",
+    "support": [
+      "n_3",
+      "n_5",
+      "n_9",
+      "n_13",
+      "n_15",
+      "n_61"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_56__SM_20260917_215",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_12",
+      "n_14",
+      "n_15",
+      "n_16"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_56__SM_20260917_215",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_12",
+      "n_14",
+      "n_15",
+      "n_34"
+    ],
+    "protected": false,
+    "clean": false
+  },
+  {
+    "policy": "no_R",
+    "model": "Z6-I|Z6I_56__SM_20260917_215",
+    "support": [
+      "n_3",
+      "n_6",
+      "n_12",
+      "n_14",
+      "n_15",
+      "n_52"
+    ],
+    "protected": false,
+    "clean": false
+  }
+]
