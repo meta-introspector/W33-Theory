@@ -1168,3 +1168,14 @@ fraction = P(c = n)); "the twist as a discrete Bargmann phase" should cite 11209
   - The μ-term and neutrino masses (string track).
   - Why χ/Q = 54 exactly (the factor 2).
   - The exact qubit E[c] limit.
+
+## 2026-10-01 (Claude track) — Passes 11229–11249
+- μ: in Z6-I no available vacuum symmetry protects μ (0/6 695 116 vacua, exhaustive; R charges absent, 11247). In
+  Z6-II protection exists (104 models), but an anomaly theorem (11242: 812/812) plus a discrete check (11246: 0
+  escapes in 16 326) show it always leaves a colored state light. The 11232 "clean" vacuum was withdrawn (11240).
+- Flavour: TM1 = charged-lepton point X with neutrino chord X–Q on a W33 line (11243). cos δ = 0 at maximal θ23
+  (11230). A sequestered model selects TM1 iff ε(φ·χ)² < 0 (11248).
+- Qubit limit 0.66516065, conditional on two identities verified for m ≤ 6 (11244, 11245); 11220's extrapolation
+  corrected (11233).
+- AME(10,3): 138 new states, all Glynn (11229). Every state with a twisted 10-cycle symmetry is F9-linear (11249).
+- Dynamical area law is approximate only (11231).
