@@ -1144,3 +1144,27 @@ fraction = P(c = n)); "the twist as a discrete Bargmann phase" should cite 11209
   `[x]` bracket trick.
 - Open: exact qubit E[c] limit (Fulman + Hesselink); entropic and operator-entanglement version of the Gaussian law;
   why 54 = chi/Q; LC classification of AME(10,3); RESULTS_INDEX regeneration on the Windows workstation.
+
+### 2026-10-01 (cont.) - Passes 11220-11226 (Claude track; all on master)
+
+- **11220.** Qubit E_n[c] is exact through n = 6 (GAP Sp(12,2), 477 classes), giving 0.665161, with an extrapolated
+  limit of 0.665166. The n = 6 brute-force cross-check was not completed.
+- **11221.** Gaussian arrow = ½ × the minimal operator-entanglement rate of the Choi state, at 2r nats per channel.
+- **11222.** 27 | χ, from the orbits of the relation's group (order 324). The factor 2 is not explained.
+- **11223.** 17/48 of perfect two-qutrit gates are arrow-free, and the perfect tick p is one of them. Exchanges carry
+  arrows. VKV has A = 2; the F9 gate has A = 3.
+- **11224.** AME(10,3) is Glynn's arc. No Hermitian self-dual GRS code exists. |Aut_LC| = 2880, acting as PGL(2,9).
+  One orbit of 79 888 260 016 373 760 gates. Grassl–Gulliver's code (cited via master's 11170) is therefore Glynn's.
+- **11225.** Lepton mixing from the finite symmetry alone is a NO-GO: no complete pattern and no Cabibbo pattern. Five
+  columns survive, with TM1 from the line stabiliser at 1σ.
+  - Bug caught: GAP Dixon representations are non-unitary. Images are now unitarised.
+- **11226.** Exact RT for networks of the perfect tick. Flat grids satisfy it too, so the sign of Λ is not selected.
+- **Paper.** Scorecard rows 11 (NO-GO) and 12 (HOSTED) added.
+- **Pitfalls.**
+  - pgrep/pkill -f matching their own shell, again. Use `ps | awk` on argv fields.
+  - Never give GAP `-o 24g` on a 15 GB container; it caused a worker restart.
+- **Open.**
+  - Non-F9-linear AME(10,3) states.
+  - The μ-term and neutrino masses (string track).
+  - Why χ/Q = 54 exactly (the factor 2).
+  - The exact qubit E[c] limit.
