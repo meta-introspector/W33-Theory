@@ -1,0 +1,67 @@
+{
+ "pass_id": 11228,
+ "J3_max_abs_on_240_words": 3.1591396165708824e-13,
+ "J3_symmetries": {
+  "clifford_invariant": true,
+  "inverse": true,
+  "conjugate": true
+ },
+ "moment_witness_vs_exact": {
+  "reversible|moment=0": 4319,
+  "violating|moment=0": 4582,
+  "violating|moment!=0": 3199
+ },
+ "fidelity_equals_one_iff_reversible": true,
+ "violator_fidelity_by_depth": {
+  "0": {
+   "violating": 0,
+   "mean_fidelity": null,
+   "min_fidelity": null
+  },
+  "1": {
+   "violating": 127,
+   "mean_fidelity": 0.8440296287459859,
+   "min_fidelity": 0.844029628745985
+  },
+  "2": {
+   "violating": 598,
+   "mean_fidelity": 0.8109466763712699,
+   "min_fidelity": 0.810095485486842
+  },
+  "3": {
+   "violating": 797,
+   "mean_fidelity": 0.8665361462655363,
+   "min_fidelity": 0.7257876540264395
+  },
+  "4": {
+   "violating": 1076,
+   "mean_fidelity": 0.8893415502781242,
+   "min_fidelity": 0.7257876540264386
+  },
+  "5": {
+   "violating": 1153,
+   "mean_fidelity": 0.903586966374615,
+   "min_fidelity": 0.7257876540264386
+  },
+  "6": {
+   "violating": 1295,
+   "mean_fidelity": 0.9102817986676766,
+   "min_fidelity": 0.7590834170301085
+  },
+  "7": {
+   "violating": 1346,
+   "mean_fidelity": 0.9133940618783489,
+   "min_fidelity": 0.7257876540264373
+  },
+  "8": {
+   "violating": 1389,
+   "mean_fidelity": 0.9185564282342881,
+   "min_fidelity": 0.72578765402644
+  }
+ },
+ "minimal_violator_fidelities": {
+  "0.844029628746": 18
+ },
+ "T_X_fidelity": 0.8440296287459855,
+ "T_X_moment_witness": 5.551115123125783e-17
+}

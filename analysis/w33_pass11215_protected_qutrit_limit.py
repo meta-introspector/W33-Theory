@@ -179,8 +179,9 @@ def expected_c(N):
 
 
 def components(N):
-    """partial sums of the phi = z-1 (same for z+1) and phi = z^2+1 contributions to E_n[c], n <= N.  (Evaluating the
-    phi-factors at u = 1 directly is invalid: the unitary factor's coefficients tend to a non-zero constant.)"""
+    """partial sums of the phi = z-1 (same for z+1) and phi = z^2+1 contributions to E_n[c], n <= N.  (Both phi-factors
+    also converge at u = 1 -- coefficients decay like 3^-n -- so lim = sum_phi F_phi(1)/P_phi(1); the finite-n route
+    converges faster.)"""
     Ssp = symplectic_types(N)
     Uni = unitary_types(N, 1)
     a = mul(series(Ssp, N, True), inverse(series(Ssp, N, False), N), N)

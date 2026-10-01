@@ -34,5 +34,12 @@ classes, observed E[c] → 0.7255… by sampling, and noted that "a closed form 
   * The n = 12 and n = 14 values differ by 10⁻³¹.
 * So a large Clifford dynamics has an unavoidable arrow of **n − 0.72553535…** trits per tick on average.
 * The limit is not identified in closed form. Simple q-series in 3 and −1/3 do not match.
-* Evaluating the φ-factors directly at u = 1 is invalid, because the unitary factor's coefficients tend to a non-zero
-  constant. The limit is therefore taken from the exact finite-n sequence.
+* **Correction (same day).** An earlier version of this note said that evaluating the φ-factors at u = 1 is invalid
+  because the unitary factor's coefficients tend to a constant. That was wrong. The coefficients are
+  3^{−m}/∏(1 − (−1/3)^j) and 3^{−n}/∏(1 − 3^{−2j}), so both factors converge at u = 1 (radius 3). The limit equals
+  Σ_φ F_φ(1)/P_φ(1) exactly. The direct evaluation had only differed by its truncation error (~3^{−12}).
+  * Exact identity: P_{Sp}(1) = ∏_{r≥1}(1 − 3^{−(2r−1)})^{−1} = ∏_{r≥1}(1 + 3^{−r}) = 1.5649340185670115…
+  * Split of the ±1 contribution: E[m₁/2] = 0.0281360246692…, E[m₂] = 0.2358416780193…; z² + 1 part:
+    E[m₁] = 0.1975799454218…, with P_U(1) = 1.3891204763652…
+  * No closed form was found among simple q-series in 3 and −1/3. The exponent ½Σλ′ᵢ² couples part sizes, so the
+    weighted sums do not factor part by part.
