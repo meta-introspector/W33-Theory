@@ -1113,3 +1113,10 @@ fraction = P(c = n)); "the twist as a discrete Bargmann phase" should cite 11209
 - Producer and focused regression pass (5 tests, 151.93 s). Rediscovery guard is clean after reading/citing prior
   ownership. RESULTS_INDEX was regenerated. Publication remains scoped GitKraken staging/commit/push after the
   parallel staged Pass 11213-11216 packet clears.
+## 2026-09-30 Pass 11218 handoff
+
+- Published Passes 11194-11198 as commit `e7cc9ec5c` and pushed the merge to `master`.
+- Reserved Pass 11218 in `9c3662ee4` after checking the latest remote pass number.
+- Pass 11218 constructs an exact sparse rank-78 background for the signed E8/E6+A2 cubic. Its three-dimensional rational kernel is pairwise bracket-commuting, contains the background, and has complementary 78x78 principal determinant `2^76*3^24*5^2*7^2`.
+- Reeder-Levy-Yu-Gross Table 21, E8 row 3b identifies the rank-three theta group as G26 with invariant degrees 6,12,18. This is the little Weyl action on the Cartan slice, not the extended qutrit Clifford group ruled out by the prior G26 no-go.
+- Focused Pass 11218 pytest passes. Next target: factor the degree-39 slice Pfaffian and build the most general low-degree G26-invariant potential/Hessian without fitting measured parameters.
