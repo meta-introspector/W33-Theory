@@ -1108,6 +1108,20 @@ gate fails on more than half the intervals. Flat grids of $p$ up to $5\times5$ s
 does not select negative curvature, and it does not fix the sign of the cosmological constant. Gravity is hosted here
 as an exact area law, not derived. \tierC\ (\cert{w33\_pass11226\_holographic\_area\_law.py})
 
+A dynamical space-time needs the law in time as well. A brick-wall circuit of ticks is itself a tensor network in
+space-time, so the entropy of any output interval is at most the least number of worldline segments that must be cut
+to separate it. We computed both exactly on twelve qutrits, through depth ten, for every interval of up to half the
+chain ($570$ cases per run). No tick saturates the bound everywhere, so the law in time is approximate, not exact:
+\begin{itemize}
+\item random perfect gates acting on Bell pairs come closest, $548/570$, with the half-chain entropy growing at the
+  maximal rate;
+\item the arrow-carrying three-qutrit tick of Section~\ref{sec:time} comes next, $534$--$539$ from product states;
+\item the bare perfect tick $p$ is fine-tuned: it keeps $\lvert0\cdots0\rangle$ a product state ($15/570$);
+\item the non-perfect SUM gate does worst.
+\end{itemize}
+The cases that fall short are not confined to the edges of the chain. \tierC\
+(\cert{w33\_pass11231\_dynamical\_area\_law.py})
+
 \subsection{What we do not count as evidence}
 
 The older manuscripts contain many numerical coincidences: $1/\alpha\approx137$ written as a
