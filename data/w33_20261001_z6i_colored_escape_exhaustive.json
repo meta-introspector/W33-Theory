@@ -1,0 +1,210 @@
+{
+  "boundary": "This is an exhaustive theorem for the frozen Z6-I model class and tested mass/Yukawa operators, not a theorem for all string vacua or all discrete symmetries.",
+  "checks": {
+    "23_models": true,
+    "all_exhaustive": true,
+    "all_vacua": true,
+    "zero_colored_escapes": true
+  },
+  "models": {
+    "Z6-I|Z6I_06__SM_20260917_2": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 82012,
+      "seconds": 9.639,
+      "unique_support_lattices": 30,
+      "vacua": 82012
+    },
+    "Z6-I|Z6I_17__SM_20260917_35": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 82012,
+      "seconds": 9.882,
+      "unique_support_lattices": 30,
+      "vacua": 82012
+    },
+    "Z6-I|Z6I_17__SM_20260917_42": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 82012,
+      "seconds": 9.615,
+      "unique_support_lattices": 30,
+      "vacua": 82012
+    },
+    "Z6-I|Z6I_17__SM_20260917_66": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 1040900,
+      "seconds": 125.991,
+      "unique_support_lattices": 180,
+      "vacua": 1040900
+    },
+    "Z6-I|Z6I_19__SM_20260917_2182": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 82012,
+      "seconds": 9.476,
+      "unique_support_lattices": 30,
+      "vacua": 82012
+    },
+    "Z6-I|Z6I_19__SM_20260917_465": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 82012,
+      "seconds": 9.098,
+      "unique_support_lattices": 30,
+      "vacua": 82012
+    },
+    "Z6-I|Z6I_21__SM_20260917_399": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 1040900,
+      "seconds": 122.135,
+      "unique_support_lattices": 180,
+      "vacua": 1040900
+    },
+    "Z6-I|Z6I_21__SM_20260917_518": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 1040900,
+      "seconds": 123.161,
+      "unique_support_lattices": 180,
+      "vacua": 1040900
+    },
+    "Z6-I|Z6I_27__SM_20260917_1078": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 82012,
+      "seconds": 8.484,
+      "unique_support_lattices": 30,
+      "vacua": 82012
+    },
+    "Z6-I|Z6I_27__SM_20260917_241": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 82012,
+      "seconds": 9.309,
+      "unique_support_lattices": 30,
+      "vacua": 82012
+    },
+    "Z6-I|Z6I_27__SM_20260917_669": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 84412,
+      "seconds": 14.513,
+      "unique_support_lattices": 34,
+      "vacua": 84412
+    },
+    "Z6-I|Z6I_32__SM_20260917_1105": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 82012,
+      "seconds": 9.199,
+      "unique_support_lattices": 30,
+      "vacua": 82012
+    },
+    "Z6-I|Z6I_32__SM_20260917_2225": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 1040900,
+      "seconds": 132.36,
+      "unique_support_lattices": 180,
+      "vacua": 1040900
+    },
+    "Z6-I|Z6I_32__SM_20260917_359": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 82012,
+      "seconds": 8.767,
+      "unique_support_lattices": 30,
+      "vacua": 82012
+    },
+    "Z6-I|Z6I_32__SM_20260917_407": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 1040900,
+      "seconds": 129.182,
+      "unique_support_lattices": 180,
+      "vacua": 1040900
+    },
+    "Z6-I|Z6I_34__SM_20260917_75": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 84412,
+      "seconds": 12.436,
+      "unique_support_lattices": 34,
+      "vacua": 84412
+    },
+    "Z6-I|Z6I_40__SM_20260917_1938": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 82012,
+      "seconds": 8.153,
+      "unique_support_lattices": 30,
+      "vacua": 82012
+    },
+    "Z6-I|Z6I_40__SM_20260917_1940": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 82012,
+      "seconds": 8.968,
+      "unique_support_lattices": 30,
+      "vacua": 82012
+    },
+    "Z6-I|Z6I_40__SM_20260917_493": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 84412,
+      "seconds": 13.455,
+      "unique_support_lattices": 34,
+      "vacua": 84412
+    },
+    "Z6-I|Z6I_46__SM_20260917_561": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 84412,
+      "seconds": 11.539,
+      "unique_support_lattices": 34,
+      "vacua": 84412
+    },
+    "Z6-I|Z6I_55__SM_20260917_179": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 82012,
+      "seconds": 9.931,
+      "unique_support_lattices": 30,
+      "vacua": 82012
+    },
+    "Z6-I|Z6I_55__SM_20260917_91": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 84412,
+      "seconds": 13.278,
+      "unique_support_lattices": 34,
+      "vacua": 84412
+    },
+    "Z6-I|Z6I_56__SM_20260917_215": {
+      "colored_escapes": 0,
+      "exhaustive": true,
+      "protected_Hu_cases": 84412,
+      "seconds": 14.347,
+      "unique_support_lattices": 34,
+      "vacua": 84412
+    }
+  },
+  "parents": [
+    "data/w33_20261001_z6i_rcharge_lattice_quotient.json",
+    "data/w33_pass11246_discrete_anomaly_escapes.json"
+  ],
+  "schema": "w33.20261001.z6i-colored-escape-exhaustive.v1",
+  "status": "PASS_Z6I_RESTORED_R_MU_PROTECTION_HAS_NO_COLORED_MASS_ESCAPE_EXHAUSTIVELY",
+  "summary": {
+    "colored_escapes": 0,
+    "models": 23,
+    "models_with_escape": [],
+    "protected_Hu_cases": 6695116,
+    "unique_support_lattices": 1464,
+    "vacua": 6695116
+  },
+  "theorem": "Across every restored-R Z6-I D-flat vacuum, every mu-protected H_u case fails the Pass11246 complete colored perfect-matching test. The previous sampled discrete/R obstruction therefore becomes exhaustive on the entire 6,695,116-vacuum Z6-I class."
+}

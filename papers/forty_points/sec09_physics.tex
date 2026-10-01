@@ -357,10 +357,13 @@ in the rational span of the $q_s$. Minimal vacua, the extreme rays of the $D$-fl
 examined all of them, exactly, in $125$ of the $128$ models with $D$-flat directions, and exactly verified sampled
 vertices in the other three.
 \begin{itemize}
-\item \textbf{$\Z_6$-I, the class of the $\W$ vacuum:} in none of its $23$ $D$-flat models does any vacuum keep a
-  $U(1)$ that forbids $\mu$ while allowing a top Yukawa. Including the discrete remnants of the broken $U(1)$s and
-  the point-group charge, all $6\,695\,116$ vacua still allow $\mu$. Only an $R$-symmetry could forbid it, and its
-  charges are not in the frozen data (\cert{w33\_pass11241\_discrete\_mu\_symmetry.py}).
+\item \textbf{$\Z_6$-I, the class of the $\W$ vacuum:} the earlier integer-lattice audit, which lacked
+  the plane $R$ charges, found that all $6\,695\,116$ vacua allowed $\mu$. Those charges have now been restored
+  from the Orbifolder archives and cross-validated against the frozen $\Z_6$-II data. With the full
+  $U(1)$-remnant, space-group and plane-$R$ lattice, \emph{every one} of the $6\,695\,116$ vacua protects $\mu$
+  while allowing a top Yukawa. The field-choice census reduces exactly to $1464$ support/lattice states.
+  Nevertheless $0$ vacua are clean: the restored symmetry that forbids $\mu$ also leaves unwanted states light.
+  \tierC\ (\cert{w33\_20261001\_z6i\_rcharge\_lattice\_quotient.py})
 \item \textbf{$\Z_6$-II:} such a $U(1)'$ exists in $429$ vacua of $54$ models. In all but one, the same $U(1)'$ also
   keeps a second Higgs pair or a vector-like exotic massless. This is the continuous counterpart of the $R$-symmetry
   that, in the one model whose FI-cancelling vacua keep a matter parity, keeps exotics massless.
@@ -371,7 +374,7 @@ vertices in the other three.
 The $R$-symmetry that makes such a vacuum $F$-flat is the one that keeps the exotics massless, as in Pass 10968. The reason is general. If an anomaly-free $U(1)'$ charges $H_uH_d$, the $SU(3)^2$--$U(1)'$ anomaly forbids every
 complete set of colored masses. In any perfect matching of triplets with antitriplets, the numbers of pairs using
 $H_u$ and $H_d$ are equal (both $\ge3$), so the anomaly is $-a\,(t(H_u)+t(H_d))\neq0$. This holds in all $812$
-protected cases checked (\cert{w33\_pass11242\_u1prime\_mu\_anomaly\_theorem.py}). With the full discrete and $R$ selection rules, the same obstruction appears in all $16\,326$ sampled protected cases; no Green--Schwarz-type escape occurs (\cert{w33\_pass11246\_discrete\_anomaly\_escapes.py}). \tierC\ (\cert{w33\_pass11232\_mu\_vacuum\_symmetry.py})
+protected cases checked (\cert{w33\_pass11242\_u1prime\_mu\_anomaly\_theorem.py}). With the full discrete and $R$ selection rules, the same obstruction first appeared in all $16\,326$ sampled protected cases (\cert{w33\_pass11246\_discrete\_anomaly\_escapes.py}). The restored $\Z_6$-I $R$ data now make that statement exhaustive on this class: all $6\,695\,116$ vacua have exactly one protected $H_u$ case, and $0$ admit a complete colored matching for any $H_d$. \tierT\,\tierC\ (\cert{w33\_20261001\_z6i\_colored\_escape\_exhaustive.py})
 
 \subsection{The Fayet--Iliopoulos term forces a right-handed sneutrino}
 \label{sec:sneutrino}
