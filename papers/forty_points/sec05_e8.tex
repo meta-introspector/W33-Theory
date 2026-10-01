@@ -244,6 +244,25 @@ mirror orbits by $1$ and $3$; the $G_{26}$ Jacobian weights them by $2$ and $1$.
 \cert{w33\_pass11261\_g26\_cartan\_coordinate\_map.py}
 \end{result}
 
+The two relative invariants separate the two mirror orbits arithmetically. Let $A$ be
+the product of the nine SIC mirror forms and $B$ the product of the twelve
+stabilizer/MUB mirror forms. Their divisor valuations are
+\[
+ \operatorname{div}P=(3,1),\qquad \operatorname{div}J=(1,2),
+\]
+so the valuation matrix has determinant $5$ and
+\[
+ 2\operatorname{div}P-\operatorname{div}J=(5,0),\qquad
+ 3\operatorname{div}J-\operatorname{div}P=(0,5).
+\]
+Equivalently $P^2/J$ is a scalar multiple of $A^5$ and $J^3/P$ a scalar
+multiple of $B^5$; with the frozen normalisations these become exact cleared
+polynomial identities of degrees $78$ and $99$. Thus the signed-$E_8$ Pfaffian
+and the $G_{26}$ Jacobian form two mixed probes whose integer combinations
+isolate the SIC and stabilizer wall arrangements separately. The index five is
+only the determinant of this divisor lattice; it is not a physical $\Z_5$,
+particle count or coupling. \tierC\ (\cert{w33\_20261001\_g26\_e8\_mirror\_separation.py})
+
 The twelve stabilizer mirrors form the four qutrit mutually unbiased bases. Complex-linear
 $G_{26}$ reflections induce $A_4$ on those four bases; complex conjugation supplies an odd
 transposition and completes the image to $S_4$. This identifies the line-stabiliser

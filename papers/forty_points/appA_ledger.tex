@@ -106,7 +106,7 @@ qubit arrow law: $A=n-c$ in characteristic 2 via a bi-Lagrangian criterion and $
 Gaussian arrow law: $A=n-c$ over $\mathbb{R}$ (minimal inter-mode quadrature channels); $c$ = elliptic $+$ hyperbolic normal modes; $A=2\times$ loxodromic quartets; switches on at opposite-signature Krein collisions & \tierT\,\tierC & \cert{w33\_pass11219\_gaussian\_arrow.py}\\
 qubit mean protection exact through $n=6$: $E_6[c]=0.665161$, limit $\approx0.66517$ (Sp$(12,2)$, $477$ classes) & \tierC & \cert{w33\_pass11220\_qubit\_mean\_protection.py}\\
 Gaussian arrow as operator-entanglement rate: Choi mode entropy $=2\,\mathrm{rank}\cdot r+O(1)$; $A=\tfrac12\min$ total rate & \tierC & \cert{w33\_pass11221\_gaussian\_choi\_entropy.py}\\
-$27\mid\chi$ on the $256$ pair: odd-Maslov orbits of the relation's group (order $324$) have size divisible by $27$; $\chi=-162+81+27$ & \tierC & \cert{w33\_pass11222\_why\_54.py}\\
+Maslov factor $54$ on the $256$ pair: after quotienting the ineffective $\{\pm I\}$ the relation stabiliser is $U_{81}\!:\!C_2$; the Sylow-$3$ orbit defect is $\chi=\pm(81-27)=\pm54$, so $|\chi|/27=3-1=2$ & \tierT\,\tierC & \cert{w33\_20261001\_maslov\_borel\_factor54.py}\\
 arrows of named ticks: $17/48$ of perfect two-qutrit gates arrow-free (incl.\ $p$); $A=2$ local gates all swap; three-qutrit VKV $A=2$, $\F_9$ gate $A=3$ & \tierC & \cert{w33\_pass11223\_named\_tick\_arrows.py}\\
 best time-reversal fidelity is a Weyl-coefficient Fourier maximum; branch-and-bound trees exhausted numerically at $10^{-12}$ for two three-qutrit product cases; one genuine case remains bracketed & \tierC & \cert{w33\_pass11265\_exact\_fidelity.py}\\
 one qutrit Clifford--cubic words violating reversal: $18/216=1/12$, $18\,954/46\,656=13/32$, $5\,524\,362/10\,077\,696=421/768$ for one, two, three cubic gates & \tierC & \cert{w33\_pass11266\_one\_magic\_gate.py}\\
@@ -162,6 +162,7 @@ exact Cartan-to-qutrit $G_{26}$ map: restricted Pfaffian $2^{17}C_3N_9S_9^3$; st
 four stabilizer MUBs: complex-linear $G_{26}$ image $A_4$; complex conjugation completes it to line-stabiliser $S_4$; tetrahedral chords $=$ oriented MUB pairs & \tierC & \cert{w33\_pass11262\_g26\_mub\_s4\_yukawa\_bridge.py}\\
 $234$ nonzero adjoint modes form $78$ exact $\Z_3$ spectral triplets; positive-power character traces cancel, kernel index $8+3\omega+3\omega^2=5$; no $\Z_2$ supertrace cancellation & \tierC & \cert{w33\_pass11263\_full\_graded\_spectrum.py}\\
 $G_{26}$ Jacobian $=19440\prod_{9\,\mathrm{SIC}}\ell\prod_{12\,\mathrm{MUB}}m^2$ symbolically in $\Q[\omega]$; reflection group order $1296$, projective order $216$, all elements qutrit Clifford & \tierC & \cert{w33\_pass11269\_g26\_qutrit\_dictionary.py}\\
+$E_8$ Pfaffian and $G_{26}$ Jacobian have mirror valuations $(3,1)$ and $(1,2)$; determinant $5$ isolates the two strata: $P^2/J\propto A^5$, $J^3/P\propto B^5$ (divisor-lattice index only, no physical $\Z_5$ claim) & \tierC & \cert{w33\_20261001\_g26\_e8\_mirror\_separation.py}\\
 \multicolumn{3}{@{}l}{\textit{Freudenthal, real forms, Albert (\S\S6--8)}}\\
 $56$ shares one $27$ with the $54$; $54+2=56$ refuted & \tierC\,\tierX & \cert{w33\_pass10949\_freudenthal\_quasiconformal\_clock\_cone.py}\\
 Freudenthal normal form of the quartic, no sign repair & \tierC & same\\

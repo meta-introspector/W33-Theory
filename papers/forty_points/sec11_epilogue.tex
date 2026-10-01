@@ -45,7 +45,7 @@ three-family Standard Models, and the same geometry specifies a quantum computer
      $\bullet$ which chirality, and why\\
      $\bullet$ a stable universe beyond\\ \phantom{$\bullet$} heterotic orbifolds\\
      $\bullet$ masses, mixings, couplings\\
-     $\bullet$ the $54$ Fourier intertwiner\\
+     $\bullet$ the $54$ chamber transducer\\
      $\bullet$ magic-state injection\\
      $\bullet$ a built device};
 \end{tikzpicture}
@@ -117,9 +117,16 @@ representations pair up.
       which chirality goes with which direction of time --- and can it come from a vacuum? (There is
       exactly one such global sign to fix: the symplectic multiplier is the only nontrivial character of
       $\PGSp(4,3)$; Holotrade 98cafff, P11091.)
-\item \textbf{The $54$ intertwiner.} The diagonal clock/phase weld projects onto $54$
-      Fourier directions, while the clock grading supplies a canonical $\mathbf{27}\otimes
-      \mathbf2$ at degree one. Is there an explicit equivariant isomorphism?
+\item \textbf{The $54$ chamber transducer.} The literal $H_{27}$-equivariant
+      $54\times54$ intertwiner is impossible: the exact character ceiling is rank $36$.
+      Exact elimination instead gives a symmetry-changing $36+18$ quotient complement,
+      and individual $27$-triangle foliations can already be transverse rank-$54$
+      retyping maps. \cert{w33\_pass10944\_five\_front\_computational\_closure.py}
+      \cert{w33\_pass11062\_single\_foliation\_finite54\_transducer.py}
+      The remaining question is sharper: can such a sparse transducer be
+      embedded into the nonsplit class-three $U_{81}$ chamber update law without losing
+      its certified $S_2\oplus L$ transversality, and can that embedding be realised by a
+      physical finite gate or Hamiltonian?
 \item \textbf{Numbers.} The up-type Yukawa couplings of the $\Z_6$-I class have a $2+1$
       block structure qualitatively like the observed quark mixing. Can any mass ratio or
       mixing angle be computed, with an error, from a vacuum of the class?

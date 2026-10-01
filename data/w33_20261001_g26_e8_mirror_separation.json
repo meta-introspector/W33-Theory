@@ -1,0 +1,57 @@
+{
+  "boundary": "The index five is an exact divisor-lattice statement. It is not a particle multiplicity, coupling, family number, or physical Z5 symmetry. A physical vacuum potential or kinetic metric is not inferred.",
+  "checks": {
+    "SIC_divisor_isolated": true,
+    "degrees_match": true,
+    "parent_mirror_multiplicities": true,
+    "stabilizer_divisor_isolated": true,
+    "valuation_determinant_is_5": true
+  },
+  "divisor_isolation": {
+    "2P_minus_J": [
+      5,
+      0
+    ],
+    "3J_minus_P": [
+      0,
+      5
+    ]
+  },
+  "logarithmic_separator": {
+    "SIC": "2*dlog(P)-dlog(J)=5*dlog(A)",
+    "stabilizer": "3*dlog(J)-dlog(P)=5*dlog(B)"
+  },
+  "mirror_products": {
+    "A": "product of the 9 qutrit SIC mirror linear forms",
+    "B": "product of the 12 qutrit stabilizer/MUB mirror linear forms"
+  },
+  "normalized_polynomial_identities": {
+    "SIC_fifth_power": {
+      "degree_each_side": 78,
+      "identity": "5*3^20*P^2 + 2^30*A^5*J = 0"
+    },
+    "stabilizer_fifth_power": {
+      "degree_each_side": 99,
+      "delta_relation": "delta^2=-3",
+      "identity": "32*J^3 - 3^22*5^3*delta*B^5*P = 0"
+    }
+  },
+  "parents": [
+    "data/w33_pass11261_g26_cartan_coordinate_map.json",
+    "data/w33_pass11269_g26_qutrit_dictionary.json"
+  ],
+  "schema": "w33.20261001.g26-e8-mirror-separation.v1",
+  "status": "PASS_E8_PFAFFIAN_AND_G26_JACOBIAN_SEPARATE_SIC_AND_MUB_MIRROR_DIVISORS_UP_TO_FIFTH_POWER",
+  "theorem": "The E8 restricted Pfaffian and the G26 reflection Jacobian span an index-five sublattice of the two-orbit mirror divisor lattice. Their integer combinations isolate the SIC and stabilizer/MUB arrangements: P^2/J is a scalar times A^5, while J^3/P is a scalar times B^5.",
+  "valuation_matrix_determinant": 5,
+  "valuation_vectors_SIC_stabilizer": {
+    "J": [
+      1,
+      2
+    ],
+    "P": [
+      3,
+      1
+    ]
+  }
+}
