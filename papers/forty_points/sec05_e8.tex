@@ -319,6 +319,55 @@ input. Neither these curvatures nor its chosen zero energy predict masses or
 the cosmological constant.
 \tierC\ (\cert{w33\_20261001\_g26\_global\_polynomial\_vacuum.py})
 
+An alternative normalization can now be certified without reconstructing the
+large numerical gauge map. In the canonical flat $27\times3$ order, let $Q$
+have columns supported at $(0,52,80)$, $(5,37,75)$ and $(26,40,54)$, with entries
+one. The integer $E_6$ basis gives $Q^\dagger Q=3I$, vanishing cross moment
+maps and pairwise zero brackets. Thus $\Phi=Qq/\sqrt3$ has canonical norm
+$\|q\|^2$ and is exactly $D$-flat. Its mass pencil splits into three cycle
+blocks of size three, nine bipartite blocks of size six and one of size eighteen.
+Relative signed permutations have order three (up to a minus sign in the
+six-blocks); the eighteen-block carries the regular $\Z_3^2$ character.
+Consequently, for every complex $q$, its squared singular spectrum is the
+twelve normalized MUB overlaps twice each, the nine normalized SIC overlaps
+with factor $2/3$ six times each, and three zeros. In particular the moments
+are $20\|q\|^2$ and $8\|q\|^4$. This certifies the earlier numerical mirror
+law on a new exact plane, not the earlier floating gauge transformation.
+\tierC\ (\cert{w33\_20261001\_exact\_cartan\_mirror\_completion.py})
+
+There is an explicit mass mechanism on this normal slice. The signed $E_6$
+cubic supplies a global degree-six contraction $C_6$ of three quadratic cross
+products; the ternary cubic $d(\Phi a)^3$ supplies an Aronhold scalar $S$.
+Exact symbolic restriction gives $C_6|_Q=12u_6$ and
+$S|_Q=(152u_6^2-32u_{12})/5$. Thus
+$I_6=9C_6/4$ and $I_{12}=(152I_6^2-3645S)/32$ restrict to the standard
+invariants on $Q/\sqrt3$. All lower/dual $E_6$ and volume-form generator
+checks vanish exactly, and their global analytic differentials are executable. At unit $T$, the covectors
+$\overline T,\nabla u_6,\nabla u_{12}$ have Gram $\operatorname{diag}(1,16,100)$.
+Their rank-one mass operators therefore lift all three null modes without
+changing the $78$ heavy singular masses. With specified EFT coefficients,
+the light masses are $|c_5|r^2/\Lambda$, $16|c_6|r^{10}/\Lambda^9$ and
+$100|c_{12}|r^{22}/\Lambda^{21}$. The global covariant circuits are explicit;
+measured scales, particle assignments and complete EFT-loop stability remain
+open. These are nonsupersymmetric EFT interactions.
+\tierC\ (\cert{w33\_20261001\_global\_e6\_cartan\_covariants.py})
+Adding positive moment squares to the global radial/invariant selector names
+an $81$-field classical potential. Its zero set reduces to the earlier
+Cartan intersection by moment-zero orbit theory. The $72$ Cartan rays are
+little-Weyl-related gauge representatives, not $72$ distinct physical vacua
+or prepared quantum resources; the common phase remains flat.
+
+A separate declared gauge/scalar/fermion model does not automatically select
+this vacuum. With $g_{SU(3)}=g_{E_6}/\sqrt6$, exact rational inverse-Gram
+identities match the gauge squared masses to one third of the cubic squared
+masses. The moment potential supplies matching massive real scalars, and
+conjugate fermion multiplets cancel perturbative gauge anomalies. The complete
+Landau-gauge one-loop angular potential is
+$(4g^4/9-8|y|^4)F/(64\pi^2)$, where the earlier interval witnesses show $T$
+is a saddle of $F$. A zero prefactor leaves angular flatness. Higher EFT
+operators, additional sectors and stable quantum alignment remain open.
+\tierC\ (\cert{w33\_20261001\_complete\_gauge\_scalar\_fermion\_loop.py})
+
 The computational interface needs an additional classical datum: a Clifford
 frame for the selected ray. The $72$ rays split into eight nine-ray Pauli
 orbits, two per MUB axis. Uniformly forgetting the displacement within even

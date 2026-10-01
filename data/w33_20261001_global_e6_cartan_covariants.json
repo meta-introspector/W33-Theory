@@ -1,0 +1,325 @@
+{
+  "defining_tensors": {
+    "AronholdS": "Fabc Fdef Fghi Fjkl epsilon(adg)epsilon(bej)epsilon(chk)epsilon(fil)",
+    "F": "F(alpha,beta,gamma)=d_ijk Phi_i(alpha)Phi_j(beta)Phi_k(gamma)",
+    "cross_product": "X_a(alpha,beta)=d_aij Phi_i(alpha)Phi_j(beta)",
+    "epsilon": "epsilon012=+1, fully alternating",
+    "raw6": "d^abc epsilon(alpha,gamma,eta)epsilon(beta,delta,theta)X_a(alpha,beta)X_b(gamma,delta)X_c(eta,theta)",
+    "signed_E6_triads": [
+      [
+        0,
+        17,
+        26,
+        -1
+      ],
+      [
+        0,
+        18,
+        25,
+        1
+      ],
+      [
+        0,
+        19,
+        24,
+        -1
+      ],
+      [
+        0,
+        20,
+        23,
+        1
+      ],
+      [
+        0,
+        21,
+        22,
+        -1
+      ],
+      [
+        1,
+        8,
+        26,
+        1
+      ],
+      [
+        1,
+        12,
+        25,
+        -1
+      ],
+      [
+        1,
+        14,
+        24,
+        -1
+      ],
+      [
+        1,
+        15,
+        23,
+        1
+      ],
+      [
+        1,
+        16,
+        21,
+        1
+      ],
+      [
+        2,
+        7,
+        26,
+        -1
+      ],
+      [
+        2,
+        11,
+        25,
+        1
+      ],
+      [
+        2,
+        13,
+        24,
+        1
+      ],
+      [
+        2,
+        15,
+        22,
+        -1
+      ],
+      [
+        2,
+        16,
+        20,
+        -1
+      ],
+      [
+        3,
+        6,
+        26,
+        -1
+      ],
+      [
+        3,
+        10,
+        25,
+        1
+      ],
+      [
+        3,
+        13,
+        23,
+        -1
+      ],
+      [
+        3,
+        14,
+        22,
+        1
+      ],
+      [
+        3,
+        16,
+        19,
+        1
+      ],
+      [
+        4,
+        5,
+        26,
+        1
+      ],
+      [
+        4,
+        9,
+        25,
+        -1
+      ],
+      [
+        4,
+        13,
+        21,
+        -1
+      ],
+      [
+        4,
+        14,
+        20,
+        1
+      ],
+      [
+        4,
+        15,
+        19,
+        -1
+      ],
+      [
+        5,
+        10,
+        24,
+        -1
+      ],
+      [
+        5,
+        11,
+        23,
+        -1
+      ],
+      [
+        5,
+        12,
+        22,
+        1
+      ],
+      [
+        5,
+        16,
+        18,
+        -1
+      ],
+      [
+        6,
+        9,
+        24,
+        1
+      ],
+      [
+        6,
+        11,
+        21,
+        -1
+      ],
+      [
+        6,
+        12,
+        20,
+        1
+      ],
+      [
+        6,
+        15,
+        18,
+        1
+      ],
+      [
+        7,
+        9,
+        23,
+        1
+      ],
+      [
+        7,
+        10,
+        21,
+        1
+      ],
+      [
+        7,
+        12,
+        19,
+        1
+      ],
+      [
+        7,
+        14,
+        18,
+        1
+      ],
+      [
+        8,
+        9,
+        22,
+        -1
+      ],
+      [
+        8,
+        10,
+        20,
+        -1
+      ],
+      [
+        8,
+        11,
+        19,
+        -1
+      ],
+      [
+        8,
+        13,
+        18,
+        -1
+      ],
+      [
+        9,
+        16,
+        17,
+        1
+      ],
+      [
+        10,
+        15,
+        17,
+        -1
+      ],
+      [
+        11,
+        14,
+        17,
+        -1
+      ],
+      [
+        12,
+        13,
+        17,
+        1
+      ]
+    ]
+  },
+  "exact_generator_invariance": {
+    "E6_lower_and_dual_generator_checks": 156,
+    "SL3_volume_form_checks": 8,
+    "invariance_proof": "I6 contracts three dual-valued cross products with the contravariant E6 cubic and two SL3 volume forms. The Aronhold scalar contracts four E6-invariant ternary cubics with four volume forms. All canonical tensor generators annihilate the defining tensors exactly."
+  },
+  "exact_restriction": {
+    "canonical_E_Q_over_sqrt3_normalizations": [
+      "I6=(9/4)raw6",
+      "I12=(152I6^2-3645AronholdS)/32"
+    ],
+    "coefficient_circuit": "45 signed E6 triads, canonical3D epsilon;1296 signed four-F Aronhold terms. No expanded monomial table is needed to evaluate the global polynomials or gradients.",
+    "exact_restrictions": "I6(Eq)=u6(q), I12(Eq)=u12(q), E=Q/sqrt(3)",
+    "unnormalized_Q_restriction": [
+      "raw6=12u6",
+      "AronholdS=(152u6^2-32u12)/5"
+    ]
+  },
+  "full_classical_selector": {
+    "gauge_boundary": "The72 Cartan rays are little-Weyl-related representatives of gauge orbits, not72 distinct physical vacua or prepared magic states. A common phase remains; quantum stability and state preparation are additional problems.",
+    "global_proof": "All terms are nonnegative; EqT at radiusr0 has value0. Every zero has moment0 and is semisimple. Conjugacy of Cartan subspaces and uniqueness of a moment-zero compact orbit representative reduce it to the prior exact72-ray Cartan intersection.",
+    "inputs": "Uses prior exact72-ray intersection and theta/closed-orbit theorems. Radius/couplings are external; chosen zero energy is not a cosmological-constant prediction.",
+    "potential": "lambda(||Phi||^2-r0^2)^2+alpha|I6(Phi)|^2+beta|I12(Phi)|^2+kappa sum moment_a(Phi)^2, all coefficients positive"
+  },
+  "global_evaluator": {
+    "coefficient_scope": "integer/rational contraction circuit; exact generator and symbolic restriction proofs, floating evaluation controls",
+    "differentials": "analytic polynomial chain rule; no finite-difference derivative implementation",
+    "domain": "every complex81-vector, including non-Dflat and nonregular fields"
+  },
+  "mass_completion_boundary": "Global operators are now explicit and gauge invariant. Exact heavy/null separation and three specified light masses concern the D-flat T plane and its compact unitary orbit, not every background.",
+  "numerical_controls": {
+    "T_normal_slice_gradient_error": 1.0660776616683245e-14,
+    "complexified_gauge_invariance_error": 1.0713322006468775e-17,
+    "global_covector_transport_error": 1.6782945342419286e-16,
+    "nonplane_complex_derivative_error": 5.0342769131740526e-11
+  },
+  "physical_boundary": "Coefficients, radial scales, particle assignments and full higher-operator loops remain inputs/open. Aronhold contractions are classical invariant theory; the executable signed81-field identification and differential circuit are the result here.",
+  "prior_owners": [
+    "analysis/w33_20261001_exact_cartan_mirror_completion.py",
+    "analysis/w33_pass11269_g26_qutrit_dictionary.py",
+    "tools/toe_e8_z3graded_bracket_jacobi.py",
+    "analysis/w33_pfaffian_doily_e6_cubic_bridge.py"
+  ],
+  "schema": "w33.20261001.global-e6-cartan-covariants.v1",
+  "status": "PASS_EXPLICIT_GLOBAL_I6_I12_CIRCUITS_EXACT_TENSOR_INVARIANCE_AND_RESTRICTION"
+}

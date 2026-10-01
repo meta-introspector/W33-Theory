@@ -1,0 +1,89 @@
+{
+  "external_sources": [
+    "https://arxiv.org/abs/hep-ph/0111209",
+    "https://arxiv.org/abs/hep-th/0512169",
+    "https://arxiv.org/abs/hep-th/9606001"
+  ],
+  "field_content": {
+    "anomaly_check": "Representations paired with their conjugates cancel perturbative gauge anomalies; no Standard Model assignment. A Z2 distinguishing original and conjugate fermions excludes direct cross-sector bare bilinears in the declared model.",
+    "fermions": "chi,psi in(27,3) and chi_tilde,psi_tilde in(27*,3*) with conjugate Yukawa tensors and equal |y|",
+    "higher_operators": "Dimension-five and gradient-completion coefficients set to zero for this renormalizable loop test; their loop corrections are not included.",
+    "potential": "V_D=(1/2)sum g_a^2 mu_a^2; no polynomial T selector added",
+    "scalar": "one complex Phi in(27,3) with canonical kinetic norm"
+  },
+  "full_one_loop": {
+    "angular_reduction": "64 pi^2 V1_angular=(4g^4/9-8|y|^4) F(q), F=sum sigma^4 log(sigma^2); all subtraction/scale terms are radial by the exact mirror design law",
+    "boundary": "Full one-loop field determinant for this declared model on the D-flat plane. No full higher-order EFT, two-loop calculation, off-plane global minimization or measured vacuum is claimed.",
+    "cancellation": "g^4=18|y|^4",
+    "formula": "64 pi^2 V1 = 3 sum mV^4(log(mV^2/mu^2)-5/6)+sum mS^4(log(mS^2/mu^2)-3/2)-8 sum mF^4(log(mF^2/mu^2)-3/2)",
+    "interval_sign_proof": {
+      "Hessian_eigenvalues_numerical": [
+        -3.0054651864032937,
+        -3.0054651864032937,
+        0.776142203539442,
+        0.7761422035394421
+      ],
+      "conclusion": "T is a saddle for either overall bosonic or fermionic sign; this simplest shared mass-loop spectrum does not select the polynomial T minimum",
+      "function": "F=sum_m multiplicity*m^4*log(m^2) for the declared mirror mass law",
+      "outward_interval_precision_digits": 60,
+      "scope": "Interval sign proof is for the declared mirror loop function. Its identification with the normalized 81-field mass pencil is checked numerically below, not symbolically certified.",
+      "sign_witnesses": [
+        {
+          "Rayleigh_bounds": [
+            -3.122103782235885,
+            -3.122103782235884
+          ],
+          "direction_integer_thousandths": [
+            197,
+            0,
+            0,
+            -1000
+          ]
+        },
+        {
+          "Rayleigh_bounds": [
+            0.8062630037300693,
+            0.8062630037300695
+          ],
+          "direction_integer_thousandths": [
+            0,
+            -197,
+            1000,
+            0
+          ]
+        }
+      ]
+    },
+    "result": "T is a saddle whenever the coefficient is nonzero; at its cancellation it is angularly flat at one loop, not an isolated minimum.",
+    "scheme": "MSbar Landau gauge on D-flat constant backgrounds; 3 massive-vector,1 real-scalar and8 paired-fermion degrees per matched cubic singular value"
+  },
+  "gauge_mass_identity": {
+    "exact_quadratic_coefficient_matrices_checked": 9,
+    "gauge_spectrum": "78 nonzero squared gauge masses equal g_E6^2/3 times the cubic squared singular masses; eight gauge zeros",
+    "identity": "2 sum_E(T Phi)(T Phi)^dag + (1/3) sum_SU3(T Phi)(T Phi)^dag = M(Phi)^dag M(Phi)/3 on the exact Cartan plane",
+    "method": "rational Hermitian bases, exact inverse trace Grams; no rounding or floating eigenspectrum proof",
+    "normalization_boundary": "This is a specified relative gauge normalization, not a prediction of measured gauge couplings.",
+    "relative_gauge_couplings": "g_SU3=g_E6/sqrt(6) in trace-normalized Hermitian generators",
+    "scalar_spectrum": "V_D=(1/2)sum_a g_a^2 mu_a^2 gives the same78 massive real scalar eigenvalues,78 Goldstone zeros and6 Cartan zeros"
+  },
+  "prior_owners": [
+    "analysis/w33_20261001_exact_cartan_mirror_completion.py",
+    "analysis/w33_20261001_dflat_cartan_mass_loop.py",
+    "analysis/BT1130_ricci_flat_seed_paradox_resolution.md"
+  ],
+  "scale_dynamics": {
+    "B_in_this_model": "-(-g**4 + 18*y**4)/(18*pi**2)",
+    "CW_radial_potential": "r^4[A(q)+B log(r^2/mu^2)]",
+    "angular_boundary": "For B>0 the T saddle remains; radial transmutation does not supply a joint stable T vacuum.",
+    "canonical_radial_mass_squared": "4*B*r**2",
+    "dilaton_model": "r=x*s, Lambda_heat=alpha*s, Lambda_EFT=beta*s, V=s^4 U(x), M_Pl^2=s^2 K(x)",
+    "dilaton_stationarity": "dV/dr=0 => Uprime(x)=0; dV/ds=0 then requires U(x)=0. A nonzero stationary s remains flat; a classical homogeneous potential cannot fix the absolute scale.",
+    "heat_volume_over_Planck_fourth": "144*pi**2/(kappa*theta)",
+    "positive_single_heat_action": "Leading volume and two-derivative EH terms: M_Pl^2=kappa Lambda_heat^2 Theta_F/(24 pi^2); V_volume=kappa Lambda_heat^4 Theta_F/(4 pi^2)",
+    "scale_boundary": "Cutoff promotion supplies a named dynamical variable, not an absolute scale or tiny cosmological constant. An anomaly/transmutation scale or independent dimensionful datum remains required; loop corrections/counterterms can change the displayed single-heat-action relation.",
+    "stationary_radius": "r0=mu exp[-A/(2B)-1/4], stable radially iff B>0",
+    "vacuum_value": "-B r0^4/2 before an independent vacuum counterterm"
+  },
+  "schema": "w33.20261001.complete-gauge-scalar-fermion-loop.v1",
+  "status": "PASS_EXACT_GAUGE_MASS_IDENTITY_AND_DECLARED_FULL_LOOP_T_SADDLE"
+}

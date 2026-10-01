@@ -1250,3 +1250,22 @@ fraction = P(c = n)); "the twist as a discrete Bargmann phase" should cite 11209
 - Pushed physical packet `74b52332e` to W33 master through GitKraken; remote tracking comparison shows no unpushed commits. Previous global-selector/resource packet `c2926e291` is also published.
 - Eight first-packet and three second-packet focused regressions pass; full forty-points PDF built for the first packet. Final result index and release intake audit succeeded.
 - Next independent physical targets: covariants for remaining null modes; algebraic D-flat/mirror-spectrum certification; complete loop stability; genuine discrete curved refinement; dynamics connecting radial, EFT and gravitational scales. No solved-TOE claim.
+
+## 2026-10-01 — execute five physical frontiers
+
+- User requested all five independent mass/gravity/scale follow-ups. Fetched and fast-forwarded the remote formula-universe inventory update4d01742d5; preserve unrelated half-spin/fidelity/scratch work.
+- New exact canonical Cartan plane has supports(0,52,80),(5,37,75),(26,40,54), Gram3I, exact E6/SU3 cross moments and pairwise brackets. Integer cycle/signed-permutation blocks prove the full mirror mass law for every complex direction. This does not certify the old floating gauge transformation.
+- Normal-slice invariant-gradient covariants have cyclotomic Gram(1,16,100); rank78 becomes81 with all heavy masses unchanged, conditional light suppression powers1,9,21. Global expanded invariant compiler and physical family assignments remain open.
+- Rational inverse-Gram gauge identity passes all9 coefficient matrices. Full declared anomaly-paired gauge/scalar/fermion loop on D-flat backgrounds gives (4g^4/9-8|y|^4)F; T is saddle except angular-flat cancellation. Higher EFT loops are excluded, not silently solved.
+- Built an isovolume nearest-neighbor Wilson tower carrying the actual162-dimensional mass fiber via its internal grading. Finite-block replay error3.98e-10; Richardson curvature response absolute error0.0406276 at t=.2. Retain the failed wrong-sign N96 naive control; finer16-species extrapolation ratio16.028049. Spacetime is supplied and convergence is numerical.
+- Homogeneous dilaton promotion has an unfixed-scale obstruction. A separate explicit anomalous reduced potential has exact positive radial/dilaton Hessian and named singlet-loop source; transmutation datum/coefficients remain inputs and vacuum energy remains nonzero.
+- Four focused regression functions and py_compile pass; paper/ledger additions built with Tectonic (typesetting warnings only); full index rebuilt10922 files. Intake guard still running before publication.
+- Prior raw Z6-I R-rule decision conflict remains unreconciled; no change to that prior frontier.
+
+### Global invariant circuit breakthrough (same five-frontier packet)
+
+- The previously open global I6/I12 compiler is now built: the signed E6 cubic cross products give raw6, and the ternary cubic Aronhold contraction gives S. Exact restrictions raw6|Q=12u6 and S|Q=(152u6²-32u12)/5 yield I6=9raw6/4 and I12=(152I6²-3645S)/32 on the canonical Q/sqrt3 embedding.
+- All156 lower/dual E6 tensor-generator checks and8 SL3 volume-form checks vanish exactly. Analytic global differential circuit handles every complex81 field, not only gauge-fixed regular points. Off-plane derivative error5.04e-11, complex-gauge transport1.68e-16, T gradient matching1.07e-14.
+- The global covariants supply the three-mode mass completion directly. Five final regression functions pass, including the actual global differential mass operator. Replaces the earlier global-compiler-open boundary; observed family assignments and full EFT quantum stability remain open.
+- The full81-field positive invariant/radial/moment-square classical potential is named. The72 Cartan rays are gauge-related representatives, not72 physical vacua/prepared magic states. Common phase remains flat.
+- Report, site and paper updated; final paper/ledger compile and six-file release intake/index are in progress before push.

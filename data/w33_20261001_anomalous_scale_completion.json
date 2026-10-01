@@ -1,0 +1,50 @@
+{
+  "angular_extension": "alpha6 |I6(Phi)|^2/d^8 + alpha12 |I12(Phi)|^2/d^20 + moment-square potential; I_d are the named theta-invariant extensions, alpha_d>0",
+  "boundary": [
+    "An explicit reduced anomalous potential with exact local stability, not a UV-derived beta function or the complete quantum action.",
+    "The renormalization scale/condition is supplied; measured absolute scales and coupling ratios are not predicted.",
+    "The nonzero vacuum energy is not a small cosmological-constant solution.",
+    "The common phase remains flat unless separately gauged or lifted.",
+    "The global invariant circuits are built in the companion covariant packet; this reduced model does not compute their complete matter-loop corrections."
+  ],
+  "canonical_coordinates": "rho=sqrt(2)||Phi||, d=real dilaton with kinetic(1/2)(dd)^2",
+  "canonical_tree_angular_masses_squared": [
+    "16 alpha6 v^10 mu^2 twice",
+    "100 alpha12 v^22 mu^2 twice"
+  ],
+  "cutoff_links": "Lambda_heat=alpha d, Lambda_EFT=beta d; all three named scales share d, but alpha,beta,v remain free dimensionless parameters",
+  "dimensionless_control_eigenvalues": [
+    0.07003547214781268,
+    0.18276452785218733
+  ],
+  "exact_Hessian": [
+    [
+      "4*lambda*mu**2*v**2",
+      "-4*sqrt(2)*lambda*mu**2*v**3"
+    ],
+    [
+      "-4*sqrt(2)*lambda*mu**2*v**3",
+      "8*mu**2*(B + lambda*v**4)"
+    ]
+  ],
+  "exact_determinant": "32*B*lambda*mu**4*v**2",
+  "exact_leading_minor": "4*lambda*mu**2*v**2",
+  "external_sources": [
+    "https://arxiv.org/abs/hep-th/0512169",
+    "https://doi.org/10.1103/PhysRevD.7.1888"
+  ],
+  "local_loop_robustness": "At T a sufficient condition is min(16alpha6 v^10,100alpha12 v^22) > |4g^4/9-8|y|^4| v^2 ||H_F||/(128pi^2), with the fixed-radius mirror Hessian H_F. This is a local condition; global quantum selection is not proved.",
+  "named_potential": "B*d**4*(log(d**2/mu**2) - 1/2) + lambda*(-d**2*v**2 + rho**2/2)**2",
+  "possible_log_source": "n real singlet spectators X_a with m_X^2=h^2 d^2 give B_X=n h^4/(64pi^2). A d^4 counterterm and renormalization condition set the displayed logarithmic constant; the full matter contribution must also be included to determine B_total.",
+  "predicted_form_not_numbers": "m_light/m_heavy carries powers(v/beta)^1,(v/beta)^9,(v/beta)^21; M_Pl/mu follows the specified positive heat factor and alpha,kappa, not W33 arithmetic alone",
+  "prior_owners": [
+    "analysis/w33_20261001_complete_gauge_scalar_fermion_loop.py",
+    "analysis/w33_20261001_exact_cartan_mirror_completion.py",
+    "analysis/w33_20261001_g26_global_polynomial_vacuum.py"
+  ],
+  "schema": "w33.20261001.anomalous-scale-completion.v1",
+  "stability": "Both radial/dilaton eigenvalues strictly positive for lambda,B,v,mu>0",
+  "stationary_point": "||Phi||=v mu, d=mu",
+  "status": "PASS_EXACT_REDUCED_RADIAL_DILATON_STABILITY_WITH_INPUT_TRANSMUTATION_SCALE",
+  "vacuum_energy": "-B mu^4/2 before an independent constant"
+}

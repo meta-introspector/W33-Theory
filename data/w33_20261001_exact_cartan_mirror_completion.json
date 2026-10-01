@@ -1,0 +1,815 @@
+{
+  "boundary": [
+    "Global I6/I12 polynomial circuits are supplied by the companion global-covariant packet.",
+    "This nonsupersymmetric EFT completion does not fix Standard Model assignments, scales, coupling values, or radiative stability."
+  ],
+  "covariant_completion": {
+    "EFT_operators": [
+      "(c5/Lambda)(Phi^dag chi)(Phi^dag psi)",
+      "(c6/Lambda^9)(dI6[chi])(dI6[psi])",
+      "(c12/Lambda^21)(dI12[chi])(dI12[psi])"
+    ],
+    "definition_of_I": "Explicit signed-cubic contraction invariants from w33_20261001_global_e6_cartan_covariants.py, independently proved to restrict to u6,u12 on this plane.",
+    "light_masses_at_T": [
+      "|c5|r^2/Lambda",
+      "16|c6|r^10/Lambda^9",
+      "100|c12|r^22/Lambda^21"
+    ],
+    "raw_gradient_vectors": [
+      [
+        "36",
+        "36*zeta**5",
+        "36*zeta**4"
+      ],
+      [
+        "-2430",
+        "-2430*zeta**2",
+        "2430*zeta**4 + 2430*zeta"
+      ]
+    ],
+    "raw_three_covector_Gram": [
+      "3",
+      "3888",
+      "17714700"
+    ],
+    "relative_to_heavy_scale_r": [
+      "(r/Lambda)^1",
+      "16(r/Lambda)^9",
+      "100(r/Lambda)^21"
+    ],
+    "scope": "This certificate independently proves the normal-slice Gram and separation; the global polynomial circuits and analytic differential evaluator are certified in the companion global-covariant packet. No measured masses or EFT coefficients are fixed.",
+    "unit_T_three_covector_Gram": [
+      1,
+      16,
+      100
+    ]
+  },
+  "external_sources": [
+    "https://m.mathnet.ru/php/archive.phtml?jrnid=im&option_lang=eng&paperid=2123&wshow=paper",
+    "https://arxiv.org/abs/hep-th/9506098"
+  ],
+  "finite_completion_control": {
+    "heavy_mass_error": 2.7755575615628914e-15,
+    "new_light_masses_sorted": [
+      0.0009999999999999597,
+      0.0020000000000000074,
+      0.00299999999999996
+    ],
+    "rank_before_after": [
+      78,
+      81
+    ],
+    "unitary_gauge_covariance_error": 1.1132091875920934e-16
+  },
+  "mass_blocks": [
+    {
+      "coordinate": 0,
+      "indices": [
+        0,
+        52,
+        80
+      ],
+      "proof": "cycle skew block: eigenvalues of A^T A are 0,3,3",
+      "size": 3
+    },
+    {
+      "active_coordinates": [
+        0,
+        1,
+        2
+      ],
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        24,
+        25,
+        36,
+        38,
+        39,
+        41,
+        51,
+        53,
+        55,
+        56,
+        76,
+        77,
+        78,
+        79
+      ],
+      "left_indices": [
+        1,
+        3,
+        24,
+        38,
+        41,
+        53,
+        55,
+        76,
+        78
+      ],
+      "proof": "regular Z3 x Z3 character: each joint character occurs once",
+      "relative_signed_permutations": [
+        [
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "right_indices": [
+        2,
+        4,
+        25,
+        36,
+        39,
+        51,
+        56,
+        77,
+        79
+      ],
+      "size": 18
+    },
+    {
+      "coordinate": 1,
+      "indices": [
+        5,
+        37,
+        75
+      ],
+      "proof": "cycle skew block: eigenvalues of A^T A are 0,3,3",
+      "size": 3
+    },
+    {
+      "active_coordinates": [
+        0,
+        2
+      ],
+      "indices": [
+        6,
+        22,
+        33,
+        44,
+        58,
+        74
+      ],
+      "left_indices": [
+        6,
+        44,
+        58
+      ],
+      "proof": "relative signed permutation has each eigenvalue -omega^k once",
+      "relative_signed_permutations": [
+        [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ]
+        ]
+      ],
+      "right_indices": [
+        22,
+        33,
+        74
+      ],
+      "size": 6
+    },
+    {
+      "active_coordinates": [
+        0,
+        1
+      ],
+      "indices": [
+        7,
+        21,
+        35,
+        42,
+        59,
+        73
+      ],
+      "left_indices": [
+        7,
+        42,
+        59
+      ],
+      "proof": "relative signed permutation has each eigenvalue -omega^k once",
+      "relative_signed_permutations": [
+        [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      ],
+      "right_indices": [
+        21,
+        35,
+        73
+      ],
+      "size": 6
+    },
+    {
+      "active_coordinates": [
+        1,
+        2
+      ],
+      "indices": [
+        8,
+        23,
+        34,
+        43,
+        57,
+        72
+      ],
+      "left_indices": [
+        8,
+        43,
+        57
+      ],
+      "proof": "relative signed permutation has each eigenvalue -omega^k once",
+      "relative_signed_permutations": [
+        [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      ],
+      "right_indices": [
+        23,
+        34,
+        72
+      ],
+      "size": 6
+    },
+    {
+      "active_coordinates": [
+        0,
+        2
+      ],
+      "indices": [
+        9,
+        19,
+        30,
+        47,
+        61,
+        71
+      ],
+      "left_indices": [
+        9,
+        47,
+        61
+      ],
+      "proof": "relative signed permutation has each eigenvalue -omega^k once",
+      "relative_signed_permutations": [
+        [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      ],
+      "right_indices": [
+        19,
+        30,
+        71
+      ],
+      "size": 6
+    },
+    {
+      "active_coordinates": [
+        0,
+        1
+      ],
+      "indices": [
+        10,
+        18,
+        32,
+        45,
+        62,
+        70
+      ],
+      "left_indices": [
+        10,
+        45,
+        62
+      ],
+      "proof": "relative signed permutation has each eigenvalue -omega^k once",
+      "relative_signed_permutations": [
+        [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            -1,
+            0,
+            0
+          ]
+        ]
+      ],
+      "right_indices": [
+        18,
+        32,
+        70
+      ],
+      "size": 6
+    },
+    {
+      "active_coordinates": [
+        1,
+        2
+      ],
+      "indices": [
+        11,
+        20,
+        31,
+        46,
+        60,
+        69
+      ],
+      "left_indices": [
+        11,
+        46,
+        60
+      ],
+      "proof": "relative signed permutation has each eigenvalue -omega^k once",
+      "relative_signed_permutations": [
+        [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            -1,
+            0,
+            0
+          ]
+        ]
+      ],
+      "right_indices": [
+        20,
+        31,
+        69
+      ],
+      "size": 6
+    },
+    {
+      "active_coordinates": [
+        0,
+        2
+      ],
+      "indices": [
+        12,
+        16,
+        27,
+        50,
+        65,
+        67
+      ],
+      "left_indices": [
+        12,
+        50,
+        67
+      ],
+      "proof": "relative signed permutation has each eigenvalue -omega^k once",
+      "relative_signed_permutations": [
+        [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ]
+        ]
+      ],
+      "right_indices": [
+        16,
+        27,
+        65
+      ],
+      "size": 6
+    },
+    {
+      "active_coordinates": [
+        0,
+        1
+      ],
+      "indices": [
+        13,
+        15,
+        29,
+        48,
+        64,
+        68
+      ],
+      "left_indices": [
+        13,
+        48,
+        68
+      ],
+      "proof": "relative signed permutation has each eigenvalue -omega^k once",
+      "relative_signed_permutations": [
+        [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      ],
+      "right_indices": [
+        15,
+        29,
+        64
+      ],
+      "size": 6
+    },
+    {
+      "active_coordinates": [
+        1,
+        2
+      ],
+      "indices": [
+        14,
+        17,
+        28,
+        49,
+        63,
+        66
+      ],
+      "left_indices": [
+        14,
+        49,
+        66
+      ],
+      "proof": "relative signed permutation has each eigenvalue -omega^k once",
+      "relative_signed_permutations": [
+        [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      ],
+      "right_indices": [
+        17,
+        28,
+        63
+      ],
+      "size": 6
+    },
+    {
+      "coordinate": 2,
+      "indices": [
+        26,
+        40,
+        54
+      ],
+      "proof": "cycle skew block: eigenvalues of A^T A are 0,3,3",
+      "size": 3
+    }
+  ],
+  "plane": {
+    "Cartan_justification": "Moment-zero implies a closed complex orbit, hence semisimple in the theta representation; generic bracket rank78 gives the minimal three-dimensional centralizer. Use the prior rank-three G26 classification.",
+    "exact_E6_cross_moments_zero": true,
+    "exact_SU3_cross_moments_zero": true,
+    "exact_pairwise_brackets_zero": true,
+    "kinetic_isometry": "E=Q/sqrt(3), E^dag E=I",
+    "old_plane_boundary": "Alternative exact canonical plane; not an algebraic certificate of the old large numerical gauge transformation.",
+    "support": [
+      [
+        0,
+        52,
+        80
+      ],
+      [
+        5,
+        37,
+        75
+      ],
+      [
+        26,
+        40,
+        54
+      ]
+    ],
+    "unnormalized_Gram": [
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        3
+      ]
+    ]
+  },
+  "prior_owners": [
+    "analysis/w33_pass11260_exact_semisimple_cartan.py",
+    "analysis/w33_pass11261_g26_cartan_coordinate_map.py",
+    "analysis/w33_pass11269_g26_qutrit_dictionary.py",
+    "analysis/w33_20261001_g26_global_polynomial_vacuum.py",
+    "analysis/w33_20261001_dflat_cartan_mass_loop.py"
+  ],
+  "schema": "w33.20261001.exact-cartan-mirror-completion.v1",
+  "status": "PASS_EXACT_SPARSE_DFLAT_MIRROR_LAW_AND_NORMAL_SLICE_MASS_COMPLETION",
+  "universal_mass_law": {
+    "mirror_reading": "12 normalized MUB overlaps twice and 9 normalized SIC overlaps times2/3 six times",
+    "previous_scope": "Five numerical directions in the dated full-normalization packet; this packet certifies the law on the new exact plane.",
+    "scope": "Exact for every complex q on Phi=Qq/sqrt(3), including degeneracies",
+    "squared_singular_values": "|q_i|^2 twice; |q0+omega^a q1+omega^b q2|^2/3 twice; |qi-omega^k qj|^2/3 six times; three zeros",
+    "trace_fourth": "8||q||^4",
+    "trace_squared": "20||q||^2"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "Richardson_absolute_error": 0.040627641815341065,
+  "Richardson_response": -49.37485930408055,
+  "W33_mass_fiber": {
+    "finite_Hilbert_dimension": 162,
+    "grading": "Gamma_F=diag(I81,-I81), {Gamma_F,D_F}=0 exactly by block construction",
+    "heat_factor": 154.3096285102632,
+    "point_of_internal_grading": "The Wilson regulator breaks external chiral anticommutation; using the internal grading preserves the product heat identity without assuming it.",
+    "product_Dirac": "D_total=D_Wilson(g) tensor Gamma_F + I tensor D_F",
+    "product_square": "D_total^2=D_Wilson(g)^2 tensor I + I tensor D_F^2",
+    "scope": "The actual signed81 mass map plus the prior one-null-mode lift; not the unrelated40/480 fixtures. The extra two gradient lifts are a separate EFT option."
+  },
+  "boundary": [
+    "Finite numerical refinement evidence, not interval tail bounds or a convergence theorem.",
+    "Four dimensions, torus topology, metric and spacing are inputs; spacetime emergence and Lorentzian gravity remain open.",
+    "Wilson heavy modes cause substantial finite-spacing artifacts; extrapolation is a control, not a proof.",
+    "No measured Newton constant, cosmological constant or particle assignments are inferred."
+  ],
+  "continuum_response": -49.33423166226521,
+  "doubling_control": {
+    "Richardson_ratio_to_single_continuum_species": 16.028049057469115,
+    "Richardson_response": -790.7314852953328,
+    "Wilson0_refinement_rows": [
+      {
+        "N": 96,
+        "ratio_to_single_continuum_species": -6.146242597625708,
+        "response": 303.2201561637494
+      },
+      {
+        "N": 192,
+        "ratio_to_single_continuum_species": 10.83083124582788,
+        "response": -534.3307377765732
+      },
+      {
+        "N": 384,
+        "ratio_to_single_continuum_species": 14.728744604558807,
+        "response": -726.631298415643
+      }
+    ],
+    "coarse_grid_warning": "N96 gives a wrong-sign curvature coefficient; the single-grid doubling tolerance was rejected. Only the finer sequence and its extrapolation are used as evidence.",
+    "expected_species": 16
+  },
+  "external_sources": [
+    "https://arxiv.org/abs/hep-th/9606001",
+    "https://arxiv.org/abs/1409.4983"
+  ],
+  "fixed_heat_time": 0.2,
+  "geometry": {
+    "Wilson_operator": "D0(p)=sum_mu gamma_mu sin(hp_mu)/h + gamma5 sum_mu[1-cos(hp_mu)]/h",
+    "curved_operator": "D(g)=b D0 b, b=exp(-sigma/2); Hermitian nearest-neighbor stencil",
+    "finite_isovolume": "sigma_j=epsilon cos(2pi*j/N)-(1/4)log(mean exp(4epsilon cos)); h^4 sum exp(4sigma)=(2pi)^4",
+    "input": "four-torus periods2pi; conformal metric varying along x1",
+    "refinement": "N -> 2N at fixed periods, t and mass map; no unscaled graph Laplacian substitution"
+  },
+  "independent_finite_matrix_control": {
+    "N": 12,
+    "Richardson_response": -7.302954808589372,
+    "error": 3.978968265982985e-10,
+    "finite_epsilon": 0.001,
+    "perturbation_response": -7.302954808987269,
+    "transverse_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  "perturbation": {
+    "H2_diagonal_scalar": "19E_n/8 + sum_neighbors[E_m/16 + v_n dot v_m/4]",
+    "Tr_H1nm_H1mn": "[(E_n+E_m+2 v_n dot v_m)^2+4(E_n E_m-(v_n dot v_m)^2)]/4",
+    "divided_difference": "(exp(-tE_n)-exp(-tE_m))/(E_m-E_n), equal-energy limit t exp(-tE_n)",
+    "transverse_compression": "exact signed-permutation multiplicities sum to N^3"
+  },
+  "prior_owners": [
+    "analysis/w33_20261001_isovolume_dirac_gravity_response.py",
+    "analysis/w33_20261001_dflat_cartan_mass_loop.py",
+    "analysis/w33_20261001_exact_cartan_mirror_completion.py",
+    "analysis/BT4169_BT4176_discrete_c2_hawking_backreaction_gray_levi_casimir_axion.md",
+    "analysis/BT1033_spectral_action_term_by_term_geometric.md"
+  ],
+  "product_curvature_response": -7619.016196959183,
+  "refinement_rows": [
+    {
+      "N": 48,
+      "continuum_error": 89.93825657311322,
+      "curvature_ratio": 2.8222506713644213,
+      "response": -139.27248823537843,
+      "spacing": 0.1308996938995747
+    },
+    {
+      "N": 96,
+      "continuum_error": 28.164320068643633,
+      "curvature_ratio": 1.570448998388526,
+      "response": -77.49855173090884,
+      "spacing": 0.06544984694978735
+    },
+    {
+      "N": 192,
+      "continuum_error": 7.495212401752951,
+      "curvature_ratio": 1.1516053076604693,
+      "response": -56.82944406401816,
+      "spacing": 0.032724923474893676
+    },
+    {
+      "N": 384,
+      "continuum_error": 1.9042738317997419,
+      "curvature_ratio": 1.0383092049446176,
+      "response": -51.23850549406495,
+      "spacing": 0.016362461737446838
+    }
+  ],
+  "schema": "w33.20261001.wilson-gravity-refinement.v1",
+  "status": "PASS_DISCRETE_CURVED_REFINEMENT_CONTROL_WITH_ACTUAL_W33_MASS_FIBER"
+}
