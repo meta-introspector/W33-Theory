@@ -434,6 +434,10 @@ $\pm18$ on the $6912$ pair and $0$ on the other $16$ relations. The index is the
 invariant, $\tr(P_{L_1}P_{L_2}P_{L_3})\propto(-i)^{\tau(L_1,L_2,L_3)}$: the finite-field form of the link between the
 Maslov index and the Weil representation~\cite{LionVergne1980}, checked here on random triples. Together with the
 third-moment Gauss sum $\pm i\sqrt3/243$ above, the direction of time between two subsystem descriptions is carried by
-an imaginary Gauss-sum --- Pancharatnam--Berry --- phase, and by nothing time-symmetric. An independent CNF encoding
+an imaginary Gauss-sum --- Pancharatnam--Berry --- phase, and by nothing time-symmetric. The two are one chirality:
+on all $512$ members of the $256$ pair the Maslov count is exactly $54Q$. The Choi-state phase needs labelled
+registers. On the $6912$ pair it vanishes on most labellings and has the relation's sign on the rest. Sorting the
+$36$ relabellings by block type removes the labels: the resulting multiset is chiral on exactly the four
+time-directed relations and separates all $20$. \tierC\ (\cert{w33\_pass11212\_one\_chirality.py}) An independent CNF encoding
 solved with two further SAT solvers (CaDiCaL, Glucose) reproduces the two infeasibility results behind the $S(3,4,10)$
 theorem. \tierC\ (\cert{w33\_pass11209\_maslov\_chirality.py}, \cert{w33\_pass11211\_ame10\_sat\_replication.py})
