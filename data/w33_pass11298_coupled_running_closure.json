@@ -1,0 +1,95 @@
+{
+  "Yukawa_formula": "(16pi\u00b2)beta_Ya=1/2(W*Ya+YaW)+2sum_b Yb Ya\u2020 Yb+sum_b Yb ReTr(Yb\u2020Ya)-3sum_g g\u00b2{C2F,Ya}; W=sum_b Yb\u2020Yb. Real scalar/Weyl convention, actual243 fermions and66 real scalar Yukawa components.",
+  "channel_rank_obstruction": {
+    "boundary": "A second vectorlike pair costs another12 and destroys E6 AF in this inventory. Two heavy(27,bar6) scalar mediators instead cost another6 and retain bE6=2; their complete Yukawa/portal flow is not computed here.",
+    "one_pair_matching": "C_ab=y1_a*y2_b/M for d(psi,psi,v_a) F_bdagger. Its2x2 channel matrix has rank at most1; the desired diagonal two-channel coefficient matrix has rank2. One vectorlike pair cannot independently supply both11294 sectors. The computed Yukawa running is the active single-channel truncation, with both sextets retained in the gauge inventory.",
+    "two_pair_E6_beta": -10,
+    "two_scalar_mediator_E6_beta": 2
+  },
+  "closure_boundary": "The gauge/Yukawa contractions and their flow are computed for the named two Yukawas. Pure-S quartic contributions are mandatory but NOT the full quartic flow: K,S,U,V,A and family portals in11293 contribute additional counterterms. The original positive-square coefficient ansatz is not RG closed. No complete-coupling asymptotic-freedom claim is made.",
+  "coupled_beta": "bE6=2,bSO10=8,bSU3_family=-68/3 for the two-sextet fermion-mediator inventory; beta_y1=y1(40y1\u00b2+y2\u00b2-52gE\u00b2-8gF\u00b2)/(16pi\u00b2), beta_y2=y2(5y1\u00b2+29y2\u00b2-52gE\u00b2-8gF\u00b2)/(16pi\u00b2).",
+  "exact_real_resultant_root_count": 0,
+  "family_Landau_log_scale": 1393.3559154479092,
+  "flow_rows": [
+    {
+      "couplings": [
+        0.4,
+        0.3,
+        0.05,
+        0.05,
+        0.06
+      ],
+      "log_scale": 0
+    },
+    {
+      "couplings": [
+        0.3921326523057153,
+        0.2871912818503913,
+        0.05018039451959101,
+        0.02991522775096139,
+        0.035917198605768925
+      ],
+      "log_scale": 10
+    },
+    {
+      "couplings": [
+        0.33742544322750756,
+        0.2169650245027598,
+        0.05189697095259208,
+        0.0005958657959454501,
+        0.0007156395616391095
+      ],
+      "log_scale": 100
+    },
+    {
+      "couplings": [
+        0.268713447267171,
+        0.15521614341549947,
+        0.056444321606806076,
+        1.55301380017488e-06,
+        1.86518224192096e-06
+      ],
+      "log_scale": 300
+    }
+  ],
+  "gauge_quartic_identity": "sum_i<j(si-sj)^4=10TrS4+3(TrS\u00b2)\u00b2 for tracelessS. Therefore a TrS4-only alignment coupling generates an independent double-trace counterterm.",
+  "global_family_fixed_Yukawa_ratios": [
+    "40/33",
+    "50/33"
+  ],
+  "necessary_pure_S_beta": "16pi\u00b2 beta_l1=124l1\u00b2+(224/5)l1l2+(159/50)l2\u00b2-120gSO\u00b2l1+18gSO4; beta_l2=24l1l2+(127/5)l2\u00b2-120gSO\u00b2l2+60gSO4.",
+  "primary_sources": [
+    "https://arxiv.org/abs/hep-ph/0211440"
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11293_yukawa_uv_budget.py",
+    "analysis/w33_pass11294_hierarchical_cp_phase_vacuum.py"
+  ],
+  "pure_S_fixed_ratio_controls": [],
+  "pure_S_quartic_definition": "V_S=lambda1(TrS\u00b2)\u00b2/4+lambda2 TrS4/4, S real SO10 symmetric-traceless54 with canonical trace norm.",
+  "result_scope": "PASS_COUPLED_GAUGE_YUKAWA_FLOW_AND_QUARTIC_CLOSURE_AUDIT",
+  "status": "PASS",
+  "tensor_checks": [
+    {
+      "beta1_over_y1": 41.0,
+      "beta2_over_y2": 34.0,
+      "tensor_closure_error": 5.2214014291603906e-14,
+      "y1": 1.0,
+      "y2": 1.0
+    },
+    {
+      "beta1_over_y1": 44.0,
+      "beta2_over_y2": 121.0,
+      "tensor_closure_error": 2.0885605716641563e-13,
+      "y1": 1.0,
+      "y2": 2.0
+    },
+    {
+      "beta1_over_y1": 161.0,
+      "beta2_over_y2": 49.0,
+      "tensor_closure_error": 2.2015361458940203e-13,
+      "y1": 2.0,
+      "y2": 1.0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "Hamiltonian": "H[N]=sum_i N_i(p_i\u00b2/2+V(phi_i))+sum_edges(N_i+N_j)(phi_i-phi_j)\u00b2/4. Canonical{phi_i,p_j}=deltaij; V=phi\u00b2/2+phi4/4.",
+  "bracket_control": -9.986379737463828,
+  "closure_boundary": "The site Hamiltonians alone are not closed under field-independent lapse brackets: their quadratic parts contain pp and phiphi, while the nonzero bracket contains mixed pphi. Adding edge constraints and gravitational variables is a further construction, not an inherited continuum ADM proof.",
+  "cycle_refinement_errors": [
+    0.00024995596845428514,
+    5.350343250579148e-05,
+    1.2806828318306929e-05,
+    3.166025758422064e-06
+  ],
+  "edge_control": -9.98637973746382,
+  "error": 8.881784197001252e-15,
+  "exact_bracket": "{H[N],H[M]}=sum_edges(N_i M_j-M_i N_j)D_ij, D_ij=(p_i+p_j)(phi_j-phi_i)/2. Potential cancels exactly. This creates edge-current generators absent from the site Hamiltonian ansatz.",
+  "finite_derivation_proof": "For a pointwise finite vertex algebra, e_i\u00b2=e_i implies D(e_i)=2e_i D(e_i). Outside componenti it forces zero; componenti gives x=2x. Hence every exact Leibniz derivation is zero. A nonzero graph difference cannot be the undeformed continuum derivative on all vertex fields.",
+  "native_graph": {
+    "edges": 160,
+    "vertices": 80
+  },
+  "primary_sources": [
+    "https://arxiv.org/abs/0810.2360"
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11296_covariant_matter_constraints.py",
+    "analysis/w33_pass11289_cycle_gram_gluing_flux.py"
+  ],
+  "result_scope": "PASS_NATIVE_GRAPH_ADM_MATTER_BRACKET_OBSTRUCTION_AND_REFINEMENT_CONTROL",
+  "scope": "A native W33-Levi regulator audit and a periodic-cycle O(h\u00b2) continuum control; not a completed discretized gravity theory. The fixed Levi graph has no supplied real3D refinement or metric embedding.",
+  "status": "PASS"
+}

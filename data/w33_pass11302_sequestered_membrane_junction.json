@@ -1,0 +1,47 @@
+{
+  "bare_shift_control": {
+    "residual_with_Lambda_compensation": 1.0426710315354479e-14,
+    "shift": 0.03
+  },
+  "boundaries": [
+    "Independent Fmem, its charge/offset/tension and the closed cap geometry are additional inputs.",
+    "Qseq,Qhat and the membrane extensive flux are not derived or quantized here; no observed CC selection.",
+    "No bounce-negative-mode, stability, nucleation-rate, Lorentzian cosmology or global genus81 instanton construction is proved."
+  ],
+  "global_equations": "Vol=Qseq/mu4 and <R>=-2mu4 Qhat/(M0\u00b2 Qseq), M0\u00b2=1. Integral curvature includes the membrane trace term3T*area/kappa\u00b2 as well as bulk4rho/kappa\u00b2.",
+  "inputs": {
+    "Qhat": -564.7419464623695,
+    "Qseq": 232.78809058137563,
+    "T": 0.4,
+    "charge": 0.4,
+    "fminus": 0.8,
+    "fplus": 1.2,
+    "mu4": 0.7
+  },
+  "junction": "Hplus\u00b2=rhoplus/(3kappa\u00b2), Hminus\u00b2=rhominus/(3kappa\u00b2); sqrt(1-Hminus\u00b2R\u00b2)-sqrt(1-Hplus\u00b2R\u00b2)=T R/(2kappa\u00b2).",
+  "laboratory_geometry": "Closed Euclidean two-cap S4 with outside large cap and inside small cap, both positive curvature. This added instanton geometry is NOT the genus81 M3xS1 W33 completion; no identification is made.",
+  "local_form_equations": "Variation of local Lambda gives Fseq=mu4*volume_form for linear sigma. Its extensive Qseq imposes Vol=Qseq/mu4. Fseq cannot at the same time be a jumping homogeneous Maxwell membrane field. The added Fmem instead obeys fplus-fminus=q independently.",
+  "named_action": "Original rigid-Lambda,kappa\u00b2 sequestering with topological Fseq and Fhat, plus a distinct Maxwell four-form Fmem and charged membrane T*area-q*integral A_mem. Never put the membrane charge on Fseq in the linear-sigma branch.",
+  "primary_sources": [
+    "https://arxiv.org/abs/1604.04000",
+    "https://arxiv.org/html/1505.01492v2"
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11284_closed_history_flux.py",
+    "analysis/w33_pass11297_membrane_flux_dynamics.py"
+  ],
+  "residual": 1.0426710315354479e-14,
+  "result_scope": "PASS_DECLARED_SEPARATE_MEMBRANE_FORM_JUNCTION_AND_GLOBAL_SEQUESTERING_SOLUTION",
+  "scope": "A nontrivial numerical solution for junction, volume and curvature-flux conditions with fixed input sectors generated from a physical reference and recovered from a perturbed start. A common bare vacuum shift is canceled by Lambda->Lambda-shift without changing geometry or flux sectors.",
+  "solved": {
+    "Lambda": 0.10000000000013015,
+    "average_curvature": 3.3963882047090137,
+    "cap_volumes": [
+      277.8553356113748,
+      54.69907950487266
+    ],
+    "kappa_squared": 1.0000000000001505,
+    "radius": 1.746667529218737
+  },
+  "status": "PASS"
+}

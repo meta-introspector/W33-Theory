@@ -1,0 +1,71 @@
+{
+  "CC_boundary": "Matching tadpoles and curvature does not fix the residual constant or observed vacuum energy; an independent vacuum-energy matching coefficient remains.",
+  "Hermite_residual": 3.141188680468016e-71,
+  "boundaries": [
+    "Uses the earlier condensate EFT of11290; the enlarged Higgs/SO10 vector spectrum of11293 is not included.",
+    "An explicitly invariant higher-degree EFT counterterm functional in a declared Landau/MS vector-CW convention, not a renormalizable UV counterterm basis.",
+    "Scalar/Weyl tadpoles, full external vector/ghost/Goldstone momentum matrices and UV matching are not completed here.",
+    "The radial dispersion is a conditional matched EFT contribution; its subtraction freedom is not a physical mass prediction."
+  ],
+  "dispersion_scheme": "Physical radial two-vector cut rho(t)=t\u00b2(1-4mV\u00b2/t+12mV4/t\u00b2)sqrt(1-4mV\u00b2/t)/(64pi r0\u00b2). Three subtractions at zero make its t\u00b2 growth integrable. Local momentum coefficients through s\u00b2 are declared zero; all pair cuts are closed at the scalar tree mass.",
+  "first_second_derivative_error": 4.548356312326323e-69,
+  "invariant_counterterm": "Let X(q) be the actual78x78 E6 vector mass-squared matrix. V_CW=3Tr f(X/scale)/(64pi\u00b2), f(t)=scale\u00b2t\u00b2[log(scale*t/mu\u00b2)-5/6]. Add Vct=-3Tr P(X/scale)/(64pi\u00b2). Pprime(0)=0 and Pprime,Psecond match fprime,fsecond at every positive vacuum eigenvalue. A matrix spectral function trace is gauge/family invariant.",
+  "leading_squared_pole_shift": -1.2868583065370871e-06,
+  "local_jet_proof": "First derivatives depend on fprime at eigenvalues; second derivatives use fsecond and divided differences of fprime. Hermite interpolation matches both, hence cancels the full vector-CW tadpole/Hessian jet on the regular quotient slice. The vector matrix is a positive Gram matrix: its first variation restricted to the kernel is zero and masses emerging from the kernel are O(q\u00b2). Since f(x)=O(x\u00b2 log x), those modes contribute no first or second field jet. Pprime(0)=0 matches their first-derivative term; no fsecond(0) value is assumed.",
+  "polynomial_coefficients": [
+    "0.0",
+    "0.0",
+    "-0.004917384109174380950822455737374663888883496973935344477972145566034423",
+    "0.03409628967031703931535112791493433811994938097272184809253033411461419",
+    "-0.1721136540315651265286630698535049770728850001930308756077524119625685",
+    "0.6916477112248965180886136477473330094535355558870625367755635114297672",
+    "-2.039903332728606247488016798209857560663966524035180042542292123167761",
+    "4.366498504414879016263396686375600414166631265411784984293962028700992",
+    "-6.742578537829362691579516924489044296883910576679243332046657382824199",
+    "7.412676700755481059847365214028133415653575698269551345438523770808944",
+    "-5.646514465664236575656300229954832262816356636231851786443870737749585",
+    "2.827779594832023347407319464477177598617685058543892636646239572223175",
+    "-0.8363829834498113669828473479673018812741595196037208896917793406579623",
+    "0.1105974360238068708636139350782932565344851070030055232262194534124467"
+  ],
+  "polynomial_degree": 13,
+  "primary_sources": [
+    "https://arxiv.org/abs/1910.02094",
+    "https://arxiv.org/abs/1609.06977"
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11295_ward_matched_modulus_poles.py",
+    "analysis/w33_pass11290_gauged_family_decay.py"
+  ],
+  "radial_vector_self_energy_real": 1.2868583065370871e-06,
+  "result_scope": "PASS_INVARIANT_HEAVY_VECTOR_LOCAL_JET_MATCHING_AND_RADIAL_DISPERSION",
+  "status": "PASS",
+  "vacuum_energy_remainder": -3.433818022404546e-07,
+  "vector_added_width": 0.0,
+  "vector_groups": [
+    {
+      "mass_squared": 0.004332510312611491,
+      "multiplicity": 18
+    },
+    {
+      "mass_squared": 0.011740270300288166,
+      "multiplicity": 6
+    },
+    {
+      "mass_squared": 0.015302811524686443,
+      "multiplicity": 18
+    },
+    {
+      "mass_squared": 0.02777777777777775,
+      "multiplicity": 4
+    },
+    {
+      "mass_squared": 0.03592023371825754,
+      "multiplicity": 18
+    },
+    {
+      "mass_squared": 0.043815285255267365,
+      "multiplicity": 6
+    }
+  ]
+}
