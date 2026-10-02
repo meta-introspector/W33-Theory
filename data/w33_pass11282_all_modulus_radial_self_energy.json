@@ -1,0 +1,121 @@
+{
+  "Goldstone_width_exact_formula": "Gamma(h->8GG)=M_radial\u00b3/(8pi r0\u00b2), here r0=1; nonzero and independent of local subtraction counterterms.",
+  "absorptive_fermion": 1.1678461694601908e-05,
+  "absorptive_scalar": 2.1705191303649587e-05,
+  "absorptive_total": 3.3383652998251495e-05,
+  "boundaries": [
+    "The unstable radial excitation has a complex pole; the previous real one-scalar pole excluded these decay channels.",
+    "The fixed-slice derivative vertices define the declared reduced EFT. Nonlinear quotient K\u00e4hler geometry, heavy vector multiplets and UV threshold matching are not inherited or solved.",
+    "Only strict1loop evaluation at the tree pole is reported; no Dyson iteration, interval error enclosure or complete physical spectrum is claimed."
+  ],
+  "channels": [
+    {
+      "kind": "scalar",
+      "m1_squared": 0.0003306122448979591,
+      "m2_squared": 0.0003306122448979591,
+      "multiplicity": 1,
+      "weight": 8.698172275101426e-07
+    },
+    {
+      "kind": "scalar",
+      "m1_squared": 0.0003306122448979591,
+      "m2_squared": 0.0003306122448979591,
+      "multiplicity": 1,
+      "weight": 8.698172275101416e-07
+    },
+    {
+      "kind": "scalar",
+      "m1_squared": 0.0009918367346938776,
+      "m2_squared": 0.0009918367346938776,
+      "multiplicity": 1,
+      "weight": 5.87996445796856e-06
+    },
+    {
+      "kind": "scalar",
+      "m1_squared": 0.0009918367346938776,
+      "m2_squared": 0.0009918367346938776,
+      "multiplicity": 1,
+      "weight": 5.879964457968557e-06
+    },
+    {
+      "kind": "scalar",
+      "m1_squared": 0.006942857142857143,
+      "m2_squared": 0.006942857142857143,
+      "multiplicity": 1,
+      "weight": 1.0655261036999217e-05
+    },
+    {
+      "kind": "scalar",
+      "m1_squared": 0.009257142857142856,
+      "m2_squared": 0.009257142857142856,
+      "multiplicity": 1,
+      "weight": 0.00022546532354290392
+    },
+    {
+      "kind": "scalar",
+      "m1_squared": 0.0003306122448979592,
+      "m2_squared": 0.0003306122448979592,
+      "multiplicity": 8,
+      "weight": 8.419830762298174e-06
+    },
+    {
+      "kind": "scalar",
+      "m1_squared": 0.0,
+      "m2_squared": 0.0,
+      "multiplicity": 8,
+      "weight": 3.4096835318397567e-06
+    },
+    {
+      "kind": "Majorana",
+      "m1_squared": 0.0001653061224489796,
+      "m2_squared": 0.0001653061224489796,
+      "multiplicity": 8,
+      "weight": 0.0008418971683554954
+    },
+    {
+      "kind": "Majorana",
+      "m1_squared": 0.0006612244897959184,
+      "m2_squared": 0.0006612244897959184,
+      "multiplicity": 2,
+      "weight": 0.0008418971683554954
+    },
+    {
+      "kind": "Majorana",
+      "m1_squared": 0.008100000000000001,
+      "m2_squared": 0.008100000000000001,
+      "multiplicity": 1,
+      "weight": 0.00515662015617741
+    }
+  ],
+  "dispersion": "Sigma_sub(s)=(s-s0)\u00b2/pi PV integral_threshold^infinity rho(t)/[(t-s0)\u00b2(t-s)]dt + i rho(s). Two subtractions converge for scalar and fermion cuts; spacelike subtraction avoids massless-Goldstone zero-momentum logarithms.",
+  "dispersion_upper_split_change": 8.131516293641283e-20,
+  "external_sector": "The radial self-energy only. This includes every internal scalar and Weyl mode from the declared canonical fixed-slice condensate profiles; it does not calculate the full22x22 external self-energy matrix.",
+  "internal_modes": {
+    "Weyl_Majorana_fermions": 11,
+    "massless_global_Goldstones": 8,
+    "real_scalars": 22
+  },
+  "m": 0.01,
+  "primary_sources": [
+    "https://arxiv.org/html/2505.07931v1",
+    "https://arxiv.org/abs/hep-ph/0502168"
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11270_full_condensate_moduli.py",
+    "analysis/w33_pass11272_resummed_condensate_radial_control.py",
+    "analysis/w33_pass11277_radial_momentum_pole.py"
+  ],
+  "real_self_energy_at_tree_pole": -0.00012504245123121926,
+  "result_scope": "PASS_ALL_INTERNAL_MODULUS_RADIAL_CUTS_AND_SUBTRACTED_SELF_ENERGY",
+  "scheme": "Inverse propagator s-Mtree\u00b2+Sigma_sub(s), with Sigma_sub(s0)=Sigmaprime_sub(s0)=0 at spacelike s0=-m\u00b2. The mass/kinetic matching coefficients are explicit input; this is not a zero-momentum curvature subtraction.",
+  "status": "PASS",
+  "strict_one_loop_pole_squared": {
+    "imag": -3.3383652998251495e-05,
+    "real": 0.009382185308374077
+  },
+  "subtraction_point": -0.0001,
+  "total_width_leading": 0.0003469727551066826,
+  "tree_radial_mass_squared": 0.009257142857142858,
+  "vertices": "g_hab=(partial_r Mscalar\u00b2)_ab/sqrt2 in the fixed mass basis; y_hii=-8 Mfermion_i/sqrt2. Eight Goldstone vertices are M_radial\u00b2/sqrt2, independently fixed by the radial Ward identity.",
+  "width_over_mass": 0.003606258811539513
+}

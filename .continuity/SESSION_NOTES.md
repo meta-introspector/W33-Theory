@@ -1328,3 +1328,14 @@ fraction = P(c = n)); "the twist as a discrete Bargmann phase" should cite 11209
 - Final12-file source/certificate intake: no rediscovery collisions, no forced arithmetic, intake clean. Result index rebuilt. Final PDF compiled; five scoped producers/certificates and all five current independent controls pass. Initial five pytest functions passed in145.67s; changed Higgs regression and all-current replay pass after refinement.
 - Exact local degree8 SM selector and degree4 large scalar lift are published with UV cost bE6=-80, not UV viability. Composite sextet rank10 and beta-family-79/3; radial-only nonzero pole; exact symplectic metric and literal history-flux obstructions. Full modulus poles, small-field alignment, observed Yukawas, emergent spacetime and physical scales/CC remain open.
 - Independent next targets: economical mediator representation; family sextet/Yukawa vacuum selection; full-modulus self-energy matching; dynamical metric symmetry reduction; closed/relative history-flux sector.
+
+## Passes11280-11284 validation
+
+- Reservation ff3447be2; all five prior targets executed with scoped producers/certificates. Factor Higgs996 fields/905 normal directions, nonabelian coefficients13 and29/6, auxiliary U1 UV issue. Family sextet exact rank4/8 and mixed bilinear; hierarchy input, aligned CKM zero. All internal22 scalar/11 Weyl modes in radial external self-energy; width/mass0.003606, full external matrix open. Added symplectic metric scales give local rank10; added closed genus81 history gives one top flux. No derived real spacetime or absolute scale/CC claim.
+- Five pytest regressions passed in65.59s. Report, site card, scoped paper paragraph and five ledger rows added; PDF/index/intake pending. Legacy finite-to-real embedding conflict surfaced; old scripts untouched pending preference. Unrelated parallel work preserved. Continuity changes logged immediately.
+
+### Passes11280-11284 publication ready
+
+- Final12-file intake clean: no rediscovery collisions or forced arithmetic. Refreshed RESULTS_INDEX. Five pytest tests passed in65.59s, five scoped certificates PASS, current sources compile, newest card unique. Revised paper/PDF compiled (823.65KiB; existing typesetting warnings).
+- Explicit beta wording: E6=13 and auxiliary SU5=29/6 are AF; family SU3=-79/3 and auxiliary U1=-135 remain UV issues. Full22x22 external self-energy not claimed. Fixed-slice radial result includes all internal modes. Added metric/history constructions expose inputs rather than claim W33-derived gravity/CC.
+- Latest GitKraken fetch has no newer remote commits. Ready to publish only20 owned science/documentation/continuity artifacts, preserving unrelated local work.

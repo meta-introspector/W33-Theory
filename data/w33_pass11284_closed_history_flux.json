@@ -1,0 +1,49 @@
+{
+  "boundary": [
+    "This supplies a concrete closed completion and constraint, not a unique geometry derived by finite incidence. Different Heegaard gluings change the topology.",
+    "Q,Qhat,kappa\u00b2 and the four-volume remain input sectors; the residual is not fixed to the observed CC.",
+    "The cellular action names the flux map and tests its variation. It does not prove convergence to a covariant metric/gravity path integral or cancel graviton loops."
+  ],
+  "conditional_gravity_equation": "kappa\u00b2G=T-(1/4)g<TrT>-DeltaLambda*g. For constant stress shift T->T-Cg, Lambda->Lambda-C and the source is exactly unchanged with fixed linear-sigma flux data.",
+  "construction": "Thicken the connected80-vertex160-edge W33 point-line incidence graph into an oriented3D handlebody of genus81. Double it across the boundary using the identity gluing: M3=#81(S1xS2). Set M4=M3xS1. These thickening, gluing and real-manifold choices are explicit added data.",
+  "declared_action": "S=sum_i volume_i[kappa_i\u00b2 R_i/2-Lambda_i-Lm_i]+sum_i sigma(Lambda_i/mu4)F_i+hatsigma(kappa_i\u00b2/M2)Fhat_i. Its continuum counterpart is the known covariant local sequestering action; discrete curvature/metric dynamics must be supplied.",
+  "flux": "F=D4^T A3+(Q/ticks)*ones. Exact3-form variations have zero total flux because D4*ones=0; Q is an independent topological sector. Integer quantization, if imposed, is additional compact-gauge input.",
+  "linear_sigma_test": "For sigma(z)=hatsigma(z)=z, variation of3-forms makesLambda,kappa\u00b2 rigid; Lambda variation givestotal volume=Q/mu4, kappa\u00b2 variation gives<R>=-2mu4 Qhat/(M2 Q).",
+  "local_rigidity": "D4 sigma(Lambda)=0 forces the top-cell coefficients equal along the connected circle, if sigma is injective. The prior clique history had injective D4 and forced zero instead.",
+  "minimal_spatial_boundaries": "zero in this standard handlebody-double CW decomposition",
+  "minimal_spatial_cell_counts": [
+    1,
+    81,
+    81,
+    1
+  ],
+  "primary_sources": [
+    "https://arxiv.org/html/1505.01492v2"
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11279_history_flux_obstruction.py",
+    "analysis/W33_LEDGER_CONTINUATION_2026_09_21.md",
+    "analysis/w33_pass11274_scale_and_sequestering.py"
+  ],
+  "residual_flux_constant": "-Qhat*kappa2*mu4/(2*M2*Q)",
+  "result_scope": "PASS_DECLARED_CLOSED_HISTORY_AND_DISCRETE_FLUX_SEQUESTERING_INTERFACE",
+  "status": "PASS",
+  "three_tick_history_cell_counts": [
+    3,
+    246,
+    486,
+    246,
+    3
+  ],
+  "top_boundary_rank_mod101": 2,
+  "top_boundary_shape": [
+    246,
+    3
+  ],
+  "topology": "M4 is closed oriented, Betti numbers(1,82,162,82,1), Euler0 and H4=Z. The clique complex itself is unchanged and still fails the previous flux test.",
+  "unique_top_cycle": [
+    1,
+    1,
+    1
+  ]
+}
