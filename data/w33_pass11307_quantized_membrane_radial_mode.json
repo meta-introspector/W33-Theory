@@ -1,0 +1,64 @@
+{
+  "boundaries": [
+    "Compact membrane gauge group, q,T and the linear sequestering flux sectors are additional inputs.",
+    "No observed CC selection, nucleation rate or complete genus81 instanton geometry.",
+    "The degree1 collapse is a topological map; pulling back a spherical cap metric would be degenerate and is not performed."
+  ],
+  "fixed_auxiliary_radial_curvature": -134.2591735075912,
+  "fixed_flux_constrained_radial_curvature": -204.7110165626368,
+  "full_reduced_Hessian": [
+    [
+      -134.2591735075912,
+      -119.25199967944837,
+      81.10469261269776,
+      -198.66647708585603
+    ],
+    [
+      -119.25199967944837,
+      -923.9995987073326,
+      769.0696654773925,
+      -1119.7151181078805
+    ],
+    [
+      81.10469261269776,
+      769.0696654773925,
+      -635.4179670169427,
+      927.2658366437761
+    ],
+    [
+      -198.66647708585603,
+      -1119.7151181078805,
+      927.2658366437761,
+      -1019.6245336663555
+    ]
+  ],
+  "gradient_residual": 6.288540324027218e-60,
+  "history_topology_map": "For the prior oriented closedM4=#81(S1xS2) x S1, collapse the complement of an embedded oriented4-ball to a point. M4->B4/boundaryB4=S4 has degree1 and pulls the integralH4 generator back to the history generator. On the existing3-tick chain, Fmem=(Qmem/3)(1,1,1)+D4^T A has totalperiodQmem. This transfers a flux class, not the two-cap metric or instanton.",
+  "membrane_flux_quantization": {
+    "charge": 0.4,
+    "compact_form_assumption": "q integral Fmem=2piN",
+    "integer_sector": 24,
+    "quantized_period": 376.9911184307752,
+    "unquantized_reference_period": 377.18566633755233
+  },
+  "negative_mode_scope": "EliminateLambda,kappa\u00b2,fminus by their stationarity equations at fixedQseq,Qhat,Qmem. The Schur complement is the second derivative of the reduced radius action and is negative. This is oneO4 collective-coordinate negative direction; conformal-factor contours, nonradial modes and a full bounce count/rate are not proved.",
+  "primary_sources": [
+    "https://arxiv.org/abs/1604.04000",
+    "https://arxiv.org/abs/1210.4740"
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11302_sequestered_membrane_junction.py",
+    "analysis/w33_pass11284_closed_history_flux.py"
+  ],
+  "reduced_action": "S=sum_caps[-rho V-3kappa\u00b2 c Area/R]+T Area-Lambda Qseq/mu4-kappa\u00b2 Qhat-fminus Qmem. The cap terms include GHY; fplus=fminus+q. This declares a fixed-flux ensemble. It is a reducedO4 action, not the complete field fluctuation determinant.",
+  "result_scope": "PASS_QUANTIZED_FIXED_FLUX_REDUCED_SADDLE_WITH_CONSTRAINED_RADIAL_NEGATIVE_MODE",
+  "saddle": {
+    "Lambda": 0.10084255247763585,
+    "fminus": 0.799459922342953,
+    "kappa_squared": 1.0002578270145999,
+    "radius": 1.7468742236732588
+  },
+  "stationarity": "dR S gives the Israel junction; dLambda S=Vol-Qseq/mu4; dkappa\u00b2 S fixes bulk plus geometric-junction integrated curvature; dfminus S=fplus Vplus+fminus Vminus-Qmem. Away from the Israel saddle, the geometric junction6*c_sum*Area/R must replace the on-shell wall3T*Area/kappa\u00b2.",
+  "status": "PASS",
+  "vacuum_shift_gradient_error": 5.526612704006039e-60
+}

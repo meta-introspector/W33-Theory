@@ -1,0 +1,264 @@
+{
+  "UV_barrier": {
+    "Riccati_coefficient": "16580/159",
+    "example_z0": 0.5,
+    "finite_rescaled_time_blowup_bound": 0.04834491825810365,
+    "positive_square_remainder": "(56*x - 15*y)**2/159",
+    "proof": "For unit tracelessS, r=TrS4/(TrS\u00b2)\u00b2 has controls1/10 and73/90. Weight23/32 and9/32 givesr=3/10. Other scalar blocks/mixed blocks add nonnegative Tr(Hfull\u00b2)-Tr(HSS\u00b2) to each background beta. With no SO10-charged Weyls, S has no Yukawa and no negative fermion-box term. Thus dz/dtau >= (16580/159)z\u00b2-104z+36 >0, tau=integral gSO\u00b2 dt/(16pi\u00b2). Since bSO=8 makes tau divergent in the UV, the Riccati comparison blows up at finite tau for every finite initialz.",
+    "scope": "A one-loop obstruction to complete weak-coupling asymptotic freedom of the unchanged11293 real54 inventory, including arbitrary scalar portals. Not a no-go for added SO10 Yukawas, a different representation, asymptotic safety, gravity corrections or strong UV completion.",
+    "strict_minimum": "41736/4145",
+    "weighted_polynomial": "2*(310*x**2 + 130*x*y - 260*x + 27*y**2 - 78*y + 90)/5"
+  },
+  "Yukawa_matter_escape": {
+    "Yukawa_beta": "16pi\u00b2 beta_y=y[(31/5+nactive)y\u00b2-27gSO\u00b2]. Direct54-tensor contraction for nactive2 gives41/5.",
+    "beta_gauge": "bSO10=8-2*8/3=8/3; E6 beta with oneH remains8.",
+    "bounded_fixed_rays": [
+      {
+        "Yukawa_squared_over_g_squared": 2.967479674796748,
+        "lambda1_over_g_squared": 0.4672880610675576,
+        "lambda2_over_g_squared": -0.12600619154255255,
+        "quartic_boundedness_margin": 0.3650830390385983,
+        "quartic_ratio_stability_eigenvalues": [
+          18.73482914256293,
+          -85.53232698024067
+        ]
+      },
+      {
+        "Yukawa_squared_over_g_squared": 2.967479674796748,
+        "lambda1_over_g_squared": 0.31514549843936723,
+        "lambda2_over_g_squared": -0.12087307962152648,
+        "quartic_boundedness_margin": 0.2171040005241291,
+        "quartic_ratio_stability_eigenvalues": [
+          -18.73307907112556,
+          -88.95647030176985
+        ]
+      }
+    ],
+    "new_fields": "Eight E6/family-singlet Weyls in the realSO10 vector10; two have y chi^T S chi/2, six have zeroS Yukawa. RealSO representations are anomaly-free. Masses and protection of spectator zeros require additional model input.",
+    "quartic_changes": "Add4*nactive*y\u00b2*lambda1,2 from scalar anomalous dimension and -4*nactive*y4 to beta_lambda2. These remove the no-Yukawa hypothesis of the Riccati barrier.",
+    "scope": "A constructed one-loop completely-AF gauge/Yukawa/two-quartic ray for the isolatedS/fermion block; the lower-lambda1 ray has two UV-attractive quartic ratios and a tuned Yukawa critical ratio. Six uncoupled spectator Weyls slow the gauge running. The full frame/family/mediator portal system is NOT solved, and added charged matter must be made phenomenologically acceptable.",
+    "screen": [
+      {
+        "active_Yukawas": 1,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 1
+      },
+      {
+        "active_Yukawas": 1,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 2
+      },
+      {
+        "active_Yukawas": 2,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 2
+      },
+      {
+        "active_Yukawas": 1,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 3
+      },
+      {
+        "active_Yukawas": 2,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 3
+      },
+      {
+        "active_Yukawas": 3,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 3
+      },
+      {
+        "active_Yukawas": 1,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 4
+      },
+      {
+        "active_Yukawas": 2,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 4
+      },
+      {
+        "active_Yukawas": 3,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 4
+      },
+      {
+        "active_Yukawas": 4,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 4
+      },
+      {
+        "active_Yukawas": 1,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 5
+      },
+      {
+        "active_Yukawas": 2,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 5
+      },
+      {
+        "active_Yukawas": 3,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 5
+      },
+      {
+        "active_Yukawas": 4,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 5
+      },
+      {
+        "active_Yukawas": 5,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 5
+      },
+      {
+        "active_Yukawas": 1,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 6
+      },
+      {
+        "active_Yukawas": 2,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 6
+      },
+      {
+        "active_Yukawas": 3,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 6
+      },
+      {
+        "active_Yukawas": 4,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 6
+      },
+      {
+        "active_Yukawas": 5,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 6
+      },
+      {
+        "active_Yukawas": 6,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 6
+      },
+      {
+        "active_Yukawas": 1,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 7
+      },
+      {
+        "active_Yukawas": 2,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 7
+      },
+      {
+        "active_Yukawas": 3,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 7
+      },
+      {
+        "active_Yukawas": 4,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 7
+      },
+      {
+        "active_Yukawas": 5,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 7
+      },
+      {
+        "active_Yukawas": 6,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 7
+      },
+      {
+        "active_Yukawas": 7,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 7
+      },
+      {
+        "active_Yukawas": 1,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 8
+      },
+      {
+        "active_Yukawas": 2,
+        "real_resultant_roots": 2,
+        "total_vector_Weyls": 8
+      },
+      {
+        "active_Yukawas": 3,
+        "real_resultant_roots": 2,
+        "total_vector_Weyls": 8
+      },
+      {
+        "active_Yukawas": 4,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 8
+      },
+      {
+        "active_Yukawas": 5,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 8
+      },
+      {
+        "active_Yukawas": 6,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 8
+      },
+      {
+        "active_Yukawas": 7,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 8
+      },
+      {
+        "active_Yukawas": 8,
+        "real_resultant_roots": 0,
+        "total_vector_Weyls": 8
+      }
+    ]
+  },
+  "alternative_adjoint_encoding": {
+    "boundary": "An explicit alternative representation that escapes the54-specific theorem; full two-adjoint/portal UV stability is not established.",
+    "gauge_beta_with_one_scalar_mediator": {
+      "E6": 8,
+      "SO10": "26/3"
+    },
+    "local_kernel": "The inverse reconstructs the old symmetric tracelessS locally. The prior111-dimensional orbit kernel is retained; replacing54 by45 leaves1356 real alignment fields and1245 positive normal directions. This is local elimination using11293, not a global vacuum classification.",
+    "map": "L=S K is a second real SO10 adjoint45; inverse S=-K L on K\u00b2=-I and[K,L]=0. Replace S equations by L\u00b2+K L+6I=0, Tr(KL)=0 and AU=iUL. All constraints remain quadratic.",
+    "reference_error": 1.7763568394002505e-15
+  },
+  "channel_rank": 2,
+  "one_loop_beta": "16pi\u00b2 beta_y=y(25y\u00b2-52gE\u00b2-8gF\u00b2), from324 real scalar Yukawa components on81 Weyls. One scalar retains bE6=8,bSO10=8; family gauging remains non-AF.",
+  "primary_sources": [
+    "https://arxiv.org/abs/hep-ph/0211440",
+    "https://arxiv.org/abs/1705.00751"
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11293_yukawa_uv_budget.py",
+    "analysis/w33_pass11298_coupled_running_closure.py"
+  ],
+  "result_scope": "PASS_TWO_CHANNEL_SCALAR_SOURCE_AND_PORTAL_INDEPENDENT_54_UV_BARRIER",
+  "signed_E6_matching_error": 6.938893903907228e-18,
+  "single_scalar_action": "H(27,bar6): V=||M H+J/M||\u00b2, J=sum_ab mu_ab v_a F_bdagger; Yukawa y d(psi,psi,H). Here mu has mass dimension1. Eliminating H=-J/M\u00b2 gives C_ab=-y mu_ab/M\u00b2, whose rank can be2. The source square includes required cross portals.",
+  "status": "PASS",
+  "tensor_controls": [
+    [
+      0,
+      12.249999999999995,
+      0.0
+    ],
+    [
+      17,
+      12.249999999999993,
+      0.0
+    ],
+    [
+      323,
+      12.249999999999995,
+      0.0
+    ]
+  ]
+}

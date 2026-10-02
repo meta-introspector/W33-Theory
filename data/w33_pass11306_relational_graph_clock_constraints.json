@@ -1,0 +1,49 @@
+{
+  "boundaries": [
+    "This is a parametrized oscillator theory with an explicit first-class algebra, not dynamical spacetime or two graviton polarizations.",
+    "Quadratic site potential is used; the quartic11301 scalar interaction is not included in the matrix witness.",
+    "Clock ordering and normalizations are additional choices; no Lorentzian3D refinement or local Einstein action is derived."
+  ],
+  "clock_constraints": "Add80 canonical(t_i,P_i) pairs. U(t)=ordered product exp(t_i A_i), A_i=J K_i of the native quadratic site Hamiltonians. B_i=(partial_i U)U^-1. Define C_i=P_i+(1/2)z^T(-J B_i)z.",
+  "exact_closure": "partial_i B_j-partial_j B_i-[B_i,B_j]=0 by right Maurer-Cartan. Hence{C_i,C_j}=0 exactly. The constraint Jacobian contains the80x80 identity in the P columns; rank80. BRST charge Omega=sum c_i C_i is nilpotent without higher ghost terms.",
+  "finite_controls": {
+    "dressed_path_difference": 1.1102230246251565e-16,
+    "flatness_errors": [
+      0.0,
+      8.737005563475009e-11,
+      8.725886679883388e-11
+    ],
+    "symplectic_error": 1.1102230246251565e-16,
+    "undressed_path_difference": 0.0007451826023544116,
+    "vertices": [
+      0,
+      1,
+      40
+    ]
+  },
+  "native_graph": {
+    "edges": 160,
+    "vertices": 80
+  },
+  "parallel_intake_control": {
+    "T_order9_identity_error": 2.2315206618374916e-15,
+    "boundary": "The sampled decay in11312 is probabilistic, not every sufficiently long word: all-Clifford-identity words with9m cubic gates equalI. Haar measure zero alone does not prove the random-walk limit or its geometric rate. The11309 affine-subspace claim must be read against its evolving certificate, not the stale hyperplane docstring."
+  },
+  "phase_space_count": {
+    "first_class_constraints": 80,
+    "physical_real_phase_dimension": 160,
+    "total_real_phase_dimension": 320
+  },
+  "primary_sources": [
+    "https://arxiv.org/abs/1011.2463"
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11301_graph_adm_regulator.py",
+    "analysis/w33_pass11296_covariant_matter_constraints.py",
+    "analysis/PASS11312_DEPTH_LAW.md",
+    "analysis/PASS11309_ONE_GATE_LAW.md"
+  ],
+  "relational_observable": "z0=U(t)^-1 z is invariant along every constraint flow and supplies80 physical canonical pairs. The dressed connection transports the old edge-current bracket into explicit clock dependence; it does not set the old bracket to zero.",
+  "result_scope": "PASS_NATIVE_GRAPH_RELATIONAL_CLOCK_FIRST_CLASS_COMPLETION",
+  "status": "PASS"
+}

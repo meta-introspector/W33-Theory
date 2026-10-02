@@ -1,0 +1,86 @@
+{
+  "action": "For k=1,2 add E6-singlet vectorlike Weyls chi_k(3)+chibar_k(bar3) under familySU3. L has M chi chibar+(y/2) chi^T(Fu\u2020+k Fd\u2020)chi+h.c. All y,k,M are real; the action is CP even and leaves the E6/SM stabilizer intact.",
+  "boundaries": [
+    "A named renormalizable interaction and actual phase-sensitive fermion loop, not a derivation of the observed CP phase or hierarchy.",
+    "Local identifiability is not a positive Hessian at a stationary quantum vacuum. Probe masses, couplings and matching coefficients are inputs.",
+    "The sextet Gram targets and epsilon used in controls are prior imposed data; no measured CKM prediction."
+  ],
+  "gauge_cost": "Two vectorlike family3+bar3 pairs have zero anomaly and cost4/3 family beta units, but zero E6/SO10 beta units. Family gauging remains a UV issue.",
+  "invariant_map": "Six moments Tr[((Fu+kFd)(Fu+kFd)\u2020)^p], k=1,2 and p=1,2,3, have rank4 on the old four determinant-preserving Takagi phase directions at all four reference vacua.",
+  "mass_map": "The symmetric6x6 mass is [[y(Fu\u2020+kFd\u2020),M I],[M I,0]]. Its full determinant detects mixed phases. M=3,y=.2 are inputs.",
+  "one_loop_potential_control": {
+    "difference": -0.0012741662261062103,
+    "phase_displaced": 5.2045506416652625,
+    "reference": 5.205824807891369,
+    "reference_squared_masses": [
+      [
+        5.3128981195644025,
+        6.471838484327438,
+        7.860379195418297,
+        10.304846367617188,
+        12.515763518535582,
+        15.245916292225289
+      ],
+      [
+        3.879681395926806,
+        5.32501662771442,
+        7.352095177468174,
+        11.01726760124641,
+        15.211220107450906,
+        20.87800304556969
+      ]
+    ]
+  },
+  "phase_controls": [
+    {
+      "epsilon": 0.18,
+      "rank": 4,
+      "scaled_phase_singular_values": [
+        2.443565634520695,
+        0.15800086606484073,
+        0.06202393005378815,
+        0.013257006182139684
+      ]
+    },
+    {
+      "epsilon": 0.22,
+      "rank": 4,
+      "scaled_phase_singular_values": [
+        2.4435561138807422,
+        0.15812217646707932,
+        0.06210748947650133,
+        0.013174041759708979
+      ]
+    },
+    {
+      "epsilon": 0.3,
+      "rank": 4,
+      "scaled_phase_singular_values": [
+        2.443529826249576,
+        0.15846257642089062,
+        0.062317463238203405,
+        0.012966644836928123
+      ]
+    },
+    {
+      "epsilon": 0.4,
+      "rank": 4,
+      "scaled_phase_singular_values": [
+        2.4434802545479246,
+        0.15911723286395657,
+        0.06265642046421296,
+        0.012654043414514236
+      ]
+    }
+  ],
+  "primary_sources": [
+    "https://arxiv.org/abs/1103.2915",
+    "https://arxiv.org/abs/2008.08606"
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11299_e6_flavor_spectral_obstruction.py",
+    "analysis/w33_pass11294_hierarchical_cp_phase_vacuum.py"
+  ],
+  "result_scope": "PASS_SM_PRESERVING_PHASE_SENSITIVE_SINGLET_PROBE_CONSTRUCTION",
+  "status": "PASS"
+}
