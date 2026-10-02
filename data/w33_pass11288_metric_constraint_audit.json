@@ -1,0 +1,37 @@
+{
+  "ADM_equivalence": "At this regular point, the rank10 submersion theorem supplies local coordinates(g_mu_nu,z_fiber). If the action depends only on g, it is exactly the Einstein-Hilbert/ADM action plus a redundant fiber variable. No higher-derivative source-field mode is introduced by this algebraic map.",
+  "boundaries": [
+    "Local regular-chart classical EH equivalence, not a global atlas, quantum unitarity proof or W33-derived spacetime.",
+    "Newton constant, real base and signature still inputs.",
+    "Constraint closure is inherited by an invertible local coordinate change from ADM; no lattice constraint-algebra convergence is proved."
+  ],
+  "conformal_boundary": "The single negative DeWitt kinetic direction is eliminated by the gravitational constraints in the reduced perturbative spectrum; its presence in the unreduced ADM kinetic form is not by itself a propagating ghost proof. Euclidean conformal-factor/path-integral issues remain.",
+  "constraints": "Four lapse/shift primary constraints and four Hamiltonian/momentum secondary first-class constraints, plus one primary first-class fiber constraint:11 configuration variables,22 phase dimensions,9 first-class constraints ->2 local physical graviton polarizations. The pulled-back kinetic Hessian has5 nulls (lapse/shift plus fiber).",
+  "exact_fiber_vector": [
+    "0",
+    "0",
+    "0",
+    "-2",
+    "0",
+    "0",
+    "0",
+    "1",
+    "0",
+    "0",
+    "0"
+  ],
+  "field_dimension": 11,
+  "kinetic_inertia": {
+    "negative_conformal": 1,
+    "positive": 5,
+    "zero": 5
+  },
+  "kinetic_pullback_rank": 6,
+  "metric_map_rank": 10,
+  "primary_source": "https://journals.aps.org/pr/abstract/10.1103/PhysRev.160.1113",
+  "prior_owner": "analysis/w33_pass11283_symplectic_metric_field.py",
+  "result_scope": "PASS_LOCAL_EH_PULLBACK_CONSTRAINT_AND_GHOST_AUDIT",
+  "sigma_warning": "Adding a separate kinetic term for G,u,chi,omega generally breaks the fiber invariance and can give time derivatives to lapse/shift combinations. The EH-only two-polarization conclusion does not apply automatically to that enlarged action.",
+  "spatial_velocity_map_rank": 6,
+  "status": "PASS"
+}

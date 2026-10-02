@@ -1,0 +1,27 @@
+{
+  "anyon_count": 115292150460684697600000000000000000000000,
+  "anyon_group": "Z^81/B Z^81; invariant factors are the prior-owned Levi critical group(Z/4)^6+(Z/40)^22+Z/160.",
+  "chiral_central_charge_mod8": 1,
+  "computational_boundary": "Abelian braiding supplies phase data and finite topological sectors; it is not universal non-Abelian quantum computation or a derivation of gravitational dynamics.",
+  "declared_action": "S=(1/4pi) integral B_IJ a^I da^J with81 compact U1 connections and K=B. This is an added2+1D bosonic Abelian Chern-Simons action, not an automatic W33 spacetime or particle model.",
+  "doubled_repair": "For K=B direct_sum(-B), the diagonal subgroup{([x],[x])} has order|A|, trivial pairing and spin, hence is Lagrangian. The doubled model has zero signature and admits the standard diagonal boundary.",
+  "gapped_boundary_obstruction": "A Lagrangian subgroupL in a nondegenerate finite pairing satisfies|L|\u00b2=|A|. Here|A|=2^83*5^23 is not a square, so no Lagrangian subgroup and no fully gapped topological boundary of this model exists. Positive signature provides a separate chiral obstruction.",
+  "linking_pairing": "b([x],[y])=x^T B^-1 y mod1",
+  "primary_source": "https://arxiv.org/abs/1008.0654",
+  "prior_owners": [
+    "analysis/w33_pass5028_5035_steinberg_apartments.py",
+    "analysis/w33_pass5436_5443_bicycle_apartment_scheme_packet.py",
+    "analysis/w33_pass11289_cycle_gram_gluing_flux.py"
+  ],
+  "result_scope": "PASS_ADDED_CYCLE_LATTICE_CS_BOUNDARY_OBSTRUCTION_AND_DOUBLING",
+  "sample_generator_spins": [
+    "81/320",
+    "81/320",
+    "81/320",
+    "81/320",
+    "81/320"
+  ],
+  "signature": 81,
+  "status": "PASS",
+  "topological_spin": "q([x])=x^T B^-1 x/2 mod1; even B makes this well-defined."
+}

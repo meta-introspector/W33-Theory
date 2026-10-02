@@ -1,0 +1,70 @@
+{
+  "CKM_modulus_squared": [
+    [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ]
+  ],
+  "Jarlskog_reference": 0.09622504486493769,
+  "Jarlskog_squared_exact": "1/108",
+  "SU3_gauge_orbit_dimension": 8,
+  "additional_flat_phase_directions": 4,
+  "exact_mixing_argument": "For distinct eigenvalues, row/column normalization and the four mixed moments invert the two3x3 Vandermonde matrices, forcing |Vij|\u00b2=1/3. Every3x3 complex Hadamard has J\u00b2=1/108; equivalently its unitarity triangle is equilateral. Thus no CP-conserving mixing matrix is a zero. CP-conjugate branches have equal energy.",
+  "finite_step_constraint_rank": 12,
+  "finite_step_singular_values": [
+    24307.957636148414,
+    21847.960408832772,
+    1474.8201232256527,
+    528.5183926181658,
+    156.93583013882485,
+    89.2197350463617,
+    20.76494997699082,
+    18.718189260539773,
+    18.66819084428922,
+    6.999999999999998,
+    5.31353916271107,
+    3.2983314953861127,
+    7.161938559395113e-10,
+    2.7053468509188785e-13
+  ],
+  "inputs": "Nondegenerate singular-value targets and the zero cross-correlation coupling pattern are inputs. Mixing is a consequence of that declared potential, not a fit to observed CKM or a consequence of W33 alone.",
+  "normal_directions": 12,
+  "potential": "Two prior spectral/determinant sextet sum-of-squares selectors, plus sum_p,q=1,2 [Tr(Su^p Sd^q)-Tr(Su^p)Tr(Sd^q)/3]^2. CP-even, SU3-congruence invariant; maximal degree16. Positive weights arbitrary.",
+  "primary_sources": [
+    "https://arxiv.org/abs/1103.2915",
+    "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.35.1685"
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11281_family_sextet_selection.py",
+    "analysis/BT891_yukawa_texture_from_grading.md",
+    "analysis/BT919_mixing_cp_scorecard.md"
+  ],
+  "real_field_dimension": 24,
+  "reference_singular_values": {
+    "down": [
+      1,
+      3,
+      5
+    ],
+    "up": [
+      1,
+      2,
+      3
+    ]
+  },
+  "result_scope": "PASS_CP_EVEN_TWO_SEXTET_TOY_VACUUM_WITH_CALCULABLE_NONZERO_MIXING",
+  "scope": "The exact equations fix the CKM sector and exclude J=0, but four relative sextet phases remain flat in addition to gauge directions. Numerical rank is a control, not an interval proof. Full scalar isolation and observed hierarchical CKM are not claimed.",
+  "standard_angles": "sin\u00b2theta13=1/3, sin\u00b2theta12=sin\u00b2theta23=1/2; cosdelta=0 in the standard CKM convention.",
+  "status": "PASS"
+}

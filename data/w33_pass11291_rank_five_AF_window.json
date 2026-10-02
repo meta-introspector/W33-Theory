@@ -1,0 +1,25 @@
+{
+  "analytic_window": "Auxiliary AF requires integer r>=5. Elementary-H E6 AF requires r<=4, so no intersection. Composite-H E6 AF requires r<=5, giving exactly r=5. This simultaneously matches the previous cubic selector rank5 lower bound.",
+  "at_r5": {
+    "E6": 4,
+    "SO10": 1
+  },
+  "auxiliary_group": "SO(2r), three complex(27,2r) matrices and one real antisymmetric adjoint; E6 trace conventions T27=3, vector T=1, C2(SO2r)=2r-2.",
+  "beta_polynomials": {
+    "E6_composite_H": "34-6r",
+    "E6_elementary_H": "28-6r",
+    "auxiliary_SO2r": "7r-34"
+  },
+  "boundaries": [
+    "Uniqueness only within the specified three-frame plus real-adjoint architecture and fixed baseline inventory.",
+    "Additional mediators, scalar fields or Weyl matter change the inequalities. Family SU3 is not made AF by this argument.",
+    "This selects an allowable factor rank, not physical gauge couplings, Higgs scales or the Standard Model itself."
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11280_factor_higgs_mediator.py",
+    "analysis/w33_pass11285_semisimple_factor_higgs.py"
+  ],
+  "result_scope": "PASS_EXACT_INTEGER_AF_WINDOW_FOR_THE_FIXED_THREE_FRAME_ARCHITECTURE",
+  "status": "PASS",
+  "unique_r": 5
+}

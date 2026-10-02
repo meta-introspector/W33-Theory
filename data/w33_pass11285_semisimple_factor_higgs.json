@@ -1,0 +1,32 @@
+{
+  "beta_with_composite_H": {
+    "E6": "4",
+    "SO10": "1",
+    "family_SU3": "-23/6"
+  },
+  "beta_without_H_replacement": {
+    "E6": "-2",
+    "SO10": "1"
+  },
+  "boundaries": [
+    "The auxiliary Abelian factor is embedded in an AF semisimple gauge theory, not deleted by fiat.",
+    "All gauge factors are not AF: family SU3 remains negative, and a second sextet lowers it further to-14/3.",
+    "The scalar alignment is renormalizable, but the composite Yukawa interface is dimension5. Any UV mediators change the beta inventory and must be counted.",
+    "VeV scales, gauge couplings, full quantum potential and global uniqueness are not derived."
+  ],
+  "composite_family_Higgs": "Replace elementary H(27,6bar) by H_eff=v Fdagger/M. E6 cubic d(psi,psi,v)Fdagger/M supplies a dimension5 Yukawa operator. This removes the27 copies of family6bar from gauge running above this EFT inventory; its UV matching requires separate mediators.",
+  "fields": "Three complex (27,10) scalar matrices U,V,W and one real SO10-adjoint antisymmetric K; original two27 Higgs and real78 retained. SO10 acts on right frames; K transforms R K R^T.",
+  "gauge_orbit_dimension": 111,
+  "local_kernel_proof": "K\u00b2=-I restricts deltaK to the20-dimensional SO10/U5 orbit, checked by exact integer commutator rank. Remove this SO10 rotation and set deltaK=0. The explicit UK+iU and VK+iV equations force deltaU=deltaU P and deltaV=deltaV P. Gram constraints alone only force this at finite zeros and can leave extra quartic-flat directions in their Hessian; the explicit projection squares remove that defect. This reduces to the previous five-frame equations. Their25 unitary directions lie in the SO10 stabilizer of K. Together with the old66 E6 directions, kernel=111; 1851 fields give1740 positive normal directions. Analytic elimination, not a floating full Hessian.",
+  "positive_normal_directions": 1740,
+  "potential": "Squared norms K\u00b2+I10, UK+iU, VK+iV, UVdagger-N, UdaggerU-(I+iK)/2, VdaggerV-(I+iK)/2, W-AU, (A+I)W-6U, plus the prior base Gram/cubic/A-v constraints. Every constraint has degree<=2, so the scalar potential is degree<=4.",
+  "primary_source": "https://doi.org/10.1103/PhysRevD.24.1005",
+  "prior_owners": [
+    "analysis/w33_pass11280_factor_higgs_mediator.py",
+    "analysis/w33_pass11281_family_sextet_selection.py"
+  ],
+  "real_alignment_fields": 1851,
+  "reference": "K=[[0,I5],[-I5,0]], E=[I5;-iI5]/sqrt2, U=Uold E\u2020, V=Vold E\u2020, W=Wold E\u2020. K\u00b2=-I, P=EE\u2020=(I+iK)/2.",
+  "result_scope": "PASS_LOCAL_SEMISIMPLE_AUXILIARY_COMPLETION_WITH_COMPOSITE_YUKAWA_INTERFACE",
+  "status": "PASS"
+}
