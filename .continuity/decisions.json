@@ -210,7 +210,8 @@
         "bcf12ad1-c381-4141-a222-73d852b2e027",
         "19e0a652-09d3-49e1-a86c-289082171b14",
         "1790896028300-axdzwf",
-        "853ac911-9a0c-475b-871d-a6407a84d0b4"
+        "853ac911-9a0c-475b-871d-a6407a84d0b4",
+        "69eb1296-188a-486d-9119-9ff0e0dbc519"
       ],
       "causedBy": []
     },
@@ -482,7 +483,8 @@
         "884be7d5-c234-4e0e-8b14-d54d5a5a7427",
         "f87c93d1-72c7-48ac-9937-5444b65a1586",
         "1790896028300-axdzwf",
-        "853ac911-9a0c-475b-871d-a6407a84d0b4"
+        "853ac911-9a0c-475b-871d-a6407a84d0b4",
+        "69eb1296-188a-486d-9119-9ff0e0dbc519"
       ],
       "causedBy": [
         "manual-20260507-pin-e8-manifest-z3-output-check"
@@ -679,7 +681,8 @@
         "1eb8b1a0-b12c-4c32-82ca-a16b238b1e64",
         "8b77008c-567a-4503-bb35-9a3a1286b010",
         "1790896028300-axdzwf",
-        "853ac911-9a0c-475b-871d-a6407a84d0b4"
+        "853ac911-9a0c-475b-871d-a6407a84d0b4",
+        "69eb1296-188a-486d-9119-9ff0e0dbc519"
       ],
       "causedBy": [
         "manual-20260507-fix-e8-orchestrator-dataclass-loader"
@@ -892,7 +895,8 @@
         "1eb8b1a0-b12c-4c32-82ca-a16b238b1e64",
         "8b77008c-567a-4503-bb35-9a3a1286b010",
         "1790896028300-axdzwf",
-        "853ac911-9a0c-475b-871d-a6407a84d0b4"
+        "853ac911-9a0c-475b-871d-a6407a84d0b4",
+        "69eb1296-188a-486d-9119-9ff0e0dbc519"
       ],
       "causedBy": []
     },
@@ -1121,7 +1125,8 @@
         "1eb8b1a0-b12c-4c32-82ca-a16b238b1e64",
         "8b77008c-567a-4503-bb35-9a3a1286b010",
         "1790896028300-axdzwf",
-        "853ac911-9a0c-475b-871d-a6407a84d0b4"
+        "853ac911-9a0c-475b-871d-a6407a84d0b4",
+        "69eb1296-188a-486d-9119-9ff0e0dbc519"
       ],
       "causedBy": []
     },
@@ -1333,7 +1338,8 @@
         "eba5eb0b-0fba-4740-8330-f34bbc8f5f08",
         "01043ddb-ac4b-4231-a415-8c38a00e3e94",
         "dd7ce8b0-71e0-4a15-9695-714f6eed1897",
-        "1790896028300-axdzwf"
+        "1790896028300-axdzwf",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "causedBy": []
     },
@@ -1518,7 +1524,8 @@
         "5dca2bcd-daeb-47d7-8ee4-a37157fdd0dc",
         "3ed87bc5-9475-41a9-b882-405c5cf65c70",
         "beaacdf4-c659-4757-bde7-2c01ced725f6",
-        "1790896028300-axdzwf"
+        "1790896028300-axdzwf",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "causedBy": []
     },
@@ -1721,7 +1728,8 @@
         "3ed87bc5-9475-41a9-b882-405c5cf65c70",
         "beaacdf4-c659-4757-bde7-2c01ced725f6",
         "4d08b5d9-0217-4018-9360-b5da0bc4ed8c",
-        "1790896028300-axdzwf"
+        "1790896028300-axdzwf",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "causedBy": []
     },
@@ -1886,7 +1894,8 @@
         "5dca2bcd-daeb-47d7-8ee4-a37157fdd0dc",
         "a46d8bd5-83e7-47c8-b48d-407b606736f5",
         "beaacdf4-c659-4757-bde7-2c01ced725f6",
-        "1790896028300-axdzwf"
+        "1790896028300-axdzwf",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "causedBy": []
     },
@@ -2069,7 +2078,8 @@
         "5dca2bcd-daeb-47d7-8ee4-a37157fdd0dc",
         "a46d8bd5-83e7-47c8-b48d-407b606736f5",
         "beaacdf4-c659-4757-bde7-2c01ced725f6",
-        "1790896028300-axdzwf"
+        "1790896028300-axdzwf",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "causedBy": []
     },
@@ -5286,6 +5296,9 @@
         "2d40daf8-cfed-4bed-bd36-4d161358e656",
         "884be7d5-c234-4e0e-8b14-d54d5a5a7427",
         "7155b4ad-3427-497f-afb1-936e25672f96"
+      ],
+      "relatedTo": [
+        "69eb1296-188a-486d-9119-9ff0e0dbc519"
       ]
     },
     "metadata": {
@@ -42006,6 +42019,11 @@
     ],
     "files": [],
     "status": "outdated",
+    "relationships": {
+      "relatedTo": [
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
+      ]
+    },
     "metadata": {
       "status": "active",
       "outdatedReason": "auto-aged",
@@ -42027,6 +42045,11 @@
     ],
     "files": [],
     "status": "outdated",
+    "relationships": {
+      "relatedTo": [
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
+      ]
+    },
     "metadata": {
       "status": "active",
       "outdatedReason": "auto-aged",
@@ -42657,10 +42680,12 @@
         "39df9716-0ee1-40cf-913f-7e02244aa8d6",
         "1468c7e0-ea14-454c-b297-669ce93943f0",
         "7ec67c02-20da-4959-99f5-4f515f5af7df",
-        "853ac911-9a0c-475b-871d-a6407a84d0b4"
+        "853ac911-9a0c-475b-871d-a6407a84d0b4",
+        "69eb1296-188a-486d-9119-9ff0e0dbc519"
       ],
       "supersededBy": [
-        "6deeccb2-551d-4073-8401-bcf5eccb7885"
+        "6deeccb2-551d-4073-8401-bcf5eccb7885",
+        "69eb1296-188a-486d-9119-9ff0e0dbc519"
       ]
     },
     "metadata": {
@@ -128208,7 +128233,8 @@
         "3f24726f-bb1a-45a0-bfcf-b22d3997401f",
         "458dc626-cd39-4a19-b4ff-0bdadf8bd5d1",
         "7d4f4a58-fae6-4fd4-a2ab-1ed668bff8c5",
-        "bf1714a6-ad45-483f-994b-6e7a253b758d"
+        "bf1714a6-ad45-483f-994b-6e7a253b758d",
+        "69eb1296-188a-486d-9119-9ff0e0dbc519"
       ],
       "relatedTo": [
         "2984351a-ff0d-436d-a7f9-26a21ebc54f7",
@@ -128257,7 +128283,8 @@
         "458dc626-cd39-4a19-b4ff-0bdadf8bd5d1",
         "bf1714a6-ad45-483f-994b-6e7a253b758d",
         "921af750-569e-40bd-9a64-c4610eae4706",
-        "853ac911-9a0c-475b-871d-a6407a84d0b4"
+        "853ac911-9a0c-475b-871d-a6407a84d0b4",
+        "69eb1296-188a-486d-9119-9ff0e0dbc519"
       ]
     },
     "metadata": {
@@ -167565,7 +167592,9 @@
         "e758e598-86f7-4810-9f78-d6d6b4a4fe7b",
         "68d9fe67-96ee-4e2e-9afd-091a445870d1",
         "1468c7e0-ea14-454c-b297-669ce93943f0",
-        "36420751-e6ea-4063-90c2-cc7000349e8e"
+        "36420751-e6ea-4063-90c2-cc7000349e8e",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4",
+        "69eb1296-188a-486d-9119-9ff0e0dbc519"
       ],
       "relatedTo": [
         "e7967b5b-c6be-40c6-97f7-45f7107549ed",
@@ -167580,7 +167609,8 @@
         "787d9c28-54a5-4d78-9bf4-1168ef2f13a8",
         "e758e598-86f7-4810-9f78-d6d6b4a4fe7b",
         "3f551425-5967-4b74-9888-98c2da2f5784",
-        "68d9fe67-96ee-4e2e-9afd-091a445870d1"
+        "68d9fe67-96ee-4e2e-9afd-091a445870d1",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "causes": [],
       "causedBy": []
@@ -172558,7 +172588,8 @@
         "3f551425-5967-4b74-9888-98c2da2f5784",
         "68d9fe67-96ee-4e2e-9afd-091a445870d1",
         "1dff670b-8dcf-46bc-bf8c-2e2b1908cdeb",
-        "b684ad1b-7686-4ab7-a288-2d506e4de570"
+        "b684ad1b-7686-4ab7-a288-2d506e4de570",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "relatedTo": [
         "10cb212e-2bc6-4f7f-9435-9750a2414e29",
@@ -172571,7 +172602,8 @@
         "68d9fe67-96ee-4e2e-9afd-091a445870d1",
         "030531f9-7d2d-4ff3-a623-f6c4e4bb5018",
         "b684ad1b-7686-4ab7-a288-2d506e4de570",
-        "6248f7c0-5b5d-48cd-a103-d852dda37062"
+        "6248f7c0-5b5d-48cd-a103-d852dda37062",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "causes": [],
       "causedBy": [
@@ -175210,7 +175242,8 @@
         "6090a2c3-fb23-4db8-8177-953bccdc09a5"
       ],
       "supersededBy": [
-        "1dff670b-8dcf-46bc-bf8c-2e2b1908cdeb"
+        "1dff670b-8dcf-46bc-bf8c-2e2b1908cdeb",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "relatedTo": [
         "c981113e-1338-4269-969d-6af600723aed",
@@ -176523,7 +176556,8 @@
       "supersedes": [],
       "supersededBy": [
         "1dff670b-8dcf-46bc-bf8c-2e2b1908cdeb",
-        "b684ad1b-7686-4ab7-a288-2d506e4de570"
+        "b684ad1b-7686-4ab7-a288-2d506e4de570",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4"
       ],
       "relatedTo": [
         "030531f9-7d2d-4ff3-a623-f6c4e4bb5018",
@@ -200085,7 +200119,9 @@
         "702e1d44-2e1e-403a-8949-4d5daca80016",
         "3f24726f-bb1a-45a0-bfcf-b22d3997401f",
         "458dc626-cd39-4a19-b4ff-0bdadf8bd5d1",
-        "7d4f4a58-fae6-4fd4-a2ab-1ed668bff8c5"
+        "7d4f4a58-fae6-4fd4-a2ab-1ed668bff8c5",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4",
+        "69eb1296-188a-486d-9119-9ff0e0dbc519"
       ],
       "relatedTo": [
         "01e8a316-2e07-4420-a356-02b1e3fdd265",
@@ -200102,7 +200138,9 @@
         "40771f00-eb62-4997-b1a2-4beb2affb331",
         "458dc626-cd39-4a19-b4ff-0bdadf8bd5d1",
         "7d4f4a58-fae6-4fd4-a2ab-1ed668bff8c5",
-        "bf1714a6-ad45-483f-994b-6e7a253b758d"
+        "bf1714a6-ad45-483f-994b-6e7a253b758d",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4",
+        "69eb1296-188a-486d-9119-9ff0e0dbc519"
       ],
       "causes": [],
       "causedBy": [
@@ -206901,15 +206939,78 @@
         "85c1fdda-055a-406d-9fac-fcb4c2bd057d",
         "8d757ee1-dd52-4b6f-bdda-0d9d604d7a61",
         "9da207a9-f9dd-4208-9456-27582d75a396",
-        "016c3cca-ee7e-4249-8f72-e26f2012db3c"
+        "016c3cca-ee7e-4249-8f72-e26f2012db3c",
+        "7a54e88b-8adb-4a82-9b70-f7427547f0e4",
+        "10cb212e-2bc6-4f7f-9435-9750a2414e29",
+        "c981113e-1338-4269-969d-6af600723aed",
+        "3f551425-5967-4b74-9888-98c2da2f5784",
+        "01cd7e7c-0199-40f2-acd7-b9a63630624f"
       ],
-      "supersededBy": [],
+      "supersededBy": [
+        "69eb1296-188a-486d-9119-9ff0e0dbc519"
+      ],
       "relatedTo": [
         "d51722b8-4d77-46f7-b403-0ecc3db8f24a",
         "e6af5112-13da-4298-bebd-bdd4cf37baad",
         "2a3fd2fb-84cb-49f5-a23d-98f5e2d39eb3",
         "85c1fdda-055a-406d-9fac-fcb4c2bd057d",
-        "8d757ee1-dd52-4b6f-bdda-0d9d604d7a61"
+        "8d757ee1-dd52-4b6f-bdda-0d9d604d7a61",
+        "7a54e88b-8adb-4a82-9b70-f7427547f0e4",
+        "bd0e7f21-9d2e-4ee8-af63-eb29092dd1e5",
+        "809bdca3-7c68-4698-8136-3e7fba0ca491",
+        "10cb212e-2bc6-4f7f-9435-9750a2414e29",
+        "c981113e-1338-4269-969d-6af600723aed",
+        "69eb1296-188a-486d-9119-9ff0e0dbc519"
+      ],
+      "causes": [],
+      "causedBy": [
+        "1777318403162-biaewx",
+        "1777318403161-4mgrce",
+        "1777318403161-vfxeky",
+        "1777318403161-wwusgh",
+        "1777318403161-8dkkdk",
+        "1777318403161-ai9frf",
+        "1777318403161-qze7ej",
+        "1777318403161-t7tcbd",
+        "1777318403161-06lp3s",
+        "1777318403161-ya0ehy"
+      ]
+    },
+    "metadata": {
+      "source": "cli",
+      "status": "active"
+    },
+    "commitHashes": []
+  },
+  {
+    "id": "69eb1296-188a-486d-9119-9ff0e0dbc519",
+    "question": "How were c133893a2 and receipt commit12980e578 finally synchronized?",
+    "answer": "Scientific packet c133893a2 and publication receipt12980e578 were pushed via GitKraken. Concurrent remote inventory commit2d2f424f6 changed only data/w33_formula_search_universe_v1.json; reviewed the changed-file boundary, integrated it through GitKraken pull, and retried push successfully. Final origin-https/master..HEAD comparison is empty. No scientific artifact changed during integration. This terminal publication receipt follows the already-published scientific and validation records.",
+    "timestamp": "2026-10-02T00:00:21.440Z",
+    "tags": [
+      "audit",
+      "github",
+      "how",
+      "w33"
+    ],
+    "files": [],
+    "status": "active",
+    "priority": "medium",
+    "relationships": {
+      "supersedes": [
+        "7a54e88b-8adb-4a82-9b70-f7427547f0e4",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4",
+        "e6af5112-13da-4298-bebd-bdd4cf37baad",
+        "d51722b8-4d77-46f7-b403-0ecc3db8f24a",
+        "10cb212e-2bc6-4f7f-9435-9750a2414e29"
+      ],
+      "supersededBy": [],
+      "relatedTo": [
+        "d51722b8-4d77-46f7-b403-0ecc3db8f24a",
+        "e6af5112-13da-4298-bebd-bdd4cf37baad",
+        "7a54e88b-8adb-4a82-9b70-f7427547f0e4",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4",
+        "4bd583d3-e161-44e6-b4da-8d27a583c396"
       ],
       "causes": [],
       "causedBy": [
