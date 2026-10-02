@@ -1,0 +1,30 @@
+{
+  "W33_internal_heat_factor": 154.3096285102632,
+  "boundary": [
+    "Analytic fixed-t limit and directed uniform high-momentum tail, not a numerical finite-N discretization-error enclosure or a uniform t->0 theorem.",
+    "Four dimensions, torus, conformal metric and spacing are supplied. W33 is the finite mass fiber; its finite spectrum alone does not derive these geometric inputs.",
+    "No Lorentzian gravity, Einstein dynamics, Newton scale or cosmological constant is derived."
+  ],
+  "convergence_proof": "For every fixed integer momentum, sin(hp)/h->p and Wilson mass->0. The divided difference is a continuous integral, including equal energies. Both neighbors converge. The stated summable Gaussian-polynomial dominates every principal-zone summand uniformly; extend by zero outside the zone and use dominated convergence on Z4. Therefore the existing Wilson response converges to its continuum curvature response at fixed t>0.",
+  "dimension_nonselection_proof": "For any fixed finite162-dimensional mass fiber, Theta_F(t)=162+O(t), so -2t*dlogTheta_F/dt->0. Multiplication by an external d-dimensional continuum heat trace therefore retains UV spectral dimensiond. The same W33 fiber can be attached to any suppliedd; this product ansatz cannot select4 dimensions.",
+  "energy_proof": "E_h=sum sin(hp)^2/h\u00b2+(sum(1-cos(hp))/h)^2 >=sum4sin(hp/2)^2/h\u00b2 >=(4/pi\u00b2)|p|\u00b2 >=(2/5)|p|\u00b2 on the principal Brillouin zone. Also E_h<11|p|\u00b2 since sin x<=|x|,1-cos x<=x\u00b2/2 and h\u00b2|p|\u00b2<=4pi\u00b2.",
+  "finite_fiber_scope": "The actual signed81 mass map plus the prior one-null-mode lift; not the unrelated40/480 fixtures. The extra two gradient lifts are a separate EFT option.",
+  "max_neighbor_vector_difference_control": 0.999598453149681,
+  "neighbor_proof": "The5-vector changes by norm2|sin(h/2)|/h<=1 under a unit shift in p1. Therefore E_neighbor<=2E+2.",
+  "prior_owners": [
+    "analysis/w33_20261001_wilson_gravity_refinement.py",
+    "analysis/w33_20261001_metric_dynamics_and_heat_bound.py"
+  ],
+  "product_limit": "Multiply the proved external response limit by the fixed finite W33 mass-fiber heat trace; finite internal dimension permits exact heat factorization.",
+  "response_bound": "H2<=27E/8+3/4; H1norm<=11E\u00b2+14E+4; divided difference <=t exp(-t min(E,E_neighbor)). min>= (2/5)(|p|-1)_+\u00b2 >= |p|\u00b2/5-2/5. Bound by [t(13.5*11*r\u00b2+3)+t\u00b2(11*121*r4+14*11*r\u00b2+4)exp(2t/5)]exp(-t*r\u00b2/5).",
+  "result_scope": "PASS_UNIFORM_WILSON_CURVATURE_DOMINATION_AND_FIXED_T_LIMIT",
+  "species_control": "The lower bound fails for the naive wilson0 stencil at corners; it is the Wilson term, not a presumed absence of doublers, that establishes uniform domination.",
+  "status": "PASS",
+  "uniform_tail": {
+    "Gaussian_exponent": "a=t/5",
+    "K": 64,
+    "precision": 40,
+    "upper_display": "1.082865113735047471714031472581643e-25",
+    "upper_exact": "45615602678148268100794689165856713704457/421249166674228746791672110734681729275580381602196445017243910144"
+  }
+}

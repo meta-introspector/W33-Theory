@@ -1,0 +1,42 @@
+{
+  "Ward_resummation": "Delta_hard=V1hard_prime/(2r). At the hard-shifted stationary point, Gtree+Delta_hard=0. The8 f(Gbar) soft terms and their first derivatives vanish there, avoiding insertion of an arbitrary positive IR regulator. Double-counting subtraction is needed when adding explicit higher-loop terms.",
+  "Weyl_modes": 11,
+  "boundary": [
+    "One-loop canonical11-modulus effective theory with specifiedm/mu and tree radius, not the full E6 ultraviolet theory.",
+    "Heavy gauge multiplet thresholds, K\u00e4hler running/matching, higher-loop terms and gauge dynamics are omitted.",
+    "Radial curvature is a zero-momentum static quantity; nonzero pole masses require momentum-dependent self-energies.",
+    "The paired EFT hardGoldstone1PI problem in the companion audit is not solved by substituting this different theory."
+  ],
+  "computed_hard_zero_momentum_shift": -1.4654536210880256e-06,
+  "hard_determinant": "[sum14 mS^4(log(mS\u00b2/mu\u00b2)-3/2)-2sum11 mF^4(log(mF\u00b2/mu\u00b2)-3/2)]/(64pi\u00b2); soft8 Goldstones treated by the Ward-resummed kernel.",
+  "hard_one_loop_at_shifted_radius": 1.971615622067882e-08,
+  "hard_one_loop_at_tree_radius": 2.018490089127679e-08,
+  "hard_scalar_modes": 14,
+  "nonzero_physical_poles_computed": false,
+  "parameters": {
+    "Lambda_ninth": "3m/14",
+    "m": 0.01,
+    "mu": 0.01,
+    "tree_radius": 1.0
+  },
+  "primary_sources": [
+    "https://arxiv.org/html/2505.07931v1",
+    "https://arxiv.org/abs/1406.2355"
+  ],
+  "prior_owners": [
+    "analysis/w33_20261001_condensate_cartan_potential.py",
+    "analysis/w33_pass11270_full_condensate_moduli.py",
+    "analysis/w33_pass11272_goldstone_ir_and_pole_audit.py"
+  ],
+  "protected_physical_poles": "If the globalSU3-breaking vacuum persists, its8 Goldstone poles are exactly massless by the continuous symmetry. This protection is distinct from the unphysical gauge Goldstones of the paired EFT.",
+  "radial_static_curvature": 0.009372849244242316,
+  "radius_shift": 0.00015861932933436407,
+  "result_scope": "PASS_HARD_MODULUS_LOOP_RADIAL_SHIFT_AND_WARD_RESUMMED_GOLDSTONES",
+  "resummed_Goldstone_mass_squared": -2.5607288303155194e-17,
+  "scalar_homogeneity": "M_scalar\u00b2(r)=m\u00b2[F*r^-16+A*r^-8]; F is obtained by subtracting the explicit AMSB holomorphic Hessian from the previously certified6-direction Hessian. Eight noncompact partners have(729/49)r^-16-(81/7)r^-8. Eight compact Goldstones have(81/7)(r^-8-r^-16).",
+  "shifted_radius": 1.0001586193293344,
+  "soft_global_Goldstones": 8,
+  "status": "PASS",
+  "tree_Goldstone_mass_squared_at_shifted_radius": 1.4654536210624183e-06,
+  "tree_radial_static_curvature": 0.009257142857142858
+}

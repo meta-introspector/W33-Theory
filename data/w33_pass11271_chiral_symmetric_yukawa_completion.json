@@ -1,0 +1,190 @@
+{
+  "SM_preserving_exotic_mass": "Under E6->SO10, a scalar1 in27 couples fermion10 times10; its vev masses the vectorlike5+5bar and leaves the chiral16. This is standard branching, not a stabilizer of the regular T vacuum.",
+  "Yukawa_operator": "d_ABC psi_i^A psi_j^B H^{C,ij}, H^{ij}=H^{ji} in family6bar. Symmetric in the combined fermion indices; does not vanish like the old d times epsilon map.",
+  "Yukawa_test_matrices": {
+    "Yd": [
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        1,
+        3,
+        1
+      ],
+      [
+        0,
+        1,
+        5
+      ]
+    ],
+    "Yu": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        4
+      ]
+    ],
+    "noncommuting_left_Gram": true
+  },
+  "boundary": [
+    "A constructed anomaly-free operator/Higgs interface, not a dynamically selected chiral Standard Model vacuum.",
+    "SM branching is imported from prior E6 work; this script verifies the SU5 centralizer but does not map its generators into the canonical signed27 basis.",
+    "Yukawa matrices are independent coefficients; no observed masses, CKM angles or CP phase are predicted.",
+    "Extra scalar representations change beta functions and worsen family UV running; the old beta certificate is not inherited."
+  ],
+  "explicit_SU5_adjoint_centralizer_dimension": 12,
+  "family_compact_stabilizer_dimension_at_diag123": 0,
+  "fermions": "one Weyl(27,3) plus one Weyl(1,10bar); anomaly27-27=0 as in prior candidate",
+  "hypercharge_generator": "-diag(2,2,2,-3,-3)/6",
+  "named_breaking_chain": "E6->SO10 using27 singlet; SO10->SU5 using16 singlet; SU5->SU3xSU2xU1 using adjoint diag(2,2,2,-3,-3). Alignment and a potential selecting all vevs are not supplied.",
+  "new_scalars": "(27,6bar) for Yukawa/exotic mass; (1,28) for10bar spectator mass; further Higgs fields required for the named E6-to-SM chain",
+  "primary_source": "https://doi.org/10.1016/0370-1573(81)90092-2",
+  "prior_owners": [
+    "analysis/w33_e6_27_standard_model.py",
+    "analysis/w33_20261001_chiral_decuplet_and_condensate_bridge.py",
+    "analysis/w33_20261001_global_e6_cartan_covariants.py"
+  ],
+  "result_scope": "PASS_EXPLICIT_SYMMETRIC_CHIRAL_YUKAWA_AND_SPECTATOR_MASS_INTERFACE",
+  "spectator_mass_determinant": "592704",
+  "spectator_mass_matrix": [
+    [
+      "15",
+      "0",
+      "0",
+      "3",
+      "0",
+      "3",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "3",
+      "0",
+      "0",
+      "0",
+      "0",
+      "3",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "3",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "3"
+    ],
+    [
+      "3",
+      "0",
+      "0",
+      "3",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "3",
+      "0",
+      "0",
+      "1",
+      "0",
+      "3",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "3",
+      "0",
+      "0",
+      "0",
+      "0",
+      "15",
+      "0",
+      "3",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "3",
+      "0",
+      "3"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "3",
+      "0",
+      "3",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "3",
+      "0",
+      "0",
+      "0",
+      "0",
+      "3",
+      "0",
+      "15"
+    ]
+  ],
+  "spectator_operator": "chi_ijk chi_lmn Sigma^{ijklmn}, Sigma totally symmetric in6 upper family indices (28). The stored Wick tensor vev gives a full-rank10 mass matrix.",
+  "status": "PASS",
+  "updated_beta_subset": {
+    "E6": "32",
+    "SU3_family": "-93/2",
+    "inventory": "one Weyl81+Weyl10bar; complex scalar(27,6bar)+(1,28), excluding further GUT-breaking scalars. T6=5/2,T28=63."
+  }
+}

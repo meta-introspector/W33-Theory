@@ -1,0 +1,40 @@
+{
+  "Lambda_boundary_relation": "mu*exp(-8*pi**2/(27*g**2))",
+  "W33_connection": "The condensate constant Vmin and constant vacuum loop shifts are canceled only if this additional global constraint is adopted. W33 has not produced lambda, Lambda_g, sigma or the spacetime averaging prescription.",
+  "boundary": [
+    "A tested external mechanism, not a W33-derived CC solution.",
+    "History-dependent residual is not forced to the observed value. Nonconstant condensate stress and phase transitions remain gravitational sources.",
+    "Absolute mass and Newton scales still require a UV boundary coupling, SUSY-breaking sector and gravitational dynamics."
+  ],
+  "canonical_supertrace_m_fourth": "852930/2401",
+  "canonical_supertrace_m_squared": "0",
+  "conditional_gravity_equation": "Mpl\u00b2G_mu_nu=T_mu_nu-(1/4)g_mu_nu<TrT>. A spacetime-constant shift T_mu_nu->T_mu_nu-Cg_mu_nu cancels exactly; residual history/flux and the global sigma constraints remain inputs.",
+  "loop_vacuum_scale_dependence": "dV1/dlogmu= -STr(M^4)/(32pi\u00b2). Vanishing STr(M\u00b2) does not cancel the vacuum energy or its running.",
+  "near_SUSY_beta": "b_E6=3C_A-3T27=36-9=27, including gaugino and3 chiral supermultiplets. Distinct from b17 paired nonsupersymmetric EFT and b35 chiral nonsupersymmetric subset.",
+  "primary_sources": [
+    "https://arxiv.org/html/2505.07931v1",
+    "https://arxiv.org/abs/1309.6562"
+  ],
+  "prior_owners": [
+    "analysis/w33_20261001_uv_running_scale_audit.py",
+    "analysis/w33_20261001_condensate_cartan_potential.py"
+  ],
+  "radius_over_Lambda": "(14Lambda/(3m))^(1/8)",
+  "result_scope": "PASS_EXPLICIT_SCALE_INPUT_AND_CONDITIONAL_VACUUM_SHIFT_TEST",
+  "sequestering_declared_action": "S=int sqrt(-g)[Mpl\u00b2R/2-Lambda_g-lambda^4 L_m(lambda^-2 g^{mu nu},Phi)]+sigma(Lambda_g/(lambda^4 mu_s^4)). Lambda_g and lambda are spacetime-global variables.",
+  "stationary_vacuum_energy": "-36*14**(1/4)*3**(3/4)*Lambda**(9/4)*m**(7/4)/49",
+  "status": "PASS",
+  "two_epoch_test": {
+    "constant_shift_cancels": true,
+    "residual_density": [
+      "3*u/4 - 3*v/4",
+      "-u/4 + v/4"
+    ],
+    "weights": [
+      "1/4",
+      "3/4"
+    ]
+  },
+  "vacuum_scaling": "Vmin proportional -(m^7 Lambda^9)^(1/4)",
+  "weak_coupling_control": "m/Lambda->0 gives r/Lambda->infinity; canonical UV-field K\u00e4hler treatment improves parametrically, but neither m nor the boundary coupling is selected by W33."
+}
