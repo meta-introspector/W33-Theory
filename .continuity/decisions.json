@@ -214,7 +214,8 @@
         "69eb1296-188a-486d-9119-9ff0e0dbc519",
         "b8c6eb4e-915f-42db-9e7d-a5209face028",
         "dedc1d58-0e06-48df-ad6b-1a3d13d1377c",
-        "faf84c35-856f-4b26-9a33-3869092be3cb"
+        "faf84c35-856f-4b26-9a33-3869092be3cb",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "causedBy": []
     },
@@ -488,7 +489,8 @@
         "1790896028300-axdzwf",
         "853ac911-9a0c-475b-871d-a6407a84d0b4",
         "69eb1296-188a-486d-9119-9ff0e0dbc519",
-        "346709d8-9f3e-4193-a3e1-150004df8939"
+        "346709d8-9f3e-4193-a3e1-150004df8939",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "causedBy": [
         "manual-20260507-pin-e8-manifest-z3-output-check"
@@ -689,7 +691,8 @@
         "69eb1296-188a-486d-9119-9ff0e0dbc519",
         "b8c6eb4e-915f-42db-9e7d-a5209face028",
         "dedc1d58-0e06-48df-ad6b-1a3d13d1377c",
-        "faf84c35-856f-4b26-9a33-3869092be3cb"
+        "faf84c35-856f-4b26-9a33-3869092be3cb",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "causedBy": [
         "manual-20260507-fix-e8-orchestrator-dataclass-loader"
@@ -903,7 +906,8 @@
         "8b77008c-567a-4503-bb35-9a3a1286b010",
         "1790896028300-axdzwf",
         "853ac911-9a0c-475b-871d-a6407a84d0b4",
-        "69eb1296-188a-486d-9119-9ff0e0dbc519"
+        "69eb1296-188a-486d-9119-9ff0e0dbc519",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "causedBy": []
     },
@@ -1133,7 +1137,8 @@
         "8b77008c-567a-4503-bb35-9a3a1286b010",
         "1790896028300-axdzwf",
         "853ac911-9a0c-475b-871d-a6407a84d0b4",
-        "69eb1296-188a-486d-9119-9ff0e0dbc519"
+        "69eb1296-188a-486d-9119-9ff0e0dbc519",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "causedBy": []
     },
@@ -1349,7 +1354,8 @@
         "853ac911-9a0c-475b-871d-a6407a84d0b4",
         "69eb1296-188a-486d-9119-9ff0e0dbc519",
         "2f8406f1-e5ea-4f5c-a97e-992e7e848073",
-        "dedc1d58-0e06-48df-ad6b-1a3d13d1377c"
+        "dedc1d58-0e06-48df-ad6b-1a3d13d1377c",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "causedBy": []
     },
@@ -1536,7 +1542,8 @@
         "beaacdf4-c659-4757-bde7-2c01ced725f6",
         "1790896028300-axdzwf",
         "853ac911-9a0c-475b-871d-a6407a84d0b4",
-        "69eb1296-188a-486d-9119-9ff0e0dbc519"
+        "69eb1296-188a-486d-9119-9ff0e0dbc519",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "causedBy": []
     },
@@ -1744,7 +1751,8 @@
         "69eb1296-188a-486d-9119-9ff0e0dbc519",
         "b8c6eb4e-915f-42db-9e7d-a5209face028",
         "dedc1d58-0e06-48df-ad6b-1a3d13d1377c",
-        "faf84c35-856f-4b26-9a33-3869092be3cb"
+        "faf84c35-856f-4b26-9a33-3869092be3cb",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "causedBy": []
     },
@@ -1911,7 +1919,8 @@
         "beaacdf4-c659-4757-bde7-2c01ced725f6",
         "1790896028300-axdzwf",
         "853ac911-9a0c-475b-871d-a6407a84d0b4",
-        "69eb1296-188a-486d-9119-9ff0e0dbc519"
+        "69eb1296-188a-486d-9119-9ff0e0dbc519",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "causedBy": []
     },
@@ -2096,7 +2105,8 @@
         "beaacdf4-c659-4757-bde7-2c01ced725f6",
         "1790896028300-axdzwf",
         "853ac911-9a0c-475b-871d-a6407a84d0b4",
-        "69eb1296-188a-486d-9119-9ff0e0dbc519"
+        "69eb1296-188a-486d-9119-9ff0e0dbc519",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "causedBy": []
     },
@@ -42137,7 +42147,8 @@
     "relationships": {
       "relatedTo": [
         "853ac911-9a0c-475b-871d-a6407a84d0b4",
-        "69eb1296-188a-486d-9119-9ff0e0dbc519"
+        "69eb1296-188a-486d-9119-9ff0e0dbc519",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ]
     },
     "metadata": {
@@ -42164,7 +42175,8 @@
     "relationships": {
       "relatedTo": [
         "853ac911-9a0c-475b-871d-a6407a84d0b4",
-        "69eb1296-188a-486d-9119-9ff0e0dbc519"
+        "69eb1296-188a-486d-9119-9ff0e0dbc519",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ]
     },
     "metadata": {
@@ -42805,7 +42817,8 @@
         "853ac911-9a0c-475b-871d-a6407a84d0b4",
         "69eb1296-188a-486d-9119-9ff0e0dbc519",
         "dedc1d58-0e06-48df-ad6b-1a3d13d1377c",
-        "346709d8-9f3e-4193-a3e1-150004df8939"
+        "346709d8-9f3e-4193-a3e1-150004df8939",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "supersededBy": [
         "6deeccb2-551d-4073-8401-bcf5eccb7885",
@@ -128412,7 +128425,8 @@
         "69eb1296-188a-486d-9119-9ff0e0dbc519",
         "dedc1d58-0e06-48df-ad6b-1a3d13d1377c",
         "8dc0bcdf-75fe-4467-83fc-13e58182033b",
-        "346709d8-9f3e-4193-a3e1-150004df8939"
+        "346709d8-9f3e-4193-a3e1-150004df8939",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ]
     },
     "metadata": {
@@ -167746,7 +167760,8 @@
         "1468c7e0-ea14-454c-b297-669ce93943f0",
         "36420751-e6ea-4063-90c2-cc7000349e8e",
         "853ac911-9a0c-475b-871d-a6407a84d0b4",
-        "69eb1296-188a-486d-9119-9ff0e0dbc519"
+        "69eb1296-188a-486d-9119-9ff0e0dbc519",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "relatedTo": [
         "e7967b5b-c6be-40c6-97f7-45f7107549ed",
@@ -172744,7 +172759,8 @@
         "1dff670b-8dcf-46bc-bf8c-2e2b1908cdeb",
         "b684ad1b-7686-4ab7-a288-2d506e4de570",
         "853ac911-9a0c-475b-871d-a6407a84d0b4",
-        "69eb1296-188a-486d-9119-9ff0e0dbc519"
+        "69eb1296-188a-486d-9119-9ff0e0dbc519",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "relatedTo": [
         "10cb212e-2bc6-4f7f-9435-9750a2414e29",
@@ -178990,7 +179006,8 @@
         "8dc0bcdf-75fe-4467-83fc-13e58182033b",
         "0e8fc8b3-930d-4da3-816a-bd5a506a0eb3",
         "346709d8-9f3e-4193-a3e1-150004df8939",
-        "faf84c35-856f-4b26-9a33-3869092be3cb"
+        "faf84c35-856f-4b26-9a33-3869092be3cb",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "relatedTo": [
         "030531f9-7d2d-4ff3-a623-f6c4e4bb5018",
@@ -179025,7 +179042,8 @@
         "853ac911-9a0c-475b-871d-a6407a84d0b4",
         "b8c6eb4e-915f-42db-9e7d-a5209face028",
         "8dc0bcdf-75fe-4467-83fc-13e58182033b",
-        "0e8fc8b3-930d-4da3-816a-bd5a506a0eb3"
+        "0e8fc8b3-930d-4da3-816a-bd5a506a0eb3",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "causes": [],
       "causedBy": []
@@ -179316,7 +179334,8 @@
         "dedc1d58-0e06-48df-ad6b-1a3d13d1377c",
         "8dc0bcdf-75fe-4467-83fc-13e58182033b",
         "346709d8-9f3e-4193-a3e1-150004df8939",
-        "faf84c35-856f-4b26-9a33-3869092be3cb"
+        "faf84c35-856f-4b26-9a33-3869092be3cb",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "relatedTo": [
         "030531f9-7d2d-4ff3-a623-f6c4e4bb5018",
@@ -179346,7 +179365,8 @@
         "853ac911-9a0c-475b-871d-a6407a84d0b4",
         "b8c6eb4e-915f-42db-9e7d-a5209face028",
         "8dc0bcdf-75fe-4467-83fc-13e58182033b",
-        "0e8fc8b3-930d-4da3-816a-bd5a506a0eb3"
+        "0e8fc8b3-930d-4da3-816a-bd5a506a0eb3",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "causes": [],
       "causedBy": []
@@ -181281,7 +181301,8 @@
         "8dc0bcdf-75fe-4467-83fc-13e58182033b",
         "0e8fc8b3-930d-4da3-816a-bd5a506a0eb3",
         "346709d8-9f3e-4193-a3e1-150004df8939",
-        "faf84c35-856f-4b26-9a33-3869092be3cb"
+        "faf84c35-856f-4b26-9a33-3869092be3cb",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "relatedTo": [
         "58b5988b-64bd-4d87-a090-3422933710e6",
@@ -181307,7 +181328,8 @@
         "beaacdf4-c659-4757-bde7-2c01ced725f6",
         "165be176-a183-45c5-ba48-2377b20210d3",
         "7155b4ad-3427-497f-afb1-936e25672f96",
-        "853ac911-9a0c-475b-871d-a6407a84d0b4"
+        "853ac911-9a0c-475b-871d-a6407a84d0b4",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "causes": [],
       "causedBy": []
@@ -182925,7 +182947,8 @@
         "8dc0bcdf-75fe-4467-83fc-13e58182033b",
         "0e8fc8b3-930d-4da3-816a-bd5a506a0eb3",
         "346709d8-9f3e-4193-a3e1-150004df8939",
-        "faf84c35-856f-4b26-9a33-3869092be3cb"
+        "faf84c35-856f-4b26-9a33-3869092be3cb",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "relatedTo": [
         "1dff670b-8dcf-46bc-bf8c-2e2b1908cdeb",
@@ -183507,7 +183530,8 @@
         "2f8406f1-e5ea-4f5c-a97e-992e7e848073",
         "0e8fc8b3-930d-4da3-816a-bd5a506a0eb3",
         "346709d8-9f3e-4193-a3e1-150004df8939",
-        "faf84c35-856f-4b26-9a33-3869092be3cb"
+        "faf84c35-856f-4b26-9a33-3869092be3cb",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "relatedTo": [
         "1dff670b-8dcf-46bc-bf8c-2e2b1908cdeb",
@@ -200407,7 +200431,8 @@
         "853ac911-9a0c-475b-871d-a6407a84d0b4",
         "69eb1296-188a-486d-9119-9ff0e0dbc519",
         "b65c46f8-021c-4cb4-81a4-d14f18b84127",
-        "2f8406f1-e5ea-4f5c-a97e-992e7e848073"
+        "2f8406f1-e5ea-4f5c-a97e-992e7e848073",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "relatedTo": [
         "01e8a316-2e07-4420-a356-02b1e3fdd265",
@@ -200428,7 +200453,8 @@
         "853ac911-9a0c-475b-871d-a6407a84d0b4",
         "69eb1296-188a-486d-9119-9ff0e0dbc519",
         "b8c6eb4e-915f-42db-9e7d-a5209face028",
-        "0e8fc8b3-930d-4da3-816a-bd5a506a0eb3"
+        "0e8fc8b3-930d-4da3-816a-bd5a506a0eb3",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "causes": [],
       "causedBy": [
@@ -207247,7 +207273,8 @@
         "01cd7e7c-0199-40f2-acd7-b9a63630624f"
       ],
       "supersededBy": [
-        "69eb1296-188a-486d-9119-9ff0e0dbc519"
+        "69eb1296-188a-486d-9119-9ff0e0dbc519",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "relatedTo": [
         "d51722b8-4d77-46f7-b403-0ecc3db8f24a",
@@ -207260,7 +207287,8 @@
         "809bdca3-7c68-4698-8136-3e7fba0ca491",
         "10cb212e-2bc6-4f7f-9435-9750a2414e29",
         "c981113e-1338-4269-969d-6af600723aed",
-        "69eb1296-188a-486d-9119-9ff0e0dbc519"
+        "69eb1296-188a-486d-9119-9ff0e0dbc519",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "causes": [],
       "causedBy": [
@@ -207309,7 +207337,9 @@
         "3f551425-5967-4b74-9888-98c2da2f5784",
         "01cd7e7c-0199-40f2-acd7-b9a63630624f"
       ],
-      "supersededBy": [],
+      "supersededBy": [
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
+      ],
       "relatedTo": [
         "d51722b8-4d77-46f7-b403-0ecc3db8f24a",
         "e6af5112-13da-4298-bebd-bdd4cf37baad",
@@ -207320,7 +207350,8 @@
         "bd0e7f21-9d2e-4ee8-af63-eb29092dd1e5",
         "809bdca3-7c68-4698-8136-3e7fba0ca491",
         "335f6941-05a1-4f36-9b9a-d220faa40179",
-        "47639289-7caa-4c20-8b49-ed8a4ede2b7b"
+        "47639289-7caa-4c20-8b49-ed8a4ede2b7b",
+        "30dcf84c-d6d1-4341-b746-2b144650b80f"
       ],
       "causes": [],
       "causedBy": [
@@ -207926,6 +207957,67 @@
       ],
       "patterns": [],
       "concepts": []
+    },
+    "commitHashes": []
+  },
+  {
+    "id": "30dcf84c-d6d1-4341-b746-2b144650b80f",
+    "question": "What did a18c21b10 publish and how was a18c21b10 verified?",
+    "answer": "GitKraken committed and pushed all24 owned Pass11270-11274 artifacts in a18c21b10 to W33 master; remote comparison origin-https/master..HEAD is empty. Seven scoped certificates,8 pytest regressions,3 tightened-object controls, off-stationary mass-profile check, source compilation, paper/PDF, result index and clean16-file intake are complete. Session notes record publication and independent open fronts. Canonical SM Higgs orbit is imposed; nonzero poles, general Kahler stability, derived geometry and absolute scales/CC remain open.",
+    "timestamp": "2026-10-02T00:57:07.640Z",
+    "tags": [
+      "audit",
+      "github",
+      "how",
+      "testing",
+      "w33"
+    ],
+    "files": [],
+    "status": "active",
+    "priority": "medium",
+    "relationships": {
+      "supersedes": [
+        "2a3fd2fb-84cb-49f5-a23d-98f5e2d39eb3",
+        "85c1fdda-055a-406d-9fac-fcb4c2bd057d",
+        "8d757ee1-dd52-4b6f-bdda-0d9d604d7a61",
+        "9da207a9-f9dd-4208-9456-27582d75a396",
+        "016c3cca-ee7e-4249-8f72-e26f2012db3c",
+        "7a54e88b-8adb-4a82-9b70-f7427547f0e4",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4",
+        "69eb1296-188a-486d-9119-9ff0e0dbc519",
+        "10cb212e-2bc6-4f7f-9435-9750a2414e29",
+        "c981113e-1338-4269-969d-6af600723aed"
+      ],
+      "supersededBy": [],
+      "relatedTo": [
+        "d51722b8-4d77-46f7-b403-0ecc3db8f24a",
+        "e6af5112-13da-4298-bebd-bdd4cf37baad",
+        "2a3fd2fb-84cb-49f5-a23d-98f5e2d39eb3",
+        "85c1fdda-055a-406d-9fac-fcb4c2bd057d",
+        "8d757ee1-dd52-4b6f-bdda-0d9d604d7a61",
+        "7a54e88b-8adb-4a82-9b70-f7427547f0e4",
+        "853ac911-9a0c-475b-871d-a6407a84d0b4",
+        "69eb1296-188a-486d-9119-9ff0e0dbc519",
+        "bd0e7f21-9d2e-4ee8-af63-eb29092dd1e5",
+        "809bdca3-7c68-4698-8136-3e7fba0ca491"
+      ],
+      "causes": [],
+      "causedBy": [
+        "1777318403162-biaewx",
+        "1777318403161-4mgrce",
+        "1777318403161-vfxeky",
+        "1777318403161-wwusgh",
+        "1777318403161-8dkkdk",
+        "1777318403161-ai9frf",
+        "1777318403161-qze7ej",
+        "1777318403161-t7tcbd",
+        "1777318403161-06lp3s",
+        "1777318403161-ya0ehy"
+      ]
+    },
+    "metadata": {
+      "source": "cli",
+      "status": "active"
     },
     "commitHashes": []
   }
