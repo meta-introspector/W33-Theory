@@ -1,0 +1,111 @@
+{
+  "status": "PASS",
+  "result_scope": "PASS_CONSTRUCTED_LINEAR_NATIVE_EDGE_SPIN_TWO_ARCHITECTURE",
+  "action": "Supply4D Minkowski base and80 symmetric tensor fields h_i. Sum standard positive-sign linearized Einstein actions. Add local edge potential -(m0\u00b2/4)sum_edges[(h_i-h_j)_munu(h_i-h_j)^munu-(trace(h_i-h_j))\u00b2]. Internal graph is the actual80-site160-edge Levi graph.",
+  "native_graph_spectrum": [
+    {
+      "mass_squared_over_m0_squared": 0.0,
+      "multiplicity": 1
+    },
+    {
+      "mass_squared_over_m0_squared": 1.5505102572168221,
+      "multiplicity": 24
+    },
+    {
+      "mass_squared_over_m0_squared": 4.0,
+      "multiplicity": 30
+    },
+    {
+      "mass_squared_over_m0_squared": 6.449489742783178,
+      "multiplicity": 24
+    },
+    {
+      "mass_squared_over_m0_squared": 8.0,
+      "multiplicity": 1
+    }
+  ],
+  "massless_equation_rank": 4,
+  "massless_gauge_rank": 4,
+  "massless_solution_dimension": 6,
+  "massless_physical_polarizations": 2,
+  "massive_equation_rank": 5,
+  "massive_physical_polarizations_per_graph_mode": 5,
+  "total_linear_polarizations": 397,
+  "prior_tensor_control": {
+    "source": "manuscripts/parts/PART_CCLXIX_GRAVITON_EMERGENCE.md",
+    "symmetric_traceless_dimension": 299,
+    "natural_additive_tensor_Laplacian_eigenvalue": 20,
+    "natural_additive_zero_modes": 0,
+    "scope": "The old24-dimensional adjacency eigenspace has point-Laplacian eigenvalue10. Its symmetric traceless tensor square has eigenvalue20 under L tensorI+I tensorL. A different gauge operator needs an explicit construction; an internal tensor dimension does not establish Lorentz helicity."
+  },
+  "Bianchi_gauge_error": 2.220446049250313e-16,
+  "mass_gap_over_m0": 1.2451948671661084,
+  "explicit_massless_polarizations": [
+    [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067811865475,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -0.7071067811865475,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.7071067811865475,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067811865475,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ]
+  ],
+  "boundary": [
+    "The4D Lorentzian base and tensor action are added inputs, not an emergence theorem from the finite graph.",
+    "Uniform graph mode carries two massless polarizations;79 massive modes carry five each. Below the declared graph gap only the uniform mode propagates.",
+    "Fierz-Pauli tuning removes the extra scalar at quadratic order; nonlinear ghost freedom, cosmological stability and interacting constraint closure are not established.",
+    "No Newton coefficient, light-cone refinement, observed graviton scale or full nonlinear Einstein limit is derived."
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11306_relational_graph_clock_constraints.py",
+    "analysis/w33_pass11288_metric_constraint_audit.py",
+    "analysis/w33_pass11289_cycle_gram_gluing_flux.py"
+  ],
+  "primary_sources": [
+    "https://arxiv.org/abs/1109.3515"
+  ]
+}

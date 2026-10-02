@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "result_scope": "PASS_REGULATOR_FREE_FINITE_MOMENTUM_GOLDSTONE_LIMIT_IN_MATCHED_22_FIELD_EFT",
+  "massless_bubble_rank": 11,
+  "analytic_vs_spectral_error": 2.846030702774449e-19,
+  "rows": [
+    {
+      "tree_mass_squared": 0.000330612245,
+      "multiplicity": 10,
+      "regulator_free_leading_pole_squared_real": [
+        0.00033061092476330793,
+        0.00033061092476330793,
+        0.0003306129728876909,
+        0.0003306129728876909,
+        0.0003306147019490209,
+        0.0003306147019490209,
+        0.0003306147019490209,
+        0.0003306147019490209,
+        0.0003306147019490209,
+        0.0003306147019490209
+      ],
+      "regulator_free_leading_pole_squared_imag": [
+        -5.096585317442528e-09,
+        -5.096585317442317e-09,
+        -1.3590894179845939e-09,
+        -1.3590894179846778e-09,
+        -4.21317719575255e-09,
+        -4.213177195752389e-09,
+        -4.2131771957524686e-09,
+        -4.2131771957521915e-09,
+        -4.2131771957519086e-09,
+        -4.213177195751974e-09
+      ],
+      "regulated_controls": [
+        {
+          "soft_mass_squared": 1e-09,
+          "matrix_error": 1.4379450844582332e-09
+        },
+        {
+          "soft_mass_squared": 1e-10,
+          "matrix_error": 1.7182938788906267e-10
+        },
+        {
+          "soft_mass_squared": 1e-11,
+          "matrix_error": 1.9985770650103252e-11
+        }
+      ]
+    },
+    {
+      "tree_mass_squared": 0.000991836735,
+      "multiplicity": 2,
+      "regulator_free_leading_pole_squared_real": [
+        0.0009918323796922672,
+        0.0009918323796922672
+      ],
+      "regulator_free_leading_pole_squared_imag": [
+        -6.205601781665134e-08,
+        -6.205601781665131e-08
+      ],
+      "regulated_controls": [
+        {
+          "soft_mass_squared": 1e-09,
+          "matrix_error": 3.0326982332785745e-09
+        },
+        {
+          "soft_mass_squared": 1e-10,
+          "matrix_error": 3.6335235032161565e-10
+        },
+        {
+          "soft_mass_squared": 1e-11,
+          "matrix_error": 4.234236651395392e-11
+        }
+      ]
+    },
+    {
+      "tree_mass_squared": 0.006942857143,
+      "multiplicity": 1,
+      "regulator_free_leading_pole_squared_real": [
+        0.006956146100853345
+      ],
+      "regulator_free_leading_pole_squared_imag": [
+        -1.6229869323658872e-05
+      ],
+      "regulated_controls": [
+        {
+          "soft_mass_squared": 1e-09,
+          "matrix_error": 1.787798376022509e-08
+        },
+        {
+          "soft_mass_squared": 1e-10,
+          "matrix_error": 2.144927697283453e-09
+        },
+        {
+          "soft_mass_squared": 1e-11,
+          "matrix_error": 2.5020093266179187e-10
+        }
+      ]
+    },
+    {
+      "tree_mass_squared": 0.009257142857,
+      "multiplicity": 1,
+      "regulator_free_leading_pole_squared_real": [
+        0.009382185308229209
+      ],
+      "regulator_free_leading_pole_squared_imag": [
+        -3.338365299795173e-05
+      ],
+      "regulated_controls": [
+        {
+          "soft_mass_squared": 1e-09,
+          "matrix_error": 2.3660477299313923e-08
+        },
+        {
+          "soft_mass_squared": 1e-10,
+          "matrix_error": 2.8388451569222714e-09
+        },
+        {
+          "soft_mass_squared": 1e-11,
+          "matrix_error": 3.311580747845585e-10
+        }
+      ]
+    }
+  ],
+  "formula": "For spectral coefficientR and s0=-a, twice-subtracted massless bubble is R[-log(s/a)-1-s/a+i pi]/pi, s>0. Independently replayed by regulated Feynman-parameter integral.",
+  "scope": [
+    "This takes the on-shell soft mass to zero at finite external momentum and reproduces the prior conditional14 leading massive poles. It does not make the zero-momentum normal-normal Hessian finite.",
+    "Matching fixes the same input local two-point Ward columns as11295; an invariant tadpole/counterterm functional and hard Goldstone resummation are still required for a full physical pole prediction.",
+    "No heavy vector or full UV threshold matching is added here;11305 physical vector cuts remain a separate input.",
+    "The rank11 IR tensor is inherited from the actual quotient cubic, not a radial-only surrogate."
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11295_ward_matched_modulus_poles.py",
+    "analysis/w33_pass11305_vector_matrix_and_total_jet_audit.py"
+  ],
+  "primary_sources": [
+    "https://arxiv.org/abs/1609.06977"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "result_scope": "PASS_LOCAL_SMOOTH_NECK_REQUIRES_RADIAL_NULL_ENERGY_VIOLATION",
+  "metric": "-dt\u00b2+dx\u00b2+(x\u00b2+a\u00b2)dOmega2\u00b2, a>0",
+  "scalar_curvature": "-2*a**2/(a**2 + x**2)**2",
+  "stress_times_8piG": {
+    "rho": "-a**2/(a**2 + x**2)**2",
+    "radial_pressure": "-a**2/(a**2 + x**2)**2",
+    "angular_pressure": "a**2/(a**2 + x**2)**2",
+    "radial_null_contraction": "-2*a**2/(a**2 + x**2)**2"
+  },
+  "scope": [
+    "A nonsingular local Lorentzian Ellis throat, not the global81-handle metric or a Euclidean membrane instanton.",
+    "The required negative radial null contraction cannot be supplied by a cosmological constant or positive-energy canonical scalar/Maxwell matter alone.",
+    "Quantum stress, higher curvature, wall topology and non-static necks are untested alternatives; no complete gravity model is asserted."
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11317_history_einstein_obstruction.py"
+  ],
+  "primary_sources": [
+    "https://doi.org/10.1063/1.1666161"
+  ]
+}
