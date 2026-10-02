@@ -219,7 +219,8 @@
         "73503e03-f69a-48d5-8df0-6dda5ade8dc2",
         "ef36a1ef-df21-4675-a3ff-0f7ddaf468ec",
         "cb094833-af5f-4d5f-b86c-da6c0a956a21",
-        "a0b73f01-20c0-440b-84a3-2ff24344db8a"
+        "a0b73f01-20c0-440b-84a3-2ff24344db8a",
+        "431434e8-b757-4656-9631-0a91711cabdd"
       ],
       "causedBy": []
     },
@@ -498,7 +499,8 @@
         "386c89b9-828f-48f1-9aa7-ac4e29a62a4f",
         "ef36a1ef-df21-4675-a3ff-0f7ddaf468ec",
         "78ae48a2-37d3-4048-908e-e4f93a58f539",
-        "a0b73f01-20c0-440b-84a3-2ff24344db8a"
+        "a0b73f01-20c0-440b-84a3-2ff24344db8a",
+        "431434e8-b757-4656-9631-0a91711cabdd"
       ],
       "causedBy": [
         "manual-20260507-pin-e8-manifest-z3-output-check"
@@ -704,7 +706,8 @@
         "73503e03-f69a-48d5-8df0-6dda5ade8dc2",
         "ef36a1ef-df21-4675-a3ff-0f7ddaf468ec",
         "cb094833-af5f-4d5f-b86c-da6c0a956a21",
-        "a0b73f01-20c0-440b-84a3-2ff24344db8a"
+        "a0b73f01-20c0-440b-84a3-2ff24344db8a",
+        "431434e8-b757-4656-9631-0a91711cabdd"
       ],
       "causedBy": [
         "manual-20260507-fix-e8-orchestrator-dataclass-loader"
@@ -923,7 +926,8 @@
         "78e7cd49-80b3-4585-a916-7d5157efe8d9",
         "ef36a1ef-df21-4675-a3ff-0f7ddaf468ec",
         "43260db4-02dd-42f8-a628-bb9ccea0f357",
-        "a0b73f01-20c0-440b-84a3-2ff24344db8a"
+        "a0b73f01-20c0-440b-84a3-2ff24344db8a",
+        "431434e8-b757-4656-9631-0a91711cabdd"
       ],
       "causedBy": []
     },
@@ -1158,7 +1162,8 @@
         "78e7cd49-80b3-4585-a916-7d5157efe8d9",
         "ef36a1ef-df21-4675-a3ff-0f7ddaf468ec",
         "43260db4-02dd-42f8-a628-bb9ccea0f357",
-        "a0b73f01-20c0-440b-84a3-2ff24344db8a"
+        "a0b73f01-20c0-440b-84a3-2ff24344db8a",
+        "431434e8-b757-4656-9631-0a91711cabdd"
       ],
       "causedBy": []
     },
@@ -128609,7 +128614,8 @@
         "6117d97d-7fbf-4e4d-b52f-465e716336ef",
         "3c1225cf-72ac-4a30-bad5-76111f2710b3",
         "78ae48a2-37d3-4048-908e-e4f93a58f539",
-        "43260db4-02dd-42f8-a628-bb9ccea0f357"
+        "43260db4-02dd-42f8-a628-bb9ccea0f357",
+        "431434e8-b757-4656-9631-0a91711cabdd"
       ]
     },
     "metadata": {
@@ -179244,7 +179250,8 @@
         "ef36a1ef-df21-4675-a3ff-0f7ddaf468ec",
         "6117d97d-7fbf-4e4d-b52f-465e716336ef",
         "3c1225cf-72ac-4a30-bad5-76111f2710b3",
-        "a0b73f01-20c0-440b-84a3-2ff24344db8a"
+        "a0b73f01-20c0-440b-84a3-2ff24344db8a",
+        "431434e8-b757-4656-9631-0a91711cabdd"
       ],
       "relatedTo": [
         "030531f9-7d2d-4ff3-a623-f6c4e4bb5018",
@@ -179282,7 +179289,8 @@
         "0e8fc8b3-930d-4da3-816a-bd5a506a0eb3",
         "30dcf84c-d6d1-4341-b746-2b144650b80f",
         "4ba1259b-eee6-4ded-b6a9-9b94d1200a6b",
-        "78e7cd49-80b3-4585-a916-7d5157efe8d9"
+        "78e7cd49-80b3-4585-a916-7d5157efe8d9",
+        "431434e8-b757-4656-9631-0a91711cabdd"
       ],
       "causes": [],
       "causedBy": []
@@ -179585,7 +179593,8 @@
         "ef36a1ef-df21-4675-a3ff-0f7ddaf468ec",
         "6117d97d-7fbf-4e4d-b52f-465e716336ef",
         "3c1225cf-72ac-4a30-bad5-76111f2710b3",
-        "a0b73f01-20c0-440b-84a3-2ff24344db8a"
+        "a0b73f01-20c0-440b-84a3-2ff24344db8a",
+        "431434e8-b757-4656-9631-0a91711cabdd"
       ],
       "relatedTo": [
         "030531f9-7d2d-4ff3-a623-f6c4e4bb5018",
@@ -179617,7 +179626,8 @@
         "8dc0bcdf-75fe-4467-83fc-13e58182033b",
         "0e8fc8b3-930d-4da3-816a-bd5a506a0eb3",
         "30dcf84c-d6d1-4341-b746-2b144650b80f",
-        "78e7cd49-80b3-4585-a916-7d5157efe8d9"
+        "78e7cd49-80b3-4585-a916-7d5157efe8d9",
+        "431434e8-b757-4656-9631-0a91711cabdd"
       ],
       "causes": [],
       "causedBy": []
@@ -181611,7 +181621,8 @@
         "78e7cd49-80b3-4585-a916-7d5157efe8d9",
         "6117d97d-7fbf-4e4d-b52f-465e716336ef",
         "3c1225cf-72ac-4a30-bad5-76111f2710b3",
-        "a0b73f01-20c0-440b-84a3-2ff24344db8a"
+        "a0b73f01-20c0-440b-84a3-2ff24344db8a",
+        "431434e8-b757-4656-9631-0a91711cabdd"
       ],
       "relatedTo": [
         "58b5988b-64bd-4d87-a090-3422933710e6",
@@ -181641,7 +181652,8 @@
         "30dcf84c-d6d1-4341-b746-2b144650b80f",
         "5315b3fe-08c7-4af8-adb9-a8ead854e673",
         "1335a242-d0d2-4a4e-a7f0-452dd241e826",
-        "4ba1259b-eee6-4ded-b6a9-9b94d1200a6b"
+        "4ba1259b-eee6-4ded-b6a9-9b94d1200a6b",
+        "431434e8-b757-4656-9631-0a91711cabdd"
       ],
       "causes": [],
       "causedBy": []
@@ -183282,7 +183294,8 @@
         "78e7cd49-80b3-4585-a916-7d5157efe8d9",
         "6117d97d-7fbf-4e4d-b52f-465e716336ef",
         "3c1225cf-72ac-4a30-bad5-76111f2710b3",
-        "a0b73f01-20c0-440b-84a3-2ff24344db8a"
+        "a0b73f01-20c0-440b-84a3-2ff24344db8a",
+        "431434e8-b757-4656-9631-0a91711cabdd"
       ],
       "relatedTo": [
         "1dff670b-8dcf-46bc-bf8c-2e2b1908cdeb",
@@ -183309,7 +183322,8 @@
         "8dc0bcdf-75fe-4467-83fc-13e58182033b",
         "346709d8-9f3e-4193-a3e1-150004df8939",
         "78e7cd49-80b3-4585-a916-7d5157efe8d9",
-        "3c1225cf-72ac-4a30-bad5-76111f2710b3"
+        "3c1225cf-72ac-4a30-bad5-76111f2710b3",
+        "431434e8-b757-4656-9631-0a91711cabdd"
       ],
       "causes": [],
       "causedBy": []
@@ -183882,7 +183896,8 @@
         "78e7cd49-80b3-4585-a916-7d5157efe8d9",
         "6117d97d-7fbf-4e4d-b52f-465e716336ef",
         "3c1225cf-72ac-4a30-bad5-76111f2710b3",
-        "a0b73f01-20c0-440b-84a3-2ff24344db8a"
+        "a0b73f01-20c0-440b-84a3-2ff24344db8a",
+        "431434e8-b757-4656-9631-0a91711cabdd"
       ],
       "relatedTo": [
         "1dff670b-8dcf-46bc-bf8c-2e2b1908cdeb",
@@ -209395,6 +209410,52 @@
       ],
       "patterns": [],
       "concepts": []
+    },
+    "commitHashes": []
+  },
+  {
+    "id": "431434e8-b757-4656-9631-0a91711cabdd",
+    "question": "How was scientific packet925410388 published and verified?",
+    "answer": "GitKraken committed and pushed all20 owned Passes11280-11284 artifacts as925410388 to W33 master; origin-https/master..HEAD is empty. Five regressions, five scoped certificates, source compilation, clean12-file intake, refreshed index and revised paper/PDF validated. Session notes record publication925410388 and independent next targets. Unrelated parallel and automatic instruction work is preserved; added geometry and matching inputs remain explicit.",
+    "timestamp": "2026-10-02T02:22:34.607Z",
+    "tags": [
+      "audit",
+      "how",
+      "publication",
+      "testing",
+      "w33"
+    ],
+    "files": [],
+    "status": "active",
+    "priority": "medium",
+    "relationships": {
+      "supersedes": [
+        "2a3fd2fb-84cb-49f5-a23d-98f5e2d39eb3",
+        "85c1fdda-055a-406d-9fac-fcb4c2bd057d",
+        "8d757ee1-dd52-4b6f-bdda-0d9d604d7a61",
+        "9da207a9-f9dd-4208-9456-27582d75a396",
+        "016c3cca-ee7e-4249-8f72-e26f2012db3c"
+      ],
+      "supersededBy": [],
+      "relatedTo": [
+        "e6af5112-13da-4298-bebd-bdd4cf37baad",
+        "2a3fd2fb-84cb-49f5-a23d-98f5e2d39eb3",
+        "85c1fdda-055a-406d-9fac-fcb4c2bd057d",
+        "8d757ee1-dd52-4b6f-bdda-0d9d604d7a61",
+        "9da207a9-f9dd-4208-9456-27582d75a396"
+      ],
+      "causes": [],
+      "causedBy": [
+        "1777318403162-biaewx",
+        "1777318403161-4mgrce",
+        "1777318403161-vfxeky",
+        "1777318403161-wwusgh",
+        "1777318403161-8dkkdk"
+      ]
+    },
+    "metadata": {
+      "source": "cli",
+      "status": "active"
     },
     "commitHashes": []
   }

@@ -1339,3 +1339,9 @@ fraction = P(c = n)); "the twist as a discrete Bargmann phase" should cite 11209
 - Final12-file intake clean: no rediscovery collisions or forced arithmetic. Refreshed RESULTS_INDEX. Five pytest tests passed in65.59s, five scoped certificates PASS, current sources compile, newest card unique. Revised paper/PDF compiled (823.65KiB; existing typesetting warnings).
 - Explicit beta wording: E6=13 and auxiliary SU5=29/6 are AF; family SU3=-79/3 and auxiliary U1=-135 remain UV issues. Full22x22 external self-energy not claimed. Fixed-slice radial result includes all internal modes. Added metric/history constructions expose inputs rather than claim W33-derived gravity/CC.
 - Latest GitKraken fetch has no newer remote commits. Ready to publish only20 owned science/documentation/continuity artifacts, preserving unrelated local work.
+
+### Passes11280-11284 published — 925410388
+
+- GitKraken committed and pushed all20 owned artifacts as925410388 to W33 master. Remote comparison origin-https/master..HEAD is empty. Scientific work, five scoped certificates, report, focused tests, site, paper/PDF, index and accumulated Continuity decisions are published. Unrelated parallel and automatic instruction edits remain preserved.
+- Final validation: five pytest regressions65.59s, current producer compilation, twelve-file intake clean, result index refreshed, revised PDF823.65KiB. Public scopes distinguish positive E6/auxSU5 coefficients from negative familySU3/auxU1, radial-only external self-energy from all internal modes, and added continuum/flux architectures from derived gravity/CC.
+- Independent next targets: semisimple auxiliary Higgs completion; misaligned family vacua with calculable CKM; full quotient-field external self-energy; metric action constraint/ghost analysis; dynamical closed-history/gluing and flux-sector selection.
