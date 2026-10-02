@@ -1377,3 +1377,7 @@ Publication race: reviewed cloud8f8fb86bd and newer0096da599 inventory. Committe
 Post-integration cloud regressions8 passed in89.21s. Missing-field issue resolved; unflagged-class global coverage and11311 universal sample inference remain explicit mathematical boundaries. Both packets retained in merged ledger; final PDF rebuild underway.
 
 Integration validation complete: owned9 and cloud8 regressions pass; both GAP controls pass; owned12-file and cloud18-file intake clean with no collisions/forced arithmetic; regenerated index; both ledger packets present; no source conflict markers; final combined corrected PDF839.72KiB. Complete merge and push scientific7e682d3ea plus qualified cloud integration, then sync Continuity receipt.
+
+### Published — scientific7e682d3ea, integration7af591b30
+
+GitKraken pushed the20-owned-artifact scientific packet7e682d3ea and merged cloud8f8fb86bd/formula inventory0096da599 as7af591b30. Localmaster matchesorigin-https/master. Nine owned regressions247.00s, eight cloud regressions89.21s, two GAP replays, clean12/18-file intake, unique site card, refreshed index and corrected combined839.72KiB PDF validate publication. Paper now qualifies the unflagged-class affine census and sampled perfect-tick law; original cloud numerical results preserved. Full portals, radiative physical vacuum, resummed total poles, genuine gravity and observedCC remain open. Final Continuity receipt is being synchronized; unrelated work preserved.
