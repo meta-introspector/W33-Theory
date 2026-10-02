@@ -1,0 +1,56 @@
+{
+ "pass_id": 11312,
+ "exact": {
+  "1": {
+   "violating": 18,
+   "words": 216,
+   "probability": "1/12",
+   "float": 0.08333333333333333
+  },
+  "2": {
+   "violating": 2106,
+   "words": 5184,
+   "probability": "13/32",
+   "float": 0.40625
+  },
+  "3": {
+   "violating": 68202,
+   "words": 124416,
+   "probability": "421/768",
+   "float": 0.5481770833333334
+  },
+  "4": {
+   "violating": 2077650,
+   "words": 2985984,
+   "probability": "1425/2048",
+   "float": 0.69580078125
+  }
+ },
+ "sampled": {
+  "5": {
+   "violating": 51245,
+   "samples": 66000,
+   "probability": 0.776439393939394,
+   "stderr": 0.001621733366897716
+  },
+  "6": {
+   "violating": 55608,
+   "samples": 66000,
+   "probability": 0.8425454545454546,
+   "stderr": 0.001417758642804261
+  },
+  "8": {
+   "violating": 60801,
+   "samples": 66000,
+   "probability": 0.9212272727272727,
+   "stderr": 0.0010485746798648604
+  },
+  "12": {
+   "violating": 64598,
+   "samples": 66000,
+   "probability": 0.9787575757575757,
+   "stderr": 0.0005612645848105534
+  }
+ },
+ "matches_pass_11266": true
+}

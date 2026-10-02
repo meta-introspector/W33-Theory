@@ -1,0 +1,91 @@
+{
+ "pass_id": 11309,
+ "dichotomy_sample_classes": 300,
+ "violating_frames_per_class_values": [
+  0,
+  54,
+  81
+ ],
+ "violators_are_complement_of_an_affine_hyperplane": true,
+ "bad_classes": 6480,
+ "bad_class_frame_counts": {
+  "54": 5160,
+  "72": 24,
+  "81": 1296
+ },
+ "all_bad_classes_affine": false,
+ "nonviolating_frames_affine_subspace_dims": {
+  "3": 5160,
+  "2": 24,
+  "empty": 1296
+ },
+ "law": "C(T(x)I) violates iff the Pauli frame avoids an affine subspace A_M of F_3^4 (A_M = F_3^4 for good classes)",
+ "violating_cliffords_exact": 385344,
+ "probability_exact": "223/2430",
+ "probability_float": 0.09176954732510288,
+ "predicates": {
+  "M z1 = z1": {
+   "size": 648,
+   "bad_subset_of": false,
+   "equals_bad": false,
+   "overlap": 648,
+   "equals_bad81": false,
+   "equals_bad54": false,
+   "overlap81": 0
+  },
+  "M z1 = +-z1": {
+   "size": 1296,
+   "bad_subset_of": false,
+   "equals_bad": false,
+   "overlap": 648,
+   "equals_bad81": false,
+   "equals_bad54": false,
+   "overlap81": 0
+  },
+  "<z1, M z1> = 0": {
+   "size": 16848,
+   "bad_subset_of": false,
+   "equals_bad": false,
+   "overlap": 2592,
+   "equals_bad81": false,
+   "equals_bad54": false,
+   "overlap81": 1296
+  },
+  "M^-1 z1 = z1": {
+   "size": 648,
+   "bad_subset_of": false,
+   "equals_bad": false,
+   "overlap": 648,
+   "equals_bad81": false,
+   "equals_bad54": false,
+   "overlap81": 0
+  },
+  "<x1, M z1> = 0": {
+   "size": 16848,
+   "bad_subset_of": false,
+   "equals_bad": false,
+   "overlap": 1944,
+   "equals_bad81": false,
+   "equals_bad54": false,
+   "overlap81": 432
+  },
+  "M z1 has zero qutrit-2 part": {
+   "size": 5184,
+   "bad_subset_of": false,
+   "equals_bad": false,
+   "overlap": 1080,
+   "equals_bad81": false,
+   "equals_bad54": false,
+   "overlap81": 0
+  },
+  "M z1 in span(z1, qutrit 2)": {
+   "size": 16848,
+   "bad_subset_of": false,
+   "equals_bad": false,
+   "overlap": 2592,
+   "equals_bad81": false,
+   "equals_bad54": false,
+   "overlap81": 1296
+  }
+ }
+}

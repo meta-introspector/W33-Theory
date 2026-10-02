@@ -724,6 +724,26 @@ $c=2\cos\frac{2\pi}{9}$, and $F$ itself lies outside the field in five of them. 
 \cert{w33\_pass11251\_exact\_reversal.py}, \cert{w33\_pass11252\_exact\_reversibility.py},
 \cert{w33\_pass11253\_cubic\_field\_levels.py})
 
+The level shared by the magic vacuum and the dynamics is one number. $T$ has spectrum $\zeta^{0,\pm1}$, so
+$\langle+|T|+\rangle=\operatorname{tr}T/3=F_{\min}$: the largest stabilizer probability of the T-magic ray $T|+\rangle$ is
+$|\operatorname{tr}T/3|^2$, and the optimal residual of $(1\otimes T)\mathrm{SUM}(1\otimes T^2)$ has the spectrum of
+$T\otimes T$, so its reversal fidelity is $|\operatorname{tr}(T\otimes T)|/9$ --- the same $|\operatorname{tr}T/3|^2$.
+Closeness to the Clifford group bounds the violation: with $F_{\mathrm{Cl}}(U)=\max_C|\operatorname{tr}(C^\dagger U)|/d$,
+$F_T\ge2F_{\mathrm{Cl}}^2-1$ for every $n$, and $F_T\ge F_{\mathrm{Cl}}^2$ on all 1503 violating words tested
+(while $F_T\ge F_{\mathrm{Cl}}$ fails). One magic gate obeys an affine law: on two qutrits $C(T\otimes1)$ breaks the arrow
+exactly when the Pauli frame of $C$ avoids an affine subspace attached to its symplectic class, so it depends on the
+frame only through that subspace; exactly $6480$ of the $51\,840$ classes --- one in eight, as
+for one qutrit ($3/24$) --- carry a proper subspace (codimension $1$, $2$ or empty in 5160, 24, 1296 classes),
+and the exact probability is $\tfrac{223}{2430}$. On one qutrit the probability for $1,\dots,4$
+cubic gates is exactly $\tfrac1{12},\tfrac{13}{32},\tfrac{421}{768},\tfrac{1425}{2048}$. Over the whole two-qutrit
+Clifford group the perfect-tick edge pattern does not survive: one magic leg breaks a perfect tick in $7\%$ of cases,
+but magic on three of the four legs breaks every $\F_9$-linear perfect tick ($6000/6000$, the class of the circulants),
+against $91\%$ for other perfect ticks. Finally, the chamber group's cocycle orientation is not the orientation of the
+magic: the one-qutrit group $\langle X,S,T\rangle$ modulo scalars is $\mathrm{SmallGroup}(81,9)$, with $18$ elements of order
+$9$, while $U_{81}=C_3\wr C_3=\mathrm{Syl}_3\,\Sp(4,3)$ has $36$. \tierC\ (\cert{w33\_pass11308\_shared\_level\_and\_clifford\_bound.py},
+\cert{w33\_pass11309\_one\_gate\_law.py}, \cert{w33\_pass11310\_magic\_orientation\_cocycle.py},
+\cert{w33\_pass11311\_perfect\_edge\_law.py}, \cert{w33\_pass11312\_depth\_law.py})
+
 All of this is one law.
 
 \begin{result}{Theorem 4.8 (the intrinsic arrow for every number of qutrits) \hfill \tierT}
