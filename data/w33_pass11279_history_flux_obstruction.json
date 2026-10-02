@@ -1,0 +1,37 @@
+{
+  "W33_cells": [
+    40,
+    240,
+    160,
+    40
+  ],
+  "boundary": [
+    "This rejects a specific literal clique-complex history construction, not every possible W33-derived spacetime.",
+    "No cosmological constant value, Newton scale, covariant spacetime dynamics or universal no-go theorem is claimed."
+  ],
+  "completion_options": "Relative cohomology with fixed boundary3-form, a closed oriented4-complex, or an added background flux sector. Each is new physical input, not supplied by finite W33 incidence.",
+  "conditional_covariant_continuum": "The known local sequestering action adds sigma(Lambda/mu4) F4 and hatsigma(kappa\u00b2/M\u00b2) Fhat4 to integral sqrt(-g)[kappa\u00b2R/2-Lambda-Lm]. On a suitable continuum with flux sectors it yields kappa\u00b2G=T-(1/4)g<TrT>-DeltaLambda*g; DeltaLambda is a flux-dependent integration constant. W33 has not selected it.",
+  "exact_top_boundary_injective": "Each triangular face belongs to exactly one tetrahedron, giving disjoint column supports and injective D3 over Z. The D3 tensor I3 block makes D4 injective over Z.",
+  "explicit_complex": "K=clique complex of W(3,3), history H=K times a3-edge oriented circle.",
+  "history_4_cells": 120,
+  "history_boundary_4_rank_mod101": 120,
+  "history_boundary_4_shape": [
+    600,
+    120
+  ],
+  "named_discrete_action": "S_top=<sigma(Lambda), F>, F=D4^T A3+F_background. Free variation of every3-cochain A3 requires D4 sigma(Lambda)=0.",
+  "ownership": "The clique f-vector, injective top boundary and bouquet-of81-circles homotopy are existing repo results, not new. This applies them to the specifically named history/4-form action.",
+  "primary_sources": [
+    "https://arxiv.org/html/1505.01492v2"
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11274_scale_and_sequestering.py",
+    "analysis/w33_pass1448_1454_hodge_maxwell_and_the_missing_star.md",
+    "analysis/w33_pass1944_1948_the_flux_reading_fails_its_own_test.md",
+    "analysis/W33_LEDGER_CONTINUATION_2026_09_21.md"
+  ],
+  "result_scope": "PASS_EXACT_OBSTRUCTION_TO_NAIVE_W33_HISTORY_FLUX_SEQUESTERING",
+  "status": "PASS",
+  "topological_obstruction": "H4(H;Z)=0 and H^4(H;R)=0. Every real4-cochain is exact; there is no intrinsic nonzero closed fundamental4-cycle or topological4-flux on this literal history complex.",
+  "variational_obstruction": "Since D4 is injective, sigma(Lambda)=0 cellwise; the gauge equation does not produce a nonzero rigid global multiplier. The all-ones top-volume chain has nonzero boundary. Imposing the usual positive volume constraint therefore needs boundary data or a different closed geometry."
+}

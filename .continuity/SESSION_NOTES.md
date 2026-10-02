@@ -1306,3 +1306,18 @@ fraction = P(c = n)); "the twist as a discrete Bargmann phase" should cite 11209
 - GitKraken committed and pushed scientific packet a18c21b10 to W33 master. Remote comparison origin-https/master..HEAD is empty. All24 owned artifacts are published; unrelated parallel work remains untouched.
 - Final checks: seven scoped certificates; eight pytest regressions; three tightened-object checks; off-stationary mass-profile replay; current compilation; paper/PDF; result index; clean16-file source/certificate intake. No remaining required validation for this packet.
 - Independent next frontiers: polynomial Higgs alignment for the canonical SM orbit; economical spectator mass/UV completion; full momentum-dependent pole matching; W33-derived refinement/dimension; derivation of vacuum-energy constraints and absolute scales. These are open physics, not inferred from the successful artifact checks.
+
+## Passes11275-11279 in validation
+
+- Reservation b8ffb3b99 pushed after inventory c3f8f4f4c intake. Five producers/certificates execute the previous five targets. Exact local polynomial SM alignment:120 normal plus66 gauge directions. Sextet composite rank10; Higgs-only spectator cubic vanishes; family beta-79/3, E6 beta28 with real-adjoint Higgs inventory.
+- Actual radial-only scalar bubble/pole is computed; the full11-modulus spectrum remains open. Literal3-adic symplectic tower is distinct from an Archimedean geometry. Clique topology is prior-owned; its history product fails the naive top-flux constraint. No absolute mass, gravity orCC solution inferred.
+- Independent controls, site card, scoped paper paragraph and ledger added. Tests/PDF/index/intake pending. Preserve unrelated parallel and automatic instruction assets. Continuity receipts logged; optional handoff refresh children are stopped only after persistence.
+
+- Higgs refinement: the signed-cubic matrix N=d(e0)dagger d(e1) has a5-dimensional image with6Y eigenvalues2 and-3. Replacing the whole-spectrum constraint by||(A²+A-6I)N||² lowers maximal field degree16 to8 and preserves exact rank120/66. The full N variation is included. Changed-witness validation and visible docs updated.
+
+- Further Higgs construction: two complex End27 scalars X,Z lift the degree8 selector into a degree4 sum-of-squares scalar potential. Exact elimination at zeros preserves the66 gauge kernel and gives3036 positive normal directions in3102 real fields. This is power-counting renormalizable but costs two index162 scalars and bE6=-80. No UV viability or dynamically selected scale is claimed. Changed-object tests, certificates and visible scopes updated.
+
+### Passes11275-11279 current verification
+
+- All five pytest regressions passed in145.67s before the Higgs refinement; all five current controls replayed successfully after the degree8/degree4 constructions. Exact second-prime ranks, finite E6 covariance, matrix-field perturbation, sextet singular control, analytic bubble formula and variable-length history checks pass.
+- Final paper/PDF build succeeded (818.84KiB; typesetting warnings only). Five scoped certificates parse and run; newest card is unique. Earlier12-file intake clean; final changed-packet intake/index refresh running. GitKraken fetch shows no newer remote commits. Ready for explicit owned-file publication when intake and validation receipt complete.

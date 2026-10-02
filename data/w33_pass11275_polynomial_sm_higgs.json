@@ -1,0 +1,56 @@
+{
+  "SM_stabilizer_dimension": 12,
+  "boundary": [
+    "Local isolation only; remote disconnected zero orbits are not excluded.",
+    "Positive coefficients and spectral roots are imposed. No W33-derived scale or naturalness claim. The degree4 lifted scalar model is renormalizable by power counting, but its huge inventory worsens UV running.",
+    "The last term is dimension8 in fields and needs appropriate EFT cutoff factors; changing positive coefficients preserves the local rank theorem."
+  ],
+  "compact_orbit_rank_mod101": 66,
+  "constraint_Jacobian_shape": [
+    443,
+    186
+  ],
+  "constraint_rank_mod101": 120,
+  "cubic_selected_block": {
+    "adjoint_eigenvalues_on_image": [
+      2,
+      -3
+    ],
+    "covariance": "N transforms to U N Udagger under compact E6, so the last term is invariant. The reference quadratic is (A-2I)(A+3I).",
+    "image_dimension": 5,
+    "image_indices": [
+      17,
+      18,
+      19,
+      20,
+      22
+    ]
+  },
+  "exact_integer_J_times_T_zero": true,
+  "exact_rank_argument": "A nonzero120-minor modulo101 gives rank_Q J>=120; a nonzero66-minor gives rank_Q T>=66; integer JT=0 bounds rank_Q J<=120 and rank_Q T<=66. Hence both ranks exact. The complete quadratic selector differential includes variations of N, not merely fixed-block variations.",
+  "local_theorem": "The real Hessian of the nonnegative sum of squares has kernel exactly the66-dimensional E6 gauge orbit and is positive on its120-dimensional normal space. The compact slice theorem and a full-rank constraint minor isolate this orbit locally among zero-energy minima.",
+  "polynomial_degree": 8,
+  "potential": "V=||Vdagger V-I2||\u00b2+sum_i<=j||d(v_i,v_j)||\u00b2+||AV||\u00b2+||(A\u00b2+A-6I)N||_F\u00b2; N=d(v0)dagger d(v1), A Hermitian in compact e6. Positive dimensionful coefficients/cutoff factors are understood.",
+  "primary_sources": [
+    "https://arxiv.org/abs/1504.00904"
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11271_canonical_sm_higgs_bridge.py"
+  ],
+  "real_field_dimension": 186,
+  "reference": "V=(e0,e1), A=6Y with Y from Pass11271. Fundamental fields and adjoint are family-neutral extra Higgs fields.",
+  "renormalizable_lift": {
+    "E6_Dynkin_index_each_End27": 162,
+    "E6_beta_combined_inventory": "-80",
+    "UV_cost": "Two complex End27 scalars contribute-108 to bE6; the real78 Higgs inventory had bE6=28. The renormalizable scalar construction therefore loses E6 asymptotic freedom and is not a viable UV completion by itself.",
+    "gauge_kernel_dimension": 66,
+    "local_rank_proof": "The first two linearized constraints solve deltaX and deltaZ uniquely in terms of deltaV,deltaA. The third reduces to the degree8 selector differential. Thus the previous exact kernel theorem extends; no numerical3102-dimensional Hessian is claimed.",
+    "new_scalars": "two complex End(27)=1+78+650 fields X,Z, family neutral",
+    "positive_normal_directions": 3036,
+    "real_field_dimension": 3102,
+    "replaces_last_term": "||Lambda X-N||\u00b2+||Lambda Z-AX||\u00b2+||(A+a I)Z+(b/Lambda)X||\u00b2, with a=1,b=-6 in reference units. Each constraint is at most quadratic in fields, hence potential degree at most4.",
+    "zero_locus": "X=N/Lambda, Z=AN/Lambda\u00b2; the remaining equation is (A\u00b2+aA+bI)N=0. This is exact for zeros, not an equality of off-shell effective potentials."
+  },
+  "result_scope": "PASS_EXACT_LOCAL_POLYNOMIAL_SM_ALIGNMENT",
+  "status": "PASS"
+}

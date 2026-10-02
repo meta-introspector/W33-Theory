@@ -1,0 +1,148 @@
+{
+  "Higgs_only_failure": "d restricted to the two canonical SM-neutral27 directions e0,e1 is identically zero. Therefore dbar(Hdagger,Hdagger,Hdagger) cannot supply the spectator mass when all H vevs preserve this SM. The independent E6-neutral sextet is needed for this operator.",
+  "UV_boundary": "Family running improves but remains non-asymptotically free. log(M_Landau/mu)=8pi\u00b2/((79/3)g_family(mu)\u00b2) at1loop within this fixed inventory. The nonrenormalizable operator still requires a mediator UV completion.",
+  "beta_E6_subset": "32",
+  "beta_E6_with_two_complex27_and_complex78": "26",
+  "beta_E6_with_two_complex27_and_real78": "28",
+  "beta_family_new": "-79/3",
+  "beta_family_old": "-93/2",
+  "boundary": [
+    "No selected sextet vacuum, mediator spectrum, absolute spectator mass or observed Yukawa prediction.",
+    "Gauge anomaly matching below the spectator threshold must retain the appropriate broken-family Wess-Zumino terms."
+  ],
+  "diag123_mass_determinant": "35838544379904",
+  "general_nonsingular_F": "Takagi congruence transforms the identity Wick catalecticant through Sym\u00b3 of the invertible3x3 congruence. Rank10 persists for every invertible complex symmetric F; positivity is asserted only for real positive F.",
+  "identity_mass_determinant": "592704",
+  "identity_sextet_mass": [
+    [
+      "15",
+      "0",
+      "0",
+      "3",
+      "0",
+      "3",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "3",
+      "0",
+      "0",
+      "0",
+      "0",
+      "3",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "3",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "3"
+    ],
+    [
+      "3",
+      "0",
+      "0",
+      "3",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "3",
+      "0",
+      "0",
+      "1",
+      "0",
+      "3",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "3",
+      "0",
+      "0",
+      "0",
+      "0",
+      "15",
+      "0",
+      "3",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "3",
+      "0",
+      "3"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "3",
+      "0",
+      "3",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "3",
+      "0",
+      "0",
+      "0",
+      "0",
+      "3",
+      "0",
+      "15"
+    ]
+  ],
+  "inventory": "Nonsupersymmetric Weyl(27,3)+(1,10bar), complex H(27,6bar)+F(1,6). Family Tfermions=21, Tscalars=70. The polynomial Higgs inventory uses two family-neutral complex27 and a real78, changing E6 beta by-4; a complex78 instead changes it by-6.",
+  "operator": "(c/M_UV\u00b2) chi_ijk chi_lmn Sigma_eff^{ijklmn}, a dimension6 operator. Spectator mass scale c v_F\u00b3/M_UV\u00b2.",
+  "prior_owners": [
+    "analysis/w33_pass11271_chiral_symmetric_yukawa_completion.py",
+    "analysis/w33_pass11271_canonical_sm_higgs_bridge.py"
+  ],
+  "rank": 10,
+  "replacement": "Replace elementary Sigma(1,28) by family sextet F(1,6). Sigma_eff=Sym(F tensor F tensor F), using the15 pairings of six indices.",
+  "result_scope": "PASS_EXACT_SEXTET_COMPOSITE_MASS_AND_RUNNING_AUDIT",
+  "status": "PASS"
+}

@@ -1,0 +1,30 @@
+{
+  "action": "L=1/2(partial h)\u00b2-V(1+h/sqrt2), V(r)=m\u00b2[81/(49r14)-27/(7r6)]. This is a separately declared single-real-scalar EFT extracted from the canonical radial potential.",
+  "bubble_prefactor": 7.17678414753333e-05,
+  "cubic_vertex": -0.1505531352400615,
+  "curvature_mass_squared": 0.009257142857142858,
+  "difference_Dyson_vs_strict": 2.1634144916488074e-08,
+  "excluded": [
+    "Ten other complex-modulus directions, Goldstone couplings, Weyl loops, gauge multiplets, noncanonical field-space metric and threshold matching.",
+    "This does not close the full11-modulus nonzero-pole frontier; no observed particle assignment or mass scale is predicted."
+  ],
+  "inverse_propagator": "s-Mcurv\u00b2+(g3\u00b2/(32pi\u00b2)) B(s/Mcurv\u00b2)",
+  "m": 0.01,
+  "momentum_function": "B(z)=-int_0^1 log(1-z*x*(1-x)) dx; finite, positive below two-particle threshold z=4.",
+  "one_loop_Dyson_root_squared": 0.00924380127357753,
+  "one_loop_pole_squared_strict": 0.009243779639432613,
+  "pole_equation_residual": 1.1559628037768888e-16,
+  "primary_sources": [
+    "https://arxiv.org/abs/hep-ph/0502168"
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11272_resummed_condensate_radial_control.py",
+    "analysis/w33_pass11272_goldstone_ir_and_pole_audit.py"
+  ],
+  "relative_pole_shift": -0.0014412204468718574,
+  "renormalization": "Tadpole fixed at r=1; curvature mass fixed at Vhh(0); local kinetic coefficient set to1 in this zero-momentum potential subtraction scheme. Momentum bubble kept explicitly; quartic tadpole is momentum independent and subtracted.",
+  "residue_at_Dyson_root": 0.9983813704696998,
+  "result_scope": "PASS_ONE_LOOP_MOMENTUM_POLE_IN_DECLARED_RADIAL_ONLY_SCALAR_EFT",
+  "scope": "A nonzero physical propagator pole in this declared scalar EFT, demonstrating why static curvature and pole differ. Dyson iteration includes selected higher-order terms; only the strict1loop expansion has1loop perturbative accuracy.",
+  "status": "PASS"
+}

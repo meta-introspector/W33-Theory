@@ -1,0 +1,24 @@
+{
+  "base_points": 40,
+  "boundary": [
+    "Classical smooth-group and projective-ring counts are not new theorems. This implements their precise W33 bridge and metric obstruction.",
+    "No Lorentz signature, continuum Einstein action or physical spacetime dimension follows from this lift."
+  ],
+  "level2_fiber_size": 27,
+  "level2_kernel_exhausted": 59049,
+  "level2_orthogonality_graph_degree": 116,
+  "level2_points": 1080,
+  "limit": "The inverse limit is a3-adic symplectic module Z3^4. An Archimedean four-torus requires a separate metric, embedding and scaling choice.",
+  "metric_obstruction": "An integral symplectic shear sends e2 to e2+e0 and fixes e0. From T^TGT=G the (0,2) entry forces G00=0. Thus no positive definite real quadratic metric is invariant under all integral symplectic lifts. Symplectic data alone cannot select the previous Euclidean Wilson operator.",
+  "prior_owners": [
+    "analysis/w33_symplectic_basis_regular_lift.py",
+    "analysis/PASS4937_ADJOINT_DUAL_NUMBER_CONTROLLER.md",
+    "analysis/PASS444_HJELMSLEV_CONDUCTOR_GEOMETRY.md",
+    "analysis/w33_pass11273_wilson_uniform_tail.py"
+  ],
+  "projective_count_formula": "|Pprimitive((Z/3^k)^4)|=40*3^(3(k-1)); reduction fibers have27 points per level.",
+  "result_scope": "PASS_EXACT_SYMPLECTIC_RING_LIFT_AND_METRIC_OBSTRUCTION",
+  "splitting_boundary": "No claim that the mixed-characteristic extension splits. Pass4937 proves the split dual-number extension; equal order does not identify it with Z/9.",
+  "status": "PASS",
+  "symplectic_order_formula": "|Sp4(Z/3^k)|=51840*3^(10(k-1)); smooth symplectic group lifts, with sp4(F3) additive kernel at each successive reduction."
+}
