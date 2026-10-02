@@ -1,0 +1,114 @@
+{
+ "pass_id": 11311,
+ "class_sizes": {
+  "local": 1152,
+  "perfectF9": 64,
+  "perfect": 13760,
+  "other": 36864
+ },
+ "cells": {
+  "local:k=0": {
+   "violating": 0,
+   "samples": 6000,
+   "fraction": 0.0
+  },
+  "local:k=1": {
+   "violating": 486,
+   "samples": 6000,
+   "fraction": 0.081
+  },
+  "local:k=2": {
+   "violating": 1287,
+   "samples": 6000,
+   "fraction": 0.2145
+  },
+  "local:k=3": {
+   "violating": 2611,
+   "samples": 6000,
+   "fraction": 0.43516666666666665
+  },
+  "local:k=4": {
+   "violating": 1884,
+   "samples": 6000,
+   "fraction": 0.314
+  },
+  "perfectF9:k=0": {
+   "violating": 0,
+   "samples": 6000,
+   "fraction": 0.0
+  },
+  "perfectF9:k=1": {
+   "violating": 516,
+   "samples": 6000,
+   "fraction": 0.086
+  },
+  "perfectF9:k=2": {
+   "violating": 2585,
+   "samples": 6000,
+   "fraction": 0.43083333333333335
+  },
+  "perfectF9:k=3": {
+   "violating": 6000,
+   "samples": 6000,
+   "fraction": 1.0
+  },
+  "perfectF9:k=4": {
+   "violating": 3782,
+   "samples": 6000,
+   "fraction": 0.6303333333333333
+  },
+  "perfect:k=0": {
+   "violating": 0,
+   "samples": 6000,
+   "fraction": 0.0
+  },
+  "perfect:k=1": {
+   "violating": 430,
+   "samples": 6000,
+   "fraction": 0.07166666666666667
+  },
+  "perfect:k=2": {
+   "violating": 3196,
+   "samples": 6000,
+   "fraction": 0.5326666666666666
+  },
+  "perfect:k=3": {
+   "violating": 5435,
+   "samples": 6000,
+   "fraction": 0.9058333333333334
+  },
+  "perfect:k=4": {
+   "violating": 4673,
+   "samples": 6000,
+   "fraction": 0.7788333333333334
+  },
+  "other:k=0": {
+   "violating": 0,
+   "samples": 6000,
+   "fraction": 0.0
+  },
+  "other:k=1": {
+   "violating": 592,
+   "samples": 6000,
+   "fraction": 0.09866666666666667
+  },
+  "other:k=2": {
+   "violating": 3047,
+   "samples": 6000,
+   "fraction": 0.5078333333333334
+  },
+  "other:k=3": {
+   "violating": 5082,
+   "samples": 6000,
+   "fraction": 0.847
+  },
+  "other:k=4": {
+   "violating": 4400,
+   "samples": 6000,
+   "fraction": 0.7333333333333333
+  }
+ },
+ "perfect_one_magic_leg_never": false,
+ "perfect_three_magic_legs_always": false,
+ "F9_perfect_three_magic_legs_always": true
+}

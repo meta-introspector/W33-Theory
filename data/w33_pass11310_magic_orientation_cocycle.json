@@ -1,0 +1,69 @@
+{
+ "pass_id": 11310,
+ "magic_groups": {
+  "T": {
+   "invariants": {
+    "order": 81,
+    "center": 3,
+    "derived": 9,
+    "gamma3": 3,
+    "order9": 18
+   },
+   "homomorphisms_with_e1_to_X": {
+    "1": 0,
+    "2": 0
+   }
+  },
+  "T_inverse": {
+   "invariants": {
+    "order": 81,
+    "center": 3,
+    "derived": 9,
+    "gamma3": 3,
+    "order9": 18
+   },
+   "homomorphisms_with_e1_to_X": {
+    "1": 0,
+    "2": 0
+   }
+  }
+ },
+ "T_and_T_inverse_generate_same_group_mod_scalars": true,
+ "U81_order9": {
+  "1": 36,
+  "2": 36
+ },
+ "gap": {
+  "magic_sylow_X_S_T_mod_scalars": [
+   81,
+   9
+  ],
+  "U81_s1": [
+   81,
+   7
+  ],
+  "U81_s2": [
+   81,
+   7
+  ],
+  "C3_wr_C3": [
+   81,
+   7
+  ],
+  "Sylow3_Sp43": [
+   81,
+   7
+  ],
+  "Sylow3_PSp43": [
+   81,
+   7
+  ],
+  "order9_counts_SmallGroup_81_7_8_9_10": [
+   36,
+   54,
+   18,
+   72
+  ]
+ },
+ "non_isomorphic": true
+}

@@ -193,7 +193,7 @@ affine-codimension-two controls; do not accept a producer/prose result without
 its matching certificate. The parallel files are preserved, and this packet
 records its own explicit counterexample.
 
-The current parallel regression run gives **7 passed,1 failed in86.66s**:
+The prepublication parallel regression run gave **7 passed,1 failed in86.66s**:
 11309 raises a KeyError for `nonviolating_frames_affine_subspace_dims`.
 Its exact count is retained as an asserted certificate result, not newly
 replayed here. For11308, the fast cyclotomic/stabilizer identity replays; its
@@ -255,5 +255,35 @@ Publication validation: five scoped certificates PASS; nine owned regressions
 passed; producers/tests compile; refreshed12-file intake clean with no
 rediscovery collisions or forced arithmetic; site card unique; rebuilt paper
 PDF835.46KiB. Independent GAP runs confirm SmallGroup(81,9) for the magic group
-and SmallGroup(81,7) for both chamber signs. The separate parallel regression
-failure is retained as an intake limitation.
+and SmallGroup(81,7) for both chamber signs. The initial parallel regression failure is recorded historically; the
+publication-time integration section distinguishes its later resolution.
+
+## Publication-time parallel integration correction
+
+Remote8f8fb86bd supplies the previously missing11309 certificate field;
+the earlier7/8 regression result refers to the prepublication snapshot.
+All local cloud copies were backed up under
+`/tmp/w33_cloud_11308_11312_before_merge` before integration; normalized
+text comparisons show no source differences, and the remote certificate
+includes the completed affine-subspace controls. The additional0096da599
+formula-universe inventory update was reviewed. The shared ledger merges
+both packets, and the binary PDF is rebuilt from the combined sources.
+
+A sentence-level audit finds a more important11309 coverage limitation:
+the producer decides all81 frames only for the6480 classes flagged by
+0,e1,...,e4. For the other45360 classes it tests those five frames only.
+The remaining frames are certified by that shortcut **only if the global
+affine-complement law is proved independently**. The300-class sample and
+full flagged-class check do not prove it for unflagged classes. Thus the
+reported223/2430 is a conditional census result, not an independently
+exhaustive4,199,040-Clifford certificate. The merged paper now states this
+condition explicitly. Its11311 wording is also corrected to sampled6000/6000
+and the actual430/6000 non-F9-perfect one-leg count. Cloud producers and
+reports remain preserved; this audit does not replace their numerical data.
+
+After integration, all eight cloud regressions pass in89.21s. This resolves
+the certificate-field mismatch, not the separate unflagged-class coverage gap.
+
+The merged18-file cloud intake is clean (no rediscovery collisions or forced
+arithmetic); the corrected combined PDF builds at839.72KiB. Intake checks and
+passing regressions do not discharge the affine-coverage proof obligation.
