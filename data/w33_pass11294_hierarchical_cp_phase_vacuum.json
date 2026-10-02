@@ -1,0 +1,211 @@
+{
+  "boundaries": [
+    "Eigenvalue targets, epsilon powers and phase-root coefficients are imposed, not fitted or derived from W33.",
+    "Only local isolation at scanned points; other discrete minima and epsilon->0 singular limits are not classified.",
+    "Absolute masses, observed CP phase and RG stability remain open."
+  ],
+  "hierarchy": "s12=epsilon, s23=epsilon\u00b2, s13=epsilon\u00b3, delta=pi/2; J\u00b2=epsilon^12(1-epsilon\u00b2)(1-epsilon^4)(1-epsilon^6)\u00b2. This is a prescribed one-parameter deformation, not a W33-derived or measured CKM prediction.",
+  "invariant_proof": "For R in SU3, adj(R Fu R^T) R Fd R^T = R^-T adj(Fu)Fd R^T. Trace powers are invariant under this similarity. CP conjugates all z, and each phase polynomial has real coefficients.",
+  "local_isolation": "24 real sextet fields, constraint Jacobian rank16 at all four scanned vacua;8 remaining directions are the SU3 orbit. Phase-invariant Jacobian on the previous four flat directions is nonsingular. Numerical controls, not an interval theorem for all epsilon.",
+  "polynomial_scope": "Adj(Fu) is polynomial of degree2; inverse in evaluation is its nonsingular numerical representation. Maximum degree24. Reference moment and phase-root coefficients are declared inputs.",
+  "potential": "Prior spectral/determinant selectors; four mixed moment squares targeted to P(epsilon); plus |z_k\u00b2-2Re(t_k)z_k+|t_k|\u00b2|\u00b2 for z1=Tr(adj(Fu)Fd), z2=Tr((adj(Fu)Fd)\u00b2). All coefficients real; positive squares are CP even.",
+  "primary_sources": [
+    "https://arxiv.org/abs/1103.2915"
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11286_misaligned_family_vacua.py",
+    "analysis/BT891_yukawa_texture_from_grading.md"
+  ],
+  "result_scope": "PASS_DECLARED_HIERARCHICAL_CP_VACUA_WITH_LOCAL_PHASE_STABILIZATION",
+  "rows": [
+    {
+      "Jarlskog": 3.343798639005887e-05,
+      "Jarlskog_squared": 1.1180989338217627e-09,
+      "constraint_residual": 1.0913936421275139e-11,
+      "epsilon": 0.18,
+      "normal_rank": 16,
+      "phase_jacobian_determinant": -8.246302872935674e-05,
+      "phase_jacobian_singular_values": [
+        178.4129383208656,
+        0.1466274691392065,
+        0.05328672010713815,
+        5.9155973810318684e-05
+      ],
+      "phase_target_imag": [
+        -0.00013375649491610204,
+        -0.014765357299427415
+      ],
+      "phase_target_real": [
+        25.19491710921738,
+        222.89542244560283
+      ],
+      "scaled_singular_values": [
+        3.0760239499583175,
+        2.041322684185072,
+        2.012387826936715,
+        1.7499595374164,
+        1.1161413486027005,
+        1.0574353960993406,
+        0.39362647710818477,
+        0.33078308440709264,
+        0.19504795278782447,
+        0.13919230522885506,
+        0.032690812521888386,
+        0.004470967606280628,
+        0.002451980507516517,
+        0.0008969030808150341,
+        0.00031075999970449304,
+        2.5735697374030214e-07,
+        6.537364623124347e-11,
+        7.717244281522105e-17
+      ],
+      "sin_squared_angles": [
+        0.0324,
+        0.0010497599999999998,
+        3.401222399999999e-05
+      ]
+    },
+    {
+      "Jarlskog": 0.00011045993450395701,
+      "Jarlskog_squared": 1.2201397130618481e-08,
+      "constraint_residual": 3.8198777474462986e-11,
+      "epsilon": 0.22,
+      "normal_rank": 16,
+      "phase_jacobian_determinant": -0.000582437751663077,
+      "phase_jacobian_singular_values": [
+        173.65226782871773,
+        0.2679397871333607,
+        0.054340506994335985,
+        0.00023036057999828243
+      ],
+      "phase_target_imag": [
+        -0.000441889839443403,
+        -0.04886398421183512
+      ],
+      "phase_target_real": [
+        25.289780223712974,
+        225.7904269082504
+      ],
+      "scaled_singular_values": [
+        3.080077075995169,
+        2.0465010242866404,
+        2.022563570030096,
+        1.755339168390345,
+        1.1335777023313431,
+        1.073712121544147,
+        0.3969081378494305,
+        0.3386996225506746,
+        0.22054582577599394,
+        0.16895011097038237,
+        0.049066411135821525,
+        0.008050900401140504,
+        0.002605654625481057,
+        0.00167012842584359,
+        0.00038499703479227706,
+        6.58831171971606e-07,
+        7.594903431638258e-11,
+        5.1329332515194555e-17
+      ],
+      "sin_squared_angles": [
+        0.0484,
+        0.00234256,
+        0.000113379904
+      ]
+    },
+    {
+      "Jarlskog": 0.0006920945884638594,
+      "Jarlskog_squared": 4.789949193809587e-07,
+      "constraint_residual": 4.3655745685100555e-11,
+      "epsilon": 0.3,
+      "normal_rank": 16,
+      "phase_jacobian_determinant": 0.025383893245440936,
+      "phase_jacobian_singular_values": [
+        162.60615231564367,
+        1.6918587754905723,
+        0.07777110199622966,
+        0.0011864211988968898
+      ],
+      "phase_target_imag": [
+        -0.00277039797397847,
+        -0.30763374409032374
+      ],
+      "phase_target_real": [
+        25.521579747718008,
+        232.8662966585448
+      ],
+      "scaled_singular_values": [
+        3.0940688401803245,
+        2.0645270289126922,
+        2.049666380848056,
+        1.7707016465904553,
+        1.1810587158390666,
+        1.1188500312765903,
+        0.410392910852547,
+        0.35818094765683317,
+        0.2785182668695878,
+        0.22645886370326243,
+        0.09229438982904078,
+        0.01972747779321074,
+        0.005807022738529261,
+        0.004352693034864574,
+        0.0005799499762454839,
+        2.653319990122833e-06,
+        5.930183032754844e-11,
+        1.4818280059985194e-16
+      ],
+      "sin_squared_angles": [
+        0.09,
+        0.0081,
+        0.0007289999999999998
+      ]
+    },
+    {
+      "Jarlskog": 0.003690504212112151,
+      "Jarlskog_squared": 1.3619821339617529e-05,
+      "constraint_residual": 5.4569682106375694e-12,
+      "epsilon": 0.4,
+      "normal_rank": 16,
+      "phase_jacobian_determinant": 4.309339635587736,
+      "phase_jacobian_singular_values": [
+        148.65432363397377,
+        9.393597455924612,
+        0.4124876728557982,
+        0.007481527195579285
+      ],
+      "phase_target_imag": [
+        -0.01482273075361542,
+        -1.6545616930557183
+      ],
+      "phase_target_real": [
+        25.811635539967998,
+        241.13812475911215
+      ],
+      "scaled_singular_values": [
+        3.1310011875895554,
+        2.1132303080402224,
+        2.0979145626724107,
+        1.8029581064300941,
+        1.271555261425366,
+        1.2065356845713981,
+        0.45143285132115635,
+        0.39421018644814093,
+        0.36850565368567034,
+        0.29428605924310586,
+        0.16453426092242926,
+        0.04357805663787122,
+        0.016416279799340412,
+        0.0106895965571505,
+        0.0025343204541194526,
+        1.2016467783945936e-05,
+        5.562770952068317e-11,
+        1.0004457097688228e-16
+      ],
+      "sin_squared_angles": [
+        0.16000000000000003,
+        0.025600000000000005,
+        0.0040960000000000015
+      ]
+    }
+  ],
+  "status": "PASS"
+}

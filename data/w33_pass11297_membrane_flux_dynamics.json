@@ -1,0 +1,175 @@
+{
+  "action": "Added compact3-form with intensive field f=*F4, Maxwell energy f\u00b2/2, charged membranes of chargeq and tensionT. Homogeneous sectors f_n=offset+nq. Local membrane jumps change f byq; these are additional inputs.",
+  "bare_shift_scan": [
+    {
+      "bare_energy": -1.0,
+      "terminal_energy": -0.97355
+    },
+    {
+      "bare_energy": -0.01,
+      "terminal_energy": 0.01645
+    },
+    {
+      "bare_energy": 0.01,
+      "terminal_energy": 0.03645
+    },
+    {
+      "bare_energy": 1.0,
+      "terminal_energy": 1.02645
+    }
+  ],
+  "boundaries": [
+    "Known thin-wall bounce and vacuum-relaxation mechanism applied to a declared model, not a novel mechanism or observed CC prediction.",
+    "No gravity/CDL correction, volume-weighted measure, prefactor derivation, upward transitions or membrane spectrum from W33.",
+    "Topology provides a flux class, not its charge, offset, tension or selected observed vacuum energy."
+  ],
+  "evolution": [
+    {
+      "mean_energy": 19.39645,
+      "mean_flux": 6.23,
+      "terminal_probability": 0.0,
+      "time": 0.0
+    },
+    {
+      "mean_energy": 0.2080272069107944,
+      "mean_flux": 0.4052152725858819,
+      "terminal_probability": 0.8704246969158365,
+      "time": 10.0
+    },
+    {
+      "mean_energy": 0.016449999999999992,
+      "mean_flux": 0.2299999999999999,
+      "terminal_probability": 0.9999999999999996,
+      "time": 1000.0
+    },
+    {
+      "mean_energy": 0.01645,
+      "mean_flux": 0.23,
+      "terminal_probability": 1.0,
+      "time": 1000000.0
+    }
+  ],
+  "extensive_intensive_audit": "Prior11284/11289 use extensiveQ=integralF and a uniform linear constraint Vol=Q/mu4. On that homogeneous branch f=Q/Vol=mu4 and Maxwell density=mu4\u00b2/(2e\u00b2), independent ofQ. VaryingQ along that branch is not the intensive ladder used by Brown-Teitelboim relaxation. Do not identify these two flux variables.",
+  "parameters": {
+    "bare_energy": -0.01,
+    "charge": 1.0,
+    "offset": 0.23,
+    "prefactor": 1.0,
+    "tension": 0.2
+  },
+  "primary_sources": [
+    "https://arxiv.org/abs/1804.09985",
+    "https://arxiv.org/abs/2306.09412",
+    "https://arxiv.org/html/1505.01492v2"
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11284_closed_history_flux.py",
+    "analysis/w33_pass11289_cycle_gram_gluing_flux.py"
+  ],
+  "result_scope": "PASS_DECLARED_MEMBRANE_MARKOV_RELAXATION_AND_UNIFORM_FLUX_CONSTRAINT_AUDIT",
+  "selection": "The finite downward chain has one absorbing sector minimizing|offset+nq|. The actual evolution reaches it fromn=6. Residual energy=bare+distance(offset,qZ)\u00b2/2, with charge/offset/bare inputs. Bare vacuum-energy shifts move the terminal energy unchanged; this is not sequestering.",
+  "sequestering_boundary": "This excludes naively combining the uniform linear-volume branch with the homogeneous membrane ladder. It does not forbid inhomogeneous bubbles with a global constraint, nonlinear sigma, or additional fluxes; those require solving their actual junction and global equations.",
+  "status": "PASS",
+  "terminal_energy": 0.01645,
+  "terminal_intensive_flux": 0.23,
+  "terminal_sector": 0,
+  "transition_rule": "Zero-temperature flat-space thin-wall downward transitions with Delta_rho>0, R=3T/Delta_rho, B=27pi\u00b2T\u2074/(2Delta_rho\u00b3), rate=A exp(-B), A=1 input. Upward/gravitational/cosmological-volume corrections are omitted.",
+  "transitions": [
+    {
+      "Delta_rho": 5.269999999999998,
+      "bounce_action": 0.0014565374344416274,
+      "bubble_radius": 0.11385199240986724,
+      "from": -6,
+      "rate": 0.9985445228013872,
+      "to": -5
+    },
+    {
+      "Delta_rho": 4.269999999999999,
+      "bounce_action": 0.0027382296670511617,
+      "bubble_radius": 0.14051522248243567,
+      "from": -5,
+      "rate": 0.9972655158643152,
+      "to": -4
+    },
+    {
+      "Delta_rho": 3.2699999999999996,
+      "bounce_action": 0.006096916378607343,
+      "bubble_radius": 0.18348623853211013,
+      "from": -4,
+      "rate": 0.9939216321007359,
+      "to": -3
+    },
+    {
+      "Delta_rho": 2.2700000000000005,
+      "bounce_action": 0.018225352001309217,
+      "bubble_radius": 0.2643171806167401,
+      "from": -3,
+      "rate": 0.9819397253409771,
+      "to": -2
+    },
+    {
+      "Delta_rho": 1.27,
+      "bounce_action": 0.10407402085622176,
+      "bubble_radius": 0.4724409448818898,
+      "from": -2,
+      "rate": 0.901158590421926,
+      "to": -1
+    },
+    {
+      "Delta_rho": 0.26999999999999996,
+      "bounce_action": 10.83084159241631,
+      "bubble_radius": 2.2222222222222228,
+      "from": -1,
+      "rate": 1.977995330646534e-05,
+      "to": 0
+    },
+    {
+      "Delta_rho": 0.73,
+      "bounce_action": 0.5480054986376692,
+      "bubble_radius": 0.8219178082191783,
+      "from": 1,
+      "rate": 0.5781016858900735,
+      "to": 0
+    },
+    {
+      "Delta_rho": 1.7300000000000004,
+      "bounce_action": 0.04117325359101898,
+      "bubble_radius": 0.3468208092485549,
+      "from": 2,
+      "rate": 0.9596628505089417,
+      "to": 1
+    },
+    {
+      "Delta_rho": 2.73,
+      "bounce_action": 0.010477690251975577,
+      "bubble_radius": 0.2197802197802198,
+      "from": 3,
+      "rate": 0.989577009535366,
+      "to": 2
+    },
+    {
+      "Delta_rho": 3.730000000000002,
+      "bounce_action": 0.004107967519632527,
+      "bubble_radius": 0.16085790884718493,
+      "from": 4,
+      "rate": 0.9959004586368642,
+      "to": 3
+    },
+    {
+      "Delta_rho": 4.73,
+      "bounce_action": 0.0020145130000700133,
+      "bubble_radius": 0.12684989429175478,
+      "from": 5,
+      "rate": 0.9979875147693592,
+      "to": 4
+    },
+    {
+      "Delta_rho": 5.729999999999999,
+      "bounce_action": 0.0011331558119935764,
+      "bubble_radius": 0.1047120418848168,
+      "from": 6,
+      "rate": 0.9988674859666189,
+      "to": 5
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "boundaries": [
+    "The current three-frame composite architecture has no jointly E6/SO2r AF single-propagator tree completion of these two types.",
+    "This does not exclude asymptotic safety, strong/composite mediators, altered alignment inventory, multiple-step or radiative UV models.",
+    "Family SU3 remains non-AF; absolute mediator mass and Yukawa couplings are inputs."
+  ],
+  "budget_derivation": "T_E6(27)=3. Scalar: (1/3)*6*3=6. Two Weyls: (2/3)*2*3*3=12. SO10 singlet mediators do not alter bSO10.",
+  "channel_argument": "For a single scalar exchange the psi-psi family6 and E6 bar27 channel forces H(27,bar6). For fermion exchange, the psi-Fdagger vertex fixes E6 conjugate27, while the psi-v vertex selects familybar3; the vectorlike partner then supplies a gauge-invariant mass. This exhausts these two single-propagator tree topologies with the named external fields, not arbitrary UV theories.",
+  "economical_alignment_escape": {
+    "S_eigenvalues": [
+      -3,
+      -3,
+      -3,
+      -3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "boundary": "Local alignment and positive one-loop E6/SO10 gauge coefficients in a changed inventory. Family SU3, all-coupling complete asymptotic freedom, thresholds, global uniqueness and quantum stability remain open. This supersedes no old fixed-inventory result.",
+    "exact_compact_orbit_rank_mod101": 111,
+    "fields": "Two complex(27,10) frames U,V; real antisymmetric45 K; real symmetric traceless54 S; original two27 and real78 retained. Replace the old third(27,10) frame W by S.",
+    "gauge_beta_composite_before_mediators": {
+      "E6": 14,
+      "SO10": 8
+    },
+    "inventory_saving": "Remove ten complex27 copies: bE6 increases by10. Remove27 complex SO10 vectors: bSO10 increases by9. Add one real54 with T=12: bSO10 decreases by2. Net old(4,1)->(14,8), enough for either explicit mediator channel.",
+    "local_kernel_proof": "Remove deltaK along the20-dimensional SO10/U5 orbit. The explicit frame projection restricts deltaU,V to P. Since S is real and commutes with K, AU=US and UdaggerU=P determine S uniquely as UdaggerAU+its complex conjugate; the differential determines deltaS uniquely. S\u00b2+S-6I then implies(A\u00b2+A-6I)U=0. Together with UVdagger=N this maps any kernel vector to the old exact11275 selector kernel. Subtract its66 E6 orbit directions; the remaining frames have25 U5 gauge directions and deltaS is their gauge transform. Thus kernel<=111. The integer orbit tangent has rank111, proving equality and positivity of1254 normal directions among1365 alignment fields. This is analytic elimination using the prior rank theorem, not a numeric full Hessian.",
+    "positive_normal_directions": 1254,
+    "potential": "Squared old base constraints plus K\u00b2+I, [K,S], S\u00b2+S-6I, UK+iU,VK+iV, UVdagger-N,UdaggerU-P,VdaggerV-P, AU-US. All constraints at most quadratic, giving a quartic scalar potential in reference units with dimensionful coefficients restored.",
+    "real_alignment_fields": 1365,
+    "reference_S": [
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        -3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        -3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -3
+      ]
+    ],
+    "scalar_completion_positive_potential": "Add ||M H + alpha v Fdagger||\u00b2 and the Yukawa d(psi,psi,H). Eliminating H=-alpha v Fdagger/M yields the desired interaction while the nonnegative alignment zero locus is a graph over the old one; the stabilizing quartic ||v Fdagger||\u00b2 is explicit. F dynamics and its selecting potential remain separate inputs.",
+    "with_scalar_H_mediator": {
+      "E6": 8,
+      "SO10": 8
+    },
+    "with_vectorlike_fermion_mediator": {
+      "E6": 2,
+      "SO10": 8
+    }
+  },
+  "external_fields": "psi(27,3), v(27,1), Fdagger(1,bar6); operator d_ABC psi^{A i} psi^{B j} v^C Fdagger_ij/M.",
+  "fermion_completion": "X(27,bar3)+Xbar(bar27,3); M X^A_i Xbar_A^i + y1 d_ABC psi^{A i} v^B X^C_i + y2 Xbar_A^i psi^{A j} Fdagger_ij. Tree elimination gives -y1*y2 d(psi,psi,v)Fdagger/M, up to the declared identical-Weyl normalization.",
+  "matching_symbolic": "-a*b/M",
+  "one_loop_costs": {
+    "E6_at_r5_fermion": -8,
+    "E6_at_r5_scalar": -2,
+    "SO10_at_r5": 1,
+    "complex_H27bar6": 6,
+    "vectorlike_Weyl27bar3_pair": 12
+  },
+  "primary_sources": [
+    "https://doi.org/10.1016/0370-1573(81)90092-2"
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11285_semisimple_factor_higgs.py",
+    "analysis/w33_pass11291_rank_five_AF_window.py",
+    "analysis/w33_pass11271_chiral_symmetric_yukawa_completion.py"
+  ],
+  "result_scope": "PASS_TREE_MATCHING_FIXED_INVENTORY_OBSTRUCTION_AND_ECONOMICAL_ALIGNMENT_ESCAPE",
+  "rows": [
+    {
+      "SO2r": -13,
+      "baseline_E6": 16,
+      "r": 3,
+      "scalar_mediator_E6": 10,
+      "vectorlike_fermion_E6": 4
+    },
+    {
+      "SO2r": -6,
+      "baseline_E6": 10,
+      "r": 4,
+      "scalar_mediator_E6": 4,
+      "vectorlike_fermion_E6": -2
+    },
+    {
+      "SO2r": 1,
+      "baseline_E6": 4,
+      "r": 5,
+      "scalar_mediator_E6": -2,
+      "vectorlike_fermion_E6": -8
+    },
+    {
+      "SO2r": 8,
+      "baseline_E6": -2,
+      "r": 6,
+      "scalar_mediator_E6": -8,
+      "vectorlike_fermion_E6": -14
+    },
+    {
+      "SO2r": 15,
+      "baseline_E6": -8,
+      "r": 7,
+      "scalar_mediator_E6": -14,
+      "vectorlike_fermion_E6": -20
+    },
+    {
+      "SO2r": 22,
+      "baseline_E6": -14,
+      "r": 8,
+      "scalar_mediator_E6": -20,
+      "vectorlike_fermion_E6": -26
+    },
+    {
+      "SO2r": 29,
+      "baseline_E6": -20,
+      "r": 9,
+      "scalar_mediator_E6": -26,
+      "vectorlike_fermion_E6": -32
+    },
+    {
+      "SO2r": 36,
+      "baseline_E6": -26,
+      "r": 10,
+      "scalar_mediator_E6": -32,
+      "vectorlike_fermion_E6": -38
+    },
+    {
+      "SO2r": 43,
+      "baseline_E6": -32,
+      "r": 11,
+      "scalar_mediator_E6": -38,
+      "vectorlike_fermion_E6": -44
+    }
+  ],
+  "scalar_completion": "H(27,bar6), with y d(psi,psi,H)+mu Hdagger v Fdagger and mass\u00b2 M\u00b2 Hdagger H; elimination supplies Yukawa coefficient proportional to -y*mu/M\u00b2. This is the removed elementary Higgs restored as a heavy mediator.",
+  "signed_tensor_matching": {
+    "Weyl_light_dimension": 81,
+    "effective_mass_norm": 43.42481186734474,
+    "heavy_Weyl_dimension": 162,
+    "mediator_mass": 7.0,
+    "signed_E6_tensor_Schur_error": 4.440892098500626e-16
+  },
+  "status": "PASS"
+}
