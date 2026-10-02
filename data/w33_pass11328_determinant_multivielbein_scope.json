@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "result_scope": "PASS_DETERMINANT_MULTIVIELBEIN_EQUAL_BOOST_SCOPE_AND_NATIVE_SPARSE_GRAPH_OBSTRUCTION",
+  "action": "Sum_I mI\u00b2 det(eI)(RI-2LambdaI) -2m4 det(sum_I betaI eI), each matter sector couples to its own eI only. Positive betaI and nonsingular sum, supplied4D spacetime and EH terms. Cosmological terms can tune the proportional flat background.",
+  "published_constraint_scope": "arXiv2510.03014v2 derives secondary constraints generally; explicit tertiary/quaternary ghost-momentum elimination uses equal boosts. Its397-mode statement for N80 is imported only on that restricted branch, not promoted to an unrestricted native theorem.",
+  "constraint_count": {
+    "phase_dimension": 2560,
+    "first_class": 14,
+    "second_class_equal_boost_branch": 1738,
+    "physical_modes_equal_boost_branch": 397
+  },
+  "low_rank_constraint_bridge": "The matrix Mij=Xi-Xj has rank<=2. Yet My=0 with S=sum y!=0 implies Xi=Xj for all pairs by subtracting any two equations: (Xi-Xj)S=0. Thus there areN-1 independent nonlinear constraints despite rank2 off shell. Positive physical lapses and nonzero interaction exclude the S0 spurious branch.",
+  "native_case": {
+    "sites": 80,
+    "native_edges": 160,
+    "determinant_quadratic_edges": 3160,
+    "normalized_determinant_laplacian_eigenvalues": {
+      "0": 1,
+      "80": 79
+    },
+    "matrix_distance_to_native": 675.2777206453653
+  },
+  "quadratic_expansion": "For betaI=1 around eI=I+t hI, det(sum eI)-N\u00b3 sum det eI has no constant/linear term; quadratic term=(N\u00b2/2)sum_I<J[Tr(hI-hJ)\u00b2-(Tr(hI-hJ))\u00b2]. The species mass matrix is the complete graph Laplacian, not the native Levi Laplacian.",
+  "exact_three_species_expansion_control": "72",
+  "sparsity_obstruction": "For a single determinant of a weighted sum, every pair coefficient is proportional to betaI betaJ times a common nonzero factor after the flat-background cosmological tuning. If all80 species interact, every betaI is nonzero, giving3160 pairs. The native160-edge graph has zero coefficients on nonedges, so it cannot be reproduced by this single determinant. Setting a beta to zero decouples a species.",
+  "scope": [
+    "This provides a named fully symmetric alternative nonlinear action and a precise published equal-boost constraint route. Generic boost closure still needs proof.",
+    "The imported ghost-elimination result is prior literature, not a new theorem. Exact expansion, physical-lapse algebra and graph incompatibility are the repository audit.",
+    "Summing many determinant vertices to fit native edges does not inherit the single-vertex constraint result; a separate analysis is mandatory.",
+    "No emergent spacetime, selected Newton scale, observed graviton sector or full native ghost-free completion is inferred."
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11316_native_edge_fierz_pauli.py",
+    "analysis/w33_pass11323_native_cycle_lapse_hessian.py"
+  ],
+  "primary_sources": [
+    "https://arxiv.org/html/2510.03014v2",
+    "https://arxiv.org/abs/1804.09723"
+  ]
+}

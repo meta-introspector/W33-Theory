@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "result_scope": "PASS_COMPLEX_TWO_FLAVOR_PHASE_LOCKING_AND_LARGER_PAIRED_AF_BARRIERS",
+  "matrix_beta": "H=(27/5)A\u2020A+(9/2)B\u2020B; betaA=(H^T A+A H)/2+(4/5)AA\u2020A+BA\u2020B+Tr(A\u2020A)A-kA; betaB=(H^T B+B H)/2+BB\u2020B+(6/5)AB\u2020A+Tr(B\u2020B)B-kB; k=73/3 in ratio flow.",
+  "direct_tensor_controls": {
+    "2": 1.4802437197748024e-17,
+    "4": 1.1364755910069911e-16
+  },
+  "two_flavor_phase": "Takagi A=diag(a1,a2)>=0, B=b exp(i theta/2)epsilon. theta=arg[bcomplex\u00b2/(a1complex*a2complex)] is unchanged by unitary flavor congruence. For full rank, beta_theta=sin(theta)[(12/5)a1*a2+|b|\u00b2(a1/a2+a2/a1)]. The bracket is strictly positive. Thus any physical fixed phase has theta=0 orpi.",
+  "phase_classification": "theta0/pi are equivalent by flavor congruence to real A,B, hence reuse all eight real11320 supports. Rank-one A and nonzeroB cannot be stationary modulo flavor rotations: betaA in the zero-singular diagonal is nonzero. A0 orB0 have removable phases. This closes the complex two-active-flavor fixed-ray loophole, not every larger texture.",
+  "paired_larger_flavor_rays": [
+    {
+      "active_flavors": 2,
+      "a_squared": "730/351",
+      "b_squared": "730/351",
+      "S_portal_barrier_exact_minimum": "48801992/18913635",
+      "ratio_residual": 7.105427357601002e-15
+    },
+    {
+      "active_flavors": 4,
+      "a_squared": "730/411",
+      "b_squared": "730/411",
+      "S_portal_barrier_exact_minimum": "705580408/233392515",
+      "ratio_residual": 7.105427357601002e-15
+    },
+    {
+      "active_flavors": 6,
+      "a_squared": "730/471",
+      "b_squared": "730/471",
+      "S_portal_barrier_exact_minimum": "1322905288/306510315",
+      "ratio_residual": 7.105427357601002e-15
+    },
+    {
+      "active_flavors": 8,
+      "a_squared": "730/531",
+      "b_squared": "730/531",
+      "S_portal_barrier_exact_minimum": "84858984/14428745",
+      "ratio_residual": 3.552713678800501e-15
+    }
+  ],
+  "scope": [
+    "All complex two-active Yukawa relative fixed rays reduce to the previously audited real family and retain scalar AF obstruction. This is a fixed-ray theorem, not an all-trajectory theorem.",
+    "Four/six/eight-active results cover A=aI and B=b blockepsilon only, with the unchanged eight-vector Weyl gauge budget. All displayed mixed rays retain positive S barriers. Arbitrary larger complex textures remain open.",
+    "A hypothesized complex rotating ray failed the producer assertion: its phase-flow sign was wrong. The corrected full tensor contraction and phase equation exclude it. No new complex fixed point is asserted."
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11320_general_real_two_flavor_yukawas.py",
+    "analysis/w33_pass11313_symmetric_adjoint_portal_closure.py"
+  ],
+  "primary_sources": [
+    "https://arxiv.org/abs/hep-ph/0211440"
+  ]
+}

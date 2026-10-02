@@ -1,0 +1,194 @@
+{
+  "status": "PASS",
+  "result_scope": "PASS_ENGINEERED_CP_EVEN_FULL_FIELD_NONCOMMUTING_LOCAL_FLAVOR_VACUUM_NOT_OBSERVED_MIXING",
+  "base": "Actual11321 full24-field flavor potential and two singlet probe loops at sigma.39.",
+  "added_operator": "-eta [ImTr([UUdag,DDdag]\u00b3)]\u00b2/(.1+Tr(UUdag+DDdag))^12. CP-even, familySU3 invariant, smooth at the origin, with supplied cutoff. No observed mass, angle, phase or CP root is used. This explicitly rewards noncommuting chirality rather than deriving the operator from W33.",
+  "bounded_angular_operator": "For positive3x3 A,B, |ImTr[A,B]\u00b3|=6|Delta(A)Delta(B)Jmix|. At fixed traceq, |Delta(A)|<=q\u00b3/(6sqrt3), and |Jmix|<=1/(6sqrt3). Thus J\u00b2<=R^12/143327232, R=q+r. The added rational term is bounded below by-eta/143327232 and cannot spoil tree coercivity. Fermion CW still needs a high-field UV completion.",
+  "vacua": [
+    {
+      "eta_coefficient": 10000000.0,
+      "normalized_angular_strength": 0.06977041180841335,
+      "coordinates": [
+        -0.3214648539179008,
+        -0.11339520679329826,
+        0.026485699960930663,
+        -0.19688866211909922,
+        -0.0743588296822027,
+        0.18600863927867267,
+        0.08021772346576536,
+        0.17012831855679272,
+        0.16245203215315768,
+        -0.16612498461188593,
+        -0.03757149897126624,
+        0.28881984654033593,
+        -0.2615113828410017,
+        0.43081270890186724,
+        -0.9497716715721071,
+        -0.43538263889232043,
+        -0.6502006812275948,
+        0.08147348368887536,
+        0.0027605152639468434,
+        -0.3683560988433444,
+        -0.4070394867142176,
+        0.42196931618700984,
+        -0.11200417588002637,
+        -0.04274628011225897
+      ],
+      "potential": 3.247477655756729,
+      "gradient_norm": 2.1070936677499654e-07,
+      "normal_Hessian_eigenvalues": [
+        0.021159492112195182,
+        0.021160038104750187,
+        0.06551832164000122,
+        0.08849959005544729,
+        0.28323988854026266,
+        0.48247824251355487,
+        0.48247878859047677,
+        0.6496308414038942,
+        0.7104683941906038,
+        0.7104692347029503,
+        1.188751481036964,
+        1.1887521634574008,
+        1.2257525544522414,
+        1.2257530143646551,
+        1.3839220731526278,
+        1.883583354479364,
+        4.162344107491066
+      ],
+      "Hessian_step_control_error": 1.4432899320127035e-06,
+      "family_orbit_rank": 7,
+      "U_Gram_eigenvalues": [
+        0.07796969837642956,
+        0.07797022719990629,
+        0.21404850914980822
+      ],
+      "D_Gram_eigenvalues": [
+        0.7418546956582582,
+        0.7418550734058242,
+        0.7851064126511568
+      ],
+      "commutator_norm": 3.342037653492846e-08,
+      "Im_trace_commutator_cubed": -6.059793380299064e-30,
+      "mixing_moduli_squared": [
+        [
+          0.1406114320422701,
+          0.8593885679421502,
+          1.557973942458873e-11
+        ],
+        [
+          0.8593885679570722,
+          0.14061143204238555,
+          5.420170244385602e-13
+        ],
+        [
+          6.573820164616261e-13,
+          1.5464374431312472e-11,
+          0.9999999999838778
+        ]
+      ],
+      "CKM_type_Jarlskog": -1.4607932918853095e-13,
+      "covariance_error": 8.881784197001252e-16,
+      "CP_conjugate_energy_error": 0.0,
+      "CP_conjugate_J": 6.058445100033614e-30
+    },
+    {
+      "eta_coefficient": 1000000000.0,
+      "normalized_angular_strength": 6.9770411808413355,
+      "coordinates": [
+        -0.13865376117162237,
+        -0.14191415903744137,
+        -0.09736409411792124,
+        -0.44236122009864437,
+        0.14029033070507343,
+        0.12965419461720462,
+        -0.41772531555845166,
+        0.978399103791248,
+        0.47936222665045414,
+        -0.14192862020083158,
+        -0.2548074724318767,
+        -0.12651621765087134,
+        0.4097330041064832,
+        0.6118150823037374,
+        0.13408898757668525,
+        -0.1596622117748167,
+        0.12357466031483812,
+        -0.37380167810585047,
+        -0.33443385361926165,
+        -0.2083428442854047,
+        0.6026247641606349,
+        0.4762576108223942,
+        0.5024283371828637,
+        -0.09798271230811645
+      ],
+      "potential": -1.3053317729148048,
+      "gradient_norm": 2.2815505538242672e-06,
+      "normal_Hessian_eigenvalues": [
+        0.14589811164084954,
+        0.9986980555116585,
+        1.0782607464826321,
+        3.1522068051783165,
+        9.101907143189392,
+        63.91636941284649,
+        68.68520026722169,
+        86.27596094606443,
+        101.86507937052326,
+        102.20497558502792,
+        102.37728931065891,
+        102.65811741745948,
+        122.14015964720937,
+        137.38588042986856,
+        137.79065322260018,
+        138.89114597001887
+      ],
+      "Hessian_step_control_error": 1.4432899320127035e-05,
+      "family_orbit_rank": 8,
+      "U_Gram_eigenvalues": [
+        3.8795735942075334e-07,
+        0.3705302917809233,
+        1.3731129416909211
+      ],
+      "D_Gram_eigenvalues": [
+        6.266813347179643e-07,
+        0.3714043535450085,
+        1.376529626420024
+      ],
+      "commutator_norm": 1.011407099474994,
+      "Im_trace_commutator_cubed": 0.15133327306133293,
+      "mixing_moduli_squared": [
+        [
+          0.33176207494512894,
+          0.3333300787573012,
+          0.33490784629756987
+        ],
+        [
+          0.33337494096846104,
+          0.3332999397961905,
+          0.33332511923534835
+        ],
+        [
+          0.33486298408640947,
+          0.33336998144650887,
+          0.33176703446708133
+        ]
+      ],
+      "CKM_type_Jarlskog": 0.09622363809858298,
+      "covariance_error": 5.329070518200751e-15,
+      "CP_conjugate_energy_error": 7.993605777301127e-15,
+      "CP_conjugate_J": -0.1513332730613326
+    }
+  ],
+  "interpretation": "The eta1e9 local vacuum has all three distinct singular values in each field, nonzero Gram commutator, nonzero CKM-type invariant and positive16 normal modes after removing the8 family orbit directions. Its conjugate reverses CP invariants at equal energy. The small light eigenvalues are numerical local outputs of chosen couplings, not observed masses.",
+  "scope": [
+    "This engineered high-order/rational EFT operator proves a structural escape from the previous commuting2+1 branch, not a prediction or a renormalizable weak-coupling UV theory.",
+    "Mixing moduli are nearly1/3 and |Jmix| approximately.0962, far from observed quark mixing. Do not fit or label them physical CKM values.",
+    "The normalized angular strength is about6.98 for the useful witness; scalar radiative control of this added sector and origin of its coefficient remain open.",
+    "Local finite-difference Hessians and multistart searches are numerical witnesses, not global or interval-certified vacua."
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11321_full_flavor_bifurcation.py",
+    "analysis/w33_pass11304_singlet_phase_probes.py"
+  ],
+  "primary_sources": [
+    "https://doi.org/10.1103/PhysRevLett.55.1039"
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "result_scope": "PASS_FULL_COUPLED_TORUS_SHAPE_BLOCK_NONNEGATIVE_WITH_TWO_EXACT_ZERO_MODES_NOT_TOTAL_WALL_STABILITY",
+  "deformation": "Replace the torus metric b\u00b2I2 by b\u00b2Q, Q symmetric positive2x2 with detQ=1. Its two independent linear shape deformations are tracefree. Keep fields torus-translation invariant and allow xi/phi dependence.",
+  "coupled_sector": "The background Einstein-Maxwell-fourform-wall action has no shape potential: bulk/wall volume and magnetic2-flux depend on detQ only. Torus traceless metric equations decouple at linear order from the breathing mode, magnetic Maxwell fluctuation, base metric and wall displacement. These are genuine metric fluctuations of the full supplied action, not an added spectator scalar.",
+  "exact_Ricci_difference_diagonal_shape": "-2*Derivative(u(x), x)**2",
+  "quadratic_action": "For diagQ=(exp(2u),exp(-2u)), R=Rbackground-2|grad_base u|\u00b2. Euclidean -kappa\u00b2 R/2 therefore yields a positive quadratic gradient form. The second torus-shape polarization has the same linear operator. Pure-tension wall produces no shape mass and continuity of normal flux.",
+  "radial_operator": "b in[1,5/4], F=8/(15b)-b\u00b2/30-1/(2b\u00b2), c=1/5. -(b\u00b2F u_b)_b + m\u00b2 c\u00b2 b\u00b2/F u = lambda b\u00b2 u. Regular pole u~(b-1)^(|m|/2). Reflection-even wall has u_b=0, odd wall u=0.",
+  "spectral_rows": [
+    {
+      "azimuthal_integer": 0,
+      "wall_parity": "even",
+      "eigenvalues_basis32": [
+        0.0,
+        4.775770708303409,
+        15.949444034549813,
+        33.51476026751929,
+        57.46849088048959,
+        87.81019113543071
+      ],
+      "basis16_to24_error": 2.666311615939776e-12,
+      "basis24_to32_error": 2.1374901848503214e-11,
+      "multiplicity_each_radial_level": 2
+    },
+    {
+      "azimuthal_integer": 0,
+      "wall_parity": "odd",
+      "eigenvalues_basis32": [
+        1.8990740709348184,
+        9.87914283909453,
+        24.251272282688685,
+        45.01144039459871,
+        72.15942115029429,
+        105.69518247167333
+      ],
+      "basis16_to24_error": 2.7498003873915877e-12,
+      "basis24_to32_error": 9.666933920016163e-12,
+      "multiplicity_each_radial_level": 2
+    },
+    {
+      "azimuthal_integer": 1,
+      "wall_parity": "even",
+      "eigenvalues_basis32": [
+        1.4650873574076546,
+        9.576139377185502,
+        23.959427885039624,
+        44.722902587887184,
+        71.87230615480543,
+        105.40880883762591
+      ],
+      "basis16_to24_error": 1.2789769243681803e-12,
+      "basis24_to32_error": 2.4092727812785597e-11,
+      "multiplicity_each_radial_level": 4
+    },
+    {
+      "azimuthal_integer": 1,
+      "wall_parity": "odd",
+      "eigenvalues_basis32": [
+        5.119381503875906,
+        16.300226146656797,
+        33.86682128235166,
+        57.82101241372532,
+        88.16293118475201,
+        124.89260295109972
+      ],
+      "basis16_to24_error": 1.2363443602225743e-12,
+      "basis24_to32_error": 2.3234747459355276e-12,
+      "multiplicity_each_radial_level": 4
+    },
+    {
+      "azimuthal_integer": 2,
+      "wall_parity": "even",
+      "eigenvalues_basis32": [
+        4.536555153119254,
+        16.014505975501518,
+        33.6195758052238,
+        57.587032183877255,
+        87.9351399388687,
+        124.668208458532
+      ],
+      "basis16_to24_error": 1.1013412404281553e-11,
+      "basis24_to32_error": 5.012879000787507e-12,
+      "multiplicity_each_radial_level": 4
+    },
+    {
+      "azimuthal_integer": 2,
+      "wall_parity": "odd",
+      "eigenvalues_basis32": [
+        9.988194655936105,
+        24.377183470078386,
+        45.142410775089466,
+        72.29257085803343,
+        105.82946795525478,
+        145.7536680997323
+      ],
+      "basis16_to24_error": 2.8350655156827997e-12,
+      "basis24_to32_error": 1.2025935802739696e-11,
+      "multiplicity_each_radial_level": 4
+    },
+    {
+      "azimuthal_integer": 3,
+      "wall_parity": "even",
+      "eigenvalues_basis32": [
+        9.170298775846708,
+        24.079990060613277,
+        44.922917140589526,
+        72.10196613597836,
+        105.65302403518363,
+        145.5852734709727
+      ],
+      "basis16_to24_error": 1.6791545931482688e-10,
+      "basis24_to32_error": 1.5770496020195424e-11,
+      "multiplicity_each_radial_level": 4
+    },
+    {
+      "azimuthal_integer": 3,
+      "wall_parity": "odd",
+      "eigenvalues_basis32": [
+        16.471568455367745,
+        34.09501365609369,
+        58.068702544722036,
+        88.41970439561413,
+        125.15435794660804,
+        168.27482148022213
+      ],
+      "basis16_to24_error": 4.220623850414995e-12,
+      "basis24_to32_error": 1.2391865311656147e-11,
+      "multiplicity_each_radial_level": 4
+    }
+  ],
+  "positivity_proof": "b\u00b2F=(16b-b^4-15)/30 vanishes atb1 and has positive derivative(16-4b\u00b3)/30 on[1,5/4]. HenceF>0 inside. Multiply the radial equation by ubar and integrate. With the regular pole and even/odd wall conditions, lambda int b\u00b2|u|\u00b2=int b\u00b2F|uprime|\u00b2+m\u00b2c\u00b2b\u00b2/F|u|\u00b2 >=0. This proves absence of negative modes throughout this entire shape sector for every integerm, beyond the sampled spectrum.",
+  "exact_zero_modes": {
+    "count": 2,
+    "sector": "m0, reflection-even, constant torus shape",
+    "interpretation": "Two torus complex-structure moduli survive. Fixed coordinate periods and discrete SL2Z identifications do not remove their local continuous fluctuations. Canonical matter, wall tension and global volume/fourflux constraints do not lift them."
+  },
+  "scope": [
+    "All coupled torus-shape block modes are nonnegative, with two exact flat directions. This is not full coupled fluctuation stability.",
+    "The breathing/base-metric/Maxwell/wall-bending block, four-form jump variations and conformal-factor treatment remain open.",
+    "Numerical Rayleigh-Ritz levels have basis controls, not interval-certified error bounds. They are Euclidean fluctuation eigenvalues, not observed Lorentzian pole masses.",
+    "The earlier one-junction negative radial curvature is not promoted to a physical mode. No nucleation determinant or observedCC is derived."
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11324_quantized_warped_history_wall.py",
+    "analysis/w33_pass11302_sequestered_membrane_junction.py"
+  ]
+}
