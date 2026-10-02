@@ -1,0 +1,155 @@
+{
+  "status": "PASS",
+  "result_scope": "PASS_REGULATOR_FREE_INVARIANT_HARD_TADPOLE_MATCHING_NOT_FULL_SOFT_RESUMMATION",
+  "mass_maps": "Xs=scalar covariant Hessian, W=M\u2020M, Xv=actual E6 vector Gram. Their stored vacuum masses and first variations are used. Nonlinear scalar second variations are not numerically reconstructed.",
+  "functional": "Vct=-[Tr Ps(Xs)-2Tr Pf(W)+3Tr Pv(Xv)]/(64pi\u00b2). Ps and Pv match the positive gapped spectral branches and have Pprime(0)=Psecond(0)=0. Pf matches every positive Weyl node. Additive constants are unrestricted. This is an invariant higher-dimensional local EFT functional, not a renormalizable UV counterterm.",
+  "hard_soft_definition": "In a sufficiently small gap-preserving neighborhood, soft clusters are omitted from the hard potential via covariant spectral projectors. This defines a smooth hard function identically zero near the soft cluster; it is not the full unregulated CW function at zero. Vector soft contributions start at fourth field order and do not affect first/second field jets.",
+  "counterfunctions": [
+    {
+      "kind": "scalar",
+      "hard_nodes": [
+        0.000330612245,
+        0.000991836735,
+        0.006942857143,
+        0.009257142857
+      ],
+      "node_precision": "numerical mass representatives rounded to12 decimal places; interpolation precision applies at these nodes",
+      "soft_derivatives_set_to_zero": true,
+      "P_coefficients_ascending": [
+        "0.0",
+        "0.0",
+        "0.0",
+        "-29462.68643812423806159247512993850176599323321543653034787726860401608520516812432990831142917409615",
+        "74799691.43772948385844807921572562446322774361081772832022524312677129455681125511994131646768681217",
+        "-84774942581.72355021245783354365215882881528628790429599961789616083076984843986867814816475910872608",
+        "46519098566949.31910353086709894631514722047787278142177680993908254070035250157451514245063641580885",
+        "-12062534431930445.76484809253060015622743034458557297425270961013145095894152651450228373317811911732",
+        "1585816350676086145.63424568442438125679675924243105498975137658055530430922349866160429222900170879",
+        "-103236306031589154039.6824906697501028402233597491560558188462065126974101932376191548680538071036961",
+        "2653242543634317096373.940329980147768635432992870079620521990115563931486428599974723038699393982701"
+      ],
+      "Hermite_error": 4.925436275061132e-97,
+      "degree": 10
+    },
+    {
+      "kind": "Weyl",
+      "hard_nodes": [
+        0.000165306122,
+        0.00066122449,
+        0.0081
+      ],
+      "node_precision": "numerical mass representatives rounded to12 decimal places; interpolation precision applies at these nodes",
+      "soft_derivatives_set_to_zero": false,
+      "P_coefficients_ascending": [
+        "0.0",
+        "-0.0001847408633500603979294990890238843279182641380818135933887501998143002664368538558755466907549414741",
+        "-5.029885462566456718763193701157653267609247820754417282225682353200536116830405744410929381671340473",
+        "2147.200131035298905370035980344060249843214198000975222654161307958003928864160362305594121477444871",
+        "-872422.6408032391519052718233230275227241737061457238277610229480388244278550917992826217252500765832",
+        "124210837.7683718350169334513817626590152006521426514257761464388562089435079516416209670338780032124",
+        "-5637707307.507685250133928977173304551296986895219240979214257586068338392908901720898077003523818421"
+      ],
+      "Hermite_error": 7.143671195514219e-102,
+      "degree": 6
+    },
+    {
+      "kind": "vector_hard",
+      "hard_nodes": [
+        0.004332510313,
+        0.0117402703,
+        0.015302811525,
+        0.027777777778,
+        0.035920233718,
+        0.043815285255
+      ],
+      "node_precision": "numerical mass representatives rounded to12 decimal places; interpolation precision applies at these nodes",
+      "soft_derivatives_set_to_zero": true,
+      "P_coefficients_ascending": [
+        "0.0",
+        "0.0",
+        "0.0",
+        "-1385.025276391654540090076269069891126145713098712825438075409229877819260022948574087715959904469362",
+        "502348.7052135393173256839417352267453414240098553055727787478804100742797445168137841088758641718693",
+        "-94594330.5059890736954764148051324922064581507318835484743492138707207947769224503915703473002854915",
+        "11342481994.4140125699893854384554316456663507785051905133677864107512712450509535808258942085800517",
+        "-924769234025.8762936047016759555443076710576609808702194356684306236855140054118255037061060369827327",
+        "52791754346206.5699328624394838090475863640451962434030398463557496155787807316993658536991613360013",
+        "-2131350267335470.468451356317234781051348918413650379875343586598806608388348824387330662184026209032",
+        "60526000322921649.89468868582886922786490310583407449376013909083135480685601306176033844941270610622",
+        "-1181540091626064786.605811265245836889737097891700809425909423786426719479879885642853253640281278279",
+        "15081781797167603076.80015325631776651405867101988672950305586497536899862512757231415938446325963418",
+        "-113256815275454298888.1071449563539713736201631830082046185082113181832428017596389777243166391620525",
+        "379152266880296613996.1562871100419690424034573666505521331602359593419418228845669786547440725341871"
+      ],
+      "Hermite_error": 5.096580777727664e-97,
+      "degree": 14
+    }
+  ],
+  "maximum_first_second_divided_difference_error": 7.696240220320417e-93,
+  "actual_unregulated_first_jet": [
+    -0.00014151577823177526,
+    1.840181444719936e-05,
+    4.4743907040003485e-05,
+    -0.0001332179733680694,
+    6.037680159827504e-05,
+    -8.587944388290992e-05,
+    -0.00019998417480312784,
+    8.602495557308094e-05,
+    0.0001145257334686556,
+    7.211876457194193e-05,
+    7.189027008688769e-06,
+    0.00010614077089844696,
+    -0.0001062466686808235,
+    -0.00015875706142877744,
+    6.426624643843518e-05,
+    7.589871845070049e-06,
+    3.2375033543762643e-06,
+    -0.0001234906390755088,
+    -0.00010084502728245883,
+    0.00011140221107028819,
+    0.00019539387431822595,
+    6.45569130904706e-05
+  ],
+  "first_jet_norm": 0.0004990297202785723,
+  "soft_IR_log_coefficient_rank": 11,
+  "soft_IR_log_eigenvalues": [
+    -7.869282759989266e-23,
+    -4.23538869286467e-23,
+    -3.8162751709305906e-23,
+    -2.2492215214388153e-23,
+    -9.961455666487664e-24,
+    -5.854768265624314e-25,
+    1.7250457504216073e-23,
+    3.927197096580531e-23,
+    7.142561364647467e-23,
+    1.122146504837156e-22,
+    2.0932448550622359e-22,
+    4.326115979522633e-10,
+    4.3261159795228096e-10,
+    1.3410959536518874e-09,
+    1.341095953651969e-09,
+    1.3410959536520568e-09,
+    1.341095953652118e-09,
+    1.3410959536521308e-09,
+    1.341095953652183e-09,
+    6.8785244074410965e-09,
+    6.878524407441191e-09,
+    1.085335976942658e-06
+  ],
+  "Ward_matching": "The hard CW first and second field jets cancel identically against Vct by the spectral Fr\u00e9chet formula. Thus the supplied stationary tree vacuum has no residual one-loop hard tadpole in this chosen EFT matching prescription. This is input renormalization, not radiative vacuum selection.",
+  "remaining_obligations": [
+    "The rank11 scalar soft logarithmic Hessian survives; no regulator-free C\u00b2 match of the full static CW potential is claimed.",
+    "A covariant nonlinear completion of the22-field scalar/background mass maps and quotient kinetic geometry is not built here. The invariant field-functional statement is conditional on that completion; the spectral counterfunctions, actual first-jet contraction and mass-jet identity are explicit.",
+    "Full hard self-energy Ward resummation, two-loop double-counting control and total physical poles remain open.",
+    "UV completion, observed masses/mixing and absolute vacuum energy remain inputs or open problems."
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11300_invariant_vector_matching.py",
+    "analysis/w33_pass11305_vector_matrix_and_total_jet_audit.py",
+    "analysis/w33_pass11315_regulator_free_goldstone_poles.py"
+  ],
+  "primary_sources": [
+    "https://arxiv.org/abs/1406.2355",
+    "https://arxiv.org/abs/1609.06977"
+  ]
+}

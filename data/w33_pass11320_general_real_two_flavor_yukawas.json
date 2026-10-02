@@ -1,0 +1,151 @@
+{
+  "status": "PASS",
+  "result_scope": "PASS_EXHAUSTIVE_REAL_TWO_ACTIVE_YUKAWA_FIXED_RAY_BARRIERS",
+  "normal_form": "A=A^T real2x2, B=-B^T real2x2; flavorO2 diagonalizesA and leaves B=b eps up to orientation. Sigma=a1+a2, Delta=a1-a2. This is the entire real two-active-flavor texture family, with six spectator vector Weyls and bSO=8/3.",
+  "beta_A": "(31/5)A\u00b3-(9/4){B\u00b2,A}+BAB+TrA\u00b2 A-27g\u00b2 A",
+  "beta_B": "-(11/2)B\u00b3+(27/10){A\u00b2,B}-(6/5)ABA-TrB\u00b2 B-27g\u00b2 B",
+  "fixed_ratio_equations": "Sigma[(41/20)Sigma\u00b2+(103/20)Delta\u00b2+(7/2)b\u00b2-73/3]=0; Delta[(103/20)Sigma\u00b2+(41/20)Delta\u00b2+(11/2)b\u00b2-73/3]=0; b[(21/20)Sigma\u00b2+(33/20)Delta\u00b2+(15/2)b\u00b2-73/3]=0. Every support reduces to a nonsingular rational linear system.",
+  "branches": [
+    {
+      "support": [
+        0,
+        0,
+        0
+      ],
+      "Sigma_squared": "0",
+      "Delta_squared": "0",
+      "K_Yukawa_squared": "0",
+      "barrier_sector": "K",
+      "exact_positive_Riccati_minimum": "298418/295695",
+      "minimum_numeric": 1.0092088131351562
+    },
+    {
+      "support": [
+        0,
+        0,
+        1
+      ],
+      "Sigma_squared": "0",
+      "Delta_squared": "0",
+      "K_Yukawa_squared": "146/45",
+      "barrier_sector": "S",
+      "exact_positive_Riccati_minimum": "55672/12435",
+      "minimum_numeric": 4.4770406111781265
+    },
+    {
+      "support": [
+        0,
+        1,
+        0
+      ],
+      "Sigma_squared": "0",
+      "Delta_squared": "1460/123",
+      "K_Yukawa_squared": "0",
+      "barrier_sector": "K",
+      "exact_positive_Riccati_minimum": "298418/295695",
+      "minimum_numeric": 1.0092088131351562
+    },
+    {
+      "support": [
+        0,
+        1,
+        1
+      ],
+      "Sigma_squared": "0",
+      "Delta_squared": "1460/189",
+      "K_Yukawa_squared": "292/189",
+      "barrier_sector": "S",
+      "exact_positive_Riccati_minimum": "900472/261135",
+      "minimum_numeric": 3.44830068738392
+    },
+    {
+      "support": [
+        1,
+        0,
+        0
+      ],
+      "Sigma_squared": "1460/123",
+      "Delta_squared": "0",
+      "K_Yukawa_squared": "0",
+      "barrier_sector": "K",
+      "exact_positive_Riccati_minimum": "298418/295695",
+      "minimum_numeric": 1.0092088131351562
+    },
+    {
+      "support": [
+        1,
+        0,
+        1
+      ],
+      "Sigma_squared": "2920/351",
+      "Delta_squared": "0",
+      "K_Yukawa_squared": "730/351",
+      "barrier_sector": "S",
+      "exact_positive_Riccati_minimum": "48801992/18913635",
+      "minimum_numeric": 2.58025450951126
+    },
+    {
+      "support": [
+        1,
+        1,
+        0
+      ],
+      "Sigma_squared": "365/108",
+      "Delta_squared": "365/108",
+      "K_Yukawa_squared": "0",
+      "barrier_sector": "K",
+      "exact_positive_Riccati_minimum": "298418/295695",
+      "minimum_numeric": 1.0092088131351562
+    },
+    {
+      "support": [
+        1,
+        1,
+        1
+      ],
+      "Sigma_squared": "2920/2979",
+      "Delta_squared": "23360/8937",
+      "K_Yukawa_squared": "22630/8937",
+      "barrier_sector": "S",
+      "exact_positive_Riccati_minimum": "177687475864/36784557945",
+      "minimum_numeric": 4.830490993793564
+    }
+  ],
+  "direct_99_tensor_contraction_error": 2.220446049250313e-16,
+  "new_noncommuting_branch": {
+    "A": [
+      [
+        1.303394576846376,
+        0.0
+      ],
+      [
+        0.0,
+        -0.3133467516344921
+      ]
+    ],
+    "B": [
+      [
+        0.0,
+        1.5912792438373338
+      ],
+      [
+        -1.5912792438373338,
+        0.0
+      ]
+    ],
+    "commutator_norm": 3.638328732116742,
+    "fixed_ratio_residual": 7.105427357601002e-15
+  },
+  "fermion_box": "TrM4=TrA4 TrS4+TrB4 TrK4+4Tr(A\u00b2B\u00b2)Tr(S\u00b2K\u00b2)+2Tr(ABAB)Tr(SKSK), M=A tensorS+B tensorK.",
+  "scope": [
+    "All eight real support patterns have a positive portal-independent scalar Riccati barrier. Therefore no complete seven-quartic AF fixed ray exists in this two-active real family.",
+    "Complex flavor matrices, more active flavors, different representations, strong completion and asymptotic safety remain open. No universal SO10 or all-trajectory theorem is asserted.",
+    "The additional unequal/noncommuting fixed Yukawa branch is genuine; it does not cure the scalar obstruction."
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11313_symmetric_adjoint_portal_closure.py"
+  ],
+  "primary_sources": [
+    "https://arxiv.org/abs/hep-ph/0211440"
+  ]
+}
