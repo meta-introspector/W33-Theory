@@ -5022,7 +5022,7 @@
           </tr>
           <tr>
             <td>15</td>
-            <td>Λ exponent = −127</td>
+            <td>legacy CC arithmetic = −122; no physical CC prediction</td>
             <td>−(k²−f+λ) = −(144−24+2)</td>
             <td class="status-ok">✅</td>
           </tr>
@@ -5034,7 +5034,7 @@
           </tr>
           <tr>
             <td>17</td>
-            <td>M<sub>Higgs</sub> = 125 GeV</td>
+            <td>125 is dimensionless graph arithmetic, not a Higgs mass</td>
             <td>s⁴+v+μ = 81+40+4</td>
             <td class="status-ok">✅</td>
           </tr>
@@ -5276,7 +5276,7 @@
           </tr>
           <tr>
             <td>54</td>
-            <td>v<sub>EW</sub> = |E|+2q = 246 GeV</td>
+            <td>|E|+2q = 246 (dimensionless)</td>
             <td>EW vacuum expectation value: 240+6 = 246 (obs 246.22, 0.09%)</td>
             <td class="status-ok">✅</td>
           </tr>
@@ -5317,13 +5317,13 @@
           </tr>
           <tr>
             <td>60</td>
-            <td>CC: −(vq+μ−λ) = −127</td>
-            <td>log₁₀(Λ<sub>CC</sub>/M<sub>Pl</sub>⁴) = −(120+2) = −127 (EXACT!)</td>
+            <td>arithmetic: −(vq+μ−λ) = −122</td>
+            <td>40×3+4−2=122; no physical cosmological-constant inference</td>
             <td class="status-ok">✅</td>
           </tr>
           <tr>
             <td>61</td>
-            <td>m<sub>H</sub> = vq+μ+1 = 125 GeV</td>
+            <td>vq+μ+1 = 125 (dimensionless)</td>
             <td>Higgs mass: 120+4+1=125 (obs 125.10±0.14, 0.71σ)</td>
             <td class="status-ok">✅</td>
           </tr>
@@ -5460,7 +5460,7 @@
           <tr>
             <td>81</td>
             <td>vq = 120 = dim(adj SO(16))</td>
-            <td>CC = −(SO(16) + μ − λ) = −127</td>
+            <td>120+4−2=122; no physical cosmological-constant inference</td>
             <td class="status-ok">✅</td>
           </tr>
           <tr>
@@ -6220,37 +6220,14 @@
           </tr>
         </table>
 
-        <p><strong>Deviation from CODATA:</strong> |α⁻¹<sub>pred</sub> − α⁻¹<sub>obs</sub>| / α⁻¹<sub>obs</sub> =
-          0.000003%</p>
+        <p><strong>Historical numerical comparison only:</strong> a graph-integer expression was compared with CODATA. Without a derived electromagnetic coupling and running prescription, its deviation is not a physical prediction.</p>
 
-        <h3>Complete SRG → Physics Parameter Map</h3>
-        <p>The W(3,3) strongly regular graph with parameters (v,k,λ,μ) = (40,12,2,4) maps every SRG invariant
-          to a Standard Model observable. The complete mapping — covering gauge couplings, mixing angles, masses,
-          cosmological parameters, and more — is documented in the <strong>2367-row verification table</strong> above.
-          Every formula has been computationally verified from two inputs alone: F₃ = {0,1,2} and the symplectic form ω.
-        </p>
-        <p>Key derived quantities include: eigenvalues r=2 (multiplicity f=24), s=−4 (multiplicity g=15);
-          edges E=240, triangles T=160; cyclotomic polynomials Φ₃=13, Φ₆=7; and the composite Φ₃·Φ₆=91.
-          The valency k=12 decomposes as k = (q²−1) + μ = 8 gluons + 4 EW bosons, encoding the full SM gauge structure.
-        </p>
+        <h3>Legacy SRG → Physics Formula Catalogue</h3>
+        <p><strong>Current scope:</strong> Graph-integer arithmetic here is exploratory. It does not derive masses, mixing angles or vacuum energy; the current paper leaves these physical quantities open.</p>
+        <p>W(3,3) has exact strongly regular graph parameters (v,k,λ,μ) = (40,12,2,4). The older 2367-row table records arithmetic constructions and proposed physical correspondences. A graph calculation alone does not supply a field-theory map, running coupling, or mass scale; the physical interpretations require independent derivation.</p>
+        <p>Exact graph quantities include eigenvalues r=2 (multiplicity f=24), s=−4 (multiplicity g=15), E=240 edges and T=160 triangles. The arithmetic split k=12=(q²−1)+μ=8+4 does not by itself derive gluons, electroweak fields or Standard Model dynamics.</p>
 
-        <p><strong style="color: #ffd700;">★ As of the latest push, the theory has been extended to 2367 verified checks
-            spanning 85+ mathematical domains including CFT &amp; vertex algebras, string compactification, algebraic
-            K-theory, homotopy type theory, noncommutative geometry, the Langlands program, topological phases of
-            matter, swampland conjectures, exceptional structures &amp; sporadic groups, chromatic homotopy &amp; tmf,
-            scattering amplitudes, grand unification, quantum error correction, arithmetic geometry, representation
-            theory, lattice &amp; sphere packing, quantum groups, combinatorics, differential geometry, algebraic
-            topology, category theory, operator algebras, statistical mechanics, geometric analysis &amp; PDE, dynamical
-            systems, symplectic topology, p-adic analysis, information geometry, mathematical logic, condensed matter,
-            algebraic number theory, quantum computing, nonlinear dynamics, spectral theory &amp; RMT, cosmological
-            observables, geometric group theory, tropical geometry, homological algebra, knot theory, functional
-            analysis, measure theory, QFT, discrete mathematics, game theory, analytic number theory, automata theory,
-            ergodic theory, convex geometry, wavelet analysis, approximation theory, additive combinatorics, integral
-            geometry, descriptive set theory, model theory, continuum mechanics, fractal geometry, formal language
-            theory, extremal graph theory, inverse problems, geometric measure theory, differential algebra, variational
-            analysis, signal processing, stochastic geometry, computational complexity, mathematical biology, algebraic
-            combinatorics, convex optimization, fluid dynamics, discrete geometry, mathematical finance, and proof
-            theory. Every single check passes.</strong></p>
+        <p><strong>Archive note:</strong> This historical catalogue has 2367 rows of proposed comparisons and graph calculations. Their physical labels are not automatically verified by arithmetic checks.</p>
 
         <h3>The 240 = 40 × 3 × 2 Decomposition</h3>
         <p>Each of the <strong>40 GQ lines</strong> (a K₄ complete graph on 4 points) has exactly <strong>3 perfect
@@ -6382,9 +6359,9 @@
           multiplicities.</p>
 
         <h3>Electroweak VEV & Cosmological Fractions</h3>
-        <p>The electroweak vacuum expectation value emerges as:</p>
+        <p>The catalogue's dimensionless electroweak numerical match is:</p>
         <div class="math-block">
-          <span class="eq">v<sub>EW</sub> = |E| + 2q = 240 + 6 = <strong>246 GeV</strong> (obs: 246.22, 0.09%)</span>
+          <span class="eq">|E| + 2q = 240 + 6 = <strong>246 (dimensionless)</strong>; GeV requires missing scale dynamics.</span>
         </div>
         <p>Cosmological density fractions from graph parameters:</p>
         <ul>
@@ -6406,15 +6383,13 @@
           <span class="eq">r = 12/N&sup2; = 1/300 = 0.00333 (obs: &lt; 0.036 &mdash; passes BICEP/Keck; LiteBIRD
             testable)</span>
         </div>
-        <p>The cosmological constant hierarchy — the <em>"worst prediction in physics"</em> — is resolved:</p>
+        <p>The legacy cosmological-constant expression is arithmetic only, not a calculated vacuum energy:</p>
         <div class="math-block">
-          <span class="eq">log₁₀(Λ<sub>CC</sub>/M<sub>Pl</sub>⁴) = −(vq + μ − λ) = −(120 + 2) = <strong>−127</strong>
-            (EXACT!)</span>
+          <span class="eq">vq + μ − λ = 40×3 + 4 − 2 = <strong>122</strong>, not 127; no physical cosmological constant follows.</span>
         </div>
-        <p>The Higgs boson mass:</p>
+        <p>The catalogue's dimensionless Higgs-mass numerical match is:</p>
         <div class="math-block">
-          <span class="eq">m<sub>H</sub> = vq + μ + 1 = 120 + 4 + 1 = <strong>125 GeV</strong> (obs: 125.10±0.14,
-            0.71σ)</span>
+          <span class="eq">vq + μ + 1 = 120 + 4 + 1 = <strong>125 (dimensionless)</strong>; GeV requires missing mass dynamics.</span>
         </div>
 
         <h3>SM Parameter Count & Spectral Dimension Flow</h3>
@@ -6513,8 +6488,8 @@
         <p>The running of the weak mixing angle is also graph-determined: Δsin²θ<sub>W</sub> = sin²θ(GUT) − sin²θ(EW) =
           3/8 − 3/13 = <strong>15/104 = g/(8Φ₃)</strong>.</p>
 
-        <h3>Planck Mass from Graph</h3>
-        <p>The complete mass hierarchy of the universe is derived from W(3,3):</p>
+        <h3>Legacy Planck-Mass Numerical Fit</h3>
+        <p>This older fit inserts the electroweak GeV scale as an input; it does not derive an absolute Planck mass:</p>
         <div class="math-block">
           <span class="eq">M<sub>Pl</sub> = v<sub>EW</sub> × 10<sup>2Φ₆</sup> × 2·dim(E₈) = 246 × 10<sup>14</sup> × 496
             = <strong>1.220 × 10<sup>19</sup> GeV</strong></span>
@@ -10549,7 +10524,7 @@
               <tr>
                 <td>950</td>
                 <td>No stable non-SUSY: AdS iff |Λ| &gt; 0</td>
-                <td>CC = −127 from graph parameters</td>
+                <td>physical cosmological constant remains OPEN</td>
                 <td class="status-ok">✅</td>
               </tr>
               <tr>
@@ -26731,7 +26706,7 @@ deliberately &mdash; including the parts that turned out to be wrong.</p>
           </tr>
           <tr>
             <td>Cosmological constant log₁₀|Λ|</td>
-            <td>−127 from graph parameters</td>
+            <td>physical cosmological constant remains OPEN</td>
             <td>~10⁻¹²² (Planck units)</td>
             <td class="status-ok">✅ Order match</td>
           </tr>

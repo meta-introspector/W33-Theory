@@ -1444,3 +1444,6 @@ Final combined intake: scripts/audit_batch.py clean across seven owned science/s
 
 ### Publication receipt — 369d34c72
 The combined 11342–11349 packet was committed as 369d34c72 and pushed to W33 origin-https/master on top of Claude's 11330–11334 science, formula inventory and 11350–11354 reservation. A fresh GitKraken fetch/log confirms origin-https/master at 369d34c72. The default GitKraken push also created integration branch w33-11342-integration; master was then explicitly updated because its push tool does not expose a target refspec. Original local dirty checkout and Continuity decision files remain preserved.
+
+### Passes 11361-11368 integration pending publication
+Merged scoped physical-frontier producer/report/tests, public arithmetic corrections, sec05 and ledger onto origin master after Claude Passes11355-11360 and formula inventory. Their Clifford-twirled tick J6 is distinct from the present three-ray flavor Gram commutator. Seven producer sections and five direct regressions pass in integration worktree. Rediscovery guard clean; combined index and PDF rebuilding. Original dirty checkout preserved; Continuity-generated decisions files remain unstaged.
