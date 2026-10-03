@@ -778,6 +778,26 @@ decays more slowly (about $0.72$ per gate). \tierC\ (\cert{w33\_pass11350\_linea
 \cert{w33\_pass11351\_one\_ninth.py}, \cert{w33\_pass11352\_three\_qutrit\_geometry.py},
 \cert{w33\_pass11353\_level\_statistics.py}, \cert{w33\_pass11354\_decay\_rate.py})
 
+The arrow has a Jarlskog invariant. A tick is substrate-reversible exactly when its transpose is Clifford-conjugate
+to it ($V\bar UV^\dagger=\lambda U^{-1}\Leftrightarrow U^T=\bar\lambda V^\dagger UV$), so any Clifford-invariant function that
+separates $U$ from $U^T$ witnesses the violation. All such polynomials of degree $(t,t)$ are packaged in one closed form,
+\[
+J_{2t}(U)=\mathop{\mathrm{avg}}_{C}\bigl|\operatorname{tr}(U^\dagger CUC^\dagger)\bigr|^{2t}-\mathop{\mathrm{avg}}_{C}\bigl|\operatorname{tr}(U^\dagger CU^TC^\dagger)\bigr|^{2t}\;\ge0 ,
+\]
+half the squared distance between the Clifford twirls of $U^{\otimes t}\otimes\bar U^{\otimes t}$ and of its transpose. For a qutrit
+$J_2\equiv J_4\equiv0$ and the first witness is cubic, $J_6$ --- the degree of the quark-sector invariant
+$\operatorname{Im}\operatorname{tr}[H_u,H_d]^3$. On every one-qutrit Clifford$+T$ word with up to three cubic gates (checked word by word
+against the exact criterion) and four (by exact count, $2\,077\,650$ of $2\,985\,984$), $J_6>0$ exactly for the violators;
+the same holds on all two-qutrit ticks checked. A single magic gate breaks the arrow with strength $J_6=9/8$, and every
+value is an element of $\mathbb Q(\cos\frac{2\pi}{9})$ with denominator dividing $216$. The degree is a property of the
+dimension: the first non-vanishing witness has degree $10$ for qubits, $6$ for qutrits and $4$ for $d=5$. On the
+Clifford$+T$ walk the higher tensor degrees contract by exact rationals, $3/8$, $11/24$, $1/2$, growing with degree. On
+three qutrits the one-gate law keeps its two universal rules (no symplectic solution: always violating; exactly one:
+never) while the half-rule and the parity exchange loosen. \tierC\ (\cert{w33\_pass11355\_substrate\_jarlskog.py},
+\cert{w33\_pass11356\_jarlskog\_two\_qutrits.py}, \cert{w33\_pass11357\_jarlskog\_degree\_by\_dimension.py},
+\cert{w33\_pass11358\_three\_qutrit\_mechanism.py}, \cert{w33\_pass11359\_higher\_degree\_rates.py},
+\cert{w33\_pass11360\_jarlskog\_arithmetic.py})
+
 All of this is one law.
 
 \begin{result}{Theorem 4.8 (the intrinsic arrow for every number of qutrits) \hfill \tierT}

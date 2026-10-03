@@ -1,0 +1,77 @@
+{
+ "pass_id": 11359,
+ "reps": {
+  "(3,3)": {
+   "dim": 729,
+   "clifford_invariants_character": 7,
+   "basis_rank": 7,
+   "su3_invariants": 6,
+   "rho": 0.37500000000000044,
+   "top_moduli_below_one": [
+    0.375
+   ]
+  },
+  "(4,4)": {
+   "dim": 6561,
+   "clifford_invariants_character": 40,
+   "basis_rank": 40,
+   "su3_invariants": 23,
+   "rho": 0.3750000000000019,
+   "top_moduli_below_one": [
+    0.375,
+    0.375,
+    0.375,
+    0.375,
+    0.375,
+    0.375
+   ]
+  },
+  "(6,3)": {
+   "dim": 19683,
+   "clifford_invariants_character": 105,
+   "basis_rank": 105,
+   "su3_invariants": 47,
+   "rho": 0.3750000000000038,
+   "top_moduli_below_one": [
+    0.375,
+    0.375,
+    0.375,
+    0.375,
+    0.375,
+    0.375
+   ]
+  },
+  "(9,0)": {
+   "dim": 19683,
+   "clifford_invariants_character": 91,
+   "basis_rank": 91,
+   "su3_invariants": 42,
+   "rho": 0.5000000000000002,
+   "top_moduli_below_one": [
+    0.5,
+    0.375,
+    0.375,
+    0.375,
+    0.375,
+    0.375
+   ]
+  },
+  "(5,5)": {
+   "dim": 59049,
+   "clifford_invariants_character": 301,
+   "basis_rank": 301,
+   "su3_invariants": 103,
+   "rho": 0.45833333333333287,
+   "top_moduli_below_one": [
+    0.458333,
+    0.375,
+    0.375,
+    0.375,
+    0.375,
+    0.375
+   ]
+  }
+ },
+ "sup_rho": 0.5000000000000002,
+ "empirical_reversible_decay": 0.72
+}

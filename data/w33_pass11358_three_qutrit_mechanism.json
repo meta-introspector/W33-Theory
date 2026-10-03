@@ -1,0 +1,178 @@
+{
+ "pass_id": 11358,
+ "sampled": 3000,
+ "decided": 2998,
+ "bad_fraction": 0.13408939292861907,
+ "cell_and_solution_count": {
+  "non-collinear | nsol=(np.int64(1), 0, 0)": {
+   "good": 1379
+  },
+  "collinear, different lines | nsol=(np.int64(1), 0, 0)": {
+   "good": 441
+  },
+  "non-collinear | nsol=(np.int64(3), 0, 0)": {
+   "bad": 147,
+   "good": 204
+  },
+  "same line, other | nsol=(np.int64(1), 0, 0)": {
+   "good": 201
+  },
+  "collinear, different lines | nsol=(np.int64(3), 0, 0)": {
+   "bad": 78,
+   "good": 67
+  },
+  "non-collinear | nsol=(np.int64(6), 0, 0)": {
+   "good": 116
+  },
+  "same line, other | nsol=(0, 0, 0)": {
+   "bad": 68
+  },
+  "collinear, different lines | nsol=(np.int64(6), 0, 0)": {
+   "good": 55
+  },
+  "non-collinear | nsol=(np.int64(4), 0, 0)": {
+   "good": 44
+  },
+  "non-collinear | nsol=(0, 0, 0)": {
+   "bad": 43
+  },
+  "non-collinear | nsol=(np.int64(9), 0, 0)": {
+   "bad": 26,
+   "good": 4
+  },
+  "non-collinear | nsol=(np.int64(12), 0, 0)": {
+   "good": 7,
+   "bad": 11
+  },
+  "collinear, different lines | nsol=(np.int64(4), 0, 0)": {
+   "good": 17
+  },
+  "non-collinear | nsol=(np.int64(18), 0, 0)": {
+   "good": 9,
+   "bad": 5
+  },
+  "non-collinear | nsol=(np.int64(24), 0, 0)": {
+   "good": 11
+  },
+  "same line, other | nsol=(np.int64(9), np.int64(0), 0)": {
+   "good": 4,
+   "bad": 4
+  },
+  "same line, other | nsol=(np.int64(9), 0, np.int64(0))": {
+   "good": 3,
+   "bad": 4
+  },
+  "non-collinear | nsol=(np.int64(10), 0, 0)": {
+   "good": 6
+  },
+  "collinear, different lines | nsol=(np.int64(24), 0, 0)": {
+   "good": 5
+  },
+  "non-collinear | nsol=(np.int64(8), 0, 0)": {
+   "good": 5
+  },
+  "same line, other | nsol=(np.int64(9), np.int64(0), np.int64(0))": {
+   "bad": 3,
+   "good": 1
+  },
+  "non-collinear | nsol=(np.int64(54), 0, 0)": {
+   "bad": 2,
+   "good": 1
+  },
+  "non-collinear | nsol=(np.int64(36), 0, 0)": {
+   "good": 3
+  },
+  "non-collinear | nsol=(np.int64(27), 0, 0)": {
+   "good": 1,
+   "bad": 1
+  },
+  "same line, M^2 z1 = z1 | nsol=(np.int64(27), np.int64(0), 0)": {
+   "bad": 2
+  },
+  "non-collinear | nsol=(np.int64(72), 0, 0)": {
+   "good": 2
+  },
+  "same line, other | nsol=(np.int64(18), np.int64(0), 0)": {
+   "good": 2
+  },
+  "same line, M^2 z1 = -z1 | nsol=(np.int64(18), 0, np.int64(0))": {
+   "good": 1
+  },
+  "same line, other | nsol=(np.int64(12), np.int64(0), np.int64(0))": {
+   "good": 1
+  },
+  "Mz1 = z1 | nsol=(np.int64(36), np.int64(0), np.int64(0))": {
+   "bad": 1
+  },
+  "Mz1 = z1 | nsol=(np.int64(30), 0, np.int64(0))": {
+   "bad": 1
+  },
+  "same line, M^2 z1 = z1 | nsol=(np.int64(27), np.int64(0), np.int64(0))": {
+   "bad": 1
+  },
+  "same line, other | nsol=(np.int64(9), 0, 0)": {
+   "good": 1
+  },
+  "non-collinear | nsol=(np.int64(144), 0, 0)": {
+   "good": 1
+  },
+  "Mz1 = z1 | nsol=(np.int64(486), np.int64(486), np.int64(486))": {
+   "bad": 1
+  },
+  "Mz1 = z1 | nsol=(np.int64(162), np.int64(0), np.int64(0))": {
+   "bad": 1
+  },
+  "Mz1 = z1 | nsol=(np.int64(54), np.int64(0), 0)": {
+   "bad": 1
+  },
+  "Mz1 = z1 | nsol=(np.int64(36), np.int64(36), np.int64(36))": {
+   "bad": 1
+  },
+  "same line, other | nsol=(np.int64(18), np.int64(0), np.int64(0))": {
+   "good": 1
+  },
+  "Mz1 = -z1 | nsol=(np.int64(54), 0, np.int64(0))": {
+   "good": 1
+  },
+  "non-collinear | nsol=(np.int64(108), 0, 0)": {
+   "good": 1
+  },
+  "same line, other | nsol=(np.int64(81), np.int64(0), 0)": {
+   "good": 1
+  },
+  "same line, M^2 z1 = z1 | nsol=(np.int64(36), np.int64(0), 0)": {
+   "bad": 1
+  }
+ },
+ "parity_pairing_by_cell": {
+  "non-collinear": {
+   "00": 1645,
+   "10": 169,
+   "11": 66,
+   "01": 149
+  },
+  "collinear, different lines": {
+   "10": 78,
+   "00": 518,
+   "01": 67
+  },
+  "same line, other": {
+   "00": 205,
+   "10": 11,
+   "11": 68,
+   "01": 10
+  },
+  "same line, M^2 z1 = -z1": {
+   "00": 1
+  },
+  "Mz1 = z1": {
+   "10": 6
+  },
+  "same line, M^2 z1 = z1": {
+   "11": 4
+  },
+  "Mz1 = -z1": {
+   "01": 1
+  }
+ }
+}

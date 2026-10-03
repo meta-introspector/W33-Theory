@@ -1,0 +1,44 @@
+{
+ "pass_id": 11355,
+ "identity_J6_equals_half_norm_sq_max_dev": 3.5527136788005e-14,
+ "J2_J4_max_abs_on_random_words": 7.105427357601002e-15,
+ "one_qutrit": {
+  "1": {
+   "words": 216,
+   "J6_positive": 18,
+   "exact_violators": 18,
+   "counts_equal": true,
+   "per_word_checked": true,
+   "per_word_mismatches": 0,
+   "min_positive_J6": 1.124999999999961
+  },
+  "2": {
+   "words": 5184,
+   "J6_positive": 2106,
+   "exact_violators": 2106,
+   "counts_equal": true,
+   "per_word_checked": true,
+   "per_word_mismatches": 0,
+   "min_positive_J6": 0.36832867206307185
+  },
+  "3": {
+   "words": 124416,
+   "J6_positive": 68202,
+   "exact_violators": 68202,
+   "counts_equal": true,
+   "per_word_checked": true,
+   "per_word_mismatches": 0,
+   "min_positive_J6": 0.019839630130181973
+  },
+  "4": {
+   "words": 2985984,
+   "J6_positive": 2077650,
+   "exact_violators": 2077650,
+   "counts_equal": true,
+   "per_word_checked": false,
+   "per_word_mismatches": 0,
+   "min_positive_J6": 0.00014952399385492754
+  }
+ },
+ "J6_complete_on_all_checked": true
+}
