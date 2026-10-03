@@ -1,0 +1,120 @@
+{
+ "pass_id": 11352,
+ "uniform": {
+  "samples": 8000,
+  "decided": 8000,
+  "undecided": 0,
+  "bad": 1073,
+  "bad_fraction": 0.134125,
+  "stderr": 0.003810109650243021,
+  "z_vs_one_eighth": 2.3949441978442727,
+  "z_vs_one_ninth": 6.040216949509836,
+  "cells": {
+   "Mz1 = -z1": {
+    "good": 15
+   },
+   "Mz1 = z1": {
+    "bad": 9,
+    "frames=486": 8,
+    "frames=648": 1
+   },
+   "collinear, different lines": {
+    "good": 1518,
+    "bad": 192,
+    "frames=486": 192
+   },
+   "non-collinear": {
+    "bad": 689,
+    "frames=729": 130,
+    "good": 4735,
+    "frames=486": 556,
+    "frames=648": 3
+   },
+   "same line, M^2 z1 = -z1": {
+    "good": 8
+   },
+   "same line, M^2 z1 = z1": {
+    "bad": 14,
+    "frames=486": 14
+   },
+   "same line, other": {
+    "good": 651,
+    "bad": 169,
+    "frames=486": 36,
+    "frames=729": 133
+   }
+  }
+ },
+ "targeted_fixed": {
+  "Mz1 = z1": {
+   "bad": 150,
+   "frames=486": 147,
+   "frames=648": 3
+  }
+ },
+ "targeted_reversed": {
+  "Mz1 = -z1": {
+   "good": 149,
+   "undecided": 1
+  }
+ },
+ "weyl_cross_check": {
+  "classes": 60,
+  "bad_classes": 10,
+  "frame_checks": 660,
+  "agree": 660
+ },
+ "uniform_batch2": {
+  "samples": 24000,
+  "decided": 23994,
+  "bad": 3192,
+  "cells": {
+   "Mz1 = -z1": {
+    "good": 29,
+    "undecided": 1
+   },
+   "Mz1 = z1": {
+    "bad": 28,
+    "frames=486": 27,
+    "frames=648": 1
+   },
+   "collinear, different lines": {
+    "good": 4666,
+    "bad": 614,
+    "frames=486": 614
+   },
+   "non-collinear": {
+    "good": 14066,
+    "bad": 1982,
+    "frames=486": 1592,
+    "undecided": 2,
+    "frames=729": 386,
+    "frames=648": 4
+   },
+   "same line, M^2 z1 = -z1": {
+    "good": 28
+   },
+   "same line, M^2 z1 = z1": {
+    "bad": 28,
+    "frames=486": 27,
+    "frames=648": 1
+   },
+   "same line, other": {
+    "good": 2013,
+    "bad": 540,
+    "frames=729": 447,
+    "frames=486": 91,
+    "undecided": 3,
+    "frames=162": 2
+   }
+  }
+ },
+ "uniform_combined": {
+  "decided": 31994,
+  "bad": 4265,
+  "bad_fraction": 0.13330624492092266,
+  "stderr": 0.0019003071872598103,
+  "z_vs_one_eighth": 4.371001160554486,
+  "z_vs_one_ninth": 11.67976101896258
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "pass_id": 11351,
+ "noncollinear_classes": 34992,
+ "classes_with_k_nonzero_solutions": 0,
+ "symplectic_solution_count_vs_verdict": {
+  "1": {
+   "good": 23328
+  },
+  "3": {
+   "bad": 3888,
+   "good": 3888
+  },
+  "4": {
+   "good": 972
+  },
+  "6": {
+   "good": 2592
+  },
+  "24": {
+   "good": 324
+  }
+ },
+ "three_solution_classes": 7776,
+ "three_solutions_differ_by_transvection": 7776,
+ "three_solution_symmetries": {
+  "-M complementary": 7776,
+  "M^-1 same": 7776,
+  "JMJ same": 7776
+ },
+ "minus_identity_pairing_by_cell": {
+  "fix": {
+   "10": 648
+  },
+  "non-collinear": {
+   "00": 27216,
+   "10": 3888,
+   "01": 3888
+  },
+  "rev": {
+   "01": 648
+  },
+  "same line, M^2 z1 = z1": {
+   "11": 648
+  },
+  "collinear, different lines": {
+   "00": 11664
+  },
+  "same line, other": {
+   "00": 1296,
+   "11": 1296
+  },
+  "same line, M^2 z1 = -z1": {
+   "00": 648
+  }
+ }
+}

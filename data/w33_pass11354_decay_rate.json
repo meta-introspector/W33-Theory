@@ -1,0 +1,113 @@
+{
+ "pass_id": 11354,
+ "reps": {
+  "(1,1)": {
+   "dim": 9,
+   "clifford_invariants": 1,
+   "su3_invariants": 1,
+   "eigenvalue_one": 1,
+   "rho": 0.0,
+   "top_moduli": [
+    1.0
+   ]
+  },
+  "(3,0)": {
+   "dim": 27,
+   "clifford_invariants": 1,
+   "su3_invariants": 1,
+   "eigenvalue_one": 1,
+   "rho": 0.0,
+   "top_moduli": [
+    1.0
+   ]
+  },
+  "(2,2)": {
+   "dim": 81,
+   "clifford_invariants": 2,
+   "su3_invariants": 2,
+   "eigenvalue_one": 2,
+   "rho": 0.0,
+   "top_moduli": [
+    1.0,
+    1.0
+   ]
+  },
+  "(4,1)": {
+   "dim": 243,
+   "clifford_invariants": 3,
+   "su3_invariants": 3,
+   "eigenvalue_one": 3,
+   "rho": 0.0,
+   "top_moduli": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "(6,0)": {
+   "dim": 729,
+   "clifford_invariants": 5,
+   "su3_invariants": 5,
+   "eigenvalue_one": 5,
+   "rho": 0.0,
+   "top_moduli": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "(3,3)": {
+   "dim": 729,
+   "clifford_invariants": 7,
+   "su3_invariants": 6,
+   "eigenvalue_one": 6,
+   "rho": 0.37500000000000017,
+   "top_moduli": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "(5,2)": {
+   "dim": 2187,
+   "clifford_invariants": 15,
+   "su3_invariants": 11,
+   "eigenvalue_one": 11,
+   "rho": 0.37500000000000083,
+   "top_moduli": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "sup_rho_over_computed": 0.37500000000000083,
+ "empirical_decay_pass_11312": 0.72,
+ "reversible_fraction": {
+  "1": 0.9166666666666666,
+  "2": 0.59375,
+  "3": 0.45182291666666663,
+  "4": 0.30419921875,
+  "5": 0.22356060606060602,
+  "6": 0.1574545454545454,
+  "8": 0.07877272727272733,
+  "12": 0.021242424242424285
+ },
+ "successive_ratios": {
+  "1->2": 0.6477272727272727,
+  "2->3": 0.7609649122807017,
+  "3->4": 0.6732708933717579,
+  "4->5": 0.7349151223308525,
+  "5->6": 0.7043036258895289,
+  "6->8": 0.7073108818636766,
+  "8->12": 0.7206212241233493
+ }
+}

@@ -758,6 +758,26 @@ $T^9=1$; no rate is proved. \tierC\ (\cert{w33\_pass11308\_shared\_level\_and\_c
 \cert{w33\_pass11332\_reversibility\_limit.py}, \cert{w33\_pass11333\_three\_qutrit\_one\_gate.py},
 \cert{w33\_pass11334\_f9\_three\_leg\_law.py})
 
+The one-gate question is linear algebra over $\F_3$. Writing $E=W(e)V_Q$, the twisted fixed point splits into a
+symplectic condition $M\,s^{-k}Q\,(JMJ)=Q$, $Qz_1=z_1$ (linear in $Q$, plus symplecticity) and an affine frame
+condition, so the reversible frames of a class are a union of affine subspaces, one per solution. This exact linear
+decider agrees with the exhaustive census on all $51\,840$ two-qutrit classes and with the Weyl criterion on every
+three-qutrit check. It explains the one-in-nine of the non-collinear cell: only classes whose symplectic condition has
+exactly three solutions (a transvection coset, two ninths of the cell) can violate, and exactly half do, the halves
+being exchanged by the central parity $-1$ ($M$ violating $\Leftrightarrow$ $-M$ reversible), which likewise exchanges
+the cells where $z_1$ is fixed (always violating) and reversed (never). On three qutrits the decider gives the
+violating fraction $0.1333\pm0.0019$ over $31\,994$
+classes --- one in eight is excluded at $4.4\sigma$ --- while the fixed/reversed and
+$M^2z_1=\pm z_1$ rules persist; and the union of affine pieces is genuinely a union there (2 classes whose
+reversible frames are not an affine subspace, 2 confirmed frame by frame by the Weyl criterion).
+The arrow is also spectral: reversible magic Floquet ticks show orthogonal-class level statistics and violating ones
+unitary-class ($\langle r\rangle=0.536$ and $0.600$ at five qutrits, against $0.531$ and $0.600$), while the symplectic
+class is impossible because $3^n$ is odd ($\Theta^2=+1$). On the representations of $PU(3)$ the Clifford-averaged cubic
+gate contracts the first Clifford-anisotropic sector by exactly $3/8$ per gate; reversibility, a singular observable,
+decays more slowly (about $0.72$ per gate). \tierC\ (\cert{w33\_pass11350\_linear\_decider.py},
+\cert{w33\_pass11351\_one\_ninth.py}, \cert{w33\_pass11352\_three\_qutrit\_geometry.py},
+\cert{w33\_pass11353\_level\_statistics.py}, \cert{w33\_pass11354\_decay\_rate.py})
+
 All of this is one law.
 
 \begin{result}{Theorem 4.8 (the intrinsic arrow for every number of qutrits) \hfill \tierT}

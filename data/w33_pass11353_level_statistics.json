@@ -1,0 +1,46 @@
+{
+ "pass_id": 11353,
+ "rmt_reference": {
+  "poisson": 0.3863,
+  "COE": 0.5307,
+  "CUE": 0.5996,
+  "CSE": 0.6744
+ },
+ "ensembles": {
+  "n=4:violating": {
+   "r_mean": 0.6032150546744837,
+   "r_stderr": 0.005189166515170087,
+   "degenerate_spacing_fraction": 0.0
+  },
+  "n=4:reversible": {
+   "r_mean": 0.5291979386731421,
+   "r_stderr": 0.00511792600723388,
+   "degenerate_spacing_fraction": 0.0
+  },
+  "n=4:clifford": {
+   "r_mean": 0.39836753913550166,
+   "r_stderr": 0.06098300655489607,
+   "degenerate_spacing_fraction": 0.41728395061728396
+  },
+  "n=5:violating": {
+   "r_mean": 0.5998960496171797,
+   "r_stderr": 0.0024089666714685273,
+   "degenerate_spacing_fraction": 0.0
+  },
+  "n=5:reversible": {
+   "r_mean": 0.5360584692017657,
+   "r_stderr": 0.002974122318308028,
+   "degenerate_spacing_fraction": 0.0
+  },
+  "n=5:clifford": {
+   "r_mean": 0.23206459439681507,
+   "r_stderr": 0.03686541501127914,
+   "degenerate_spacing_fraction": 0.6806584362139917
+  }
+ },
+ "theta_squared_values": [
+  "(1+0j)",
+  "(1-0j)"
+ ],
+ "theta_squared_checked": 40
+}

@@ -1,0 +1,27 @@
+{
+ "pass_id": 11352,
+ "supplement": "affine law at n = 3",
+ "scanned_seeds": 32000,
+ "non_affine_classes": [
+  {
+   "seed": 619187,
+   "good_frames": 567,
+   "affine": false,
+   "weyl_checks": 12,
+   "weyl_agree": 12,
+   "hyperplanes_inside": 5,
+   "good_set_is_union_of_those_hyperplanes": true,
+   "good_size": 567
+  },
+  {
+   "seed": 622316,
+   "good_frames": 567,
+   "affine": false,
+   "weyl_checks": 12,
+   "weyl_agree": 12,
+   "hyperplanes_inside": 5,
+   "good_set_is_union_of_those_hyperplanes": true,
+   "good_size": 567
+  }
+ ]
+}
