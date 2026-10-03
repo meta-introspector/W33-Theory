@@ -1447,3 +1447,6 @@ The combined 11342–11349 packet was committed as 369d34c72 and pushed to W33 o
 
 ### Passes 11361-11368 integration pending publication
 Merged scoped physical-frontier producer/report/tests, public arithmetic corrections, sec05 and ledger onto origin master after Claude Passes11355-11360 and formula inventory. Their Clifford-twirled tick J6 is distinct from the present three-ray flavor Gram commutator. Seven producer sections and five direct regressions pass in integration worktree. Rediscovery guard clean; combined index and PDF rebuilding. Original dirty checkout preserved; Continuity-generated decisions files remain unstaged.
+
+### Publication receipt — 28191bc77
+Passes 11361-11368 were committed as 28191bc77 and pushed to W33 origin-https/master atop Claude 11355-11360 and the 11369-11373 reservation. Fresh GitKraken fetch/log confirmed master at 28191bc77. Seven producer sections, five direct regressions, source compilation, rediscovery guard and forced-arithmetic check/selftest pass; combined paper PDF rebuilt. Scoped open boundaries remain: native dynamical Yukawa selection, full hard 1PI, generic vertex-frame Dirac closure, full wall stability, and absolute scale/vacuum energy. Original parallel dirty checkout and Continuity decisions files were preserved.
