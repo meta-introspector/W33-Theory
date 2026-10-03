@@ -75,7 +75,9 @@
     "11377_wall_axion_probe_sector": {
       "boundary": "Nonconstant axion modes can mix with geometry; positivity of this principal block alone does not prove positivity of the coupled Schur complement or full wall stability.",
       "first_harmonic_lower_bound": "16/25",
+      "gauge_correction_11382": "With dynamical winding geometry and no fixed boundary frame these shifts are torus-coordinate gauge transformations, not additional physical moduli.",
       "nonzero_torus_Fourier_lower_bound": "(m_x^2+m_y^2)*16/25",
+      "physical_constant_axion_moduli": 0,
       "prior_owners": [
         "analysis/w33_pass11341_winding_lifted_wall.py",
         "analysis/w33_pass11346_winding_wall_mixed_vector_modes.py",
@@ -85,19 +87,19 @@
       "range_of_b": "1 <= b <= 5/4",
       "scope": "Fixed-background compact-axion quadratic block of the 11341 winding wall; does not diagonalize its coupling to metric, Maxwell, or wall bending",
       "status": "PASS",
-      "two_exact_nonlinear_shift_moduli": "theta_x->theta_x+alpha_x and theta_y->theta_y+alpha_y leave the supplied derivative-only action invariant",
+      "two_exact_nonlinear_shift_symmetries": "theta_x->theta_x+alpha_x and theta_y->theta_y+alpha_y leave the supplied derivative-only action invariant",
       "zero_torus_mode": "nonnegative radial derivative form; constant shift is its only regular zero on connected cap"
     },
     "11378_wall_scale_ratio": {
       "F": "-8*(b-1)*(2*b-5)/(45*b^2)",
       "F_wall": "16/225",
       "boundary": "Flux integer and this ratio do not determine L or kappa_phys, so neither absolute masses nor observed vacuum energy follow. The wall and axion parameters are supplied.",
-      "physical_scale_invariant_ratio": "R_phys/(kappa_phys^4*T_phys^2)=5/8",
+      "physical_scale_invariant_ratio": "K_phys^2*R_phys/T_phys^2=5/8, K=M_Pl^2 is the Einstein-Hilbert coefficient",
       "prior_owners": [
         "analysis/w33_pass11342_11349_eight_frontier_probes.py",
         "analysis/w33_pass11361_11368_physical_frontier.py"
       ],
-      "scale_family": "For every L>0, R_phys=R_dimensionless/L^2 and T_phys=T_dimensionless/(kappa_phys^2*L); the ratio remains 5/8.",
+      "scale_family": "For every L>0, R_phys=R_dimensionless/L^2 and T_phys=K_phys*T_dimensionless/L; the ratio remains 5/8. Repository kappa^2 denotes K, not its inverse.",
       "scope": "Exact dimensionless curvature-to-wall-tension relation in the supplied zero-bare-rho winding wall, not a measured CC or absolute scale",
       "status": "PASS",
       "wall_Ricci_scalar_kappa2_equal_1": "512/1125",

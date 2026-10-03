@@ -54,7 +54,7 @@ h\int r b^2\left(|\partial_\xi\chi|^2+
 \quad 1\le b\le5/4,
 $$
 
-so each nonzero torus harmonic has Rayleigh quotient at least $16(m_x^2+m_y^2)/25$. The torus-zero radial block is nonnegative, with its regular zero given by a constant shift. The two constant shifts are exact *nonlinear* moduli of the stated derivative-only action: shifting either compact axion by a constant leaves its derivative and hence the full action unchanged. This resolves those two particular zeros. Nonconstant axion variations couple to metric, Maxwell and wall displacement; positivity of their principal block does not determine the Schur complement or total wall Morse index.
+so each nonzero torus harmonic has Rayleigh quotient at least $16(m_x^2+m_y^2)/25$. The torus-zero radial block is nonnegative, with its regular zero given by a constant shift. The two constant shifts are exact configuration symmetries of the derivative-only action. **Correction in Pass 11382:** in the dynamical winding geometry, with no fixed boundary frame, these shifts are torus-coordinate gauge transformations and do not supply two physical moduli. Nonconstant axion variations couple to metric, Maxwell and wall displacement; positivity of their principal block does not determine the Schur complement or total wall Morse index.
 
 ## 11378 — an exact scale-free relation, and the missing scale
 
@@ -66,7 +66,7 @@ F_w=\frac{16}{225},\quad
 T^2=\frac{4096}{5625},\quad R_w=\frac{512}{1125}.
 $$
 
-Consequently $R_w/T^2=5/8$ in the stated $\kappa^2=1$ convention, or $R_{\rm phys}/(\kappa_{\rm phys}^4 T_{\rm phys}^2)=5/8$ with units restored. The relation survives any overall physical length $L$: $R_{\rm phys}=R_w/L^2$, $T_{\rm phys}=T/(\kappa_{\rm phys}^2L)$. Flux quantization and this exact ratio therefore do not determine $L$ or the gravitational coupling. This extends the prior scale-identifiability audit with a concrete invariant of the wall, not an observed cosmological constant or mass prediction.
+Consequently $R_w/T^2=5/8$ in the stated $\kappa^2=1$ convention. **Convention correction in Pass 11383:** the repository's $\kappa^2$ is the Einstein-Hilbert coefficient $K=M_{\rm Pl}^2$, not its inverse. The physical relation is $K_{\rm phys}^2R_{\rm phys}/T_{\rm phys}^2=5/8$, with $R_{\rm phys}=R_w/L^2$ and $T_{\rm phys}=K_{\rm phys}T/L$. The flux integer and ratio alone do not predict $K_{\rm phys}$ or $T_{\rm phys}$. At fixed supplied couplings the junction can fix $L$; Pass 11383 separately tests that fixed-action scale variation. No observed cosmological constant or absolute mass prediction follows.
 
 ## What remains necessary
 
