@@ -1496,3 +1496,6 @@ Reservation86ebd9e68 on master. Integrated remote8f379c08b first. Implemented se
 
 ### Final validation11390–11394
 All five producer sections PASS, ten independent regression functions PASS, four-file batch intake clean (no rediscovery collisions; forced arithmetic none), arithmetic selftest PASS, compilation PASS. Exact1600 native frame maps and transitive80-state oriented context action included. Line-context bundle and point-H27 matter compatibility map remains open. Preparing seven owned artifacts for master; separate pre-existing decision-file modifications retained unstaged.
+
+### Publication receipt —7efab4df2
+Science commit7efab4df2 pushed to origin-https/master and verified by fresh GitKraken fetch/log. Seven owned artifacts published; all five producer sections and ten focused functions PASS, four-file intake clean, arithmetic selftest and compilation PASS. Exact common kernel and virtual portal coefficient, full FCC holonomy with native oriented context action, selector/vectorlike fermion models and local clock are published with explicit physical-input boundaries. Separate Continuity decision changes remain unstaged; original parallel checkout untouched.
