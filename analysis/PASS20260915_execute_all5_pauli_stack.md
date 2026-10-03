@@ -50,7 +50,7 @@ All 40 lines give 40 Cartans.  Among the 780 pairs,
 - 240 pairs intersect in dimension 2 (one projective Pauli point, i.e. degrees `+-v`);
 - 540 pairs are disjoint.
 
-The graph joining Cartans with nonzero intersection is itself `srg(40,12,2,4)`, i.e. W33 again by point-line self-duality.
+The graph joining Cartans with nonzero intersection is itself `srg(40,12,2,4)`, the dual Q(4,3) line-intersection graph, with the same SRG parameters (see Pass4956); these parameters do not identify it with the W(3,3) point graph.
 
 ## 4. The A8^3 Niemeier coupling is center-charge glue, not diagonal Pauli identification
 
