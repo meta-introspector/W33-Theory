@@ -1,0 +1,146 @@
+{
+  "status": "PASS",
+  "scope": "Eight finite or exact probes with their own explicit boundaries; no TOE completion",
+  "sections": {
+    "11342_complex_flavor": {
+      "status": "PASS",
+      "scope": "Both sampled old-bound escape witnesses, not every complex texture",
+      "rows": [
+        {
+          "n": 4,
+          "start": 3,
+          "beta_residual": 2.4996819946489538e-14,
+          "barrier_minimum": 2.0361875693519913
+        },
+        {
+          "n": 4,
+          "start": 9,
+          "beta_residual": 6.361909795330778e-12,
+          "barrier_minimum": 2.745147165935805
+        }
+      ],
+      "certificate": "For these witnesses the same physical S background gives dz/dtau >=124z^2-(344/3-4gamma)z+30-(4/5)box; its minimum is positive."
+    },
+    "11343_nongaussian_mediator": {
+      "status": "PASS",
+      "scope": "Positive-mass two-adjoint renormalizable mediator sector at fixed two-family Gram spectra; no three-family CP or UV asymptotic freedom",
+      "potential": "V=|x|\u00b2+|y|\u00b2+3(|x|\u00b2+|y|\u00b2)\u00b2-8|x cross y|\u00b2-2a(x.n+y.m), a=1/10",
+      "global_argument": "For fixed |x|,|y|, source reward is largest when x||n,y||m and negative commutator term is smallest when x perpendicular y. Both are attained together by n perpendicular m. Equal radii then minimize by symmetry; t+4t\u00b3=a.",
+      "selected_Gram_Bloch_angle_degrees": 90,
+      "two_family_mixing_angle_degrees": 45,
+      "positive_quartic_margin_min_sample": 0.007094510214523453,
+      "mediator_radius": 0.09641496548145648,
+      "global_minimum_energy": -0.0196286440756465,
+      "boundary": "The mediator quartic is bounded below exactly. Fixed Gram spectra are supplied; observed hierarchy, CKM phase, full scalar sector, and RG control remain open."
+    },
+    "11344_Ward_normal_block": {
+      "status": "PASS",
+      "scope": "Linear-algebraic information limit of the actual eight Ward columns, not a computed 1PI normal block",
+      "quotient_real_dimension": 22,
+      "Ward_rank": 8,
+      "normal_dimension": 14,
+      "unfixed_symmetric_normal_entries": 105,
+      "perturbed_Ward_residual": 2.4588350019255634e-16,
+      "normal_change_norm": 6.095395487894624
+    },
+    "11345_transverse_frame_rank": {
+      "status": "PASS",
+      "scope": "Aligned-frame transverse boost linearization on the actual graph; not nonlinear Dirac closure",
+      "shift_boost_Jacobian": "(B B.T) tensor I3",
+      "rank": 237,
+      "common_boost_nullity": 3,
+      "smallest_positive_graph_eigenvalue": 1.5505102572168188,
+      "native_sites": 80,
+      "native_edges": 160,
+      "cycle_rank": 81
+    },
+    "11346_winding_vector_zero": {
+      "status": "PASS",
+      "scope": "Exact odd mixed vector zero on the backreacted h=1/100 wall; two torus fibers, not total wall stability",
+      "exact_profile": {
+        "h": "1/100",
+        "q": "1/2 + sqrt(105)/20",
+        "rho": "37/800 + sqrt(105)/200",
+        "F": "-(b - 1)*(37*b**3 + 4*sqrt(105)*b**3 + 37*b**2 + 4*sqrt(105)*b**2 + 4*sqrt(105)*b + 61*b - 615 - 60*sqrt(105))/(2400*b**2)",
+        "chi": "-4/5 + 1/b",
+        "V_phi": "5*(b - 1)*(37*b**3 + 4*sqrt(105)*b**3 + 37*b**2 + 4*sqrt(105)*b**2 + 4*sqrt(105)*b + 61*b - 615 - 60*sqrt(105))/(6*b**4*(10 + sqrt(105))**2)",
+        "chi_equation_residual": "0",
+        "metric_connection_equation_residual": "0"
+      },
+      "odd_Ritz_eigenvalues": [
+        -1.0025747493311159e-13,
+        8.205793201294552,
+        22.76007720089115,
+        43.77118342826306
+      ],
+      "direct_metric_inverse_control": "g^yy=b^-2+c^2 Vphi^2/F, det g=b^2/c^2 on the (b,phi,y) block",
+      "basis12_18_error": 1.7621459846850485e-12,
+      "interpretation": "Each torus fiber retains an odd mixed zero. Constant Wilson scalars remain zero by gauge holonomy and global connection flux constraint. The two shape modes were lifted in 11341; remaining sectors and global spectral positivity need separate checks."
+    },
+    "11347_CP_word_degree": {
+      "status": "PASS",
+      "scope": "Two Hermitian three-family Gram spurions and single-trace invariants; standard CP-invariant structure, not a novel theorem of W33",
+      "first_non_reversal_equivalent_trace_word_degree_in_Grams": 6,
+      "example_word": "AABABB",
+      "commutator_identity": "Im Tr([A,B]^3) = -6 Im Tr(AABABB), by cyclic expansion and Hermitian word reversal",
+      "Yukawa_field_degree": 12,
+      "two_rank_one_projector_commutator_cubic": "0 for any two rank-one projectors, since their commutator has eigenvalues +i lambda,-i lambda,0",
+      "three_ray_Bargmann_control": "1/6 + I/6",
+      "bridge_boundary": "The earlier three-ray Bargmann phase carries orientation, but a W33 magic-axis point is not itself a qutrit state projector. An explicit map to full flavor Grams is required before any CP claim.",
+      "implication": "A renormalizable quartic potential built only from these two Gram spurions cannot itself contain the Jarlskog CP-odd invariant. A CP-even square of that invariant occurs at still higher order; additional fields or dynamics are needed for controlled chiral selection."
+    },
+    "11348_scale_obstruction": {
+      "status": "PASS",
+      "scope": "Dependency audit, not an exclusion of quantum dimensional transmutation",
+      "dimensionless_inputs": [
+        "W33 incidence",
+        "b_wall/b_pole=5/4",
+        "Dirac integer=1",
+        "axion winding integers",
+        "q/c=5"
+      ],
+      "free_input": "A physical length or reference coupling scale is absent from these algebraic constraints.",
+      "conclusion": "The displayed dimensionless spectra and wall relations alone cannot determine an absolute mass, Newton constant, or observed cosmological constant. A running boundary condition, measured input, or independent scale-setting dynamics is required."
+    },
+    "11349_zero_bare_Lambda_wall": {
+      "status": "PASS",
+      "scope": "Exact zero-bare-rho point in a supplied Einstein-Maxwell-axion-wall model; not a selected cosmological constant",
+      "h": "16/45",
+      "q": "4/3",
+      "c": "4/15",
+      "rho": "0",
+      "F": "-8*(b - 1)*(2*b - 5)/(45*b**2)",
+      "F_wall": "16/225",
+      "wall_tension": "64/75",
+      "Dirac_integer": 1,
+      "shape_gap_Rayleigh_bounds": [
+        "512/1125",
+        "32/45"
+      ],
+      "mixed_vector_zero": {
+        "h": "16/45",
+        "q": "4/3",
+        "rho": "0",
+        "F": "-8*(b - 1)*(2*b - 5)/(45*b**2)",
+        "chi": "-4/5 + 1/b",
+        "V_phi": "(b - 1)*(2*b - 5)/(2*b**4)",
+        "chi_equation_residual": "0",
+        "metric_connection_equation_residual": "0"
+      },
+      "boundary": "Setting bare rho to zero requires the supplied h=16/45; wall tension, matter coefficient, and overall physical scale are still inputs."
+    }
+  },
+  "prior_owners": [
+    "analysis/w33_pass11335_larger_complex_flavor_search.py",
+    "analysis/w33_pass11336_gaussian_mediator_alignment.py",
+    "analysis/w33_pass11337_quotient_hard_ward_columns.py",
+    "analysis/w33_pass11338_native_boost_constraint_slice.py",
+    "analysis/w33_pass11339_coupled_maxwell_metric_modes.py",
+    "analysis/w33_pass11341_winding_lifted_wall.py"
+  ],
+  "primary_sources": [
+    "https://arxiv.org/abs/hep-th/9803116",
+    "https://arxiv.org/abs/1410.7774",
+    "https://cds.cern.ch/record/161795"
+  ]
+}
