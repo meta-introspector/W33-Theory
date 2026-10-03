@@ -1490,3 +1490,9 @@ Pass11389 expanded after the user's further continue instruction: all-field radi
 ### Publication receipt — 47f03c2cf
 
 GitKraken committed eight owned artifacts as47f03c2cf; the explicit-refspec fallback pushed science to origin-https/master, confirmed by fresh GitKraken fetch/log. Final producer and nine focused regression functions PASS; five-file intake, final rediscovery/arithmetic guards, arithmetic selftest and compilation PASS. The published branch constructs native spatial periods, actual H27 qutrit factors, exact internal flat-band gauge, positive supplied transport/gapless alternatives and an index-preserving tunable rank lift. No physical particle identification, Lorentz chirality, dynamical context/epsilon choice, gravity or universal quantum controls claimed. Main paper and original parallel checkout preserved; separate Continuity decision files remain unstaged.
+
+## Passes11390–11394 — execute all five
+Reservation86ebd9e68 on master. Integrated remote8f379c08b first. Implemented selector/walls, CAR/Wilson matter, exact native-edge common kernel and54-mode virtual portal, integral disjoint-context transport with48-element FCC holonomy and80-state orientation cover,320-arc local unitary clock. Producer PASS; focused independent regressions in progress. Supplied scales remain inputs; no observed mass/chiral Standard Model/Einstein claim. Preserve unrelated Continuity decision files and original checkout.
+
+### Final validation11390–11394
+All five producer sections PASS, ten independent regression functions PASS, four-file batch intake clean (no rediscovery collisions; forced arithmetic none), arithmetic selftest PASS, compilation PASS. Exact1600 native frame maps and transitive80-state oriented context action included. Line-context bundle and point-H27 matter compatibility map remains open. Preparing seven owned artifacts for master; separate pre-existing decision-file modifications retained unstaged.
