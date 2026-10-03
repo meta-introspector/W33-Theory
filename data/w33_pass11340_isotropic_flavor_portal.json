@@ -1,0 +1,159 @@
+{
+  "status": "PASS",
+  "scope": "Exact allowed complex4-active Yukawa fixed ray, stronger physical-background scalarAF obstruction on this branch, and finite800-start full7-quartic control.",
+  "exact_ratios": {
+    "a_squared": "36865/19203",
+    "b_squared": "147095/57609",
+    "t_squared": "218635/76812"
+  },
+  "texture": "A=diag(0,a,a,t), B01=b/sqrt2, B02=i b/sqrt2, B10=-B01,B20=-B02. The coupled direction (1,i) is complex-isotropic, so BA\u2020B=0 despite nonzeroA,B. Four active plus four spectator vector Weyls, unchanged total8.",
+  "beta_ratio_residual": 1.2306961192854808e-14,
+  "A_real": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.3855511979224229,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.3855511979224229,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.6871174088599898
+    ]
+  ],
+  "A_imag": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "B_real": [
+    [
+      0.0,
+      1.1298968272593102,
+      0.0,
+      0.0
+    ],
+    [
+      -1.1298968272593102,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "B_imag": [
+    [
+      0.0,
+      0.0,
+      1.1298968272593102,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      -1.1298968272593102,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "exact_S_lower_bound": "-8973793414103/8151948486960",
+  "exact_K_lower_bound": "-60661176315346/36346357175085",
+  "fermion_box_coefficients": [
+    4.549766195056737e-14,
+    61.89076397901118,
+    1.7763568394002505e-14,
+    52.15610307185887,
+    7.105427357601002e-15,
+    39.214142011844274,
+    -2.3203661214665772e-14
+  ],
+  "box_projection_error": 2.4868995751603507e-14,
+  "quartic_roots": [],
+  "stronger_exact_barrier": {
+    "background": "S=diag(a,-a,a,-a,b,-b,0,0,0,0), a\u00b2=(1-1/sqrt10)/6,b\u00b2=(1+2/sqrt10)/6; TrS\u00b21,TrS4=1/5.",
+    "functional": "z=lambdaSdouble+lambdaSsingle/5",
+    "positive_principal_minors": [
+      "124",
+      "2046/5",
+      "36828",
+      "73656/5",
+      "11253"
+    ],
+    "Riccati_coefficient": "124",
+    "linear_coefficient": "1688389/19203",
+    "constant": "2888065755/163891204",
+    "exact_positive_global_minimum": "372423967259/182902583664",
+    "minimum_numeric": 2.0361875693519944,
+    "theorem": "For this exact complex-isotropic Yukawa ray and unchanged8-Weyl gauge budget, dz/dtau>=124 z\u00b2-w z+c has a strictly positive minimum. Thus no simultaneous real7-quartic AF fixed ray exists on this named Yukawa branch. The old rS3/10 bound fails; the new rS1/5 physical background closes its apparent loophole."
+  },
+  "root_count": 0,
+  "sufficiently_bounded_roots": 0,
+  "boundary": [
+    "A negative lower bound removes that previous no-go test; it does not prove the corresponding beta admits a bounded fixed point.",
+    "The stronger physical-background barrier proves absence of7-quartic AF fixed points on this exact branch independently of the finite root search. Other larger textures, all-trajectory running and full-inventory completion remain open.",
+    "The complex isotropic branch is outside the prior two-active and paired-isotropic restrictions; those certified barriers remain valid."
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11335_larger_complex_flavor_search.py",
+    "analysis/w33_pass11313_symmetric_adjoint_portal_closure.py"
+  ],
+  "primary_sources": [
+    "https://arxiv.org/abs/hep-ph/0211440"
+  ]
+}

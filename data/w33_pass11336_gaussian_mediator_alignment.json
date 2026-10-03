@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "Exact tree-level no-go for any number of positive-mass Gaussian family-adjoint mediators coupled only to traceless UUdag and DDdag; not every renormalizable mediator theory.",
+  "action": "V=Vsep(spectraA,spectraB)+.5 M2_ab TrXaXb+TrXa(alpha_a A0+beta_a B0), M2 positive definite; canonical positive kinetic terms. Cubic Xa UUdag couplings are power-counting renormalizable.",
+  "elimination": "Xa=-(M2^-1)_ab(alpha_b A0+beta_b B0); Veff=Vsep-.5 aa TrA0\u00b2-.5 bb TrB0\u00b2-chi TrA0B0, chi=alphaT M2^-1 beta.",
+  "alignment_proof": "For relative orientation B->exp(i tT)Bexp(-i tT), dV=-i chi Tr([B,A]T). Stationarity for all Hermitian tracelessT and chi!=0 forces[A,B]=0. Jarlskog commutator vanishes, even with many mediators. Ifchi0 every relative orientation is flat and cannot be uniquely selected by this action.",
+  "positive_mass_eigenvalues": [
+    1.91690481051547,
+    3.08309518948453
+  ],
+  "chi": -0.02267343485617597,
+  "energy_replay_error": 4.440892098500626e-16,
+  "orientation_derivative_error": 2.361091460149553e-11,
+  "heavy_stationarity_residual": 2.237726045655905e-16,
+  "implication": "This healthy renormalizable subclass cannot derive the11326 chiral squared invariant. Non-Gaussian interactions, extra sources or controlled loop-generated orientation terms must be built explicitly. A sufficiently strong spectral quartic can bound the combined potential, but no UV-complete AF model is asserted.",
+  "prior_owners": [
+    "analysis/w33_pass11326_noncommuting_flavor_operator.py",
+    "analysis/w33_pass11280_factor_higgs_mediator.py"
+  ],
+  "primary_sources": [
+    "https://arxiv.org/abs/hep-ph/0211440"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "status": "PASS",
+  "scope": "Coupled torus-independent Maxwell Wilson fields and mixed metric connections on the actual11324 Euclidean saddle; this full vector block is nonnegative with four exact zero modes, not total wall stability.",
+  "reduction": "ds\u00b2=gbase+b\u00b2 sum_i(dy_i+Vi)^2, A=alpha+chi_i(dy_i+Vi). For eachi, H_i=dVi=h_i volbase. Quadratic density after torus integration: .5|dchi|\u00b2+(kappa\u00b2 b\u2074/4)h\u00b2+q chi h. Exact Ricci calculation and direct Maxwell contraction give these coefficients.",
+  "Ricci_connection_control": "-b**2*c**2*e**2*Derivative(v(b), b)**2/2",
+  "Maxwell_control": "In coordinate A=alpha+chi dy and Vphi=v, 1/4 sqrtg F\u00b2 at second order gives measurebase[.5 F chi_b\u00b2-q c v chi_b]; integrating by parts with regular poles gives q chi h, h=c v_b. The wall has no Maxwell2-form source and induced volume is independent ofVi.",
+  "global_connection_constraint": "Vi is a globally defined connection on the trivial torus bundle: integral_S2 Hi=0. Elimination gives h=-2q(chi-mu)/(kappa\u00b2 b\u2074), mu=integral chi/b\u2074 / integral1/b\u2074. Omitting this global constraint would incorrectly give a negative mass to constant Wilson lines.",
+  "Schur_form": "Q=integralbase[|dchi|\u00b2-2q\u00b2(chi-mu)\u00b2/(kappa\u00b2 b\u2074)]. For m0 even, add the rank-one weighted-mean term; for odd or m!=0, mu=0. Constants remain Wilson-line zero modes.",
+  "exact_odd_zero": {
+    "chi": "-4/5 + 1/b",
+    "Vphi": "1/6 - 8/(3*b**3) + 5/(2*b**4)",
+    "Maxwell_nonzero_variation": "dchi/db=-1/b\u00b2, so this is not a small Maxwell gauge transformation.",
+    "junctions": "chi odd with chiwall0; Vphi even with Vphi_prime_wall0. Both Maxwell flux continuity and mixed pure-tension Israel equation hold. Vphi vanishes quadratically in proper radius at both poles.",
+    "count": 2
+  },
+  "Wilson_constant_zero_count": 2,
+  "vector_block_zero_count": 4,
+  "combined_shape_vector_zero_count": 6,
+  "positivity_proof": {
+    "odd_m0": "chi0=1/b-4/5 is positive in the cap interior, regular at the pole and Dirichlet at the wall. Its exact zero equation and ground-state factorization give nonnegative oddm0 form.",
+    "even_m0": "Bare Neumann/Dirichlet Sturm interlacing puts exactly one negative eigenvalue in the bare even sector and its second eigenvalue strictly above the odd zero. The positive rank-one mean correction cannot lower the second level. Since its constant function is exactly zero, the lowest corrected level is zero and there is no negative level.",
+    "m_nonzero": "Positive supersolution sqrtF has L_m1 sqrtF/sqrtF equal to the stored rational expression. Both numerator polynomial b^4-15b\u00b2-10b-60 and denominator polynomial b\u00b3+b\u00b2+b-15 are negative throughout[1,5/4], so the ratio is nonnegative. Its wall derivative is positive; the factorization boundary term is nonnegative for even and zero for odd. Every|m|>1 adds a positive angular term.",
+    "m1_supersolution_ratio": "(b - 1)*(b + 2)*(b**4 - 15*b**2 - 10*b - 60)/(15*b**3*(b**3 + b**2 + b - 15))"
+  },
+  "spectral_controls": [
+    {
+      "m": 0,
+      "parity": "even",
+      "eigenvalues": [
+        4.440892098500624e-16,
+        3.316499278755255,
+        14.428449441674116,
+        31.993462962382086,
+        55.94721052959521
+      ],
+      "basis18_to28_error": 2.5356605704018875e-11
+    },
+    {
+      "m": 0,
+      "parity": "odd",
+      "eigenvalues": [
+        6.328277761854848e-14,
+        8.12534422767454,
+        22.509748782004458,
+        43.273592102897055,
+        70.42315754915457
+      ],
+      "basis18_to28_error": 1.6910917111090384e-12
+    },
+    {
+      "m": 1,
+      "parity": "even",
+      "eigenvalues": [
+        0.4346284014719812,
+        8.118007194105028,
+        22.462669100429096,
+        43.21473265695604,
+        70.35924012707319
+      ],
+      "basis18_to28_error": 1.454303344416985e-11
+    },
+    {
+      "m": 1,
+      "parity": "odd",
+      "eigenvalues": [
+        3.4500407976373526,
+        14.587026093029213,
+        32.14294809840565,
+        56.09306343139825,
+        86.43300622717933
+      ],
+      "basis18_to28_error": 9.450218385609332e-13
+    },
+    {
+      "m": 2,
+      "parity": "even",
+      "eigenvalues": [
+        3.6669767974716736,
+        14.647511987205869,
+        32.169800172855645,
+        56.10715584470267,
+        86.4409224649531
+      ],
+      "basis18_to28_error": 2.0234480757608253e-11
+    },
+    {
+      "m": 2,
+      "parity": "odd",
+      "eigenvalues": [
+        8.451462812849336,
+        22.722048991955027,
+        43.45074298477764,
+        70.58501231186705,
+        104.11359140086176
+      ],
+      "basis18_to28_error": 3.33244543071487e-12
+    },
+    {
+      "m": 3,
+      "parity": "even",
+      "eigenvalues": [
+        8.413360301506383,
+        22.79412652974648,
+        43.523591734231616,
+        70.65573058896774,
+        104.18268643089975
+      ],
+      "basis18_to28_error": 3.012701199622825e-11
+    },
+    {
+      "m": 3,
+      "parity": "odd",
+      "eigenvalues": [
+        15.0221745842492,
+        32.49500591091865,
+        56.412720668337336,
+        86.7368041936653,
+        123.45645623504745
+      ],
+      "basis18_to28_error": 6.73594513500575e-12
+    }
+  ],
+  "boundary": [
+    "Eigenvalues are Euclidean fluctuation values; integrating out the positive connection block determines negative-mode count by Schur complement, not the complete original coupled kinetic eigenvalues.",
+    "This vector block and prior11329 shape block leave the breathing/base/wall-bending/four-form block open.",
+    "The new odd zero is an infinitesimal mode; nonlinear integrability and quantum lifting are not proved. Wilson lines can be lifted by added charged matter, which is not supplied here."
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11324_quantized_warped_history_wall.py",
+    "analysis/w33_pass11329_wall_shape_fluctuations.py"
+  ],
+  "primary_sources": [
+    "https://arxiv.org/abs/0802.3564"
+  ]
+}

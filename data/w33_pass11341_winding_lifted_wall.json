@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "scope": "Explicit added compact-scalar winding mechanism with exact backreacted quantized wall and positive torus-shape lift; not nativeW33 matter derivation or total stability.",
+  "added_action": "Two compact real axions theta1=x, theta2=y, each with canonical positive coefficient f\u00b2=h=1/100. Unit winding is allowed by2pi torus and field periods. Interchange symmetry supplies equal kinetic coefficients.",
+  "backreaction": "F=C/b-rho b\u00b2/3-q\u00b2/(2b\u00b2)-h, C=rho/3+q\u00b2/2+h, c=(q\u00b2/2-rho-h)/2. The base Ricci isrho+q\u00b2/(2b4), torus Ricci gains+h/b\u00b2. Both Maxwell flux and Einstein components replay exactly.",
+  "certificate": {
+    "h": "1/100",
+    "q": "1/2 + sqrt(105)/20",
+    "c": "1/10 + sqrt(105)/100",
+    "rho": "37/800 + sqrt(105)/200",
+    "C": "2*sqrt(105)/75 + 169/600",
+    "b_wall": "5/4",
+    "F_wall": "5231/192000 + 131*sqrt(105)/48000",
+    "tension": 0.7519007807368497,
+    "Dirac_integer": 1,
+    "electric_unit": "1/2",
+    "axion_windings": [
+      1,
+      1
+    ]
+  },
+  "quantization_constraint": "With electricunit1/2 and Diracinteger1, walljunction and pole regularity imply q\u00b2-q=h*bwall. Therefore fixing the oldq1 while addingh>0 is inconsistent; the Maxwell strength must backreact. Our q=(1+sqrt(21/20))/2 enforces it exactly atbwall5/4.",
+  "shape_action": "At detQ1, winding potential is h TrQ^-1/(2b\u00b2). Parametrize Q=exp(2[[u,v],[v,-u]]); TrQ^-1=2+4(u\u00b2+v\u00b2)+O4. Both prior shape directions receive positive potential2h(u\u00b2+v\u00b2)/b\u00b2.",
+  "shape_operator": "Old radial numerator gains2h int|u|\u00b2db, denominator intb\u00b2|u|\u00b2db. Both exact constant shape zeros lift. Rayleigh bounds give smallest shape eigenvalue in[2h/bwall\u00b2,2h], independent of Ritz approximation.",
+  "exact_smallest_shape_bounds": [
+    "8/625",
+    "1/50"
+  ],
+  "shape_eigenvalues": [
+    0.015736876690906537,
+    4.849724158785439,
+    16.156623858826414,
+    33.9315223702288,
+    58.171077759447904,
+    88.87483164067888
+  ],
+  "shape_basis18_to28_error": 1.6193268947972683e-11,
+  "F_positivity": "b\u00b2F polynomial vanishes atb1. Its derivative isC-4rho b\u00b3/3-2hb, strictly decreasing and positive atbwall5/4 for the exact parameters; henceF>0 throughout the cap interior.",
+  "boundary": [
+    "The added axions and their kinetic scale are inputs; winding energy is not predicted from the native cochain.",
+    "The new axion/metric/Maxwell vector block must be recomputed: prior11339 four-zero statement belongs to the original action. Breathing/base/wall-bending/four-form modes remain open.",
+    "No nonlinear zero-mode completion, selected absolute scale or observed cosmological constant is inferred."
+  ],
+  "prior_owners": [
+    "analysis/w33_pass11324_quantized_warped_history_wall.py",
+    "analysis/w33_pass11329_wall_shape_fluctuations.py",
+    "analysis/w33_pass11339_coupled_maxwell_metric_modes.py"
+  ],
+  "primary_sources": [
+    "https://arxiv.org/abs/1311.5157"
+  ]
+}
