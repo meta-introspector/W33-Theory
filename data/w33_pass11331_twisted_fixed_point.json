@@ -1,0 +1,52 @@
+{
+ "pass_id": 11331,
+ "stab_z1": 648,
+ "N_T_symplectic_classes": 648,
+ "N_T_equals_stab_z1": true,
+ "orbits_tested": 4110,
+ "violating_cliffords_by_twisted_method": 385344,
+ "agrees_with_pass_11330_total": true,
+ "agrees_with_pass_11330_every_class": true,
+ "symplectic_level": {
+  "distinct_symplectic_pairs": 1944,
+  "split_solvable_by_frame_count": {
+   "unsolvable:81": 1296,
+   "solvable:0": 45360,
+   "solvable:54": 5160,
+   "solvable:72": 24
+  },
+  "all_frames_violate_iff_symplectically_unsolvable": true
+ },
+ "w33_geometry_of_bad_set": {
+  "Mz1 = -z1": {
+   "good": 648,
+   "all81": 0
+  },
+  "Mz1 = z1": {
+   "bad": 648,
+   "all81": 0
+  },
+  "Mz1 not collinear with z1": {
+   "good": 31104,
+   "all81": 0,
+   "bad": 3888
+  },
+  "Mz1, M^-1 z1 collinear with z1 on different lines": {
+   "good": 11664,
+   "all81": 0
+  },
+  "same line, M^2 z1 = -z1": {
+   "good": 648,
+   "all81": 0
+  },
+  "same line, M^2 z1 = z1": {
+   "bad": 648,
+   "all81": 0
+  },
+  "same line, other": {
+   "good": 1296,
+   "all81": 1296,
+   "bad": 1296
+  }
+ }
+}

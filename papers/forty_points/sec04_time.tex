@@ -730,19 +730,33 @@ $|\operatorname{tr}T/3|^2$, and the optimal residual of $(1\otimes T)\mathrm{SUM
 $T\otimes T$, so its reversal fidelity is $|\operatorname{tr}(T\otimes T)|/9$ --- the same $|\operatorname{tr}T/3|^2$.
 Closeness to the Clifford group bounds the violation: with $F_{\mathrm{Cl}}(U)=\max_C|\operatorname{tr}(C^\dagger U)|/d$,
 $F_T\ge2F_{\mathrm{Cl}}^2-1$ for every $n$, and $F_T\ge F_{\mathrm{Cl}}^2$ on all 1503 violating words tested
-(while $F_T\ge F_{\mathrm{Cl}}$ fails). The one-magic-gate census proposes an affine law: on two qutrits $C(T\otimes1)$ breaks the arrow
+(while $F_T\ge F_{\mathrm{Cl}}$ fails). The one-magic-gate census obeys an affine law: on two qutrits $C(T\otimes1)$ breaks the arrow
 exactly when the Pauli frame of $C$ avoids an affine subspace attached to its symplectic class, so it depends on the
 frame only through that subspace; exactly $6480$ of the $51\,840$ classes --- one in eight, as
 for one qutrit ($3/24$) --- carry a proper subspace (codimension $1$, $2$ or empty in 5160, 24, 1296 classes),
-and the reported probability is $\tfrac{223}{2430}$, conditional on the affine law for classes tested only at five frames. On one qutrit the probability for $1,\dots,4$
+and the probability is exactly $\tfrac{223}{2430}$ --- now unconditionally: conjugation by the $1944$ Cliffords commuting
+with $T\otimes1$ splits all $4\,199\,040$ cases into $4110$ orbits, one exact decision per orbit verifies the affine law
+on every class, and an independent derivation agrees class by class. That derivation rewrites reversibility of
+$C(T\otimes1)$ as a twisted fixed point, $T_1ET_1^{-1}\propto C^{-1}EC^{T}$ for a Clifford $E$, which forces the symplectic
+part of $E$ into the stabilizer of the magic axis; the $1296$ classes in which every frame violates are exactly those
+with no solution even at the symplectic level. The bad set is geometry of the magic axis $z_1$ as a point of $W(3,3)$:
+every class fixing $z_1$ is bad, none reversing it, none sending $z_1$ and its preimage to different lines through it,
+exactly those with $M^2z_1=z_1$ (bad) or the symplectically unsolvable ones along a single line, and one in nine of
+those moving $z_1$ to a non-collinear point --- $\tfrac1{80}+\tfrac3{80}+\tfrac6{80}=\tfrac18$. On one qutrit the probability for $1,\dots,4$
 cubic gates is exactly $\tfrac1{12},\tfrac{13}{32},\tfrac{421}{768},\tfrac{1425}{2048}$. Over the whole two-qutrit
 Clifford group the perfect-tick edge pattern does not survive: one magic leg breaks a perfect tick in $7\%$ of cases,
-but magic on three of the four legs breaks all sampled $\F_9$-linear perfect ticks ($6000/6000$, the class of the circulants; a universal proof is open),
+but magic on three of the four legs breaks every $\F_9$-linear perfect tick (exhaustive: $165\,888$ reduced cases covering all $13\,436\,928$ dressings, since $T^3=Z$ lets the Pauli parts be absorbed into the frame; one magic leg breaks exactly $\tfrac1{12}$ of them),
 against $91\%$ for other perfect ticks. Finally, the chamber group's cocycle orientation is not the orientation of the
 magic: the one-qutrit group $\langle X,S,T\rangle$ modulo scalars is $\mathrm{SmallGroup}(81,9)$, with $18$ elements of order
-$9$, while $U_{81}=C_3\wr C_3=\mathrm{Syl}_3\,\Sp(4,3)$ has $36$. \tierC\ (\cert{w33\_pass11308\_shared\_level\_and\_clifford\_bound.py},
+$9$, while $U_{81}=C_3\wr C_3=\mathrm{Syl}_3\,\Sp(4,3)$ has $36$. On three qutrits $11.1\%\pm0.9\%$ of sampled symplectic classes are flagged bad by seven frames (one in eight is $12.5\%$; the seven-frame screen is exact if the affine law holds at $n=3$, checked on two classes). The uniform
+Clifford$+T$ random word is reversible with probability tending to $0$ (equidistribution in $PU(3)$ and the portmanteau
+theorem on the closed, Haar-null reversible set), although reversible circuits exist at every depth $9m$ because
+$T^9=1$; no rate is proved. \tierC\ (\cert{w33\_pass11308\_shared\_level\_and\_clifford\_bound.py},
 \cert{w33\_pass11309\_one\_gate\_law.py}, \cert{w33\_pass11310\_magic\_orientation\_cocycle.py},
-\cert{w33\_pass11311\_perfect\_edge\_law.py}, \cert{w33\_pass11312\_depth\_law.py})
+\cert{w33\_pass11311\_perfect\_edge\_law.py}, \cert{w33\_pass11312\_depth\_law.py},
+\cert{w33\_pass11330\_orbit\_census.py}, \cert{w33\_pass11331\_twisted\_fixed\_point.py},
+\cert{w33\_pass11332\_reversibility\_limit.py}, \cert{w33\_pass11333\_three\_qutrit\_one\_gate.py},
+\cert{w33\_pass11334\_f9\_three\_leg\_law.py})
 
 All of this is one law.
 

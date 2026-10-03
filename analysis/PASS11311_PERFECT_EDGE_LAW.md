@@ -18,13 +18,13 @@ the compiler classes of Pass 11193 (perfectness verified on both nontrivial 2|2 
 
 | class (symplectic classes) | k = 0 | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|---|
-| local incl. swap (1152) | 0 | 0.081 | 0.215 | 0.435 | 0.314 |
+| local incl. swap (1152) | 0 | 0.081 | 0.214 | 0.435 | 0.314 |
 | perfect, F₉-linear (64) | 0 | 0.086 | 0.431 | **1.000 (6000/6000)** | 0.630 |
-| perfect, other (13760) | 0 | 0.068 | 0.533 | 0.906 | 0.779 |
+| perfect, other (13760) | 0 | 0.072 | 0.533 | 0.906 | 0.779 |
 | other entangling (36864) | 0 | 0.099 | 0.508 | 0.847 | 0.733 |
 
 **What survives and what falls.**
-* **"One magic leg never" is false** for perfect ticks in general: 6.8% of them violate, and 8.6% on the F₉-linear
+* **"One magic leg never" is false** for perfect ticks in general: 7.2% of them violate (430/6000; an earlier run's 6.8% was quoted by mistake, corrected after Codex's audit), and 8.6% on the F₉-linear
   class. It held only for the two representatives of Pass 11268.
 * **"2n − 1 magic legs always" holds on the F₉-linear perfect class**, the class of Pass 11170's circulants (6000/6000,
   Pauli frames included), and **fails** for other perfect ticks (90.6%).

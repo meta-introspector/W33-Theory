@@ -1,0 +1,23 @@
+{
+ "pass_id": 11333,
+ "flag_classes": 1100,
+ "flagged_bad": 122,
+ "bad_fraction": 0.11090909090909092,
+ "bad_fraction_stderr": 0.009468045034978058,
+ "one_eighth_z_score": -1.4131111480995098,
+ "fixes_z1_fraction": 0.0009090909090909091,
+ "fixes_z1_expected_uniform": 0.0013736263736263737,
+ "full_frame_checks_of_bad_classes": [
+  {
+   "seed": 50005,
+   "violating_frames": 486,
+   "nonviolating_affine": true
+  },
+  {
+   "seed": 50006,
+   "violating_frames": 486,
+   "nonviolating_affine": true
+  }
+ ],
+ "condition": "bad = flagged by frames 0, e_1..e_6; exact if the affine law holds at n = 3 (checked on all 729 frames only for the classes listed in full_frame_checks_of_bad_classes)"
+}

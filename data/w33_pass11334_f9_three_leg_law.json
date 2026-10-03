@@ -1,0 +1,18 @@
+{
+ "pass_id": 11334,
+ "f9_perfect_classes": 64,
+ "magic_legs": {
+  "3": {
+   "violating": 165888,
+   "cases": 165888,
+   "fraction": 1.0
+  },
+  "1": {
+   "violating": 3456,
+   "cases": 41472,
+   "fraction": 0.08333333333333333
+  }
+ },
+ "three_leg_law_exhaustive": true,
+ "covers_unreduced_cases": 13436928
+}

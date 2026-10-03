@@ -24,8 +24,10 @@ Regression: `tests/test_w33_pass11308_11312.py`
 
 **Reading.**
 * From k = 4 the reversible fraction decays geometrically, by a factor of about **0.72 per cubic gate**.
-* The reversible set of a single qutrit has Haar measure zero: it is a finite union of conditions V U* V† = λU⁻¹. So
-  every long enough magic circuit breaks the substrate's time reversal, and each gate leaves about 28% fewer reversible
-  circuits.
+* **Corrected (Codex's audit; Pass 11332).** An earlier version said that every long enough magic circuit breaks the
+  arrow. That is false: T⁹ = I, so reversible circuits exist at every depth 9m. What is true, and proved in Pass 11332,
+  is the probabilistic statement: under this random walk P(reversible) → 0 (Kawada–Itô equidistribution plus the
+  portmanteau theorem on the closed, Haar-null reversible set). The 0.72-per-gate rate is an empirical fit, not a
+  theorem.
 * The exact rate, and a closed form for the sequence 1/12, 13/32, 421/768, 1425/2048, are OPEN. The denominators are
   12, 2⁵, 2⁸·3 and 2¹¹.

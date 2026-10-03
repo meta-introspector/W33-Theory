@@ -1,0 +1,12 @@
+{
+ "pass_id": 11332,
+ "T9_is_identity": true,
+ "T9m_reversible": true,
+ "haar_samples": 2000,
+ "haar_reversible": 0,
+ "lie_algebra_dimension": 8,
+ "su3_dimension": 8,
+ "theorem": "P(U_k reversible) -> 0 for the uniform Clifford+T random word (Kawada-Ito + portmanteau)",
+ "not_claimed": "any rate; Pass 11312's 0.72 per gate is an empirical fit",
+ "corrects": "Pass 11312: 'every long enough magic circuit breaks the arrow' is false (T^9 = I)"
+}

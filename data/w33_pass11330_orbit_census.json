@@ -1,0 +1,46 @@
+{
+ "pass_id": 11330,
+ "generators_commute_with_T1": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "orbits": 4110,
+ "orbit_size_values": [
+  1,
+  3,
+  8,
+  9,
+  12,
+  24,
+  27,
+  36,
+  54,
+  72,
+  81,
+  108,
+  162,
+  216,
+  324,
+  486,
+  648,
+  1944
+ ],
+ "validation_direct_vs_orbit_agree": 1000,
+ "validation_samples": 1000,
+ "violating_cliffords_exact": 385344,
+ "probability_exact": "223/2430",
+ "class_frame_counts": {
+  "0": 45360,
+  "54": 5160,
+  "72": 24,
+  "81": 1296
+ },
+ "classes_violating_the_affine_law": 0,
+ "bad_classes": 6480,
+ "five_frame_screen_exact": true,
+ "agrees_with_pass_11309": true
+}
