@@ -1604,3 +1604,23 @@ GitKraken committed the seven owned11428–11432 artifacts asd173956f0. GitKrake
 - GitKraken push returned the known branch-name/upstream mismatch. Its missing-refspec-tool exception was used narrowly: git.exe push origin-https HEAD:master. No force push.
 - All eight owned artifacts committed; only mixed preexisting/new continuity decision JSON/JSONL remain unstaged. Original parallel checkout preserved.
 - Independent next frontiers: coupled relaxed quartic soft-mode action with unbroken-gauge embedding; implemented admissible Abelian current/sector gluing; off-shell curved coarse dynamics and Lorentzian matter; joint pin/link/Majorana running vacuum; native recovery/detection/reset and routed fault/noise optimization.
+
+##11443-11447 current packet
+- User requested all five continuations; reserved and pushed bad2527a6 before computing. Remote reviewed through cea396cfc; original parallel checkout preserved.
+- Five-section producer replay PASS. Lower-energy native trial -2.949259565341485 has full-gradient norm1.29e-6, eight preserved generators and common orbit rank78. Full324 Hessian:242 positive normal directions, four unresolved; no isolated/global/stable or physical-colour claim.
+- Old soft quartic line response is mostly cancelled by massive-field relaxation; mixed quartic/precision certification still open.
+- Admissible nonzero flux atL34 and gauge-orbit determinant cocycle implemented; anomalous negative control demonstrates that this is not global local measure/sector gluing.
+- Explicit off-shell Lorentzian scalar finite-element Schur map checked under two interior placements and a boost; full varying Lorentzian gravitational action remains open.
+- Stored elementary heavy extension has966 heavy +6 light Dirac triplet species: b0=-637. Actual972 threshold masses and one-loop integration retained. Full joint vacuum and UV completion remain open.
+- Operational erasure reset/twirl/syndrome correction; native logical-dark spectroscopy; optimal supplied copy placement attains288 baseline and372 conditional routed CNOTs. No noisy native threshold follows.
+- Report, CRLF-preserving docs card and eight independent regressions added; syntax/arithmetic selftest PASS. Full index/intake and regressions running before publication. Mixed decision JSON/JSONL remain unstaged.
+
+##11443-11447 validation update
+- Eight independent regressions PASS in313.38s, including all21 two-erasure native-code branch spaces, direct channel equality and the preserved-subgroup second-basis control.
+- Five-section final producer replay PASS; syntax compilation and forced-arithmetic selftest PASS; targeted four-file arithmetic scan reports zero findings.
+- Full batch intake/index refresh remains in progress; no science files are being changed during the index build.
+
+##11443-11447 completed intake
+- Full five-file audit_batch returned intake clean: zero forced arithmetic and no certified code-parameter contradictions; refreshed RESULTS_INDEX.
+- One rediscovery candidate alpha@81 was reviewed by reading analysis/BT1683_schur_isotypic_proof.md, analysis/bt1046_heavy_sector_phi_ansatz.py, analysis/bt1683_schur_isotypic_proof.py and analysis/bt563_physical_evolution_rule.py in entirety. Those use alpha for a Schur scalar, formal heavy eigensector amplitudes or radial filter coefficients. Here alpha is an81-site gauge-angle vector; no result overlap or novelty claim about alpha follows. Candidate is a lexical collision, not an unresolved prior-art finding.
+- Seven owned files prepared for master; decision JSON/JSONL remain unstaged. Scientific files remained fixed throughout index refresh and guards.
