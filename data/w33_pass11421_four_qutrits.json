@@ -1,0 +1,65 @@
+{
+ "pass_id": 11421,
+ "validation": [
+  {
+   "n": 2,
+   "classes_checked": 60,
+   "identical_good_frame_sets": 60
+  },
+  {
+   "n": 3,
+   "classes_checked": 25,
+   "identical_good_frame_sets": 25
+  }
+ ],
+ "uniform": {
+  "sampled": 3000,
+  "decided": 3000,
+  "undecided": 0,
+  "bad_class_fraction": 0.11833333333333333,
+  "stderr": 0.005897190165820656,
+  "cells": {
+   "collinear, different lines": {
+    "good": 585,
+    "bad": 78
+   },
+   "non-collinear": {
+    "good": 1765,
+    "bad": 233
+   },
+   "same line, other": {
+    "good": 295,
+    "bad": 44
+   }
+  },
+  "bad_frames_histogram": {
+   "0": 2645,
+   "4374": 270,
+   "6561": 83,
+   "5832": 1,
+   "1458": 1
+  }
+ },
+ "targeted_rule_cells": {
+  "fixed": {
+   "bad": 59,
+   "cell=Mz1 = z1": 60,
+   "undecided": 1
+  },
+  "reversed": {
+   "good": 56,
+   "cell=Mz1 = -z1": 60,
+   "undecided": 4
+  },
+  "line, M^2z1=z1": {
+   "bad": 46,
+   "cell=same line, M^2 z1 = z1": 60,
+   "undecided": 14
+  },
+  "line, M^2z1=-z1": {
+   "good": 45,
+   "cell=same line, M^2 z1 = -z1": 60,
+   "undecided": 15
+  }
+ }
+}

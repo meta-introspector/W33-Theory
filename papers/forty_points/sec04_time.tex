@@ -825,6 +825,23 @@ fraction of exactly $\tfrac{240857}{2388204}\approx0.10085$ and a bad-class frac
 \cert{w33\_pass11371\_flavour\_vs\_arrow.py}, \cert{w33\_pass11372\_irrep\_contraction\_rates.py},
 \cert{w33\_pass11373\_three\_qutrit\_exact\_fraction.py})
 
+The blind spot of $J_6$ has a precise anatomy. Its non-reversible zeros form two four-dimensional pieces. One is explained
+exactly: on a pseudo-reflection $U=1+\lambda\lvert\psi\rangle\langle\psi\rvert$ all traces entering $J_6$ are real, the Clifford orbit
+moments of $\psi$ and $\bar\psi$ agree up to order five because the first $T$-odd Clifford-invariant polynomial of a qutrit ray has
+bidegree $(6,6)$ (and is unique there), and therefore $J_6(U)=\lvert\lambda\rvert^{12}\,\Delta_6(\psi)$ with
+$\Delta_6=\mathrm{avg}_C\lvert\langle\psi|C\psi\rangle\rvert^{12}-\mathrm{avg}_C\lvert\langle\psi|C\bar\psi\rangle\rvert^{12}=2\lvert h_6(\psi)\rvert^2$; its zero set is a
+real hypersurface of non-real-type rays. The degree-eight witness survives every test that breaks $J_6$ (no spurious zero on the
+pseudo-reflection locus, none reached from $307$ spurious starts, positive minimum away from the reversible set), so $t^\ast=4$
+remains the conjecture; near the identity every witness is a twelfth-order effect. The four magic-axis rules reduce to one
+law, verified exhaustively at $n=2$, on every orbit at $n=3$ and on samples at $n=4$: if $M^2z_1=z_1$ then $v=z_1+Mz_1$ is fixed
+by $M$ and every frame with $\omega(a,v)\neq0$ breaks the arrow. At four qutrits the rules hold on every decided targeted class
+and the bad-class fraction is $0.118\pm0.006$, below the exact three-qutrit $437/3276$. Finally the exact one-qutrit reversible
+fraction at depth five is $11003/49152$; the denominators $2^{3k-1}3^{[k\ \mathrm{odd}]}$ hold for $k\le5$, and the local decay rate
+drifts from $0.716$ to above $0.727$ with depth, so the empirical "$0.72$ per gate" is not a constant rate and its proximity to
+$\rho_{(8,8)}$ is not an identity. \tierT\,\tierC\ (\cert{w33\_pass11418\_j8\_completeness.py},
+\cert{w33\_pass11419\_spurious\_family.py}, \cert{w33\_pass11420\_magic\_axis\_rules.py},
+\cert{w33\_pass11421\_four\_qutrits.py}, \cert{w33\_pass11422\_depth5\_exact.py})
+
 All of this is one law.
 
 \begin{result}{Theorem 4.8 (the intrinsic arrow for every number of qutrits) \hfill \tierT}

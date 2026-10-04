@@ -1,0 +1,50 @@
+{
+ "pass_id": 11420,
+ "lemma_checks_n2": {
+  "L1_checked_classes": 1296,
+  "L2_frames_with_U3_clifford": 2592
+ },
+ "L3_kernel_condition": {
+  "n2_classes": {
+   "dim ker(M+I) = 2": 207,
+   "dim ker(M+I) = 1": 414,
+   "dim ker(M+I) = 4": 1,
+   "dim ker(M+I) = 3": 26
+  },
+  "n3_classes": {
+   "dim ker(M+I) = 6": 1,
+   "dim ker(M+I) = 2": 4024809,
+   "dim ker(M+I) = 4": 19350,
+   "dim ker(M+I) = 5": 242,
+   "dim ker(M+I) = 1": 8049618,
+   "dim ker(M+I) = 3": 503100
+  }
+ },
+ "conjecture_F_n2": {
+  "Mz1 = z1": {
+   "bad == {omega(a, z1+Mz1) != 0}": 624,
+   "bad contains it": 24
+  },
+  "same line, M^2 z1 = z1": {
+   "bad == {omega(a, z1+Mz1) != 0}": 648
+  }
+ },
+ "conjecture_F_n3": {
+  "fast_classes": {
+   "Mz1 = z1 | bad == {omega(a, z1+Mz1) != 0}": 93,
+   "same line, M^2 z1 = z1 | bad == {omega(a, z1+Mz1) != 0}": 72,
+   "same line, M^2 z1 = z1 | bad contains it": 3,
+   "Mz1 = z1 | bad contains it": 4
+  },
+  "slow_classes_by_frame_orbits": {
+   "Mz1 = z1 | all frames with omega(a, z1+Mz1) != 0 violate": 29,
+   "same line, M^2 z1 = z1 | all frames with omega(a, z1+Mz1) != 0 violate": 6
+  }
+ },
+ "conjecture_F_n4": {
+  "Mz1 = z1 | bad == {omega(a, z1+Mz1) != 0}": 18,
+  "Mz1 = z1 | undecided": 2,
+  "same line, M^2 z1 = z1 | bad == {omega(a, z1+Mz1) != 0}": 16,
+  "same line, M^2 z1 = z1 | undecided": 4
+ }
+}

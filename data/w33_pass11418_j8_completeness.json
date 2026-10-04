@@ -1,0 +1,89 @@
+{
+ "pass_id": 11418,
+ "pseudo_reflections": {
+  "J6": {
+   "second_singular_value_relative": 5.84154781061672e-14,
+   "minimisations": 150,
+   "zeros": 137,
+   "zeros_off_real_type": 94,
+   "min_overlap_at_zeros": 0.9709497128503415,
+   "smallest_minimum": -6.394884621840902e-14
+  },
+  "J8": {
+   "second_singular_value_relative": 0.050522919458862676,
+   "minimisations": 150,
+   "zeros": 36,
+   "zeros_off_real_type": 0,
+   "min_overlap_at_zeros": 0.999999999983176,
+   "smallest_minimum": -4.547473508864641e-13
+  }
+ },
+ "seeded_from_J6_spurious": {
+  "seeds": 2000,
+  "j6_spurious_starts": 307,
+  "near_degenerate_starts": 80,
+  "j8_zeros_reached": 303,
+  "certified_j8_spurious": 0,
+  "max_end_dist_at_zeros": 0.003941517584379669,
+  "min_start_J8": 1.4808395008003572e-06
+ },
+ "ratio_test": {
+  "J6, dist>=0.1": {
+   "starts": 200,
+   "feasible": 200,
+   "min_ratio": -5.615939473922428e-12,
+   "at_dist": 0.10370348600516437,
+   "J_there": -6.039613253960852e-14
+  },
+  "J6, dist>=0.3": {
+   "starts": 200,
+   "feasible": 200,
+   "min_ratio": -7.087134394801284e-13,
+   "at_dist": 0.30038692310813575,
+   "J_there": -6.394884621840902e-14
+  },
+  "J8, dist>=0.1": {
+   "starts": 200,
+   "feasible": 200,
+   "min_ratio": 3.430241904107642e-10,
+   "at_dist": 0.1029835143925658,
+   "J_there": 3.637978807091713e-12
+  },
+  "J8, dist>=0.3": {
+   "starts": 200,
+   "feasible": 200,
+   "min_ratio": 7.959161537343883e-06,
+   "at_dist": 0.3000000649075151,
+   "J_there": 7.163248483266216e-07
+  }
+ },
+ "identity_asymptotics": {
+  "betas": [
+   1.0,
+   0.6,
+   0.4,
+   0.25
+  ],
+  "J8_over_lam12_Delta6": [
+   [
+    177.12698412522556,
+    221.89655301651828,
+    238.16467965835642,
+    234.96700596434934
+   ],
+   [
+    176.99124627549486,
+    221.8323656313639,
+    238.11305738715103,
+    246.39783906801574
+   ],
+   [
+    177.14304344026968,
+    221.88872528524266,
+    238.13696703509373,
+    246.37218499430392
+   ]
+  ],
+  "limit_predicted": 252
+ }
+}

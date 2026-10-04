@@ -1,0 +1,106 @@
+{
+ "pass_id": 11422,
+ "exact": {
+  "1": {
+   "words": 216,
+   "reversible": 198,
+   "violating": 18,
+   "reversible_fraction": "11/12",
+   "violating_fraction": "1/12",
+   "min_overlap_reversible": 2.9999999999999973,
+   "max_overlap_violating": 2.5320888862379567
+  },
+  "2": {
+   "words": 5184,
+   "reversible": 3078,
+   "violating": 2106,
+   "reversible_fraction": "19/32",
+   "violating_fraction": "13/32",
+   "min_overlap_reversible": 2.999999999999995,
+   "max_overlap_violating": 2.5320888862379567
+  },
+  "3": {
+   "words": 124416,
+   "reversible": 56214,
+   "violating": 68202,
+   "reversible_fraction": "347/768",
+   "violating_fraction": "421/768",
+   "min_overlap_reversible": 2.9999999999999925,
+   "max_overlap_violating": 2.8177877312704562
+  },
+  "4": {
+   "words": 2985984,
+   "reversible": 908334,
+   "violating": 2077650,
+   "reversible_fraction": "623/2048",
+   "violating_fraction": "1425/2048",
+   "min_overlap_reversible": 2.999999999999991,
+   "max_overlap_violating": 2.965309508582301
+  },
+  "5": {
+   "words": 71663616,
+   "reversible": 16042374,
+   "violating": 55621242,
+   "reversible_fraction": "11003/49152",
+   "violating_fraction": "38149/49152",
+   "min_overlap_reversible": 2.999999999999988,
+   "max_overlap_violating": 2.9653095085823016
+  }
+ },
+ "exact_ratios": [
+  0.6477272727272727,
+  0.7609649122807017,
+  0.6732708933717579,
+  0.735888175494917
+ ],
+ "sampled": {
+  "6": {
+   "samples": 3997696,
+   "reversible": 619685,
+   "reversible_fraction": 0.15501053606877563,
+   "stderr": 0.00018100950185394738
+  },
+  "8": {
+   "samples": 3997696,
+   "reversible": 317276,
+   "reversible_fraction": 0.07936471407530737,
+   "stderr": 0.00013519251687995284
+  },
+  "10": {
+   "samples": 3997696,
+   "reversible": 162907,
+   "reversible_fraction": 0.0407502221279457,
+   "stderr": 9.888398522317231e-05
+  },
+  "12": {
+   "samples": 3997696,
+   "reversible": 84188,
+   "reversible_fraction": 0.021059130058913935,
+   "stderr": 7.181142763206095e-05
+  },
+  "14": {
+   "samples": 3997696,
+   "reversible": 44246,
+   "reversible_fraction": 0.011067875096055328,
+   "stderr": 5.232515028097933e-05
+  },
+  "16": {
+   "samples": 3997696,
+   "reversible": 23412,
+   "reversible_fraction": 0.005856373271004098,
+   "stderr": 3.8162257571202205e-05
+  },
+  "20": {
+   "samples": 3997696,
+   "reversible": 7001,
+   "reversible_fraction": 0.0017512587250256147,
+   "stderr": 2.091171535726514e-05
+  }
+ },
+ "rho_8_8": 0.7227600978042122,
+ "fitted_decay_rate_k8_20": {
+  "rate": 0.7217820787637047,
+  "stderr": 0.00036254098573318205,
+  "z_vs_rho88": -2.6976785494463447
+ }
+}
