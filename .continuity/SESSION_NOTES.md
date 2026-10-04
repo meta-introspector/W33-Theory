@@ -1624,3 +1624,9 @@ GitKraken committed the seven owned11428–11432 artifacts asd173956f0. GitKrake
 - Full five-file audit_batch returned intake clean: zero forced arithmetic and no certified code-parameter contradictions; refreshed RESULTS_INDEX.
 - One rediscovery candidate alpha@81 was reviewed by reading analysis/BT1683_schur_isotypic_proof.md, analysis/bt1046_heavy_sector_phi_ansatz.py, analysis/bt1683_schur_isotypic_proof.py and analysis/bt563_physical_evolution_rule.py in entirety. Those use alpha for a Schur scalar, formal heavy eigensector amplitudes or radial filter coefficients. Here alpha is an81-site gauge-angle vector; no result overlap or novelty claim about alpha follows. Candidate is a lexical collision, not an unresolved prior-art finding.
 - Seven owned files prepared for master; decision JSON/JSONL remain unstaged. Scientific files remained fixed throughout index refresh and guards.
+
+##11443-11447 publication receipt
+- Science73f81cf5c pushed to origin-https/master after reservation bad2527a6; explicit push output confirms bad2527a6..73f81cf5c HEAD->master. GitKraken push had the established upstream-name mismatch, so its missing-refspec exception was used narrowly; no force push.
+- Seven owned science/docs/index/test/session artifacts published. Original checkout and mixed preexisting/new decision JSON/JSONL preserved.
+- Full five-file intake clean after lexical alpha@81 review; eight independent tests PASS and all five producer sections PASS.
+- Independent next frontiers: identify the preserved E6 subgroup and certify relaxed soft stability; implement local chiral current/global sector transitions; varying Lorentzian gravity coupled to the scalar map; resolve elementary-heavy UV running through a justified physical interpretation and joint vacuum; synthesize controlled clock/reset/readout and audit routed multi-fault channels.
