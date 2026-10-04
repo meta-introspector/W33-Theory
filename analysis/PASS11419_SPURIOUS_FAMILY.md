@@ -59,7 +59,7 @@ spectrum (the refined point is smooth with rank dF = 4); about 35% have a nearly
 (imaginary part ≤ 4×10⁻¹⁵), hence τ-even. It is not the odd invariant: that one first appears at degree 6.
 
 **Why J₈ does not have this component** (see Pass 11418).
-* On pseudo-reflections, J₈ = |λ|¹²(252 Δ₆ − 24|λ|² Δ₇ + |λ|⁴ Δ₈). It is not rank 1 in (ray, β).
+* On pseudo-reflections, J₈ = |λ|¹²[252Δ₆ − 24|λ|²(7Δ₆ − Δ₇) + |λ|⁴(28Δ₆ − 8Δ₇ + Δ₈)] (corrected in Pass 11435: the expansion coefficients are E_k = avg(1 − x)^k − avg(1 − y)^k, not Δ_k; the limit 252 is unchanged). It is not rank 1 in (ray, β).
 * Its zeros at a fixed β need a combination of three moment gaps to vanish, and degree 7 already carries two odd
   invariants.
 * Every J₈ zero found on the locus is real-type.

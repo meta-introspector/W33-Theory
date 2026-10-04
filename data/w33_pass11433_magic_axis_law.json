@@ -1,0 +1,24 @@
+{
+ "pass_id": 11433,
+ "grading_n2": {
+  "Pi commutes with V_M T1": 1296,
+  "frames with c != 0": 69984,
+  "U graded by Pi": 69984,
+  "spec(U) omega-invariant": 69984,
+  "classes": 1296
+ },
+ "fixed_axis_n4_exhaustive": {
+  "classes": 549,
+  "group_order": 20056328248320,
+  "verdict_classes": {
+   "undecided": 317,
+   "bad == {a_x1 != 0}": 224,
+   "bad contains it": 8
+  },
+  "verdict_mass_fraction": {
+   "undecided": 0.02396285556007778,
+   "bad == {a_x1 != 0}": 0.9537120415592638,
+   "bad contains it": 0.022325102880658435
+  }
+ }
+}

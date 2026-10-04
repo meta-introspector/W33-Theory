@@ -29,7 +29,7 @@ J₈(U) = 0. Every test below uses J₆, which is known to fail, as the positive
   * J₆ reaches −6×10⁻¹⁴ at δ = 0.1 and 0.3: genuine zeros far from the reversible set.
   * J₈ has **minimum value 7.2×10⁻⁷ at δ = 0.3**, attained on the boundary dist = 0.300, and 3.6×10⁻¹² at δ = 0.1.
 * **The small δ = 0.1 value is explained, not a counterexample.**
-  * On pseudo-reflections, J₈(I + λP) = |λ|¹²(252Δ₆ − 24|λ|²Δ₇ + |λ|⁴Δ₈), where Δ_k are the moment gaps of Pass
+  * On pseudo-reflections, J₈(I + λP) = |λ|¹²[252Δ₆ − 24|λ|²(7Δ₆ − Δ₇) + |λ|⁴(28Δ₆ − 8Δ₇ + Δ₈)] (corrected in Pass 11435: the expansion coefficients are E_k = avg(1 − x)^k − avg(1 − y)^k, not Δ_k; the limit 252 is unchanged), where Δ_k are the moment gaps of Pass
     11419.
   * Checked: J₈/(|λ|¹²Δ₆) = 177, 222, 238 → 252 as β = 1.0, 0.6, 0.4 → 0, identically on three rays.
   * The distance to the reversible set is O(|λ|). So **every** witness vanishes like dist¹² approaching the identity

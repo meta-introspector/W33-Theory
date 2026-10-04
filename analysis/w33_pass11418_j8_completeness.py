@@ -138,7 +138,8 @@ def pseudo_reflection_test(starts=150, seed=11418):
 
 def identity_asymptotics(rays=3, betas=(1.0, 0.6, 0.4, 0.25), seed=4):
     """why the ratio test cannot bound J_8 below near the identity: on pseudo-reflections (Pass 11419)
-    J_8(1 + lam P) = |lam|^12 (252 Delta_6 - 24 |lam|^2 Delta_7 + |lam|^4 Delta_8), so J_8 / (|lam|^12 Delta_6) -> 252,
+    J_8(1 + lam P) = |lam|^12 [252 Delta_6 - 24 |lam|^2 (7 Delta_6 - Delta_7) + |lam|^4 (28 Delta_6 - 8 Delta_7 + Delta_8)]
+    (corrected in Pass 11435), so J_8 / (|lam|^12 Delta_6) -> 252,
     while the distance to the reversible set is only O(|lam|): every witness vanishes like dist^12 there"""
     import w33_pass11419_spurious_family as S
     Cl = P7.clifford_group(3)

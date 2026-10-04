@@ -842,6 +842,24 @@ $\rho_{(8,8)}$ is not an identity. \tierT\,\tierC\ (\cert{w33\_pass11418\_j8\_co
 \cert{w33\_pass11419\_spurious\_family.py}, \cert{w33\_pass11420\_magic\_axis\_rules.py},
 \cert{w33\_pass11421\_four\_qutrits.py}, \cert{w33\_pass11422\_depth5\_exact.py})
 
+The $T$-odd invariant of a qutrit state is a chirality of its mutually unbiased bases. With $p_s=\lvert\langle s|\psi\rangle\rvert^2$ over
+the twelve stabiliser states, the unique odd invariant of bidegree $(6,6)$ is the signed average
+$h_6(\psi)=\frac1{432}\sum_g\operatorname{sgn}(g)\,p_{ga}^3p_{gb}^2p_{gc}$ over the extended Clifford group, with $a,b,c$ in three
+different bases, and $\Delta_6=349920\,h_6^2$; an ordered triple of bases and its reverse are inequivalent under the Clifford group,
+and complex conjugation reverses it. On the pseudo-reflection component of $J_6$'s blind spot the degree-eight witness obeys the
+exact law $J_8=\lvert\lambda\rvert^{14}[24\Delta_7+\lvert\lambda\rvert^2(\Delta_8-8\Delta_7)]$ (correcting the expansion displayed earlier), positive for
+every phase because $\Delta_7>0$ and $\Delta_8/\Delta_7\ge3.76$ on every sampled point; $J_8$ is positive on the generic component too.
+The magic-axis law has a proved grading behind it --- when $M^2z_1=z_1$ the Pauli $W(z_1+Mz_1)$ commutes with $V_MT_1$ and the
+frames it grades nontrivially are exactly the ones the law calls violating (proved); that they do violate is verified, not
+proved, now on every conjugacy class of $\mathrm{Stab}(z_1)\subset\mathrm{Sp}(8,3)$ that the decider reaches ($97.6\%$ of the group by
+class size), without exception. Each magic gate offers
+only $216/27=8$ effective Clifford choices, because the $27$ Cliffords $\kappa$ with $T\kappa T^{-1}$ Clifford can be pushed
+through; this explains the powers $2^{3k}$ in the denominators and yields the exact reversible fractions $20327/131072$ and
+$353927/3145728$ at depths six and seven, with the denominator law $2^{3k-1}3^{[k\ \mathrm{odd}]}$ intact through $k=7$. At four
+qutrits the excess of $437/3276$ over $1/8$ disappears cell by cell: it lived in the same-line cell, which falls from
+$77/342$ to $0.14$. \tierT\,\tierC\ (\cert{w33\_pass11433\_magic\_axis\_law.py}, \cert{w33\_pass11434\_h6\_explicit.py},
+\cert{w33\_pass11435\_j8\_positivity.py}, \cert{w33\_pass11436\_depth\_reduction.py}, \cert{w33\_pass11437\_four\_qutrit\_cells.py})
+
 All of this is one law.
 
 \begin{result}{Theorem 4.8 (the intrinsic arrow for every number of qutrits) \hfill \tierT}

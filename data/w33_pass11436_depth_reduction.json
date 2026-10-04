@@ -1,0 +1,86 @@
+{
+ "pass_id": 11436,
+ "K_order": 27,
+ "coset_reps": 8,
+ "exact": {
+  "1": {
+   "reduced_words": 216,
+   "reversible": 198,
+   "reversible_fraction": "11/12",
+   "denominator": 12,
+   "denominator_factorisation": "2^2 * 3^1",
+   "min_overlap_reversible": 2.9999999999999973,
+   "max_overlap_violating": 2.5320888862379567
+  },
+  "2": {
+   "reduced_words": 1728,
+   "reversible": 1026,
+   "reversible_fraction": "19/32",
+   "denominator": 32,
+   "denominator_factorisation": "2^5 * 3^0",
+   "min_overlap_reversible": 2.999999999999995,
+   "max_overlap_violating": 2.5320888862379562
+  },
+  "3": {
+   "reduced_words": 13824,
+   "reversible": 6246,
+   "reversible_fraction": "347/768",
+   "denominator": 768,
+   "denominator_factorisation": "2^8 * 3^1",
+   "min_overlap_reversible": 2.9999999999999933,
+   "max_overlap_violating": 2.8177877312704562
+  },
+  "4": {
+   "reduced_words": 110592,
+   "reversible": 33642,
+   "reversible_fraction": "623/2048",
+   "denominator": 2048,
+   "denominator_factorisation": "2^11 * 3^0",
+   "min_overlap_reversible": 2.999999999999993,
+   "max_overlap_violating": 2.9653095085823007
+  },
+  "5": {
+   "reduced_words": 884736,
+   "reversible": 198054,
+   "reversible_fraction": "11003/49152",
+   "denominator": 49152,
+   "denominator_factorisation": "2^14 * 3^1",
+   "min_overlap_reversible": 2.999999999999991,
+   "max_overlap_violating": 2.9653095085823007
+  },
+  "6": {
+   "reduced_words": 7077888,
+   "reversible": 1097658,
+   "reversible_fraction": "20327/131072",
+   "denominator": 131072,
+   "denominator_factorisation": "2^17 * 3^0",
+   "min_overlap_reversible": 2.99999999999999,
+   "max_overlap_violating": 2.978711148407654
+  },
+  "7": {
+   "reduced_words": 56623104,
+   "reversible": 6370686,
+   "reversible_fraction": "353927/3145728",
+   "denominator": 3145728,
+   "denominator_factorisation": "2^20 * 3^1",
+   "min_overlap_reversible": 2.999999999999989,
+   "max_overlap_violating": 2.9986052715859692
+  }
+ },
+ "ratios": [
+  0.6477272727272727,
+  0.7609649122807017,
+  0.6732708933717579,
+  0.735888175494917,
+  0.6927769699172953,
+  0.7254862170184155
+ ],
+ "two_step_rates": [
+  0.7020667541428858,
+  0.7157761705420135,
+  0.7038835765502529,
+  0.7140072691628114,
+  0.7089429759457239
+ ],
+ "denominator_law_2^(3k-1)3^[k odd]": true
+}

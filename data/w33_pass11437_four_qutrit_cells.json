@@ -1,0 +1,71 @@
+{
+ "pass_id": 11437,
+ "n3_control": {
+  "sampled_cells": {
+   "collinear, different lines": {
+    "good": 901,
+    "bad": 116
+   },
+   "same line, other": {
+    "good": 365,
+    "bad": 109
+   },
+   "same line, M^2 z1 = -z1": {
+    "good": 6
+   },
+   "same line, M^2 z1 = z1": {
+    "bad": 3
+   },
+   "non-collinear": {
+    "good": 1316,
+    "bad": 184
+   }
+  },
+  "estimate": {
+   "collinear_bad_fraction": 0.152,
+   "noncollinear_bad_fraction": 0.12266666666666666,
+   "P_estimate": 0.13337362637362637,
+   "stderr": 0.0064276045483088705,
+   "shares": {
+    "collinear": "30/91",
+    "noncollinear": "243/364"
+   }
+  },
+  "exact": {
+   "collinear": "65/432",
+   "noncollinear": "10/81",
+   "P": "437/3276"
+  }
+ },
+ "n4": {
+  "sampled_cells": {
+   "collinear, different lines": {
+    "bad": 250,
+    "good": 1747,
+    "undecided": 1
+   },
+   "same line, other": {
+    "bad": 140,
+    "good": 861
+   },
+   "same line, M^2 z1 = -z1": {
+    "good": 1
+   },
+   "non-collinear": {
+    "good": 2617,
+    "bad": 382,
+    "undecided": 1
+   }
+  },
+  "estimate": {
+   "collinear_bad_fraction": 0.1300433477825942,
+   "noncollinear_bad_fraction": 0.12737579193064355,
+   "P_estimate": 0.1283774977838141,
+   "stderr": 0.0045451748863807855,
+   "shares": {
+    "collinear": "273/820",
+    "noncollinear": "2187/3280"
+   }
+  }
+ }
+}

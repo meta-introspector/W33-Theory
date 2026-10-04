@@ -1,0 +1,35 @@
+{
+ "pass_id": 11435,
+ "pseudo_reflection_component": {
+  "points": 195,
+  "max_abs_Delta6": 1.7832957333041577e-15,
+  "min_Delta7": 9.523005994882539e-11,
+  "min_Delta8_over_Delta7": 3.7647062166121494,
+  "condition_holds_everywhere": true,
+  "max_law_rel_err": 1.1101884000693337e-06,
+  "min_J8_at_beta_pi": 2.971526737383101e-05
+ },
+ "generic_component": {
+  "points": 24,
+  "min_J8": 0.00013239857790381393,
+  "median_J8": 0.11363663028849658
+ },
+ "small_distance": [
+  {
+   "delta": 0.1,
+   "starts": 40,
+   "double_J8": 4.496541805565357e-09,
+   "dist": 0.1040337139050203,
+   "mpmath_J8": "0.0000000044976095964135059721350808835866911221827602118952",
+   "mpmath_positive": true
+  },
+  {
+   "delta": 0.2,
+   "starts": 40,
+   "double_J8": 9.795860876238294e-06,
+   "dist": 0.19999994282182748,
+   "mpmath_J8": "0.0000097958611326694887060389748210589641282087490482679",
+   "mpmath_positive": true
+  }
+ ]
+}
