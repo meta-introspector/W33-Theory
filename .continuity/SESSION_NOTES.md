@@ -3,7 +3,7 @@
 > **Collaborative workspace for you and AI**
 
 ## 🎯 Session Goals
-- 2026-10-04 current goal: complete and publish the requested Passes11428-11432 five-front packet; retain native-source, measure, gravity, vacuum and correction boundaries.
+- 2026-10-04 current goal: validate and publish all five Passes11438-11442 follow-ups; preserve old-action obstruction, changed curved action, imported Abelian theorem, supplied renormalization and uncompiled recovery boundaries.
 
 
 ## 💡 Key Decisions Made
@@ -1569,3 +1569,32 @@ Final11428–11432 publication gate: all five producer fronts and nineteen indep
 
 ### Publication receipt —d173956f0
 GitKraken committed the seven owned11428–11432 artifacts asd173956f0. GitKraken push exposed the known local/upstream branch-name mismatch; the needed explicit HEAD:master refspec is not exposed, so the narrow shell fallback pushed to origin-https/master. Fresh GitKraken fetch/log verifiesd173956f0 on master. All five producer fronts and nineteen independent regressions PASS; full four-file intake clean; targeted guards, arithmetic selftest and compilation PASS; complete result index regenerated. Native CP transfer has explicit extra-field/stiffness/endpoint data; local measure is not global reconstruction; normal-stationary gravity retains centroid equations; loop phases distinguish fixed/covariant sources and the radial background is not stationary; flagged correction reports accepted-Pauli rates separately from rejected leakage. Original checkout/main paper and unrelated decision stores preserved.
+
+
+## Passes11433-11437 execution
+- Reservation2fbe9aa28 published before computation, after integrating3daf05782 and57af3f9d8.
+- Five producer sections PASS; twelve independent regressions PASS. Full intake/index refresh in flight.
+- Exact finite-stiffness runaway invalidates only that extension of11428. Bounded coercive replacement proves finite minimum existence; minimizing324-field witness and Hessian still open.
+- Common native-pair orbit rank86 leaves70 relative directions.
+- Explicit charged admissibility, odd-charge multiplicities and L34 unit flux; global current implementation and non-Abelian measure remain open.
+- Changed geodesic-curved action satisfies all15 interior equations, with three positive normal Hessian modes and twelve exact center-displacement null directions. No global4D perfect action/physicalCC claim.
+- Running radial slice uses supplied stationarity/curvature/energy renormalization conditions; full joint vacuum and fundamental RG remain open.
+- Complete deterministic CPTP recovery for28 one-/two-erasure supports; native synthesis, detection/reset and routed noise remain open. A80 paths index supplied independent cell copies.
+- Original parallel checkout and unrelated dirty decision stores preserved.
+
+- Namespace reconciliation: earlier2fbe9aa28 was published before parallel2c25c12cd reused11433-11437. Codex voluntarily moved its scientific packet to11438-11442, reserved/published atafa5402d3, preserving both tracks. Obsolete index job was canceled before renaming; regenerate under final names.
+
+## Final11438-11442 candidate update
+- Additional supplied-action all324-field optimization and full324x324 Hessian retained in the certificate; analytic gradient helper is reproducible.
+- Candidate gradient norm1.32e-6, nonzero CP flux.234 positive normal modes, four unresolved soft modes; individual unrelaxed line probes are positive and approximately quartic. Coupled relaxed quartic stability and global minimizing status remain open.
+- Common compact orbit rank86 has no continuous stabilizer: do not treat this as an already constructed Standard Model gauge vacuum; preserving an observed unbroken gauge subgroup needs a separate model/map.
+- Thirteen independent regressions and final five-section canonical replay are undergoing final intake/index checks.
+
+- Additional exact routing resource audit: sum(data-column weights times routed CNOT cost)=192; six data passes plus36 flag gates gives1836 compiled CNOTs, conditional two data passes gives2220. At107635 ticks each, CNOT-only conditional cost=238949700; native preparation/readout/recovery and during-pulse noise are excluded. This is supplied-copy architecture accounting, not a threshold.
+
+##11438-11442 final validation
+- Full five-file audit_batch intake clean: no rediscovery collisions, no forced arithmetic or certified code-parameter contradictions; refreshed RESULTS_INDEX under the final namespace.
+- Thirteen independent regressions PASS after adding the variational lower-bound control; syntax and arithmetic selftest PASS.
+- Late variational implication: every tilt-zero state has energy>=-5/8, while the trial has-2.935743239533. Coercivity therefore forces native CP order and pin flux nonzero at every global minimum of the supplied replacement action. Candidate global minimizing status and four coupled soft modes remain unresolved. Named CP/gauge group only.
+- Producer/report/test scope additions have identical before/after exact index token sets, so the completed full index remains current. Targeted guards rerun clean.
+- Eight owned science/documentation artifacts prepared for master publication; decision JSON/JSONL remain unstaged to preserve mixed preexisting changes.
