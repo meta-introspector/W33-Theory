@@ -3,7 +3,7 @@
 > **Collaborative workspace for you and AI**
 
 ## 🎯 Session Goals
-- 2026-10-04 current goal: validate and publish11466-11470: native D4 stationary stratum and relaxed soft controls, admissible charge sectors, simultaneous Lorentz frustum equations, exact port-minimal mediators with retained determinants, and complete relay noise channels.
+- 2026-10-04 current goal: validate and publish11471-11475: native integer frame dictionary, admissible patch connection, inhomogeneous Levi wave controls, omitted fermion loop matching, and native leakage masks/full decoded dissipative marginals.
 
 
 ## 💡 Key Decisions Made
@@ -1699,3 +1699,17 @@ GitKraken committed the seven owned11428–11432 artifacts asd173956f0. GitKrake
 - GitKraken handled all exposed operations. Its push tool lacks the required upstream refspec for this differently named branch; the narrow HEAD:master fallback published without force. Original checkout and parallel work preserved.
 - Constructed progress is exact integer/rational port compression with retained dark determinant, simultaneous restricted Lorentz equations, and full noisy logical channels; numerical D4 and near-flat soft evidence remain uncertified as exact physical vacuum selection. Local chiral measure, W33-derived spacetime/couplings, UV completion and physical leakage/recovery remain open.
 - Independent next targets: exact native-to-Albert D4 intertwiner and four-soft-mode symmetry map; spatially local all-charge current within each admissible sector; inhomogeneous Lorentz dynamics with an actual W33 geometry map; UV matching/completion of the active96-fermion realization including discarded-loop effects; leakage-sector controls and a decoded dissipative relay channel.
+
+### 2026-10-04 - Passes11471-11475, reservation c630384c2
+
+Five branches have executable witnesses. Integer native frame fixing gives28 generators and invariant1+1+1+8+8+8 blocks. A signed Gaussian-rational carrier map now intertwines its compact algebra with actual clock Albert frame derivations, verified by denominator-cleared integer product identities. Numerical stationary-vacuum conjugation remains open.
+
+A radial overlap connection is integrable on an explicitly admissible patch; spatial locality/gauge reconstruction remain open. Inhomogeneous Levi dynamics verifies energy/CFL/support and cites prior11389/4045. Scalar/gauge loop operators retain876 discarded fermions. Grouped160-edge phases preserve the12-cell and enable logical/leakage mixing and one-cell control with supplied addressing. Full decoded dissipative marginals improve weak damping but degrade stronger damping; correlated two-block recovery and threshold remain open.
+
+Exploratory mixed I6(Phi+t Psi) soft Jacobian singular values were about[1.20e-4,4.02e-5,5.76e-6,5.45e-7] for t=1,-1,i,2,-2,2i. This provisional scratch result does not classify physical moduli.
+
+All producer sections PASS after carrier addition. Final nine-regression replay and refreshed full intake pending. Mixed decision stores remain unstaged.
+
+Further11471 closure: the same stored Gaussian-rational map matches the entire native signed cubic to the actual clock Albert determinant. All27^3 coefficients agree after multiplying by12, in integer arithmetic. Physical real-form selection and stationary-vacuum conjugation remain open. The refreshed frame-only intake completed clean before this addition; a final full cubic-inclusive intake is running.
+
+Final cubic-inclusive producer PASS; nine independent regressions PASS in65.17s. Syntax clean, forced-arithmetic scan zero and selftest PASS. Full final intake in certificate/guard phase after refreshing the index. Scientific files are frozen for publication.
