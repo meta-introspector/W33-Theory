@@ -1,9 +1,9 @@
-# Session Notes - 2026-08-08
+# Session Notes - 2026-10-04
 
 > **Collaborative workspace for you and AI**
 
 ## 🎯 Session Goals
-- 2026-08-08 current goal: finish and validate the Passes 4324-4334 chamber Hecke and audited-corrections packet while preserving exact theorem, retraction, and open-boundary language.
+- 2026-10-04 current goal: complete and publish the requested Passes11428-11432 five-front packet; retain native-source, measure, gravity, vacuum and correction boundaries.
 
 
 ## 💡 Key Decisions Made
@@ -1552,3 +1552,17 @@ Final11423–11427 validation: full four-file intake clean (zero rediscovery col
 
 ### Publication receipt —31ba98721
 GitKraken committed the seven owned11423–11427 science artifacts as31ba98721. GitKraken push exposed the known local/upstream branch-name mismatch; its explicit HEAD:master refspec is not exposed by the tool, so the narrow shell fallback pushed to origin-https/master. Fresh GitKraken fetch/log verifies31ba98721 on master. Five producer fronts and seventeen independent regressions PASS; full four-file intake clean, arithmetic selftest and compilation PASS, complete result index regenerated. Physical chiral measure, generic curved-star constraints, common microscopic action/UV completion, vacuum protection and fault tolerance remain open. Original parallel checkout and main paper preserved. Continuity decision stores remain unstaged.
+
+
+### 2026-10-04 — Passes11428–11432: execute all five again
+- Integrated remote inventoryfdccffd97 with GitKraken; reservation8e8bfdcb3 published before computation. Empty reservation and explicit HEAD:master refspec are narrow missing-tool fallbacks; normal science commits use GitKraken. Original parallel checkout and main paper preserved.
+- Native CP transfer: exact integer Cartan Gram/cubic clock identities block the tested single-field contraction algebra. A second actual81-field on the11384 native orbit supplies C=Phi^T Psi*/g0, positive full-rank U/B pins and CP-even stiff-orbit alignment. q=.0750968582; endpoint-matched cubic8.96974e-23; actual rank-nine colour Ward checks pass. Earlier11326 owns engineered noncommuting flavour and11384 owns native CP. Added field, stiffness, coupling and endpoint spurion are supplied; rotate D_R along with pins in common family basis changes.
+- Actual324-spinor charged Weyl projectors on supplied L=3 torus: one-family hypercharge moments1/3 cancel, finite Berry-curvature remainder scales roughly epsilon cubed. A rank162 polar local section/holonomy is built and passes gauge realization/finite differences. This is not a global local gauge-invariant measure or physical mirror selection.
+- Curved15-simplex normal-stationary action S_Regge-Lambda V: three radial equations solved, but twelve centroid equations are retained and nonzero. Boundary Schur Hessian-25.22555 agrees with re-solved finite difference-25.22569. This is restricted saddle elimination, not a perfect action or full gravity solution.
+- Fixed-source neutrino loop selects phase angles(3.06978030,3.08966561) and canonical positive masses-squared~1.01e-9/1.37e-9.45-digit arithmetic includes subtraction/Hessians; simultaneous covariant Majorana-source rotation is isospectral, so no gauge direction is lifted.237 anchored link-gradient phases are one-loop isospectral;243 cycle phases remain. Full quark/link-scalar common-modulus slice has force-306859.43: old tree background is not radiatively stationary. Full995-field vacuum/RG/counterterm mechanism remain open.
+- Exact144-carrier native CNOT takes107635 ticks, error.0131377, coherent leakage8.21018e-5. Three flagged rounds plus conditional full syndrome branch have108/132 CNOTs and certify1714 cases/476 histories with seven data/two reused ancillas. Nine-qubit hook replay and actual code states pass. Native boundary-noise Pauli simulations have explicit Wilson intervals; detected leakage is rejected, not deterministically corrected. Internal-tick CNOT noise and scalable threshold remain open.
+- All five producer sections and eighteen full-suite independent regressions PASS. Nineteenth endpoint-spurion basis control added and being verified. The first targeted launch raced the still-running file edit and loaded the previous test version; rerun follows completed edit. Arithmetic guard zero/selftest PASS; compile PASS. Full four-file intake/result-index refresh underway. Report and byte-preserving latest HTML card written, with exact token-set check showing the endpoint clarification does not invalidate the in-flight index rebuild. Publication pending; unrelated decision stores stay unstaged.
+
+Final endpoint/source control: nineteenth regression PASS, including80-digit cubic-trace equality in a second common family realization. The original dense double trace lost cancellations at the~1e-23 invariant; the replacement keeps a stricter1e-65 transformed equality and nonzero magnitude. All five producer fronts and nineteen independent regressions PASS across the verified suite and added control. Full RESULTS_INDEX rebuild completed; final certificate contradiction scan still running. No claimed gauge direction is lifted by the fixed-source loop probe.
+
+Final11428–11432 publication gate: all five producer fronts and nineteen independent regressions PASS; full four-file intake clean (no collisions, no forced arithmetic, no certified-value contradictions); arithmetic selftest and compilation PASS, complete RESULTS_INDEX regenerated. Final targeted guards clean after the nineteenth endpoint control; fresh GitKraken fetch/review shows no new remote commits. Seven owned artifacts staged, unrelated decision stores unstaged. Ready for master publication.
