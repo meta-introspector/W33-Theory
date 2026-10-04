@@ -1646,3 +1646,25 @@ GitKraken committed the seven owned11428–11432 artifacts asd173956f0. GitKrake
 - Full five-file batch intake clean after integration of e17253ab2/3e99e9d05: no collisions, forced arithmetic or certified contradictions. Syntax and arithmetic selftest pass. Late source/report additions have identical exact result-index token sets, so the rebuilt shared index remains current; targeted late guard clean.
 - Seven owned code/certificate/test/report/docs/index/session artifacts staged for master publication; mixed decisions and original checkout preserved.
 - Independent physical frontiers: explicit colour-charge intertwiner; exact relaxed soft action; local chiral current and nonzero-flux transport; Lorentzian gravity causal branches with matter force; native two-cell reset/control synthesis and relay reuse. Auxiliary reinterpretation must retain or physically justify removing the heavy determinant; full nonlinear joint vacuum remains open.
+
+
+##11461-11465 execution and boundaries
+- Current goal: execute the five physical-map follow-ups reserved3e9cc0867, validate and push to W33 master.17b4bb65b is already published; reviewed/integrated42aef6d5d inventory-only remote change.
+- Explicit native centralizer ideals, weak/hypercharge matrices and cubic colour orientation construct standard27 charge branching with zero anomaly traces. The current colour-only candidate breaks Qem.
+- Same-action photon-preserving search in15 complex coordinates per field gives a numerical su4 stationary branch: gradient6.24e-7,249 positive normal modes, four unresolved soft modes, no resolved negative mode. Its energy matches the older11438 candidate numerically; compare orbit singular-value thresholds before treating it as a new branch or a physical symmetry theorem.
+- Exact4D nonzero-flux Fourier transport, timelike-hinge Lorentz gravity-plus-scalar forces, nonlinear full-spectrum link/Majorana slice and254-pulse algebraic reset decomposition constructed. Finite EFT remains cutoff-limited; leakage pulses and environment reinitialization remain supplied.
+- Relay refinement: ideal routes factor as endpoint CNOT tensor relay identity; all105 first-route faults have zero endpoint difference under ideal reuse versus relay reset.72 residues alone do not prove harmful ideal reuse.
+- Full producer replay and rank-sensitivity supplement in progress. Preserve original checkout and unstaged mixed Continuity decisions.
+
+##11461-11465 validated scientific results
+- Full five-front producer plus photon Hessian replay PASS. Final supplement uses exactly identical photon coordinates, adds cubic colour matrices and the cutoff-sensitive little-algebra/rank audit.
+- Thirteen independent regressions PASS in144.65s; syntax and forced-arithmetic selftest PASS. Five-file full intake with regenerated shared index is in progress on frozen science files.
+- Numerical orbit counts are cutoff-dependent: photon71/58/58/58, colour78/65/58/58, older86/73/58/58. Recorded prior counts reproduce; limiting stationary symmetry and gauge/normal Hessian partitions remain unproved. The photon candidate energy matches the older branch numerically; no new-energy or distinct-component claim.
+- Nonzero-flux curvature minus.129519749 and rectangle phase minus1.293370424e-5 agree in orientation; all4D Fourier modes retained. Locality/global measure remain open.
+- Publication pending clean intake; only owned seven artifacts will be staged. Mixed Continuity decision stores and original checkout remain preserved.
+
+##11461-11465 final intake and publication preparation
+- Full five-file audit_batch returned intake clean: no rediscovery collisions, no forced arithmetic and no certified-value contradictions. RESULTS_INDEX regenerated with scientific files fixed.
+- All six finite producer sections PASS; final native cubic-colour/little-algebra/rank supplement bound to identical photon coordinates. Thirteen independent regressions PASS in144.65s, syntax and arithmetic selftest PASS.
+- Seven owned artifacts prepared for master. GitKraken fetch/log shows no intervening remote commits. Mixed Continuity decision JSON/JSONL remain unstaged; original checkout preserved.
+- These finite maps do not solve physical symmetry selection, observed masses/mixing/couplings, a global local chiral measure, stationary dynamical gravity, UV completion or noisy hardware. Limiting gauge stabilizers require certified stationary strata before physical interpretation.
