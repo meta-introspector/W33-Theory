@@ -3,7 +3,7 @@
 > **Collaborative workspace for you and AI**
 
 ## 🎯 Session Goals
-- 2026-10-04 current goal: validate and publish11448-11455: execute five physical frontiers plus three additional mechanism audits, preserving all supplied-action and incomplete-physics boundaries.
+- 2026-10-04 current goal: validate and publish11466-11470: native D4 stationary stratum and relaxed soft controls, admissible charge sectors, simultaneous Lorentz frustum equations, exact port-minimal mediators with retained determinants, and complete relay noise channels.
 
 
 ## 💡 Key Decisions Made
@@ -1674,3 +1674,20 @@ GitKraken committed the seven owned11428–11432 artifacts asd173956f0. GitKrake
 - GitKraken handled fetch/status/diff/stage/commit; its push tool hit the known upstream-name mismatch, so the missing-refspec fallback pushed HEAD:master. No force push.
 - All five investigations executed as finite constructions, plus photon/Hessian/rank diagnostics. Six sections PASS,13 regressions PASS, full five-file intake clean. These do not close the TOE or certify limiting vacuum symmetries.
 - Independent next frontiers: certify stationary gauge strata at high precision or symbolically; construct an all-charge spatially local chiral measure with flux-sector transition tests; solve coupled interior Lorentzian curvature/matter equations; build a minimal mediator realization with a justified retained determinant and UV spectrum; realize leakage-sector pulse controls and audit full noisy recovery channels.
+
+
+##11466-11470 implementation and validation state
+- Reservation90957fb96 published after master7fdb9427f; remote fetch/log shows no intervening science. Original checkout and mixed decision stores preserved.
+- Five producer sections PASS. Native numerical D4: rank4,24 equal-length roots, gauge rank58 stable at1e-8 through1e-10, gradient4.40e-10,262 positive and4 unresolved normal directions. No exact stationary certificate.
+- All integer6Y charges fitL34 admissible flux links; an explicit sector path fails admissibility, as required by the known disconnected-sector theorem. Full local chiral measure remains unbuilt.
+- Imported regular two-frustum gravity/scalar model solves both lapses, interior geometry and scalar equations with nonzero deficits. Direct area derivative includes the factor2 absent from the paper displayed derivative51. G/coupling supplied, Lambda0; no W33 geometry map.
+- Exact integer/rational port restrictions have dimensions8,8,5;486->48 per quark sector.876 discarded states retain10^340(100-6phi^2)^268 determinant across both sectors. Reduced-only new theory still hasb0=-53.
+- Complete noisy relay Choi maps are independent of initial relay for state-independent Pauli faults. Amplitude damping gives Frobenius difference.174446. No hardware decoder/threshold.
+- First eight regressions PASS after correcting the independent area derivative; added soft-mode constraint/energy regression awaits supplement. Full five-file intake runs with scientific sources frozen.
+
+
+##11466-11470 final validation and publication preparation
+- All five base sections and24-sample soft supplement PASS. Ninth regression replays actual energies and soft displacements;9 tests PASS in69.61s. Syntax and forced-arithmetic selftest PASS.
+- Full five-file intake clean with background compound candidates manually read in entirety and explicitly cited. Final guard recheck returns no collisions; forced arithmetic zero. Final index regeneration follows the last citation edit.
+- Soft relaxed energy changes range-4.399e-12 to1.297e-10, hard residual up to1.733e-6 and soft residual up to3.587e-8; no exact moduli, uniform stability or physical mass claim.
+- Publication will stage seven owned artifacts: producer, report, certificate, regressions, site card, result index and these notes. Mixed decision JSON/JSONL and original checkout remain preserved.
