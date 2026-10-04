@@ -1,0 +1,147 @@
+{
+ "pass_id": 11371,
+ "det_commutator_identity_max_dev": 1.1045360507239261e-15,
+ "theorem1_max_dev": 2.914335439641036e-16,
+ "borel_cliffords": 54,
+ "clifford_J_CKM_values": {
+  "0": 54,
+  "+max": 81,
+  "-max": 81
+ },
+ "nonmonomial_cliffords_all_maximal_J": true,
+ "words": {
+  "1": {
+   "words": 216,
+   "types": {
+    "I | J_CKM=0": 18,
+    "T | J_CKM=0": 18,
+    "T | J_CKM=max": 162,
+    "TKI | J_CKM=0": 18
+   },
+   "arrow_by_flavour_cp": {
+    "0": {
+     "reversible": 36,
+     "violating": 18
+    },
+    "max": {
+     "reversible": 162
+    },
+    "other": {}
+   },
+   "borel_realised_K_or_I": 36,
+   "types_seen": [
+    "I",
+    "T",
+    "TKI"
+   ]
+  },
+  "2": {
+   "words": 5184,
+   "types": {
+    "I | J_CKM=0": 54,
+    "T | J_CKM=0": 1134,
+    "T | J_CKM=max": 1674,
+    "TKI | J_CKM=0": 108,
+    "TKI | J_CKM=max": 162,
+    "none | J_CKM=0": 1944,
+    "none | J_CKM=max": 108
+   },
+   "arrow_by_flavour_cp": {
+    "0": {
+     "reversible": 1242,
+     "violating": 1998
+    },
+    "max": {
+     "reversible": 1836,
+     "violating": 108
+    },
+    "other": {}
+   },
+   "borel_realised_K_or_I": 162,
+   "types_seen": [
+    "I",
+    "T",
+    "TKI",
+    "none"
+   ]
+  },
+  "3": {
+   "words": 124416,
+   "types": {
+    "I | J_CKM=0": 7290,
+    "T | J_CKM=0": 22194,
+    "T | J_CKM=max": 22194,
+    "T | J_CKM=other": 8748,
+    "TKI | J_CKM=0": 2592,
+    "TKI | J_CKM=max": 486,
+    "none | J_CKM=0": 16524,
+    "none | J_CKM=max": 648,
+    "none | J_CKM=other": 43740
+   },
+   "arrow_by_flavour_cp": {
+    "0": {
+     "reversible": 24786,
+     "violating": 23814
+    },
+    "max": {
+     "reversible": 22680,
+     "violating": 648
+    },
+    "other": {
+     "reversible": 8748,
+     "violating": 43740
+    }
+   },
+   "borel_realised_K_or_I": 9882,
+   "types_seen": [
+    "I",
+    "T",
+    "TKI",
+    "none"
+   ]
+  }
+ },
+ "only_subgroup_types": true,
+ "altland_zirnbauer": {
+  "1": {
+   "words": 216,
+   "az_classes": {
+    "BDI": 18,
+    "AI": 180,
+    "AIII": 18
+   },
+   "squares": {
+    "T^2 = +1": 324,
+    "C^2 = +1": 54,
+    "C^2 non-scalar": 54
+   },
+   "chiral_pairing_failures": 0,
+   "reversible_words": 198,
+   "reversible_words_with_a_reversal_squaring_to_plus_one": 198
+  },
+  "2": {
+   "words": 5184,
+   "az_classes": {
+    "BDI": 270,
+    "AI": 2808,
+    "AIII": 54,
+    "A": 2052
+   },
+   "squares": {
+    "T^2 = +1": 6804,
+    "C^2 = +1": 810,
+    "C^2 non-scalar": 2106,
+    "T^2 non-scalar": 2592
+   },
+   "chiral_pairing_failures": 0,
+   "reversible_words": 3078,
+   "reversible_words_with_a_reversal_squaring_to_plus_one": 3078
+  }
+ },
+ "two_qutrit_one_gate_chirality": {
+  "reversible, unpaired": 2599,
+  "violating, paired": 123,
+  "violating, unpaired": 151,
+  "reversible, paired": 127
+ }
+}

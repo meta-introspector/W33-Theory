@@ -798,6 +798,33 @@ never) while the half-rule and the parity exchange loosen. \tierC\ (\cert{w33\_p
 \cert{w33\_pass11358\_three\_qutrit\_mechanism.py}, \cert{w33\_pass11359\_higher\_degree\_rates.py},
 \cert{w33\_pass11360\_jarlskog\_arithmetic.py})
 
+Three corrections and sharpenings follow. First, $J_6$ is complete on every Clifford$+T$ word checked (now $1.4$ million random
+words of depth up to $20$, each decided exactly) but \emph{not} on $PU(3)$: gradient descent finds a smooth four-dimensional family
+of non-reversible ticks with $J_6=0$ (certified by $J_8>0$; one point refined until $\lVert A_3(U)-A_3(U^T)\rVert\approx10^{-14}$),
+while the same search on $J_8$ finds none, and a control at $d=5$ finds spurious zeros of $J_4$ every time. Invariants of the finite
+group $\mathrm{Cl}/\mathrm{phase}$ separate orbits in degree at most $216$, so the hierarchy is complete at some degree $t^\ast\in[4,216]$;
+we conjecture $t^\ast=4$ --- the arrow of a generic qutrit tick is a four-copy observable. Second, the witness degree $10,6,4$ for
+$d=2,3,5$ is a twisted Frobenius--Schur count: $\tau\colon f(U)\mapsto f(U^T)$ acts on the Clifford invariants inside each irrep
+$\lambda$ with trace $|\mathrm{Cl}|^{-1}\sum_C\chi_\lambda(\bar CC)$, so $J_{2t}\not\equiv0$ exactly when some $\lambda$ of degree $\le t$
+has a $\tau$-odd invariant; for qubits this happens first at spin $5=E+2T_1+T_2$ of the octahedral group, and for $d=7$ the count
+predicted degree $4$ before it was checked. Third, the substrate's discrete symmetries $\{1,{}^T,\bar{\ },{}^\dagger\}$ are the
+Altland--Zirnbauer symmetries $T$, $C$, $S=TC$ of the Floquet operator; in odd dimension $T^2=C^2=+1$, so a tick lies in one of
+the classes $\mathrm A,\mathrm{AI},\mathrm{AIII},\mathrm D,\mathrm{BDI}$, and the arrow is its class: every one-gate violator of a
+qutrit is chiral (AIII), class $\mathrm D$ never occurs on words, and at two qutrits $151$ of $274$ sampled one-gate violators are
+not chiral at all. Read as a mixing matrix between the clock basis and its image, a tick has flavour Jarlskog $J_{\mathrm{CKM}}$,
+which is even under $U\mapsto U^T$ and therefore blind to the arrow; at one gate the two are exclusive (all $18$ violators have
+$J_{\mathrm{CKM}}=0$, all $162$ maximal-CP ticks are reversible). On the Clifford$+T$ walk, $\mathbb E\lvert\operatorname{tr}U_k\rvert^6=6+(3/8)^k$
+and $\mathbb E\lvert\operatorname{tr}U_k\rvert^8=23+16(3/8)^k$ exactly, and the walk approaches a unitary $t$-design at the exact rates
+$0,0,\frac38,\frac38,\frac{11}{24},\frac7{12},\frac18+\sqrt{7/32},\rho_{(8,8)}$ for $t=1,\dots,8$, with $\rho_{(8,8)}$ the largest
+root of $2592x^3-1332x^2-585x+140$; the largest irrep rate found, $\rho_{(18,0)}$ (root of $864x^3-984x^2+230x+9$, $0.781$), exceeds
+the empirical $0.72$ decay of the reversible fraction, which is therefore not a representation-theoretic rate. Finally, the
+three-qutrit one-gate fraction is exact: $2308$ orbits of the magic-axis stabiliser on $\mathrm{Sp}(6,3)$ (GAP), decided by the
+linear decider and, for $109$ high-symmetry classes, by the Weyl criterion on centraliser orbits of frames, give a violating
+fraction of exactly $\tfrac{240857}{2388204}\approx0.10085$ and a bad-class fraction of exactly $\tfrac{437}{3276}\approx0.13339$ (vs.\ $1/8$ at two qutrits). \tierT\,\tierC\
+(\cert{w33\_pass11369\_j6\_completeness.py}, \cert{w33\_pass11370\_twisted\_indicator\_degree\_law.py},
+\cert{w33\_pass11371\_flavour\_vs\_arrow.py}, \cert{w33\_pass11372\_irrep\_contraction\_rates.py},
+\cert{w33\_pass11373\_three\_qutrit\_exact\_fraction.py})
+
 All of this is one law.
 
 \begin{result}{Theorem 4.8 (the intrinsic arrow for every number of qutrits) \hfill \tierT}
