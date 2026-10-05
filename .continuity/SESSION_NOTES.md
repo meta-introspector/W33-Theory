@@ -3,7 +3,7 @@
 > **Collaborative workspace for you and AI**
 
 ## 🎯 Session Goals
-- 2026-10-04 current goal: validate and publish11476-11480: numerical vacuum-adapted isotope, determinant/cover controls, native omitted-loop feedback, Ward-compatible connection with locality audit, and full correlated two-block recovery.
+- 2026-10-04 current goal: validate and publish11481-11485: finite native shape fibers, coupled cover metric action, prior-owned Yukawa portal applied to the current vacuum, support-limited Ward attempt and noisy MAP erasure recovery with native leakage controls.
 
 
 ## 💡 Key Decisions Made
@@ -1729,3 +1729,50 @@ Self-containment advisory from first intake was resolved by computing/storing th
 Final11476-11480 validation: all five sections PASS, numerical isotope and polydisc controls PASS.10 independent regressions passed in104.02s; after the graph metadata correction the changed geometry regression passed in43.06s. Second full five-file intake clean: rediscovery no collisions, forced arithmetic none, certificate vocabulary/self-containment/contradiction checks pass. RESULTS_INDEX refreshed:11002 files,15484 distinctive results. Syntax and arithmetic selftest passed. Owned source/report/certificate/test/site staged; mixed decisions stores excluded. Publication through GitKraken follows a fresh fetch/review.
 
 Publication: scientific commitfeac22865 (seven owned files) pushed to W33 master after command-scoped HTTP1.1/POST-buffer retry resolved HTTP408. GitKraken fetch/status/log used to verify remote publication. Final result: numerical actual-vacuum isotope and36-field matrix reduction; determinant/cover controls; explicit raw-loop tadpole; Ward-compatible finite connection with locality open; full correlated recovery with damping failures/shared-relay/twirl controls. No exact stationary solution, observed constants, Einstein dynamics or TOE claimed. End-of-session targets: certify common-left finite matrix deformations and remaining soft modes; select/derive a covariant causal-cover action; determine physical native mass-port/quantum matching; replace Coulomb inverse with local chiral reconstruction; channel-adapt recovery including noisy correction/leakage hardware. Mixed decisions stores remain untouched by publication.
+
+###2026-10-04 —11481–11485 completed investigations
+
+Reservationef90a0dc7. Initial remote6bc4ff928 formula refresh reviewed. Five
+producer sections PASS; ten independent regressions PASS in83.19seconds.
+Exact generic fiber ranks4/10/12 support two physical level-set directions;
+full gradients on numerical finite fibers grow, so stationary moduli stay open.
+Supplied coupled metric/scalar Hamiltonian preserves lapse constraint within
+3.3e-11; no Einstein spatial action or local gravity constraints are inferred.
+11271 owns the Yukawa zero and bar6 repair; the actual numerical vacuum portal
+gives a full81-mass matrix and two loop shape tadpoles with free spurions and
+matching. Local anomaly flows retain finite-support Ward/gauge defects.
+MAP noisy syndrome inference improves unconditional fidelity at5% readout from
+0.715757 to0.865219 with failures retained as erasures and ideal verification.
+Actual edge phase leaks0.00124876; noiseless echo is a supplied control.
+
+Parallel940713d44/d114ce621/fb0210d40 arrived during validation. Read the five
+new reports and old depth-threshold corrections. Magic-axis nondegenerate
+proof, numerical blind-spot refinement and tightened sampled decay are separate
+from this packet. A finite n=5 excess over1/8 cannot by itself refute convergence
+to1/8 as n tends to infinity; do not import that wording as a theorem.
+Current work must finish full intake and publication; mixed decision stores
+remain unstaged. Existing exact vacuum, local chiral measure, observed masses,
+physical gravity and noisy hardware realization boundaries are preserved.
+
+Final11481 refinement: the common-left moment-Jacobian Gram has two weak
+positive values7.4594e-9/8.2564e-9, two strong values0.395442/0.435577 and a
+four-dimensional kernel containing two gauge directions. The6.13e-10 moment
+curvature term prevents an exact mass reading. Eleven owned independent
+regressions pass in107.15seconds, including full-native derivatives of the weak
+pair. Earlier combined16-test suite passes in128.10seconds. First21-file owned
+plus parallel intake completed clean, with three lexical rediscovery candidates
+in parallel magic-axis/depth files (four-qutrit D4 variable versus root-system
+D4; overlap deficit versus unrelated CGLMP deficit). The late restoring
+refinement is a substantive change, so a final five-owned-file intake is required.
+
+Final publication gate11481-11485: complete producer replay PASS in all five
+sections; source hashes verified. Eleven owned regressions PASS107.15seconds;
+six parallel regressions passed in the earlier combined16-test run. Final
+five-owned-file intake CLEAN: no rediscovery collisions, forced arithmetic,
+unknown vocabulary/self-containment findings or certified-value contradictions.
+The final index refresh completed under WSL, then its frozen-corpus SHA256
+bd378578269d6e65f15daf2cc90395a9cbe1fbe8fdf344506243712b86f49378
+was retained while the remaining harness phases completed; the redundant
+native census was stopped. Index covers11014files/15508distinctive results.
+Stage only the seven owned files; preserve mixed decision stores. Scientific
+publication and remote verification are now the remaining actions.
