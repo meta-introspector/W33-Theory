@@ -3,7 +3,7 @@
 > **Collaborative workspace for you and AI**
 
 ## 🎯 Session Goals
-- Execute and publish11506-11510: exact native stationary controls, identified SM Yukawa blocks and heavy matching, certified metric shape, nonlinear finite Ward primitive, and native correlated recovery with noisy verification. Reservation09cc50896; baseca6281f40 includes parallel11511-11515 reservation. Preserve unrelated decision stores and the original parallel workspace.
+- Finish publication of11516-11520: full native CP normal audit, typed adjoint flavor split, complete supplied metric stress, uniformly local relative projector current, and quantum-fidelity-optimal native Pauli decoding. Reservation948b8e23d; reviewed remote740dcbf17 and parallel11511-11515 reservation. Preserve original parallel workspace and mixed decision stores.
 
 ## 💡 Key Decisions Made
 <!-- Important choices during this session -->
@@ -1870,3 +1870,54 @@ and two same-packet report/producer references; no independent novelty
 collision. Intake exits0, no forced-arithmetic findings and no certified
 value contradiction. Final20 regressions and all five producer sections
 PASS. No science changes after that replay. Ready for seven-file commit.
+
+2026-10-05 — Passes11516-11520 final validation packet
+
+Five producer functions executed and PASS; their source-bound sections
+assembled into the final certificate with five canonical input hashes and
+frozen producer SHA256. Fifteen final independent regressions PASS in135.77s
+with Linux user-site dependencies. Earlier run had14PASS and one structural
+Sympy equality failure; both equivalent factored/expanded comparisons are
+now tested by exact zero difference. No scientific value changed for these
+fixes. Both sources parse and current producer digest verifies.
+
+Full324 Hessian audit finds58 numerical gauge directions and266 normals,
+262 separated hard modes and four unresolved soft modes. No interval CP
+vacuum theorem. Exact single-adjoint Ward identity preserves down/lepton
+relation; two insertions give Clebsch ratio-9 in the named subclass, with
+sextets and targets supplied. One-hop metric map is exactly rank4/blind to
+two directions;324 actual two-hop paths give rank6, including in a second
+basis. Separate supplied flux/winding completion of11508 has exact local
+six-metric lower Hessian diag(6-237gamma/4,1,3,1,1,1), gamma1/1000, and
+coercivity with a tuned rational counterterm. Physical spin/Einstein/CC
+remain open. The projector commutator current has volume-independent
+weak-field locality from free Wilson gap>=1, but endpoint/reference covariance
+is not a canonical reference-free gauge-invariant chiral measure.
+
+All256 logical entries reproduce native11480 baseline, retaining untwirled
+cross-block coherence. Actual finite Pauli decision maps improve complete
+flagged fidelity0.814847->0.881366 (zero readout),0.745316->0.804408 (1percent).
+A named physical paired depolarizing layer plus postdecode Z faults gives
+0.876265/0.799052. Full circuit-level extraction/ancilla faults and arbitrary
+coherent recovery are open. Classical syndrome MAP is not quantum-fidelity
+optimal. Numerical Choi/roundoff evaluations are not interval certificates.
+
+Four-file intake exits0 with no forced arithmetic or certified-value
+contradiction. Initial alpha/index lexical candidates were clarified by
+logical_left/right names; no formulas changed. Current corpus index refreshed
+11048 files/15560 distinctive results. Final fresh-index guard output is
+recorded in the publication receipt. Only seven owned files are staged;
+shared decision stores remain excluded. No parallel paper changes.
+
+Five independent future targets: construct triality/Peirce mass blocks for a
+validated normal/Morse-Bott CP certificate; select adjoint/sextet vacua and
+realistic flavor; identify physical spinors and dynamics in the stabilized
+metric completion; remove the projector current's flat-reference dependence
+and meet measure integrability; optimize coherent quantum recovery with
+actual ancilla/extraction fault circuits.
+
+Final fresh-index guard: only11475/11480/11510 ownership sequence shared
+between this packet's producer and report; no external novelty candidate.
+Final site id unique, producer SHA verified,15 final regressions PASS.
+Fresh GitKraken fetch found no new remote commits before publication.
+Ready to commit seven owned files without shared decision stores.
