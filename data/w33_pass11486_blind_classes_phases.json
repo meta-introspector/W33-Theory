@@ -1,0 +1,90 @@
+{
+ "pass_id": 11486,
+ "n2": {
+  "blind classes": 168,
+  "e = 3Q + s^3": 168,
+  "l_of_v_zero": 168,
+  "l_prop_Bv": 168,
+  "B|R nondegenerate": 168,
+  "F' true": 168,
+  "theorem sound": 168,
+  "F' fully proved": 168,
+  "Lemma 2 criterion = exhaustive verdicts": 168,
+  "every admissible L fixes v": 168
+ },
+ "n2_partial_hyperplane": {
+  "partial hyperplane classes": 48,
+  "c = omega^Q tau~_q(s) with Q quadratic, s affine": 48,
+  "l prop B(v,.)": 48,
+  "B|R nondegenerate": 48,
+  "theorem sound": 48,
+  "F' fully proved": 48
+ },
+ "n3": {
+  "counts": {
+   "blind orbits": 33,
+   "e = 3Q + s^3": 33,
+   "l(v) = 0": 33,
+   "l prop B(v,.)": 24,
+   "F' fully proved": 24,
+   "hypotheses fail": 9,
+   "decided": 21,
+   "theorem sound on decided": 21
+  },
+  "mass_fraction_of_blind": {
+   "F' fully proved": 0.49087099670757256,
+   "hypotheses fail": 0.5091290032924274
+  }
+ },
+ "n2_transvection": {
+  "Pass 11457 partial classes": 24,
+  "transvection, Mz1 = z1, Wall q1 != 0": 24,
+  "F' true (theorem sound)": 24
+ },
+ "n4_unreached": {
+  "count": 317,
+  "classes": {
+   "fully proved by Pass 11457": 44,
+   "fully proved by Pass 11487": 70,
+   "blind (q = 0): fully proved by Pass 11486": 68,
+   "outside the phase theorems (z1 not in R_M, Rad != 0)": 43,
+   "partial hyperplane (q != 0): fully proved by Pass 11486": 90,
+   "transvection: fully proved by Pass 11486": 2
+  },
+  "mass_fraction": {
+   "fully proved by Pass 11457": 0.2544553774694054,
+   "fully proved by Pass 11487": 0.1368213890122733,
+   "blind (q = 0): fully proved by Pass 11486": 0.31198334928064503,
+   "outside the phase theorems (z1 not in R_M, Rad != 0)": 0.0989132902016377,
+   "partial hyperplane (q != 0): fully proved by Pass 11486": 0.19782658949178417,
+   "transvection: fully proved by Pass 11486": 4.544254387895958e-09
+  }
+ },
+ "n3_all_theorems": {
+  "classes": {
+   "fully proved by Pass 11457": 38,
+   "transvection: fully proved by Pass 11486": 2,
+   "fully proved by Pass 11487": 76,
+   "outside the phase theorems (z1 not in R_M, Rad != 0)": 18,
+   "partial hyperplane (q != 0): fully proved by Pass 11486": 28,
+   "partial hyperplane (q != 0): hypotheses fail": 12,
+   "blind (q = 0): fully proved by Pass 11486": 24,
+   "blind (q = 0): hypotheses fail": 9
+  },
+  "mass_fraction": {
+   "fully proved by Pass 11457": 0.21193098104963673,
+   "transvection: fully proved by Pass 11486": 9.525986892242037e-06,
+   "fully proved by Pass 11487": 0.42386196209927346,
+   "outside the phase theorems (z1 not in R_M, Rad != 0)": 0.03652263374485597,
+   "partial hyperplane (q != 0): fully proved by Pass 11486": 0.03602728242645938,
+   "partial hyperplane (q != 0): hypotheses fail": 0.037037037037037035,
+   "blind (q = 0): fully proved by Pass 11486": 0.12498094802621551,
+   "blind (q = 0): hypotheses fail": 0.12962962962962962
+  },
+  "soundness": {
+   "decided": 102,
+   "sound": 102
+  },
+  "fully_proved_mass": 0.7968106995884774
+ }
+}

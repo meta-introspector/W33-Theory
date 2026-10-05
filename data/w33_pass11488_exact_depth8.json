@@ -1,0 +1,86 @@
+{
+ "pass_id": 11488,
+ "levels": {
+  "1": {
+   "distinct_operators": 216,
+   "P": "11/12",
+   "matches_known": true,
+   "seconds": 0.1
+  },
+  "2": {
+   "distinct_operators": 1080,
+   "P": "19/32",
+   "matches_known": true,
+   "seconds": 0.2
+  },
+  "3": {
+   "distinct_operators": 5616,
+   "P": "347/768",
+   "matches_known": true,
+   "seconds": 1.0
+  },
+  "4": {
+   "distinct_operators": 29376,
+   "P": "623/2048",
+   "matches_known": true,
+   "seconds": 5.6
+  },
+  "5": {
+   "distinct_operators": 166752,
+   "P": "11003/49152",
+   "matches_known": true,
+   "seconds": 32.3
+  },
+  "6": {
+   "distinct_operators": 959040,
+   "P": "20327/131072",
+   "matches_known": true,
+   "seconds": 222.3
+  },
+  "7": {
+   "P": "353927/3145728",
+   "P_float": 0.11251036326090495,
+   "matches_known": true,
+   "seconds": 2834.1
+  },
+  "8": {
+   "P": "665275/8388608",
+   "P_float": 0.079306960105896,
+   "matches_known": null,
+   "seconds": 2834.1
+  }
+ },
+ "overlap_gap": {
+  "min_reversible": 2.9999999999999885,
+  "max_violator": 2.9991560928551637
+ },
+ "ratios": [
+  0.6477272727272727,
+  0.7609649122807017,
+  0.6732708933717579,
+  0.735888175494917,
+  0.6927769699172953,
+  0.7254862170184155,
+  0.7048858239128408
+ ],
+ "denominators": [
+  12,
+  32,
+  768,
+  2048,
+  49152,
+  131072,
+  3145728,
+  8388608
+ ],
+ "denominator_law_2^(3k-1)3^[k odd]": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+ ]
+}

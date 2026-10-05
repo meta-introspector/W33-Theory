@@ -1,0 +1,61 @@
+{
+ "pass_id": 11487,
+ "n2": {
+  "z1 in R_M classes": 920,
+  "hyperplane classes": 752,
+  "sound": 752,
+  "F' true on class (all omega(a,v)!=0 frames violate)": 752,
+  "fully certified": 704,
+  "dim(Rad cap K) = 0": 704,
+  "no level hyperplane (q = 0: magnitude-blind)": 168,
+  "partly certified": 48,
+  "dim(Rad cap K) = 1": 48
+ },
+ "n3_soundness": {
+  "undecided": 40,
+  "checked": 76,
+  "sound": 76,
+  "F' true on class": 76
+ },
+ "n3_orbits": {
+  "set": "n=3 orbits in the two bad cells (Pass 11373)",
+  "classes": {
+   "fully covered by Pass 11457": 38,
+   "partial (Pass 11457), extension n/a": 20,
+   "fully covered by extension": 76,
+   "extension partial (dim Rad cap K = 1)": 36,
+   "no level hyperplane (q = 0: magnitude-blind)": 33,
+   "extension partial (dim Rad cap K = 2)": 4
+  },
+  "mass_fraction": {
+   "fully covered by Pass 11457": 0.21193098104963673,
+   "partial (Pass 11457), extension n/a": 0.03653215973174821,
+   "fully covered by extension": 0.42386196209927346,
+   "extension partial (dim Rad cap K = 1)": 0.07254991617131534,
+   "no level hyperplane (q = 0: magnitude-blind)": 0.25461057765584516,
+   "extension partial (dim Rad cap K = 2)": 0.00051440329218107
+  }
+ },
+ "n4_unreached": {
+  "set": "n=4: the 317 Stab(z1) classes the decider could not reach (Pass 11433)",
+  "classes": {
+   "fully covered by Pass 11457": 44,
+   "fully covered by extension": 70,
+   "no level hyperplane (q = 0: magnitude-blind)": 68,
+   "partial (Pass 11457), extension n/a": 45,
+   "extension partial (dim Rad cap K = 2)": 30,
+   "extension partial (dim Rad cap K = 1)": 56,
+   "extension partial (dim Rad cap K = 3)": 4
+  },
+  "mass_fraction": {
+   "fully covered by Pass 11457": 0.2544553774694054,
+   "fully covered by extension": 0.1368213890122733,
+   "no level hyperplane (q = 0: magnitude-blind)": 0.31198334928064503,
+   "partial (Pass 11457), extension n/a": 0.09891329474589208,
+   "extension partial (dim Rad cap K = 2)": 0.04114695109116928,
+   "extension partial (dim Rad cap K = 1)": 0.15662074486374775,
+   "extension partial (dim Rad cap K = 3)": 5.889353686713161e-05
+  },
+  "count": 317
+ }
+}

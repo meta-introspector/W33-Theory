@@ -876,6 +876,32 @@ $79\%$ at depth $30$); with the cut $3-10^{-7}$ the reversible fraction decays a
 \tierT\,\tierC\ (\cert{w33\_pass11456\_n4\_closure.py}, \cert{w33\_pass11457\_magic\_axis\_theorem.py},
 \cert{w33\_pass11458\_generic\_component.py}, \cert{w33\_pass11459\_deep\_decay.py}, \cert{w33\_pass11460\_five\_qutrits.py})
 
+The magic-axis law now has a uniform proof on every class of two qutrits. Where the magic axis lies inside $\operatorname{Im}(M-1)$
+and the twisted moduli $|\sum_j\tau_j\omega^{js+qj^2}|$ separate ($q\neq0$), their level sets are the three cosets of a hyperplane $K$,
+and a reversing relabelling must move $v=z_1+Mz_1$ inside $\mathrm{Rad}\cap K$; this certifies $704$ classes outright. Where the
+moduli are blind ($q=0$), the coefficients are pure phases $\omega^{Q(r)}\zeta^{s(r)^3}$ (the cubic phase of $T$ itself), and
+the exact reversal criterion becomes two $\mathbb F_3$ conditions, $\ell\circ L=\ell$ and $B(Lr,Lr')=B(r,r')-2\ell(t)\ell(r)\ell(r')$;
+with $\ell=\mu B(v,\cdot)$ and $\ell(v)=0$ they force $Lv=v$, hence $2\omega(a,v)=0$. The same phase argument closes the $48$
+partial hyperplane classes, and a Wall-form argument closes the remaining $24$ (transvections). In all, $352+704+48+168+24=1296$
+classes, each under a theorem whose hypotheses are $\mathbb F_3$ facts checked per class; the hypotheses can fail at three qutrits,
+so this is not yet an $n$-independent proof. At four qutrits the same theorems leave $0.24\%$ of $\mathrm{Stab}(z_1)$ open (was
+$1.79\%$). Exact data: the reversible fraction at eight cubic gates is $\tfrac{665275}{8388608}$ (weighted deduplication of $959\,040$ distinct
+depth-six operators, validated on $P_1,\dots,P_7$); the one-gate bad-class fraction at six qutrits is $0.123\pm 0.011$ ($1000$
+classes). A re-audit of every sampled cut found no further artefact, though the $J_6$ cut of the deep-word scan has less than a
+decade of margin. Time reversal acts on the Clifford invariants of a qutrit \emph{state} with the exact Hilbert--Molien series
+\[ \sum_k O_k t^k=\frac{t^6(1+t)}{(1-t)(1-t^2)(1-t^3)(1-t^4)(1-t^6)},\qquad \sum_k (E_k-O_k)t^k=\frac{1+t^5}{(1-t)(1-t^3)(1-t^4)}, \]
+proved by a quasi-polynomial bound; asymptotically half of all state invariants are time-odd. The two lowest arrows are the
+$(3,2,1)$ and $(4,2,1)$ chiralities $\sum_g\operatorname{sgn}(g)\,p_{ga}^{\,k}p_{gb}^2p_{gc}$ of an oriented triple of mutually unbiased
+stabiliser bases ($k=3,4$), and explicit invariants reproduce $O_6,O_7,O_8=1,2,3$. By dimension, the first time-odd state
+invariant has degree $9,6,6,5,5$ for $d=2,3,5,7,11$, unique only for $d\le3$; the two-qutrit register (all $4\,199\,040$
+Cliffords) again has a unique one in degree $6$, and on $\psi\otimes s$ ($s$ a stabiliser state) its frame-potential difference
+is exactly $\Delta_6(\psi)/108$: compressed to that slot, a two-qutrit Clifford is a one-qutrit Clifford on $1/120$ of the
+group and $3^{-1/2}$ times one on $27/40$, uniformly, so $1/108=1/120+1/1080$ --- the register's arrow, seen from one qutrit, is
+the qutrit chirality $h_6$.
+\tierT\,\tierC\ (\cert{w33\_pass11486\_blind\_classes\_phases.py}, \cert{w33\_pass11487\_magic\_axis\_extension.py},
+\cert{w33\_pass11488\_exact\_depth8.py}, \cert{w33\_pass11489\_six\_qutrits.py}, \cert{w33\_pass11490\_cut\_audit.py},
+\cert{w33\_pass11491\_time\_odd\_molien.py}, \cert{w33\_pass11492\_time\_odd\_by\_dimension.py})
+
 All of this is one law.
 
 \begin{result}{Theorem 4.8 (the intrinsic arrow for every number of qutrits) \hfill \tierT}
