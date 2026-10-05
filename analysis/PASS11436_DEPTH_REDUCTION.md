@@ -48,8 +48,9 @@ Regression: `tests/test_w33_pass11433_11437.py`
 
 **Reading.**
 * The odd/even oscillation is damping. The two branches approach each other near 0.71 at these depths.
-* The sampled local rates of Pass 11422 keep creeping up beyond depth 10 (0.7274 at 14→16). The asymptotic rate is
-  still open.
+* The sampled local rates of Pass 11422 seemed to creep up beyond depth 10 (0.7274 at 14→16). **Corrected in Pass
+  11459:** that creep came largely from a loose decider threshold (2.999), which counts dense near-misses as reversible.
+  With the tight cut 3 − 10⁻⁷ the rate stays near 0.72. The asymptotic rate is still open.
 * No representation-theoretic rate governs this Haar-null quantity (Pass 11372).
 * The reduction suggests a transfer formulation: the walk on 8 coset choices per gate, with reversibility tested
   globally. It is not built here.

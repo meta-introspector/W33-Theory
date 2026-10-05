@@ -45,3 +45,5 @@ The shares are exact: collinear 273/820 and non-collinear 2187/3280. Two classes
 * **Not a monotone trend.** The apparent "drop below 1/8" of Pass 11421 is mostly sampling noise around 1/8.
 * **A conjecture, not a result:** the cell fractions approach 1/8 and P_n → 1/8. n = 3 is the outlier because of the
   same-line cell.
+* **Refuted by Pass 11460.** At five qutrits P₅ = 0.1382 ± 0.0041, 3.3σ above 1/8, with every cell near 0.14. The
+  sequence 1/8, 1/8, 0.1334, ≈ 0.125, 0.138 does not settle at 1/8.

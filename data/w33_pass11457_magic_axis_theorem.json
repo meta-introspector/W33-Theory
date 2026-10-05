@@ -1,0 +1,101 @@
+{
+ "pass_id": 11457,
+ "tau_moduli": [
+  0.8440296287459851,
+  0.449098785111287,
+  0.29312841385727234
+ ],
+ "support_lemma": [
+  {
+   "n": 2,
+   "classes": 400,
+   "support_is_Im_M_minus_I_uniform": 400
+  },
+  {
+   "n": 3,
+   "classes": 60,
+   "support_is_Im_M_minus_I_uniform": 60
+  }
+ ],
+ "n2": {
+  "classes": 376,
+  "sound (all theorem frames violating)": 376,
+  "F' fully covered (Rad orthogonal to every omega(a,v)!=0 frame)": 352,
+  "Rad dim 0": 352,
+  "hypotheses fail": 920,
+  "Rad dim 1": 24
+ },
+ "n3_orbits": {
+  "classes": {
+   "fully covered": 38,
+   "partial (Rad dim 1)": 18,
+   "hypotheses fail": 149,
+   "partial (Rad dim 2)": 2
+  },
+  "mass_fraction": {
+   "fully covered": 0.21193098104963673,
+   "partial (Rad dim 1)": 0.03627495808565767,
+   "hypotheses fail": 0.751536859218615,
+   "partial (Rad dim 2)": 0.000257201646090535
+  }
+ },
+ "n4_stab_z1_classes": {
+  "classes": {
+   "fully covered": 72,
+   "hypotheses fail": 408,
+   "partial (Rad dim 2)": 15,
+   "partial (Rad dim 1)": 52,
+   "partial (Rad dim 3)": 2
+  },
+  "mass_fraction": {
+   "fully covered": 0.21398777388874754,
+   "hypotheses fail": 0.7500000058076433,
+   "partial (Rad dim 2)": 0.0004929992228676373,
+   "partial (Rad dim 1)": 0.035518515452082865,
+   "partial (Rad dim 3)": 7.056286586845953e-07
+  }
+ },
+ "n4_unreached_classes": {
+  "count": 317,
+  "coverage": {
+   "classes": {
+    "fully covered": 44,
+    "hypotheses fail": 228,
+    "partial (Rad dim 2)": 15,
+    "partial (Rad dim 1)": 28,
+    "partial (Rad dim 3)": 2
+   },
+   "mass_fraction": {
+    "fully covered": 0.2544553774694054,
+    "hypotheses fail": 0.6466313277847026,
+    "partial (Rad dim 2)": 0.02057347554558464,
+    "partial (Rad dim 1)": 0.07831037243187387,
+    "partial (Rad dim 3)": 2.9446768433565804e-05
+   }
+  }
+ },
+ "extension_route_twisted_moduli": {
+  "0": [
+   0.9999999999999998,
+   1.0,
+   0.9999999999999994
+  ],
+  "1": [
+   0.7778619134302059,
+   0.5077133059428719,
+   1.4619022000815434
+  ],
+  "2": [
+   0.777861913430206,
+   1.461902200081543,
+   0.5077133059428732
+  ]
+ },
+ "magnitude_obstruction_n2": {
+  "Rad != 0, z1 not in R_M | some certified": 2,
+  "Rad = 0 | all F' frames certified": 16,
+  "z1 in R_M | all F' frames certified": 33,
+  "z1 in R_M | none certified": 7,
+  "z1 in R_M | some certified": 2
+ }
+}

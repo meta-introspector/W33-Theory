@@ -837,8 +837,7 @@ law, verified exhaustively at $n=2$, on every orbit at $n=3$ and on samples at $
 by $M$ and every frame with $\omega(a,v)\neq0$ breaks the arrow. At four qutrits the rules hold on every decided targeted class
 and the bad-class fraction is $0.118\pm0.006$, below the exact three-qutrit $437/3276$. Finally the exact one-qutrit reversible
 fraction at depth five is $11003/49152$; the denominators $2^{3k-1}3^{[k\ \mathrm{odd}]}$ hold for $k\le5$, and the local decay rate
-drifts from $0.716$ to above $0.727$ with depth, so the empirical "$0.72$ per gate" is not a constant rate and its proximity to
-$\rho_{(8,8)}$ is not an identity. \tierT\,\tierC\ (\cert{w33\_pass11418\_j8\_completeness.py},
+appeared to drift upward with depth (withdrawn: a decider-threshold artefact, corrected in Pass 11459). \tierT\,\tierC\ (\cert{w33\_pass11418\_j8\_completeness.py},
 \cert{w33\_pass11419\_spurious\_family.py}, \cert{w33\_pass11420\_magic\_axis\_rules.py},
 \cert{w33\_pass11421\_four\_qutrits.py}, \cert{w33\_pass11422\_depth5\_exact.py})
 
@@ -859,6 +858,23 @@ $353927/3145728$ at depths six and seven, with the denominator law $2^{3k-1}3^{[
 qutrits the excess of $437/3276$ over $1/8$ disappears cell by cell: it lived in the same-line cell, which falls from
 $77/342$ to $0.14$. \tierT\,\tierC\ (\cert{w33\_pass11433\_magic\_axis\_law.py}, \cert{w33\_pass11434\_h6\_explicit.py},
 \cert{w33\_pass11435\_j8\_positivity.py}, \cert{w33\_pass11436\_depth\_reduction.py}, \cert{w33\_pass11437\_four\_qutrit\_cells.py})
+
+The magic-axis law is now a theorem on a quarter of each bad cell. The moduli of the Weyl coefficients of a tick are
+invariant under any reversal up to an anti-symplectic relabelling; a Clifford $V_M$ has coefficients of constant modulus on
+$\operatorname{Im}(M-1)$, and the cubic gate splits them over the three cosets $\operatorname{Im}(M-1)+jz_1$ with the three distinct moduli
+$|\tau_j|=0.844,0.449,0.293$. When $\operatorname{Im}(M-1)$ is nondegenerate the relabelling must fix $z_1+Mz_1$, and
+$\omega(a,z_1+Mz_1)=-\omega(a,z_1+Mz_1)$ forces the stated frames to violate. The proof is sound on every two-qutrit class
+it covers; magnitudes alone certify all violating frames of $82\%$ of sampled two-qutrit classes, and about $12\%$ are
+magnitude-blind and need phases. At four qutrits the fixed-axis case is settled on $97.6\%$ (decider) plus $0.6\%$ (theorem) of
+$\mathrm{Stab}(z_1)$, and on every decided same-line class. The generic component of $J_6$'s blind spot is not a hidden symmetry
+(no continuous supergroup with the same cubic invariants exists, and the Hessian group is maximal) and not uniformly an
+achiral-eigenvector phenomenon. The one-gate bad-class fraction at five qutrits is $0.138\pm0.004$, $3.3\sigma$ above $1/8$, so
+the fraction does not settle at $1/8$. Correction: the earlier report of a decay rate drifting upward with depth was an
+artefact of a loose decider cut ($2.999$), which counts dense near-miss violators as reversible ($32\%$ false at depth $24$,
+$79\%$ at depth $30$); with the cut $3-10^{-7}$ the reversible fraction decays at a constant rate to depth $30$ (local rates
+0.7209, 0.7231, 0.7278), within one standard error of $\rho_{(8,8)}=0.7228$ --- a sharpened coincidence without a mechanism.
+\tierT\,\tierC\ (\cert{w33\_pass11456\_n4\_closure.py}, \cert{w33\_pass11457\_magic\_axis\_theorem.py},
+\cert{w33\_pass11458\_generic\_component.py}, \cert{w33\_pass11459\_deep\_decay.py}, \cert{w33\_pass11460\_five\_qutrits.py})
 
 All of this is one law.
 

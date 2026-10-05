@@ -1,0 +1,35 @@
+{
+ "pass_id": 11456,
+ "fixed_axis_cell": {
+  "classes": {
+   "proved by the theorem": 44,
+   "open": 273,
+   "decided by the decider": 232
+  },
+  "mass_fraction": {
+   "proved by the theorem": 0.006097477456784432,
+   "open": 0.01786537810329335,
+   "decided by the decider": 0.9760371444399222
+  },
+  "group_order": 20056328248320
+ },
+ "same_line_cell_n4": {
+  "verdicts": {
+   "F' equality": 166,
+   "undecided": 34
+  },
+  "theorem": {
+   "theorem: silent": 128,
+   "theorem: partly": 25,
+   "theorem: fully": 47
+  },
+  "joint": {
+   "F' equality | theorem: silent": 102,
+   "F' equality | theorem: partly": 19,
+   "undecided | theorem: silent": 26,
+   "F' equality | theorem: fully": 45,
+   "undecided | theorem: partly": 6,
+   "undecided | theorem: fully": 2
+  }
+ }
+}

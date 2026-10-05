@@ -49,3 +49,19 @@ Local per-gate rates from two-step ratios:
 * Whether the local rate converges, and to what (0.7228, ρ₍₁₈,₀₎ = 0.781, or 1), is open.
 
 **Prior art.** This extends Pass 11312's exact table by one depth; the exact decider is Pass 11355's Theorem 1.
+
+## Correction (Pass 11459): the sampled tail used too loose a threshold
+
+* **What was wrong.** The sampled values above (k ≥ 6) counted a word as reversible when its best Clifford overlap
+  exceeded **2.999**.
+  * Exactly reversible words reach 3 to rounding, with a deficit below 10⁻¹⁰.
+  * Clifford+T words are dense, so deep violating words come arbitrarily close: their deficits run about 10⁻⁴ to 10⁻³
+    by depth 24–30.
+  * At the loose cut these near-misses were counted as reversible: 0.7% false at depth 12, **32% at depth 24, 79% at
+    depth 30** (Pass 11459, `threshold_sensitivity`).
+* **Consequence.** The "upward drift" of the local rate and the conclusion that "0.72 is not a constant rate and the
+  ρ₍₈,₈₎ coincidence dissolves" were at least partly this artefact. **Both are withdrawn.** Pass 11459 re-measures
+  with the tight cut 3 − 10⁻⁷.
+* **Not affected.**
+  * The exact values for k ≤ 5: violators stayed below 2.96531.
+  * The exact values for k ≤ 7 (Pass 11436): violators stayed below 2.99861.
