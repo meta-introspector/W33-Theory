@@ -3,7 +3,7 @@
 > **Collaborative workspace for you and AI**
 
 ## 🎯 Session Goals
-- 2026-10-04 current goal: validate and publish11471-11475: native integer frame dictionary, admissible patch connection, inhomogeneous Levi wave controls, omitted fermion loop matching, and native leakage masks/full decoded dissipative marginals.
+- 2026-10-04 current goal: validate and publish11476-11480: numerical vacuum-adapted isotope, determinant/cover controls, native omitted-loop feedback, Ward-compatible connection with locality audit, and full correlated two-block recovery.
 
 
 ## 💡 Key Decisions Made
@@ -1715,3 +1715,15 @@ Further11471 closure: the same stored Gaussian-rational map matches the entire n
 Final cubic-inclusive producer PASS; nine independent regressions PASS in65.17s. Syntax clean, forced-arithmetic scan zero and selftest PASS. Full final intake in certificate/guard phase after refreshing the index. Scientific files are frozen for publication.
 
 Publication receipt: GitKraken committed the seven owned11471-11475 artifacts as61e5813f0 and they are published to origin-https/master. Tracking status verified synchronized. Final full five-file intake: guard no collisions, forced arithmetic none, intake clean. Nine regressions PASS65.17s; all producer sections including integer cubic/derivation witnesses PASS. RESULTS_INDEX now has15476 distinctive results over11000 files. Only mixed decision JSON/JSONL stores remain dirty. Physical real-form selection, numerical-vacuum conjugation, observed masses/couplings, spatial chiral locality, W33 gravity and correlated two-block recovery remain open.
+
+
+### Passes11476-11480 — active publication
+Reservation394364e1c pushed after fresh fetch ofecc7b4ae1. All five constructed sections replayed; ordinary vacuum Jordan identification fails but Hermitian triple/isotope succeeds numerically. Entire cubic residual8.56e-15;28-generator derivation residual4.64e-14. Stable integrated anomaly evaluation reduces Ward curl error to2.48e-14. Full correlated decoder and shared-relay/twirl controls stored. Independent tests and complete intake pending. No exact vacuum, local chiral reconstruction, observed constants or gravity claim. Unrelated decisions stores remain unstaged.
+
+Independent validation:10 regressions PASS in104.02s; syntax clean; forced arithmetic0+selftestPASS. Full intake running with science/report/tests/site frozen.
+Provisional future lead (not a certified modulus claim): common-left SU3 diagonal-Gram tangent constraints have singular values1.54058,.93321,2.22550e-4,1.22155e-4. Their four-dimensional kernel, after the10-direction stratum gauge projection, has two nongauge directions (singular values1.22926,.89667) and lies in the old four-soft-mode space within1.96437e-7. Traceless left Grams are nearly proportional: coefficient1.0041112,residual2.17839e-4. Generic local level-set deformation theory and the two weak remaining directions need exact/certified rank and finite-path checks.
+
+Primary-literature hint for the provisional matrix-flatness route: Damm/Fassbender, arXiv1910.08813v2, section2.4 proves simultaneous unitary hollowization for a pair of traceless Hermitian matrices. Link https://arxiv.org/pdf/1910.08813 . This is relevant to simultaneous constant-diagonal left Grams; it does not by itself prove a native physical modulus or certify this numerical stratum. Do not rediscover the hollowization theorem.
+Self-containment advisory from first intake was resolved by computing/storing the actual80-vertex four-regular160-edge voltage-base parameters and using its degree diagonal in the Bloch Laplacian. Changed geometry regression PASS (1 selected,9 deselected,43.06s). Second complete intake is running; no science files are being changed during it.
+
+Final11476-11480 validation: all five sections PASS, numerical isotope and polydisc controls PASS.10 independent regressions passed in104.02s; after the graph metadata correction the changed geometry regression passed in43.06s. Second full five-file intake clean: rediscovery no collisions, forced arithmetic none, certificate vocabulary/self-containment/contradiction checks pass. RESULTS_INDEX refreshed:11002 files,15484 distinctive results. Syntax and arithmetic selftest passed. Owned source/report/certificate/test/site staged; mixed decisions stores excluded. Publication through GitKraken follows a fresh fetch/review.
