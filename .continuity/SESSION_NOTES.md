@@ -1,10 +1,9 @@
-# Session Notes - 2026-10-04
+# Session Notes - 2026-10-05
 
 > **Collaborative workspace for you and AI**
 
 ## 🎯 Session Goals
-- 2026-10-04 packet11493-11497: execute five independent frontiers and additional exact connections; reserve2cda9139b after releasing duplicate095e4b700, use prior11481-11485 packet9cf5983ef, preserve unrelated decision stores. Exact stationary vacuum, light SM Yukawas, local chiral measure, physical gravity and native noisy correlated hardware remain open.
-
+- Execute and publish11506-11510: exact native stationary controls, identified SM Yukawa blocks and heavy matching, certified metric shape, nonlinear finite Ward primitive, and native correlated recovery with noisy verification. Reservation09cc50896; baseca6281f40 includes parallel11511-11515 reservation. Preserve unrelated decision stores and the original parallel workspace.
 
 ## 💡 Key Decisions Made
 <!-- Important choices during this session -->
@@ -1827,3 +1826,47 @@ build the actual light-SM block map and heavy-threshold matching; stabilize the
 metric against exact shear with explicit boson/fermion contributions; construct
 a gauge-invariant anomaly primitive with exponential locality; extend native
 untwirled correlated recovery to noisy verification and physical leakage.
+
+2026-10-05 — Passes11506-11510 final validation packet
+
+All five producer sections PASS in the final full replay. Twenty focused
+regressions PASS (12 owned and eight incoming), including independent
+14-qubit Heisenberg-channel marginal checks and exact rational metric
+inverse-residual/Hessian positivity checks. The alternate full-native
+stationary point is exactly isolated but higher-energy than the earlier
+CP candidate, with transverse stability open. Canonical SM/EW charge
+blocks identify supplied up/down family CP and exact rank-three singlet
+Schur matching; no selected CKM or neutrino prediction. The declared two
+boson/one graph-Dirac inventory certifies a strict full five-shape local
+minimum and global diagonal-shape minimum; volume and Einstein dynamics
+remain open. The nonlinear finite Ward primitive is gauge invariant in a
+certified zero-index sector; its spectral construction fails uniform
+infinite-volume locality on growing tori. Untwirled joint syndrome MAP
+improves correct-syndrome probability, with actual physical leakage
+sectors retained; quantum fidelity and extraction/correction gate faults
+remain open.
+
+Incoming11498-11504 reports, producers, certificates and changed time-paper
+paragraph reviewed. Incoming11501 checkpoint independently agrees with
+all2500 classes and sampled-cell counts. Incoming11502 pair census uses
+floating SVD/overlap cuts; our report separates this evidence from its
+algebraic cancellation. No parallel paper edits or exactness endorsements.
+The intake spread@14 lexical candidate points to graph-channel spreads
+and a separate F2 affine spread, not this time-odd module's matrix spread;
+all three prior candidate files were read. Final fresh-index guard and
+publication receipt are recorded below when complete. Only seven owned
+files are to be staged; mixed decision stores stay out.
+
+Five independent next targets: certify the lower CP vacuum on its gauge
+slice; dynamically select SM flavor and repair the down/lepton relation;
+tie graph fermions to physical spin and stabilize volume; construct a
+cohomological Ward primitive with uniform torus locality; compute full
+native quantum-instrument fidelity with faulty gate extraction.
+
+Final validation receipt: regenerated RESULTS_INDEX.md over11046 files,
+15551 distinctive results. The fresh-index26-file guard has no owned
+collisions. Incoming11502 has the reviewed spread@14 lexical candidate
+and two same-packet report/producer references; no independent novelty
+collision. Intake exits0, no forced-arithmetic findings and no certified
+value contradiction. Final20 regressions and all five producer sections
+PASS. No science changes after that replay. Ready for seven-file commit.
