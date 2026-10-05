@@ -1921,3 +1921,14 @@ between this packet's producer and report; no external novelty candidate.
 Final site id unique, producer SHA verified,15 final regressions PASS.
 Fresh GitKraken fetch found no new remote commits before publication.
 Ready to commit seven owned files without shared decision stores.
+
+2026-10-05 — Passes11521-11525 exact frontier packet
+- User goal: execute five independent physical frontiers with exact/symbolic forms, adapting steps to evidence; publish to W33 master through GitKraken.
+- Reviewed/integrated catalog-only0936daaa4; published reservation6388c0ab3 before computing. Original parallel working tree untouched.
+-11521: rational row penalty coefficient1/6; exact modular commutant/intertwiner witnesses reduce324 Hessian to36+three12x12 repeated8. Conditional stationary fibers; exact polydisc minimization reduction to regular20-variable SVD quotient.70-digit stationary gradient6.02e-67, numerical quotient Hessian min1.31551. Interval/full transverse certification remains open.
+-11522: native quadratic(27,bar6) composite; exact SM-preserving source obstruction and symmetric adjoint-insertion ring. Additional EW-breaking dynamics/coefficients remain needed.
+-11523: exact positive-energy static lapse obstruction for declared flux/winding/determinant inventory; explicit Clifford-dressed native edge map with320+640 cochain fibers,328zero modes and changed determinant. Physical spacetime Dirac/Einstein map remains open.
+-11524: exact missing measure-gradient term and projector gauge identity; prior11438/11484 local anomaly primitive and sector obligations retained.
+-11525: all4096 ideal-readout CPTP recovery problems reduce to66 GL3(2) orbits. Exact dyadic primal/dual bounds0.88136585817..0.88136929909; coherent gain cap3.44e-6. Explicit flag circuit/lookup corrects all seven single syndrome-ancilla Z fault positions; arbitrary gate faults/readout/threshold not covered.
+- Validation: all19 final focused regressions passed in230.50s; four-file corpus intake exits0, guard no collisions, forced arithmetic none, intake clean. RESULTS_INDEX refreshed11050 files/15569 results; seven owned files staged, publication pending. Early certificate assembly failed after unexpanded symbolic Clifford assertion and was corrected/assembled atomically; no failed output published.
+- Independent next targets: interval-certify20-variable quotient and transverse blocks; select EW-breaking Higgs/adjoint dynamics with realistic flavor; couple explicit spin transport to nonstatic/local gravity; implement nonlinear local anomaly primitive and finite-volume corrections; extend flag circuit to every single CNOT/ancilla fault and noisy repeated extraction.
