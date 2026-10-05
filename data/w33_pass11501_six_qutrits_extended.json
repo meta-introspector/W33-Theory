@@ -1,0 +1,52 @@
+{
+ "pass_id": 11501,
+ "classes": 2500,
+ "completed_by_kind": {
+  "collinear": 1250,
+  "non-collinear": 1250
+ },
+ "sampled_cells": {
+  "collinear, different lines": {
+   "good": 715,
+   "bad": 116
+  },
+  "same line, other": {
+   "bad": 66,
+   "good": 353
+  },
+  "non-collinear": {
+   "good": 1100,
+   "bad": 149,
+   "undecided": 1
+  }
+ },
+ "estimate": {
+  "collinear_bad_fraction": 0.1456,
+  "noncollinear_bad_fraction": 0.11929543634907927,
+  "P_estimate": 0.12806492496963096,
+  "stderr": 0.006960147460183836,
+  "shares": {
+   "collinear": "22143/66430",
+   "noncollinear": "177147/265720"
+  }
+ },
+ "z_vs_one_eighth": 0.4403534533088761,
+ "z_vs_n5": -1.263558964202009,
+ "sequence": {
+  "1": 0.125,
+  "2": 0.125,
+  "3": 0.1333943833943834,
+  "4": [
+   0.1284,
+   0.0045
+  ],
+  "5": [
+   0.13824,
+   0.00405
+  ],
+  "6": [
+   0.12806492496963096,
+   0.006960147460183836
+  ]
+ }
+}

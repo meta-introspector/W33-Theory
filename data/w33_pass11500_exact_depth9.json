@@ -1,0 +1,155 @@
+{
+ "pass_id": 11500,
+ "levels": {
+  "1": {
+   "distinct_operators": 216,
+   "P": "11/12",
+   "matches_known": true,
+   "seconds": 0.0
+  },
+  "2": {
+   "distinct_operators": 1080,
+   "P": "19/32",
+   "matches_known": true,
+   "seconds": 0.1
+  },
+  "3": {
+   "distinct_operators": 5616,
+   "P": "347/768",
+   "matches_known": true,
+   "seconds": 0.3
+  },
+  "4": {
+   "distinct_operators": 29376,
+   "P": "623/2048",
+   "matches_known": true,
+   "seconds": 1.1
+  },
+  "5": {
+   "distinct_operators": 166752,
+   "P": "11003/49152",
+   "matches_known": true,
+   "seconds": 5.5
+  },
+  "6": {
+   "distinct_operators": 959040,
+   "P": "20327/131072",
+   "matches_known": true,
+   "seconds": 32.1
+  },
+  "7": {
+   "distinct_operators": 5567184,
+   "P": "353927/3145728",
+   "matches_known": true,
+   "seconds": 214.2
+  },
+  "8": {
+   "P": "665275/8388608",
+   "P_float": 0.079306960105896,
+   "matches_known": true,
+   "prefilter_survivors": 681192,
+   "seconds": 3867.0
+  },
+  "9": {
+   "P": "11519231/201326592",
+   "P_float": 0.05721663932005564,
+   "matches_known": null,
+   "prefilter_survivors": 4032834,
+   "seconds": 3867.0
+  }
+ },
+ "control_depth8_words": {
+  "words": 20000,
+  "agree": true,
+  "reversible": 1613,
+  "prefilter_passing": 1613
+ },
+ "dedupe_checks": {
+  "1728": {
+   "at_1e5": 1080,
+   "at_1e6": 1080,
+   "at_1e9": 1080
+  },
+  "8640": {
+   "at_1e5": 5616,
+   "at_1e6": 5616,
+   "at_1e9": 5616
+  },
+  "44928": {
+   "at_1e5": 29376,
+   "at_1e6": 29376,
+   "at_1e9": 29376
+  },
+  "235008": {
+   "at_1e5": 166752,
+   "at_1e6": 166752,
+   "at_1e9": 166752
+  },
+  "1334016": {
+   "at_1e5": 959040,
+   "at_1e6": 959040,
+   "at_1e9": 959040
+  },
+  "7672320": {
+   "at_1e5": 5567184,
+   "at_1e6": 5567184,
+   "at_1e9": 5567213
+  }
+ },
+ "overlap_gap": {
+  "min_reversible": 2.9999999999999876,
+  "max_prefilter_passing_violator": 0.0
+ },
+ "ratios": [
+  0.6477272727272727,
+  0.7609649122807017,
+  0.6732708933717579,
+  0.735888175494917,
+  0.6927769699172953,
+  0.7254862170184155,
+  0.7048858239128408,
+  0.7214579810354114
+ ],
+ "two_step_rates": [
+  0.7020667541428858,
+  0.7157761705420135,
+  0.7038835765502529,
+  0.7140072691628114,
+  0.7089429759457239,
+  0.7151118442736324,
+  0.7131237644200624
+ ],
+ "denominators": [
+  12,
+  32,
+  768,
+  2048,
+  49152,
+  131072,
+  3145728,
+  8388608,
+  201326592
+ ],
+ "denominator_law": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "counts_over_18": [
+  "11",
+  "57",
+  "347",
+  "1869",
+  "11003",
+  "60981",
+  "353927",
+  "1995825",
+  "11519231"
+ ]
+}

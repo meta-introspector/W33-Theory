@@ -1,0 +1,66 @@
+{
+ "pass_id": 11499,
+ "n2": {
+  "set": "n=2 all classes",
+  "counts": {
+   "M^2 z1 = -z1": 1944,
+   "M^2 z1 = -z1: hypothesis fails": 54,
+   "M^2 z1 = -z1: decided": 1944,
+   "M^2 z1 = -z1: decided all frames reversible": 1944,
+   "M z1 = -z1": 648,
+   "M z1 = -z1: hypothesis fails": 27,
+   "M z1 = -z1: decided": 647,
+   "M z1 = -z1: decided all frames reversible": 647,
+   "M^2 z1 = -z1: hypothesis holds": 1890,
+   "M^2 z1 = -z1: hypothesis holds and all frames reversible": 1890,
+   "M z1 = -z1: hypothesis holds": 620,
+   "M z1 = -z1: hypothesis holds and all frames reversible": 620,
+   "M z1 = -z1: capped": 1
+  },
+  "mass_fraction_within_cell": {
+   "M^2 z1 = -z1: hypothesis fails": 0.027777777777777776,
+   "M z1 = -z1: hypothesis fails": 0.041666666666666664,
+   "M^2 z1 = -z1: hypothesis holds": 0.9722222222222222,
+   "M z1 = -z1: hypothesis holds": 0.9567901234567902,
+   "M z1 = -z1: capped": 0.0015432098765432098
+  }
+ },
+ "n3": {
+  "set": "n=3 all orbits (Pass 11373)",
+  "counts": {
+   "M z1 = -z1": 126,
+   "M z1 = -z1: capped": 26,
+   "M z1 = -z1: hypothesis fails": 23,
+   "M^2 z1 = -z1": 91,
+   "M^2 z1 = -z1: hypothesis fails": 17,
+   "M^2 z1 = -z1: decided": 84,
+   "M^2 z1 = -z1: decided all frames reversible": 84,
+   "M^2 z1 = -z1: hypothesis holds": 69,
+   "M^2 z1 = -z1: hypothesis holds and all frames reversible": 69,
+   "M z1 = -z1: hypothesis holds": 77,
+   "M z1 = -z1: decided": 97,
+   "M z1 = -z1: decided all frames reversible": 97,
+   "M z1 = -z1: hypothesis holds and all frames reversible": 77,
+   "M^2 z1 = -z1: capped": 5
+  },
+  "mass_fraction_within_cell": {
+   "M z1 = -z1: capped": 0.004841820987654321,
+   "M z1 = -z1: hypothesis fails": 0.027539866255144034,
+   "M^2 z1 = -z1: hypothesis fails": 0.03229166666666667,
+   "M^2 z1 = -z1: hypothesis holds": 0.9576646090534979,
+   "M z1 = -z1: hypothesis holds": 0.9676183127572017,
+   "M^2 z1 = -z1: capped": 0.010043724279835391
+  }
+ },
+ "n2_failures_by_union": {
+  "M^2 z1 = -z1: hypothesis fails (dim ker(M-I) = 2)": 54,
+  "M^2 z1 = -z1: union of k=0 criteria covers every frame": 54,
+  "M^2 z1 = -z1: union frames all reversible (sound)": 54,
+  "M z1 = -z1: hypothesis fails (dim ker(M-I) = 2)": 27,
+  "M z1 = -z1: union of k=0 criteria covers every frame": 27,
+  "M z1 = -z1: union frames all reversible (sound)": 27,
+  "M z1 = -z1: hypothesis fails (dim ker(M-I) = 0)": 1,
+  "M z1 = -z1: capped; ker(M-I) = 0 and Q = I solves (S) (hypothesis vacuous, theorem applies)": 1,
+  "M z1 = -z1: capped and unresolved": 0
+ }
+}

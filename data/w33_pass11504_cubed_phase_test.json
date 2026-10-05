@@ -1,0 +1,94 @@
+{
+ "pass_id": 11504,
+ "trials": 4000,
+ "counts": {
+  "non-affine (L, f) tried": 3999,
+  "eigenspaces searched": 26958,
+  "unitaries found": 4,
+  "... reversible (overlap = 3)": 4
+ },
+ "unitaries": [
+  {
+   "L": 5,
+   "f": [
+    2,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    1,
+    1
+   ],
+   "mu": [
+    -0.5,
+    -0.8660254
+   ],
+   "overlap": 2.9999999999741984,
+   "prefilter": true
+  },
+  {
+   "L": 10,
+   "f": [
+    0,
+    2,
+    1,
+    1,
+    0,
+    2,
+    2,
+    2,
+    1
+   ],
+   "mu": [
+    1.0,
+    0.0
+   ],
+   "overlap": 3.0000000001451848,
+   "prefilter": true
+  },
+  {
+   "L": 20,
+   "f": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "mu": [
+    1.0,
+    0.0
+   ],
+   "overlap": 3.0000000000969713,
+   "prefilter": true
+  },
+  {
+   "L": 19,
+   "f": [
+    2,
+    1,
+    2,
+    0,
+    2,
+    1,
+    2,
+    2,
+    1
+   ],
+   "mu": [
+    -0.5,
+    -0.8660254
+   ],
+   "overlap": 3.0000000001224993,
+   "prefilter": true
+  }
+ ],
+ "paper_sentence": "on $PU(3)$, a search of 26958 non-affine phase relations found 4 unitaries, all reversible, so no counterexample.",
+ "ledger_phrase": "4 unitaries on non-affine relations, 0 counterexamples"
+}

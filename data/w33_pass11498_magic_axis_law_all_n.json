@@ -1,0 +1,79 @@
+{
+ "pass_id": 11498,
+ "lemmas": {
+  "1": {
+   "t_k_in_span_z1": true,
+   "r_Q": {
+    "tested": 30,
+    "r_Q = 0": 30
+   }
+  },
+  "2": {
+   "t_k_in_span_z1": true,
+   "r_Q": {
+    "tested": 30,
+    "r_Q = 0": 30
+   }
+  },
+  "3": {
+   "t_k_in_span_z1": true,
+   "r_Q": {
+    "tested": 30,
+    "r_Q = 0": 30
+   }
+  },
+  "4": {
+   "t_k_in_span_z1": true,
+   "r_Q": {
+    "tested": 4,
+    "r_Q = 0": 4
+   }
+  }
+ },
+ "n2_all_classes": {
+  "classes": 1296,
+  "omega(Mz1, z1) = 0": 1296,
+  "solution space beyond cap": 3,
+  "solutions enumerated": 23328,
+  "solutions with QJv = -v": 23328,
+  "decided": 1295,
+  "decided: every reversible frame has omega(v,a) = 0": 1295
+ },
+ "n3_orbit_reps": {
+  "classes": 207,
+  "omega(Mz1, z1) = 0": 207,
+  "solution space beyond cap": 92,
+  "decided": 172,
+  "decided: every reversible frame has omega(v,a) = 0": 172,
+  "solutions enumerated": 16020,
+  "solutions with QJv = -v": 16020
+ },
+ "n4_stab_z1_classes": {
+  "classes": 549,
+  "omega(Mz1, z1) = 0": 549,
+  "solution space beyond cap": 549
+ },
+ "linear_check_whole_solution_space": {
+  "n2": {
+   "classes": 1296,
+   "affine solution spaces": 2848,
+   "dimension sum": 8802,
+   "spaces with QJv = -v throughout": 2848,
+   "k with empty (S)": 1040
+  },
+  "n3": {
+   "classes": 207,
+   "affine solution spaces": 471,
+   "dimension sum": 4154,
+   "spaces with QJv = -v throughout": 471,
+   "k with empty (S)": 150
+  },
+  "n4": {
+   "classes": 549,
+   "affine solution spaces": 1365,
+   "dimension sum": 19988,
+   "spaces with QJv = -v throughout": 1365,
+   "k with empty (S)": 282
+  }
+ }
+}

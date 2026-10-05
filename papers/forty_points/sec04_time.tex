@@ -902,6 +902,25 @@ the qutrit chirality $h_6$.
 \cert{w33\_pass11488\_exact\_depth8.py}, \cert{w33\_pass11489\_six\_qutrits.py}, \cert{w33\_pass11490\_cut\_audit.py},
 \cert{w33\_pass11491\_time\_odd\_molien.py}, \cert{w33\_pass11492\_time\_odd\_by\_dimension.py})
 
+\emph{The magic-axis law is a theorem for every number of qutrits.} In the linear decider's variables a reversal is a
+symplectic $Q$ with $Ms^{-k}Q(JMJ)=Q$ and $Qz_1=z_1$, plus a frame condition. If $M^2z_1=z_1$ then $\omega(Mz_1,z_1)=0$, so the
+shear fixes $v=z_1+Mz_1$; the anti-symplectic $A=QJ$ satisfies $A=Ms^{-k}AM$, whence $Av=-v$; $Q$ commutes with the cubic gate
+because both preserve $W(z_1)$; and pairing the frame condition with $\omega(v,\cdot)$ leaves $2\,\omega(v,a)=0$. So every frame with
+$\omega(v,a)\neq0$ violates --- for all $n$, superseding the class-by-class proofs above. The identity $QJv=-v$ was checked on
+every affine solution space at $n=2,3,4$ (4\,684 spaces, including every four-qutrit class beyond the decider's reach). The same
+variables give the good rules: when $Mz_1=-z_1$ or $M^2z_1=-z_1$, a frame is reversible whenever some solution has
+$(A^{-1}-1)\ker(M-1)\perp a$; at $n=2$ these criteria cover every frame of all $2592$ good classes, at $n=3$ about $96\%$ of
+the good mass. The four rule cells have exact shares $2,1,3/(3^{2n}-1)$ of the one-gate classes, so they are a vanishing corner of
+the landscape and do not explain the bulk of the bad-class fraction. Exact data continue: $P_9=\tfrac{11519231}{201326592}$ (the denominator law holds
+through $k=9$; two-step rates $0.713$ and $0.715$ still climbing toward the sampled $0.72$), and a cubed-phase test,
+$|c(Lp)|=|c(p)|$ with $(c(Lp)/c(p))^3$ constant, decides every word to depth nine exactly; on $PU(3)$, a search of 26958 non-affine phase relations found 4 unitaries, all reversible, so no counterexample. The one-gate bad-class
+fraction at six qutrits is $0.128\pm 0.007$ from $2\,500$ classes. Finally, $\Delta^{(2)}=\Delta_6/108$ is now proved outright
+(the rank-one compressions are uniform over the $144$ stabiliser pairs), and the time arrows of a qutrit state form a module with
+one new generator in each degree $6,7,8,9,10$ and none in $11$--$13$, over an even ring generated in degrees $1,3,\dots,9$.
+\tierT\,\tierC\ (\cert{w33\_pass11498\_magic\_axis\_law\_all\_n.py}, \cert{w33\_pass11499\_good\_rules.py},
+\cert{w33\_pass11500\_exact\_depth9.py}, \cert{w33\_pass11501\_six\_qutrits\_extended.py},
+\cert{w33\_pass11502\_time\_odd\_module.py}, \cert{w33\_pass11503\_rule\_cell\_shares.py}, \cert{w33\_pass11504\_cubed\_phase\_test.py})
+
 All of this is one law.
 
 \begin{result}{Theorem 4.8 (the intrinsic arrow for every number of qutrits) \hfill \tierT}
