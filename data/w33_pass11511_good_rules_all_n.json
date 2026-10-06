@@ -1,0 +1,90 @@
+{
+ "pass_id": 11511,
+ "exhaustion_U": {
+  "Sp(2,3)": {
+   "unipotent": 9,
+   "U_holds": 9,
+   "min_reversers": 6
+  },
+  "Sp(4,3)": {
+   "unipotent": 6561,
+   "U_holds": 6561,
+   "min_reversers": 18
+  }
+ },
+ "n2": {
+  "set": "n=2 all classes",
+  "counts": {
+   "M^2 z1 = -z1: theorem applies": 1944,
+   "M^2 z1 = -z1: (E) via Q = I": 6,
+   "M^2 z1 = -z1: decided": 1944,
+   "M^2 z1 = -z1: decided all frames reversible": 1944,
+   "M z1 = -z1: theorem applies": 648,
+   "M z1 = -z1: (E) via Q = I": 10,
+   "M z1 = -z1: decided": 647,
+   "M z1 = -z1: decided all frames reversible": 647,
+   "M^2 z1 = -z1: (E) via hypothesis solution": 1890,
+   "M z1 = -z1: (E) via hypothesis solution": 620,
+   "M^2 z1 = -z1: (E) via sampled solution": 48,
+   "M z1 = -z1: (E) via sampled solution": 18
+  },
+  "mass": {
+   "M^2 z1 = -z1: theorem applies": 1944,
+   "M z1 = -z1: theorem applies": 648
+  }
+ },
+ "exhaustion_E": {
+  "Sp(2,3): M z = -z": {
+   "elements": 9,
+   "vectors": 24,
+   "failures": 0
+  },
+  "Sp(2,3): M^2 z = -z": {
+   "elements": 6,
+   "vectors": 48,
+   "failures": 0
+  },
+  "Sp(4,3): M z = -z": {
+   "elements": 6561,
+   "vectors": 19440,
+   "failures": 0
+  },
+  "Sp(4,3): M^2 z = -z": {
+   "elements": 4860,
+   "vectors": 77760,
+   "failures": 0
+  }
+ },
+ "n2_blocks": {
+  "set": "n=2 all classes",
+  "counts": {
+   "M^2 z1 = -z1: block theorem applies": 1944,
+   "M z1 = -z1: block theorem applies": 648
+  },
+  "mass_fraction": {
+   "M^2 z1 = -z1: block theorem applies": 1.0,
+   "M z1 = -z1: block theorem applies": 1.0
+  }
+ },
+ "n3_blocks": {
+  "set": "n=3 all orbits",
+  "counts": {
+   "M z1 = -z1: z1-block dim 6 > 4, (E) shown per class (Q = I)": 5,
+   "M z1 = -z1: block theorem applies": 93,
+   "M^2 z1 = -z1: block theorem applies": 82,
+   "M z1 = -z1: z1-block dim 6 > 4, (E) shown per class (sampled solution)": 15,
+   "M^2 z1 = -z1: z1-block dim 6 > 4, (E) shown per class (sampled solution)": 3,
+   "M^2 z1 = -z1: z1-block dim 6 > 4, (E) shown per class (hypothesis solution)": 6,
+   "M z1 = -z1: z1-block dim 6 > 4, (E) shown per class (hypothesis solution)": 13
+  },
+  "mass_fraction": {
+   "M z1 = -z1: z1-block dim 6 > 4, (E) shown per class (Q = I)": 1.9290123456790123e-05,
+   "M z1 = -z1: block theorem applies": 0.8734375,
+   "M^2 z1 = -z1: block theorem applies": 0.8541666666666666,
+   "M z1 = -z1: z1-block dim 6 > 4, (E) shown per class (sampled solution)": 0.0030864197530864196,
+   "M^2 z1 = -z1: z1-block dim 6 > 4, (E) shown per class (sampled solution)": 0.010030864197530864,
+   "M^2 z1 = -z1: z1-block dim 6 > 4, (E) shown per class (hypothesis solution)": 0.13580246913580246,
+   "M z1 = -z1: z1-block dim 6 > 4, (E) shown per class (hypothesis solution)": 0.12345679012345678
+  }
+ }
+}

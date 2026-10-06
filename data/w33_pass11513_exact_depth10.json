@@ -1,0 +1,85 @@
+{
+ "pass_id": 11513,
+ "levels": {
+  "2": {
+   "distinct_operators": 1080
+  },
+  "3": {
+   "distinct_operators": 5616
+  },
+  "4": {
+   "distinct_operators": 29376
+  },
+  "5": {
+   "distinct_operators": 166752
+  },
+  "6": {
+   "distinct_operators": 959040
+  },
+  "7": {
+   "distinct_operators": 5567184
+  },
+  "8": {
+   "distinct_operators": 32445792,
+   "P": "665275/8388608",
+   "P_float": 0.079306960105896,
+   "matches_known": true
+  },
+  "9": {
+   "P": "11519231/201326592",
+   "P_float": 0.05721663932005564,
+   "matches_known": true
+  },
+  "10": {
+   "P": "21873707/536870912",
+   "P_float": 0.04074295423924923,
+   "matches_known": null
+  }
+ },
+ "dedupe_checks": {
+  "8": {
+   "candidates": 44537472,
+   "classes_at_1e6": 32445792,
+   "classes_at_1e5": 32445792
+  }
+ },
+ "overlap_gap": {
+  "min_reversible": 2.9999999999999862,
+  "max_prefilter_passing_violator": 0.0
+ },
+ "denominator_law": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "counts_over_18": [
+  "11",
+  "57",
+  "347",
+  "1869",
+  "11003",
+  "60981",
+  "353927",
+  "1995825",
+  "11519231",
+  "65621121"
+ ],
+ "two_step_rates": [
+  0.7020667541428858,
+  0.7157761705420135,
+  0.7038835765502529,
+  0.7140072691628114,
+  0.7089429759457239,
+  0.7151118442736324,
+  0.7131237644200624,
+  0.7167547939898636
+ ],
+ "seconds": 22882
+}

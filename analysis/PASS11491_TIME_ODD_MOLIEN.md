@@ -86,3 +86,12 @@ Neither the odd sequence nor the total is in the OEIS (searched 2026-10-04).
   Maschke) concerns polynomials in ψ alone, not bidegree (k, k).
 * The only other Molien series in the corpus is Pass 11030 (G₁₂ on ℂ², a different action).
 * The time-odd / time-even split of the qutrit ray invariants, in closed form, was not found in the corpus or the OEIS.
+
+## Correction (Pass 11515)
+
+* **The error.** The statement that the new degree-8 odd invariant **needs** two stabiliser states from the same MUB is
+  wrong: it was an over-read of a largest-residual search.
+* **The fact.** The (5, 2, 1) chirality R(p_a⁵ p_b² p_c) over three *different* MUBs is already a new generator in
+  degree 8.
+* **The full picture.** All five odd generators are the (k, 2, 1) chiralities for k = 3 … 7. The module is free
+  through degree 12, with one relation in degree 13 (Pass 11515).

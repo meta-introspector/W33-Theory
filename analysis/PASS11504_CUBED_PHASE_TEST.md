@@ -44,3 +44,12 @@ Regression: `tests/test_w33_pass11498_11505.py`
   check.
 
 **Prior art.** The criterion is Pass 11252's, and the observation on words is Pass 11500's. No external source is known.
+
+## Correction (Pass 11512)
+
+* **The search here was blind, and its reading is withdrawn.** BFGS from 3 starts found unitaries in 4 eigenspaces.
+  Levenberg–Marquardt, with the one-dimensional eigenspaces decided exactly, finds **1212** unitary-containing eigenspaces
+  among the 816 symmetry classes.
+* **Two of them hold non-reversible unitaries that pass the cubed-phase test.** One is verified by Theorem 1 (overlap
+  2.985) and by Pass 11252's criterion.
+* So the test is **not** exact on PU(3). The word-level coincidence of Pass 11500 stands.

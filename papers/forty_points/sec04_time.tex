@@ -921,6 +921,26 @@ one new generator in each degree $6,7,8,9,10$ and none in $11$--$13$, over an ev
 \cert{w33\_pass11500\_exact\_depth9.py}, \cert{w33\_pass11501\_six\_qutrits\_extended.py},
 \cert{w33\_pass11502\_time\_odd\_module.py}, \cert{w33\_pass11503\_rule\_cell\_shares.py}, \cert{w33\_pass11504\_cubed\_phase\_test.py})
 
+The good rules reduce to blocks. Splitting $V=V_1\oplus V'$ into the generalised $1$-eigenspace of $M$ and the rest (they are
+$M$-invariant and $\omega$-orthogonal, and every reverser respects the split), a frame is reversible as soon as one reverser exists
+on the block of $z_1$ that negates $z_1$, and, on $V_1$, the reversers of the unipotent part cover every frame through the
+criterion of Pass~11499. The second condition holds in any dimension when $M$ is semisimple at $1$ (an anti-symplectic involution
+whose $(-1)$-space is a Lagrangian through the frame) and was checked for all $3^2$ and $3^8$ unipotent elements of
+$\mathrm{Sp}(2,3)$ and $\mathrm{Sp}(4,3)$; the first was checked for every block of dimension $\le4$. Hence the good rules hold for
+every $n$ whenever the unipotent part at $1$ and the block of $z_1$ have dimension at most four, which covers every class at two and
+three qutrits. The cubed-phase test is \emph{not} exact on $PU(3)$: searching the $816$ symmetry classes of non-affine phase relations
+exhaustively (one-dimensional eigenspaces exactly, the rest by Levenberg--Marquardt) finds $1212$ eigenspaces containing
+unitaries, and two of them hold unitaries that pass the test yet are not reversible (Clifford overlap $2.985<3$, confirmed by the
+Weyl criterion); the earlier report of none was an optimiser that missed nearly all of them. On Clifford$+T$ words the test
+remains exact through depth nine. The time arrows of a qutrit state are one family: the five
+generators are the chiralities $\sum_g\operatorname{sgn}(g)\,p_{ga}^{\,k}p_{gb}^2p_{gc}$, $k=3,\dots,7$, over three mutually unbiased
+bases, and they generate freely through degree $12$ with a single relation in degree $13$ (correcting the earlier statement that
+the degree-$8$ generator needs two states of one basis). Exact data: $P_{10}=\tfrac{21873707}{536870912}$ (denominator law through $k=10$); six
+qutrits give $0.131\pm 0.006$ from $4\,000$ classes.
+\tierT\,\tierC\ (\cert{w33\_pass11511\_good\_rules\_all\_n.py}, \cert{w33\_pass11512\_cubed\_phase\_exhaustive.py},
+\cert{w33\_pass11513\_exact\_depth10.py}, \cert{w33\_pass11514\_six\_qutrits\_4000.py},
+\cert{w33\_pass11515\_odd\_generators\_and\_syzygy.py})
+
 All of this is one law.
 
 \begin{result}{Theorem 4.8 (the intrinsic arrow for every number of qutrits) \hfill \tierT}

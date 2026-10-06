@@ -61,3 +61,12 @@ Regression: `tests/test_w33_pass11498_11505.py`
 * Generator degrees found up to degree K do not exclude generators above K. No a-priori degree bound is used: the
   acting group includes the U(1) phase, so the finite-group Noether bound does not apply as stated.
 * Only the counts are claimed; the generators are not written down.
+
+## Correction (Pass 11515)
+
+* **The error.** The statement that the new degree-8 odd invariant **needs** two stabiliser states from the same MUB is
+  wrong: it was an over-read of a largest-residual search.
+* **The fact.** The (5, 2, 1) chirality R(p_a⁵ p_b² p_c) over three *different* MUBs is already a new generator in
+  degree 8.
+* **The full picture.** All five odd generators are the (k, 2, 1) chiralities for k = 3 … 7. The module is free
+  through degree 12, with one relation in degree 13 (Pass 11515).
