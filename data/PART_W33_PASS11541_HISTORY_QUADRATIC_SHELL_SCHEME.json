@@ -1,0 +1,240 @@
+{
+  "schema": "w33.pass11541.history_quadratic_shell_scheme.v1",
+  "status": "PASS_EXACT_HISTORY_QUADRATIC_SHELL_ASSOCIATION_SCHEME",
+  "pass": 11541,
+  "carrier": "F3^3 = Sym_2(F3)",
+  "quadratic_form": "q(t,x,y)=t^2-x^2-y^2",
+  "relations": [
+    "R0: difference 0",
+    "R1: nonzero difference with q=0 (null)",
+    "R2: difference with q=1",
+    "R3: difference with q=2"
+  ],
+  "valencies": [
+    1,
+    8,
+    6,
+    12
+  ],
+  "primitive_multiplicities": [
+    1,
+    8,
+    6,
+    12
+  ],
+  "first_eigenmatrix_P": [
+    [
+      1,
+      8,
+      6,
+      12
+    ],
+    [
+      1,
+      -1,
+      -3,
+      3
+    ],
+    [
+      1,
+      -4,
+      3,
+      0
+    ],
+    [
+      1,
+      2,
+      0,
+      -3
+    ]
+  ],
+  "second_eigenmatrix_Q": [
+    [
+      1,
+      8,
+      6,
+      12
+    ],
+    [
+      1,
+      -1,
+      -3,
+      3
+    ],
+    [
+      1,
+      -4,
+      3,
+      0
+    ],
+    [
+      1,
+      2,
+      0,
+      -3
+    ]
+  ],
+  "self_duality_identity": "P^2 = 27 I_4",
+  "P_squared": [
+    [
+      27,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      27,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      27,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      27
+    ]
+  ],
+  "intersection_tensor_pij_by_k": [
+    [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        6,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        12
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        3,
+        3
+      ],
+      [
+        0,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        3,
+        3,
+        6
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        4,
+        0,
+        4
+      ],
+      [
+        1,
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        4,
+        4,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        2,
+        4
+      ],
+      [
+        0,
+        2,
+        2,
+        2
+      ],
+      [
+        1,
+        4,
+        2,
+        5
+      ]
+    ]
+  ],
+  "null_graph_column": {
+    "relation": "R1",
+    "spectrum_by_primitive_shell": [
+      8,
+      -1,
+      -4,
+      2
+    ],
+    "multiplicities": [
+      1,
+      8,
+      6,
+      12
+    ],
+    "expanded_spectrum": {
+      "2": 12,
+      "8": 1,
+      "-1": 8,
+      "-4": 6
+    }
+  },
+  "interpretation": "The paper's four history separation classes (coincident/null/q=1/q=2) close as one commutative Bose-Mesner algebra. The same 1+8+6+12 shell census occurs on the Fourier-dual characters, so the history geometry is formally self-dual before any continuum interpretation.",
+  "literature_boundary": "Translation association schemes from quadratic/symmetric bilinear forms and their duality are standard. The repo-specific content is the exact small F3 shell fusion, its explicit eigenmatrix/intersection tensor, and its weld to the frozen W33 temporal clock.",
+  "verification": {
+    "independent_exact_in_session_enumeration": true,
+    "intersection_numbers_constant_on_all_relation_classes": true,
+    "bose_mesner_products_checked_entrywise": true,
+    "producer": "analysis/w33_pass11541_history_quadratic_shell_scheme.py"
+  },
+  "boundary": "Finite association-scheme theorem only. Formal Fourier self-duality is not physical space-time duality and supplies no continuum metric, Einstein equation, or measured coupling constant."
+}
