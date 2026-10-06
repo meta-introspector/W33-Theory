@@ -1,0 +1,187 @@
+{
+  "schema": "w33.pass11570-11579.executable-gauge-gravity-overlap.v1",
+  "status": "PASS_WITH_EXPLICIT_FIREWALLS",
+  "passes": {
+    "11570": {
+      "status": "PASS_EXECUTABLE_SM_INTERSECTION",
+      "H3C_basis_indices": [
+        0,
+        9,
+        26,
+        10,
+        11,
+        1,
+        2,
+        24,
+        25
+      ],
+      "H3C_closed_under_committed_Jordan_product": true,
+      "F4_H3C_stabilizer": {
+        "dimension": 16,
+        "center_dimension": 0,
+        "derived_dimension": 16,
+        "trace_form_inertia": [
+          0,
+          16,
+          0
+        ],
+        "centroid_dimension": 2,
+        "centroid_eigenspace_dimensions": [
+          8,
+          8
+        ],
+        "identification": "su(3)+su(3)"
+      },
+      "spin9_intersection": {
+        "dimension": 12,
+        "center_dimension": 1,
+        "derived_dimension": 11,
+        "trace_form_inertia": [
+          0,
+          12,
+          0
+        ],
+        "derived_centroid_dimension": 2,
+        "derived_centroid_eigenspace_dimensions": [
+          8,
+          3
+        ],
+        "identification": "su(3)+su(2)+u(1)"
+      },
+      "theorem": "Inside the executable compact F4 derivation algebra of the committed Albert algebra, the stabilizer of the explicit 9D H3(C) subalgebra is su(3)+su(3), and intersecting with the exact primitive-idempotent Spin(9) stabilizer gives su(3)+su(2)+u(1).",
+      "boundary": "Lie-algebra theorem only; global quotient structure, chirality and physical gauge interpretation remain separate."
+    },
+    "11571": {
+      "status": "PASS_NONTRIVIAL_DISCRETE_CURVATURE_FROM_UNIQUE_CONNECTION",
+      "lattice": "periodic Z3^3",
+      "frame": "diag(1+(a+b)/10,1+(b+c)/10,1+(c+a)/10) with coordinates mapped 0,1,-1",
+      "curvature_nonzero_site_plaquette_pairs": 81,
+      "total_site_plaquette_pairs": 81,
+      "distinct_scalar_curvature_values": 11,
+      "scalar_curvature_sum": "-360725/209088",
+      "sample_scalar_curvatures": [
+        "-1/33",
+        "487/4356",
+        "-1459/7128",
+        "2845/13068",
+        "-29/2376"
+      ],
+      "theorem": "Applying the exact torsion-free metric-compatible Cartan solver sitewise to a nonuniform rational periodic frame produces nonzero discrete curvature everywhere in the sample."
+    },
+    "11572": {
+      "status": "FIREWALL_LATTICE_EINSTEIN_HILBERT_NOT_YET_DERIVED",
+      "positive_result": "The unique connection and explicit curvature are now executable inputs for a spectral action.",
+      "obstruction": "No calculation in this packet proves that the variable-frame Hamming-Wilson heat trace converges to a Laplace-type spin operator whose first geometric coefficient is uniquely the scalar-curvature term.",
+      "conditional_statement": "If the variable-frame Wilson-Albert operator is proved to converge to the ordinary smooth spin Dirac operator, the standard Lichnerowicz/heat-kernel expansion supplies the Einstein-Hilbert scalar-curvature term at the first geometric order.",
+      "boundary": "This pass deliberately does not relabel the older graph-curvature identities as Einstein gravity."
+    },
+    "11573": {
+      "status": "PASS_GAUGED_3D_OVERLAP_FIREWALL",
+      "construction": "3D Hamming axis Wilson kernel with U(1) magnetic flux through the xy torus and doubled Clifford grading",
+      "scans": [
+        {
+          "flux": 0,
+          "mass": 1,
+          "hermiticity_residual": 0,
+          "GW_residual": 2.772832417784501e-14,
+          "index": 0,
+          "Wilson_gap": 0.9999999999999964,
+          "zero_modes": 4
+        },
+        {
+          "flux": 1,
+          "mass": 1,
+          "hermiticity_residual": 0,
+          "GW_residual": 3.586117919117678e-14,
+          "index": -3.552713678800501e-15,
+          "Wilson_gap": 0.6384828637092292,
+          "zero_modes": 2
+        },
+        {
+          "flux": -1,
+          "mass": 1,
+          "hermiticity_residual": 0,
+          "GW_residual": 3.543956800366121e-14,
+          "index": 0,
+          "Wilson_gap": 0.6384828637092299,
+          "zero_modes": 2
+        }
+      ],
+      "conclusion": "The odd-dimensional event tower supports an exact numerical GW structure but the doubled 3D index stays zero under the tested magnetic flux. A genuine chiral index still requires an even-dimensional extension such as the prior 4D overlap construction."
+    },
+    "11574": {
+      "status": "PASS_CANONICAL_EVENT_THREE_PLANE_FROM_EXCEPTIONAL_SELECTOR",
+      "spin9_vector_decomposition": "9 = 3 + 6",
+      "su3_ideal": {
+        "dimension": 8,
+        "fixed_subspace_dimension": 3
+      },
+      "su2_ideal": {
+        "dimension": 3,
+        "fixed_subspace_dimension": 6
+      },
+      "u1_on_vector": {
+        "eigenvalues": [
+          "0",
+          "-4 i",
+          "+4 i"
+        ],
+        "multiplicities": [
+          3,
+          3,
+          3
+        ]
+      },
+      "theorem": "The H3(C)+primitive-idempotent selector canonically determines a real 3-plane as the fixed space of the su(3) ideal; the complementary 6-space is fixed by the su(2) ideal only trivially in the opposite sense.",
+      "firewall": "The su(2) factor rotates the selected 3-plane. Interpreting that same plane as physical spacetime would conflate weak isospin with event rotations unless an additional internal/spacetime separation is supplied."
+    },
+    "11575": {
+      "status": "PASS_HESSE_MASS_NONUNIQUENESS",
+      "exact_SM_commutant_on_Peirce16_dimension": 4,
+      "observed_commutant_structure": "two invariant real sectors of dimensions 12 and 4, each carrying a commuting complex structure; consistent with C direct-sum C as a real commutant",
+      "consequence": "An SM-invariant Hesse/vacuum scalar does not by symmetry alone select a unique fermion mass operator on the Peirce-16.",
+      "boundary": "No observed Yukawa matrix or mass hierarchy is derived in this pass."
+    },
+    "11576": {
+      "status": "PASS_VECTORLIKE_ANOMALY_AUDIT",
+      "u1_center_eigenvalues_on_Peirce16": {
+        "-6 i": 2,
+        "+6 i": 2,
+        "-2 i": 6,
+        "+2 i": 6
+      },
+      "trace_Q": 0,
+      "trace_Q_cubed": 0,
+      "symmetric_cubic_gauge_anomaly_nonzero_entries": 0,
+      "symmetric_cubic_gauge_anomaly_entries_checked": 364,
+      "conclusion": "The unprojected real Peirce-16 restriction is perturbatively anomaly-free because it is vectorlike/real. This is not yet a derivation of the chiral Standard Model anomaly pattern."
+    },
+    "11577": {
+      "status": "PASS_PATI_SALAM_U3_BRIDGE",
+      "exact_SM_algebra": "su(3)+su(2)+u(1)",
+      "event_spin3": "the 3D su(2) ideal acting on the canonical 3-plane",
+      "centralizer_inside_SM": "su(3)+u(1)",
+      "centralizer_dimension": 9,
+      "identification": "u(3)",
+      "theorem": "Intersecting the exact SM-shaped algebra with the Spin(6) centralizer of the event Spin(3) leaves u(3).",
+      "interpretation": "This is the exact algebraic Pati-Salam color-plus-lepton bridge, while also showing that a physical weak SU(2) must be kept conceptually distinct from spacetime/event Spin(3)."
+    },
+    "11578": {
+      "status": "PASS_EXACT_NUMERICAL_GINSPARG_WILSON_ON_HAMMING_KERNEL",
+      "max_GW_residual_across_executed_scans": 5.480331512895766e-14,
+      "max_absolute_index_across_executed_scans": 1.0658141036401503e-14,
+      "conclusion": "The finite Hamming-Wilson overlap construction satisfies the GW identity to machine precision across free and unit-flux scans, while the odd-dimensional doubled index remains zero."
+    },
+    "11579": {
+      "status": "PASS_COMMON_STABILIZER_CHAIN_WITH_PHYSICAL_FIREWALL",
+      "chain": [
+        "E6 --Hesse trace line--> F4 (52)",
+        "F4 --H3(C)--> su(3)+su(3) (16)",
+        "intersect primitive-idempotent Spin(9) --> su(3)+su(2)+u(1) (12)",
+        "commute with canonical event Spin(3) --> u(3) (9)"
+      ],
+      "conclusion": "The exceptional/Jordan selectors now derive the Standard-Model-shaped compact Lie algebra exactly, but imposing spacetime-event commutation removes the same su(2) factor. A separate internal weak-isospin selector or product architecture is therefore still required."
+    }
+  },
+  "physical_boundary": "This packet establishes exact finite Lie-algebra/stabilizer theorems, a discrete curvature witness, overlap/GW structure, and explicit no-go conditions. It does not yet derive Lorentzian Einstein dynamics, a chiral Standard Model representation, unique Yukawa couplings, observed masses, or vacuum selection."
+}
