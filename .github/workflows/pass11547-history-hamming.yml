@@ -1,0 +1,25 @@
+name: Pass 11547 history Hamming conjugacy
+
+on:
+  push:
+    paths:
+      - 'analysis/w33_pass11547_history_hamming_canonical_clock.py'
+      - 'data/PART_W33_PASS11547_HISTORY_HAMMING_CANONICAL_CLOCK.json'
+      - 'tests/test_w33_pass11547_history_hamming_canonical_clock.py'
+      - '.github/workflows/pass11547-history-hamming.yml'
+  pull_request:
+    paths:
+      - 'analysis/w33_pass11547_history_hamming_canonical_clock.py'
+      - 'data/PART_W33_PASS11547_HISTORY_HAMMING_CANONICAL_CLOCK.json'
+      - 'tests/test_w33_pass11547_history_hamming_canonical_clock.py'
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --upgrade pip pytest
+      - run: pytest -q tests/test_w33_pass11547_history_hamming_canonical_clock.py
