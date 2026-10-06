@@ -1,0 +1,8 @@
+{
+  "branch_executed": "pass2309-2315-execution",
+  "job_status_before_persist": "failure",
+  "run_attempt": 1,
+  "run_id": 37543129229,
+  "schema": "w33.pass2309_2315.observable_run.v1",
+  "trigger_event": "push"
+}
