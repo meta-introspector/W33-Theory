@@ -1,7 +1,12 @@
 {
-  "schema": "w33.pass11540.history_vo33_orientation_square.v1",
-  "status": "PASS_EXACT_VO33_ORTHOGONAL_ORIENTATION_SQUARE",
+  "schema": "w33.pass11540.history_vo33_orientation_square.v2",
+  "status": "PASS_EXACT_VO33_WITH_CHARACTER_ASSIGNMENT_CORRECTED_BY_11548",
   "pass": 11540,
+  "correction_notice": {
+    "corrected_by_pass": 11548,
+    "withdrawn": "repo PSp = affine SO and global history bit = orthogonal determinant",
+    "replacement": "repo PSp = 3^3:ker(sigma)=3^3:W(D3); global history bit is sigma; det=sigma*pi"
+  },
   "history_graph": {
     "standard_name": "parabolic affine orthogonal polar graph VO(3,3)",
     "carrier": "F3^3",
@@ -10,26 +15,48 @@
     "vertices": 27,
     "degree": 8,
     "edges": 108,
-    "distance_profile_from_origin": {
-      "0": 1,
-      "1": 8,
-      "2": 18
-    },
     "adjacency_spectrum": {
       "2": 12,
       "8": 1,
       "-1": 8,
       "-4": 6
-    },
-    "fourier_shell_eigenvalue": {
-      "zero_character": 8,
-      "nonzero_q0": -1,
-      "q1": -4,
-      "q2": 2
     }
   },
+  "orthogonal_group": {
+    "O_3_3_order": 48,
+    "SO_3_3_order": 24,
+    "Omega_3_3_order": 12,
+    "SO_on_four_null_directions": "faithful S4",
+    "Omega_on_four_null_directions": "A4 = even permutations",
+    "Omega_equals_derived_SO": true,
+    "standard_isomorphisms": [
+      "SO(3,3) ~= PGL(2,3) ~= S4",
+      "Omega(3,3) ~= PSL(2,3) ~= A4"
+    ]
+  },
+  "affine_orthogonal_ladder": {
+    "AffO_order": 1296,
+    "AffSO_order": 648,
+    "AffOmega_order": 324,
+    "warning": "AffSO has order 648 but is not the repository PSp Bell stabilizer"
+  },
+  "repo_stabilizer_ladder": {
+    "PGSp_order": 1296,
+    "PGSp_linear": "O(3,3)=C2^3:S3",
+    "PSp_order": 648,
+    "PSp_linear": "ker(sigma)=W(D3)~=S4, distinct from SO(3,3)",
+    "oriented_kernel_order": 324,
+    "oriented_linear_kernel": "A4=Omega(3,3)=PSp_linear intersect SO(3,3)"
+  },
+  "orientation_square_corrected": {
+    "sigma": "product of Hamming-coordinate signs; kernel is repo PSp linear; global history/outer bit",
+    "pi": "coordinate-permutation parity = projective-null-line permutation parity; repo 648->324 bit",
+    "determinant": "sigma*pi; kernel is SO(3,3), not repo PSp",
+    "quotient": "O(3,3)/A4 ~= C2 x C2",
+    "source": "Pass 11548"
+  },
   "projective_null_boundary": {
-    "nonzero_null_vectors": 8,
+    "direction_count": 4,
     "projective_null_directions": [
       [
         [
@@ -79,86 +106,14 @@
           0
         ]
       ]
-    ],
-    "direction_count": 4,
-    "identification": "Q(2,3) = P1(F3), the same four-set used by the Hesse/tetracode clock"
-  },
-  "orthogonal_group": {
-    "O_3_3_order": 48,
-    "SO_3_3_order": 24,
-    "Omega_3_3_order": 12,
-    "SO_order_census": {
-      "1": 1,
-      "2": 9,
-      "3": 8,
-      "4": 6
-    },
-    "Omega_order_census": {
-      "1": 1,
-      "2": 3,
-      "3": 8
-    },
-    "SO_on_four_null_directions": "faithful S4",
-    "Omega_on_four_null_directions": "A4 = even permutations",
-    "Omega_equals_derived_SO": true,
-    "standard_isomorphisms": [
-      "SO(3,3) ~= PGL(2,3) ~= S4",
-      "Omega(3,3) ~= PSL(2,3) ~= A4"
     ]
-  },
-  "affine_group_ladder": {
-    "AffO_order": 1296,
-    "AffSO_order": 648,
-    "AffOmega_order": 324,
-    "AffO": "3^3:O(3,3)",
-    "AffSO": "3^3:SO(3,3) ~= 3^3:S4",
-    "AffOmega": "3^3:Omega(3,3) ~= 3^3:A4",
-    "all_1296_affine_isometries_explicitly_checked": true
-  },
-  "orientation_square": {
-    "character_pair_census": {
-      "++": 12,
-      "+-": 12,
-      "-+": 12,
-      "--": 12
-    },
-    "outer_global_bit": {
-      "quotient": "AffO/AffSO ~= C2",
-      "character": "determinant of the 3D orthogonal linear part",
-      "repo_match": "PGSp Bell stabilizer 1296 -> PSp Bell stabilizer 648; existing global history-cycle/antiunitary/chirality reversal bit"
-    },
-    "inner_null_frame_bit": {
-      "quotient": "AffSO/AffOmega ~= C2",
-      "character": "parity of the S4 action on the four projective null directions",
-      "standard_classical_name": "spinor norm quotient; Omega(3,3)=ker(spinor norm) inside SO(3,3)",
-      "repo_match": "existing 3^3:S4 -> 3^3:A4 line-orientation quotient 648 -> 324"
-    },
-    "combined_quotient": "AffO/AffOmega ~= C2 x C2",
-    "independence_witness": "-I has orthogonal determinant -1 but fixes all four projective null directions"
   },
   "repo_weld": {
     "existing_bigcell_orders_recovered": {
       "PGSp": 1296,
       "PSp": 648
     },
-    "existing_line_orientation_kernel_recovered": 324,
-    "existing_fourier_clock_spectrum_recovered": true,
-    "new_content": "standard VO(3,3) name plus the orthogonal determinant/spinor-norm separation of the two C2 orientation bits"
+    "pass11548_objectwise_character_correction_loaded": true
   },
-  "literature_anchor": {
-    "affine_polar_graph": "Sage/PassageMath AffineOrthogonalPolarGraph: odd-dimensional sign=None gives parabolic VO(d,q)",
-    "spinor_norm": "For q odd, Omega(n,q) is the kernel of the spinor norm on SO(n,q)",
-    "rank3_isomorphisms": "SO(3,q) ~= PGL(2,q), Omega(3,q) ~= PSL(2,q)"
-  },
-  "verification": {
-    "exact_in_session_enumeration": true,
-    "all_3x3_F3_matrices_examined": 19683,
-    "independent_subgroup_checks": [
-      "even null-frame kernel has order 12",
-      "derived subgroup of SO has order 12",
-      "the two subgroups are identical"
-    ],
-    "repository_python_verifier": "analysis/w33_pass11540_history_vo33_orientation_square.py"
-  },
-  "boundary": "Exact finite quadratic-graph and group theorem. The identification of Omega with the spinor-norm kernel is standard finite orthogonal-group theory; the verifier independently reconstructs that subgroup as the derived/even-null-frame kernel. No continuum Lorentz symmetry, physical speed of light, Einstein dynamics, or gravity is inferred."
+  "boundary": "Exact finite VO(3,3) theorem with corrected subgroup dictionary. No continuum Lorentz, physical CPT, speed-of-light, Einstein-dynamics or gravity claim."
 }
