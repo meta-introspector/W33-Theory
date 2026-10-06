@@ -1,0 +1,328 @@
+{
+  "status": "PASS",
+  "passes": [
+    11542,
+    11543,
+    11544,
+    11545,
+    11546
+  ],
+  "reservation": "fbaf36b43",
+  "binding": {
+    "status": "PASS",
+    "pass_number": 11542,
+    "scalar_internal_symmetry": "symmetric",
+    "triplet_internal_symmetry": "antisymmetric",
+    "statistics": "For identical left Weyl fields the local Lorentz scalar epsilon_ab psi_Ia psi_Jb is symmetric in I,J. The native Lambda\u00b281 register requires the spinor-symmetric (1,0) tensor/spin-triplet channel, or extra species/orbital structure. In a nonrelativistic S-wave a spin-triplet with antisymmetric internal state obeys Fermi statistics. Three spin polarizations are a spectator subsystem if controls act identically on them.",
+    "binding": "Zero-range radial boundary uprime(0)/u(0)=-1/a gives u=exp(-r/a), E_B=-1/(2mu a\u00b2), only a>0. The scattering length and reduced mass are physical matching inputs; an attractive Casimir label alone does not determine them.",
+    "scattering_channel_inverse_lengths": [
+      "alpha-beta/9+2gamma/3",
+      "alpha-13beta/9-4gamma/3"
+    ],
+    "direct_logical_control": "X=[-B conj(Psi),B conj(Phi)] uses prior11539 cubic map. The covariant pair mass-squared perturbation X C Xdag, C any Hermitian2x2, restricts to10 f\u00b2 C on normalized logical pair states. Diagonal difference, real cross and imaginary cross give all Pauli axes. Small perturbations of a positive pair mass matrix give dynamical local gates after a supplied nonrelativistic reduction; an ancilla is not required for these gates.",
+    "control_matrix": [
+      [
+        "c00",
+        "x + I*y"
+      ],
+      [
+        "x - I*y",
+        "c11"
+      ]
+    ],
+    "control_normalization": "Phi=f e0f0, Psi=f e1f0; Xdag X=10f\u00b2 I2",
+    "operator_dimensions": {
+      "canonical_dimension1_pair_field_logical_control": 4,
+      "canonical_dimension1_pair_field_ancilla_mix": 5,
+      "microscopic_dimension3_fermion_pair_logical_control": 8,
+      "microscopic_dimension3_fermion_pair_ancilla_mix": 9
+    },
+    "ancilla_charge_bound": "Pure family diag(-2,1,1) gives ancilla pair charge-4, logical pair charge+2. Both condensates have charge-2, conjugates+2. A nonzero mixing coefficient on this phase needs at least three condensate factors to supply charge6. This is scoped to the two-condensate inventory; extra charged backgrounds can change it.",
+    "boundary": "An explicit operator and statistics-aware binding prescription, not a derived bound state or healthy spin-one UV completion. Canonical auxiliary pair-field dimensions are EFT assumptions, not proof of renormalizability. Binding, spin dynamics, coefficients and physical scales remain open."
+  },
+  "exchange": {
+    "status": "PASS",
+    "pass_number": 11543,
+    "one_particle_support": 30,
+    "cross_exchange": "W=S13+S14+S23+S24; ordinary constituent swaps. W commutes with within-pair permutations and preserves the antisymmetric-pair sector.",
+    "projected_W": [
+      [
+        "1/5",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1/10",
+        "1/10",
+        "0"
+      ],
+      [
+        "0",
+        "1/10",
+        "1/10",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1/5"
+      ]
+    ],
+    "projected_W_squared": [
+      [
+        "38/5",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "19/5",
+        "19/5",
+        "0"
+      ],
+      [
+        "0",
+        "19/5",
+        "19/5",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "38/5"
+      ]
+    ],
+    "leakage_Gram": [
+      [
+        "189/25",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "189/50",
+        "189/50",
+        "0"
+      ],
+      [
+        "0",
+        "189/50",
+        "189/50",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "189/25"
+      ]
+    ],
+    "full_cyclic_identity": "(W\u00b2+2W)Vj=4(Vj+V_swap(j)); individual pair projection of W Vj equals joint code projection. The native orbit closes exactly, not approximately, including all81 labels; permutation preserves the30-label support.",
+    "supplied_two_body_gap": "H0=Delta(Q12+Q34), where each Q is the complement of the two-dimensional internal pair code. Pair gap operators act on two constituents each; W is a sum of cross-register two-body swaps.",
+    "triplet_block": [
+      [
+        "J/5",
+        "3*sqrt(21)*J/5"
+      ],
+      [
+        "3*sqrt(21)*J/5",
+        "2*Delta - 11*J/5"
+      ]
+    ],
+    "singlet": "W annihilates the logical singlet exactly; H0 also annihilates it.",
+    "revival": {
+      "J_over_Delta": "649606/25672045 - 801*sqrt(337411)/25672045",
+      "J_over_Delta_numeric": 0.007180121832944005,
+      "Omega_over_Delta": "160*sqrt(337411)/5134409 + 4998240/5134409",
+      "duration_times_Delta": "400*pi/(160*sqrt(337411)/5134409 + 4998240/5134409)",
+      "duration_times_Delta_numeric": 1267.3072784215556,
+      "triplet_phase": "-i",
+      "singlet_phase": "1",
+      "encoded_gate": "exp(-i*pi/4)*exp(-i*pi*SWAP_L/4)"
+    },
+    "short_revival": {
+      "J_over_Delta": "-14/25 + sqrt(571)/25",
+      "J_over_Delta_numeric": 0.39582425162788165,
+      "Omega_over_Delta": "78/25 - 2*sqrt(571)/25",
+      "duration_times_Delta": "3*pi/(78/25 - 2*sqrt(571)/25)",
+      "duration_times_Delta_numeric": 7.799698999970913,
+      "triplet_phase": "-i",
+      "singlet_phase": "1",
+      "encoded_gate": "exp(-i*pi/4)*exp(-i*pi*SWAP_L/4)",
+      "scope": "Exact stronger-exchange pulse, not a weak-coupling approximation or a time-optimality claim. At pi/Omega it instead implements inverse sqrtSWAP."
+    },
+    "exact_gate": "With the displayed algebraic constant coupling ratio, t=400pi/Omega returns all bright amplitude exactly to zero and implements encoded sqrtSWAP up to global phase. No supplied four-body/product pulse or infinite adiabatic limit is needed for this ideal model.",
+    "boundary": "Exact finite-time gate for this declared H0+JW. Pair binding, addressed code gaps, ordinary swap actuators and calibrated algebraic strengths remain physical inputs. Perturbations generally spoil exact revivals; no hardware error threshold or UV derivation."
+  },
+  "flavor": {
+    "status": "PASS",
+    "pass_number": 11544,
+    "positive_down_pin": [
+      [
+        "3",
+        "1 + I",
+        "1 - I"
+      ],
+      [
+        "1 - I",
+        "4",
+        "1"
+      ],
+      [
+        "1 + I",
+        "1",
+        "5"
+      ]
+    ],
+    "up_pin": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "2",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "3"
+      ]
+    ],
+    "down_leading_mass_coefficients": [
+      "39/19",
+      "19/5",
+      "5"
+    ],
+    "mass_valuations": [
+      6,
+      4,
+      0
+    ],
+    "mixing_generic_valuations": [
+      1,
+      2,
+      3
+    ],
+    "J_generic_valuation": 6,
+    "weak_basis_CP_valuation": 22,
+    "weak_basis_CP_leading_coefficient": "369360",
+    "exact_CP_polynomial": "-12*epsilon**22*(epsilon**2 - 2)*(epsilon**2 + 2)*(2*epsilon**4 - 3)*(2*epsilon**4 + 3)*(epsilon**6 - 3)*(epsilon**6 + 3)*(30*epsilon**12 + 40*epsilon**10 + 39*epsilon**8 + 120*epsilon**6 + 76*epsilon**4 + 65*epsilon**2 + 95)",
+    "theorem": "For Y=D B D, B fixed positive definite, lambda_min(B) D\u00b2<=Y<=lambda_max(B) D\u00b2. Min-max proves mass valuations2d=(6,4,0), independent of positive pin coefficients. Generic nonzero Schur off-diagonals yield mixing valuations |di-dj|=(1,2,3). Val(theta_ij)=Val(mi/mj)/2 is a valuation relation, not an equality of physical values.",
+    "CP": "Jarlskog invariant ImTr[Hu,Hd]^3 is weak-basis invariant. On this generic texture J has valuation6 and each squared-mass Vandermonde has valuation8; their product has valuation22. The stored exact polynomial verifies this in the supplied pin example. CP conserving coefficients can make it vanish identically.",
+    "counterexample": "An invertible indefinite pin with B01=B10=1, B22=1 gives singular-value valuations(5,5,0), not(6,4,0). Positivity or appropriate nonzero principal minors cannot be omitted.",
+    "boundary": "Exact parameter-independent exponents for the prior supplied hierarchical texture11413; the mass/mixing orders themselves are owned there. Exact invariant CP polynomial and positivity counterexample refine its scope. Pin coefficients, epsilon, endpoints, Higgs/SM matching and absolute scales remain inputs; no CKM values or measured masses selected."
+  },
+  "causal": {
+    "status": "PASS",
+    "pass_number": 11545,
+    "integer_null_steps": [
+      [
+        -1,
+        -1,
+        0
+      ],
+      [
+        -1,
+        0,
+        -1
+      ],
+      [
+        -1,
+        0,
+        1
+      ],
+      [
+        -1,
+        1,
+        0
+      ],
+      [
+        1,
+        -1,
+        0
+      ],
+      [
+        1,
+        0,
+        -1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    "cover": "Integer chart Z\u00b3 with reduction mod3 to the27-event chart. Choosing the four t=+1 steps supplies an orientation absent from the undirected finite graph. Causal reach is a Manhattan diamond; it is not an exactly Euclidean circular microscopic cone.",
+    "declared_wave": "phi(t+1)-2phi(t)+phi(t-1)=c\u00b2[phi(x+1)+phi(x-1)+phi(y+1)+phi(y-1)-4phi], c\u00b2=1/3 supplied.",
+    "continuum_symbol": "a**2*(-kx**4/36 - ky**4/36 + omega**4/12) + kx**2/3 + ky**2/3 - omega**2",
+    "stability": "sin\u00b2(aomega/2)=c\u00b2[sin\u00b2(akx/2)+sin\u00b2(aky/2)]. For2c\u00b2<1, every Fourier mode has real frequency. E=||phi_next-phi||\u00b2/2+c\u00b2<grad(phi_next),grad(phi)>/2 is exactly conserved; E>= (1/2-c\u00b2)||delta phi||\u00b2+c\u00b2||grad(average phi)||\u00b2/2.",
+    "numerical_refinements": [
+      {
+        "mesh": 1.0,
+        "omega_squared": 0.08297381462834752,
+        "continuum_error": 0.00035951870498580896
+      },
+      {
+        "mesh": 0.5,
+        "omega_squared": 0.08324384987130935,
+        "continuum_error": 8.948346202397595e-05
+      },
+      {
+        "mesh": 0.25,
+        "omega_squared": 0.08331098715016154,
+        "continuum_error": 2.2346183171789713e-05
+      },
+      {
+        "mesh": 0.125,
+        "omega_squared": 0.08332774832891121,
+        "continuum_error": 5.585004422117845e-06
+      }
+    ],
+    "finite_support_ticks": 20,
+    "maximum_energy_drift": 1.1102230246251565e-16,
+    "boundary": "An explicitly added oriented integer cover and standard hyperbolic stencil; an example of a causal fixed-background2+1 continuum limit. The finite graph does not select this lift, speed, kinetic coefficients or metric. No4D spacetime, spin2 gravity, Einstein constraint or unique Lorentzian limit derived. Prior11540/11541 history shell owners retained."
+  },
+  "vacuum_energy": {
+    "status": "PASS",
+    "pass_number": 11546,
+    "scalar_hessian_mass_fourth_sum": "2218769/864",
+    "one_loop": "In a separately declared canonically normalized Gaussian scalar theory with M_i\u00b2=m\u00b2 h_i, the scalar-only CW log coefficient is2218769 m4/(55296 pi\u00b2), and dV1/dlog(mu)=-2218769 m4/(27648 pi\u00b2). Gauge, fermion and ghost contributions plus kinetic matching must be supplied for the full physical supertrace.",
+    "application": "Apply prior11274/11284 sequestering to this actual two-stage scalar constant shift: T->T-Cg and Lambda->Lambda-C leave T-g<TrT>/4-DeltaLambda*g unchanged in a fixed affine-sigma flux sector. A nonconstant source remains. This imports an existing gravitational mechanism, not a new W33 solution.",
+    "fixed_flux_Ward_test": {
+      "linear": "0",
+      "quadratic": "C*Q/mu4**2"
+    },
+    "criterion": "With fixed geometry and flux Q, Volume=sigma_prime(Lambda/mu4)Q/mu4 must remain invariant under arbitrary constant C. Differentiating forces sigma_second=0, so sigma is affine. This criterion is scoped to exact fixed-data shift symmetry; it is not a no-go theorem for nonlinear sequestering with adjusted geometry or approximate radiative stability.",
+    "residual_epoch_density": [
+      "4*rho0/5 - 3*rho1/10 - rho2/2",
+      "-rho0/5 + 7*rho1/10 - rho2/2",
+      "-rho0/5 - 3*rho1/10 + rho2/2"
+    ],
+    "naive_matter_subtraction": "sum volume_i(rho_i-<rho>)=0 identically. Using this as the entire potential erases the local scalar force as well as constants. Subtraction belongs in the constrained gravitational source, with matter dynamics retained.",
+    "boundary": "Scalar loop instability quantified, existing affine-sector shift protection applied and its fixed-data condition audited. Auxiliary four-forms, metric dynamics, flux ratios and matter/gravity matching are added inputs; graviton loops and observed residual vacuum energy are not solved."
+  },
+  "source_sha256": {
+    "data/w33_pass11539_native_plane_holonomy.json": "4fdeaf055761cde9ee401da0de06210d0f92b394295a43b72c33cc6fcc62836f",
+    "data/w33_pass11526_11530_validated_dynamics.json": "ce09c00fdb158a948fdb8d863a09749fd43337593a60583bd125e5c9c01a4cbd",
+    "analysis/w33_pass11413_11417_pin_regge_vacuum_noise.py": "d49d18d6ec92c52065ec60d1af79eb23494c120afe252a811b580726b044336a",
+    "analysis/w33_pass11274_scale_and_sequestering.py": "c0a685ab45f520c10d30d8a03c579038b403ff38c62c44ae52add736358dc86e",
+    "analysis/w33_pass11284_closed_history_flux.py": "752ebae01e7337bd1e709f1b779099ebd95f67a52c30a356a007298c0a98f898",
+    "analysis/w33_pass11541_history_quadratic_shell_scheme.py": "7ed1c8898d73a5ff37b97d58ae1f640b15aeab22b88c81bfec5eb1a6abe5e798"
+  },
+  "binding_method": "Canonical parsed JSON hashes, raw LF code hashes.",
+  "producer_sha256": "991de9b8139eb3ae568f8505ea9303f031c18765b1b289de213f03c6454325c0"
+}

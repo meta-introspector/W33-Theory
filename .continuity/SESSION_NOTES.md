@@ -1987,3 +1987,14 @@ Independent follow-up targets: compatible SM and CP phase selection; dynamic mix
 - Science commit8a1cd37a5 pushed to W33 master and verified by fresh GitKraken fetch/log. Normal science hooks completed.13 final focused tests pass; certificate semantic SHA2564fdeaf055761cde9ee401da0de06210d0f92b394295a43b72c33cc6fcc62836f.
 - Producer, certificate, report, tests, site card and refreshed results index are published. Existing d×epsilon E8 bracket is credited; contribution is the neutral-pair frame and conditional control architecture plus its exact obstructions.
 - Mixed Continuity decision stores remain unstaged; original parallel checkout preserved. No physical binding, actuator strength, four-body synthesis, degeneracy protection, measured masses/couplings or gravity result is claimed.
+
+### 2026-10-05 — Passes11542–11546 five-target execution
+
+- Reservation fbaf36b43 published before computing; parallel formula catalog commit f31c523e7 reviewed and integrated without source overlap.
+- All five requested investigations executed. Exact constituent-exchange cyclic closure and calibrated finite revival implement native encoded sqrtSWAP using only two-body Hamiltonian terms; pair gaps and physical actuators are supplied. Direct condensate-referenced logical controls give all Pauli directions.
+- Statistics-aware binding EFT, positive-pin flavor valuation/CP polynomial and counterexample, added causal cover/wave refinement, scalar-only loop coefficient and prior-sequestering fixed-data shift criterion are source-bound. Physical coefficients, observed masses, four-dimensional gravity and residual CC remain open.
+- Five producer sections PASS and11 independent regressions PASS in47.90s. Results-index refresh and batch intake required before publication; normal science hooks will run.
+- Original parallel checkout and mixed Continuity decision stores remain untouched/unstaged.
+
+- Stronger-exchange exact revival: J/Delta=(-14+sqrt571)/25, t=3pi/Omega=7.799699/Delta. Full block exponential verifies zero final leakage and sqrtSWAP; no weak-coupling or optimal-time claim. All12 final regressions PASS in50.24s, all five regenerated producer sections PASS.
+- Parallel5211d6647 reservation11547 (finite Minkowski/Hamming conjugacy) read completely and integrated; complementary to the added causal cover, without selecting physical spacetime. Final intake/index refresh in progress.
