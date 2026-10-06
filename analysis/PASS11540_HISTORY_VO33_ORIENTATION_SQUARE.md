@@ -1,271 +1,197 @@
-# Pass 11540 — The 27-event history chart is `VO(3,3)`, and its two orientation bits form a square
+# Pass 11540 — The 27-event history chart is `VO(3,3)`
 
-**Status:** exact finite theorem; standard classical-group identification; no continuum/gravity promotion.
+> **Correction (Pass 11548).** The graph and group-order theorem below survives.
+> The original version incorrectly identified the repository's (648)-element
+> PSp Bell stabilizer with the affine (SO(3,3)) subgroup from equality of
+> orders. Objectwise reconstruction in Pass 11548 shows instead
+> [
+> PSp_B^{m lin}=kersigma=W(D_3)cong S_4,
+> ]
+> where (sigma) is the product of the three coordinate signs in the
+> Pass-11547 Hamming frame.  (SO(3,3)=kerdet) is a *different* order-(24)
+> (S_4).  Their intersection is
+> (A_4=Omega(3,3)).  The global (1296	o648) history-orientation bit is
+> (sigma), not the orthogonal determinant.  See
+> `PASS11548_HISTORY_ORIENTATION_SQUARE_CORRECTION.md`.
 
-## Executive result
+**Status:** exact finite theorem, corrected subgroup dictionary; no
+continuum/gravity promotion.
 
-The Bell-centered history chart already frozen in the repository is
+## Exact graph theorem
 
+The Bell-centered history chart is
 [
-mathcal H = operatorname{Sym}_2(mathbf F_3)cong mathbf F_3^3
+mathcal H=operatorname{Sym}_2(mathbf F_3)congmathbf F_3^3
 ]
-
-with interval
-
+with quadratic interval
 [
 q(t,x,y)=t^2-x^2-y^2
 ]
-
-and null adjacency
-
+and adjacency
 [
-usim vquadLongleftrightarrowquad u
-e v,;q(u-v)=0.
+usim viff u
+e v, q(u-v)=0.
 ]
 
-That graph has a standard name:
-
+This graph is the parabolic affine orthogonal polar graph
 [
-oxed{mathcal H_{m null}cong VO(3,3)}
+oxed{mathcal H_{m null}cong VO(3,3)}.
 ]
 
-—the **parabolic affine orthogonal polar graph** in dimension three over (mathbf F_3).
-
-This is not a new numerical spectrum calculation.  The repository already froze the
-(27)-vertex, degree-(8), (108)-edge null graph, its Fourier spectrum, the
-(1296/648) Bell-stabilizer actions, and the (648/324) line-orientation quotient.
-The new content is the classical-group identification that puts those facts into one
-canonical ladder and proves that the two sign reductions are **different characters**.
-
-## Exact group ladder
-
-The verifier exhaustively checks all (3^9=19683) ternary (3	imes3) matrices against (q).
-
-It finds
-
+It has
 [
-|O(3,3)|=48,qquad |SO(3,3)|=24,qquad |Omega(3,3)|=12.
+27	ext{ vertices},qquad 108	ext{ edges},qquad k=8
+]
+and spectrum
+[
+8^1,quad2^{12},quad(-1)^8,quad(-4)^6.
 ]
 
-The four projective null directions are
+Pass 11547 later strengthens this by an explicit linear conjugacy to the
+distance-three graph of the ternary Hamming scheme (H(3,3)).
 
+## Classical orthogonal group
+
+Exhaustive enumeration of all (3^9) ternary (3	imes3) matrices gives
 [
-Q(2,3)=mathbb P^1(mathbf F_3),
+|O(3,3)|=48,qquad |SO(3,3)|=24,qquad|Omega(3,3)|=12.
 ]
 
-and (SO(3,3)) acts faithfully on them as all (24) permutations.  Thus, in the
-standard rank-three exceptional isomorphisms,
-
+The four projective null directions carry the standard rank-three action
 [
-oxed{SO(3,3)cong PGL(2,3)cong S_4}
+SO(3,3)cong PGL(2,3)cong S_4,
+]
+with
+[
+Omega(3,3)cong PSL(2,3)cong A_4.
 ]
 
+The affine orthogonal groups therefore have orders
+[
+1296,qquad648,qquad324.
+]
+
+**Important:** the middle affine (SO) subgroup has the same order (648) as
+the repository PSp Bell stabilizer, but they are not the same subgroup.
+
+## Corrected repository stabilizer ladder
+
+Pass 11548 reconstructs the actual repository action
+[
+Smapsto ASA^{mathsf T},
+qquad
+Ain GL(2,3)/{pm I},
+]
+and conjugates it to the Hamming coordinates of Pass 11547.
+
+There
+[
+O(3,3)=C_2^3{:}S_3
+]
+is the signed-permutation group. Define
+[
+sigma=	ext{product of the three coordinate signs},
+qquad
+pi=	ext{coordinate-permutation parity}.
+]
+Then
+[
+det=sigmapi.
+]
+
+The exact subgroup dictionary is
+[
+oxed{
+PGSp_B^{m lin}=O(3,3),
+qquad
+PSp_B^{m lin}=kersigma=W(D_3)cong S_4,
+}
+]
 and
-
-[
-oxed{Omega(3,3)cong PSL(2,3)cong A_4}.
-]
-
-Internally, the verifier identifies the (A_4) subgroup twice and finds the same (12)
-matrices:
-
-1. the even-permutation kernel of the action on the four null directions;
-2. the derived subgroup ([SO(3,3),SO(3,3)]).
-
-For odd (q), standard finite orthogonal-group theory identifies (Omega(n,q)) with the
-kernel of the spinor norm on (SO(n,q)).  Hence the repository's old
-(S_4	o A_4) orientation quotient has a standard name: **the spinor-norm quotient**.
-
-References used for the nomenclature/classification:
-
-- Sage/PassageMath, `AffineOrthogonalPolarGraph`: odd-dimensional `sign=None`
-  is the parabolic graph (VO(d,q)).
-- Magma Handbook, `Omega(n,q)`: for odd (q), (Omega(n,q)) is the kernel
-  of the spinor norm on (SO(n,q)).
-- Standard rank-three exceptional isomorphisms:
-  (SO(3,q)cong PGL(2,q)) and (Omega(3,q)cong PSL(2,q)) for odd (q).
-
-## The affine history symmetry
-
-Translations by (mathbf F_3^3) give
-
 [
 oxed{
-3^3{:}O(3,3)
+PSp_B^{m lin}cap SO(3,3)=A_4=Omega(3,3).
+}
+]
+
+Thus the repository's affine ladder is
+[
+1296
 supset
-3^3{:}SO(3,3)
+648=3^3{:}W(D_3)
 supset
-3^3{:}Omega(3,3)
-}
+324=3^3{:}A_4.
 ]
 
-with orders
+## Corrected orientation square
+
+The two repo-relevant bits are
 
 [
-oxed{1296supset648supset324}.
+oxed{sigma}
 ]
-
-All (27cdot48=1296) affine isometries are explicitly checked to preserve every
-null-history neighborhood.
-
-These are exactly the three orders already sitting in the temporal corpus:
-
-- (1296): the full (PGSp) Bell-line action;
-- (648): the (PSp) Bell-line action (3^3{:}S_4);
-- (324): the existing oriented-line kernel (3^3{:}A_4).
-
-So the older pieces were not three unrelated group-order coincidences.  They are the
-orthogonal subgroup ladder of the same finite Minkowski chart.
-
-## The real breakthrough: there are two independent orientation bits
-
-The quotient from (1296) to (648) and the quotient from (648) to (324) are not the
-same (C_2).
-
-### Bit 1 — global history/CPT-like orientation
+for the global (1296	o648) history/outer bit, and
 
 [
-oxed{
-(3^3{:}O)/(3^3{:}SO)cong C_2.
-}
+oxed{pi}
 ]
+for the inner (648	o324) line-orientation bit.
 
-Its character is the determinant of the (3)-dimensional orthogonal linear part.
-
-This matches the already-frozen outer Bell-stabilizer bit:
-
+The ordinary orthogonal determinant is the third nontrivial character
 [
-PGSp_B/PSp_Bcong C_2,
-]
-
-which reverses the unique global history-cycle orientation and is the same outer
-unitary/antiunitary and half-spin/chirality bit used in the Forty Points paper.
-
-### Bit 2 — null-frame/spinor orientation
-
-[
-oxed{
-(3^3{:}SO)/(3^3{:}Omega)cong C_2.
-}
-]
-
-Its character is the parity of the (S_4) permutation of the four projective null
-directions; in standard orthogonal language this is the spinor-norm quotient.
-
-This matches the older
-
-[
-3^3{:}S_4longrightarrow3^3{:}A_4
-]
-
-line-orientation quotient of order (648	o324).
-
-### They are independent
-
-The central inversion
-
-[
--I_3in O(3,3)
-]
-
-has determinant (-1), but projectively fixes all four null directions.  It therefore flips
-the first bit and not the second.
-
-Exhaustive enumeration gives exactly (12) linear orthogonal transformations in each of
-the four character sectors
-
-[
-(+,+),quad(+,-),quad(-,+),quad(-,-).
+oxed{det=sigmapi}.
 ]
 
 Hence
-
 [
-oxed{
-(3^3{:}O(3,3))/(3^3{:}Omega(3,3))
-cong C_2	imes C_2.
-}
+oxed{O(3,3)/A_4cong C_2	imes C_2.}
 ]
 
-This is the **history orientation square**.
+This is the corrected history orientation square.
 
-## Why this matters for the TOE programme
+In the Hamming model the eight oriented null vectors are the cube corners
+((pm1,pm1,pm1)).  The actual PSp subgroup (kersigma) preserves their
+coordinate product, splitting them into two tetrahedra (4+4); the full
+PGSp/O group fuses all eight.  This exactly matches the independently frozen
+old (4+4) chiral-null result.
 
-The four-set that the paper independently meets as
+## Spinor-norm firewall
 
-- the four projective null directions,
-- the four Hesse/qutrit MUB frames,
-- and the four tetracode coordinates
-
-is now also the natural projective null conic on which
-
+The standard statement
 [
-SO(3,3)cong PGL(2,3)cong S_4
+Omega(3,3)=ker(	ext{spinor norm}:SO(3,3)	o C_2)
 ]
+remains correct.
 
-acts.  Its even subgroup
-
+The withdrawn shortcut was to identify the repository
+(648	o324) quotient itself with (SO	oOmega).  The repo quotient is
+instead
 [
-Omega(3,3)cong PSL(2,3)cong A_4
+W(D_3)	o A_4
 ]
-
-is therefore not an arbitrary "even permutation" convention: it is the spinorially
-oriented half of the finite orthogonal group.
-
-That sharpens the clock–cone–code bridge.  The tetracode's four coordinates and the finite
-light cone's four rays are not merely two (S_4)-sets of size four; they sit on the standard
-rank-three orthogonal boundary (mathbb P^1(mathbf F_3)), and the (S_4/A_4) reduction is
-the orthogonal/spinor reduction.
-
-## Fourier compatibility
-
-The same quadratic form is self-dual under the additive Fourier characters of
-(mathbf F_3^3).  The already-frozen adjacency eigenvalues are recovered by quadratic
-shell:
-
-[
-lambda(k)=
-egin{cases}
-8,&k=0,\
--1,&q(k)=0, k
-e0,\
--4,&q(k)=1,\
-2,&q(k)=2.
-end{cases}
-]
-
-So the paper's (1+8) clock-fixed Fourier sector is exactly the trivial character plus the
-nonzero dual null cone.  This is old repo content; Pass 11540 records it only to show that
-the new (VO(3,3)) naming is objectwise compatible with the existing spectral clock.
+through (S_4) permutation parity.  The same (A_4) also equals
+(Omega(3,3)) because it is the intersection of the two distinct
+order-(24) (S_4) subgroups.
 
 ## Firewalls
 
-This pass **does not** claim:
+This pass does **not** claim:
 
-- that (VO(3,3)) is continuum Minkowski space;
-- that (O(3,3)) is the physical Lorentz group;
-- that the finite null relation derives the measured speed of light;
-- that either (C_2) chooses the observed weak chirality;
-- that the affine graph supplies Einstein dynamics or gravity.
-
-The theorem is a finite quadratic-geometry/classical-group identification.  Its value is
-that it removes an ambiguity in the internal architecture: the temporal chart has two
-different canonical orientation characters, and the existing corpus had already measured
-both of them without naming the second one as the spinor norm.
+- (VO(3,3)) is continuum Minkowski space;
+- (O(3,3)) is the physical Lorentz group;
+- the finite null relation derives the measured speed of light;
+- either finite sign character selects observed weak chirality;
+- the graph supplies Einstein dynamics or gravity.
 
 ## Reproducibility
 
-Producer:
-
+Primary producer:
 `analysis/w33_pass11540_history_vo33_orientation_square.py`
 
-Frozen certificate:
-
+Corrected certificate:
 `data/PART_W33_PASS11540_HISTORY_VO33_ORIENTATION_SQUARE.json`
 
-Prior exact owners welded, not overwritten:
-
-- `data/w33_20260924_history_bigcell_q43_compactification.json`
-- `data/w33_20260924_history_invariant_cycle_orientation.json`
-- `data/w33_20260924_null_history_spectral_clock.json`
-- `data/PART_W33_PASS9741_9748_ORIENTATION_CHARACTER_WELD.json`
+Superseding character audit:
+- `analysis/w33_pass11548_history_orientation_square_correction.py`
+- `data/PART_W33_PASS11548_HISTORY_ORIENTATION_SQUARE_CORRECTION.json`
+- `analysis/PASS11548_HISTORY_ORIENTATION_SQUARE_CORRECTION.md`
