@@ -1,0 +1,141 @@
+{
+  "schema": "w33.pass11548.history_orientation_square_correction.v1",
+  "status": "PASS_OBJECTWISE_CORRECTION_OF_PASS11540_CHARACTER_ASSIGNMENT",
+  "pass": 11548,
+  "supersedes": {
+    "pass11540_claim": "repo PSp affine subgroup = 3^3:SO(3,3) and global bit = orthogonal determinant",
+    "verdict": "WITHDRAWN",
+    "survives": [
+      "history graph = VO(3,3)",
+      "|O(3,3)|=48, |SO(3,3)|=24, |Omega(3,3)|=12",
+      "affine orders 1296,648,324",
+      "O/Omega has a C2 x C2 character square"
+    ]
+  },
+  "hamming_orthogonal_group": {
+    "O_order": 48,
+    "model": "signed permutation group C2^3:S3",
+    "characters": {
+      "sigma": "product of three coordinate signs",
+      "pi": "parity of coordinate permutation = parity on four projective null directions",
+      "determinant": "sigma*pi"
+    },
+    "character_sector_counts": {
+      "sigma=+1,pi=+1": 12,
+      "sigma=+1,pi=-1": 12,
+      "sigma=-1,pi=+1": 12,
+      "sigma=-1,pi=-1": 12
+    }
+  },
+  "corrected_subgroups": {
+    "repo_PSp_linear": {
+      "definition": "ker(sigma): even number of coordinate sign flips",
+      "order": 24,
+      "standard_name": "W(D3), the even signed permutation group",
+      "isomorphism": "S4",
+      "not_equal_SO": true
+    },
+    "SO_3_3": {
+      "definition": "ker(determinant)=ker(sigma*pi)",
+      "order": 24,
+      "isomorphism": "S4",
+      "distinct_from_repo_PSp": true
+    },
+    "third_index_two_kernel": {
+      "definition": "ker(pi)",
+      "order": 24,
+      "structure": "C2 x A4 (equivalently C2^3:C3)"
+    },
+    "common_A4_Omega": {
+      "definition": "ker(sigma) intersect ker(pi) = repo_PSp intersect SO",
+      "order": 12,
+      "isomorphism": "A4 = Omega(3,3)",
+      "derived_of_repo_PSp": true,
+      "derived_of_SO": true
+    }
+  },
+  "corrected_orientation_dictionary": {
+    "global_history_outer_bit": {
+      "affine_quotient": "(3^3:O)/(3^3:ker(sigma)) = 1296/648 = C2",
+      "character": "sigma = product of Hamming-coordinate sign flips",
+      "repo_meaning": "existing history-cycle orientation / unitary-vs-antiunitary / chirality outer bit",
+      "outer_witness": "-I has sigma=-1 and swaps the two oriented-null tetrahedra"
+    },
+    "inner_line_orientation_bit": {
+      "affine_quotient": "(3^3:ker(sigma))/(3^3:A4) = 648/324 = C2",
+      "character": "pi = parity of coordinate permutation = S4/A4 sign",
+      "repo_meaning": "existing W33 line-orientation kernel 3^3:A4"
+    },
+    "orthogonal_determinant": {
+      "character": "det=sigma*pi",
+      "meaning": "third nontrivial character on O/A4; its kernel SO(3,3) is NOT the repo PSp subgroup"
+    },
+    "quotient": "O(3,3)/A4 = C2 x C2"
+  },
+  "oriented_null_tetrahedra": {
+    "plus_product": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        2,
+        2,
+        1
+      ]
+    ],
+    "minus_product": [
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "PSp_orbits": [
+      4,
+      4
+    ],
+    "PGSp_O_orbit": 8,
+    "closed_form_label": "chi(d)=product_i sign(d_i) for d_i in {+1,-1}"
+  },
+  "spinor_norm_firewall": {
+    "valid_standard_statement": "Omega(3,3) is the spinor-norm kernel inside SO(3,3)",
+    "invalid_old_shortcut": "the repo 648->324 quotient itself is SO->Omega",
+    "correct_statement": "repo 648->324 is ker(sigma)->A4 via pi; A4 also equals Omega because it is the intersection with SO"
+  },
+  "verification": {
+    "repo_PSp_reconstructed_from": "GL(2,3)/{+/-I} congruence S -> A S A^T on Sym_2(F3)",
+    "hamming_conjugacy": "Pass11547 Hsym(a,b,c)=(2a+b+c,2a+2b+c,2a+2c)",
+    "exact_linear_actions": 24,
+    "exact_full_signed_permutations": 48,
+    "common_A4_order": 12,
+    "producer": "analysis/w33_pass11548_history_orientation_square_correction.py"
+  },
+  "boundary": "Exact finite subgroup correction. No continuum Lorentz, physical CPT theorem, weak-chirality selection or gravity claim is added."
+}
