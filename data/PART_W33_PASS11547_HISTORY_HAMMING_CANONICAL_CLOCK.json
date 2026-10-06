@@ -1,0 +1,218 @@
+{
+  "schema": "w33.pass11547.history_hamming_canonical_clock.v1",
+  "status": "PASS_EXACT_FINITE_MINKOWSKI_HAMMING_CONJUGACY",
+  "pass": 11547,
+  "linear_conjugacy": {
+    "paper_coordinates": "(t,x,y)",
+    "map": "H(t,x,y)=(x+y,x-y,t)",
+    "inverse": "H^-1(u,v,w)=(w,2(u+v),2(u-v))",
+    "identity": "t^2-x^2-y^2 = u^2+v^2+w^2 over F3",
+    "hamming_identity": "u^2+v^2+w^2 = wt_H(u,v,w) mod 3",
+    "sym2_coordinates": "for q(a,b,c)=ac-b^2: Hsym=(2a+b+c,2a+2b+c,2a+2c)"
+  },
+  "exact_relation_dictionary": {
+    "coincident": "Hamming distance 0",
+    "q=+1 / paper timelike shell": "Hamming distance 1",
+    "q=-1=2 / paper spacelike shell": "Hamming distance 2",
+    "q=0 nonzero / paper null shell": "Hamming distance 3",
+    "ordered_pair_census": {
+      "identity": 27,
+      "null_to_d3": 216,
+      "q1_to_d1": 162,
+      "q2_to_d2": 324
+    }
+  },
+  "hamming_scheme": {
+    "standard_name": "ternary Hamming association scheme H(3,3)",
+    "ordinary_distance_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "history_relation_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "ordinary_eigenmatrix": [
+      [
+        1,
+        6,
+        12,
+        8
+      ],
+      [
+        1,
+        3,
+        0,
+        -4
+      ],
+      [
+        1,
+        0,
+        -3,
+        2
+      ],
+      [
+        1,
+        -3,
+        3,
+        -1
+      ]
+    ],
+    "history_reordered_eigenmatrix": [
+      [
+        1,
+        8,
+        6,
+        12
+      ],
+      [
+        1,
+        -1,
+        -3,
+        3
+      ],
+      [
+        1,
+        -4,
+        3,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        -3
+      ]
+    ],
+    "pass11541_is_literal_hamming_scheme": true
+  },
+  "null_graph": {
+    "description": "distance-3 graph of H(3,3), equivalently direct/tensor product K3 x K3 x K3",
+    "adjacency_factorization": "A_null=(J3-I3) tensor (J3-I3) tensor (J3-I3)",
+    "degree": 8,
+    "full_graph_reconstruction": {
+      "A1_from_A3": "24 A1 = -A3^3 + 9 A3^2 + 18 A3 - 64 I",
+      "A2_from_A3": "12 A2 = A3^3 - 3 A3^2 - 24 A3 + 16 I",
+      "meaning": "the null graph alone generates the full Hamming Bose-Mesner algebra"
+    }
+  },
+  "automorphism_group": {
+    "full_group": "Aut(null)=Aut(H(3,3))=S3 wr S3",
+    "order": 1296,
+    "wreath_order_formula": "6^3 * 6",
+    "affine_form": "F3^3 : (C2^3 : S3) = 3^3 : O(3,3)",
+    "linear_stabilizer": "signed permutation group C2^3:S3",
+    "linear_stabilizer_order": 48,
+    "all_symbol_permutations_of_F3_are_affine": true,
+    "pass11540_group_recovered": true
+  },
+  "canonical_hamming_frame": {
+    "projective_orthogonal_frame_count": 4,
+    "norm_pattern_census": {
+      "1,1,1": 1,
+      "1,2,2": 3
+    },
+    "q1_projective_lines": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "unique_all_q1_frame": true,
+    "preimages_of_standard_hamming_axes": [
+      [
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "pass11182_position_momentum_aligned_splits": 4,
+    "interpretation": "q itself canonically selects the unordered three-axis Hamming frame; labels/signs remain gauge"
+  },
+  "clock_factorization": {
+    "clock": "U=exp(-2*pi*i*L_null/9)",
+    "fourier_weight_table": [
+      {
+        "weight": 0,
+        "adjacency_eigenvalue": 8,
+        "laplacian_eigenvalue": 0,
+        "omega_exponent": 0
+      },
+      {
+        "weight": 1,
+        "adjacency_eigenvalue": -4,
+        "laplacian_eigenvalue": 12,
+        "omega_exponent": 2
+      },
+      {
+        "weight": 2,
+        "adjacency_eigenvalue": 2,
+        "laplacian_eigenvalue": 6,
+        "omega_exponent": 1
+      },
+      {
+        "weight": 3,
+        "adjacency_eigenvalue": -1,
+        "laplacian_eigenvalue": 9,
+        "omega_exponent": 0
+      }
+    ],
+    "phase_law": "on Fourier Hamming weight w, U has phase omega^{-w}",
+    "single_trit_gate": "C=F3^dag diag(1,omega^2,omega^2) F3 = exp(-2*pi*i p^2/3)",
+    "factorization": "in the canonical Hamming mereology, U=C tensor C tensor C",
+    "relation_to_pass11166": "the light-cone-coordinate clock is entangling, but this global linear change of tensor factorization diagonalizes its quadratic form; no contradiction"
+  },
+  "qutrit_dimension_uniqueness": {
+    "theorem": "over F3, sum z_i^2 equals Hamming weight mod 3; n=3 is the largest dimension for which the quadratic value plus identity separates every Hamming distance",
+    "positive_distance_residue_injective_by_dimension": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": false,
+      "5": false,
+      "6": false,
+      "7": false
+    },
+    "first_collision_at_n4": "distances 1 and 4 both have quadratic residue 1"
+  },
+  "literature_boundary": {
+    "hamming_scheme": "H(n,q) distance relations and Krawtchouk eigenmatrices are standard coding-theory association-scheme results",
+    "automorphisms": "Aut(H(n,m))=S_m wr S_n is standard; Mirafzal-Ziaee give an elementary proof",
+    "distance_n_graph": "a 2026 Mirafzal preprint independently studies M(n,m)=K_m direct-product n times (adjacent iff all coordinates differ) and proves Aut(M)=Aut(H); Pass11547 does not claim this general theorem",
+    "repo_specific": "the explicit conjugacy of the Forty Points quadratic history chart to H(3,3), its weld to Passes 11166/11182/11540/11541, and the canonical-clock factorization"
+  },
+  "verification": {
+    "exact_pair_checks": 729,
+    "wreath_permutations_enumerated": 1296,
+    "affine_signed_monomial_permutations_enumerated": 1296,
+    "groups_equal_as_vertex_permutation_sets": true,
+    "null_to_hamming_polynomial_checked_entrywise": true,
+    "producer": "analysis/w33_pass11547_history_hamming_canonical_clock.py"
+  },
+  "boundary": "Exact finite linear/graph/association-scheme theorem. Hamming coordinates are a canonical finite address factorization up to local alphabet permutations and coordinate permutation; they are not a derivation of physical subsystems, continuum Lorentzian spacetime, a measured causal metric, or gravity."
+}
