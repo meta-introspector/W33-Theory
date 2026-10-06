@@ -1,0 +1,25 @@
+name: Pass 11550 Veronese Weil Hamming
+
+on:
+  push:
+    paths:
+      - 'analysis/w33_pass11550_veronese_weil_hamming_orientation.py'
+      - 'data/PART_W33_PASS11550_VERONESE_WEIL_HAMMING_ORIENTATION.json'
+      - 'tests/test_w33_pass11550_veronese_weil_hamming_orientation.py'
+      - '.github/workflows/pass11550-veronese-weil-hamming.yml'
+  pull_request:
+    paths:
+      - 'analysis/w33_pass11550_veronese_weil_hamming_orientation.py'
+      - 'data/PART_W33_PASS11550_VERONESE_WEIL_HAMMING_ORIENTATION.json'
+      - 'tests/test_w33_pass11550_veronese_weil_hamming_orientation.py'
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --upgrade pip pytest
+      - run: pytest -q tests/test_w33_pass11550_veronese_weil_hamming_orientation.py
