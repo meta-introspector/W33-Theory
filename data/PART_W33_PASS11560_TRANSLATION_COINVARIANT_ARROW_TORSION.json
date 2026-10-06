@@ -1,0 +1,76 @@
+{
+  "coinvariant_chain_complex": {
+    "C0_rank": 1,
+    "C1_rank": 4,
+    "C2_rank": 4,
+    "H1": "(Z/3)^4",
+    "H2": "0",
+    "d1": "0",
+    "d2": "3 I4",
+    "mechanism": "each temporal triangle boundary contains three oriented edges in one translation edge orbit",
+    "smith_invariants_d2": [
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "full_complex": {
+    "integral_H1": "Z^46 (Pass11553/full-complex computation); no Z/3 torsion",
+    "integral_triangle_boundary_rank": 36,
+    "oriented_null_edges": 108,
+    "temporal_triangles": 36,
+    "vertices": 27
+  },
+  "interpretation": "The characteristic-three arrow is not torsion in the full temporal complex. It is the unique W(D3)-fixed character of the translation-coinvariant (Z/3)^4 torsion created by the order-3 triangle stabilizers.",
+  "pass": 11560,
+  "physics_firewall": "This explains the modular equivariant cohomology algebraically; it is not by itself a quantum anomaly, Chern class, thermodynamic arrow, or continuum topological term.",
+  "quotient_firewall": "C_*(X)_T denotes chain coinvariants. Because translations have order-3 stabilizers on 2-cells, this is not asserted to equal the ordinary cellular chain complex or homology of the topological quotient X/T, and no free-action Cartan-Leray theorem is invoked.",
+  "residual_WD3": {
+    "fixed_dimension_in_Hom_H1_F3": 1,
+    "fixed_vector": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "image_on_four_directions": "S4",
+    "image_order": 24,
+    "order": 24,
+    "pullback": "the fixed quotient cochain pulls back to the Pass11553 cubic-arrow cochain"
+  },
+  "schema": "w33.pass11560.translation-coinvariant-arrow-torsion.v1",
+  "status": "PASS_ARROW_FROM_TRANSLATION_COINVARIANT_3_TORSION",
+  "translation_action": {
+    "edge_orbit_size": 27,
+    "edge_orbits": 4,
+    "group": "T=F3^3",
+    "order": 27,
+    "positive_direction_representatives": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        2,
+        2,
+        1
+      ]
+    ],
+    "triangle_orbit_size": 9,
+    "triangle_orbits": 4,
+    "triangle_stabilizer_order": 3,
+    "vertex_orbits": 1
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "arrow_weil_weld": {
+    "D_is_exact_Pass11555_operator": true,
+    "arrow_operator": "D=Aplus-Aminus",
+    "dual_chiral_multiplicities": [
+      4,
+      4
+    ],
+    "null_adjacency": "A3=Aplus+Aminus",
+    "reading": "the two four-dimensional primitive character classes are the chi=+/- weight-3 Fourier sheets; Pass11550 identifies them with the conjugate +/-i Weil sheets"
+  },
+  "boundary": "Exact finite orbital/association-scheme theorem. It does not imply continuum causality, thermodynamic irreversibility, a physical Dirac equation, or gravitational dynamics.",
+  "eigenstructure": {
+    "first_eigenmatrix": [
+      [
+        "1",
+        "6",
+        "12",
+        "4",
+        "4"
+      ],
+      [
+        "1",
+        "3",
+        "0",
+        "-2",
+        "-2"
+      ],
+      [
+        "1",
+        "0",
+        "-3",
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "-3",
+        "3",
+        "-1/2 - 3*sqrt(3)*I/2",
+        "-1/2 + 3*sqrt(3)*I/2"
+      ],
+      [
+        "1",
+        "-3",
+        "3",
+        "-1/2 + 3*sqrt(3)*I/2",
+        "-1/2 - 3*sqrt(3)*I/2"
+      ]
+    ],
+    "formal_self_duality": "P^2=27*C where C swaps the two chiral classes; Q=P*C",
+    "multiplicities": [
+      1,
+      6,
+      12,
+      4,
+      4
+    ],
+    "second_eigenmatrix": [
+      [
+        "1",
+        "6",
+        "12",
+        "4",
+        "4"
+      ],
+      [
+        "1",
+        "3",
+        "0",
+        "-2",
+        "-2"
+      ],
+      [
+        "1",
+        "0",
+        "-3",
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "-3",
+        "3",
+        "(-3*sqrt(3) + 13*I)/(3*sqrt(3) + I)",
+        "-1/2 - 3*sqrt(3)*I/2"
+      ],
+      [
+        "1",
+        "-3",
+        "3",
+        "-1/2 - 3*sqrt(3)*I/2",
+        "-1/2 + 3*sqrt(3)*I/2"
+      ]
+    ],
+    "splitting_field": "Q(sqrt(-3))"
+  },
+  "hamming_fusion": {
+    "full_Hamming_automorphism_order": 1296,
+    "fusion": "R3 = Rplus union Rminus",
+    "outer_coset_size": 648,
+    "outer_relation_action": "fix R0,R1,R2 and swap Rplus <-> Rminus",
+    "result": "ternary Hamming scheme H(3,3)"
+  },
+  "pass": 11556,
+  "prior_art": {
+    "abstract_fission": "Chia and Kok, Discrete Mathematics 306 (2006) 3189-3222, Table 2 includes the 27-point Hamming spectra and a feasible class-4 non-symmetric case (3,3)",
+    "classification": "Hanaki-Miyamoto classify 502 association schemes of order 27; no abstract novelty claim is made here",
+    "repo_specific_new_content": "objectwise identification of the actual PSp history orbitals with the H(3,3) directed fission and exact weld D=Aplus-Aminus to the temporal arrow/Weil operator"
+  },
+  "schema": "w33.pass11556.psp_hamming_directed_fission_scheme.v1",
+  "scheme": {
+    "all_nontrivial_relations_connected": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "carrier": "F3^3",
+    "classes": 4,
+    "intersection_numbers_pijk": [
+      [
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          2,
+          3,
+          3
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          1,
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          2,
+          3,
+          3
+        ],
+        [
+          12,
+          4,
+          5,
+          6,
+          6
+        ],
+        [
+          0,
+          2,
+          2,
+          3,
+          0
+        ],
+        [
+          0,
+          2,
+          2,
+          0,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          2,
+          2,
+          3,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          4,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          3,
+          0
+        ],
+        [
+          0,
+          2,
+          2,
+          0,
+          3
+        ],
+        [
+          4,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          1,
+          0
+        ]
+      ]
+    ],
+    "order": 27,
+    "rank": 5,
+    "relations": {
+      "R0": "difference Hamming weight 0",
+      "R1": "difference Hamming weight 1",
+      "R2": "difference Hamming weight 2",
+      "Rminus": "weight 3 and chi(d)=-1",
+      "Rplus": "weight 3 and chi(d)=+1"
+    },
+    "transpose_map": [
+      0,
+      1,
+      2,
+      4,
+      3
+    ],
+    "type": "primitive commutative non-symmetric Schurian translation association scheme",
+    "valencies": [
+      1,
+      6,
+      12,
+      4,
+      4
+    ]
+  },
+  "schurian_orbitals": {
+    "base_difference_orbit_sizes": [
+      1,
+      4,
+      4,
+      6,
+      12
+    ],
+    "base_stabilizer_order": 24,
+    "color_preserving_automorphism_group_order": 648,
+    "group": "3^3:W(D3) = affine repo PSp history stabilizer",
+    "orbitals_equal_five_relations": true,
+    "order": 648
+  },
+  "status": "PASS_PSP_ORBITAL_FISSION_OF_H33"
+}

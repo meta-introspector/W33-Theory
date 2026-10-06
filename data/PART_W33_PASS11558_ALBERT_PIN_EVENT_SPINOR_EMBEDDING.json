@@ -1,0 +1,47 @@
+{
+  "albert_clifford": {
+    "generated_Cl4_algebra_dimension": 16,
+    "grading": "Gamma4*Gamma5*Gamma6*Gamma7*Gamma8 (five unused Cl9 vectors)",
+    "grading_square": "+I16",
+    "module_reading": "over C, Cl4=M4(C); the 16D Peirce carrier is four copies of the irreducible 4D graded event-spinor module",
+    "selected_gamma_count": 3,
+    "source": "Pass10961 exact rational Cl(9) on the Peirce 16"
+  },
+  "boundary": "Finite complex Clifford-module embedding. The choice of three of nine Albert spatial gamma directions is not dynamically selected; no physical family assignment, Lorentzian spacetime, fermion mass, or gravity follows.",
+  "clock_no_go_reconciliation": {
+    "Pass10959_single16_old_phase_lift_no_go": true,
+    "Pass10961_old_doubled_clock_grade_obstruction_still_valid": true,
+    "reason_no_contradiction": "Pass10959 forbids the two old Albert half-turn phase spectra {1,5}^8 or {3,7}^8. The new Clifford-reflection GL(2,3) action has {1,3,5,7} each multiplicity 4 and is a different representation."
+  },
+  "event_weld": {
+    "Albert_event_operator": "Q_A = i sum_{i=1}^3 gamma_i^(Albert) tensor B_i",
+    "equivariance": "proved on the three Pin/W(D3) generators, hence on the generated 48-element cover",
+    "generator_event_covariance_residual": 0,
+    "same_three_event_Bi": true
+  },
+  "pass": 11558,
+  "pin_action": {
+    "fiber_size": 2,
+    "lift_order": 48,
+    "order8_eighth_root_multiplicities": {
+      "1": 4,
+      "3": 4,
+      "5": 4,
+      "7": 4
+    },
+    "order8_reading": "four copies of the faithful 4D central-odd GL(2,3) spectrum {1,3,5,7}",
+    "order_census": {
+      "1": 1,
+      "2": 13,
+      "3": 8,
+      "4": 6,
+      "6": 8,
+      "8": 12
+    },
+    "projective_order": 24,
+    "same_reflection_covariance_as_Pass11557": true
+  },
+  "schema": "w33.pass11558.albert-pin-event-spinor-embedding.v1",
+  "status": "PASS_EVENT_PIN_CARRIER_EMBEDS_FOURFOLD_IN_ALBERT16",
+  "theorem": "The exact Albert Peirce-16 already contains the four-component Pin event spinor fourfold: three rational Cl9 generators plus an internal grading form Cl4(C), and their reflection lifts generate the same 48-element 2^+S4 cover acting covariantly on the event differences. This supplies a native Albert carrier for the new first-order Q without identifying it with the old frozen order-eight clock operator."
+}
