@@ -3,7 +3,7 @@
 > **Collaborative workspace for you and AI**
 
 ## 🎯 Session Goals
-- Publish reserved11526–11530 (`057834b58`): eight validated investigations across native vacuum, physical symmetry, compatible coherent parent, EW/flavor, local frames, constrained spin history, nonlinear anomaly and coherent QEC. Preserve the original parallel workspace and mixed decision stores.
+- Publish reserved11526–11530 (`057834b58`): nine validated investigations across native vacuum, physical symmetry, compatible coherent parent, EW/flavor, local frames, constrained spin history, nonlinear anomaly and coherent QEC. Preserve the original parallel workspace and mixed decision stores.
 - Remote11511–11515 science,11531–11538 reservation and formula-search freeze through `b565d2817` integrated by GitKraken fast-forward. The cubed-phase counterexample reinforces word/general-unitary scope separation.
 
 ## 💡 Key Decisions Made
@@ -1963,3 +1963,9 @@ Independent follow-up targets: compatible SM and CP phase selection; dynamic mix
 - Final expanded batch intake: no rediscovery collisions; no forced-arithmetic findings; intake clean (four science files). RESULTS_INDEX regenerated with the strengthened second-action report and source. Latest site card has one unique HTML id.
 - GitKraken fresh fetch reviewed; no new remote commits beyond integratedb565d2817 at this check. Publish only owned science files, site, regenerated results index and session notes; exclude mixed decision stores and preserve original parallel checkout.
 - Open physical priorities remain UV/selector coefficients and final SU5 breaking, residual family/CP dynamics and observed masses, local chiral spin/gravity constraints, general functional anomaly locality/global sectors, and matching native gate/leakage norms to coherent fault bounds.
+
+### Verified master publication
+- Science commit `69b5f9fe4` pushed to master, then verified by fresh GitKraken fetch, remote log and status. Remote head matched69b5f9fe4 and branch tracking was up to date.
+- Nine producer sections PASS;19 independent regressions PASS in89.55s; final producer/input binding PASS in50.88s; expanded intake clean with no collisions/forced arithmetic. Report/site/index/certificate/tests committed.
+- Original parallel working files untouched. Only mixed `.continuity/decisions.json` and `.jsonl` remain unstaged in the isolated worktree; these shared stores were deliberately excluded from the science commit.
+- Mathematical stationary/global-minimum and finite-computation results remain separated from unselected physical coefficients, actual SM/CP/flavor, observed parameters, local spacetime/gravity, general local anomaly measure, physical CC and native hardware thresholds.
