@@ -1,0 +1,205 @@
+{
+  "schema": "w33.pass11580-11589.spin10-sm-breakthrough.v1",
+  "status": "PASS_WITH_EXPLICIT_CONTINUUM_AND_FAMILY_FIREWALLS",
+  "passes": {
+    "11580": {
+      "status": "PASS_INTERNAL_SPIN10_PATISALAM_AND_EXACT_ONE_FAMILY_HYPERCHARGE",
+      "centralizer_dimension": 7,
+      "centralizer_centroid_split": [
+        3,
+        3,
+        1
+      ],
+      "centralizer_identification": "su(2)_L + su(2)_R + u(1)_{B-L}",
+      "qBL_definition": "q_BL = 3(B-L)",
+      "qBL_spectrum_on_Weyl16": {
+        "1": 6,
+        "3": 2,
+        "-3": 2,
+        "-1": 6
+      },
+      "hypercharge_formula": "6Y = q_BL + 3 r, r=2 T3R",
+      "sixY_spectrum": {
+        "0": 1,
+        "1": 6,
+        "2": 3,
+        "6": 1,
+        "-3": 2,
+        "-4": 3
+      },
+      "multiplet_reading": "Q^6, L^2, (u^c)^3, (d^c)^3, e^c, nu^c",
+      "theorem": "The executable Cl(10) centralizer of su(3)+u(1)_{B-L} is su(2)_L+su(2)_R+u(1)_{B-L}; one canonical Weyl16 has exactly the SM+right-handed-neutrino hypercharge multiplicities without charge fitting."
+    },
+    "11581": {
+      "status": "PASS_GLOBAL_SM_Z6_AND_ALL_ONE_FAMILY_ANOMALY_CHECKS",
+      "global_group": "[SU(3)xSU(2)xU(1)]/Z6 ~= S(U(3)xU(2))",
+      "kernel_order": 6,
+      "descent_rule": "y + 2 t + 3 s = 0 mod 6, y=6Y",
+      "anomalies": {
+        "SU3^3": 0,
+        "SU3^2U1": 0,
+        "SU2^2U1": 0,
+        "grav^2U1": 0,
+        "U1^3": 0
+      },
+      "weak_doublet_count": 4,
+      "witten_SU2_global_anomaly": "absent because weak-doublet count is even"
+    },
+    "11582": {
+      "status": "PASS_OVERLAP_Q2_INDEX_WITH_REFINEMENT_ADMISSIBILITY_FIREWALL",
+      "scans": [
+        {
+          "L": 4,
+          "q": 0,
+          "index": 0,
+          "gap": 0.9999999999999951
+        },
+        {
+          "L": 4,
+          "q": 1,
+          "index": -1,
+          "gap": 0.6192073257122167
+        },
+        {
+          "L": 4,
+          "q": 2,
+          "index": -4,
+          "gap": 0.2736048613386745
+        },
+        {
+          "L": 4,
+          "q": 3,
+          "index": 0,
+          "gap": 0.02566771011547208
+        },
+        {
+          "L": 4,
+          "q": 4,
+          "index": 0,
+          "gap": 0.17157287525380296
+        },
+        {
+          "L": 4,
+          "q": 6,
+          "index": 0,
+          "gap": 0.5160315586695379
+        },
+        {
+          "L": 5,
+          "q": 3,
+          "index": -9,
+          "gap": 0.28240359026245915
+        },
+        {
+          "L": 5,
+          "q": 4,
+          "index": -16,
+          "gap": 0.040219022937237336
+        }
+      ],
+      "max_GW_residual_observed": 4.333829603067167e-13,
+      "conclusion": "The 4D overlap index follows -q^2 in the resolved/admissible scans. L=4 under-resolves q>=3; refinement to L=5 restores q=3 and q=4. High-charge sectors require an explicit admissibility/refinement check rather than extrapolation."
+    },
+    "11583": {
+      "status": "PASS_CLOCK_CHIRALITY_QUARTER_TURN_AND_FIXED_WEYL_FIREWALL",
+      "spin10_chirality_eigenspaces": [
+        16,
+        16
+      ],
+      "all_45_spin10_bivectors_commute_with_chirality": true,
+      "one_tick_chirality_to_plus_error": 8,
+      "one_tick_chirality_to_minus_error": 8,
+      "one_tick_new_involution_square_error": 3.470311429261742e-16,
+      "one_tick_anticommutator_error": 2.5148399075013455e-15,
+      "induced_complex_structure_square_minus_identity_error": 2.5386709858747e-15,
+      "two_tick_flip_error": 2.5387965725665652e-15,
+      "four_tick_return_error": 5.0775931451331305e-15,
+      "theorem": "A fixed Spin(10) Weyl chirality is canonical for the internal gauge algebra, but the doubled order-eight clock does not preserve it: one tick produces an anticommuting chirality involution, two ticks exchange Weyl sectors, and four ticks return."
+    },
+    "11584": {
+      "status": "PASS_UNIQUE_SINGLE_FAMILY_10H_YUKAWA_CHANNEL",
+      "symmetric_square_decomposition": "Sym^2(16)=10+126",
+      "symmetric_square_multiplicities": [
+        10,
+        126
+      ],
+      "symmetric_casimir_values": [
+        4.5,
+        12.5
+      ],
+      "exterior_square_decomposition": "Lambda^2(16)=120",
+      "exterior_square_multiplicity": 120,
+      "exterior_casimir_value": 10.5,
+      "theorem": "The Spin(10) vector 10 occurs once in Sym^2(16), so a 16*16*10_H invariant Yukawa channel is unique up to one overall coefficient for one family.",
+      "boundary": "This does not determine a three-family Yukawa texture, CKM/PMNS data, or Higgs-sector choice."
+    },
+    "11585": {
+      "status": "FIREWALL_COARSE_VARIABLE_FRAME_SPECTRAL_RESPONSE_NOT_EH_ONLY",
+      "exact_unweighted_sumR": "-360725/209088",
+      "exact_weighted_intR": "0",
+      "fixed_total_volume": 27,
+      "heat_delta_quadratic_coefficients": {
+        "0.02": 1.6513425429929256,
+        "0.05": 4.215639306342499,
+        "0.1": 8.581194960175758,
+        "0.2": 16.988006500998466
+      },
+      "conclusion": "At fixed volume the coarse Z3^3 spin-connected Wilson/Dirac heat trace changes at O(epsilon^2) while sum det(E)R vanishes exactly. Therefore one finite Hamming cell does not isolate the Einstein-Hilbert invariant; additional lattice/frame invariants contribute before refinement.",
+      "boundary": "This is a coarse-lattice obstruction, not a refutation of continuum heat-kernel Einstein-Hilbert emergence. A shape-regular variable-frame refinement limit remains open."
+    },
+    "11586": {
+      "status": "PASS_PRIMITIVE_SM_HYPERCHARGE_AND_ELECTRIC_CHARGE_LATTICE",
+      "qBL_gcd": 1,
+      "sixY_gcd": 1,
+      "hypercharge_quantum": "1/6",
+      "electric_charges": [
+        "2/3",
+        "-1/3",
+        "0",
+        "-1",
+        "-2/3",
+        "1/3",
+        "1",
+        "0"
+      ],
+      "formulae": [
+        "6Y=3(B-L)+3(2T3R)",
+        "Q_em=T3L+Y"
+      ]
+    },
+    "11587": {
+      "status": "CORRECTION_TRINIFICATION_TRIALITY_NOT_GENERATION_COUNT",
+      "spin10_branching_of_one_E6_27": [
+        16,
+        10,
+        1
+      ],
+      "trinification_branching_of_same_E6_27": [
+        9,
+        9,
+        9
+      ],
+      "one_E6_27_dimension": 27,
+      "three_independent_E6_families_dimension": 81,
+      "correction": "The three trinification nonets are sectors inside one E6 27. The S3 permuting the three SU(3) factors/nonets is not by itself a proof of three fermion generations. Family replication requires a separate mechanism or multiple 27s."
+    },
+    "11588": {
+      "status": "PASS_EXTERNAL_INTERNAL_TENSOR_PRODUCT_CHIRALITY_SEPARATION",
+      "external_overlap_index": -1,
+      "internal_spin10_weyl_rank": 16,
+      "tensor_index_multiplicity": -16,
+      "internal_generators_preserve_weyl_projector": 45,
+      "theorem": "External 4D overlap chirality and internal Spin(10) Weyl chirality can be carried on commuting tensor factors, separating spacetime Spin/Lorentz structure from internal weak SU(2)_L."
+    },
+    "11589": {
+      "status": "PASS_SYNTHESIS_INTERNAL_SM_EXTERNAL_SPACETIME_ARCHITECTURE",
+      "internal_chain": "Spin(10) -> Spin(6)xSpin(4) -> SU(3)xSU(2)_L x SU(2)_R x U(1)_{B-L} -> [SU(3)xSU(2)_L x U(1)_Y]/Z6",
+      "external_chain": "4D overlap/Cl(4) supplies spacetime chirality independently",
+      "matter": "one internal Spin(10) Weyl16 = one SM family plus nu^c",
+      "mass": "single-family 10_H Yukawa channel unique; family replication/flavor texture open",
+      "gravity": "coarse variable-frame spectral action is not EH-only; controlled refinement open",
+      "clock": "full order-eight clock cycles internal chiral gradings rather than preserving one fixed Weyl sector"
+    }
+  },
+  "physical_boundary": "The packet derives an exact internal Spin(10)/Pati-Salam/SM charge and quotient structure on one Weyl16, plus controlled overlap and lattice firewalls. It does not derive three-family replication, measured couplings, CKM/PMNS/Yukawa matrices, electroweak/Higgs vacuum selection, Lorentzian Einstein dynamics, Newton's constant, or a complete physical TOE."
+}
