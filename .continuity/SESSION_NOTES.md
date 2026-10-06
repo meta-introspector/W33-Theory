@@ -3,7 +3,8 @@
 > **Collaborative workspace for you and AI**
 
 ## 🎯 Session Goals
-- Finish publication of11516-11520: full native CP normal audit, typed adjoint flavor split, complete supplied metric stress, uniformly local relative projector current, and quantum-fidelity-optimal native Pauli decoding. Reservation948b8e23d; reviewed remote740dcbf17 and parallel11511-11515 reservation. Preserve original parallel workspace and mixed decision stores.
+- Publish reserved11526–11530 (`057834b58`): eight validated investigations across native vacuum, physical symmetry, compatible coherent parent, EW/flavor, local frames, constrained spin history, nonlinear anomaly and coherent QEC. Preserve the original parallel workspace and mixed decision stores.
+- Remote11511–11515 science,11531–11538 reservation and formula-search freeze through `b565d2817` integrated by GitKraken fast-forward. The cubed-phase counterexample reinforces word/general-unitary scope separation.
 
 ## 💡 Key Decisions Made
 <!-- Important choices during this session -->
@@ -1934,3 +1935,31 @@ Ready to commit seven owned files without shared decision stores.
 - Independent next targets: interval-certify20-variable quotient and transverse blocks; select EW-breaking Higgs/adjoint dynamics with realistic flavor; couple explicit spin transport to nonstatic/local gravity; implement nonlinear local anomaly primitive and finite-volume corrections; extend flag circuit to every single CNOT/ancilla fault and noisy repeated extraction.
 
 Publication receipt: efa45494b is verified origin-https/master. GitKraken created the scientific commit; GitKraken push could not express HEAD:master for the isolated checkout, so the documented narrow CLI refspec fallback completed the push without force. Session-note receipt recorded after remote verification.
+
+### 2026-10-05 — Passes11526–11530 publication packet
+
+- All eight producer sections PASS; certificate binds producer bytes and four canonical source JSON hashes.
+-17 focused independent regressions PASS in86.15s after final periodic-route repair, including fresh producer/source binding. Final native batch intake/index audit is running once; the earlier intake was stopped when the routing correction was identified.
+- Rigorous Krawczyk inclusion and positive interval quotient Hessian certify the native CP point. Combined Spin8 stabilizer cannot host commuting SU3 and SU2; unchanged action has a separate exact SM-singlet Euler obstruction. No claim of physical masses from this phase.
+- A changed coherent parent has an exact global minimum and rational full324-field Hessian:37 gauge zeros and287 positive normal modes. Spin10 first stage is compatible, but its action coefficients and subsequent SM/CP/flavor dynamics remain supplied/open; zero minimum energy is not a cosmological-constant solution.
+- Mixed two-copy composite gives full-rank CP capacity; positive EW portal has exact minima and five positive coordinate normals. Family vectors and compatible CP source remain unselected.
+- Radius-three lifted paths reconstruct every affine first jet. Supplied320-site-spin Hamiltonian and homogeneous constrained history are mean-field finite constructions, not a continuum Dirac or Einstein constraint system.
+-11509 already owns a nonlinear gauge-invariant finite anomaly primitive.11529 adds rooted routing and a bounded-defect tail argument; dense-background functional locality, flux/torons and measure integrability remain open.
+-11432 owns1714 flagged fault cases. Their recorded-branch error span gives arbitrary single-port CPTP correction with ideal terminal recovery. Rational132-port coherent envelope is7.4818137152e-13 for delta1e-5; native leakage, correlated pulse matching and noisy decoder remain open.
+- Publication pending final intake; source binding and all17 regressions are verified. only owned producer/report/certificate/tests/site/index/session staged. Mixed Continuity decision stores and original parallel work remain unstaged.
+
+Independent follow-up targets: compatible SM and CP phase selection; dynamic mixed-family/mediator coefficients; Hermitian radius-three chiral operator with local metric constraints; two-variable anomaly locality with global sectors; native gate/leakage norm matching and noisy recovery.
+
+- Additional exact bridge: condensate-produced moment projectors have ranks1/16/10. A separately declared positive degree-six two-vector action has a zero-energy e0/e1 witness; exact native stabilizer dimension24. The eighteenth regression passed in62.74s. This does not inherit the first-action Hessian, derive coefficients, select CP/flavor or finish SM breaking.
+- Intake's first full run misclassified nested single-row matrices as CSS parameters. All six rows now use explicit Matrix(1,3,entries); the affected native-source test is rerunning and final full intake/index refresh is running. No certified CSS parameter was changed.
+
+### Final strengthened11526–11530 evidence
+- Nine producer sections PASS. All19 focused regressions PASS in89.55s, including exact connected blocks/gauge kernel and an independently differentiated native second-action potential.
+- Positive family-density alignment strengthens the two-vector action:58 gauge zero modes and266 positive normal modes, with12 modes1/36. This is a new calculation for a separately supplied action and an SM-preserving e0/e1 witness, not an inherited first-stage Hessian or a physical mass prediction.
+- Clarified the alignment-Hessian comment to include all entangled off-family native components; final producer regeneration and hash binding follow this prose-only source change. Final expanded intake/index refresh is running.
+
+### Publication-ready evidence
+- Final producer regeneration: all nine sections PASS; producer/input binding replay PASS in50.88s after the comment-only clarification.
+- Final expanded batch intake: no rediscovery collisions; no forced-arithmetic findings; intake clean (four science files). RESULTS_INDEX regenerated with the strengthened second-action report and source. Latest site card has one unique HTML id.
+- GitKraken fresh fetch reviewed; no new remote commits beyond integratedb565d2817 at this check. Publish only owned science files, site, regenerated results index and session notes; exclude mixed decision stores and preserve original parallel checkout.
+- Open physical priorities remain UV/selector coefficients and final SU5 breaking, residual family/CP dynamics and observed masses, local chiral spin/gravity constraints, general functional anomaly locality/global sectors, and matching native gate/leakage norms to coherent fault bounds.
