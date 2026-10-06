@@ -1,0 +1,59 @@
+{
+  "boundary": "Lattice topological invariant of the regulated free symbol. It is not yet an observed chiral index, anomaly coefficient, or Standard Model family count.",
+  "corner_formula": "nu = -1/2 sum_{n=0}^3 C(3,n)(-1)^n sign(m+4n)",
+  "direct_integral_samples": [
+    {
+      "corner_formula": 0,
+      "m": 2,
+      "numerical_winding": 2.659891299536189e-17
+    },
+    {
+      "corner_formula": 1,
+      "m": -2,
+      "numerical_winding": 0.9999999996418532
+    },
+    {
+      "corner_formula": -2,
+      "m": -6,
+      "numerical_winding": -2.0000000000006906
+    },
+    {
+      "corner_formula": 1,
+      "m": -10,
+      "numerical_winding": 1.0000000003584295
+    },
+    {
+      "corner_formula": 0,
+      "m": -14,
+      "numerical_winding": -2.4129303112991916e-17
+    }
+  ],
+  "map": "h(k)=(sin k1,sin k2,sin k3,m+2 sum_i(1-cos ki)); normalized h defines T3 -> S3 away from m=0,-4,-8,-12",
+  "pass": 11568,
+  "phases": [
+    {
+      "interval": "m>0",
+      "winding": 0
+    },
+    {
+      "interval": "-4<m<0",
+      "winding": 1
+    },
+    {
+      "interval": "-8<m<-4",
+      "winding": -2
+    },
+    {
+      "interval": "-12<m<-8",
+      "winding": 1
+    },
+    {
+      "interval": "m<-12",
+      "winding": 0
+    }
+  ],
+  "relation_to_old_4plus4": "The eight unregulated corners carry Jacobian signs (-1)^n, four positive and four negative; the Wilson mass converts that cancellation data into quantized winding phases.",
+  "schema": "w33.pass11568.wilson_dirac_winding.v1",
+  "status": "PASS_INTEGER_WILSON_DIRAC_WINDING_PHASES",
+  "theorem": "The Hamming-Wilson Dirac family has a genuine integer degree. For unit Wilson coefficient its phases are 0,+1,-2,+1,0 across the five mass intervals."
+}

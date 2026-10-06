@@ -1,0 +1,48 @@
+{
+  "boundary": "Kinematic Levi-Civita analogue only. No Einstein-Hilbert dynamics, Lorentzian signature, Newton constant, or frame equation of motion is derived.",
+  "curvature_next": "Once omega links are fixed kinematically, plaquette holonomy supplies a discrete curvature; no curvature action is selected by this pass.",
+  "exact_determinant": "det A(E) = -2 (det E)^3",
+  "exact_sample": {
+    "det_frame": 2,
+    "frame": [
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "solution": [
+      "-1/2",
+      "-5/2",
+      "1",
+      "-7/2",
+      "3/2",
+      "1",
+      "1",
+      "-4",
+      "3"
+    ]
+  },
+  "local_system": {
+    "equation": "C^a_ij + omega_i^a_b E^b_j - omega_j^a_b E^b_i = 0",
+    "equations": 9,
+    "metric_compatibility": "omega_i^{ab}=-omega_i^{ba}",
+    "unknown_layout": "omega_i^{ab}, i=1..3, ab in {12,13,23}",
+    "unknowns": 9
+  },
+  "pass": 11563,
+  "schema": "w33.pass11563.discrete_spin_connection.v1",
+  "status": "PASS_UNIQUE_DISCRETE_TORSION_FREE_METRIC_CONNECTION",
+  "theorem": "The frame ambiguity left by Pass11559 is kinematically removable: the discrete Cartan equations have determinant -2(det E)^3, hence a unique local metric-compatible torsion-free connection for every invertible frame.",
+  "uniqueness": "For every nondegenerate 3x3 frame E, the local torsion-free metric-compatible spin connection is unique."
+}

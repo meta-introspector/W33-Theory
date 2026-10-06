@@ -1,0 +1,102 @@
+{
+  "albert_weld": "Replace the 4x4 gamma carrier by the Pass11558 Albert Peirce-16 Cl4 submodule; the finite operator is then four copies of the same axis Dirac module before further couplings.",
+  "boundary": "A regulator/continuum operator theorem. The Wilson coefficient, bare mass/Hesse coupling, physical lattice spacing, and Lorentzian continuation remain inputs.",
+  "continuum": {
+    "axis_symbol": "Q_axis/(2a): -sum_i Gamma_i sin(k_i)/a",
+    "corner_data": [
+      {
+        "W1": 0,
+        "bits": [
+          0,
+          0,
+          0
+        ],
+        "chirality": 1
+      },
+      {
+        "W1": 4,
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "chirality": -1
+      },
+      {
+        "W1": 4,
+        "bits": [
+          0,
+          1,
+          0
+        ],
+        "chirality": -1
+      },
+      {
+        "W1": 8,
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "chirality": 1
+      },
+      {
+        "W1": 4,
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "chirality": -1
+      },
+      {
+        "W1": 8,
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "chirality": 1
+      },
+      {
+        "W1": 8,
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "chirality": 1
+      },
+      {
+        "W1": 12,
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "chirality": -1
+      }
+    ],
+    "exact_square": "H_W^2 = Q_axis^2/(4a^2) + r^2 W1^2/a^2",
+    "unregulated_zero_set": "8 Brillouin-zone corners {0,pi}^3",
+    "wilson_dirac": "H_W = Q_axis/(2a) + Gamma_0 r W1/a",
+    "wilson_zero_set": "origin only for r != 0 and zero bare mass"
+  },
+  "correction_to_null_edge_refinement": {
+    "global_pathology": "Besides the 8 corners, the naive body-diagonal lift has 12 nodal lines where at least two cosines vanish.",
+    "naive_body_diagonal_symbol": "B_i ~ 8 i sin(k_i) prod_{j!=i} cos(k_j)",
+    "pass11559_local_principal_symbol_remains_valid": true,
+    "resolution": "Refine the exact cubic arrow through its weight-1 factorization delta_1 delta_2 delta_3; use the weight-1 Hamming orbital for the first-order Dirac operator."
+  },
+  "finite_N3": {
+    "Wilson_operator": "W1=6I-A1 = -sum delta_i^2",
+    "axis_differences": "delta_i=T_i-T_i^{-1} on the Hamming weight-1 orbital",
+    "axis_dirac": "Q_axis = i sum Gamma_i tensor delta_i",
+    "exact_arrow_factorization": "D = delta_1 delta_2 delta_3",
+    "exact_square": "Q_axis^2 = I4 tensor (6I-A1)"
+  },
+  "pass": 11566,
+  "schema": "w33.pass11566.axis_dirac_hamming_wilson.v1",
+  "status": "PASS_AXIS_DIRAC_AND_HAMMING_WILSON_REGULATOR",
+  "theorem": "The rank-5 Hamming fission contains its own canonical first-order refinement and Wilson regulator: D factors through the three weight-1 axis differences, Q_axis^2 is exactly the weight-1 Hamming Laplacian, and adding that same Laplacian as a graded Wilson term removes every Brillouin-zone zero except the origin."
+}

@@ -1,0 +1,23 @@
+name: Pass 11562-11569 canonical spin gauge frontier
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'analysis/w33_pass11562_11569_canonical_spin_gauge_frontier.py'
+      - 'tests/test_w33_pass11562_11569.py'
+      - '.github/workflows/pass11562-11569-canonical-spin-gauge.yml'
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --upgrade pip numpy scipy sympy pytest
+      - name: Rebuild certificates
+        run: python analysis/w33_pass11562_11569_canonical_spin_gauge_frontier.py
+      - name: Focused regression
+        run: pytest -q tests/test_w33_pass11562_11569.py

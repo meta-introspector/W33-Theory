@@ -1,0 +1,25 @@
+{
+  "boundary": "Selection theorem/no-go only; no fermion-family or spacetime-axis interpretation is derived.",
+  "clifford": {
+    "generated_Cl3_algebra_dimension": 8,
+    "selected_gamma_indices": [
+      0,
+      1,
+      2
+    ],
+    "spin9_bivector_dimension": 36
+  },
+  "frame_note": "Pass10956 supplies a Spin(8) selector after a spatial axis is chosen, but that still leaves continuous plane choices; no existing Hesse/clock certificate is used here to assert a unique Cl3.",
+  "no_go": "The committed Cl(9)/Spin(9) data alone do not select a unique event three-plane: Spin(9) acts transitively on oriented orthonormal 3-planes, with stabilizer Spin(3)xSpin(6).",
+  "orbit": {
+    "centralizer_identification": "so(6) ~= su(4)",
+    "centralizer_of_event_spin3_dimension": 15,
+    "coordinate_three_planes": 84,
+    "spin9_plane_orbit_dimension": 18,
+    "spin9_plane_stabilizer_dimension": 18
+  },
+  "pass": 11562,
+  "schema": "w33.pass11562.canonical_cl3_inside_albert_cl9.v1",
+  "status": "PASS_CL3_EMBEDDING_CLASSIFIED_BUT_NOT_CANONIC",
+  "theorem": "The Pass11558 choice of three Albert gamma directions is a valid Cl3 embedding, but it is not canonical under the parent Spin(9) symmetry. Its plane stabilizer has dimension 18 and its internal Spin(3) centralizer has dimension 15."
+}

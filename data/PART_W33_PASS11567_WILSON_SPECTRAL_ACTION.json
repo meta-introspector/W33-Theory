@@ -1,0 +1,58 @@
+{
+  "N81_t1": {
+    "unregulated_ratio": 8.03391190543721,
+    "wilson_ratio": 0.9825851382943248
+  },
+  "asymptotic_reading": "The unregulated axis Dirac tends to eight continuum species; the Hamming-Wilson operator tends to one.",
+  "boundary": "Free flat-torus spectral-action test only. Gauge curvature, dynamical frame integration, renormalized couplings, and gravitational heat-kernel coefficients are not derived.",
+  "continuum_target": "4 [sum_{n in Z} exp(-t n^2)]^3",
+  "normalization": "a=2pi/N on a periodic 2pi three-torus; Q_axis/(2a) has continuum symbol gamma.p",
+  "pass": 11567,
+  "rows": [
+    {
+      "N": 9,
+      "t": 0.5,
+      "target": 62.9984407941235,
+      "unregulated_ratio": 12.063916755501625,
+      "wilson_ratio": 0.4269295989732398
+    },
+    {
+      "N": 27,
+      "t": 0.5,
+      "target": 62.9984407941235,
+      "unregulated_ratio": 8.783276619515581,
+      "wilson_ratio": 0.7967519576000687
+    },
+    {
+      "N": 81,
+      "t": 0.5,
+      "target": 62.9984407941235,
+      "unregulated_ratio": 8.073432039091086,
+      "wilson_ratio": 0.9664959331894443
+    },
+    {
+      "N": 9,
+      "t": 1.0,
+      "target": 22.28022498238155,
+      "unregulated_ratio": 12.671918260818643,
+      "wilson_ratio": 0.5421031877748933
+    },
+    {
+      "N": 27,
+      "t": 1.0,
+      "target": 22.28022498238155,
+      "unregulated_ratio": 8.349903229175176,
+      "wilson_ratio": 0.8763869939038699
+    },
+    {
+      "N": 81,
+      "t": 1.0,
+      "target": 22.28022498238155,
+      "unregulated_ratio": 8.03391190543721,
+      "wilson_ratio": 0.9825851382943248
+    }
+  ],
+  "schema": "w33.pass11567.wilson_spectral_action.v1",
+  "status": "PASS_WILSON_SPECTRAL_ACTION_SINGLE_SPECIES_LIMIT",
+  "theorem": "The heat trace distinguishes the lattice species count: after the canonical Hamming-Wilson term, the fixed-dimensional 3^r tower converges numerically to the one-Dirac-spinor heat trace rather than the eight-species unregulated limit."
+}

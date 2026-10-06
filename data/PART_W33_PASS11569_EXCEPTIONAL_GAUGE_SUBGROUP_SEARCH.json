@@ -1,0 +1,41 @@
+{
+  "boundary": "Gauge-subgroup selection result/no-go. No identification of event Spin3 with electroweak SU2 is made.",
+  "exact_chain": [
+    {
+      "algebra": "f4",
+      "dimension": 52,
+      "selector": "Hesse trace-cube line inside E6",
+      "source": "Pass11565"
+    },
+    {
+      "algebra": "spin9",
+      "dimension": 36,
+      "selector": "primitive Albert idempotent / Peirce 16",
+      "source": "Pass10950"
+    },
+    {
+      "algebra": "spin3 + spin6",
+      "dimension": 18,
+      "selector": "event Cl3 three-plane preserved setwise",
+      "source": "Pass11562"
+    },
+    {
+      "algebra": "spin6 ~= su4",
+      "dimension": 15,
+      "selector": "commute with event spin3",
+      "source": "Pass11562"
+    }
+  ],
+  "missing_selector": "An independently constructed SU(3)xSU(3) / lepton-quark splitting (or equivalent exact Albert datum) must be welded to the executable F4 matrices before the Todorov intersection becomes a repository-derived gauge theorem.",
+  "no_go": "The new Hesse+Peirce+event-Cl3 selectors by themselves leave a 15-dimensional Spin(6) centralizer, not the 12-dimensional Standard Model gauge algebra. Therefore the SM intersection cannot be claimed from the present selector set.",
+  "outside_box_candidate": "Spin6 ~= SU4 is precisely the Pati-Salam color-plus-lepton algebra; an additional exact complex-line/lepton-quark selector would naturally test SU4 -> U3, but weak SU2 still requires an independent internal selector rather than reusing spacetime Spin3.",
+  "pass": 11569,
+  "schema": "w33.pass11569.exceptional_gauge_subgroup_search.v1",
+  "standard_model_target": {
+    "algebra": "su3 + su2 + u1",
+    "dimension": 12,
+    "repo_prior_art": "Exploratory/documentary files quote the Todorov-Dubois-Violette intersection S(U2 x U3)=Spin9 intersect (SU3 x SU3)/Z3 inside F4."
+  },
+  "status": "PASS_CURRENT_SELECTORS_STOP_AT_SPIN6_NOT_SM",
+  "theorem": "The exceptional selector chain is now explicit and falsifiable: E6 -> F4 -> Spin9 -> Spin3 x Spin6, with internal centralizer Spin6. It does not yet equal the Standard Model algebra."
+}

@@ -1,0 +1,22 @@
+{
+  "boundary": "This identifies the exceptional stabilizer; it does not derive a vacuum that selects T^3 or the Standard Model subgroup of F4.",
+  "executable_albert": {
+    "all_derivation_commutators_annihilate_trace": true,
+    "derivation_dimension": 52,
+    "rank_of_trace_plus_traceless_trace_images": 27,
+    "reduced_structure_dimension": 78,
+    "trace_covector_nonzero_entries": 3,
+    "traceless_multiplication_dimension": 26
+  },
+  "pass": 11565,
+  "schema": "w33.pass11565.e6_hesse_stabilizer_f4.v1",
+  "stabilizer": {
+    "hesse_two_plane_stabilizer_dimension": 52,
+    "identification": "Der(J3(O)) = compact F4 inside the executable E6(-26)",
+    "reason": "E6 preserves the Albert norm N. Infinitesimal preservation of span{N,T^3} forces preservation of the trace line T because N is not divisible by T^2; the executable trace-line stabilizer contains no nonzero traceless multiplication.",
+    "trace_line_in_E6_dimension": 52
+  },
+  "status": "PASS_HESSE_TRACE_CUBE_STABILIZER_IS_F4",
+  "theorem": "The full continuous Lie-algebra stabilizer inside the committed E6(-26) of the Hesse polynomial-law two-plane <N,T^3> is exactly the 52-dimensional Albert derivation algebra F4.",
+  "witness_trace_zero_nonzero_norm": "diag(1,1,-2) has T=0 and N=-2, excluding an N component in 3 T^2 deltaT = aN+bT^3"
+}
