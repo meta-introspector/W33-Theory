@@ -1,0 +1,25 @@
+name: Pass 11549 history cubic arrow
+
+on:
+  push:
+    paths:
+      - 'analysis/w33_pass11549_history_arrow_cubic_character.py'
+      - 'data/PART_W33_PASS11549_HISTORY_ARROW_CUBIC_CHARACTER.json'
+      - 'tests/test_w33_pass11549_history_arrow_cubic_character.py'
+      - '.github/workflows/pass11549-history-cubic-arrow.yml'
+  pull_request:
+    paths:
+      - 'analysis/w33_pass11549_history_arrow_cubic_character.py'
+      - 'data/PART_W33_PASS11549_HISTORY_ARROW_CUBIC_CHARACTER.json'
+      - 'tests/test_w33_pass11549_history_arrow_cubic_character.py'
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --upgrade pip pytest
+      - run: pytest -q tests/test_w33_pass11549_history_arrow_cubic_character.py
