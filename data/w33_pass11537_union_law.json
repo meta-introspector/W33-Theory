@@ -1,0 +1,59 @@
+{
+ "pass_id": 11537,
+ "n2": {
+  "set": "n=2 all classes",
+  "counts": {
+   "decider undecided": 2,
+   "non-collinear: EXACT": 34992,
+   "Mz1 = z1: EXACT": 647,
+   "Mz1 = -z1: EXACT": 647,
+   "same line, M^2 z1 = z1: EXACT": 648,
+   "collinear, different lines: EXACT": 11664,
+   "same line, other: EXACT": 2592,
+   "same line, M^2 z1 = -z1: EXACT": 648
+  },
+  "checked_mass_fraction": {
+   "non-collinear: EXACT": 0.6750260426713993,
+   "Mz1 = z1: EXACT": 0.012481191403989352,
+   "Mz1 = -z1: EXACT": 0.012481191403989352,
+   "same line, M^2 z1 = z1: EXACT": 0.01250048227169258,
+   "collinear, different lines: EXACT": 0.22500868089046647,
+   "same line, other: EXACT": 0.05000192908677032,
+   "same line, M^2 z1 = -z1: EXACT": 0.01250048227169258
+  }
+ },
+ "n3": {
+  "set": "n=3 all orbits",
+  "counts": {
+   "decider undecided": 109,
+   "collinear, different lines: EXACT": 342,
+   "non-collinear: EXACT": 1346,
+   "same line, other: EXACT": 196,
+   "same line, M^2 z1 = -z1: EXACT": 22,
+   "solution space beyond cap": 82,
+   "Mz1 = -z1: EXACT": 74,
+   "Mz1 = z1: EXACT": 74,
+   "same line, M^2 z1 = z1: EXACT": 63
+  },
+  "checked_mass_fraction": {
+   "collinear, different lines: EXACT": 0.22259437358454598,
+   "non-collinear: EXACT": 0.6676258907886813,
+   "same line, other: EXACT": 0.10438034059282941,
+   "same line, M^2 z1 = -z1: EXACT": 0.0013613167566041621,
+   "Mz1 = -z1: EXACT": 0.0013383807603675032,
+   "Mz1 = z1: EXACT": 0.0013383807603675032,
+   "same line, M^2 z1 = z1: EXACT": 0.0013613167566041621
+  }
+ },
+ "n2_per_solution": {
+  "non-collinear: per-solution EXACT": 10273,
+  "Mz1 = z1: per-solution EXACT": 1500,
+  "Mz1 = z1: frames of (Q,k) a proper subset of N_Q-perp": 684,
+  "Mz1 = -z1: per-solution EXACT": 2247,
+  "same line, M^2 z1 = z1: per-solution EXACT": 954,
+  "collinear, different lines: per-solution EXACT": 1653,
+  "same line, other: per-solution EXACT": 528,
+  "Mz1 = -z1: frames of (Q,k) a proper subset of N_Q-perp": 558,
+  "same line, M^2 z1 = -z1: per-solution EXACT": 327
+ }
+}

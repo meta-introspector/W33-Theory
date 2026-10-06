@@ -1,0 +1,437 @@
+{
+ "pass_id": 11534,
+ "prime": 2147483629,
+ "degree_bound": 20,
+ "points": 240,
+ "even": {
+  "1": {
+   "E_k": 1,
+   "even_products": 0,
+   "new_even_generators": 1,
+   "even_relations": 0,
+   "new_generator_proved_by_counting": true
+  },
+  "2": {
+   "E_k": 1,
+   "even_products": 1,
+   "new_even_generators": 0,
+   "even_relations": 0,
+   "new_generator_proved_by_counting": false
+  },
+  "3": {
+   "E_k": 2,
+   "even_products": 1,
+   "new_even_generators": 1,
+   "even_relations": 0,
+   "new_generator_proved_by_counting": true
+  },
+  "4": {
+   "E_k": 3,
+   "even_products": 2,
+   "new_even_generators": 1,
+   "even_relations": 0,
+   "new_generator_proved_by_counting": true
+  },
+  "5": {
+   "E_k": 4,
+   "even_products": 3,
+   "new_even_generators": 1,
+   "even_relations": 0,
+   "new_generator_proved_by_counting": true
+  },
+  "6": {
+   "E_k": 6,
+   "even_products": 5,
+   "new_even_generators": 1,
+   "even_relations": 0,
+   "new_generator_proved_by_counting": true
+  },
+  "7": {
+   "E_k": 8,
+   "even_products": 7,
+   "new_even_generators": 1,
+   "even_relations": 0,
+   "new_generator_proved_by_counting": true
+  },
+  "8": {
+   "E_k": 11,
+   "even_products": 10,
+   "new_even_generators": 1,
+   "even_relations": 0,
+   "new_generator_proved_by_counting": true
+  },
+  "9": {
+   "E_k": 15,
+   "even_products": 14,
+   "new_even_generators": 1,
+   "even_relations": 0,
+   "new_generator_proved_by_counting": true
+  },
+  "10": {
+   "E_k": 19,
+   "even_products": 19,
+   "new_even_generators": 0,
+   "even_relations": 0,
+   "new_generator_proved_by_counting": false
+  },
+  "11": {
+   "E_k": 24,
+   "even_products": 24,
+   "new_even_generators": 0,
+   "even_relations": 0,
+   "new_generator_proved_by_counting": false
+  },
+  "12": {
+   "E_k": 32,
+   "even_products": 32,
+   "new_even_generators": 0,
+   "even_relations": 0,
+   "new_generator_proved_by_counting": false
+  },
+  "13": {
+   "E_k": 40,
+   "even_products": 40,
+   "new_even_generators": 0,
+   "even_relations": 0,
+   "new_generator_proved_by_counting": false
+  },
+  "14": {
+   "E_k": 49,
+   "even_products": 50,
+   "new_even_generators": 0,
+   "even_relations": 1,
+   "new_generator_proved_by_counting": false
+  },
+  "15": {
+   "E_k": 61,
+   "even_products": 63,
+   "new_even_generators": 0,
+   "even_relations": 2,
+   "new_generator_proved_by_counting": false
+  },
+  "16": {
+   "E_k": 75,
+   "even_products": 78,
+   "new_even_generators": 0,
+   "even_relations": 3,
+   "new_generator_proved_by_counting": false
+  },
+  "17": {
+   "E_k": 90,
+   "even_products": 95,
+   "new_even_generators": 0,
+   "even_relations": 5,
+   "new_generator_proved_by_counting": false
+  },
+  "18": {
+   "E_k": 109,
+   "even_products": 117,
+   "new_even_generators": 0,
+   "even_relations": 8,
+   "new_generator_proved_by_counting": false
+  },
+  "19": {
+   "E_k": 130,
+   "even_products": 141,
+   "new_even_generators": 0,
+   "even_relations": 11,
+   "new_generator_proved_by_counting": false
+  },
+  "20": {
+   "E_k": 154,
+   "even_products": 170,
+   "new_even_generators": 0,
+   "even_relations": 16,
+   "new_generator_proved_by_counting": false
+  }
+ },
+ "odd": {
+  "6": {
+   "O_k": 1,
+   "products_from_lower_generators": 0,
+   "rank_lower": 0,
+   "chirality_generators_in_this_degree": 1,
+   "extra_generators_needed": 0,
+   "relations_among_listed": 0,
+   "chirality_needed_by_counting": true
+  },
+  "7": {
+   "O_k": 2,
+   "products_from_lower_generators": 1,
+   "rank_lower": 1,
+   "chirality_generators_in_this_degree": 1,
+   "extra_generators_needed": 0,
+   "relations_among_listed": 0,
+   "chirality_needed_by_counting": true
+  },
+  "8": {
+   "O_k": 3,
+   "products_from_lower_generators": 2,
+   "rank_lower": 2,
+   "chirality_generators_in_this_degree": 1,
+   "extra_generators_needed": 0,
+   "relations_among_listed": 0,
+   "chirality_needed_by_counting": true
+  },
+  "9": {
+   "O_k": 5,
+   "products_from_lower_generators": 4,
+   "rank_lower": 4,
+   "chirality_generators_in_this_degree": 1,
+   "extra_generators_needed": 0,
+   "relations_among_listed": 0,
+   "chirality_needed_by_counting": true
+  },
+  "10": {
+   "O_k": 8,
+   "products_from_lower_generators": 7,
+   "rank_lower": 7,
+   "chirality_generators_in_this_degree": 1,
+   "extra_generators_needed": 0,
+   "relations_among_listed": 0,
+   "chirality_needed_by_counting": true
+  },
+  "11": {
+   "O_k": 11,
+   "products_from_lower_generators": 11,
+   "rank_lower": 11,
+   "chirality_generators_in_this_degree": 0,
+   "extra_generators_needed": 0,
+   "relations_among_listed": 0,
+   "chirality_needed_by_counting": false
+  },
+  "12": {
+   "O_k": 16,
+   "products_from_lower_generators": 16,
+   "rank_lower": 16,
+   "chirality_generators_in_this_degree": 0,
+   "extra_generators_needed": 0,
+   "relations_among_listed": 0,
+   "chirality_needed_by_counting": false
+  },
+  "13": {
+   "O_k": 22,
+   "products_from_lower_generators": 23,
+   "rank_lower": 22,
+   "chirality_generators_in_this_degree": 0,
+   "extra_generators_needed": 0,
+   "relations_among_listed": 1,
+   "chirality_needed_by_counting": false
+  },
+  "14": {
+   "O_k": 29,
+   "products_from_lower_generators": 32,
+   "rank_lower": 29,
+   "chirality_generators_in_this_degree": 0,
+   "extra_generators_needed": 0,
+   "relations_among_listed": 3,
+   "chirality_needed_by_counting": false
+  },
+  "15": {
+   "O_k": 38,
+   "products_from_lower_generators": 44,
+   "rank_lower": 38,
+   "chirality_generators_in_this_degree": 0,
+   "extra_generators_needed": 0,
+   "relations_among_listed": 6,
+   "chirality_needed_by_counting": false
+  },
+  "16": {
+   "O_k": 49,
+   "products_from_lower_generators": 59,
+   "rank_lower": 49,
+   "chirality_generators_in_this_degree": 0,
+   "extra_generators_needed": 0,
+   "relations_among_listed": 10,
+   "chirality_needed_by_counting": false
+  },
+  "17": {
+   "O_k": 61,
+   "products_from_lower_generators": 77,
+   "rank_lower": 61,
+   "chirality_generators_in_this_degree": 0,
+   "extra_generators_needed": 0,
+   "relations_among_listed": 16,
+   "chirality_needed_by_counting": false
+  },
+  "18": {
+   "O_k": 77,
+   "products_from_lower_generators": 101,
+   "rank_lower": 77,
+   "chirality_generators_in_this_degree": 0,
+   "extra_generators_needed": 0,
+   "relations_among_listed": 24,
+   "chirality_needed_by_counting": false
+  },
+  "19": {
+   "O_k": 95,
+   "products_from_lower_generators": 130,
+   "rank_lower": 95,
+   "chirality_generators_in_this_degree": 0,
+   "extra_generators_needed": 0,
+   "relations_among_listed": 35,
+   "chirality_needed_by_counting": false
+  },
+  "20": {
+   "O_k": 115,
+   "products_from_lower_generators": 165,
+   "rank_lower": 115,
+   "chirality_generators_in_this_degree": 0,
+   "extra_generators_needed": 0,
+   "relations_among_listed": 50,
+   "chirality_needed_by_counting": false
+  }
+ },
+ "even_generators": {
+  "e1": {
+   "degree": 1,
+   "monomial": [
+    0
+   ]
+  },
+  "e3": {
+   "degree": 3,
+   "monomial": [
+    0,
+    0,
+    0
+   ]
+  },
+  "e4": {
+   "degree": 4,
+   "monomial": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "e5": {
+   "degree": 5,
+   "monomial": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "e6": {
+   "degree": 6,
+   "monomial": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "e7": {
+   "degree": 7,
+   "monomial": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "e8": {
+   "degree": 8,
+   "monomial": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "e9": {
+   "degree": 9,
+   "monomial": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "odd_generators": {
+  "g6": {
+   "degree": 6,
+   "monomial": [
+    0,
+    3,
+    3,
+    6,
+    6,
+    6
+   ]
+  },
+  "g7": {
+   "degree": 7,
+   "monomial": [
+    0,
+    3,
+    3,
+    6,
+    6,
+    6,
+    6
+   ]
+  },
+  "g8": {
+   "degree": 8,
+   "monomial": [
+    0,
+    3,
+    3,
+    6,
+    6,
+    6,
+    6,
+    6
+   ]
+  },
+  "g9": {
+   "degree": 9,
+   "monomial": [
+    0,
+    3,
+    3,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+   ]
+  },
+  "g10": {
+   "degree": 10,
+   "monomial": [
+    0,
+    3,
+    3,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+   ]
+  }
+ }
+}

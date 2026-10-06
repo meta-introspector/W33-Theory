@@ -1,0 +1,88 @@
+{
+ "pass_id": 11531,
+ "counterexample_family": {
+  "[0, 0, 1, 0, 0, 1, 2, 2, 0]": {
+   "L": "-swap (index 0)",
+   "eigenspace_dim": 6,
+   "mu": [
+    1.0,
+    -0.0
+   ],
+   "local_dimension_counts": {
+    "4": 299,
+    "3": 1
+   },
+   "reversibility": {
+    "not reversible": 300
+   },
+   "overlap_min": 2.3858056437306905,
+   "overlap_max": 2.9999973787443963
+  },
+  "[0, 0, 2, 0, 0, 2, 1, 1, 0]": {
+   "L": "-swap (index 0)",
+   "eigenspace_dim": 6,
+   "mu": [
+    1.0,
+    -0.0
+   ],
+   "local_dimension_counts": {
+    "4": 300
+   },
+   "reversibility": {
+    "not reversible": 300
+   },
+   "overlap_min": 2.4647581920345614,
+   "overlap_max": 2.999986881237271
+  }
+ },
+ "word_relations": {
+  "1": {
+   "distinct_operators": 216,
+   "affine relations": 270,
+   "non-affine: T-count 1": 324,
+   "non-affine support 9": 324
+  },
+  "2": {
+   "distinct_operators": 1080,
+   "affine relations": 1497,
+   "non-affine: Clifford": 1350,
+   "non-affine: T-count 1": 162,
+   "non-affine support 9": 162
+  },
+  "3": {
+   "distinct_operators": 5616,
+   "affine relations": 3567,
+   "non-affine: Clifford": 1350,
+   "non-affine: T-count 1": 1314,
+   "non-affine support 9": 1314
+  },
+  "4": {
+   "distinct_operators": 29376,
+   "affine relations": 7941,
+   "non-affine: Clifford": 2376,
+   "non-affine: T-count 1": 1620,
+   "non-affine support 9": 1620
+  },
+  "5": {
+   "distinct_operators": 166752,
+   "affine relations": 20748,
+   "non-affine: Clifford": 2376,
+   "non-affine: T-count 1": 2556,
+   "non-affine support 9": 2556
+  },
+  "6": {
+   "distinct_operators": 959040,
+   "affine relations": 48426,
+   "non-affine: Clifford": 2376,
+   "non-affine: T-count 1": 2592,
+   "non-affine support 9": 2592
+  },
+  "7": {
+   "distinct_operators": 5567184,
+   "affine relations": 120423,
+   "non-affine: Clifford": 2376,
+   "non-affine: T-count 1": 2592,
+   "non-affine support 9": 2592
+  }
+ }
+}

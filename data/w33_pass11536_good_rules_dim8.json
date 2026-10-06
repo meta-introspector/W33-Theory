@@ -1,0 +1,37 @@
+{
+ "pass_id": 11536,
+ "samples": 287,
+ "witnessed": {
+  "[8] form class 1: (U) proved": 4,
+  "[8] form class 1: (E) for -u proved": 4,
+  "[8] form class 2: (U) proved": 4,
+  "[8] form class 2: (E) for -u proved": 4
+ },
+ "classes_found": {
+  "[8] form class 1": 4,
+  "[8] form class 2": 4
+ },
+ "tally": {
+  "unipotent part (1, 2, 2, 2, 2, 2, 2, 2)": 12,
+  "unipotent part (6, 8, 8, 8, 8, 8, 8, 8)": 24,
+  "unipotent part (0, 0, 0, 0, 0, 0, 0, 0)": 43,
+  "unipotent part (8, 8, 8, 8, 8, 8, 8, 8)": 92,
+  "unipotent part (1, 1, 1, 1, 1, 1, 1, 1)": 37,
+  "unipotent part (2, 4, 6, 8, 8, 8, 8, 8)": 3,
+  "unipotent part (5, 6, 7, 8, 8, 8, 8, 8)": 13,
+  "unipotent part (7, 8, 8, 8, 8, 8, 8, 8)": 15,
+  "unipotent part (1, 2, 3, 4, 5, 6, 7, 8)": 8,
+  "unipotent part (3, 6, 7, 8, 8, 8, 8, 8)": 3,
+  "unipotent part (2, 4, 5, 6, 7, 8, 8, 8)": 6,
+  "unipotent part (4, 8, 8, 8, 8, 8, 8, 8)": 12,
+  "unipotent part (3, 6, 8, 8, 8, 8, 8, 8)": 9,
+  "unipotent part (5, 8, 8, 8, 8, 8, 8, 8)": 1,
+  "unipotent part (2, 2, 2, 2, 2, 2, 2, 2)": 1,
+  "unipotent part (4, 6, 8, 8, 8, 8, 8, 8)": 1,
+  "unipotent part (1, 2, 3, 3, 3, 3, 3, 3)": 2,
+  "unipotent part (1, 2, 3, 4, 4, 4, 4, 4)": 3,
+  "unipotent part (1, 2, 3, 4, 5, 5, 5, 5)": 1,
+  "unipotent part (2, 3, 3, 3, 3, 3, 3, 3)": 1
+ },
+ "x2_plus_1_type": "skipped: the U(4, 9)-regular class did not occur in 800 random samples of the first run; open"
+}

@@ -1,0 +1,167 @@
+{
+ "pass_id": 11533,
+ "estimates": {
+  "4": {
+   "Mz1 = -z1": {
+    "bad": 0,
+    "good": 195,
+    "fraction": 0.0,
+    "stderr": 0.0
+   },
+   "Mz1 = z1": {
+    "bad": 166,
+    "good": 0,
+    "fraction": 1.0,
+    "stderr": 0.0
+   },
+   "all": {
+    "bad": 160455,
+    "good": 1039545,
+    "fraction": 0.1337125,
+    "stderr": 0.00031068937776036857
+   },
+   "collinear, different lines": {
+    "bad": 32626,
+    "good": 233400,
+    "fraction": 0.12264214775999338,
+    "stderr": 0.0006359840370884388
+   },
+   "non-collinear": {
+    "bad": 106225,
+    "good": 694463,
+    "fraction": 0.13266715624562875,
+    "stderr": 0.0003790905394312343,
+    "conjecture_(1-9^(1-n))/8": 0.12482853223593965,
+    "z_vs_conjecture": 20.67744560824367
+   },
+   "same line, M^2 z1 = -z1": {
+    "bad": 0,
+    "good": 190,
+    "fraction": 0.0,
+    "stderr": 0.0
+   },
+   "same line, M^2 z1 = z1": {
+    "bad": 182,
+    "good": 0,
+    "fraction": 1.0,
+    "stderr": 0.0
+   },
+   "same line, other": {
+    "bad": 21256,
+    "good": 111297,
+    "fraction": 0.16035849811018987,
+    "stderr": 0.001007855239187247
+   }
+  },
+  "5": {
+   "Mz1 = -z1": {
+    "bad": 0,
+    "good": 14,
+    "fraction": 0.0,
+    "stderr": 0.0
+   },
+   "Mz1 = z1": {
+    "bad": 19,
+    "good": 0,
+    "fraction": 1.0,
+    "stderr": 0.0
+   },
+   "all": {
+    "bad": 161003,
+    "good": 1038997,
+    "fraction": 0.13416916666666667,
+    "stderr": 0.0003111374312939526
+   },
+   "collinear, different lines": {
+    "bad": 35436,
+    "good": 231184,
+    "fraction": 0.13290825894531544,
+    "stderr": 0.0006574491182368708
+   },
+   "non-collinear": {
+    "bad": 106857,
+    "good": 693080,
+    "fraction": 0.1335817695643532,
+    "stderr": 0.00038037283595268747,
+    "conjecture_(1-9^(1-n))/8": 0.12498094802621551,
+    "z_vs_conjecture": 22.61155562435455
+   },
+   "same line, M^2 z1 = -z1": {
+    "bad": 0,
+    "good": 21,
+    "fraction": 0.0,
+    "stderr": 0.0
+   },
+   "same line, M^2 z1 = z1": {
+    "bad": 22,
+    "good": 0,
+    "fraction": 1.0,
+    "stderr": 0.0
+   },
+   "same line, other": {
+    "bad": 18669,
+    "good": 114698,
+    "fraction": 0.13998215450598725,
+    "stderr": 0.0009500924725141342
+   }
+  },
+  "6": {
+   "Mz1 = -z1": {
+    "bad": 0,
+    "good": 1,
+    "fraction": 0.0,
+    "stderr": 0.0
+   },
+   "Mz1 = z1": {
+    "bad": 1,
+    "good": 0,
+    "fraction": 1.0,
+    "stderr": 0.0
+   },
+   "all": {
+    "bad": 53865,
+    "good": 346095,
+    "fraction": 0.13467596759675968,
+    "stderr": 0.0005397916411664577
+   },
+   "collinear, different lines": {
+    "bad": 11827,
+    "good": 77235,
+    "fraction": 0.1327951314814399,
+    "stderr": 0.0011371184563538624
+   },
+   "non-collinear": {
+    "bad": 35993,
+    "good": 230722,
+    "fraction": 0.13494929044110754,
+    "stderr": 0.0006615799966541379,
+    "conjecture_(1-9^(1-n))/8": 0.12499788311402395,
+    "z_vs_conjecture": 15.041880615211538
+   },
+   "same line, other": {
+    "bad": 6044,
+    "good": 38137,
+    "fraction": 0.1368008872592291,
+    "stderr": 0.0016348660638002262
+   }
+  }
+ },
+ "n2": {
+  "undecided": 2,
+  "class verdict agrees": 51838,
+  "frame count agrees": 51814,
+  "classes": 51838,
+  "frame-count exceptions in Mz1 = z1 (law 54, actual 72)": 24
+ },
+ "n3": {
+  "counts": {
+   "undecided by the decider": 109,
+   "orbit verdict agrees": 2190,
+   "orbits decided": 2199,
+   "frame count agrees": 2177
+  },
+  "law_bad_class_fraction": "97/728",
+  "exact_pass11373": "437/3276",
+  "law_equals_exact": false
+ }
+}
