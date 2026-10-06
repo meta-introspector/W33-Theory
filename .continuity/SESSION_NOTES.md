@@ -1998,3 +1998,10 @@ Independent follow-up targets: compatible SM and CP phase selection; dynamic mix
 
 - Stronger-exchange exact revival: J/Delta=(-14+sqrt571)/25, t=3pi/Omega=7.799699/Delta. Full block exponential verifies zero final leakage and sqrtSWAP; no weak-coupling or optimal-time claim. All12 final regressions PASS in50.24s, all five regenerated producer sections PASS.
 - Parallel5211d6647 reservation11547 (finite Minkowski/Hamming conjugacy) read completely and integrated; complementary to the added causal cover, without selecting physical spacetime. Final intake/index refresh in progress.
+
+### Passes11542–11546 verified publication
+
+- Science commit e1a4cc565 pushed to W33 master and verified by fresh GitKraken fetch/log/status; remote head matched and tracking was up to date.
+- All five producer sections PASS,12 final independent tests PASS in50.24s; final intake clean with no collisions/forced arithmetic/contradictions. Source-bound JSON, exact gate witnesses, report, tests, site and refreshed indexes published.
+- Main result: the declared two-body native pair Hamiltonian gives exact sqrtSWAP in7.799699/Delta, and covariant local controls complete a conditional universal encoded gate set. Binding, gaps, exchange actuators, coefficients, observed masses,4D gravity and residual CC remain open.
+- Mixed decision stores remain unstaged; original parallel checkout preserved. Publication receipts are recorded without staging the shared stores.
