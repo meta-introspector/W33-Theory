@@ -1,0 +1,29 @@
+name: Passes 11551-11555 Hamming arrow five attacks
+
+on:
+  push:
+    paths:
+      - 'analysis/w33_pass11551_hamming_arrow_albert_diagonal_cubic.py'
+      - 'analysis/w33_pass11552_hamming_refinement_continuum_firewall.py'
+      - 'analysis/w33_pass11553_history_arrow_equivariant_cohomology.py'
+      - 'analysis/w33_pass11554_tetracode_orientation_double_cover.py'
+      - 'analysis/w33_pass11555_temporal_local_dynamics_dirac.py'
+      - 'data/PART_W33_PASS1155*.json'
+      - 'tests/test_w33_pass11551_11555.py'
+      - '.github/workflows/pass11551-11555-hamming-arrow.yml'
+  pull_request:
+    paths:
+      - 'analysis/w33_pass1155*.py'
+      - 'data/PART_W33_PASS1155*.json'
+      - 'tests/test_w33_pass11551_11555.py'
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --upgrade pip pytest numpy scipy sympy
+      - run: pytest -q tests/test_w33_pass11551_11555.py

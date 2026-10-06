@@ -1,0 +1,38 @@
+{
+  "boundary": "Exact finite simplicial/cohomological statement. It is not thermodynamic irreversibility, continuum time orientation, or a characteristic-class derivation of physical CPT.",
+  "chain_side": {
+    "formula": "arrow is the boundary of a +/-1 sum of all 36 temporal triangles; the coefficient pattern depends on vertex-order gauge",
+    "homology_warning": "the arrow is homologically trivial as an integral 1-chain",
+    "integral_boundary_zero": true,
+    "is_boundary_of_all_temporal_triangles": true,
+    "triangle_chain_coefficient_histogram": {
+      "+1": 18,
+      "-1": 18
+    }
+  },
+  "cochain_side": {
+    "PSp_fixed_H1_dimension": 1,
+    "PSp_generators_checked": "3 translations + S3 coordinate generators + one even sign flip",
+    "arrow_spans_fixed_line": true,
+    "cocycle_mod3": true,
+    "exact_mod3": false,
+    "triangle_integrals_over_Z": [
+      -3,
+      3
+    ]
+  },
+  "complex": {
+    "H1_dimension_F3": 46,
+    "H2_dimension_F3": 0,
+    "edges": 108,
+    "rank_d0_F3": 26,
+    "rank_d1_F3": 36,
+    "triangles": 36,
+    "vertices": 27
+  },
+  "interpretation": "The same edge field is an integral boundary on the chain side but the unique PSp-invariant nonzero mod-3 H^1 class on the cochain side. Its +/-3 triangle circulation is exactly what disappears modulo 3.",
+  "pass": 11553,
+  "schema": "w33.pass11553.history_arrow_equivariant_cohomology.v1",
+  "status": "PASS_UNIQUE_PSP_FIXED_MOD3_H1_ARROW_CLASS",
+  "topology_firewall": "H^2 over F3 vanishes for this 2-complex, so this result does not by itself produce a Chern class. A Maslov/transgression interpretation would require additional structure."
+}

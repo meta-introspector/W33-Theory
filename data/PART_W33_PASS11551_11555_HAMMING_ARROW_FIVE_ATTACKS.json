@@ -1,0 +1,436 @@
+{
+  "boundary": "Five exact finite/algebraic results. They sharpen the TOE architecture but do not close the continuum, gravitational, thermodynamic, or phenomenological frontiers.",
+  "passes": {
+    "11551": {
+      "E8_anchor": "the clock Albert algebra is built by Pass10950 from the committed executable E8 bracket; Pass11471 independently maps the native signed E6 cubic coefficientwise to this Albert determinant",
+      "Sym2_history_coordinates_factorization": "(2a+b+c)(2a+2b+c)(2a+2c) mod 3",
+      "boundary": "Restriction theorem on the canonical Jordan frame, not a derivation of a physical E6 field or observed time arrow.",
+      "clock_Albert_frame_indices": [
+        26,
+        0,
+        9
+      ],
+      "exact_points_checked": 27,
+      "expanded_mod3": "-a**3 + a**2*c + a*b**2 + a*c**2 + b**2*c - c**3",
+      "history_Hamming_arrow": "chi is the sign/residue of this norm on the eight full-support ternary vectors",
+      "identity": "N_Albert(z1 e1+z2 e2+z3 e3)=z1*z2*z3",
+      "status": "PASS_ARROW_IS_DIAGONAL_ALBERT_E6_CUBIC"
+    },
+    "11552": {
+      "boundary": "A spectral obstruction to two naive refinement prescriptions, not a theorem excluding all continuum limits or geometric renormalizations.",
+      "enumeration": [
+        {
+          "full_normalized_gap": 0.75,
+          "full_null_degree": 8,
+          "n": 3,
+          "weight3_degree": 8,
+          "weight3_normalized_gap": 0.75
+        },
+        {
+          "full_normalized_gap": 0.84375,
+          "full_null_degree": 32,
+          "n": 4,
+          "weight3_degree": 32,
+          "weight3_normalized_gap": 0.84375
+        },
+        {
+          "full_normalized_gap": 0.9,
+          "full_null_degree": 80,
+          "n": 5,
+          "weight3_degree": 80,
+          "weight3_normalized_gap": 0.9
+        },
+        {
+          "full_normalized_gap": 0.9642857142857143,
+          "full_null_degree": 224,
+          "n": 6,
+          "weight3_degree": 160,
+          "weight3_normalized_gap": 0.75
+        },
+        {
+          "full_normalized_gap": 0.9642857142857143,
+          "full_null_degree": 728,
+          "n": 7,
+          "weight3_degree": 280,
+          "weight3_normalized_gap": 0.6428571428571428
+        },
+        {
+          "full_normalized_gap": 0.9763392857142857,
+          "full_null_degree": 2240,
+          "n": 8,
+          "weight3_degree": 448,
+          "weight3_normalized_gap": 0.5625
+        },
+        {
+          "full_normalized_gap": 0.9878048780487805,
+          "full_null_degree": 6560,
+          "n": 9,
+          "weight3_degree": 672,
+          "weight3_normalized_gap": 0.5
+        },
+        {
+          "full_normalized_gap": 0.9959016393442623,
+          "full_null_degree": 19520,
+          "n": 10,
+          "weight3_degree": 960,
+          "weight3_normalized_gap": 0.44999999999999996
+        },
+        {
+          "full_normalized_gap": 0.9959016393442623,
+          "full_null_degree": 59048,
+          "n": 11,
+          "weight3_degree": 1320,
+          "weight3_normalized_gap": 0.40909090909090906
+        },
+        {
+          "full_normalized_gap": 0.9972696361016034,
+          "full_null_degree": 177632,
+          "n": 12,
+          "weight3_degree": 1760,
+          "weight3_normalized_gap": 0.375
+        },
+        {
+          "full_normalized_gap": 0.9986301369863013,
+          "full_null_degree": 531440,
+          "n": 13,
+          "weight3_degree": 2288,
+          "weight3_normalized_gap": 0.34615384615384615
+        },
+        {
+          "full_normalized_gap": 0.9995429616087751,
+          "full_null_degree": 1592864,
+          "n": 14,
+          "weight3_degree": 2912,
+          "weight3_normalized_gap": 0.3214285714285714
+        },
+        {
+          "full_normalized_gap": 0.9995429616087751,
+          "full_null_degree": 4782968,
+          "n": 15,
+          "weight3_degree": 3640,
+          "weight3_normalized_gap": 0.30000000000000004
+        },
+        {
+          "full_normalized_gap": 0.9996953309626789,
+          "full_null_degree": 14353280,
+          "n": 16,
+          "weight3_degree": 4480,
+          "weight3_normalized_gap": 0.28125
+        },
+        {
+          "full_normalized_gap": 0.999847607436757,
+          "full_null_degree": 43046720,
+          "n": 17,
+          "weight3_degree": 5440,
+          "weight3_normalized_gap": 0.2647058823529411
+        },
+        {
+          "full_normalized_gap": 0.9999491973176183,
+          "full_null_degree": 129127040,
+          "n": 18,
+          "weight3_degree": 6528,
+          "weight3_normalized_gap": 0.25
+        },
+        {
+          "full_normalized_gap": 0.9999491973176183,
+          "full_null_degree": 387420488,
+          "n": 19,
+          "weight3_degree": 7752,
+          "weight3_normalized_gap": 0.23684210526315785
+        },
+        {
+          "full_normalized_gap": 0.9999661318318664,
+          "full_null_degree": 1162300832,
+          "n": 20,
+          "weight3_degree": 9120,
+          "weight3_normalized_gap": 0.22499999999999998
+        },
+        {
+          "full_normalized_gap": 0.999983065198984,
+          "full_null_degree": 3486784400,
+          "n": 21,
+          "weight3_degree": 10640,
+          "weight3_normalized_gap": 0.2142857142857143
+        },
+        {
+          "full_normalized_gap": 0.9999943550025967,
+          "full_null_degree": 10460235104,
+          "n": 22,
+          "weight3_degree": 12320,
+          "weight3_normalized_gap": 0.20454545454545459
+        },
+        {
+          "full_normalized_gap": 0.9999943550025967,
+          "full_null_degree": 31381059608,
+          "n": 23,
+          "weight3_degree": 14168,
+          "weight3_normalized_gap": 0.19565217391304346
+        },
+        {
+          "full_normalized_gap": 0.9999962366719385,
+          "full_null_degree": 94143533120,
+          "n": 24,
+          "weight3_degree": 16192,
+          "weight3_normalized_gap": 0.1875
+        },
+        {
+          "full_normalized_gap": 0.9999981183271175,
+          "full_null_degree": 282429536480,
+          "n": 25,
+          "weight3_degree": 18400,
+          "weight3_normalized_gap": 0.18000000000000005
+        },
+        {
+          "full_normalized_gap": 0.999999372774919,
+          "full_null_degree": 847287546560,
+          "n": 26,
+          "weight3_degree": 20800,
+          "weight3_normalized_gap": 0.17307692307692313
+        },
+        {
+          "full_normalized_gap": 0.999999372774919,
+          "full_null_degree": 2541865828328,
+          "n": 27,
+          "weight3_degree": 23400,
+          "weight3_normalized_gap": 0.16666666666666663
+        },
+        {
+          "full_normalized_gap": 0.9999995818499897,
+          "full_null_degree": 7625600673632,
+          "n": 28,
+          "weight3_degree": 26208,
+          "weight3_normalized_gap": 0.1607142857142857
+        },
+        {
+          "full_normalized_gap": 0.9999997909248856,
+          "full_null_degree": 22876792454960,
+          "n": 29,
+          "weight3_degree": 29232,
+          "weight3_normalized_gap": 0.15517241379310343
+        },
+        {
+          "full_normalized_gap": 0.9999999303082855,
+          "full_null_degree": 68630367798944,
+          "n": 30,
+          "weight3_degree": 32480,
+          "weight3_normalized_gap": 0.15000000000000002
+        },
+        {
+          "full_normalized_gap": 0.9999999303082855,
+          "full_null_degree": 205891132094648,
+          "n": 31,
+          "weight3_degree": 35960,
+          "weight3_normalized_gap": 0.14516129032258063
+        },
+        {
+          "full_normalized_gap": 0.9999999535388575,
+          "full_null_degree": 617673424981760,
+          "n": 32,
+          "weight3_degree": 39680,
+          "weight3_normalized_gap": 0.140625
+        },
+        {
+          "full_normalized_gap": 0.9999999767694274,
+          "full_null_degree": 1853020188851840,
+          "n": 33,
+          "weight3_degree": 43648,
+          "weight3_normalized_gap": 0.13636363636363635
+        },
+        {
+          "full_normalized_gap": 0.9999999922564757,
+          "full_null_degree": 5559060480462080,
+          "n": 34,
+          "weight3_degree": 47872,
+          "weight3_normalized_gap": 0.13235294117647056
+        },
+        {
+          "full_normalized_gap": 0.9999999922564757,
+          "full_null_degree": 16677181699666568,
+          "n": 35,
+          "weight3_degree": 52360,
+          "weight3_normalized_gap": 0.12857142857142856
+        },
+        {
+          "full_normalized_gap": 0.9999999948376505,
+          "full_null_degree": 50031545357280032,
+          "n": 36,
+          "weight3_degree": 57120,
+          "weight3_normalized_gap": 0.125
+        },
+        {
+          "full_normalized_gap": 0.9999999974188252,
+          "full_null_degree": 150094635296999120,
+          "n": 37,
+          "weight3_degree": 62160,
+          "weight3_normalized_gap": 0.1216216216216216
+        },
+        {
+          "full_normalized_gap": 0.9999999991396084,
+          "full_null_degree": 450283905116156384,
+          "n": 38,
+          "weight3_degree": 67488,
+          "weight3_normalized_gap": 0.11842105263157898
+        },
+        {
+          "full_normalized_gap": 0.9999999991396084,
+          "full_null_degree": 1350851717672992088,
+          "n": 39,
+          "weight3_degree": 73112,
+          "weight3_normalized_gap": 0.11538461538461542
+        },
+        {
+          "full_normalized_gap": 0.9999999994264056,
+          "full_null_degree": 4052555155343499200,
+          "n": 40,
+          "weight3_degree": 79040,
+          "weight3_normalized_gap": 0.11250000000000004
+        }
+      ],
+      "full_q0_shell": {
+        "asymptotic": "max nontrivial |lambda|/k = O(3^(-n/2)); normalized spectral gap -> 1 exponentially",
+        "degree_formula": "sum_{j=3,6,...} 2^j C(n,j) = [3^n + 2*3^(n/2) cos(n*pi/2)]/3 - 1",
+        "nontrivial_eigenvalue_formula": "lambda_w=(2/3)3^(n/2) cos(n*pi/2-2*pi*w/3)-1, w>0",
+        "verdict": "naive full quadratic-null refinement becomes increasingly global/mixing, so it does not furnish a local continuum limit"
+      },
+      "minimal_weight3_shell": {
+        "degree": "8*C(n,3)",
+        "exact_gap_for_n_ge_5": "9/(2n)",
+        "fixed_weight_gap": "9*w*(4*n**2 - 6*n*w - 6*n + 3*w**2 + 3*w + 2)/(8*n*(n - 2)*(n - 1))",
+        "scaled_limit": "for fixed Fourier Hamming weight w, n*(1-K3(w)/k) -> 9w/2",
+        "verdict": "the only natural gap-closing truncation found has a Hamming-weight/number-operator low spectrum, not a Lorentzian d'Alembertian"
+      },
+      "status": "PASS_HAMMING_REFINEMENT_SPECTRAL_FIREWALL_AND_MINIMAL_LIMIT"
+    },
+    "11553": {
+      "boundary": "Finite modular cohomology. No nonzero Bockstein/Chern class, anomaly, thermodynamic irreversibility or continuum topology is claimed.",
+      "characteristic3_jump": "the PSp-fixed H1 line exists at p=3 and vanishes in the p=2,5,7 controls",
+      "clique_complex": {
+        "edges": 108,
+        "max_clique_size": 3,
+        "triangles": 36,
+        "vertices": 27
+      },
+      "integer_chain": {
+        "boundary_zero": true,
+        "triangle_coboundary_values": [
+          -3,
+          3
+        ]
+      },
+      "integral_rank": "H^1 over Z is free of rank 46; H^2 has rank 0 because the 36 triangle coboundaries are independent",
+      "interpretation": "the finite arrow is a symmetry-protected modular cohomology class, not merely an invariant cycle",
+      "mod3": {
+        "H1_dimension": 46,
+        "PSp_fixed_H1_dimension": 1,
+        "is_1_cocycle": true,
+        "is_exact": false
+      },
+      "prime_control": {
+        "2": {
+          "H1_dimension": 46,
+          "PSp_fixed_H1_dimension": 0
+        },
+        "3": {
+          "H1_dimension": 46,
+          "PSp_fixed_H1_dimension": 1
+        },
+        "5": {
+          "H1_dimension": 46,
+          "PSp_fixed_H1_dimension": 0
+        },
+        "7": {
+          "H1_dimension": 46,
+          "PSp_fixed_H1_dimension": 0
+        }
+      },
+      "status": "PASS_ARROW_IS_UNIQUE_PSP_FIXED_CHARACTERISTIC3_H1_CLASS"
+    },
+    "11554": {
+      "boundary": "Finite central-extension theorem; no physical spin structure or spacetime double cover is inferred.",
+      "consequence": "Pass10946 oriented tetracode representatives cannot be canonically selected by the Pass11550 cone/time sheet: the two lifts have different central-extension classes",
+      "fiber_product": {
+        "center_order": 4,
+        "is_archived_tomotope": false,
+        "order": 96,
+        "order_spectrum": {
+          "1": 1,
+          "2": 27,
+          "3": 8,
+          "4": 12,
+          "6": 24,
+          "8": 24
+        },
+        "structure": "GL(2,3) x C2",
+        "tomotope_order_spectrum": {
+          "1": 1,
+          "2": 15,
+          "3": 32,
+          "4": 24,
+          "8": 24
+        }
+      },
+      "history_cover": {
+        "group": "O(3,3)=signed permutations",
+        "order": 48,
+        "projective_base": "the same S4 on four null rays",
+        "split": "O(3,3)=W(D3) x <-I> ~= S4 x C2"
+      },
+      "status": "PASS_TETRACODE_AND_HISTORY_ARE_INEQUIVALENT_S4_DOUBLE_COVERS",
+      "tetracode_cover": {
+        "augmented_rank": 24,
+        "center": "{+I,-I}",
+        "cocycle_rank": 23,
+        "determinant": "descends exactly to S4 permutation parity",
+        "group": "GL(2,3)",
+        "non_split": true,
+        "order": 48,
+        "quotient": "S4 on the four P1(F3) rays"
+      },
+      "tomotope_firewall": "The natural order-96 compatibility lift is not the archived tomotope group; the repo's existing Pass2430 obstruction is respected rather than count-matched."
+    },
+    "11555": {
+      "boundary": "Exact finite local dynamics/classification. D is not asserted to be a physical Dirac operator, and the finite dispersion does not derive continuum Lorentz invariance or gravity.",
+      "local_invariant_dynamics": {
+        "Hermitian_form": "H=mu I + kappa L + eta iD",
+        "PGSp_outer_rule": "outer sigma=-1 sends D->-D, so eta is an orientation-breaking spurion",
+        "quadratic_operator_space": "for operators supported only on diagonal plus null edges, PSp invariance gives span{I,A,D}",
+        "scalar_triangle_cubic": "one PSp-invariant nearest-triangle scalar cubic g*sum_T phi_i phi_j phi_k because the 36 triangles are one orbit; scalar commutativity makes this term orientation-even",
+        "spectrum": {
+          "L0_dim1": "mu",
+          "L12_dim6": "mu+12*kappa",
+          "L6_dim12": "mu+6*kappa",
+          "L9_two_dim4_sheets": "mu+9*kappa +/- 3*sqrt(3)*eta"
+        }
+      },
+      "operator": {
+        "Fourier_symbol": "Dhat(k)=-i*3*sqrt(3)*chi(k) on full-support k, and 0 otherwise",
+        "Weil_weld": "J has eigenvalue i*chi(k) on the eight L=9 modes, exactly Pass11550's normalized Weil phase",
+        "commutes_with_L": true,
+        "complex_structure": "J=-D/(3*sqrt(3)); J^2=-P_9",
+        "definition": "D_xy=chi(y-x) on null edges and 0 otherwise",
+        "exact_polynomial_identity": "3 D^2 = L(L-6I)(L-12I)",
+        "kernel_dimension": 19,
+        "projector_identity": "P_9=-L(L-6I)(L-12I)/81 and D^2=-27 P_9",
+        "rank": 8,
+        "skew_symmetric": true
+      },
+      "status": "PASS_LOCAL_ARROW_OPERATOR_IS_WEIL_COMPLEX_STRUCTURE",
+      "triangle_locality": {
+        "D_is_sum_of_36_oriented_triangle_cycles": true,
+        "factorization": "36=4 directions x 9 affine lines",
+        "triangles_form_one_PSp_orbit": true
+      }
+    }
+  },
+  "schema": "w33.pass11551_11555.hamming_arrow_five_attacks.v1",
+  "status": "PASS_FIVE_HAMMING_ARROW_ATTACKS",
+  "upstream": [
+    "Pass10946",
+    "Pass10950",
+    "Pass11471",
+    "Pass11547",
+    "Pass11548",
+    "Pass11549",
+    "Pass11550"
+  ]
+}

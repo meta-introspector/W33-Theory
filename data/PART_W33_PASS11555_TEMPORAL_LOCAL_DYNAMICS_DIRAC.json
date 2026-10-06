@@ -1,0 +1,56 @@
+{
+  "boundary": "Exact finite local-operator classification. A kinetic term, alpha, beta, mass, continuum scaling and physical interpretation are not derived; D is a finite chiral first-order operator, not asserted to be the observed Dirac operator.",
+  "fourier_sectors": {
+    "D_law": "Dhat(k)=0 for weight<3; Dhat(k)=-i*3*sqrt(3)*chi(k) for weight=3",
+    "L_spectrum_by_Hamming_weight": {
+      "0": 0,
+      "1": 12,
+      "2": 6,
+      "3": 9
+    },
+    "multiplicities": {
+      "0": 1,
+      "1": 6,
+      "2": 12,
+      "3": 8
+    },
+    "weight3_chiral_split": "4 + 4"
+  },
+  "general_local_Hermitian_operator": {
+    "eigenvalues": [
+      "m^2 (w=0)",
+      "m^2+12 alpha (w=1, mult 6)",
+      "m^2+6 alpha (w=2, mult 12)",
+      "m^2+9 alpha + 3 sqrt(3) beta chi (w=3, 4+4)"
+    ],
+    "formula": "K = m^2 I + alpha L + beta iD",
+    "reading": "beta is the unique nearest-null PSp-invariant chiral splitting coefficient; it acts only on the old Weil/null sector"
+  },
+  "local_kernel_classification": {
+    "PSp_orbits": [
+      4,
+      4
+    ],
+    "directed_null_steps": 8,
+    "orbit_labels": "chi=+1 and chi=-1 tetrahedra",
+    "reversal_even_basis": "A, the distance-3/null adjacency",
+    "reversal_even_dimension": 1,
+    "reversal_odd_basis": "D[x,y]=chi(y-x)",
+    "reversal_odd_dimension": 1,
+    "translation_and_PSp_invariant_nearest_null_kernel_dimension": 2
+  },
+  "operator_D": {
+    "Weil_weld": "on the eight weight-3 modes, J eigenvalue = i*chi = the Pass11550 normalized Weil phase",
+    "commutes_with_L": true,
+    "exact_square_identity": "3 D^2 = L(L-6I)(L-12I)",
+    "kernel_dimension": 19,
+    "partial_complex_structure": "J=-D/(3 sqrt(3)); J^2=-P_3",
+    "rank": 8,
+    "skew_symmetric": true,
+    "weight3_projector": "P_3 = -D^2/27 = -L(L-6I)(L-12I)/81"
+  },
+  "pass": 11555,
+  "schema": "w33.pass11555.temporal_local_dynamics_dirac.v1",
+  "status": "PASS_EXACT_TEMPORAL_LOCAL_OPERATOR_ALGEBRA",
+  "triangle_foliation": "Pass11549 supplies 36=4*9 edge-disjoint oriented temporal triangles, so the odd local operator D is assembled from that same orientation field."
+}

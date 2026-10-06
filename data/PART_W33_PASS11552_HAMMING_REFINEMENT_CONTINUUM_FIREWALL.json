@@ -1,0 +1,403 @@
+{
+  "boundary": "Spectral theorem/firewall for a specific Hamming refinement family. It neither proves impossibility of every continuum construction nor supplies Lorentz symmetry, a metric, Einstein dynamics, or a physical lattice spacing.",
+  "continuum_verdict": "The naive all-q=0 Hamming tower is not a diffusive continuum refinement. A distance-3-only scaling can close a spectral gap, but increasing n changes ambient dimension and does not by itself produce fixed 3+1 Lorentzian spacetime.",
+  "exact_full_null_relation": {
+    "carrier": "F3^n",
+    "character_eigenvalue": "lambda_w=(P_w(1)+P_w(omega)+P_w(omega^2))/3 - 1, P_w(t)=(1+2t)^(n-w)(1-t)^w",
+    "connection": "nonzero vectors of Hamming weight divisible by 3",
+    "consequence": "max nontrivial |lambda|/degree -> 0 exponentially; normalized absolute spectral gap -> 1",
+    "degree": "(3^n + 2 Re((i sqrt(3))^n))/3 - 1",
+    "nontrivial_bound": "|lambda_w| <= 1 + 2*3^(n/2-1)"
+  },
+  "nearest_null_distance3": {
+    "consequence": "this branch gap closes as 1/n, unlike the all-null relation",
+    "degree": "8*C(n,3)",
+    "verified_as_ordinary_spectral_gap_for_n_at_least_5_through": 40,
+    "weight1_normalized_gap": "9/(2n)"
+  },
+  "pass": 11552,
+  "rows": [
+    {
+      "distance3_degree": 8,
+      "distance3_ordinary_gap": 0.75,
+      "distance3_weight1_gap": 1.5,
+      "full_null_absolute_gap": 0.5,
+      "full_null_degree": 8,
+      "full_null_max_abs_ratio": 0.5,
+      "n": 3,
+      "root_filter_ratio_bound": 0.5580127018922194
+    },
+    {
+      "distance3_degree": 32,
+      "distance3_ordinary_gap": 0.84375,
+      "distance3_weight1_gap": 1.125,
+      "full_null_absolute_gap": 0.84375,
+      "full_null_degree": 32,
+      "full_null_max_abs_ratio": 0.15625,
+      "n": 4,
+      "root_filter_ratio_bound": 0.21875
+    },
+    {
+      "distance3_degree": 80,
+      "distance3_ordinary_gap": 0.9,
+      "distance3_weight1_gap": 0.9,
+      "full_null_absolute_gap": 0.875,
+      "full_null_degree": 80,
+      "full_null_max_abs_ratio": 0.125,
+      "n": 5,
+      "root_filter_ratio_bound": 0.1424038105676658
+    },
+    {
+      "distance3_degree": 160,
+      "distance3_ordinary_gap": 0.75,
+      "distance3_weight1_gap": 0.75,
+      "full_null_absolute_gap": 0.9151785714285714,
+      "full_null_degree": 224,
+      "full_null_max_abs_ratio": 0.08482142857142858,
+      "n": 6,
+      "root_filter_ratio_bound": 0.08482142857142858
+    },
+    {
+      "distance3_degree": 280,
+      "distance3_ordinary_gap": 0.6428571428571428,
+      "distance3_weight1_gap": 0.6428571428571428,
+      "full_null_absolute_gap": 0.9615384615384616,
+      "full_null_degree": 728,
+      "full_null_max_abs_ratio": 0.038461538461538464,
+      "n": 7,
+      "root_filter_ratio_bound": 0.04419905842890081
+    },
+    {
+      "distance3_degree": 448,
+      "distance3_ordinary_gap": 0.5625,
+      "distance3_weight1_gap": 0.5625,
+      "full_null_absolute_gap": 0.9763392857142857,
+      "full_null_degree": 2240,
+      "full_null_max_abs_ratio": 0.023660714285714285,
+      "n": 8,
+      "root_filter_ratio_bound": 0.024553571428571428
+    },
+    {
+      "distance3_degree": 672,
+      "distance3_ordinary_gap": 0.5,
+      "distance3_weight1_gap": 0.5,
+      "full_null_absolute_gap": 0.9875,
+      "full_null_degree": 6560,
+      "full_null_max_abs_ratio": 0.0125,
+      "n": 9,
+      "root_filter_ratio_bound": 0.014410174330597466
+    },
+    {
+      "distance3_degree": 960,
+      "distance3_ordinary_gap": 0.44999999999999996,
+      "distance3_weight1_gap": 0.44999999999999996,
+      "full_null_absolute_gap": 0.9916495901639344,
+      "full_null_degree": 19520,
+      "full_null_max_abs_ratio": 0.008350409836065574,
+      "n": 10,
+      "root_filter_ratio_bound": 0.008350409836065574
+    },
+    {
+      "distance3_degree": 1320,
+      "distance3_ordinary_gap": 0.40909090909090906,
+      "distance3_weight1_gap": 0.40909090909090906,
+      "full_null_absolute_gap": 0.9958677685950413,
+      "full_null_degree": 59048,
+      "full_null_max_abs_ratio": 0.004132231404958678,
+      "n": 11,
+      "root_filter_ratio_bound": 0.004768869916443539
+    },
+    {
+      "distance3_degree": 1760,
+      "distance3_ordinary_gap": 0.375,
+      "distance3_weight1_gap": 0.375,
+      "full_null_absolute_gap": 0.9972696361016034,
+      "full_null_degree": 177632,
+      "full_null_max_abs_ratio": 0.002730363898396685,
+      "n": 12,
+      "root_filter_ratio_bound": 0.002741623130967393
+    },
+    {
+      "distance3_degree": 2288,
+      "distance3_ordinary_gap": 0.34615384615384615,
+      "distance3_weight1_gap": 0.34615384615384615,
+      "full_null_absolute_gap": 0.9986263736263736,
+      "full_null_degree": 531440,
+      "full_null_max_abs_ratio": 0.0013736263736263737,
+      "n": 13,
+      "root_filter_ratio_bound": 0.001585836016254844
+    },
+    {
+      "distance3_degree": 2912,
+      "distance3_ordinary_gap": 0.3214285714285714,
+      "distance3_weight1_gap": 0.3214285714285714,
+      "full_null_absolute_gap": 0.9990840398175864,
+      "full_null_degree": 1592864,
+      "full_null_max_abs_ratio": 0.0009159601824135645,
+      "n": 14,
+      "root_filter_ratio_bound": 0.0009159601824135645
+    },
+    {
+      "distance3_degree": 3640,
+      "distance3_ordinary_gap": 0.30000000000000004,
+      "distance3_weight1_gap": 0.30000000000000004,
+      "full_null_absolute_gap": 0.9995425434583715,
+      "full_null_degree": 4782968,
+      "full_null_max_abs_ratio": 0.0004574565416285453,
+      "n": 15,
+      "root_filter_ratio_bound": 0.0005281929708573052
+    },
+    {
+      "distance3_degree": 4480,
+      "distance3_ordinary_gap": 0.28125,
+      "distance3_weight1_gap": 0.28125,
+      "full_null_absolute_gap": 0.9996953309626789,
+      "full_null_degree": 14353280,
+      "full_null_max_abs_ratio": 0.0003046690373210862,
+      "n": 16,
+      "root_filter_ratio_bound": 0.0003048083782940206
+    },
+    {
+      "distance3_degree": 5440,
+      "distance3_ordinary_gap": 0.2647058823529411,
+      "distance3_weight1_gap": 0.2647058823529411,
+      "full_null_absolute_gap": 0.9998475609756098,
+      "full_null_degree": 43046720,
+      "full_null_max_abs_ratio": 0.0001524390243902439,
+      "n": 17,
+      "root_filter_ratio_bound": 0.00017601782975116965
+    },
+    {
+      "distance3_degree": 6528,
+      "distance3_ordinary_gap": 0.25,
+      "distance3_weight1_gap": 0.25,
+      "full_null_absolute_gap": 0.9998983714023028,
+      "full_null_degree": 129127040,
+      "full_null_max_abs_ratio": 0.00010162859769727549,
+      "n": 18,
+      "root_filter_ratio_bound": 0.00010162859769727549
+    },
+    {
+      "distance3_degree": 7752,
+      "distance3_ordinary_gap": 0.23684210526315785,
+      "distance3_weight1_gap": 0.23684210526315785,
+      "full_null_absolute_gap": 0.9999491921552688,
+      "full_null_degree": 387420488,
+      "full_null_max_abs_ratio": 5.08078447312265e-05,
+      "n": 19,
+      "root_filter_ratio_bound": 5.86674463559057e-05
+    },
+    {
+      "distance3_degree": 9120,
+      "distance3_ordinary_gap": 0.22499999999999998,
+      "distance3_weight1_gap": 0.22499999999999998,
+      "full_null_absolute_gap": 0.9999661318318664,
+      "full_null_degree": 1162300832,
+      "full_null_max_abs_ratio": 3.386816813360072e-05,
+      "n": 20,
+      "root_filter_ratio_bound": 3.386988885851542e-05
+    },
+    {
+      "distance3_degree": 10640,
+      "distance3_ordinary_gap": 0.2142857142857143,
+      "distance3_weight1_gap": 0.2142857142857143,
+      "full_null_absolute_gap": 0.9999830646253896,
+      "full_null_degree": 3486784400,
+      "full_null_max_abs_ratio": 1.6935374610486385e-05,
+      "n": 21,
+      "root_filter_ratio_bound": 1.955524181270182e-05
+    },
+    {
+      "distance3_degree": 12320,
+      "distance3_ordinary_gap": 0.20454545454545459,
+      "distance3_weight1_gap": 0.20454545454545459,
+      "full_null_absolute_gap": 0.9999887097183929,
+      "full_null_degree": 10460235104,
+      "full_null_max_abs_ratio": 1.129028160703949e-05,
+      "n": 22,
+      "root_filter_ratio_bound": 1.129028160703949e-05
+    },
+    {
+      "distance3_degree": 14168,
+      "distance3_ordinary_gap": 0.19565217391304346,
+      "distance3_weight1_gap": 0.19565217391304346,
+      "full_null_absolute_gap": 0.999994354938864,
+      "full_null_degree": 31381059608,
+      "full_null_max_abs_ratio": 5.645061136012103e-06,
+      "n": 23,
+      "root_filter_ratio_bound": 6.51835020319462e-06
+    },
+    {
+      "distance3_degree": 16192,
+      "distance3_ordinary_gap": 0.1875,
+      "distance3_weight1_gap": 0.1875,
+      "full_null_absolute_gap": 0.9999962366719385,
+      "full_null_degree": 94143533120,
+      "full_null_max_abs_ratio": 3.76332806150796e-06,
+      "n": 24,
+      "root_filter_ratio_bound": 3.7633493056649794e-06
+    },
+    {
+      "distance3_degree": 18400,
+      "distance3_ordinary_gap": 0.18000000000000005,
+      "distance3_weight1_gap": 0.18000000000000005,
+      "full_null_absolute_gap": 0.9999981183200362,
+      "full_null_degree": 282429536480,
+      "full_null_max_abs_ratio": 1.8816799638717447e-06,
+      "n": 25,
+      "root_filter_ratio_bound": 2.172776319591005e-06
+    },
+    {
+      "distance3_degree": 20800,
+      "distance3_ordinary_gap": 0.17307692307692313,
+      "distance3_weight1_gap": 0.17307692307692313,
+      "full_null_absolute_gap": 0.9999987455462973,
+      "full_null_degree": 847287546560,
+      "full_null_max_abs_ratio": 1.254453702660119e-06,
+      "n": 26,
+      "root_filter_ratio_bound": 1.254453702660119e-06
+    },
+    {
+      "distance3_degree": 23400,
+      "distance3_ordinary_gap": 0.16666666666666663,
+      "distance3_weight1_gap": 0.16666666666666663,
+      "full_null_absolute_gap": 0.9999993727741322,
+      "full_null_degree": 2541865828328,
+      "full_null_max_abs_ratio": 6.272258677983494e-07,
+      "n": 27,
+      "root_filter_ratio_bound": 7.242579863711307e-07
+    },
+    {
+      "distance3_degree": 26208,
+      "distance3_ordinary_gap": 0.1607142857142857,
+      "distance3_weight1_gap": 0.1607142857142857,
+      "full_null_absolute_gap": 0.9999995818499897,
+      "full_null_degree": 7625600673632,
+      "full_null_max_abs_ratio": 4.181500102707685e-07,
+      "n": 28,
+      "root_filter_ratio_bound": 4.181502725451893e-07
+    },
+    {
+      "distance3_degree": 29232,
+      "distance3_ordinary_gap": 0.15517241379310343,
+      "distance3_weight1_gap": 0.15517241379310343,
+      "full_null_absolute_gap": 0.9999997909247982,
+      "full_null_degree": 22876792454960,
+      "full_null_max_abs_ratio": 2.0907520184119985e-07,
+      "n": 29,
+      "root_filter_ratio_bound": 2.41419241365449e-07
+    },
+    {
+      "distance3_degree": 32480,
+      "distance3_ordinary_gap": 0.15000000000000002,
+      "distance3_weight1_gap": 0.15000000000000002,
+      "full_null_absolute_gap": 0.9999998606165272,
+      "full_null_degree": 68630367798944,
+      "full_null_max_abs_ratio": 1.3938347275106966e-07,
+      "n": 30,
+      "root_filter_ratio_bound": 1.3938347275106966e-07
+    },
+    {
+      "distance3_degree": 35960,
+      "distance3_ordinary_gap": 0.14516129032258063,
+      "distance3_weight1_gap": 0.14516129032258063,
+      "full_null_absolute_gap": 0.9999999303082757,
+      "full_null_degree": 205891132094648,
+      "full_null_max_abs_ratio": 6.969172423319241e-08,
+      "n": 31,
+      "root_filter_ratio_bound": 8.047307074127505e-08
+    },
+    {
+      "distance3_degree": 39680,
+      "distance3_ordinary_gap": 0.140625,
+      "distance3_weight1_gap": 0.140625,
+      "full_null_absolute_gap": 0.9999999535388575,
+      "full_null_degree": 617673424981760,
+      "full_null_max_abs_ratio": 4.646114247322111e-08,
+      "n": 32,
+      "root_filter_ratio_bound": 4.6461145711178125e-08
+    },
+    {
+      "distance3_degree": 43648,
+      "distance3_ordinary_gap": 0.13636363636363635,
+      "distance3_weight1_gap": 0.13636363636363635,
+      "full_null_absolute_gap": 0.9999999767694263,
+      "full_null_degree": 1853020188851840,
+      "full_null_max_abs_ratio": 2.3230573665078313e-08,
+      "n": 33,
+      "root_filter_ratio_bound": 2.6824355834439175e-08
+    },
+    {
+      "distance3_degree": 47872,
+      "distance3_ordinary_gap": 0.13235294117647056,
+      "distance3_weight1_gap": 0.13235294117647056,
+      "full_null_absolute_gap": 0.9999999845129508,
+      "full_null_degree": 5559060480462080,
+      "full_null_max_abs_ratio": 1.548704917001438e-08,
+      "n": 34,
+      "root_filter_ratio_bound": 1.548704917001438e-08
+    },
+    {
+      "distance3_degree": 52360,
+      "distance3_ordinary_gap": 0.12857142857142856,
+      "distance3_weight1_gap": 0.12857142857142856,
+      "full_null_absolute_gap": 0.9999999922564755,
+      "full_null_degree": 16677181699666568,
+      "full_null_max_abs_ratio": 7.743524435101762e-09,
+      "n": 35,
+      "root_filter_ratio_bound": 8.941451824888714e-09
+    },
+    {
+      "distance3_degree": 57120,
+      "distance3_ordinary_gap": 0.125,
+      "distance3_weight1_gap": 0.125,
+      "full_null_absolute_gap": 0.9999999948376505,
+      "full_null_degree": 50031545357280032,
+      "full_null_max_abs_ratio": 5.162349536789151e-09,
+      "n": 36,
+      "root_filter_ratio_bound": 5.1623495767639316e-09
+    },
+    {
+      "distance3_degree": 62160,
+      "distance3_ordinary_gap": 0.1216216216216216,
+      "distance3_weight1_gap": 0.1216216216216216,
+      "full_null_absolute_gap": 0.9999999974188252,
+      "full_null_degree": 150094635296999120,
+      "full_null_max_abs_ratio": 2.5811747983756604e-09,
+      "n": 37,
+      "root_filter_ratio_bound": 2.9804839283046453e-09
+    },
+    {
+      "distance3_degree": 67488,
+      "distance3_ordinary_gap": 0.11842105263157898,
+      "distance3_weight1_gap": 0.11842105263157898,
+      "full_null_absolute_gap": 0.9999999982792168,
+      "full_null_degree": 450283905116156384,
+      "full_null_max_abs_ratio": 1.7207831996573807e-09,
+      "n": 38,
+      "root_filter_ratio_bound": 1.7207831996573807e-09
+    },
+    {
+      "distance3_degree": 73112,
+      "distance3_ordinary_gap": 0.11538461538461542,
+      "distance3_weight1_gap": 0.11538461538461542,
+      "full_null_absolute_gap": 0.9999999991396084,
+      "full_null_degree": 1350851717672992088,
+      "full_null_max_abs_ratio": 8.603915979780061e-10,
+      "n": 39,
+      "root_filter_ratio_bound": 9.934946412876676e-10
+    },
+    {
+      "distance3_degree": 79040,
+      "distance3_ordinary_gap": 0.11250000000000004,
+      "distance3_weight1_gap": 0.11250000000000004,
+      "full_null_absolute_gap": 0.9999999994264056,
+      "full_null_degree": 4052555155343499200,
+      "full_null_max_abs_ratio": 5.735943975827198e-10,
+      "n": 40,
+      "root_filter_ratio_bound": 5.735943980762356e-10
+    }
+  ],
+  "schema": "w33.pass11552.hamming_refinement_continuum_firewall.v1",
+  "status": "PASS_NAIVE_FULL_NULL_TOWER_IS_EXPANDER_LIKE"
+}

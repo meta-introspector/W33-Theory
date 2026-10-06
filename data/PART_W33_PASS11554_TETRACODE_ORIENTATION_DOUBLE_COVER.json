@@ -1,0 +1,27 @@
+{
+  "boundary": "Exact finite central-extension obstruction. It does not identify GL(2,3) with the binary octahedral group (they are distinct double covers of S4), nor turn the lift into a physical spin structure without further geometry.",
+  "cocycle_ones": 216,
+  "determinant_character": {
+    "SL2_preimage": "det=+1 maps onto A4",
+    "law": "det(A) equals the sign of the induced S4 permutation"
+  },
+  "extension": {
+    "F2_augmented_rank": 24,
+    "F2_coboundary_rank": 23,
+    "GL2_order": 48,
+    "exact_sequence": "1 -> {+I,-I} -> GL(2,3) -> PGL(2,3)~=S4 -> 1",
+    "kernel_order": 2,
+    "projective_image_order": 24,
+    "section_cocycle_is_coboundary": false,
+    "splits": false
+  },
+  "orientation_obstruction": {
+    "Pass10946_meaning": "the explicit tetracode evaluation signs are a genuine double-cover lift, not removable by an S4-equivariant gauge choice",
+    "central_minus_I": "acts trivially on P1(F3) but flips all oriented representatives simultaneously",
+    "statement": "There is no choice of one GL(2,3) lift for every S4 projective clock permutation that is closed under multiplication."
+  },
+  "pass": 11554,
+  "schema": "w33.pass11554.tetracode_orientation_double_cover.v1",
+  "status": "PASS_NON_SPLIT_GL23_TO_S4_ORIENTATION_EXTENSION",
+  "two_C2_firewall": "The central -I here sends v->-v and is killed by the Veronese map vv^T. It is distinct from the later nonsquare scaling S->-S that exchanges the two temporal cone/Weil sheets in Pass11550."
+}

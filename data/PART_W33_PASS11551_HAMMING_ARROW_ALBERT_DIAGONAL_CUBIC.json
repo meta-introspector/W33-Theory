@@ -1,0 +1,301 @@
+{
+  "boundary": "Exact diagonal restriction of the committed Albert norm. It does not show that the full 27-event history carrier is the full 27-dimensional Albert algebra, nor derive E6 spacetime dynamics, gravity, or observed couplings.",
+  "clock_albert_frame": {
+    "all_ternary_vectors_checked": 27,
+    "exact_norm_law": "N_Albert(z1*e1+z2*e2+z3*e3)=z1*z2*z3",
+    "frame_size": 3,
+    "idempotent_indices": [
+      26,
+      0,
+      9
+    ],
+    "integer_before_mod3": true
+  },
+  "history_weld": {
+    "Pass11547_Hsym": [
+      "2a+b+c",
+      "2a+2b+c",
+      "2a+2c"
+    ],
+    "Weil_phase": "i*chi (Pass11550)",
+    "arrow_reading": "on the null cube, N mod 3 = 1 is chi=+1 and N mod 3 = 2=-1 is chi=-1",
+    "null_cube": "all three Hamming coordinates nonzero",
+    "pulled_back_cubic_mod3": "-a**3 + a**2*c + a*b**2 + a*c**2 + b**2*c - c**3"
+  },
+  "pass": 11551,
+  "rows": [
+    {
+      "N_Albert": 0,
+      "mod3": 0,
+      "product": 0,
+      "z": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "N_Albert": 0,
+      "mod3": 0,
+      "product": 0,
+      "z": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "N_Albert": 0,
+      "mod3": 0,
+      "product": 0,
+      "z": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "N_Albert": 0,
+      "mod3": 0,
+      "product": 0,
+      "z": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "N_Albert": 0,
+      "mod3": 0,
+      "product": 0,
+      "z": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "N_Albert": 0,
+      "mod3": 0,
+      "product": 0,
+      "z": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "N_Albert": 0,
+      "mod3": 0,
+      "product": 0,
+      "z": [
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "N_Albert": 0,
+      "mod3": 0,
+      "product": 0,
+      "z": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "N_Albert": 0,
+      "mod3": 0,
+      "product": 0,
+      "z": [
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "N_Albert": 0,
+      "mod3": 0,
+      "product": 0,
+      "z": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "N_Albert": 0,
+      "mod3": 0,
+      "product": 0,
+      "z": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "N_Albert": 0,
+      "mod3": 0,
+      "product": 0,
+      "z": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "N_Albert": 0,
+      "mod3": 0,
+      "product": 0,
+      "z": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "N_Albert": 1,
+      "mod3": 1,
+      "product": 1,
+      "z": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "N_Albert": 2,
+      "mod3": 2,
+      "product": 2,
+      "z": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "N_Albert": 0,
+      "mod3": 0,
+      "product": 0,
+      "z": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "N_Albert": 2,
+      "mod3": 2,
+      "product": 2,
+      "z": [
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "N_Albert": 4,
+      "mod3": 1,
+      "product": 4,
+      "z": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "N_Albert": 0,
+      "mod3": 0,
+      "product": 0,
+      "z": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "N_Albert": 0,
+      "mod3": 0,
+      "product": 0,
+      "z": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "N_Albert": 0,
+      "mod3": 0,
+      "product": 0,
+      "z": [
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "N_Albert": 0,
+      "mod3": 0,
+      "product": 0,
+      "z": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "N_Albert": 2,
+      "mod3": 2,
+      "product": 2,
+      "z": [
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "N_Albert": 4,
+      "mod3": 1,
+      "product": 4,
+      "z": [
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "N_Albert": 0,
+      "mod3": 0,
+      "product": 0,
+      "z": [
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "N_Albert": 4,
+      "mod3": 1,
+      "product": 4,
+      "z": [
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "N_Albert": 8,
+      "mod3": 2,
+      "product": 8,
+      "z": [
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "schema": "w33.pass11551.hamming_arrow_albert_diagonal_cubic.v1",
+  "status": "PASS_HAMMING_ARROW_IS_ALBERT_DIAGONAL_CUBIC",
+  "theorem": "The finite Hamming history-arrow polynomial z1*z2*z3 is exactly the restriction of the repository clock-Albert cubic norm to its canonical diagonal three-idempotent frame."
+}
