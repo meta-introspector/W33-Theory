@@ -1,0 +1,77 @@
+{
+  "schema": "w33.pass11549.history_arrow_cubic_character.v1",
+  "status": "PASS_CLOSED_FORM_HISTORY_ARROW_CUBIC_CHARACTER",
+  "pass": 11549,
+  "hamming_arrow": {
+    "null_steps": "d in {+/-1}^3",
+    "local_character": "chi(d)=product_i sign(d_i)",
+    "antisymmetry": "chi(-d)=-chi(d)",
+    "canonical_edge_formula": "for repo edge i<j, old coefficient = -chi(Hsym(s_j-s_i))",
+    "exact_old_edge_matches": 108,
+    "global_sign_note": "the opposite overall sign is the same one-dimensional orientation line"
+  },
+  "triangle_foliation": {
+    "temporal_triangles": 36,
+    "edges": 108,
+    "each_edge_in_exactly_one_triangle": true,
+    "oriented_projective_directions": 4,
+    "affine_lines_per_direction": 9,
+    "factorization": "36 = 4 * 9",
+    "oriented_hamming_directions": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        2,
+        2,
+        1
+      ]
+    ],
+    "direction_line_counts": {
+      "(1, 1, 1)": 9,
+      "(1, 2, 2)": 9,
+      "(2, 1, 2)": 9,
+      "(2, 2, 1)": 9
+    },
+    "all_sorted_triangle_coefficients_in_old_chain": "+1",
+    "chi_oriented_triangle_boundaries_equal_chi_edge_cycle": true
+  },
+  "symmetry": {
+    "repo_PSp_linear": "ker(sigma), order 24",
+    "repo_PSp_affine_order": 648,
+    "PSp_action_on_chi": "preserves pointwise as a directed-edge rule",
+    "outer_linear_coset_order": 24,
+    "outer_affine_coset_size": 648,
+    "outer_action_on_chi": "negates",
+    "closed_form_reason": "chi(Md)=sigma(M) chi(d)"
+  },
+  "old_certificate_weld": {
+    "source": "data/w33_20260924_history_invariant_cycle_orientation.json",
+    "old_support_size": 108,
+    "old_PSp_fixed": true,
+    "old_outer_flips": true,
+    "replaces_group_average_with_local_formula": true
+  },
+  "interpretation": "The finite history orientation is the chirality of a body-diagonal Hamming step: whether an even or odd number of the three trits flips sign. Four positive body diagonals orient four families of nine affine temporal triangles.",
+  "verification": {
+    "exact_edges_checked": 108,
+    "exact_temporal_triangles": 36,
+    "exact_edge_triangle_incidence": "1 per edge",
+    "exact_PSp_linear_elements_checked": 24,
+    "exact_outer_linear_elements_checked": 24,
+    "producer": "analysis/w33_pass11549_history_arrow_cubic_character.py"
+  },
+  "boundary": "Exact finite directed-edge/triangle theorem. It simplifies the repository's finite history-orientation certificate; it does not establish a thermodynamic arrow, cosmological initial condition, continuum causal orientation, or observed CPT dynamics."
+}
