@@ -1,0 +1,147 @@
+{
+  "schema": "w33.pass11550.veronese_weil_hamming_orientation.v1",
+  "status": "PASS_VERONESE_WEIL_HAMMING_ORIENTATION_WELD",
+  "pass": 11550,
+  "veronese_sheet": {
+    "map": "nu(x,y)=(x^2,x*y,y^2)",
+    "projective_rays": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "rank_one_matrices": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        2,
+        1
+      ]
+    ],
+    "hamming_images": [
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        2,
+        2,
+        2
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ]
+    ],
+    "chi_value": -1,
+    "old_weil_phase": "-i"
+  },
+  "negative_veronese_sheet": {
+    "rank_one_nonsquare_scaled_matrices": [
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "hamming_images": [
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        2,
+        1,
+        2
+      ]
+    ],
+    "chi_value": 1,
+    "old_weil_phase": "+i"
+  },
+  "closed_formula": {
+    "Weil_phase_equals": "i * chi",
+    "objectwise_matches": 8,
+    "outer_minus_one": "s -> -s; chi -> -chi; +i <-> -i"
+  },
+  "cubic_invariant": {
+    "polynomial": "p(z)=z1*z2*z3 over F3",
+    "repo_PSp_linear": "W(D3)=ker(sigma)",
+    "PSp_law": "p(Mz)=p(z)",
+    "full_O_law": "p(Mz)=sigma(M)*p(z)",
+    "null_cube_relation": "p=1 corresponds chi=+1; p=2=-1 corresponds chi=-1",
+    "standard_invariant_theory_note": "type D_n Weyl invariants have degrees 2,4,...,2n-2,n; for D3 the degree-3 invariant is the coordinate product"
+  },
+  "tetracode_orientation_firewall": {
+    "veronese_kills_projective_sign": true,
+    "statement": "nu(v)=nu(-v), so the cone sheet selected by the rank-one Veronese lift does not determine the oriented P1 representatives used to freeze the tetracode evaluation signs in Pass10946",
+    "what_is_new": "the cone/Weil/time-orientation sheet is now canonical objectwise and is compatible with, but distinct from, the code-coordinate orientation lift"
+  },
+  "verification": {
+    "pass10946_objectwise_weld": true,
+    "old_fixed9_weil_rows_checked": 8,
+    "exact_PSp_linear_invariance_checked": 24,
+    "exact_outer_linear_covariance_checked": 24,
+    "producer": "analysis/w33_pass11550_veronese_weil_hamming_orientation.py"
+  },
+  "interpretation": "The four projective clock/null directions acquire two oriented rank-one sheets. The square/Veronese sheet is exactly the -i spectral sheet; nonsquare scaling gives its +i conjugate. The finite history arrow chi and the old normalized Weil phase are the same Z2 datum in real-sign and phase language.",
+  "boundary": "Exact finite F3 coding/quadratic/Weil-phase weld. It does not turn the sign sheet into thermodynamic time, derive continuum CPT, or select a physical tetracode sign convention."
+}
