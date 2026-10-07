@@ -1,6 +1,6 @@
 {
   "pass": 5086,
-  "status": "THEOREM_EXHAUSTIVE_RADIUS2",
+  "status": "THEOREM_EXHAUSTIVE_RADIUS2_PLUS_LOCAL_TRAPS",
   "code": [
     1620,
     81,
@@ -20,6 +20,12 @@
     "1,4": 1080
   },
   "guaranteed_global_error_weight": 2,
+  "chart_contained_triples_tested": 21600,
+  "chart_triples_one_sweep_corrected": 17280,
+  "chart_triples_first_sweep_failures": 4320,
+  "first_failure_motif": "the four weight-3 K4 cut words in each chart",
+  "failure_residual_weight": 2,
+  "chart_triples_cleared_within_two_sweeps": 21600,
   "decoder": "minimum local K4 coset leaders -> vote -> flip all maximum-vote coordinates",
-  "boundary": "Finite hard-decision apartment-bit decoder only. This is far below unique radius 40 and is not an optical/noise threshold."
+  "boundary": "Finite hard-decision apartment-bit decoder only. The radius-2 theorem is global; the weight-3 census covers chart-contained triples only. No optical/noise threshold."
 }

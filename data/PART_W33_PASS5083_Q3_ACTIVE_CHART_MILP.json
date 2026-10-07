@@ -9,9 +9,14 @@
   "model_constraints": 6481,
   "objective_active_charts": 108,
   "target": 108,
+  "solution_weight": 81,
+  "solution_is_chamber_star": true,
+  "solution_chamber_index": 52,
   "solver_status": 0,
   "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "mip_gap": 0.0,
+  "mip_nodes": 1,
   "theorem_closed": true,
-  "implication": "If theorem_closed, A(y)>=108 and wt>=3A/4>=81; chamber stars attain equality.",
-  "boundary": "No all-q active-chart theorem is inferred. Non-optimal solver exits are UNKNOWN."
+  "implication": "If theorem_closed, every nonzero q3 apartment-code word activates at least 108 opposite-pair charts; hence wt>=3A/4>=81. A chamber star is an equality witness.",
+  "boundary": "Exact q=3 theorem only when solver status is OPTIMAL; no all-q active-chart theorem is inferred."
 }

@@ -18,6 +18,14 @@
     15,
     15
   ],
-  "bridge": "The same quadratic eigenvalues occur in the Pass5069 twisted T6 Hecke channel; this pass supplies an explicit global apartment-function carrier from the Levi line kernel.",
+  "quadratic_order": {
+    "field": "Q(sqrt(17))",
+    "maximal_generator": "lambda=(1+sqrt(17))/2",
+    "theta_generator": "alpha=2 lambda=1+sqrt(17)",
+    "order": "Z[alpha]=Z+2 O_K",
+    "conductor": 2,
+    "discriminant": 68
+  },
+  "bridge": "Pass5069 T6 has the same eigenvalues. Together with Pass5091, the maximal-order T10 block, this theta channel, and the q3 recurrence give conductor ladder 1,2,4 with discriminants 17,68,272.",
   "boundary": "The theorem identifies an exact 30-dimensional invariant subspace; it does not claim these are the only occurrences of those eigenvalues in the full 1620-space."
 }
